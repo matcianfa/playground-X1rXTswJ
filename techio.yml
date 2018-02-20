@@ -1,0 +1,10 @@
+title: Python Project
+plan:
+- title: Welcome
+  statement: markdowns/welcome.md
+projects:
+  python:
+    root: /python-project
+    runner:
+      name: python
+      version: '3'
