@@ -1,3 +1,5 @@
+# Exercices pour débuter
+
 Bienvenue pour ces premiers exercices.
 
 Je rappelle que vous pouvez trouver un résumé du cours ici : [Maths Sartene](https://sites.google.com/site/mathssartene/formation-python/variables-et-fonctions-mathmatiques)
