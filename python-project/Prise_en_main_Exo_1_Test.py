@@ -42,7 +42,7 @@ def test():
         sys.stdout=sauvegarde_stdout
         sys.stderr=sauvegarde_stderr
         if message_erreur:
-            #send_msg("Messages pour débugguer",str(message_erreur))
+            send_msg("Messages pour débugguer",str(message_erreur))
         assert str(count1) == str(outp), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(str(inp),str(count1),str(outp))
         send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}".format(str(inp),str(count1)))
       success()
