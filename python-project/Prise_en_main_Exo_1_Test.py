@@ -10,7 +10,7 @@ input_output=[\
 
 
 #message d'aide si besoin
-help="N'oublie pas d'afficher avec print"
+help="N'oublie pas d'utiliser return pour renvoyer le resultat"
 
 
 
