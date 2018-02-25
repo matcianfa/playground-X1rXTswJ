@@ -1,3 +1,5 @@
+from math import *
+
 def mon_programme(r,theta):
     #Ne pas toucher ce qui précède
     #Les valeurs pour les variables en entrée seront automatiquement données
