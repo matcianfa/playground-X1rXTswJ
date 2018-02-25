@@ -1,4 +1,4 @@
-from Prise_en_main_Exo_1 import mon_programme
+from Calcul_du_discriminant import mon_programme
 import sys
 import io
 
