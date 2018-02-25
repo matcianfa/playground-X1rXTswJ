@@ -1,7 +1,7 @@
 title: Cours d'introduction à Python
 plan:
 -title: Variables et fonctions mathématiques
-  plan:
+ plan:
   -title: Prise en main
    statement: Variables_et_fonctions/prise en main.md
   -title: Calcul du produit scalaire
