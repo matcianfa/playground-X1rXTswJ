@@ -39,7 +39,7 @@ def test():
         sys.stdout=io.StringIO()
         #sys.stderr=io.StringIO()
         mon_programme(*inp)
-        count1 = sys.stdout.getvalue()[-1]
+        count1 = sys.stdout.getvalue()[:-1]
         #message_erreur=sys.stderr.getvalue()
         sys.stdout=sauvegarde_stdout
         #sys.stderr=sauvegarde_stderr
