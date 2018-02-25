@@ -28,3 +28,13 @@ Le but de cet exercice est de créer un programme qui donne le discriminant $`\D
 
 @[Calcul du discriminant]({"stubs": ["Calcul_du_discriminant.py"], "command": "python3 Calcul_du_discriminant_Test.py"})
 
+
+## 3. Calcul du produit scalaire
+
+Le but de cet exercice est de créer un programme qui calcul de produit scalaire de deux vecteurs $`\vec u_1 (x1,y1)`$ et $`vec u_2 (x2,y2)`$
+
+>Entrée : Les coordonnées $`\vec u_1 (x1,y1)`$ et $`\vec u_2 (x2,y2)`$ des deux vecteurs
+
+>Sortie : Le produit scalaire $`\vec u_1 .\vec u_2 =x1.x2+y1.y2`$.
+
+@[Calcul du produit scalaire]({"stubs": ["Calcul_du_produit_scalaire.py"], "command": "python3 Calcul_du_produit_scalaire_Test.py"})
