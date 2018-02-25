@@ -1,5 +1,8 @@
 from Prise_en_main_Exo_1 import mon_programme
 
+#modifications de mon_programme si necessaire
+mon_programme=lambda a,b: round(mon_programme(a,b),5)
+
 #liste des couples input/output
 input_output=[\
 ((3,4),7),\
