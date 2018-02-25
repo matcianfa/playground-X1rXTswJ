@@ -6,7 +6,6 @@ plan:
         statement: Variables_et_fonctions/prise en main.md
       - title: Calcul du produit scalaire
         statement: Variables_et_fonctions/calcul du produit salaire.md
-      - title: Conditions if... else...
     
 projects:
   python:
