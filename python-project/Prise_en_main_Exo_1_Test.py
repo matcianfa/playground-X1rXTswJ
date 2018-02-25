@@ -35,8 +35,8 @@ def test():
     except AssertionError as e:
       fail()
       send_msg("Oops! ", e)
-          if help:
-            send_msg("Aide 💡", help)
+      if help:
+        send_msg("Aide 💡", help)
 
 
 if __name__ == "__main__":
