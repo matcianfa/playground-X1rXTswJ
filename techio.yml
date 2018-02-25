@@ -1,7 +1,12 @@
-title: Python Project
+title: Cours d'introduction à Python
 plan:
-- title: Welcome
-  statement: markdowns/welcome.md
+- title: Variables et fonctions mathématiques
+  plan:
+  -title: Prise en main
+    statement: variables_et_fonctions/prise en main.md
+  -title:
+-title: Conditions if... else...
+    
 projects:
   python:
     root: /python-project
