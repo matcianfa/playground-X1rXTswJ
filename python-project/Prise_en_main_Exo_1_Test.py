@@ -10,7 +10,7 @@ input_output=[\
 ((3,4),7),\
 ((0,0),0),\
 ((-1,4),3),\
-((2.4,-3.1),-0.7)\
+((-2.5,3.4),0.9)\
 ]
 
 
@@ -35,16 +35,15 @@ def test():
     try:
       for inp,outp in input_output:
         sauvegarde_stdout=sys.stdout
-        #sauvegarde_stderr=sys.stderr
+        sauvegarde_stderr=sys.stderr
         sys.stdout=io.StringIO()
-        #sys.stderr=io.StringIO()
+        sys.stderr=io.StringIO()
         mon_programme(*inp)
         count1 = sys.stdout.getvalue()[:-1]
-        #message_erreur=sys.stderr.getvalue()
+        message_erreur=sys.stderr.getvalue()[:-1]
         sys.stdout=sauvegarde_stdout
-        #sys.stderr=sauvegarde_stderr
-        send_msg("A virer" , str(count1))
-        #send_msg("Messages pour débugguer",str(message_erreur))
+        sys.stderr=sauvegarde_stderr
+        send_msg("Messages pour débugguer",str(message_erreur))
         assert str(count1) == str(outp), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(str(inp),str(count1),str(outp))
         send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}".format(str(inp),str(count1)))
       success()
