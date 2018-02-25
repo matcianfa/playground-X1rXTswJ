@@ -7,7 +7,7 @@ Le but de cet exercice est de créer un programme qui traduit les coordonnées p
 
 + Pour cela, voici les formules de passage des coordonnées polaires $`(r,\theta)`$ aux coordonnées cartésiennes $`(x,y)`$ :
 
-$`\left{\begin{array}{rcl} x&=& r.cos \theta \\ y&=& r.sin \theta\end{array}\right.`$
+$`\begin{array}{l} x= r.cos \theta \\ y= r.sin \theta\end{array}`$
 
 
 + Je rappelle que le cosinus et sinus en Python sont en radians. Pour les tests, les angles seront donnés en degrés ce qui signifie  qu'il faudra multiplier $`\theta`$ par $`\frac{\pi}{180}`$.
