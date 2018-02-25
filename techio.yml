@@ -4,8 +4,8 @@ plan:
     plan:
       - title: Prise en main
         statement: Variables_et_fonctions/prise en main.md
-      - title: Calcul du produit scalaire
-        statement: Variables_et_fonctions/calcul du produit salaire.md
+      - title: Passage des coordonnées polaires à cartésiennes
+        statement: Variables_et_fonctions/Passage des coordonnées polaires à cartésiennes.md
     
 projects:
   python:
