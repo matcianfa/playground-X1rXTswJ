@@ -1,12 +1,12 @@
 title: Cours d'introduction à Python
 plan:
--title: Variables et fonctions mathématiques
- plan:
-  -title: Prise en main
-   statement: Variables_et_fonctions/prise en main.md
-  -title: Calcul du produit scalaire
-   statement: Variables_et_fonctions/calcul du produit salaire.md
--title: Conditions if... else...
+  -title: Variables et fonctions mathématiques
+   plan:
+     -title: Prise en main
+      statement: Variables_et_fonctions/prise en main.md
+     -title: Calcul du produit scalaire
+      statement: Variables_et_fonctions/calcul du produit salaire.md
+  -title: Conditions if... else...
     
 projects:
   python:
