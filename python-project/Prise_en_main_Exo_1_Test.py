@@ -3,7 +3,7 @@ import sys
 import io
 
 #modifications de mon_programme si necessaire
-mon_programme_modifié=lambda a,b: round(mon_programme(a,b),5)
+#mon_programme_modifié=lambda a,b: round(mon_programme(a,b),5)
 
 #liste des couples input/output
 input_output=[\
