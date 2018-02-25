@@ -45,7 +45,7 @@ def test():
         #sys.stderr=sauvegarde_stderr
         send_msg("A virer" , str(count1))
         #send_msg("Messages pour débugguer",str(message_erreur))
-        assert count1 == str(outp), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(str(inp),str(count1),str(outp))
+        assert str(count1) == str(outp), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(str(inp),str(count1),str(outp))
         send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}".format(str(inp),str(count1)))
       success()
     except AssertionError as e:
