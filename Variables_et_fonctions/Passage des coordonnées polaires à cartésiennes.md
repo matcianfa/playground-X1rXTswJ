@@ -5,7 +5,7 @@ On pourra trouver une présentation de ce système de coordonnées  ainsi que de
 
 Le but de cet exercice est de créer un programme qui traduit les coordonnées polaires en coordonnées cartésiennes.
 
-+ Pour cela, voici les formules de passage des coordonnées polaires $`(r,\theta)`$ aux coordonnées cartésiennes $`(x,y)`$ :
++ Pour cela, voici les formules de passage des coordonnées polaires $`\left(r,\theta\right)`$ aux coordonnées cartésiennes $`(x,y)`$ :
 
 $`\left{\begin{array}{l} x= r.cos \theta \\ y= r.sin \theta\end{array}\right.`$
 
