@@ -1,7 +1,7 @@
 from Prise_en_main_Exo_1 import mon_programme
 
 #modifications de mon_programme si necessaire
-mon_programme=lambda a,b: round(mon_programme(a,b),5)
+mon_programme_modifié=lambda a,b: round(mon_programme(a,b),5)
 
 #liste des couples input/output
 input_output=[\
@@ -32,7 +32,7 @@ def fail():
 def test():
     try:
       for inp,outp in input_output:
-        count1 = mon_programme(*inp)
+        count1 = mon_programme_modifié(*inp)
         assert count1 == outp, "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(str(inp),str(count1),str(outp))
         send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}".format(str(inp),str(count1)))
       success()
