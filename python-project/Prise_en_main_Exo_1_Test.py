@@ -31,6 +31,7 @@ def test():
       for inp,outp in input_output:
         count1 = mon_programme(*inp)
         assert count1 == outp, "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(str(inp),str(count1),str(outp))
+        send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}".format(str(inp),str(count1))
       success()
     except AssertionError as e:
       fail()
