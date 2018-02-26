@@ -23,5 +23,6 @@ Pour cela, on utilisera la formule suivante, valable pour des petites distances 
 
 ### Pour aller plus loin :
 
-Vous pouvez tester votre programme avec vos propres valeurs. Pour cela, il suffit de récupérer les latitudes et longitudes des lieux sur ce site : [www.coordonnees-gps.fr](https://www.coordonnees-gps.fr/)
+Vous pouvez tester votre programme avec vos propres valeurs. Pour cela, il suffit de récupérer les latitudes et longitudes des lieux sur ce site : [www.coordonnees-gps.fr](https://www.coordonnees-gps.fr/).
+
 Puis tout en bas de votre programme et sans indentation il suffit de taper `mon_programme(latitude_A, longitude_A,latitude_B,longitude_B)`en remplaçant latitude_A, longitude_A, latitude_B et longitude_B par vos valeurs.
