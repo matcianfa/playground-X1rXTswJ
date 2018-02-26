@@ -6,7 +6,7 @@ import io
 #liste des couples input/output
 input_output=[\
 ((9700000000100,94),"VALIDE"),\
-((1234567891011 93),"VALIDE"),\
+((1234567891011,93),"VALIDE"),\
 ((2234567891011,93),"NON VALIDE"),\
 ((2234557891011,20),"NON VALIDE")\
 ]
