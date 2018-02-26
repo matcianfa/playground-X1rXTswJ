@@ -6,6 +6,8 @@ plan:
         statement: Variables_et_fonctions/prise en main.md
       - title: Passage des coordonnées polaires à cartésiennes
         statement: Variables_et_fonctions/Passage des coordonnées polaires à cartésiennes.md
+      - Title: Périmètre et aire d'un polygone régulier
+        statement: Variables_et_fonctions/Périmètre et aire d'un polygone régulier.md
     
 projects:
   python:
