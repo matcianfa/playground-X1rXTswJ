@@ -14,6 +14,8 @@ plan:
     plan:
       - title: Signe des valeurs d'une fonction
         statement: Les_conditions/Signe des valeurs d'une fonction.md
+      - title: Afficher si un nombre est pair
+        statement: Les_conditions/Afficher si un nombre est pair.md
       - title: Numéro de sécurité sociale 
         statement: Les_conditions/Numéro de sécurité sociale 
     
