@@ -8,6 +8,11 @@ Nous allons nous intéresser à la clé car elle permet de vérifier si il n'y a
 
 Exemple : si le numéro est 9700000000100 alors le reste de la division euclidienne par 97 est 3. La clé est alors 97-3=94. 
 
+:::Rappel 
+Pour obtenir le quotient de la division euclidienne de n par d, on tape `n//d`
+Pour obtenir le reste de la division euclidienne de n par d, on tape `n%d`
+:::
+
 Le but est de créer un programme qui prend en entrée le ***numéro*** de sécurité sociale et la ***clé*** et qui affiche "VALIDE" si la ***clé*** correspond au ***numéro*** et "NON VALIDE" sinon.
 
 > Entrée : Le ***numéro*** et la ***clé***
@@ -15,4 +20,4 @@ Le but est de créer un programme qui prend en entrée le ***numéro*** de sécu
 > Sortie : "VALIDE" si la ***clé*** correspond au ***numéro*** et "NON VALIDE" sinon.
 
 
-@[Validité du numéro de sécurité sociale]({"stubs": ["Numero_securite_sociale.py"], "command": "python3 Les_conditions/Numero_securite_sociale_Test.py"})
+@[Validité du numéro de sécurité sociale]({"stubs": ["Les_conditions/Numero_securite_sociale.py"], "command": "python3 Les_conditions/Numero_securite_sociale_Test.py"})
