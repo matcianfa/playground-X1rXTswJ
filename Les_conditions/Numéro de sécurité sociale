@@ -8,8 +8,9 @@ Nous allons nous intéresser à la clé car elle permet de vérifier si il n'y a
 
 Exemple : si le numéro est 9700000000100 alors le reste de la division euclidienne par 97 est 3. La clé est alors 97-3=94. 
 
-:::Rappel 
+:::Rappel sur la division euclidienne
 Pour obtenir le quotient de la division euclidienne de n par d, on tape `n//d`.
+
 Pour obtenir le reste de la division euclidienne de n par d, on tape `n%d`.
 :::
 
