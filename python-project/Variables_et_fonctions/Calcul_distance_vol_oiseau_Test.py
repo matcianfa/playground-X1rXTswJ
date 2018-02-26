@@ -43,7 +43,7 @@ def test():
         count1 = sys.stdout.getvalue()[:-1]
         sys.stdout=sauvegarde_stdout
         assert str(count1) == str(outp), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(str(inp),str(count1),str(outp))
-        send_msg("Tests validés","La distance {} est bien {} mètres".format(texte,str(count1)))
+        send_msg("Tests validés","La distance {} est bien {} kilomètres".format(texte,str(count1)))
       success()
     except AssertionError as e:
       fail()
