@@ -19,5 +19,5 @@ $`\left\{\begin{array}{l} x= r.cos (\theta) \\ y= r.sin (\theta)\end{array}\righ
 
 >Sortie : Les coordonnées cartésiennes ***x*** et ***y*** correspondants aux coordonnées polaires données en entrée.
 
-@[Passage des coordonnées polaires à cartésiennes]({"stubs": ["Passage_polaires_cartesiennes.py"], "command": "python3 Passage_polaires_cartesiennes_Test.py"})
+@[Passage des coordonnées polaires à cartésiennes]({"stubs": ["Variables_et_fonctions/Passage_polaires_cartesiennes.py"], "command": "python3 Variables_et_fonctions/Passage_polaires_cartesiennes_Test.py"})
 
