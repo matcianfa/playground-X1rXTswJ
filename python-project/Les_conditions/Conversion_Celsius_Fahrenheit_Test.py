@@ -51,5 +51,5 @@ def test():
         send_msg("Aide 💡", help)
 
 
-if __name__ == "__main__":
-test()
+if __name__ == "__main__": test()
+
