@@ -7,14 +7,15 @@ Le but de cet exercice est de calculer la distance à vol d'oiseau entre deux en
 Pour cela, on utilisera la formule suivante, valable pour des petites distances par rapport au rayon de la terre : 
 1. $`x=(longitude_B-longitude_A).cos\left(\frac{latitude_A+latitude_B}{2}\right)`$
 2. $`y=latitude_B-latitude_A`$
-3. $` distance = rayon.\sqrt(x^2+y^2)`$
+3. $` distance = rayon.\sqrt{x^2+y^2}`$
+
 
 + On prendra pour le rayon de la Terre la valeur 6 371 km
-+ On fera bien attention au fait que les latitudes et longitudes dans cette formule doivent être en radians alors que celles qu'on a en entrée seront en degrés. On n'oubliera donc pas de multiplier par $`\frac \pi{180}`$ pour passer des degrés en radians.
++ On fera bien attention au fait que les latitudes et longitudes dans ces formules doivent être en radians alors que celles qu'on a en entrée seront en degrés. On n'oubliera donc pas de les multiplier par $`\frac \pi{180}`$ pour passer des degrés en radians.
 + De plus, les résultats devront être arrondis au mètre près. Pour cela, on utilisera la fonction `round( nombre , nombre_de_chiffres_après_la_virgule)`.
 
 > Entrée : Les latitudes et longitudes des deux points en degrés.
 
 > Sortie : La distance à vol d'oiseau entre ces deux points, arrondie au mètre près.
 
-@[Calcul de distances à vol d'oiseau]({"stubs": ["Variables et fonctions/Calcul_distance_vol_oiseau.py"], "command": "python3 Variables et fonctions/Calcul_distance_vol_oiseau_Test.py"})
+@[Calcul de distances à vol d'oiseau]({"stubs": ["Variables_et_fonctions/Calcul_distance_vol_oiseau.py"], "command": "python3 Variables_et_fonctions/Calcul_distance_vol_oiseau_Test.py"})
