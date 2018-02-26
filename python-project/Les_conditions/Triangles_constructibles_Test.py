@@ -11,7 +11,7 @@ input_output=[\
 ((5,3,4),"CONSTRUCTIBLE"),\
 ((1,1,5),"PAS CONSTRUCTIBLE"),\
 ((5,1,1),"PAS CONSTRUCTIBLE"),\
-((5.5 4.5 3.5),"CONSTRUCTIBLE"),\
+((5.5,4.5,3.5),"CONSTRUCTIBLE"),\
 ((2,1,1),"PLAT"),\
 ((2,1,3),"PLAT"),\
 ]
