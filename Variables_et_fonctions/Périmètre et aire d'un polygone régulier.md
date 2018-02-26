@@ -14,4 +14,4 @@ Entre autre, on a les propriétés suivantes :
 
 > Sortie : Les valeurs du périmètre et de l'aire du polygone régulier convexe à ***n*** cotés, séparées par un espace.
 
-@[Périmètre et aire d'un polygone régulier]({"stubs": ["Perimetre_et_aire_polygone_regulier.py"], "command": "python3 Perimetre_et_aire_polygone_regulier_Test.py"})
+@[Périmètre et aire d'un polygone régulier]({"stubs": ["Variables_et_fonctions/Perimetre_et_aire_polygone_regulier.py"], "command": "python3 Variables_et_fonctions/Perimetre_et_aire_polygone_regulier_Test.py"})
