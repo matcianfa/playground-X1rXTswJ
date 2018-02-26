@@ -15,7 +15,7 @@ input_output=[\
 
 
 #message d'aide si besoin
-help="Attention de ne pas oublier de calculer le périmètre avant l'aire.\n N'oublie pas non plus d'utiliser print(perimetre,aire) pour afficher le resultat."
+help="Attention de ne pas oublier de calculer le périmètre avant l'aire. N'oublie pas non plus d'utiliser print(perimetre,aire) pour afficher le resultat."
 
 
 
