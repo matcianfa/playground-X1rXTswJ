@@ -1,4 +1,4 @@
-title: Cours d'introduction à Python
+title: Recueil d'exercices pour apprendre Python au lycée
 plan:
   - title: Variables et fonctions mathématiques
     plan:
@@ -10,6 +10,10 @@ plan:
         statement: Variables_et_fonctions/Périmètre et aire d'un polygone régulier.md
       - title: Distances à vol d'oiseau
         statement: Variables_et_fonctions/Distances à vol d'oiseau.md
+  - title: Les conditions : if... else...
+    plan:
+      - title: Signe des valeurs d'une fonction
+        statement: Les_conditions/Signe des valeurs d'une fonction.md
     
 projects:
   python:
