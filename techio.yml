@@ -26,6 +26,7 @@ plan:
         statement: Les_conditions/Dire si un triangle est rectangle.md
       - title: Triangles constructibles
         statement: Les_conditions/Triangles constructibles.md
+        
     
 projects:
   python:
