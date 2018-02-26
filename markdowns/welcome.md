@@ -8,7 +8,7 @@ Le but de ce recueil est de regrouper des exercices à travailler en autonomie e
 
 Le principe est simple : sur chaque page se trouvent un ou plusieurs exercices à faire avec un énoncé et une présentation des variables qui seront données en entrées ainsi que des sorties qui sont attendues.
 
-Ensuite on trouve un cadre,comme ci-dessous, dans lequel il faut taper son code. Le code est déjà prérempli et il ne vaut mieux pas  toucher l'en-tête. Pour des raisons pratiques, toutes les fonctions d'entrées s'appellent `mon_programme` et il ne faut pas changer le nom pour pouvoir valider les tests. Après `mon_programme`, on peut lire entre parenthèses les variables annoncées dans la partie Entrée de l'énoncé de l'exercice.
+Ensuite on trouve un cadre, comme ci-dessous, dans lequel il faut taper son code. Le code est déjà prérempli et il ne vaut mieux pas  toucher l'en-tête. Pour des raisons pratiques, toutes les fonctions d'entrées s'appellent `mon_programme` et il ne faut pas changer le nom pour pouvoir valider les tests. Après `mon_programme`, on peut lire entre parenthèses les variables annoncées dans la partie Entrée de l'énoncé de l'exercice.
 
 Pour résoudre l'exercice, il faut créer un programme qui passera les tests lorsqu'on appuie sur Run. Remarque importante : Quand on demande d'afficher, c'est avec la fonction `print` qu'il faudra le faire.
 
