@@ -1,6 +1,16 @@
 ## Triangle rectangle ?
 
-### Premier cas : On donne les longueurs des cotés.
+### Premier cas : On donne les angles.
+
+Faire un programme qui affiche si un triangle dont on donne les angles est rectangle ou pas.
+
+> Entrée : Les trois angles ***a***, ***b*** et ***c*** en degrés.
+
+> Sortie : "RECTANGLE" si le triangle est rectangle, "PAS RECTANGLE" sinon.
+
+@[Triangle rectangle ? Cas 2]({"stubs": ["Les_conditions/Triangle_rectangle_0.py"], "command": "python3 Les_conditions/Triangle_rectangle_0_Test.py"})
+
+### Deuxième cas : On donne les longueurs des cotés.
 
 Faire un programme qui affiche si un triangle dont on donne les longueurs est rectangle ou pas.
 
@@ -8,11 +18,11 @@ Faire un programme qui affiche si un triangle dont on donne les longueurs est re
 
 > Sortie : "RECTANGLE" si le triangle est rectangle, "PAS RECTANGLE" sinon.
 
-@[Triangle rectangle ? Cas 1]({"stubs": ["Les_conditions/Triangle_rectangle_1.py"], "command": "python3 Les_conditions/Triangle_rectangle_1_Test.py"})
+@[Triangle rectangle ? Cas 2]({"stubs": ["Les_conditions/Triangle_rectangle_1.py"], "command": "python3 Les_conditions/Triangle_rectangle_1_Test.py"})
 
 ---
 
-### Deuxième cas : On donne les coordonnées des points.
+### Troisième cas : On donne les coordonnées des points.
 
 Faire un programme qui affiche si le triangle dont on donne les coordonées des trois points est rectangle ou pas.
 
@@ -20,4 +30,4 @@ Faire un programme qui affiche si le triangle dont on donne les coordonées des 
 
 > Sortie : "RECTANGLE" si le triangle est rectangle, "PAS RECTANGLE" sinon.
 
-@[Triangle rectangle ? Cas 2]({"stubs": ["Les_conditions/Triangle_rectangle_2.py"], "command": "python3 Les_conditions/Triangle_rectangle_2_Test.py"})
+@[Triangle rectangle ? Cas 3]({"stubs": ["Les_conditions/Triangle_rectangle_2.py"], "command": "python3 Les_conditions/Triangle_rectangle_2_Test.py"})
