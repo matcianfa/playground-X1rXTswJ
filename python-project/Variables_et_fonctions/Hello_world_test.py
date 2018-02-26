@@ -44,6 +44,9 @@ def test():
       send_msg("Oops! ", e)
       if help:
         send_msg("Aide 💡", help)
+    except IndentationError as e:
+      fail()
+      send_msg("Oops! ", "Attention à bien décaler ce que vous écrivez!")
 
 
 if __name__ == "__main__": test()
