@@ -20,6 +20,8 @@ plan:
         statement: Les_conditions/Numéro de sécurité sociale 
       - title:  Nombre de racines d'un polynome du second degré 
         statement:  Les_conditions/Nombre de racines d'un polynome du second degré.md
+      - title: Conversion degré Celsius / degré Fahrenheit
+        statement: Les_conditions/Conversion Celsius Fahrenheit.md
     
 projects:
   python:
