@@ -19,3 +19,9 @@ Pour cela, on utilisera la formule suivante, valable pour des petites distances 
 > Sortie : La distance à vol d'oiseau entre ces deux points, arrondie au mètre près.
 
 @[Calcul de distances à vol d'oiseau]({"stubs": ["Variables_et_fonctions/Calcul_distance_vol_oiseau.py"], "command": "python3 Variables_et_fonctions/Calcul_distance_vol_oiseau_Test.py"})
+
+
+### Pour aller plus loin :
+
+Vous pouvez tester votre programme avec vos propres valeurs. Pour cela, il suffit de récupérer les latitudes et longitudes des lieux sur ce site : [www.coordonnees-gps.fr](https://www.coordonnees-gps.fr/)
+Puis tout en bas de votre programme et sans indentation il suffit de taper `mon_programme(latitude_A, longitude_A,latitude_B,longitude_B)`en remplaçant latitude_A, longitude_A, latitude_B et longitude_B par vos valeurs.
