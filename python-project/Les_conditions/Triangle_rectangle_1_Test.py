@@ -9,7 +9,8 @@ input_output=[\
 ((3,4,5),"RECTANGLE"),\
 ((5,4,3),"RECTANGLE"),\
 ((4,2,3),"PAS RECTANGLE"),\
-((1,1,2),"PAS RECTANGLE")\
+((1,1,2),"PAS RECTANGLE"),\
+((12,13,5),"RECTANGLE")\
 ]
 
 
