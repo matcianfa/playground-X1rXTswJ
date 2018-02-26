@@ -12,7 +12,10 @@ Ensuite on trouve un cadre,comme ci-dessous, dans lequel il faut taper son code.
 
 Pour résoudre l'exercice, il faut créer un programme qui passera les tests lorsqu'on appuie sur Run. Remarque importante : Quand on demande d'afficher, c'est avec la fonction `print` qu'il faudra le faire.
 
-@[Exemple]({"stubs": ["Variables_et_fonctions/Prise_en_main_Exo_1.py"]})
+Pour vous entrainer, essayez de rajouter `print("Hello World")` dans le programme suivant puis testez le en appuyant sur Run.
+Il faut bien faire attention à décaler ce que l'on écrit au même niveau que les commentaires (qui commencent par #).
+
+@[Exemple]({"stubs": ["Variables_et_fonctions/Prise_en_main_Exo_1.py"], "command": "python3 Variables_et_fonctions/Hello_world_test.py"})
 
 
 
