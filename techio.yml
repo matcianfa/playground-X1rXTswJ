@@ -24,6 +24,8 @@ plan:
         statement: Les_conditions/Conversion Celsius Fahrenheit.md
       - title: Dire si un triangle est rectangle
         statement: Les_conditions/Dire si un triangle est rectangle.md
+      - title: Triangles constructibles
+        statement: Les_conditions/Triangles constructibles.md
     
 projects:
   python:
