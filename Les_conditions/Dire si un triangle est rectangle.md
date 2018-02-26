@@ -10,6 +10,8 @@ Faire un programme qui affiche si un triangle dont on donne les angles est recta
 
 @[Triangle rectangle ? Cas 2]({"stubs": ["Les_conditions/Triangle_rectangle_0.py"], "command": "python3 Les_conditions/Triangle_rectangle_0_Test.py"})
 
+---
+
 ### Deuxième cas : On donne les longueurs des cotés.
 
 Faire un programme qui affiche si un triangle dont on donne les longueurs est rectangle ou pas.
