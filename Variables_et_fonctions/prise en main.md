@@ -17,7 +17,7 @@ Le but de cet exercice est de créer un programme qui affiche la somme de deux n
 >Affiche la somme de ***a*** et ***b***
 
 
-@[Addition]({"stubs": ["Prise_en_main_Exo_1.py"], "command": "python3 Prise_en_main_Exo_1_Test.py"})
+@[Addition]({"stubs": ["Variables_et_fonctions/Prise_en_main_Exo_1.py"], "command": "python3 Variables_et_fonctions/Prise_en_main_Exo_1_Test.py"})
 
 ---
 
@@ -29,7 +29,7 @@ Le but de cet exercice est de créer un programme qui donne le discriminant $`\D
 
 >Sortie : Le discriminant $`\Delta=b^2-4ac`$
 
-@[Calcul du discriminant]({"stubs": ["Calcul_du_discriminant.py"], "command": "python3 Calcul_du_discriminant_Test.py"})
+@[Calcul du discriminant]({"stubs": ["Variables_et_fonctions/Calcul_du_discriminant.py"], "command": "python3 Variables_et_fonctions/Calcul_du_discriminant_Test.py"})
 
 ---
 
@@ -41,4 +41,4 @@ Le but de cet exercice est de créer un programme qui calcul de produit scalaire
 
 >Sortie : Le produit scalaire $`\vec u_1 .\vec u_2 =x_1.x_2+y_1.y_2`$.
 
-@[Calcul du produit scalaire]({"stubs": ["Calcul_du_produit_scalaire.py"], "command": "python3 Calcul_du_produit_scalaire_Test.py"})
+@[Calcul du produit scalaire]({"stubs": ["Variables_et_fonctions/Calcul_du_produit_scalaire.py"], "command": "python3 Variables_et_fonctions/Calcul_du_produit_scalaire_Test.py"})
