@@ -1,7 +1,9 @@
 title: Recueil d'exercices pour apprendre Python au lycée
 plan:
   - title: Présentation
-    statement: markdowns/welcome.md 
+    plan:
+      - title: Présentation
+        statement: markdowns/welcome.md 
   - title: Variables et fonctions mathématiques
     plan:
       - title: Prise en main
