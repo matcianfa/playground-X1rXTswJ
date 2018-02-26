@@ -1,0 +1,18 @@
+## Numéro de sécurité sociale
+
+Le numéro de sécurité social est composé de 13 chiffres suivis d'une clé de 2 chiffres. On pourra lire pour plus de détail sur la signification des 13 premiers chiffres par exemple sur [Wikipédia](https://fr.wikipedia.org/wiki/Num%C3%A9ro_de_s%C3%A9curit%C3%A9_sociale_en_France)
+
+Nous allons nous intéresser à la clé car elle permet de vérifier si il n'y a pas eu d'erreur en reportant le numéro sur un formulaire ou lors du transfert informatique par exemple. Voici comment est calculé la clé : 
+1. On prend le nombre composé des 13 premiers chiffres du numéro de sécurité sociale et on calcule le reste de sa division euclidienne par 97.
+2. On soustrait alors ce reste à 97. Le résultat est la clé. 
+
+Exemple : si le numéro est 9700000000100 alors le reste de la division euclidienne par 97 est 3. La clé est alors 97-3=94. 
+
+Le but est de créer un programme qui prend en entrée le ***numéro*** de sécurité sociale et la ***clé*** et qui affiche "VALIDE" si la ***clé*** correspond au ***numéro*** et "NON VALIDE" sinon.
+
+> Entrée : Le ***numéro*** et la ***clé***
+
+> Sortie : "VALIDE" si la ***clé*** correspond au ***numéro*** et "NON VALIDE" sinon.
+
+
+@[Validité du numéro de sécurité sociale]({"stubs": ["Numero_securite_sociale.py"], "command": "python3 Les_conditions/Numero_securite_sociale_Test.py"})
