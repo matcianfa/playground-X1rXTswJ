@@ -12,7 +12,7 @@ input_output=[\
 (5,83),\
 (7,616),\
 (10,12367),\
-(20,272400600)\
+(15,1835421)\
 ]
 
 
@@ -44,6 +44,7 @@ def test():
         sys.stdout=sauvegarde_stdout
         assert str(count1) == str(outp), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(str(inp),str(count1),str(outp))
         send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}".format(str(inp),str(count1)))
+      send_msg("Tests validés","Les tests s'arretent à 15 car à 20 seulement Python est déja trop lent pour calculer. Le résultat serait 272400600. Alors imaginez si on cherche pour 100...")
       success()
     except AssertionError as e:
       fail()
