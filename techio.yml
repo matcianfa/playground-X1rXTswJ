@@ -39,7 +39,7 @@ plan:
       - title: Factorielle d'un nombre
         statement: Les_boucles/factorielle.md
       - title: Calcul des termes d'une suite
-        statement: Calcul des termes d'une suite.md
+        statement: Les_boucles/Calcul des termes d'une suite.md
 
 
         
