@@ -47,7 +47,7 @@ def test():
         sys.stdout=sauvegarde_stdout
         assert str(count1) == str(outp) or (outp=="TRIANGLE D'OR" and str(count1)=="ISOCELE"), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(str(inp),str(count1),str(outp))
         if str(count1)=="TRIANGLE D'OR":
-            send_msg("Tests validés", "Très bien ! Le triangle est bien un triangle d'or."
+            send_msg("Tests validés", "Très bien ! Le triangle est bien un triangle d'or.")
         else:
             send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}".format(str(inp),str(count1)))
       success()
