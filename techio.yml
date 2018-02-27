@@ -46,6 +46,9 @@ plan:
         statement: Les_boucles/Constante de Champernowne.md
       - title: Recherche de seuil
         statement: Les_boucles/Recherche de seuil.md
+      - title: Escargot de Gardner
+        statement: Les_boucles/Escargot de Gardner.md
+        
 
 
         
