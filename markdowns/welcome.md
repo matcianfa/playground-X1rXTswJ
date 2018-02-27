@@ -6,7 +6,7 @@ Le but de ce recueil est de regrouper des exercices à travailler en autonomie e
 
 # Comment ça marche ?
 
-Le principe est simple : sur chaque page se trouvent un ou plusieurs exercices à faire avec un énoncé et une présentation des variables qui seront données en entrées ainsi que des sorties qui sont attendues.
+Le principe est simple : sur chaque page se trouvent un ou plusieurs exercices à faire avec un énoncé et une présentation des variables qui seront données en entrée ainsi que des sorties qui sont attendues.
 
 Ensuite on trouve un cadre, comme ci-dessous, dans lequel il faut taper son code. Le code est déjà prérempli et il ne vaut mieux pas  toucher l'en-tête. Pour des raisons pratiques, toutes les fonctions d'entrées s'appellent `mon_programme` et il ne faut pas changer le nom pour pouvoir valider les tests. Après `mon_programme`, on peut lire entre parenthèses les variables annoncées dans la partie Entrée de l'énoncé de l'exercice.
 
