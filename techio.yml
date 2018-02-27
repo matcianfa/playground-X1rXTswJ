@@ -32,6 +32,10 @@ plan:
         statement: Les_conditions/Triangles constructibles.md
       - title: Donner la nature d'un triangle
         statement:  Les_conditions/Donner la nature d'un triangle.md
+      - title: Passage des coordonnées cartesiennes à polaire
+        statement: Passage des coordonnées cartesiennes à polaire.md
+
+
         
     
 projects:
