@@ -1,4 +1,4 @@
-form math import *
+from math import *
 
 def mon_programme(x,y):
     #Ne pas toucher ce qui précède
