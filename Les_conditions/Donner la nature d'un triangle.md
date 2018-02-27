@@ -10,12 +10,12 @@ Voici plusieurs points qui peuvent faire que votre programme ne marche pas:
 ```
     Si le triangle est isocèle
         afficher("ISOCELE")
-    Sinon si le triangle est equilateral
+    Sinon si le triangle est équilateral
         afficher("EQUILATERAL")
 ```
-Ce code affichera "ISOCELE" pour un triangle equilatéral car la condition isocèle sera vérifier avant et donc le programme n'ira pas jusqu'a la condition equilatérale.
+Ce code affichera "ISOCELE" pour un triangle equilatéral car la condition isocèle sera vérifiée avant et donc le programme n'ira pas jusqu'à la condition équilatérale.
 + Pensez à bien vérifier pour les 3 sommets une condition du type être rectangle ou isocèle.
-+ Attention aux problèmes d'arrondis avec Python. Je rappelle qu'en Python, $`\sqrt(2)^2=2.0000000000000004 `$ ! Donc pour vérifier des égalités comme celle de Pythagore, il vaut mieux vérifier si `c**2-a**2-b**2` une fois arrondi (à 10 chiffres après la virgule par exemple) vaut 0 plutôt que directement.
++ Attention aux problèmes d'arrondis avec Python. Je rappelle qu'en Python, $`\sqrt{2}^2=2.0000000000000004 `$ ! Donc pour vérifier des égalités comme celle de Pythagore, il vaut mieux vérifier si `c**2-a**2-b**2` une fois arrondi (à 10 chiffres après la virgule par exemple) vaut 0 plutôt que directement.
 :::
 
 > Entrée : Les trois longueurs ***a***, ***b*** et ***c*** du triangle.
