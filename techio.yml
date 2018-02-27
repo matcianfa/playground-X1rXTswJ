@@ -33,7 +33,7 @@ plan:
       - title: Donner la nature d'un triangle
         statement:  Les_conditions/Donner la nature d'un triangle.md
       - title: Passage des coordonnées cartesiennes à polaire
-        statement: Passage des coordonnées cartesiennes à polaire.md
+        statement: Les_conditions/Passage des coordonnées cartesiennes à polaire.md
 
 
         
