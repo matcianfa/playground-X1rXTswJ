@@ -42,6 +42,8 @@ plan:
         statement: Les_boucles/Calcul des termes d'une suite.md
       - title: Calcul de sommes
         statement: Les_boucles/Calcul de sommes.md
+      - title: Constante de Champernowne
+        statement: Les_boucles/Constante de Champernowne.md
 
 
         
