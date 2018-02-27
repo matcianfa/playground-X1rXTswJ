@@ -52,6 +52,8 @@ plan:
         statement: Les_boucles/Décomposition d'entier en impair et puissance de 2.md
       - title: Nombres parfaits
         statement: Les_boucles/Nombres parfaits.md
+      - title: Sommes de dés
+        statement: Les_boucles/Sommes de dés.md
 
         
 
