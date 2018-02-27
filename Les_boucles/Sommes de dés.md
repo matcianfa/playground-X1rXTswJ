@@ -8,7 +8,7 @@ On s’intéresse au lancer de deux dés et plus précisément à la somme des r
 
 > Entrée : Un entier ***k***.
 
-> Sortie : Le nombre de façon d'obtenir ***k*** en ajoutant les résultats du lancer de deux dés.
+> Sortie : Le nombre de façons d'obtenir ***k*** en ajoutant les résultats du lancer de deux dés.
 
 @[Sommes de deux dés]({"stubs": ["Les_boucles/Somme_deux_dés.py"], "command": "python3 Les_boucles/Somme_deux_dés_Test.py"})
 
@@ -22,6 +22,6 @@ On s’intéresse à présent au lancer de trois dés et plus précisément à l
 
 > Entrée : Un entier ***k***.
 
-> Sortie : Le nombre de façon d'obtenir ***k*** en ajoutant les résultats du lancer de trois dés.
+> Sortie : Le nombre de façons d'obtenir ***k*** en ajoutant les résultats du lancer de trois dés.
 
 @[Sommes de trois dés]({"stubs": ["Les_boucles/Somme_trois_dés.py"], "command": "python3 Les_boucles/Somme_trois_dés_Test.py"})
