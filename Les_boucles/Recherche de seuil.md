@@ -6,7 +6,7 @@ On considère la suite définie par $`u_{n+1}=0.5.u_n`$ et de premier terme $`u_
 
 Le but de cet exercice est de faire un programme qui permet de déterminer pour un réel positif ***e*** donné, quel est le plus petit entier ***n*** tel que la valeur de $`u_n`$ soit inférieure à ***e***.
 
-Par exemple : si ***e=0,2*** et $`u_0`=1$. Comme $`u_1=0.5`$, $`u_2=0.25`$ et $`u_3=0,125`$, on voit que le plus petit entier tel que $`u_n<e`$ est ***n=3***.
+Par exemple : si ***e=0,2*** et $`u_0=1`$. Comme $`u_1=0.5`$, $`u_2=0.25`$ et $`u_3=0,125`$, on voit que le plus petit entier tel que $`u_n<e`$ est ***n=3***.
 
 > Entrée : Un réel positif $`u_0`$ et un réel strictement positif ***e***
 
@@ -18,7 +18,7 @@ Par exemple : si ***e=0,2*** et $`u_0`=1$. Comme $`u_1=0.5`$, $`u_2=0.25`$ et $`
 
 ### Second exercice
 
-On considère désormais la suite définie par $`u_{n+1}=2.u_n et de premier terme $`u_0`$.
+On considère désormais la suite définie par $`u_{n+1}=2.u_n`$ et de premier terme $`u_0`$.
 Cette suite augmente indéfiniment lorsque ***n*** augmente.
 
 On se demande à partir de quel rang cette suite pourra dépasser une valeur ***e*** donnée en entrée.
