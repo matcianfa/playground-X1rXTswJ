@@ -44,6 +44,8 @@ plan:
         statement: Les_boucles/Calcul de sommes.md
       - title: Constante de Champernowne
         statement: Les_boucles/Constante de Champernowne.md
+      - title: Recherche de seuil
+        statement: Les_boucles/Recherche de seuil.md
 
 
         
