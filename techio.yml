@@ -48,6 +48,9 @@ plan:
         statement: Les_boucles/Recherche de seuil.md
       - title: Escargot de Gardner
         statement: Les_boucles/Escargot de Gardner.md
+      - title: Décomposition d'entier en impair et puissance de 2
+        statement: Les_boucles/Décomposition d'entier en impair et puissance de 2.md
+
         
 
 
