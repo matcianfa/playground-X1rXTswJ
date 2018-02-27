@@ -10,8 +10,8 @@ Ainsi, on a
 
 Le but de cet exercice est tout simplement d'afficher la factorielle du nombre ***n*** donné en entrée.
 
-> Entrée : Un entier naturel ***n***.
+> Entrée : Un entier naturel ***n*** .
 
-> Sortie : Afficher ***n!***.
+> Sortie : Afficher ***n!*** .
 
 @[Factorielle]({"stubs": ["Les_boucles/Factorielle.py"], "command": "python3 Les_boucles/Factorielle_Test.py"})
