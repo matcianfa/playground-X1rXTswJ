@@ -39,10 +39,10 @@ def test():
         sauvegarde_stdout=sys.stdout
         sys.stdout=io.StringIO()
         mon_programme(inp)
-        count1 = sys.stdout.getvalue()[:-1]
+        count1 = sys.stdout.getvalue()
         sys.stdout=sauvegarde_stdout
-        assert str(count1) == str(outp), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(str(inp),str(count1),str(outp))
-        send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}".format(str(inp),str(count1)))
+        assert str(count1) == str(outp), "En testant la valeur {} le résultat obtenu est {} au lieu de {}".format(str(inp),str(count1),str(outp))
+        send_msg("Tests validés","En testant la valeur {} le résultat obtenu est bien {}".format(str(inp),str(count1)))
       success()
     except AssertionError as e:
       fail()
