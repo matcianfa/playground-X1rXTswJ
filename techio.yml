@@ -34,6 +34,10 @@ plan:
         statement:  Les_conditions/Donner la nature d'un triangle.md
       - title: Passage des coordonnées cartesiennes à polaire
         statement: Les_conditions/Passage des coordonnées cartesiennes à polaire.md
+  - title: Les boucles
+    plan:
+      - title: Factorielle d'un nombre
+        statement: Les_boucles/factorielle.md
 
 
         
