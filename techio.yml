@@ -64,6 +64,12 @@ plan:
         statement: Les_boucles/Triplets pythagoriciens.md
       - title: Monnaie syldave
         statement: Les_boucles/Monnaie syldave.md
+  - title: Chaines de caractères
+    plan:
+      - title: Introduction
+        statement: Chaines_caracteres/Introduction.md 
+      - title: Tirages au scrabble
+        statement: Chaines_caracteres/Tirages au scrabble.md
 
         
 
