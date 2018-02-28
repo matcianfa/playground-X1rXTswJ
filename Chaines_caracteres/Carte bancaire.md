@@ -11,7 +11,7 @@ Pour vérifier si un numéro est valide, on considère les 16 chiffres de la car
 ::: Exemple
 Si le numéro est 1234561234561234. 
 + On multiplie les numéros de rangs impairs (en soustrayant 9 si la valeur dépasse 9) donc ce numéro devient : 2264162264162264
-+ On additionne tous les chiffres obtenus : On obtient 56.
++ On additionne tous les chiffres du numéro obtenu : On obtient 56.
 + Comme 56 n'est pas divisible par 10, ce numéro est "NON VALIDE".
 :::
 
