@@ -1,4 +1,6 @@
-## Anacycliques
+##  Anacycliques et Palindromes
+
+### Anacycliques
 
 Un anacyclique est un mot qui, lorsqu'on le lit à l'envers, donne un autre mot (qui a du sens). 
 Exemple : 
@@ -13,3 +15,6 @@ Le but de cet exercice est de créer un programme qui affiche "ANACYCLIQUE" lors
 > Sortie : "ANACYCLIQUE" ou "PAS ANACYCLIQUE".
 
 @[Anacycliques ?]({"stubs": ["Chaines_caracteres/Anacycliques.py"], "command": "python3 Chaines_caracteres/Anacycliques_Test.py"})
+
+---
+
