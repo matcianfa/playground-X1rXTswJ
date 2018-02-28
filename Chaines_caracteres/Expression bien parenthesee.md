@@ -1,4 +1,5 @@
 ## Expression bien parenthésée
+`Difficulté : Moyenne`
 
 On vous donne une expression avec des parenthèses. Le but est de créer un programme qui vérifie que cette expression est bien parenthésée. 
 
