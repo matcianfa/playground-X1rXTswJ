@@ -62,6 +62,8 @@ plan:
         statement: Les_boucles/Sommes de dés.md
       - title: Triplets pythagoriciens
         statement: Les_boucles/Triplets pythagoriciens.md
+      - title: Monnaie syldave
+        statement: Les_boucles/Monnaie syldave.md
 
         
 
