@@ -6,6 +6,8 @@ plan:
         statement: markdowns/welcome.md 
   - title: Variables et fonctions mathématiques
     plan:
+      - title: Introduction
+        statement: Variables_et_fonctions/Intro_variables.md
       - title: Prise en main
         statement: Variables_et_fonctions/prise en main.md
       - title: Passage des coordonnées polaires à cartésiennes
@@ -16,6 +18,8 @@ plan:
         statement: Variables_et_fonctions/Distances à vol d'oiseau.md
   - title: Les conditions if... else...
     plan:
+      - title: Introduction
+        statement: Les_conditions/Intro_conditions.md
       - title: Signe des valeurs d'une fonction
         statement: Les_conditions/Signe des valeurs d'une fonction.md
       - title: Afficher si un nombre est pair
@@ -36,6 +40,8 @@ plan:
         statement: Les_conditions/Passage des coordonnées cartesiennes à polaire.md
   - title: Les boucles
     plan:
+      - title: Introduction
+        statement: Les_boucles/Intro_boucles.md
       - title: Factorielle d'un nombre
         statement: Les_boucles/factorielle.md
       - title: Calcul des termes d'une suite
