@@ -40,7 +40,7 @@ def test():
         mon_programme(inp)
         reponse = sys.stdout.getvalue()[:-1]
         sys.stdout=sauvegarde_stdout
-        send_msg("Tests validés","Pour n="+inp)
+        send_msg("Tests validés","Pour n="+str(inp))
         for count1,outp in zip(reponse.split("\n"),outp_l.split()):
           assert str(count1) == str(outp), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(str(inp),str(count1),str(outp))
           send_msg("Tests validés","{}".format(str(count1)))
