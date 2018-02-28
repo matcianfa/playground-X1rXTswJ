@@ -65,6 +65,7 @@ def test():
       success()
     except AssertionError as e:
       if succes:
+        send_msg("Oops! ", e)
         send_msg("Oops! ", "C'est un bon début mais tu peux encore améliorer ton programme !")
         success()
       else :
