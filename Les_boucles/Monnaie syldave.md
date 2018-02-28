@@ -1,5 +1,5 @@
 ## Monnaie syldave 
-`Difficulté : difficile`
+<p align="right"><code class="tio-markdown_code">Difficulté : difficile</code></p>
 
 Audrey passe ses vacances en Syldavie. Dans ce pays, les pièces de monnaie n'ont plus cours, et il n'existe que trois sortes de billets de banque, qui valent respectivement 57, 62 et 72 couronnes. 
 
