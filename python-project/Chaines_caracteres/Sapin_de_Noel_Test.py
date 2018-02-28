@@ -16,7 +16,7 @@ input_output=[\
 
 
 #message d'aide si besoin
-help="N'oublie pas d'utiliser print pour afficher le resultat"
+help="Quand il n'y a pas de sapin, il y a quand même la neige..."
 
 
 
