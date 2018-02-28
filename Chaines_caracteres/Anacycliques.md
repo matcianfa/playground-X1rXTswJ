@@ -44,3 +44,5 @@ Dans un premier temps, il suffira de valider les premiers tests ou il faudra gé
 > Entrée : Une ***phrase***.
 
 > Sortie : "PALINDROME" ou "PAS PALINDROME".
+
+@[Palindrome ?]({"stubs": ["Chaines_caracteres/Palindrome.py"], "command": "python3 Chaines_caracteres/Palindrome_Test.py"})
