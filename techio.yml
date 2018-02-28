@@ -70,6 +70,8 @@ plan:
         statement: Chaines_caracteres/Introduction.md 
       - title: Tirages au scrabble
         statement: Chaines_caracteres/Tirages au scrabble.md
+      - title: Palindromes et anacycliques
+        statement: Chaines_caracteres/Anacycliques.md
 
         
 
