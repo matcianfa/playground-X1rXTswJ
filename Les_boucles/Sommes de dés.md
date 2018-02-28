@@ -14,7 +14,7 @@ On s’intéresse au lancer de deux dés et plus précisément à la somme des r
 
 ---
 
-### Sommes de deux dés
+### Sommes de trois dés
 
 On s’intéresse à présent au lancer de trois dés et plus précisément à la somme des résultats de ces trois dés. 
 
