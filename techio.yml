@@ -72,6 +72,8 @@ plan:
         statement: Chaines_caracteres/Tirages au scrabble.md
       - title: Palindromes et anacycliques
         statement: Chaines_caracteres/Anacycliques.md
+      - title: Sapin de noel
+        statement: Chaines_caracteres/Sapin de noel.md
 
         
 
