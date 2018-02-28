@@ -44,7 +44,7 @@ def fail():
 def test():
     succes=False
     try:
-      for inp,outp,help in input_output:
+      for inp,outp,h in input_output:
         sauvegarde_stdout=sys.stdout
         sys.stdout=io.StringIO()
         mon_programme(inp)
@@ -53,7 +53,7 @@ def test():
         assert str(count1) == str(outp), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(str(inp),str(count1),str(outp))
         send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}".format(str(inp),str(count1)))
       succes=True
-      for inp,outp,help in input_output2:
+      for inp,outp,h in input_output2:
         sauvegarde_stdout=sys.stdout
         sys.stdout=io.StringIO()
         mon_programme(inp)
@@ -71,7 +71,7 @@ def test():
         fail()
         send_msg("Oops! ", e)
       if help:
-        send_msg("Aide 💡", help)
+        send_msg("Aide 💡", h)
 
 
 if __name__ == "__main__": test()
