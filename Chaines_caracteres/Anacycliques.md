@@ -18,3 +18,29 @@ Le but de cet exercice est de créer un programme qui affiche "ANACYCLIQUE" lors
 
 ---
 
+### Palindromes
+
+Un palindrome est une phrase qui peut se lire à l'envers comme à l'endroit. 
+
+Exemples : 
++ "ici" 
++ "kayak" 
++ "selles" 
++ "A Cuba Anna a bu ça" 
++ "C'est sec" 
++ "Engage le jeu, que je le gagne !" 
++ "À l'étape, épate-la !" 
+
+
+Le but de cet exercice est d'écrire un programme qui affichera si une phrase est "PALINDROME" ou "PAS PALINDROME" 
+
+Dans un premier temps, il suffira de valider les premiers tests ou il faudra gérer les problèmes de majuscules et d'espaces. mais pour les meilleurs, il faudra essayer de tous les valider en gérant les accents et la ponctuation.
+
+::: Aide
++ On remarquera qu'il suffit de ne considérer que les lettres.
++ On pourra jetter un oeil sur les fonctions .upper() ou .lower().
+:::
+
+> Entrée : Une ***phrase***.
+
+> Sortie : "PALINDROME" ou "PAS PALINDROME".
