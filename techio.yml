@@ -74,6 +74,8 @@ plan:
         statement: Chaines_caracteres/Anacycliques.md
       - title: Sapin de noel
         statement: Chaines_caracteres/Sapin de noel.md
+      - title: Carte bancaire
+        statement: Chaines_caracteres/Carte bancaire.md
 
         
 
