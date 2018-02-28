@@ -12,7 +12,7 @@ input_output=[\
 ("cosinus","PAS PALINDROME",""),\
 ("Laval","PALINDROME","Attention aux majuscules !"),\
 ("rions noir","PALINDROME","Attention aux espaces !"),\
-("La la La","PALINDROME","")\
+("La la La","PAS PALINDROME","")\
 ]
 
 input_output2=[\
