@@ -1,6 +1,8 @@
 ## Codage de César et Vigenère
 `Difficulté : Moyenne`
 
+> Il est conseillé pour ces exercices de bien relire la partie du cours sur le code ASCII et les fonctions `ord` et `chr`.
+
 ### Codage de César
 
 Le codage de César est un manière de crypter un message de manière simple : On choisit un nombre (appelé clé de codage) et on décale toutes les lettres de notre message du nombre choisi.
