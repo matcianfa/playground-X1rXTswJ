@@ -1,4 +1,5 @@
 ## Codage de César et Vigenère
+`Difficulté : Moyenne`
 
 ### Codage de César
 
