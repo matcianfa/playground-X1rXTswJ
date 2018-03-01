@@ -29,7 +29,7 @@ Prenons un exemple pour expliquer la méthode : Imaginons que le ***mot_clé*** 
 3. Passons au T qui se décale du nombre correspondant à T c'est à dire 19 donc T devient une fois décalé M 
 4. Ainsi de suite. 
 
-Si notre ***mot_clé**** est trop court on recommence au début du mot c'est à dire que N sera décalé du nombre correspondant à M.
+Si notre ***mot_clé*** est trop court on recommence au début du mot c'est à dire que N sera décalé du nombre correspondant à M.
 
 Le but de cet exercice est de créer un programme qui reçoit en entrée un ***mot_clé*** et un ***mot*** à coder et qui affiche le mot codé par cette méthode.
 
