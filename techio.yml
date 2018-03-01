@@ -82,6 +82,8 @@ plan:
         statement: Chaines_caracteres/Touche touche pas.md
       - title: Suite des pliages d un papier
         statement: Chaines_caracteres/Suite des pliages d un papier.md
+      - title: Codage de César
+        statement: Chaines_caracteres/Codage de César.md
 
         
 
