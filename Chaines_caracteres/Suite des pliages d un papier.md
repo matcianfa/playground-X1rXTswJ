@@ -30,3 +30,21 @@ Faire un programme qui prend en entrée un nombre ***n*** et affiche la ***n***-
 > Sortie : Une suite de G et de D (sans espace entre) qui représentent la succession de pliures lorsqu'on plie ***n*** fois un papier.
 
 @[Suite des pliages d'un papier]({"stubs": ["Chaines_caracteres/Pliage_papier.py"], "command": "python3 Chaines_caracteres/Pliage_papier_Test.py"})
+
+---
+
+### Seconde méthode
+
+Une autre façon de construire cette suite est de commencer par un G et pour passer d'une ligne de la suite à la suivante, on fait toujours la même chose : 
+- On recopie la ligne précédente. 
+- On ajoute un G à la fin 
+- On rajoute ensuite la ligne précédente où l'on change tous les G en D et inversement et en plus on renverse l'ordre des lettres (les premières en dernier et inversement) 
+
+Faire un programme qui prend en entrée un nombre ***n*** et affiche la ***n***-ième ligne de la suite de pliage de papier.
+
+
+> Entrée : Un entier ***n***.
+
+> Sortie : Une suite de G et de D (sans espace entre) qui représentent la succession de pliures lorsqu'on plie ***n*** fois un papier.
+
+@[Suite des pliages d'un papier 2]({"stubs": ["Chaines_caracteres/Pliage_papier2.py"], "command": "python3 Chaines_caracteres/Pliage_papier2_Test.py"})
