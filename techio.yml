@@ -88,6 +88,8 @@ plan:
     plan:
       - title: Introduction
         statement: Chaines_caracteres/Introduction.md 
+      - title: Manipulations de base
+        statement:  Les_listes/Manipulations de base.md 
         
         
 
