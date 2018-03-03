@@ -36,7 +36,7 @@ def test():
       for inp,outp in input_output:
         sauvegarde_stdout=sys.stdout
         sys.stdout=io.StringIO()
-        mon_programme(*inp)
+        mon_programme(inp)
         count1 = sys.stdout.getvalue()[:-1]
         sys.stdout=sauvegarde_stdout
         assert str(count1) == str(outp), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(str(inp),str(count1),str(outp))
