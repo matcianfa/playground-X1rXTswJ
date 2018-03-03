@@ -23,8 +23,8 @@ def send_msg(channel, msg):
 
 def success():
     send_msg("Tests validés","Bravo !")
-    send_msg("Tests validés","Astuce pour aller beaucoup plus vite, vous pourriez utiliser la fonction zip :")
-    send_msg("Tests validés","[a+b for a,b in zip(liste_1,liste2)]")
+    send_msg("Bonus","Astuce pour aller beaucoup plus vite, vous pourriez utiliser la fonction zip :")
+    send_msg("Bonus","[a+b for a,b in zip(liste_1,liste2)]")
     print("TECHIO> success true")
 
 
