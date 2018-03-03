@@ -4,13 +4,13 @@
 
 Le triangle de Pascal est un triangle de nombre que l'on croise souvent en mathématiques. On peut trouver sur [Wikipédia](https://fr.wikipedia.org/wiki/Triangle_de_Pascal) beaucoup d'information à son sujet.
 
-En voici les premières lignes : 
-1
-1 1
-1 2 1
-1 3 3 1
-1 4 6 4 1
-1 5 10 10 5 1
+En voici les premières lignes : <br/>
+1<br/>
+1 1<br/>
+1 2 1<br/>
+1 3 3 1<br/>
+1 4 6 4 1<br/>
+1 5 10 10 5 1<br/>
 ...
 
 Pour le contruire une nouvelle ligne :
