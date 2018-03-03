@@ -34,6 +34,10 @@ Faire un programme qui sera très similaire au précédent mais cette fois ci l'
 
 ### Sommes des éléments de deux listes
 
+::: Point de cours
+Créer une liste vide et ajouter des éléments au fur et à mesure.
+:::
+
 Créer un programme qui prend en entrée deux listes de nombres de même longueur et qui affiche la liste de l'addition terme à terme de ces deux listes. C'est à dire que le premier élément sera la somme des premiers éléments de chaque liste, de même pour le deuxième etc.
 
 Par exemple: Si liste_1=[1, 2, 3] et liste_2=[2, 4, 6] alors le résultat à afficher sera [3, 6, 9].
