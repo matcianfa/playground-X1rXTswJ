@@ -38,8 +38,8 @@ def test():
         mon_programme(inp)
         count1 = sys.stdout.getvalue()[:-1]
         sys.stdout=sauvegarde_stdout
-        assert str(count1) == str(outp), r"En testant les valeurs \"{}\" le résultat obtenu est {} au lieu de {}".format(str(inp),repr(str(count1)),repr(str(outp)))
-        send_msg("Tests validés",r"En testant les valeurs \"{}\" le résultat obtenu est bien :".format(str(inp)))
+        assert str(count1) == str(outp), "En testant les valeurs \"{}\" le résultat obtenu est {} au lieu de {}".format(str(inp),repr(str(count1)),repr(str(outp)))
+        send_msg("Tests validés","En testant les valeurs \"{}\" le résultat obtenu est bien :".format(str(inp)))
         for mot in inp.split():
             send_msg("Tests validés", mot )
       success()
