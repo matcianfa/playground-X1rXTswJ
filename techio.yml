@@ -84,7 +84,11 @@ plan:
         statement: Chaines_caracteres/Suite des pliages d un papier.md
       - title: Codage de César
         statement: Chaines_caracteres/Codage de César.md
-
+  - title: Les listes
+    plan:
+      - title: Introduction
+        statement: Chaines_caracteres/Introduction.md 
+        
         
 
 
