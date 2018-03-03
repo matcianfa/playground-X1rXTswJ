@@ -37,8 +37,8 @@ def test():
         mon_programme(inp)
         count1 = sys.stdout.getvalue()[:-1]
         sys.stdout=sauvegarde_stdout
-        assert str(count1) == str(outp), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(str(inp),str(count1),str(outp))
-        send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}".format(str(inp),str(count1)))
+        assert str(count1) == str(outp), r"En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(str(inp),str(count1),str(outp))
+        send_msg("Tests validés",r"En testant les valeurs {} le résultat obtenu est bien {}".format(str(inp),str(count1)))
       success()
     except AssertionError as e:
       fail()
