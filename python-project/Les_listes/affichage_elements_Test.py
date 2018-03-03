@@ -8,7 +8,7 @@ import io
 input_output=[\
 (["un mot"],"un mot"),\
 (["mot 1","mot 2"],"mot 1\nmot 2"),\
-(["maths", "info", "python", "exposant", "alpha", "fonction", "parabole", "equilateral", "orthogonal", "cercle", "isocèle" ],'maths\ninfo\npython\nexposant\nalpha\nfonction\nparabole\nequilateral\northogonal\ncercle\nisocèle')\ 
+(["maths", "info", "python", "exposant", "alpha", "fonction", "parabole", "equilateral", "orthogonal", "cercle", "isocèle" ],"maths\ninfo\npython\nexposant\nalpha\nfonction\nparabole\nequilateral\northogonal\ncercle\nisocèle")\ 
 ]
 
 
