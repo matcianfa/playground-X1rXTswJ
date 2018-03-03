@@ -1,4 +1,5 @@
 # Triangle de Pascal
+`Difficulté : Moyenne`
 
 ### Construction
 
@@ -27,3 +28,5 @@ Le but de cet exercice est de créer un programme qui prend en entrée un entier
 > Sortie : La ligne numéro ***n*** du triangle de Pascal sous forme de liste de nombres entiers non nuls. La ligne numéro 0 correspond à la première avec un seul 1.
 
 @[Triangle de Pascal]({"stubs": ["Les_listes/Triangle_de_Pascal.py"], "command": "python3 Les_listes/Triangle_de_Pascal_Test.py"})
+
+@[Triangle de Sierpinski]({"stubs": ["Les_listes/Triangle_de_Sierpinski.py"], "command": "python3 Les_listes/Triangle_de_Sierpinski_Test.py"})
