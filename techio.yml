@@ -92,6 +92,8 @@ plan:
         statement:  Les_listes/Manipulations de base.md 
       - title: Retirer les doublons
         statement: Les_listes/Retirer les doublons.md
+      - title: Triangle de Pascal
+        statement: Les_listes/Triangle de Pascal.md
         
 
 
