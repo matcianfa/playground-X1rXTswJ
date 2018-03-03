@@ -3,7 +3,7 @@
 
 Le but de cet exercice est de retirer tous les éléments qui sont en double dans la ***liste*** donnée en entrée.
 
-Par exemple : si on donne en entrée la liste \[ 2, 4, 2 , "cosinus", 2, "maths", "sinus", "cosinus" \], en sortie il faudra afficher \[ 4, 2, "maths", "sinus", "cosinus" \]. On retirera les systématiquement le premier des doublons qui apparait.
+Par exemple : si on donne en entrée la liste \[ 2, 4, 2 , "cosinus", 2, "maths", "sinus", "cosinus" \], en sortie il faudra afficher \[ 4, 2, "maths", "sinus", "cosinus" \]. On retirera systématiquement le premier des doublons qui apparait.
 
 > Entrée : Une ***liste***
 
