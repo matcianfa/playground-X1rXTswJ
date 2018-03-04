@@ -15,7 +15,7 @@ im = Image.new('RGB', (WIDTH, HEIGHT), (255, 255, 255))
 draw = ImageDraw.Draw(im)
 
 #message d'aide si besoin
-help="N'oublie pas d'utiliser print pour afficher le resultat"
+help=""
 
 
 
@@ -24,7 +24,8 @@ def send_msg(channel, msg):
 
 
 def success():
-    send_msg("Tests validés","Bravo !")
+    #send_msg("Tests validés","Bravo !")
+    print("TECHIO> open -s /project/target/ index.html"
     print("TECHIO> success true")
 
 
@@ -34,7 +35,12 @@ def fail():
 
 def test():
     try:
-      mon_programme(input_output)
+      for n in range(1,dimension+1)
+          liste=mon_programme(n)
+          for j,element in enumerate(liste):
+            if element%2!=0: 
+                draw.point([j, n-1], (0,0,0))
+      im.save('output.png', 'PNG')
       success()
     except AssertionError as e:
       fail()
