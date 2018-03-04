@@ -23,7 +23,7 @@ Pour inverser les valeurs continuent dans deux variables, on peut écrire simple
 Cela marche aussi avec les éléments d'une liste : `liste[i],liste[j]=liste[j],liste[i]`
 :::
 
-> Entrée : Une liste à ordonner.
+> Entrée : Une ***liste*** à ordonner.
 
 > Sortie : La liste ordonnée.
 
@@ -47,7 +47,7 @@ On pourra utiliser une boucle While pour décaler.
 :::
 
 
-> Entrée : Une liste à ordonner.
+> Entrée : Une ***liste*** à ordonner.
 
 > Sortie : La liste ordonnée.
 
@@ -61,10 +61,33 @@ Le tri par sélection consiste à chercher le plus petit élément de la liste e
 
 [Wikipédia](https://fr.wikipedia.org/wiki/Tri_par_s%C3%A9lection) pour de jolies animations.
 
-> Entrée : Une liste à ordonner.
+> Entrée : Une ***liste*** à ordonner.
 
 > Sortie : La liste ordonnée.
 
 @[Tri par selection]({"stubs": ["Les_listes/Tri_selection.py"], "command": "python3 Les_listes/Tri_selection_Test.py"})
+
+---
+
+### Le tri par comptage
+
+Contrairement aux méthodes de tri précédentes, cette façon de trier est extrêmement efficace mais ne s'applique quee dans le cas où on sait déjà que notre liste sera composée d'entiers entre deux bornes connues. Par exemple si j'ai une liste d'un milliard de note sur 20 à ranger par ordre croissant, le tri par comptage sera le meilleur. (Malheureusement il ne corrigera pas les copies...)
+
+Le principe est simple : Supposons que tous les nombres de la ***liste*** soient entre 0 et 100. 
+1. On crée une liste de 101 zéros qui nous servira pour compter.
+2. On prend le premier élément ***i*** de notre ***liste***. On rajoute alors 1 à l'indice ***i*** de notre liste qui nous sert à compter.
+3. On recommence ainsi pour tous les éléments de la ***liste***.
+
+On pourra trouver un exemple sur [Wikipédia](https://fr.wikipedia.org/wiki/Tri_comptage)
+
+::: Aide
+Pour créer une liste contenant ***n*** fois le même élément ***a***, il suffit de taper `[a]*n`
+:::
+
+> Entré : Un entier ***n*** et une ***liste*** composée de nombres entiers compris entre 0 et ***n***.
+
+> Sortie : La liste triée.
+
+@[Tri par comptage]({"stubs": ["Les_listes/Tri_comptage.py"], "command": "python3 Les_listes/Tri_comptage_Test.py"})
 
 ---
