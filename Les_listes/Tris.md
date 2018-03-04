@@ -1,5 +1,5 @@
 # Méthodes de tri
-`Difficulté : Moyenne`
+`Difficulté : Moyenne à difficile`
 
 Le but de ces exercices est de présenter quelques méthodes classiques de tris. Bien sur, il existe déjà des fonctions qui trient en Python mais le but ici est s'entrainer à manipuler les listes et aussi de découvrir des idées qui peuvent resservir dans d'autres contextes.
 
