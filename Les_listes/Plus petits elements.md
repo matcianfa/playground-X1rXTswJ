@@ -3,7 +3,7 @@
 
 Le but de cet exercice est de créer un programme qui prend en entrée une ***liste*** de nombres et qui affiche en sortie une liste des indices où se trouvent le minimum de la liste donnée en entrée.
 
-Par exemple : si ***liste=[1,4,5,2,1,6,1,2,1,10,9,1,4]*** alors comme le minimum est 1, la liste des indices où on trouve 1 est ***[0,4,6,8,11]***.
+Par exemple : si ***liste=[1, 4, 5, 2, 1, 6, 1, 2, 1, 10, 9, 1, 4]*** alors comme le minimum est 1, la liste des indices où on trouve 1 est [0, 4, 6, 8, 11].
 
 > Entrée : Une ***liste*** de nombre.
 
