@@ -94,6 +94,8 @@ plan:
         statement: Les_listes/Retirer les doublons.md
       - title: Triangle de Pascal
         statement: Les_listes/Triangle de Pascal.md
+      - title: Méthodes de tri
+        statement: Les_listes/Tris.md
         
 
 
