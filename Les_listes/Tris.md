@@ -18,4 +18,9 @@ Pour des explications peut-être plus claires et des exemples on peut aller voir
 
 Le but de cet exercice est de faire un programme qui tri une liste en utilisant le tri à bulles.
 
+::: Aide
+Pour inverser les valeurs continuent dans deux variables, on peut écrire simplement : `a,b = b,a`.
+Cela marche aussi avec les éléments d'une liste : `liste[i],liste[j]=liste[j],liste[i]`
+:::
+
 @[Tri à bulles]({"stubs": ["Les_listes/Tri_a_bulles.py"], "command": "python3 Les_listes/Tri_a_bulles_Test.py"})
