@@ -2,12 +2,17 @@
 from Triangle_de_Sierpinski import mon_programme,dimension
 import sys
 import io
-import pixel
+from PIL import Image, ImageDraw
 
 
-#liste des couples input/output
-zoom=4
 
+# Image size (pixels)
+WIDTH = dimension
+HEIGHT = dimension
+palette = []
+
+im = Image.new('RGB', (WIDTH, HEIGHT), (255, 255, 255))
+draw = ImageDraw.Draw(im)
 
 #message d'aide si besoin
 help="N'oublie pas d'utiliser print pour afficher le resultat"
@@ -29,9 +34,7 @@ def fail():
 
 def test():
     try:
-      pixel.initialiser(dimension//zoom,dimension//zoom,zoom)
       mon_programme(input_output)
-      pixel.afficher()
       success()
     except AssertionError as e:
       fail()
