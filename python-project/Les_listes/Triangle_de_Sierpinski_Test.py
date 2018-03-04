@@ -4,8 +4,6 @@ import sys
 import io
 from PIL import Image, ImageDraw
 
-
-
 # Image size (pixels)
 WIDTH = dimension
 HEIGHT = dimension
@@ -33,18 +31,13 @@ def fail():
     print("TECHIO> success false")
     
 
-        
-        
-        
-
-
 def test():
     try:
       for n in range(1,dimension+1):
           sauvegarde_stdout=sys.stdout
           sys.stdout=io.StringIO()
           mon_programme(n)
-          liste = [int(i) for i in list(sys.stdout.getvalue()[:-1])]
+          liste = [int(i) for i in sys.stdout.getvalue()[1:-2].split(","))]
           sys.stdout=sauvegarde_stdout
           for j,element in enumerate(liste):
             if element%2!=0: 
