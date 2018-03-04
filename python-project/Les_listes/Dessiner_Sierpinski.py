@@ -17,3 +17,4 @@ def dessiner(liste):
       draw.point([j, i], (0,0,0))
   im.save('output.png', 'PNG')
   print("sauvegarde",liste)
+print("POUET")
