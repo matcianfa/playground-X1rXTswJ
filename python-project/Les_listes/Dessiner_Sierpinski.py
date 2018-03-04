@@ -16,3 +16,4 @@ def dessiner(liste):
     if element%2!=0: 
       draw.point([j, i], (0,0,0))
   im.save('output.png', 'PNG')
+  print("sauvegarde",liste)
