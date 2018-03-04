@@ -29,4 +29,4 @@ Le but de cet exercice est de créer un programme qui prend en entrée un entier
 
 @[Triangle de Pascal]({"stubs": ["Les_listes/Triangle_de_Pascal.py"], "command": "python3 Les_listes/Triangle_de_Pascal_Test.py"})
 
-@[Triangle de Sierpinski]({"stubs": ["Les_listes/Triangle_de_Sierpinski.py"], "command":  'python3 Les_listes/Triangle_de_Sierpinski.py && echo "TECHIO> open -s python-project/index.html"'})
+@[Triangle de Sierpinski]({"stubs": ["Les_listes/Triangle_de_Sierpinski.py"], "command":  'python3 Les_listes/Triangle_de_Sierpinski.py && echo "TECHIO> open -s /project/target/ index.html"'})
