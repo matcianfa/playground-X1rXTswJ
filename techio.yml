@@ -90,6 +90,8 @@ plan:
         statement: Chaines_caracteres/Introduction.md 
       - title: Manipulations de base
         statement:  Les_listes/Manipulations de base.md 
+      - title: Indices du plus petit élément dans une liste
+        statement: Les_listes/Plus petits elements.md
       - title: Retirer les doublons
         statement: Les_listes/Retirer les doublons.md
       - title: Triangle de Pascal
