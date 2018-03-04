@@ -3,7 +3,7 @@ dimension = 256
 
 # Image size (pixels)
 
-
+print("POUET")
 
 def dessiner(liste):
   WIDTH = dimension
@@ -17,4 +17,5 @@ def dessiner(liste):
       draw.point([j, i], (0,0,0))
   im.save('output.png', 'PNG')
   print("sauvegarde",liste)
-print("POUET")
+  
+
