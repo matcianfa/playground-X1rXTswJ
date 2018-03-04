@@ -1,4 +1,5 @@
 from PIL import Image, ImageDraw
+from Triangle_de_Sierpinski import dimension
 
 # Image size (pixels)
 WIDTH = dimension
