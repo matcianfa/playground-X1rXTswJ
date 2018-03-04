@@ -55,3 +55,16 @@ On pourra utiliser une boucle While pour décaler.
 
 ---
 
+### Le tri par sélection
+
+Le tri par sélection consiste à chercher le plus petit élément de la liste et le placer en premier puis chercher le plus petit parmi ceux qui restent et le placer en second etc.
+
+[Wikipédia](https://fr.wikipedia.org/wiki/Tri_par_s%C3%A9lection) pour de jolies animations.
+
+> Entrée : Une liste à ordonner.
+
+> Sortie : La liste ordonnée.
+
+@[Tri par selection]({"stubs": ["Les_listes/Tri_selection.py"], "command": "python3 Les_listes/Tri_selection_Test.py"})
+
+---
