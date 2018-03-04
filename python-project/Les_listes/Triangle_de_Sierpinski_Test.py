@@ -33,10 +33,19 @@ def fail():
     print("TECHIO> success false")
     
 
+        
+        
+        
+
+
 def test():
     try:
       for n in range(1,dimension+1):
-          liste=mon_programme(n)
+          sauvegarde_stdout=sys.stdout
+          sys.stdout=io.StringIO()
+          mon_programme(n)
+          liste = list(sys.stdout.getvalue()[:-1])
+          sys.stdout=sauvegarde_stdout
           for j,element in enumerate(liste):
             if element%2!=0: 
                 draw.point([j, n-1], (0,0,0))
