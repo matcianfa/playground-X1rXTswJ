@@ -35,7 +35,7 @@ def fail():
 
 def test():
     try:
-      for n in range(1,dimension+1)
+      for n in range(1,dimension+1):
           liste=mon_programme(n)
           for j,element in enumerate(liste):
             if element%2!=0: 
