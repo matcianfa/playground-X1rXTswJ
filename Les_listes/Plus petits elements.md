@@ -9,4 +9,11 @@ Par exemple : si ***liste=[1, 4, 5, 2, 1, 6, 1, 2, 1, 10, 9, 1, 4]*** alors comm
 
 > Sortie : Une liste des indices où se trouve le minimum de ***liste***. Cette liste d'indices sera donnée rangée dans l'ordre croissant.
 
+:::Aide
+Pour énumérer dans une boucle `for`à la fois les éléments et leur indice, on peut utiliser 
+```Python
+for indice, élément in enumerate(liste) :
+```
+:::
+
 @[Indices du plus petit élément]({"stubs": ["Les_listes/Plus_petit_element.py"], "command": "python3 Les_listes/Plus_petit_element_Test.py"})
