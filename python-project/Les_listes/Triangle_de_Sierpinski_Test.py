@@ -25,7 +25,7 @@ def send_msg(channel, msg):
 
 def success():
     #send_msg("Tests validés","Bravo !")
-    print("TECHIO> open -s /project/target/ index.html"
+    print("TECHIO> open -s /project/target/ index.html")
     print("TECHIO> success true")
 
 
