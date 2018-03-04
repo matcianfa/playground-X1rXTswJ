@@ -23,4 +23,35 @@ Pour inverser les valeurs continuent dans deux variables, on peut écrire simple
 Cela marche aussi avec les éléments d'une liste : `liste[i],liste[j]=liste[j],liste[i]`
 :::
 
+> Entrée : Une liste à ordonner.
+
+> Sortie : La liste ordonnée.
+
 @[Tri à bulles]({"stubs": ["Les_listes/Tri_a_bulles.py"], "command": "python3 Les_listes/Tri_a_bulles_Test.py"})
+
+---
+
+### Tri par insertion
+
+Le tri par insertion est similaire à la façon dont on range les cartes dans nos mains quand on joue. Quand on rajoute une carte dans un main déjà triée, on l'insère directement à sa place et on répète l'opération pour chaque carte à rajouter à notre main.
+L'idée du tri par insertion est la même :
+
+1. On commence au deuxième élément de la liste. On le met de coté (dans une variable). S'il est plus petit que le premier, on met le premier à la place du second et le second (qui était sauvegardé dans une variable) à la place du premier.
+2. On considère maintenant le troisième élément. On le met de coté dans une variable. S'il est plus petit que le second, on met le second à la place du troisième. S'il est plus petit que le premier, on met le premier à la place du second.
+3. Ainsi de suite, en décalant à chaque fois d'un cran vers la droite tous les éléments qui sont plus grand que l'élément qu'on considère.
+
+On pourra trouver des explications et des exemples sur [Wikipédia](https://fr.wikipedia.org/wiki/Tri_par_insertion)
+
+::: Aide
+On pourra utiliser une boucle While pour décaler.
+:::
+
+
+> Entrée : Une liste à ordonner.
+
+> Sortie : La liste ordonnée.
+
+@[Tri par insertion]({"stubs": ["Les_listes/Tri_insertion.py"], "command": "python3 Les_listes/Tri_insertion_Test.py"})
+
+---
+
