@@ -37,7 +37,7 @@ def test():
           sauvegarde_stdout=sys.stdout
           sys.stdout=io.StringIO()
           mon_programme(n)
-          liste = [int(i) for i in sys.stdout.getvalue()[1:-2].split(","))]
+          liste = [int(i) for i in sys.stdout.getvalue()[1:-2].split(",")]
           sys.stdout=sauvegarde_stdout
           for j,element in enumerate(liste):
             if element%2!=0: 
