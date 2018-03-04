@@ -29,5 +29,17 @@ Le but de cet exercice est de créer un programme qui prend en entrée un entier
 
 @[Triangle de Pascal]({"stubs": ["Les_listes/Triangle_de_Pascal.py"], "command": "python3 Les_listes/Triangle_de_Pascal_Test.py"})
 
+---
+
+### Triangle de Sierpinski
+
+Le triangle de Sierpinski est un triangle très particulier : Quand on zoom sur une de ses parties, on peut voir de nouveau le triangle en entier. Les objets qui ont cette propriété s'appellent des fractales. On peut aller voir sur [Wikipédia](https://fr.wikipedia.org/wiki/Triangle_de_Sierpiński) pour davantage d'information sur le triangle de Sierpinski.
+
+Une des façons d'obtenir ce triangle est de partir du triangle de Pascal et de représenter par une case noire les nombres impairs et blanche les pairs.
+
+Pour voir le résultat avec votre programme, copiez-collez la partie de votre programme précédent que vous avez rajouté dans la fenêtre ci-dessous et lancez le test. Le test va colorier en noir les nombres impairs et afficher l'image qui correspond.
+
+Vous pouvez modifier la dimension de votre triangle. Vue la façon de calculer notre triangle de Pascal et de l'afficher, on ne peut pas prendre de grandes valeurs. Il faudrait optimiser notre programme pour cela mais ce n'est pas le but ici. Pour voir un triangle entier, il faut prendre des puissances de 2.
+
 @[Triangle de Sierpinski]({"stubs": ["Les_listes/Triangle_de_Sierpinski.py"], "command": "python3 Les_listes/Triangle_de_Sierpinski_Test.py"})
 
