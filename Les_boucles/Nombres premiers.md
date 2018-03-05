@@ -41,6 +41,11 @@ De plus, si ***n***=117 par exemple, c'est évident qu'il ne peut pas être divi
 Recopiez votre programme précédent ci-dessous et améliorez le en vous aidant des deux remarques précédentes.
 Avant de le modifier, lancer Run pour voir qu'il est trop lent pour passer les tests.
 
+:::Aide
++ Traitez le cas de 2 à part puis utilisez la possibilité de `range` d'aller de 2 en 2.
++ Python calcule très mal les racines carrées surtout pour les grands nombres donc dans la pratique, il vaut mieux tester jusqu'à $`\sqrt(n) +1`$.
+:::
+
 > Entrée : Un nombre ***n***
 
 > Sortie : "PREMIER" ou "PAS PREMIER"
