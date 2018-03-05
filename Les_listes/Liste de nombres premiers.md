@@ -1,5 +1,5 @@
 # Liste des nombres premiers
-`Difficulté : Moyenne`
+`Difficulté : Moyenne à difficile`
 
 Je rappelle qu'un nombre premier est un nombre qui a exactement 2 diviseurs qui sont 1 et lui même. Ainsi 2, 3 ,5 ,7, 11 sont des nombres premiers mais 4, 6, 9 n'en sont pas.
 
