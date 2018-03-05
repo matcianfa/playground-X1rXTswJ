@@ -102,6 +102,8 @@ plan:
         statement: Les_listes/Discrimination de nombres.md
       - title: Liste de nombres premiers
         statement: Les_listes/Liste de nombres premiers.md
+      - title: Tout en une ligne !
+        statement: Les_listes/Tout_en_une_ligne.md
       - title: Méthodes de tri
         statement: Les_listes/Tris.md
         
