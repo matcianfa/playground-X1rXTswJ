@@ -8,7 +8,7 @@ Par exemple :
 + si ***n=13***, dans la liste n'apparaitront pas les nombres qui contiennent 13 comme 130, 4139 ou 313. Par contre les nombres 310 ou 123 seront dans la liste.
 
 ::: Aide
-Le plus simple pour vérifier si un nombre contient ***n*** est de transformer le nombre et ***n*** en chaine de caractères.
+Le plus simple pour vérifier si un nombre contient ***n*** est de transformer le nombre et ***n*** en chaine de caractères en utilisant la fonction `str`.
 :::
 
 > Entrée : Deux nombres entiers non nuls ***n*** et ***max***.
