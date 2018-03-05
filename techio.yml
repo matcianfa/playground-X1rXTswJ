@@ -56,12 +56,12 @@ plan:
         statement: Les_boucles/Escargot de Gardner.md
       - title: Décomposition d'entier en impair et puissance de 2
         statement: Les_boucles/Décomposition d'entier en impair et puissance de 2.md
-      - title: Nombres premiers
-        statement: Les_boucles/Nombres premiers.md
       - title: Nombres parfaits
         statement: Les_boucles/Nombres parfaits.md
       - title: Sommes de dés
         statement: Les_boucles/Sommes de dés.md
+      - title: Nombres premiers
+        statement: Les_boucles/Nombres premiers.md
       - title: Triplets pythagoriciens
         statement: Les_boucles/Triplets pythagoriciens.md
       - title: Monnaie syldave
@@ -100,6 +100,8 @@ plan:
         statement: Les_listes/Triangle de Pascal.md
       - title: Discrimination de nombres
         statement: Les_listes/Discrimination de nombres.md
+      - title: Liste de nombres premiers
+        statement: Les_listes/Liste de nombres premiers.md
       - title: Méthodes de tri
         statement: Les_listes/Tris.md
         
