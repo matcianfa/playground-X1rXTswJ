@@ -56,6 +56,8 @@ plan:
         statement: Les_boucles/Escargot de Gardner.md
       - title: Décomposition d'entier en impair et puissance de 2
         statement: Les_boucles/Décomposition d'entier en impair et puissance de 2.md
+      - title: Nombres premiers
+        statement: 	Les_boucles/Nombres premiers.md
       - title: Nombres parfaits
         statement: Les_boucles/Nombres parfaits.md
       - title: Sommes de dés
