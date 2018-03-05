@@ -6,7 +6,7 @@ import io
 
 #liste des couples input/output
 input_output=[\
-(["Alain Térieur"],["AT]),\
+(["Alain Térieur"],["AT"]),\
 (["Alain Verse", "Harry Cover", "Marc Assin"],["AV","HC","MA"]),\
 (["Terry Dicule", "Terry Kiki", "Tex Agère","Théa Louest","Tim Hagine","Sam Gratte"],["TD","TK","TA","TL","TH"])\
 ]
