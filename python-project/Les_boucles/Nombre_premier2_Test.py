@@ -16,7 +16,7 @@ input_output=[\
 
 
 #message d'aide si besoin
-help="N'oublie pas d'utiliser print pour afficher le resultat"
+help="N'oublie pas d'utiliser print pour afficher le resultat."
 
 
 
