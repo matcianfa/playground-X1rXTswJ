@@ -18,7 +18,7 @@ Etant donnée la définition, pour savoir si un nombre ***n*** est premier ou pa
 
 > Sortie : "PREMIER" ou "PAS PREMIER"
 
-@[Nombre premier ?]({"stubs": ["Les_boucles/Nombre premier1.py"], "command": "python3 Les_boucles/Nombre premier1_Test.py"})
+@[Nombre premier ?]({"stubs": ["Les_boucles/Nombre premier1.py"], "command": "python3 Les_boucles/Nombre_premier1_Test.py"})
 
 
 
