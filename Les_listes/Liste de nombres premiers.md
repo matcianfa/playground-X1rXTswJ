@@ -16,5 +16,5 @@ Ainsi `est_premier(11)` renvoie `True` alors que `est_premier(12)` renvoie `Fals
 
 > Sortie : La liste des nombres premiers compris au sens large entre ***a*** et ***b***.
 
-@[Liste des nombres premiers]({"stubs": ["Les_listes/liste_nombres_premiers1.py", "Les_listes/Est_entier.py"], "command": "python3 Les_listes/liste_nombres_premiers1_Test.py"})
+@[Liste des nombres premiers]({"stubs": ["Les_listes/liste_nombres_premiers1.py", "Les_listes/Est_premier.py"], "command": "python3 Les_listes/liste_nombres_premiers1_Test.py"})
 
