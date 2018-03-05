@@ -22,10 +22,11 @@ Ainsi `est_premier(11)` renvoie `True` alors que `est_premier(12)` renvoie `Fals
 
 ### Méthode du crible d'Ératosthène
 
-Cette méthode est le contraire de la méthode précédente. Si on veut tous les nombres premiers inférieur à un ***n*** donné, on crée une liste contenant tous les nombres entre 2 et ***n*** puis on commence par retirer de cette liste tous les nombres multiples de 2 (mais pas 2). Ensuite on prend le nombre suivant dans la liste donc 3 et on retire tous les multiples de 3 sauf 3 puis le suivant dans la liste donc 5 (car 4 étant un multiple de 2 il a été retiré) et ainsi de suite jusqu'à $`\sqrt(n)`$ (car les nombres plus grands non premiers ont déjà été écartés).
+Cette méthode est le contraire de la méthode précédente. Si on veut tous les nombres premiers inférieur à un ***n*** donné, on crée une liste contenant tous les nombres entre 2 et ***n*** puis on commence par retirer de cette liste tous les nombres multiples de 2 (mais pas 2). Ensuite on prend le nombre suivant dans la liste donc 3 et on retire tous les multiples de 3 sauf 3 puis le suivant dans la liste donc 5 (car 4 étant un multiple de 2 il a été retiré) et ainsi de suite jusqu'à $`\sqrt{n}`$ (car les nombres plus grands non premiers ont déjà été écartés).
 
 :::Aide
-+ Attention au piège avec la racine carrée en Python. A cause des erreurs d'arrondis, il vaut mieux prendre un peu de marge s'arreter à $`\sqrt(n)+1`$.
++ Attention au piège avec la racine carrée en Python. A cause des erreurs d'arrondis, il vaut mieux prendre un peu de marge s'arreter à $`\sqrt{n}+1`$.
++ Pour créer la liste des nombres entre 2 et ***n***, on utilise naturellement la fonction `range` à un détail près, il faudra lui appliquer la fonction `list()` pour en faire une liste car en réalité `range` ne fournit pas une liste mais ce qu'on appelle un générateur.
 :::
 
 > Entrée : Un entier ***n***.
