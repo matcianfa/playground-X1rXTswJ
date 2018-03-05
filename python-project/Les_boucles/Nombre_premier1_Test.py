@@ -1,5 +1,5 @@
 #Ne pas oublier de changer le module à importer
-from Nombre premier1 import mon_programme
+from Nombre_premier1 import mon_programme
 import sys
 import io
 
