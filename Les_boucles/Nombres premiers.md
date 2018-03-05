@@ -38,14 +38,14 @@ Le premier est que le programme vérifie si le nombre est divisible par tous les
 
 De plus, si ***n***=117 par exemple, c'est évident qu'il ne peut pas être divisible par 116, ni même 115 ou 114... car ces nombres sont trop grands. Par un petit raisonnement, on peut montrer qu'il ne sert à rien de chercher des diviseurs plus grands que $`\sqrt n`$
 
-Recopiez votre programme précédent ci dessous et améliorez le en vous aidant des deux remarques précédentes.
+Recopiez votre programme précédent ci-dessous et améliorez le en vous aidant des deux remarques précédentes.
 Avant de le modifier, lancer Run pour voir qu'il est trop lent pour passer les tests.
 
 > Entrée : Un nombre ***n***
 
 > Sortie : "PREMIER" ou "PAS PREMIER"
 
-@[Nombre premier ?]({"stubs": ["Les_boucles/Nombre_premier2.py"], "command": "python3 Les_boucles/Nombre_premier2.py"})
+@[Nombre premier ?]({"stubs": ["Les_boucles/Nombre_premier2.py"], "command": "python3 Les_boucles/Nombre_premier2_Test.py"})
 
 
 
