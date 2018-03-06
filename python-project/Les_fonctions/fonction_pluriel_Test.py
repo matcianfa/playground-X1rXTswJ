@@ -5,7 +5,7 @@ import io
 
 
 #liste des couples input/output
-input_output=[-1.,0.,0.5,1.,2.,1/3]
+input_output=["test","maths","sinus","Triangle","miss","cheval"]
 
 #la fonction attendue:
 def reponse(mot):
