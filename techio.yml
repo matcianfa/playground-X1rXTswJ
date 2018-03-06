@@ -116,6 +116,10 @@ plan:
         statement: Les_fonctions/factorielle.md
       - title: Suites recurrentes
         statement: Les_fonctions/Suites_recurrentes.md
+      - title: Palindromes
+        statement: Les_fonctions/palindromes.md
+
+
 
 
         
