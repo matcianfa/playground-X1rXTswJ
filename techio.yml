@@ -106,7 +106,10 @@ plan:
         statement: Les_listes/Tout_en_une_ligne.md
       - title: Méthodes de tri
         statement: Les_listes/Tris.md
-        
+  - title: Les fonctions
+    plan:
+      - title: Introduction
+        statement: Les_fonctions/Introduction.md 
 
 
         
