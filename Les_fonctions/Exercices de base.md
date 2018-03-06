@@ -10,4 +10,4 @@ Le but de cet exercice est de créer une fonction ***f*** qui pour un ***x*** re
 
 > Sortie : la fonction doit renvoyer (avec `return`) le résultat du calcul ***3x²-2x-1***.
 
-@[créer une fonction]({"stubs": ["Les_fonctions/fonction_f.py"], "command": "python3 Les_fonctions/fonction_f_Test.py"})
+@[Créer une fonction]({"stubs": ["Les_fonctions/fonction_f.py"], "command": "python3 Les_fonctions/fonction_f_Test.py"})
