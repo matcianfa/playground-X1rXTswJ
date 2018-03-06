@@ -12,7 +12,7 @@ def reponse(x):
   return 3*x**2-2*x-1
 
 #message d'aide si besoin
-help="N'oublie pas d'utiliser print pour afficher le resultat"
+help="N'oublie pas d'utiliser return pour afficher le resultat"
 
 
 
