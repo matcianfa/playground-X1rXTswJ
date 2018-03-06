@@ -118,7 +118,8 @@ plan:
         statement: Les_fonctions/Suites_recurrentes.md
       - title: Palindromes
         statement: Les_fonctions/palindromes.md
-
+      - title: Anagrammes
+        statement: Les_fonctions/Anagrammes.md
 
 
 
