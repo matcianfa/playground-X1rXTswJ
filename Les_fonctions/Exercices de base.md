@@ -35,6 +35,6 @@ Le but de cet exercice est de créer une fonction ***pluriel*** qui rajoute un s
 
 > Sortie : La fonction ***pluriel*** doit renvoyer (avec `return`) le ***mot*** avec un s en plus à la fin s'il ne se termine pas déjà par s. 
 
-@[Créer une fonction pluriel({"stubs": ["Les_fonctions/fonction_pluriel.py"], "command": "python3 Les_fonctions/fonction_pluriel_Test.py"})
+@[Créer une fonction pluriel]({"stubs": ["Les_fonctions/fonction_pluriel.py"], "command": "python3 Les_fonctions/fonction_pluriel_Test.py"})
 
 ---
