@@ -1,11 +1,12 @@
 #Ne pas oublier de changer le module à importer
-from fonction_min_max import min_max
+from fonction_min_max import min_max as f
 import sys
 import io
 
 
 #liste des couples input/output
 input_output=[(1,3),(3,1),(1,1),(4,-4)]
+
 
 #la fonction attendue:
 def reponse(a,b):
