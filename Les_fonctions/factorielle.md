@@ -27,3 +27,15 @@ Tout d'abord, copiez-collez votre programme factorielle précédent dans la fen�
 > Sortie : Une fonction ***binom*** qui renvoie (avec `return`) la valeur de $`\left(\begin{array}{c} n\\k\end{array}\right)`$ en utilisant les formules données.
 
 @[Créer une fonction binom]({"stubs": ["Les_fonctions/fonction_binom.py"], "command": "python3 Les_fonctions/fonction_binom_Test.py"})
+
+---
+
+### Application : Approximation de ***e***
+
+En terminale, on étudie la fonction exponentielle. Elle est très liée à un nombre particulier appelée constante de Néper et notée ***e***. On pourra trouver plus d'information sur [Wikipédia](https://fr.wikipedia.org/wiki/E_(nombre)).
+
+Une des façons de calculer ***e*** consiste à utiliser la formule pour ***n*** assez grand :
+```math
+e\approx\frac 1{0!} +\frac 1{1!} +\frac 1{2!}+ \frac 1{3!} +\dots+\frac 1{n!}
+```
+
