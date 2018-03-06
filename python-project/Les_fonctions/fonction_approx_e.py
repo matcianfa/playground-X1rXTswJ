@@ -3,7 +3,7 @@
 
 
 
-#Créez ci dessous votre fonction approx_e
+#Créez ci dessous votre fonction approx_e(n)
 
 
 
