@@ -26,7 +26,6 @@ Le but de cet exercice est de créer une fonction ***min_max*** qui pour deux en
 
 ---
 
-
 ### Mettre au pluriel
 
 Le but de cet exercice est de créer une fonction ***pluriel*** qui rajoute un s au ***mot*** donné en entrée s'il ne se termine pas déjà par s. On ne s'intéresse qu'à ce cas, pas aux exceptions comme chou, oeil, cheval...
@@ -38,3 +37,13 @@ Le but de cet exercice est de créer une fonction ***pluriel*** qui rajoute un s
 @[Créer une fonction pluriel]({"stubs": ["Les_fonctions/fonction_pluriel.py"], "command": "python3 Les_fonctions/fonction_pluriel_Test.py"})
 
 ---
+
+### Dire si une liste contient un multiple de 7
+
+Le but de cet exercice est de créer une fonction ***contient_x7*** qui renvoie True si la ***liste*** donnée en entrée contient un multiple de 7 et False sinon.
+
+> Entrée : Une ***liste*** de nombres.
+
+> Sortie : True si la ***liste*** contient un multiple de 7. False sinon.
+
+@[Créer une fonction contient_x7]({"stubs": ["Les_fonctions/fonction_contient_x7.py"], "command": "python3 Les_fonctions/fonction_contient_x7_Test.py"})
