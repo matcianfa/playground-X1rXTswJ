@@ -37,11 +37,11 @@ Cette suite se rapproche très rapidement de la valeur de $`\sqrt{x}`$ c'est pou
 Le but de cet exercice est de créer une fonction ***racine*** qui prend en entrée ***x*** et affiche la valeur de $`u_5`$ qui correspond à une valeur approchée de $`\sqrt{x}`$ par la méthode de Héron. 
 
 ::: Aide
-On peut créer une fonction dans une autre fonction. Par exemple ici, une façon de faire est de créer un fonction ***racine(x)*** et à l'intérieur de cette fonction, une fonction ***u(n)*** qui calcule de manière récursive les valeurs de ***u***.
+On peut créer une fonction dans une autre fonction. Par exemple ici, une façon de faire est de créer une fonction ***racine(x)*** et à l'intérieur de cette fonction, une fonction ***u(n)*** qui calcule de manière récursive les valeurs de ***u***.
 :::
 
 > Entrée : Un nombre ***x***.
 
 > Sortie : Une fonction ***racine*** qui donne une approximation de $`\sqrt{x}`$ en renvoyant (avec `return`) la valeur de $`u_5`$ par la méthode de Héron.
 
-@[Calcul approché de racine(x)]({"stubs": ["Les_fonctions/Formule_de_Heron.py"], "command": "python3 Les_fonctions/Suite_recurrente_simple_Test.py"})
+@[Calcul approché de racine(x)]({"stubs": ["Les_fonctions/Formule_de_Heron.py"], "command": "python3 Les_fonctions/Formule_de_Heron_Test.py"})
