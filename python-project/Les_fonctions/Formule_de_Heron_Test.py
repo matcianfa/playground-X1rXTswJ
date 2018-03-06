@@ -27,6 +27,7 @@ def send_msg(channel, msg):
 
 def success():
     send_msg("Tests validés","Bravo !")
+    send_msg("Tests validés","On remarque que plus on prend une valeur élevée, moins l'approximation est bonne. Pour l'améliorer il suffit de calculer u pour des indices plus grands")
     print("TECHIO> success true")
 
 
