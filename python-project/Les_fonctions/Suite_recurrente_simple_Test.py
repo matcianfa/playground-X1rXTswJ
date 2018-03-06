@@ -25,7 +25,7 @@ def send_msg(channel, msg):
 
 
 def success():
-    send_msg("Tests validés","Bravo ! Les premières décimales de e sont 2, 71828182845904523536 ...")
+    send_msg("Tests validés","Bravo !")
     print("TECHIO> success true")
 
 
