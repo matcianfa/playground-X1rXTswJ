@@ -33,6 +33,7 @@ def fail():
 def test():
     try:
       for x in input_output:
+        x=*x
         assert f(x) == reponse(x), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(str(x),str(f(x)),str(reponse(x)))
         send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}".format(str(x),str(f(x))))
       success()
