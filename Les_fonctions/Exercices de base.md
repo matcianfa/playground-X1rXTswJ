@@ -16,12 +16,25 @@ Le but de cet exercice est de créer une fonction ***f*** qui pour un ***x*** re
 
 ### min et max
 
-Le but de cet exercice est de créer une fonction ***min_max*** qui pour deux entier ***a*** et ***b*** renvoie le couple ***(min,max)*** où ***min*** est le minimum de ***a*** et ***b*** et ***max*** le maximum.
+Le but de cet exercice est de créer une fonction ***min_max*** qui pour deux entiers ***a*** et ***b*** renvoie le couple ***(min,max)*** où ***min*** est le minimum de ***a*** et ***b*** et ***max*** le maximum.
 
-> Entrée : Deux nombre ***a*** et ***b***.
+> Entrée : Deux nombres ***a*** et ***b***.
 
-> Sortie : La fonction ***min_max*** doit renvoyer (avec `return`) le résultat le couple ***(min,max)*** où ***min*** est le minimum de ***a*** et ***b*** et ***max*** le maximum..
+> Sortie : La fonction ***min_max*** doit renvoyer (avec `return`) le résultat le couple ***(min,max)*** où ***min*** est le minimum de ***a*** et ***b*** et ***max*** le maximum.
 
 @[Créer une fonction min_max]({"stubs": ["Les_fonctions/fonction_min_max.py"], "command": "python3 Les_fonctions/fonction_min_max_Test.py"})
+
+---
+
+
+### Mettre au pluriel
+
+Le but de cet exercice est de créer une fonction ***pluriel*** qui rajoute un s au ***mot*** donné en entrée s'il ne se termine pas déjà par s. On ne s'intéresse qu'à ce cas, pas aux exceptions comme chou, oeil, cheval...
+
+> Entrée : Un ***mot***.
+
+> Sortie : La fonction ***pluriel*** doit renvoyer (avec `return`) le ***mot*** avec un s en plus à la fin s'il ne se termine pas déjà par s. 
+
+@[Créer une fonction pluriel({"stubs": ["Les_fonctions/fonction_pluriel.py"], "command": "python3 Les_fonctions/fonction_pluriel_Test.py"})
 
 ---
