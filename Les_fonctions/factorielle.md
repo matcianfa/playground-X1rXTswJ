@@ -36,6 +36,15 @@ En terminale, on étudie la fonction exponentielle. Elle est très liée à un n
 
 Une des façons de calculer ***e*** consiste à utiliser la formule pour ***n*** assez grand :
 ```math
-e\approx\frac 1{0!} +\frac 1{1!} +\frac 1{2!}+ \frac 1{3!} +\dots+\frac 1{n!}
+e\approx 1 +\frac 1{1!} +\frac 1{2!}+ \frac 1{3!} +\dots+\frac 1{n!}
 ```
 
+Créez un programme ***approx_e*** qui prend en entrée un entier ***n*** et affiche l'approximation de ***e*** calculée avec la formule précédente. Pour vous entrainer, essayez de faire une version recursive de ***approx_e*** (c'est facile puisque c'est un calcul de somme).
+
+N'oubliez pas de copier-coller votre fonction factorielle.
+
+> Entrée : Un entier ***n***.
+
+> Sortie : Une fonction ***approx_e*** qui renvoie (avec `return`) l'approximation de ***e*** calculée avec la formule précédente.
+
+@[Créer une fonction approx_e]({"stubs": ["Les_fonctions/fonction_approx_e.py"], "command": "python3 Les_fonctions/fonction_approx_e_Test.py"})
