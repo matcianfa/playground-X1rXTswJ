@@ -57,7 +57,7 @@ Tant qu'on y est, approximons $`\pi`$ ! On peut trouver énormément de formules
 
 Vue la précision de python, nous n'avons pas besoin de formule réellement efficace (on ne vise pas le milliard de décimales), nous allons donc utiliser un formule pas trop compliquée :
 ```math
-\pi\approx 2\left( 1 +\frac {2\times (1!)^2}{3!} +\frac {2^2\times (2!)^2}{5!}+ \frac {2^3\times (3!)^2}{7!} +\dots+\frac {2^n\times (n!)^2}{(2n+1)!}\right)
+\pi\approx \left( 2 +\frac {2^2\times (1!)^2}{3!} +\frac {2^3\times (2!)^2}{5!}+ \frac {2^4\times (3!)^2}{7!} +\dots+\frac {2^{n+1}\times (n!)^2}{(2n+1)!}\right)
 ```
 
 Créez un programme ***approx_pi*** qui prend en entrée un entier ***n*** et affiche l'approximation de $`\pi`$ calculée avec la formule précédente. Pour vous entrainer, essayez de faire une version recursive de ***approx_pi*** (c'est facile puisque c'est un calcul de somme).
