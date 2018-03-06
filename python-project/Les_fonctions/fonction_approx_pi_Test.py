@@ -26,7 +26,7 @@ def send_msg(channel, msg):
 
 
 def success():
-    send_msg("Tests validés","Bravo !")
+    send_msg("Tests validés","Bravo ! La vraie valeur de pi est 3.14159265358979323846...")
     print("TECHIO> success true")
 
 
