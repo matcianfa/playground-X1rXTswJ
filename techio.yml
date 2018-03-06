@@ -114,6 +114,8 @@ plan:
         statement: Les_fonctions/Exercices de base.md
       - title: Factorielle
         statement: Les_fonctions/factorielle.md
+      - title: Suites recurrentes
+        statement: Les_fonctions/Suites_recurrentes.md
 
 
         
