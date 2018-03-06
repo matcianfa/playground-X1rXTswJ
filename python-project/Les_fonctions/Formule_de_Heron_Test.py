@@ -1,5 +1,5 @@
 #Ne pas oublier de changer le module à importer
-from Suite_recurrente_simple import u as f
+from Formule_de_Heron import racine as f
 import sys
 import io
 
