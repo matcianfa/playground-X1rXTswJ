@@ -112,6 +112,8 @@ plan:
         statement: Les_fonctions/Introduction.md
       - title: Exercices de base
         statement: Les_fonctions/Exercices de base.md
+      - title: Factorielle
+        statement: Les_fonctions/factorielle.md
 
 
         
