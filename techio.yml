@@ -109,7 +109,9 @@ plan:
   - title: Les fonctions
     plan:
       - title: Introduction
-        statement: Les_fonctions/Introduction.md 
+        statement: Les_fonctions/Introduction.md
+      - title: Exercices de base
+        statement: Les_fonctions/Exercices de base.md
 
 
         
