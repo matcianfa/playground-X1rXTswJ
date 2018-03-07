@@ -6,15 +6,15 @@ import io
 
 #liste des couples input/output
 input_output=[\
-(1,204.0,57.49999999999999),\
-(3,211.249851246,76.82409376999999),\
-(10,217.9385763255597,227.066780089635),\
-(15,184.29606095667762,472.6175497356709)\
+(1,53000.0,9135.000000000002),\
+(3,52784.4713838875,9407.788308056253),\
+(10,50106.76034377454,10027.348268924994),\
+(15,47682.76719143467,9802.229920404247)\
 ]
 
 
 #message d'aide si besoin
-help="N'oublie pas d'utiliser print pour afficher le resultat"
+help="N'oublie pas d'utiliser return pour afficher le resultat"
 
 
 
