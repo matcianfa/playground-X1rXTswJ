@@ -7,9 +7,7 @@ from functools import lru_cache
 import sys
 import io
 
-#On mémoize sinon c'est trop long
-#u=lru_cache(maxsize=None)(u)
-#v=lru_cache(maxsize=None)(v)
+
 
 #message d'aide si besoin
 help="N'oublie pas d'utiliser print pour afficher le resultat"
@@ -32,9 +30,7 @@ def fail():
 def test():
     global u,v
     try:
-      u=lru_cache(maxsize=None)(u)
-      v=lru_cache(maxsize=None)(v)
-      l_n=list(range(0,150))
+      l_n=list(range(0,350))
       u_n=[u(n)  for n in l_n]
       v_n=[v(n) for n in l_n]
       fig=plt.figure()
