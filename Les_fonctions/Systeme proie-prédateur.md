@@ -28,4 +28,6 @@ Créez deux fonctions ***u*** et ***v*** qui prennent en entrée ***n*** et renv
 Pour voir graphiquement l'évolution des populations, copiez collez vos fonctions ***u*** et ***v*** dans la fenêtre ci-dessous.
 Ne surtout pas modifier ce qui apparait déjà, c'est pour améliorer les performances de calcul. Nous verrons plus tard pourquoi il est indispensable de le faire et comment on le fait.
 
+Vous pouvez modifier la valeur du minimum et maximum de ***n*** affiché. Pour des valeurs comme 500 par exemple, il faudra modifier un peu vos fonctions ***u*** et ***v*** pour coller à la réalité : Si la population tombe à 0, elle ne peut plus varier ensuite.
+
 @[Système de Lotka-Volterra]({"stubs": ["Les_fonctions/Volterra_plot.py"], "command": "python3 Les_fonctions/Volterra_plot_Test.py"})
