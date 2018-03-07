@@ -8,8 +8,8 @@ import sys
 import io
 
 #On mémoize sinon c'est trop long
-u=lru_cache(maxsize=None)(u)
-v=lru_cache(maxsize=None)(v)
+#u=lru_cache(maxsize=None)(u)
+#v=lru_cache(maxsize=None)(v)
 
 #message d'aide si besoin
 help="N'oublie pas d'utiliser print pour afficher le resultat"
@@ -30,6 +30,7 @@ def fail():
     
 
 def test():
+    global u,v
     try:
       u=lru_cache(maxsize=None)(u)
       v=lru_cache(maxsize=None)(v)
