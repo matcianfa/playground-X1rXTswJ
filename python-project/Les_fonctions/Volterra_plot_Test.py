@@ -1,5 +1,5 @@
 #Ne pas oublier de changer le module à importer
-from Volterra_plot import u,v,n_max
+from Volterra_plot import u,v,n_max,n_min
 import matplotlib
 matplotlib.use('agg')
 import matplotlib.pyplot as plt
@@ -30,7 +30,7 @@ def fail():
 def test():
     global u,v
     try:
-      l_n=list(range(0,n_max))
+      l_n=list(range(n_min,n_max))
       u_n=[u(n)  for n in l_n]
       v_n=[v(n) for n in l_n]
       fig=plt.figure()
