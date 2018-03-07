@@ -17,6 +17,6 @@ plouf\_plouf(n,k)=(plouf\_plouf(n-1,k)+k)\%n
 
 > Entrée : Deux entiers ***n*** et ***k***.
 
-> Sortie : Une fonction ***plouf_plouf(n,k)*** qui affiche la position du gagnant (avec `print`).
+> Sortie : Une fonction ***plouf_plouf(n,k)*** qui renvoie la position du gagnant (avec `return`).
 
 @[Plouf plouf]({"stubs": ["Les_fonctions/plouf_plouf.py"], "command": "python3 Les_fonctions/plouf_plouf_Test.py"})
