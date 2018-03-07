@@ -120,6 +120,8 @@ plan:
         statement: Les_fonctions/palindromes.md
       - title: Anagrammes
         statement: Les_fonctions/Anagrammes.md
+      - title: Plouf plouf !
+        statement: Les_fonctions/plouf_plouf.md
       - title: Tours de Hanoï
         statement: Les_fonctions/Tours de hanoi.md
       - title: Systeme proie-prédateur
