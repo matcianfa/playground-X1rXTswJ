@@ -1,7 +1,7 @@
 #Ne pas oublier de changer le module à importer
 from Volterra_plot import u,v
 import matplotlib
-matplotlib.use('Agg')
+matplotlib.use('Qt5Agg')
 import matplotlib.pyplot as plt
 from functools import lru_cache
 import sys
