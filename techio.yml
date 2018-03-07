@@ -130,9 +130,8 @@ plan:
     
 projects:
   python:
-    root: /python-project
-    buildCommand: pip3 install Pillow
-    buildCommand: pip3 install matplotlib
+    root: /python-project 
+    buildCommand: pip3 install matplotlib,Pillow
     runner:
       name: python
       version: '3'
