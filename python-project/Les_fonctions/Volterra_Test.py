@@ -34,7 +34,7 @@ def fail():
 def test():
     try:
       for inp,rep_u,rep_v in input_output:
-        assert u(inp) == rep_u and v(inp)==rep_v, "En testant pour n={} le résultat obtenu pour u(n) est {} au lieu de {} et pour v(n) est {} au lieu de {}".format(str(inp),str(u(n)),str(rep_u),str(v(n)),str(rep_v))
+        assert u(inp) == rep_u and v(inp)==rep_v, "En testant pour n={} le résultat obtenu pour u(n) est {} au lieu de {} et pour v(n) est {} au lieu de {}".format(str(inp),str(u(inp)),str(rep_u),str(v(inp)),str(rep_v))
         send_msg("Tests validés","En testant pour n={} le résultat obtenu pour u(n) est bien {} et pour v(n) est bien {}".format(str(inp),str(rep_u),str(rep_v)))
       success()
     except AssertionError as e:
