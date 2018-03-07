@@ -120,8 +120,8 @@ plan:
         statement: Les_fonctions/palindromes.md
       - title: Anagrammes
         statement: Les_fonctions/Anagrammes.md
-      - title: Tour de Hanoï
-        statement: Les_fonction/Tours de hanoi.md
+      - title: Tours de Hanoï
+        statement: Les_fonctions/Tours de hanoi.md
 
 
 
