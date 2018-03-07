@@ -20,6 +20,7 @@ def send_msg(channel, msg):
 
 def success():
     print("TECHIO> open -s /project/target/ index.html")
+    if n_max>450 : send_msg("Remarque", "On peut constater que la population de proies explose avant de disparaitre")
     print("TECHIO> success true")
 
 
