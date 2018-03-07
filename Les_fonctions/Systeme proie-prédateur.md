@@ -21,4 +21,11 @@ Créez deux fonctions ***u*** et ***v*** qui prennent en entrée ***n*** et renv
 
 @[Système de Lotka-Volterra]({"stubs": ["Les_fonctions/Volterra.py"], "command": "python3 Les_fonctions/Volterra_Test.py"})
 
+---
+
+### Représentation graphique
+
+Pour voir graphiquement l'évolution des populations, copiez collez vos fonctions ***u*** et ***v*** dans la fenêtre ci-dessous.
+Ne surtout pas modifier ce qui apparait déjà, c'est pour améliorer les performances de calcul. Nous verrons plus tard pourquoi il est indispensable de le faire et comment on le fait.
+
 @[Système de Lotka-Volterra]({"stubs": ["Les_fonctions/Volterra_plot.py"], "command": "python3 Les_fonctions/Volterra_plot_Test.py"})
