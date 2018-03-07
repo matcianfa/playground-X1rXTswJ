@@ -30,7 +30,7 @@ def fail():
 def test():
     global u,v
     try:
-      l_n=list(range(0,350))
+      l_n=list(range(0,300))
       u_n=[u(n)  for n in l_n]
       v_n=[v(n) for n in l_n]
       fig=plt.figure()
