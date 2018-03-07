@@ -16,5 +16,15 @@ Nous allons voir qu'il est très simple de créer un programme récursif qui nou
 + On déplace le dernier disque de A vers C
 + On déplace les n-1 disques de B vers C
 
+L'astuce ici est de créer une fonction ***hanoi*** qui prend 4 paramètres : ***hanoi(n,debut,inter,fin)*** où ***n*** est le nombre de  disques à déplacer, ***debut*** est la tour de départ de nos ***n*** disques, ***inter*** est la tour intermédiaire que l'on peut utiliser pour déplacer et ***fin*** est la tour ou doivent se trouver les ***n*** disques au final. 
 
+Ainsi, au début on va lancer ***hanoi(n,"A","B","C")*** mais quand on va vouloir déplacer les ***n-1*** disques de A vers B, on écrira ***hanoi(n-1,"A","C","B")***.
+
+Ecrire cette fonction recursive ***hanoi(n,debut,inter,fin)*** de manière à afficher (avec `print`) à chaque étape le déplacement à effectuer sous la forme "A B" pour un déplacement de la tour "A" vers la tour "B" par exemple.
+
+> Entrée : ***(n,"A","B","C")*** où ***n*** est un entier.
+
+> Sortie : Les instructions à suivre pour déplacer les ***n*** disques de la tour "A" à la tour "C" donnée sous la forme "A B" pour signifier un déplacement de A vers B et affiché avec `print`.
+
+@[Tours de Hanoï]({"stubs": ["Les_fonctions/hanoi.py"], "command": "python3 Les_fonctions/hanoi_Test.py"})
 
