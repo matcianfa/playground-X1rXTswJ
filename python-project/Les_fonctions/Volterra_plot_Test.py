@@ -29,7 +29,7 @@ def fail():
 
 def test():
     try:
-      l_n=list(range(0,300))
+      l_n=list(range(0,10))
       u_n=[u(n)  for n in l_n]
       v_n=[v(n) for n in l_n]
       plt.plot(l_n,u_n, '.', l_n,v_n, '.')
