@@ -1,4 +1,6 @@
 from functools import lru_cache
+#Valeur maximum des n représentés. Vous pouvez le modifier
+n_max=300
 #Copiez collez vos fonctions u et v précédentes ci-dessous:
 
 
