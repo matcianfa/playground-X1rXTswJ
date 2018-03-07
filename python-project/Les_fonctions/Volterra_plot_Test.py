@@ -1,7 +1,7 @@
 #Ne pas oublier de changer le module à importer
 from Volterra_plot import u,v
 import matplotlib
-matplotlib.use('pdf')
+matplotlib.use('agg')
 import matplotlib.pyplot as plt
 from functools import lru_cache
 import sys
@@ -21,7 +21,7 @@ def send_msg(channel, msg):
 
 
 def success():
-    send_msg("Tests validés","Bravo !")
+    print("TECHIO> open -s /project/target/ index.html")
     print("TECHIO> success true")
 
 
@@ -34,9 +34,10 @@ def test():
       l_n=list(range(0,10))
       u_n=[u(n)  for n in l_n]
       v_n=[v(n) for n in l_n]
+      fig=plt.figure()
       plt.plot(l_n,u_n, '.', l_n,v_n, '.')
       plt.title('Evolution des populations de proies et prédateurs')
-      plt.show()
+      fig.savefig('output.png', dpi=fig.dpi)
       success()
     except AssertionError as e:
       fail()
