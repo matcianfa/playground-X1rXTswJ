@@ -1,5 +1,5 @@
 #Ne pas oublier de changer le module à importer
-from hanoi import hanoi as f
+from hanoi import hanoi as mon_programme
 import sys
 import io
 
