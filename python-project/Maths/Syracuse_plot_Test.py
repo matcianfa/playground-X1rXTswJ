@@ -31,7 +31,7 @@ def test():
       u_n=syracuse(N)
       l_n=list(range(len(u_n)))
       fig=plt.figure()
-      plt.plot(l_n,u_n, '.')
+      plt.plot(l_n,u_n, '.-')
       plt.title('Suite de Syracuse pour N='+str(N))
       fig.savefig('output.png', dpi=fig.dpi)
       success()
