@@ -17,7 +17,7 @@ Créer un programme qui affiche (avec `print`) si un nombre ***n*** est de Kapre
 
 > Sortie : "KAPREKAR" ou "PAS KAPREKAR".
 
-@[Kaprekar ?]({"stubs": ["Vrac/Nombres_Kaprekar.py"], "command": "python3 "Vrac/Nombres_Kaprekar_Test.py"})
+@[Kaprekar ?]({"stubs": ["Vrac/Nombres_Kaprekar.py"], "command": "python3 Vrac/Nombres_Kaprekar_Test.py"})
 
 ---
 
