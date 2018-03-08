@@ -7,7 +7,7 @@ La suite de Syracuse est une suite de nombre définie de la façon suivante : On
 
 Définissons un peu plus proprement notre suite. On débute avec un entier $`u_0=N`$ puis la relation de récurrence est :
 ```math
-\left\{\begin{array}{ll} \frac {u_n}2& \textrm{si $u_n$ est pair} \\ 3.u_n+1 & \textrm{sinon}\end{array}\right.
+\left\{\begin{array}{ll} \frac {u_n}2& \textrm{si $u_n$ est pair} \\ 3u_n+1 & \textrm{sinon}\end{array}\right.
 ```
 
 Créez une fonction ***syracuse(N)*** qui prend en entrée un entier ***N*** et qui renvoie (avec `return`) la liste des termes de la suite de Syracuse commençant par le terme $`u_0=N`$ jusqu'au premier 1 obtenu.
@@ -18,3 +18,12 @@ On pourra utiliser une boucle while. Attention de bien s'arrêter au premier 1 o
 
 @[Suite de Syracuse]({"stubs": ["Maths/Syracuse.py"], "command": "python3 Maths/Syracuse_Test.py"})
 
+---
+
+### Représentation graphique
+
+Pour voir un peu mieux l'évolution des termes de la suite, on peut les représenter graphiquement.
+
+Copiez collez votre fonction ***syracuse*** précédente dans la fenêtre ci-dessous et modifiez les valeurs de ***N*** pour voir la représentation de la suite de Syracuse qui commence par ***N***.
+
+@[Suite de Syracuse]({"stubs": ["Maths/Syracuse_plot.py"], "command": "python3 Maths/Syracuse_plot_Test.py"})
