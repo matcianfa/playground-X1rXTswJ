@@ -1,5 +1,5 @@
 # Autour de Kaprekar
-`Difficulté : Moyenne à difficile`
+`Difficulté : Difficile`
 
 ### Les nombres de Kaprekar
 
