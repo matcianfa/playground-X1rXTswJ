@@ -126,6 +126,12 @@ plan:
         statement: Les_fonctions/Tours de hanoi.md
       - title: Systeme proie-prédateur
         statement: Les_fonctions/Systeme proie-prédateur.md
+  - title: Exercices en vrac
+    plan:
+      - title: Introduction
+        statement: Vrac/Introduction.md
+      - title: Autour de Kaprekar
+        statement: Vrac/Kaprekar.md
   - title: Mathématiques et programmation
     plan:
       - title: Introduction
