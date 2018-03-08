@@ -1,5 +1,5 @@
 # Autour de Kaprekar
-`Difficulté : Difficile`
+`Difficulté : Difficile à très difficile`
 
 Kaprekar est un mathématicien indien qui s'est beaucoup intéressé aux nombres. Nous allons nous pencher sur les nombres et un algorithme associé à son nom.
 
