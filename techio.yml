@@ -126,6 +126,12 @@ plan:
         statement: Les_fonctions/Tours de hanoi.md
       - title: Systeme proie-prédateur
         statement: Les_fonctions/Systeme proie-prédateur.md
+  - title: Mathématiques et programmation
+    plan:
+      - title: Introduction
+        statement: Maths/Introduction.md
+      - title: Suite de Syracuse
+        statement: Maths/Syracuse.md
 
 
         
