@@ -139,7 +139,7 @@ plan:
 projects:
   python:
     root: /python-project 
-    buildCommand: pip3 install matplotlib Pillow
+    buildCommand: pip3 install --ignore-installed matplotlib Pillow
     runner:
       name: python
       version: '3'
