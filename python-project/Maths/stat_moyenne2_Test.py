@@ -1,5 +1,5 @@
 #Ne pas oublier de changer le module à importer
-from stat_moyenne2re import mon_programme
+from stat_moyenne2 import mon_programme
 import sys
 import io
 
