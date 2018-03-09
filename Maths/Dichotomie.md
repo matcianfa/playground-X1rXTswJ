@@ -43,6 +43,10 @@ Pour cela, on va utiliser une méthode de recherche par dichotomie. Le principe 
 
 Créez un programme qui prend en entrée une fonction ***f***, et les bornes ***a*** et ***b*** de l'intervalle et affiche une valeur approchée de x à 0,000001 près.
 
+::: Aide
+Pour vérifier si deux nombres x et y sont de même signe, il suffit de vérifier si x*y>0.
+:::
+
 > Entrée : Une fonction ***f*** et deux réels ***a*** et ***b***.
 
 > Sortie : Une valeur à 0,000001 près d'une solution à l'équation ***f(x)=0*** renvoyée avec return.
