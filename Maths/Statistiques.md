@@ -4,7 +4,7 @@ Le but de cette série d'exercices est de créer des programmes pour calculer la
 
 ### Calculs de moyenne
 
-#### Cas d'une série de nombres
+##### Cas d'une série de nombres
 
 Dans cette partie, on vous donne en entrée une ***liste*** de nombres. Vous devez afficher (avec `print`) la moyenne des nombres de cette série.
 
@@ -16,7 +16,7 @@ Dans cette partie, on vous donne en entrée une ***liste*** de nombres. Vous dev
 
 ---
 
-#### Cas d'une série pondérée de nombres
+##### Cas d'une série pondérée de nombres
 
 Dans cette partie, on vous donne en entrée deux listes de nombres : 
 + ***liste_valeurs*** qui est la série statistique.
@@ -62,3 +62,17 @@ Créez un programme qui affiche le mode de cette série statistique
 
 ---
 
+### La médiane
+
+##### Cas d'une série de nombres
+
+Dans cette partie, on donne simplement une ***liste*** de nombres. Créez un programme qui affiche la médiane de cette ***liste***. Si la médiane ne tombe pas sur une valeur de la liste, on prendra la moyenne des deux nombres les plus proches.
+
+> Entrée : Une ***liste*** de nombres.
+
+> Sortie : La médiane de cette ***liste*** affichée avec `print`.
+
+
+@[Calcul de la médiane]({"stubs": ["Maths/stat_mediane.py"], "command": "python3 Maths/stat_mediane_Test.py"})
+
+---
