@@ -138,7 +138,8 @@ plan:
         statement: Maths/Introduction.md
       - title: Suite de Syracuse
         statement: Maths/Syracuse.md
-
+      - title: Données statistiques
+        statement: Maths/Statistiques.md
 
         
     
