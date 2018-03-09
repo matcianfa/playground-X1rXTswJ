@@ -28,3 +28,23 @@ Entrée : Les ***paroles*** du commentateurs : "Go" pour lancer la partie. Ensui
 Sortie : Le prix que vous proposez. Ce doit être un entier et il doit être renvoyé avec `return`.
 
 @[Le juste prix !]({"stubs": ["Maths/Juste_prix.py"], "command": "python3 Maths/Juste_prix_Test.py"})
+
+---
+
+### Recherche des zéros d'une fonction
+
+Considérons une fonction f continue sur un intervalle [a,b] (Si vous n'avez pas vu la continuité en cours, on va simplifier en disant que cela signifie que sa courbe représentative se trace sans lever le stylo). On suppose que f(a) et f(b) sont de signes opposés. Alors forcément, entre a et b, on peut trouver un réel x tel que f(x)=0. Le but de cette partie est de trouver une valeur approchée de ce x à 0,000001 près.
+
+Pour cela, on va utiliser une méthode de recherche par dichotomie. Le principe est simple : 
++ On calcule $`f\left(\frac{a+b}2\right)`$ c'est à dire la valeur de f au milieu de l'intervalle [a,b].
++ Si cette valeur est du même signe que f(a) c'est que x est dans l'intervalle $`\left[\frac{a+b}2, b\right]`$.
++ Sinon c'est que x est dans l'intervalle $`\left[a,\frac{a+b}2\right]`$
++ On recommence notre rechercher par dichotomie sur l'intervalle plus petit où se trouve x tant qu'on est pas sûr que la précision est atteinte c'est à dire tant que l'intervalle qu'on considère est plus grand que 0,000001.
+
+Créez un programme qui prend en entrée une fonction ***f***, et les bornes ***a*** et ***b*** de l'intervalle et affiche une valeur approchée de x à 0,000001 près.
+
+> Entrée : Une fonction ***f*** et deux réels ***a*** et ***b***.
+
+> Sortie : Une valeur à 0,000001 près d'une solution à l'équation ***f(x)=0*** renvoyée avec return.
+
+@[Recherche de zéros]({"stubs": ["Maths/zero_dicho.py"], "command": "python3 Maths/zero_dicho_Test.py"})
