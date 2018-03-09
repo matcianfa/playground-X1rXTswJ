@@ -76,3 +76,18 @@ Dans cette partie, on donne simplement une ***liste*** de nombres. Créez un pro
 @[Calcul de la médiane]({"stubs": ["Maths/stat_mediane.py"], "command": "python3 Maths/stat_mediane_Test.py"})
 
 ---
+
+##### Cas d'une série pondérée
+
+Dans cette partie, on vous donne en entrée deux listes de nombres : 
++ ***liste_valeurs*** qui est la série statistique.
++ ***liste_pondérations*** qui donne la pondération des éléments de la série statistique c'est à dire le nombre de fois ou les valeurs apparaissent.
+
+Créez un programme qui affiche la médianne de cette série statistique. Si la médiane ne tombe pas sur une valeur de la liste, on prendra la moyenne des deux nombres les plus proches.
+
+
+> Entrée : Deux listes de nombres ***liste_valeurs*** et ***liste_pondérations***.
+
+> Sortie : La médiane de cette série statistique affiché avec `print`.
+
+@[Calcul de la médiane]({"stubs": ["Maths/stat_mediane2.py"], "command": "python3 Maths/stat_mediane2_Test.py"})
