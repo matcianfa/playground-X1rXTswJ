@@ -7,10 +7,10 @@ import io
 
 #liste des couples input/output
 input_output=[\
-(((lambda x: 4*x+3),-2,0),-0.75),\
-(((lambda x : x**2-5*x+6),-2.5,0),-2),\
-(((lambda x : x**2-x-1),1,20),(1+sqrt(5))/2),\
-(((lambda x : tan(x)-x),4,5),4.493409734469959)\
+(((lambda x: 4*x+3),-2,0),-0.75,"4*x+3"),\
+(((lambda x : x**2-5*x+6),0,2.5),2,"x**2-5*x+6"),\
+(((lambda x : x**2-x-1),1,20),(1+sqrt(5))/2,"x**2-x-1"),\
+(((lambda x : tan(x)-x),4,5),4.493409734469959,"tan(x)-x")\
 ]
 
 
@@ -34,10 +34,10 @@ def fail():
 
 def test():
     try:
-      for inp,outp in input_output:
+      for inp,outp,txt in input_output:
         count1=mon_programme(*inp)
         assert abs(count1-outp)<=0.000001, "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(str(inp),str(count1),str(outp))
-        send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est {} et la valeur du zéro est {}".format(str(inp),str(count1),str(outp)))
+        send_msg("Tests validés","En testant f={}, a={} et b={} le résultat obtenu est {} et la valeur du zéro est {}".format(txt,str(inp[1]),str(inp[1]),str(count1),str(outp)))
       success()
     except AssertionError as e:
       fail()
