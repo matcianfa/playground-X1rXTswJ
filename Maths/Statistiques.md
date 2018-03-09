@@ -48,3 +48,17 @@ On donne en entrée une série statistique sous forme de ***liste*** de nombre. 
 
 ### Le mode
 
+Dans cette partie, on vous donne en entrée deux listes de nombres : 
++ ***liste_valeurs*** qui est la série statistique.
++ ***liste_pondérations*** qui donne la pondération des éléments de la série statistique c'est à dire le nombre de fois ou les valeurs apparaissent.
+
+Créez un programme qui affiche le mode de cette série statistique
+
+> Entrée : Deux listes de nombres ***liste_valeurs*** et ***liste_pondérations***.
+
+> Sortie : Le mode de cette série statistique affiché avec `print`. S'il y a plusieurs réponses possibles, on affichera seulement la première qui apparait dans la ***liste_valeurs***
+
+@[Calcul de le mode]({"stubs": ["Maths/stat_mode.py"], "command": "python3 Maths/stat_mode_Test.py"})
+
+---
+
