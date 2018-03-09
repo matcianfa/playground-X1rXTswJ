@@ -15,7 +15,7 @@ input_output=[\
 
 
 #message d'aide si besoin
-help="N'oublie pas d'utiliser print pour afficher le resultat"
+help="N'oublie pas d'utiliser return pour afficher le resultat"
 
 
 
@@ -37,7 +37,7 @@ def test():
       for inp,outp,txt in input_output:
         count1=mon_programme(*inp)
         assert abs(count1-outp)<=0.000001, "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(str(inp),str(count1),str(outp))
-        send_msg("Tests validés","En testant f={}, a={} et b={} le résultat obtenu est {} et la valeur du zéro est {}".format(txt,str(inp[1]),str(inp[1]),str(count1),str(outp)))
+        send_msg("Tests validés","En testant f(x)={}, a={} et b={} le résultat obtenu est {} et la valeur du zéro est {}".format(txt,str(inp[1]),str(inp[2]),str(count1),str(outp)))
       success()
     except AssertionError as e:
       fail()
