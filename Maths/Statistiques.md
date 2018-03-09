@@ -32,3 +32,19 @@ Exemple : si ***liste_valeurs***=[4,7,1] et ***liste_pondérations***=[3,5,2] ce
 @[Calcul de moyenne]({"stubs": ["Maths/stat_moyenne2.py"], "command": "python3 Maths/stat_moyenne2_Test.py"})
 
 ---
+
+### L'étendue
+
+On donne en entrée une série statistique sous forme de ***liste*** de nombre. Vous devez créer un programme qui affiche l'étendue de cette liste.
+
+> Entrée : Une ***liste*** de nombres.
+
+> Sortie : L'étendue de cette ***liste*** affichée avec `print`.
+
+
+@[Calcul de l'étendue]({"stubs": ["Maths/stat_etendue.py"], "command": "python3 Maths/stat_etendue_Test.py"})
+
+---
+
+### Le mode
+
