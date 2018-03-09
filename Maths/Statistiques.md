@@ -13,3 +13,22 @@ Dans cette partie, on vous donne en entrée une ***liste*** de nombres. Vous dev
 > Sortie : La moyenne de la ***liste*** affichée avec `print`.
 
 @[Calcul de moyenne]({"stubs": ["Maths/stat_moyenne1.py"], "command": "python3 Maths/stat_moyenne1_Test.py"})
+
+---
+
+#### Cas d'une série pondérée de nombres
+
+Dans cette partie, on vous donne en entrée deux listes de nombres : 
++ ***liste_valeurs*** qui est la série statistique.
++ ***liste_pondérations*** qui donne la pondération des éléments de la série statistique c'est à dire le nombre de fois ou les valeurs apparaissent.
+
+Exemple : si ***liste_valeurs***=[4,7,1] et ***liste_pondérations***=[3,5,2] cela signifie que le nombre 4 apparait 3 fois, le nombre 7 apparait 5 fois et le nombre 1 apparait 2 fois.
+
+> Entrée : Deux listes de nombres ***liste_valeurs*** et ***liste_pondérations***.
+
+> Sortie : La moyenne pondérée qui correspond à la série statistique donnée en entrée et affichée avec `print`.
+
+
+@[Calcul de moyenne]({"stubs": ["Maths/stat_moyenne2.py"], "command": "python3 Maths/stat_moyenne2_Test.py"})
+
+---
