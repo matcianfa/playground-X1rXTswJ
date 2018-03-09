@@ -7,7 +7,7 @@ import io
 
 #liste des couples input/output
 input_output=[\
-(((lambda x: 4*x+3),-2,0),-0,75),\
+(((lambda x: 4*x+3),-2,0),-0.75),\
 (((lambda x : x**2-5*x+6),-2.5,0),-2),\
 (((lambda x : x**2-x-1),1,20),(1+sqrt(5))/2),\
 (((lambda x : tan(x)-x),4,5),4.493409734469959)\
