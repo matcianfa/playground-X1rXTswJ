@@ -42,6 +42,7 @@ def fail():
     
 
 def test():
+    succes=0
     nombre_a_trouver=randint(1,2000)
     n_joueur=mon_programme("Go")
     n_IA=mon_programmeIA("Go")
@@ -52,7 +53,7 @@ def test():
         send_msg("Le juste prix !", "Le présentateur se tourne vers vous")
         send_msg("Le juste prix !", "Vous proposez "+str(n_joueur))
         if n_joueur==nombre_a_trouver:
-            success()
+            succes=1
             break
         elif n_joueur>nombre_a_trouver:
             send_msg("Le juste prix !", "Le présentateur vous dit plus petit !")
@@ -72,4 +73,26 @@ def test():
         else:
             send_msg("Le juste prix !", "Le présentateur lui dit plus grand !")
             n_IA=mon_programmeIA("Plus grand")
+    #On relance 10 tests au cas où c'etait de la chance la premiere fois
+    while succes<11:
+        nombre_a_trouver=randint(1,2000)
+        n_joueur=mon_programme("Go")
+        n_IA=mon_programmeIA("Go")
+        while 1:
+            if n_joueur==nombre_a_trouver:
+                succes+=1
+                break
+            elif n_joueur>nombre_a_trouver:
+                n_joueur=mon_programme("Plus petit")
+            else:
+                n_joueur=mon_programme("Plus grand")
+            if n_IA==nombre_a_trouver:
+                send_msg("Le juste prix !", "Vous avez gagné la première fois mais vous n'avez pas gagné les 10 parties jouées en aveugle pour éviter que vous ne gagniez par chance !")
+                fail()
+                break
+            elif n_IA>nombre_a_trouver:
+                n_IA=mon_programmeIA("Plus petit")
+            else:
+                n_IA=mon_programmeIA("Plus grand")  
+    if succes>=11: success()
 if __name__ == "__main__": test()
