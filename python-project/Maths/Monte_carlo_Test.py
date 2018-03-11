@@ -37,7 +37,7 @@ def test():
     try:
       for inp,outp,txt in input_output:
         count1=mon_programme(*inp)
-        assert abs(count1-outp)<0.03, "En testant les valeurs f(x)={}, a={} et b={} le résultat obtenu est {} au lieu de {}".format(str(txt),str(inp[1]),str(inp[2]),str(count1),str(outp))
+        assert abs(count1-outp)<0.01, "En testant les valeurs f(x)={}, a={} et b={} le résultat obtenu est {} au lieu de {}".format(str(txt),str(inp[1]),str(inp[2]),str(count1),str(outp))
         send_msg("Tests validés","En testant les valeurs f(x)={}, a={} et b={}, votre résultat est {} et la valeur réelle est {}".format(str(txt),str(inp[1]),str(inp[2]),str(count1),str(outp)))
       success()
     except AssertionError as e:
