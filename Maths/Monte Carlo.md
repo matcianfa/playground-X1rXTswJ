@@ -25,3 +25,6 @@ Créez un programme qui prend en entrée une fonction ***f*** et les deux bornes
 Si vous validez les tests, vous pourrez voir les aires calculées s'afficher.
 
 @[Calcul d'aire par la méthode de Monte Carlo]({"stubs": ["Maths/Monte_carlo.py","Maths/Trouver_max_fonction.py"], "command": "python3 Maths/Monte_carlo_Test.py"})
+
+@[Calcul d'aire par la méthode de Monte Carlo]({"stubs": ["Maths/Monte_carlo_plot.py","Maths/Trouver_max_fonction.py"], "command": "python3 Maths/Monte_carlo_plot_Test.py"})
+
