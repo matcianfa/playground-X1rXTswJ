@@ -16,7 +16,6 @@ def send_msg(channel, msg):
 
 
 def success():
-    send_msg("Tests validés","Bravo !")
     print("TECHIO> success true")
 
 
@@ -42,7 +41,7 @@ def test():
           send_msg("Jeu de Monty Hall", "Vous avez trouvé la bonne porte ! Bravo !")
           compteur+=1
         else:
-          send_msg("Jeu de Monty Hall", "Ce n'était pas la bonne porte. Il fallait choisir la porte n°".format(str(porte_gagnante)))
+          send_msg("Jeu de Monty Hall", "Ce n'était pas la bonne porte. Il fallait choisir la porte n°{}".format(str(porte_gagnante)))
       #On attaque le gros des tests.
       for i in range(1,nb_tests-10):
         porte_gagnante=randint(1,3)
@@ -55,8 +54,10 @@ def test():
       proportion=compteur/nb_tests
       if proportion>0.66:
         send_msg("Jeu de Monty Hall", "Bravo ! Votre proportion de victoire sur les {} essais est de {}".format(str(nb_tests),str(proportion)))
+        succes()
       else:
         send_msg("Jeu de Monty Hall", "Votre proportion de victoire sur les {} essais est de {}. C'est encore trop faible, revoyez votre stratégie.".format(str(nb_tests),str(proportion)))
+        fail()
     except AssertionError as e:
       fail()
       send_msg("Oops! ", e)
