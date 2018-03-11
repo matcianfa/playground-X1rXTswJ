@@ -3,7 +3,9 @@ plan:
   - title: Présentation
     plan:
       - title: Présentation
-        statement: markdowns/welcome.md 
+        statement: markdowns/welcome.md
+      - title: Bac à sable
+        statement: markdowns/Bac a sable.md 
   - title: Variables et fonctions mathématiques
     plan:
       - title: Introduction
