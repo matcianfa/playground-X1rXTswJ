@@ -31,7 +31,7 @@ Je vous invite à lire [Wikipédia](https://fr.wikipedia.org/wiki/Probl%C3%A8me_
 
 > Entrée et Sortie: Le ***numéro*** donné par le présentateur : 
 > + 0 pour indiquer que c'est la phase 1 et que vous devez renvoyer (avec `return`) un nombre entre 1 et 3. 
-> + 1, 2 ou 3 pour indiquer la porte qui est ouverte. Vous devez renvoyer (avec `return`) un nombre parmi les portes restantes **en utilisant la meilleur stratégie***.
+> + 1, 2 ou 3 pour indiquer la porte qui est ouverte. Vous devez renvoyer (avec `return`) un nombre parmi les portes restantes **en utilisant la meilleur stratégie**.
 
 > Pour gagner : De nombreuses parties seront simulées. Vous devez obtenir au final une proportion de parties gagnées d'au moins 0.66. Pour cela, vous devez bien choisir votre stratégie de choix de portes.
 
