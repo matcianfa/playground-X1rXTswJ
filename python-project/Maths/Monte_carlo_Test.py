@@ -25,6 +25,7 @@ def send_msg(channel, msg):
 
 
 def success():
+    print("TECHIO> open -s /project/target/ Maths/Monte_carlo.html")
     send_msg("Tests validés","Bravo !")
     print("TECHIO> success true")
 
