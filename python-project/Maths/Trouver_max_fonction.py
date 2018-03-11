@@ -8,7 +8,7 @@ def maximum(f,a,b):
   x=a
   maximum= f(a)
   #On essaye pour toutes les valeurs de x si f(x) est plus grand que le maximum qu'on a deja trouvé, en augmentant x du pas à chaque fois
-  while x<b:
+  while x<=b:
     y=f(x)
     if y>maximum:
       maximum=y
