@@ -54,7 +54,7 @@ def test():
       proportion=compteur/nb_tests
       if proportion>0.66:
         send_msg("Jeu de Monty Hall", "Bravo ! Votre proportion de victoire sur les {} essais est de {}".format(str(nb_tests),str(proportion)))
-        succes()
+        success()
       else:
         send_msg("Jeu de Monty Hall", "Votre proportion de victoire sur les {} essais est de {}. C'est encore trop faible, revoyez votre stratégie.".format(str(nb_tests),str(proportion)))
         fail()
