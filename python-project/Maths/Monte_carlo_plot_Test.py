@@ -9,7 +9,7 @@ import sys
 import io
 
 #Je transforme f quiest en texte en fonction
-f=lambda x : eval(str(f))
+f2=lambda x : eval(str(f))
 
 #pour afficher les axes
 def repere(ax):
@@ -45,13 +45,13 @@ def test():
       fig=plt.figure()
       #Dessin de la courbe
       l_x = np.linspace(a,b, 100)
-      l_y=np.array([f(x) for x in l_x])
+      l_y=np.array([f2(x) for x in l_x])
       plt.plot(l_x,l_y, color="blue")
       #Dessin des points calculés par mon_programme
-      l_x,l_y=mon_programme(f,a,b)
+      l_x,l_y=mon_programme(f2,a,b)
       l_x,l_y=l_x[:nombre_de_points_affichés],l_y[:nombre_de_points_affichés]
       for i in range(nombre_de_points_affichés):
-        if f(l_x[i])>l_y[i]:
+        if f2(l_x[i])>l_y[i]:
           plt.plot(l_x[i],l_y[i],".", color="cyan")
         else:
           plt.plot(l_x[i],l_y[i], ".", color="grey")      
