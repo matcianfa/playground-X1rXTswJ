@@ -3,6 +3,7 @@ from Monte_carlo_plot import mon_programme,f,a,b,nombre_de_points_affichés
 import matplotlib
 matplotlib.use('agg')
 import matplotlib.pyplot as plt
+import numpy as np
 from math import *
 import sys
 import io
@@ -51,9 +52,9 @@ def test():
       l_x,l_y=l_x[:nombre_de_points_affichés],l_y[:nombre_de_points_affichés]
       for i in range(nombre_de_points_affichés):
         if f(l_x[i])>l_y[i]:
-          plt.plot(l_x[i],l_y[i], color="cyan")
+          plt.plot(l_x[i],l_y[i],".", color="cyan")
         else:
-          plt.plot(l_x[i],l_y[i], color="grey")      
+          plt.plot(l_x[i],l_y[i], ".", color="grey")      
       fig.savefig('output.png', dpi=fig.dpi)
       success()
     except AssertionError as e:
