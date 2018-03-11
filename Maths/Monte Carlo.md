@@ -15,10 +15,11 @@ Décrivons à présent la méthode de Monte Carlo pour calculer l'aire sous la c
 3. On compte le nombre de points qui sont dans la surface que l'on cherche à approximer (ici on compte les points sous la courbe).
 4. L'approximation de l'aire cherchée est alors $`\dfrac{nombre\ de\ points\ dans\ la\ surface}{nombre\ total\ de\ points}\times Aire_{Rectangle\ choisi}`$
 
-Créez un programme qui prend en entrée une fonction ***f*** et les deux bornes ***a*** et ***b*** de l'intervalle et qui affiche (avec `return`) une approximation de l'aire  sous la courbe représentative de ***f*** sur l'intervalle [a,b] calculée par la méthode de Monte Carlo en utilisant 100 000 points aléatoires. Pour valider le test, il faut trouver une valeur à 0.01 près de la valeur exacte.
+Créez un programme qui prend en entrée une fonction ***f*** et les deux bornes ***a*** et ***b*** de l'intervalle et qui affiche (avec `return`) une approximation de l'aire  sous la courbe représentative de ***f*** sur l'intervalle [a,b] calculée par la méthode de Monte Carlo en utilisant 1 000 000 points aléatoires. Pour valider le test, il faut trouver une valeur à 0.01 près de la valeur exacte.
 
 ::: Aide
-Pour trouver le maximum de la fonction ***f*** sur l'intervalle [a,b], on pourra soit se créer une fonction personnelle qui fait le calcule ou bien utiliser directement la fonction ***maximum(f,a,b)*** dont vous pouvez voir le code en changeant d'onglet dans la fenetre de programmation ci dessous.
++ Pour chosir un point au hasard, on choisit son abscisse x au hasard entre ***a*** et ***b*** et son ordonnée y au hasard pour qu'il soit dans le rectangle qu'on a choisi (donc normalement entre 0 et le maximum de f). Pour choisir un nombre au hasard entre ***a*** et ***b***, on pourra utiliser la fonction ***uniform(a,b)***.
++ Pour trouver le maximum de la fonction ***f*** sur l'intervalle [a,b], on pourra soit se créer une fonction personnelle qui fait le calcule ou bien utiliser directement la fonction ***maximum(f,a,b)*** dont vous pouvez voir le code en changeant d'onglet dans la fenetre de programmation ci dessous.
 :::
 
 @[Calcul d'aire par la méthode de Monte Carlo]({"stubs": ["Maths/Monte_carlo.py","Maths/Trouver_max_fonction.py"], "command": "python3 Maths/Monte_carlo_Test.py"})
