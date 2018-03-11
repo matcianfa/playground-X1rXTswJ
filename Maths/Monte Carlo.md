@@ -22,4 +22,6 @@ Créez un programme qui prend en entrée une fonction ***f*** et les deux bornes
 + Pour trouver le maximum de la fonction ***f*** sur l'intervalle [a,b], on pourra soit se créer une fonction personnelle qui fait le calcule ou bien utiliser directement la fonction ***maximum(f,a,b)*** dont vous pouvez voir le code en changeant d'onglet dans la fenetre de programmation ci dessous.
 :::
 
+Si vous validez les tests, vous pourrez voir les aires calculées s'afficher.
+
 @[Calcul d'aire par la méthode de Monte Carlo]({"stubs": ["Maths/Monte_carlo.py","Maths/Trouver_max_fonction.py"], "command": "python3 Maths/Monte_carlo_Test.py"})
