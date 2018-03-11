@@ -5,6 +5,7 @@ matplotlib.use('agg')
 import matplotlib.pyplot as plt
 import numpy as np
 from math import *
+from Trouver_max_fonction import maximum
 import sys
 import io
 
@@ -42,6 +43,7 @@ def fail():
 
 def test():
     try:
+      compteur=0
       fig=plt.figure()
       #Dessin de la courbe
       l_x = np.linspace(a,b, 100)
@@ -52,10 +54,13 @@ def test():
       l_x,l_y=l_x[:nombre_de_points_affichés],l_y[:nombre_de_points_affichés]
       for i in range(nombre_de_points_affichés):
         if f2(l_x[i])>l_y[i]:
+          compteur+=1
           plt.plot(l_x[i],l_y[i],".", color="cyan")
         else:
           plt.plot(l_x[i],l_y[i], ".", color="grey")      
       fig.savefig('output.png', dpi=fig.dpi)
+      #J'affiche la valeur de l'approximation de l'aire
+      send_msg("Calcul de l'aire", "La valeur approchée de l'aire calculée avec les points affichés est {}".format(compteur*(b-a)*maximum(f2,a,b)/nombre_de_points_affichés))
       success()
     except AssertionError as e:
       fail()
