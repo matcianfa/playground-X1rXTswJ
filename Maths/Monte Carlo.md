@@ -10,5 +10,5 @@ Définissons d'abord ce qu'est l'aire sous la courbe représentative d'une fonct
 Décrivons à présent la méthode de Monte Carlo pour calculer l'aire sous la courbe d'une fonction f sur un intervalle [a,b] :
 1. On choisit un rectangle qui contient l'aire qui nous intéresse. Le plus simple est de prendre le rectangle dont un coté est le segment [AB] où A(a,0) et B(b,0) et dont l'autre coté vaut le maximum de f sur [a,b].
 
-![courbe et rectangle](/Courbe et rectangle.png) 
+![courbe et rectangle](Courbe_et_rectangle.png) 
 
