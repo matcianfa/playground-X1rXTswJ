@@ -9,7 +9,7 @@ import sys
 import io
 
 #Je transforme f quiest en texte en fonction
-f=lambda x:eval(f)
+f=lambda x : eval(str(f))
 
 #pour afficher les axes
 def repere(ax):
