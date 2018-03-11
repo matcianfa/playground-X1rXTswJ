@@ -26,5 +26,13 @@ Si vous validez les tests, vous pourrez voir les aires calculées s'afficher.
 
 @[Calcul d'aire par la méthode de Monte Carlo]({"stubs": ["Maths/Monte_carlo.py","Maths/Trouver_max_fonction.py"], "command": "python3 Maths/Monte_carlo_Test.py"})
 
-@[Calcul d'aire par la méthode de Monte Carlo]({"stubs": ["Maths/Monte_carlo_plot.py","Maths/Trouver_max_fonction.py"], "command": "python3 Maths/Monte_carlo_plot_Test.py"})
+---
+
+### Visualisation
+
+On va tenter de visualiser ce que donne cette méthode. Pour cela, vous devez copier-coller votre code précédent dans la fenêtre qui suit puis le modifier pour qu'il renvoie (avec return) non plus l'aire mais la liste des abscisses et la liste des ordonnées des points que votre programme tire au hasard. Pour renvoyer les deux listes, on écrira sous cette forme (à vous de mettre votre propre nom de liste) : `return liste_abscisses,liste_ordonnées`
+
+Une fois que votre nouveau programme marche, vous pourrez modifier les paramètres comme le nombre de points affichés (ne montez pas trop haut car afficher beaucoup de point prend du temps) ou bien la fonction (attention de bien l'écrire sous forme de chaine de caractère comme dans l'exemple donné)
+
+@[Visualisation de la méthode de Monte Carlo]({"stubs": ["Maths/Monte_carlo_plot.py","Maths/Trouver_max_fonction.py"], "command": "python3 Maths/Monte_carlo_plot_Test.py"})
 
