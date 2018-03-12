@@ -1,6 +1,8 @@
 # Calcul approché d'aires par la méthode des rectangles.
 `Difficulté : Moyenne`
 
+### Présentation
+
 Le but de cette fiche est de présenter la méthode des rectangles pour calculer l'aire sous une courbe représentative d'une fonction. Pour simplifier la présentation, on supposera ici que nos fonctions sont toutes positives sur l'intervalle sur lequel on les considère.
 
 Définissons d'abord ce qu'est l'aire sous la courbe représentative d'une fonction sur un intervalle [a,b] : C'est tout simplement l'aire comprise entre la courbe représentative, l'axe des abscisses et les droites x=a et x=b.
@@ -19,6 +21,14 @@ Pour cela, on procède comme suit :
 
 Finalement, l'aire de tous ces rectangles ainsi construits sera : $`\frac{b-a}n \left(f(x_0)+f(x_1)+\dots+f(x_{n-1})\right)`$.
 
+Dans la fenêtre ci-dessous, vous avez juste à appuyer sur Run pour voir une illustration. Vous pouvez modifier les paramètres pour voir les conséquences.
+
+@[Illustration de la méthode des rectangles]({"stubs": ["Maths/Methode_rectangles_illustration.py"], "command": "python3 Maths/Methode_rectangles_illustration_Test.py"})
+
+---
+
+### A vous de jouer
+
 Créez un programme qui prend en entrée ***f***, ***a***, ***b*** et ***n*** et affiche (avec `return`) l'aire calculée par la méthode des rectangles.
 
 > Entrée : Une fonction ***f***, les bornes de l'intervalle ***a*** et ***b*** et le nombre de subdivisions ***n***.
@@ -36,6 +46,8 @@ Graphiquement cela correspond à ces rectangles :
 ![milieu](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Int%C3%A9gration_num_rectangles.svg/300px-Int%C3%A9gration_num_rectangles.svg.png)
 
 Copiez collez votre programme précédent dans la fenêtre ci-dessous et modifier le pour qu'il calcule l'aire en utilisant le point au milieu de chaque intervalle.
+
+Vous pourrez constater la nette amélioration de la précision par ce simple petit changement.
 
 @[Méthode des rectangles avec point au milieu]({"stubs": ["Maths/Methode_rectangles_milieu.py"], "command": "python3 Maths/Methode_rectangles_milieu_Test.py"})
 
