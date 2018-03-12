@@ -8,6 +8,6 @@ Pour vérifier si un entier ***n*** est divisible par un entier ***k***, il suff
 
 > Entrée : Un nombre entier ***n***
 
-> Sortie : "PAIR" ou "IMPAIR"
+> Sortie : "PAIR" ou "IMPAIR". (N'oubliez pas les guillemets)
 
 @[Parité d'un nombre]({"stubs": ["Les_conditions/nombre_pair.py"], "command": "python3 Les_conditions/nombre_pair_Test.py"})
