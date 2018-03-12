@@ -9,7 +9,7 @@ Le but de cet exercice est de créer un programme qui nous dit si le triangle es
 
 > Entrée : Trois longueurs ***a***, ***b*** et ***c***.
 
-> Sortie : Affiche "CONSTRUCTIBLE" si on peut construire un triangle ayant des cotés de ces trois longueurs ou bien "PAS CONSTRUCTIBLE" sinon. N'oubliez pas les guillemets.
+> Sortie : Affiche "CONSTRUCTIBLE" si on peut construire un triangle ayant des cotés de ces trois longueurs ou bien "PAS CONSTRUCTIBLE" sinon. N'oubliez pas les guillemets.\ 
 > Pour les plus rapides, vous pouvez afficher "PLAT" si le triangle qu'on peut construire est plat. 
 
 @[Triangles constructibles ?]({"stubs": ["Les_conditions/Triangles_constructibles.py"], "command": "python3 Les_conditions/Triangles_constructibles_Test.py"})
