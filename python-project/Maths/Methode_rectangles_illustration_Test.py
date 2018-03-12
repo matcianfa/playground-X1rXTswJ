@@ -52,22 +52,22 @@ def test():
     try:
       compteur=0
       fig=plt.figure()
-        ax = plt.subplot(111)
-        #Dessin de la courbe
-        l_x = np.linspace(a,b, 100)
-        l_y=np.array([f2(x) for x in l_x])
-        plt.plot(l_x,l_y, color="blue")
-        #Dessin des rectangles
-        x=a
-        pas = (b-a)/n
-        for _ in range(n):
-            ax.add_artist(matplotlib.patches.Rectangle((x, 0), pas, f2(x), facecolor = 'cyan', edgecolor='black'))
-            x+=pas
-        xmin,xmax=plt.xlim()
-        plt.xlim(xmin-0.2,xmax+0.2)
-        ymin,ymax=plt.ylim()
-        plt.ylim(min(0,ymin),ymax+0.3) 
-        repere(ax)
+      ax = plt.subplot(111)
+      #Dessin de la courbe
+      l_x = np.linspace(a,b, 100)
+      l_y=np.array([f2(x) for x in l_x])
+      plt.plot(l_x,l_y, color="blue")
+      #Dessin des rectangles
+      x=a
+      pas = (b-a)/n
+      for _ in range(n):
+          ax.add_artist(matplotlib.patches.Rectangle((x, 0), pas, f2(x), facecolor = 'cyan', edgecolor='black'))
+          x+=pas
+      xmin,xmax=plt.xlim()
+      plt.xlim(xmin-0.2,xmax+0.2)
+      ymin,ymax=plt.ylim()
+      plt.ylim(min(0,ymin),ymax+0.3) 
+      repere(ax)
       fig.savefig('output.png', dpi=fig.dpi)
       #J'affiche la valeur de l'approximation de l'aire
       send_msg("Calcul de l'aire", "La valeur approchée de l'aire calculée avec ces rectangles est {}".format(rectangles(f2,a,b,n)))
