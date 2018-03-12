@@ -18,7 +18,7 @@ Le but est de créer un programme qui prend en entrée le ***numéro*** de sécu
 
 > Entrée : Le ***numéro*** et la ***clé***
 
-> Sortie : "VALIDE" si la ***clé*** correspond au ***numéro*** et "NON VALIDE" sinon.
+> Sortie : "VALIDE" si la ***clé*** correspond au ***numéro*** et "NON VALIDE" sinon. N'oubliez pas les guillemets.
 
 
 @[Validité du numéro de sécurité sociale]({"stubs": ["Les_conditions/Numero_securite_sociale.py"], "command": "python3 Les_conditions/Numero_securite_sociale_Test.py"})
