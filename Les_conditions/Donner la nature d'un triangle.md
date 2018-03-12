@@ -20,6 +20,6 @@ Ce code affichera "ISOCELE" pour un triangle equilatéral car la condition isoc�
 
 > Entrée : Les trois longueurs ***a***, ***b*** et ***c*** du triangle.
 
-> Sortie : Les propriétés du triangle parmi : "RECTANGLE", "RECTANGLE ISOCELE", "ISOCELE", "EQUILATERAL", "QUELCONQUE" (et pour les plus rapide : "TRIANGLE D'OR").
+> Sortie : Les propriétés du triangle parmi : "RECTANGLE", "RECTANGLE ISOCELE", "ISOCELE", "EQUILATERAL", "QUELCONQUE" (et pour les plus rapide : "TRIANGLE D'OR"). N'oubliez pas les guillemets.
 
 @[Nature d'un triangle]({"stubs": ["Les_conditions/Nature_d_un_triangle.py"], "command": "python3 Les_conditions/Nature_d_un_triangle_Test.py"})
