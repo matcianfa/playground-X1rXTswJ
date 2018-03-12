@@ -54,7 +54,7 @@ def test():
       fig=plt.figure()
       ax = plt.subplot(111)
       #Dessin de la courbe
-      l_x = np.linspace(a,b, 100)
+      l_x = np.linspace(a,b, 500)
       l_y=np.array([f2(x) for x in l_x])
       plt.plot(l_x,l_y, color="blue")
       #Dessin des rectangles
