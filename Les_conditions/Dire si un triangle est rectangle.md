@@ -6,7 +6,7 @@ Faire un programme qui affiche si un triangle dont on donne les angles est recta
 
 > Entrée : Les trois angles ***a***, ***b*** et ***c*** en degrés.
 
-> Sortie : "RECTANGLE" si le triangle est rectangle, "PAS RECTANGLE" sinon.
+> Sortie : "RECTANGLE" si le triangle est rectangle, "PAS RECTANGLE" sinon. N'oubliez pas les guillemets.
 
 @[Triangle rectangle ? Cas 2]({"stubs": ["Les_conditions/Triangle_rectangle_0.py"], "command": "python3 Les_conditions/Triangle_rectangle_0_Test.py"})
 
@@ -18,7 +18,7 @@ Faire un programme qui affiche si un triangle dont on donne les longueurs est re
 
 > Entrée : Les trois longueurs ***a***, ***b*** et ***c*** du triangle.
 
-> Sortie : "RECTANGLE" si le triangle est rectangle, "PAS RECTANGLE" sinon.
+> Sortie : "RECTANGLE" si le triangle est rectangle, "PAS RECTANGLE" sinon. N'oubliez pas les guillemets.
 
 @[Triangle rectangle ? Cas 2]({"stubs": ["Les_conditions/Triangle_rectangle_1.py"], "command": "python3 Les_conditions/Triangle_rectangle_1_Test.py"})
 
@@ -30,6 +30,6 @@ Faire un programme qui affiche si le triangle dont on donne les coordonées des 
 
 > Entrée : Les coordonnées ***x_a, y_a, x_b, y_b, x_c, y_c*** des trois points A, B, et C.
 
-> Sortie : "RECTANGLE" si le triangle est rectangle, "PAS RECTANGLE" sinon.
+> Sortie : "RECTANGLE" si le triangle est rectangle, "PAS RECTANGLE" sinon. N'oubliez pas les guillemets.
 
 @[Triangle rectangle ? Cas 3]({"stubs": ["Les_conditions/Triangle_rectangle_2.py"], "command": "python3 Les_conditions/Triangle_rectangle_2_Test.py"})
