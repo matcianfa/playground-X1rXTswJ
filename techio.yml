@@ -146,6 +146,8 @@ plan:
         statement: Maths/Statistiques.md
       - title: La recherche par dichotomie
         statement: Maths/Dichotomie.md
+      - title: La méthode des rectangles
+        statement: Maths/methode_rectangles.md
       - title: La méthode de Monte Carlo
         statement: Maths/Monte Carlo.md        
     
