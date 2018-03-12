@@ -1,5 +1,5 @@
 #Ne pas oublier de changer le module à importer
-from Methode_rectangles import mon_programme
+from Methode_rectangles_milieu import mon_programme
 from math import *
 import sys
 import io
