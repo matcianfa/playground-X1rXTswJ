@@ -52,19 +52,21 @@ def test():
     try:
       compteur=0
       fig=plt.figure()
-      #Dessin de la courbe
-      l_x = np.linspace(a,b, 100)
-      l_y=np.array([f2(x) for x in l_x])
-      plt.plot(l_x,l_y, color="blue")
-      #Dessin des points calculés par mon_programme
-      l_x,l_y=mon_programme(f2,a,b)
-      l_x,l_y=l_x[:nombre_de_points_affichés],l_y[:nombre_de_points_affichés]
-      for i in range(nombre_de_points_affichés):
-        if f2(l_x[i])>l_y[i]:
-          compteur+=1
-          plt.plot(l_x[i],l_y[i],".", color="cyan")
-        else:
-          plt.plot(l_x[i],l_y[i], ".", color="grey")      
+        ax = plt.subplot(111)
+        #Dessin de la courbe
+        l_x = np.linspace(a,b, 100)
+        l_y=np.array([f2(x) for x in l_x])
+        plt.plot(l_x,l_y, color="blue")
+        #Dessin des rectangles
+        x=a
+        pas = (b-a)/n
+        for _ in range(n):
+            ax.add_artist(matplotlib.patches.Rectangle((x, 0), pas, f2(x), facecolor = 'cyan', edgecolor='black'))
+            x+=pas
+        xmin,xmax=plt.xlim()
+        plt.xlim(xmin-0.2,xmax+0.2)
+        ymin,ymax=plt.ylim()
+        plt.ylim(min(0,ymin),ymax+0.3)    
       fig.savefig('output.png', dpi=fig.dpi)
       #J'affiche la valeur de l'approximation de l'aire
       send_msg("Calcul de l'aire", "La valeur approchée de l'aire calculée avec ces rectangles est {}".format(rectangles(f2,a,b,n)))
