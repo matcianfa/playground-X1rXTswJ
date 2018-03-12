@@ -4,6 +4,6 @@
 
 > Entrée : les coefficients ***a***, ***b*** et ***c*** d'un polynôme du second degré.
 
-> Sortie : Le nombre de solutions réelles.
+> Sortie : Le nombre de solutions réelles (juste le nombre, en chiffre).
 
 @[Nombre de racines]({"stubs": ["Les_conditions/Nb_racines_poly_second_degre.py"], "command": "python3 Les_conditions/Nb_racines_poly_second_degre_Test.py"})
