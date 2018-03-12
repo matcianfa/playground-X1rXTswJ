@@ -66,7 +66,8 @@ def test():
         xmin,xmax=plt.xlim()
         plt.xlim(xmin-0.2,xmax+0.2)
         ymin,ymax=plt.ylim()
-        plt.ylim(min(0,ymin),ymax+0.3)    
+        plt.ylim(min(0,ymin),ymax+0.3) 
+        repere(ax)
       fig.savefig('output.png', dpi=fig.dpi)
       #J'affiche la valeur de l'approximation de l'aire
       send_msg("Calcul de l'aire", "La valeur approchée de l'aire calculée avec ces rectangles est {}".format(rectangles(f2,a,b,n)))
