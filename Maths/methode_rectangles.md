@@ -26,3 +26,16 @@ Créez un programme qui prend en entrée ***f***, ***a***, ***b*** et ***n*** et
 > Sortie : L'aire calculée avec la méthode des rectangles et affichée avec `return`.
 
 @[Méthode des rectangles]({"stubs": ["Maths/Methode_rectangles.py"], "command": "python3 Maths/Methode_rectangles_Test.py"})
+
+---
+
+### Amélioration possible
+
+On peut améliorer sensiblement la méthode précédente pour qu'elle donne une meilleure approximation de l'aire cherchée en prenant simplement $`\frac{f(x_i)+f(x_{i+1})}2`$ au lieu de $`f(x_i)`$ à chaque étape comme hauteur des rectangles. Cela revient à prendre le rectangle qui passe par le point sur la courbe au milieu de chaque intervalle plutôt que sur le bord.  
+Graphiquement cela correspond à ces rectangles :
+![milieu](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Int%C3%A9gration_num_rectangles.svg/300px-Int%C3%A9gration_num_rectangles.svg.png)
+
+Copiez collez votre programme précédent dans la fenêtre ci-dessous et modifier le pour qu'il calcule l'aire en utilisant le point au milieu de chaque intervalle.
+
+@[Méthode des rectangles avec point au milieu]({"stubs": ["Maths/Methode_rectangles_milieu.py"], "command": "python3 Maths/Methode_rectangles_milieu_Test.py"})
+
