@@ -65,7 +65,7 @@ def test():
           ymin,ymax=plt.ylim()
           plt.ylim(min(0,ymin)-0.1*(ymax-ymin),ymax+0.1*(ymax-ymin)) 
           repere(ax)
-          assert l_x==rep_l_x and l_y==rep_l_y , "En testant les valeurs f(x)={}, a={}, b={} et n={} les listes obtenues sont {} et {} au lieu de {} et {}".format(str(txt),str(a),str(b),str(n),str(l_x),str(l_y),str(rep_l_x),str(rep_l_y))
+          assert all(round(x-r,5)==0.0 for x,r in zip(l_x,rep_l_x) and all(round(y-r,5)==0.0 for y,r in zip(l_y,rep_l_y) , "En testant les valeurs f(x)={}, a={}, b={} et n={} les listes obtenues sont {} et {} au lieu de {} et {}".format(str(txt),str(a),str(b),str(n),str(l_x),str(l_y),str(rep_l_x),str(rep_l_y))
           send_msg("Tests validés","En testant les valeurs f(x)={}, a={}, b={} et n={}, les listes obtenues sont bien {} et {}".format(str(txt),str(a),str(b),str(n),str(l_x),str(l_y)))
       fig.savefig('output.png', dpi=fig.dpi)
       success()
