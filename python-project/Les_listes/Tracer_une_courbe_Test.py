@@ -60,11 +60,13 @@ def test():
           rep_l_x = list(np.linspace(a,b, n+1))
           rep_l_y=[f(x) for x in rep_l_x]
           l_x,l_y=mon_programme(f,a,b,n)
+          plt.axis('equal')
           xmin,xmax=plt.xlim()
           plt.xlim(xmin-0.1*(xmax-xmin),xmax+0.1*(xmax-xmin))
           ymin,ymax=plt.ylim()
           plt.ylim(min(0,ymin)-0.1*(ymax-ymin),ymax+0.1*(ymax-ymin)) 
           repere(ax)
+          plt.legend("f(x)="+txt)
           assert all(round(x-r,5)==0.0 for x,r in zip(l_x,rep_l_x)) and all(round(y-r,5)==0.0 for y,r in zip(l_y,rep_l_y)) , "En testant les valeurs f(x)={}, a={}, b={} et n={} les listes obtenues sont {} et {} au lieu de {} et {}".format(str(txt),str(a),str(b),str(n),str(l_x),str(l_y),str(rep_l_x),str(rep_l_y))
           send_msg("Tests validés","En testant les valeurs f(x)={}, a={}, b={} et n={}, Vous avez obtenu les bonnes listes de valeurs.".format(str(txt),str(a),str(b),str(n)))
       fig.savefig('output.png', dpi=fig.dpi)
