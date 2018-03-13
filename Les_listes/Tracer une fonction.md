@@ -32,7 +32,8 @@ Le but de cet exercice est de créer un programme qui prend en entrée ***f***, 
 
 > Entrée : La fonction ***f***, les bornes ***a*** et ***b*** de l'intervalle sur lequel on trace la fonction et le nombre ***n*** de segments pour tracer la courbe.
 
-> Sortie : Votre programme devra tracer avec `plt.plot` en suivant la méthode décrite au dessus et il devra de plus renvoyer les deux listes ***liste_abscisses*** et ***liste_ordonnées*** qui ont servi à tracer la courbe en utilisant `return liste_abscisses,liste_ordonnées`. Cette dernière étape ne sert qu'à vérifier que votre programme est juste. C'est inutile si on souhaite juste tracer la courbe.
+> Sortie : Votre programme devra tracer avec `plt.plot` en suivant la méthode décrite au dessus et il devra de plus renvoyer les deux listes ***liste_abscisses*** et ***liste_ordonnées*** qui ont servi à tracer la courbe en utilisant `return liste_abscisses,liste_ordonnées`. Cette dernière étape ne sert qu'à vérifier que votre programme est juste. C'est inutile si on souhaite juste tracer la courbe.  
+> On fera attention à ce que le début de la liste des abscisses soit bien ***a*** et la fin ***b*** car les erreurs d'arrondis peuvent faire sortir de l'intervalle [a,b] et créer des erreurs.
 
 Remarques sur les courbes affichées : Sur chaque ligne, c'est la même fonction qui est représentée une première fois avec une faible valeur de n et la seconde avec une valeur convenable.
 
