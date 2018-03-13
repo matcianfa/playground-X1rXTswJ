@@ -63,7 +63,7 @@ def test():
           ax.add_artist(matplotlib.patches.Polygon(list(zip([x,x+pas,x+pas,x],[0,0,f2(x+pas),f2(x)])),closed=True, facecolor = 'cyan', edgecolor='black'))
           x+=pas
       xmin,xmax=plt.xlim()
-      plt.xlim(xmin-0.2,xmax+0.2)
+      plt.xlim(xmin-0.1(xmax-xmin),xmax+0.1(xmax-xmin))
       ymin,ymax=plt.ylim()
       plt.ylim(min(0,ymin)-0.1*(ymax-ymin),ymax+0.1*(ymax-ymin)) 
       repere(ax)
