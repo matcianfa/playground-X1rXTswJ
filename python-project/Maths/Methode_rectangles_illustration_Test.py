@@ -64,9 +64,9 @@ def test():
           ax.add_artist(matplotlib.patches.Rectangle((x, 0), pas, f2(x), facecolor = 'cyan', edgecolor='black'))
           x+=pas
       xmin,xmax=plt.xlim()
-      plt.xlim(xmin-0.2,xmax+0.2)
+      plt.xlim(xmin-0.1(xmax-xmin),xmax+0.1(xmax-xmin))
       ymin,ymax=plt.ylim()
-      plt.ylim(min(0,ymin)-0.2,ymax+0.3) 
+      plt.ylim(min(0,ymin)-0.1*(ymax-ymin),ymax+0.1*(ymax-ymin)) 
       repere(ax)
       fig.savefig('output.png', dpi=fig.dpi)
       #J'affiche la valeur de l'approximation de l'aire
