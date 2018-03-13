@@ -33,7 +33,7 @@ Créez un programme qui prend en entrée ***f***, ***a***, ***b*** et ***n*** et
 
 > Entrée : Une fonction ***f***, les bornes de l'intervalle ***a*** et ***b*** et le nombre de subdivisions ***n***.
 
-> Sortie : L'aire calculée avec la méthode des rectangles et affichée avec `return`.
+> Sortie : L'aire calculée avec la méthode des rectangles et affichée avec `return`. L'erreur admise pour passer les tests est de 0.05 par rapport à la valeur exacte.
 
 @[Méthode des rectangles]({"stubs": ["Maths/Methode_rectangles.py"], "command": "python3 Maths/Methode_rectangles_Test.py"})
 
@@ -47,7 +47,7 @@ Graphiquement cela correspond à ces rectangles :
 
 Copiez collez votre programme précédent dans la fenêtre ci-dessous et modifier le pour qu'il calcule l'aire en utilisant le point au milieu de chaque intervalle.
 
-Vous pourrez constater la nette amélioration de la précision par ce simple petit changement.
+Vous pourrez constater la nette amélioration de la précision par ce simple petit changement. L'erreur admise pour passer les tests est de 0.001 par rapport à la valeur exacte.
 
 @[Méthode des rectangles avec point au milieu]({"stubs": ["Maths/Methode_rectangles_milieu.py"], "command": "python3 Maths/Methode_rectangles_milieu_Test.py"})
 
