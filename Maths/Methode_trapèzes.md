@@ -15,7 +15,7 @@ L'idée est d'approcher l'aire sous la courbe par des trapèzes dont l'aire est 
 Pour cela, on procède comme suit :
 1. On commence par choisir le nombre ***n*** de trapèzes qu'on veut sous la courbe . Plus le nombre sera grand, plus la surface formée par les trapèzes sera proche de l'aire sous la courbe.
 1. On répartit sur [a,b] ***n+1*** points de la façon équitable suivante : $`x_0=a`$ et $`x_{n+1}=x_n+\frac{b-a} n`$.
-1. On construit le premier trapèze de largeur $`\frac{b-a} n`$ entre $`x_0`$ et $`x_1`$ sur l'axe des abscisses et dont les bases mesurent $`f(x_0)`$ et $`f(x_1)`$. Son aire est donc de $`\dfrac{(base1+base2)\times hauteur}2=  \frac{\left(f(x_0)+f(x_1)\right)\times\frac{b-a}n`}{2}$
+1. On construit le premier trapèze de largeur $`\frac{b-a} n`$ entre $`x_0`$ et $`x_1`$ sur l'axe des abscisses et dont les bases mesurent $`f(x_0)`$ et $`f(x_1)`$. Son aire est donc de $`\dfrac{(base1+base2)\times hauteur}2=  \frac{\left(f(x_0)+f(x_1)\right)\times\frac{b-a}n`}{2}`$
 1. On contruit le deuxième trapèze juste à coté de même largeur $`\frac{b-a} n`$ mais qui  cette fois ci est entre $`x_1`$ et $`x_2`$ sur l'axe des abscisses et dont les bases mesurent $`f(x_1)`$ et $`f(x_2)`$. Son aire est donc de $`\dfrac{(base1+base2)\times hauteur}2=  \frac{\left(f(x_1)+f(x_2)\right)\times\frac{b-a}n`}{2}$. 
 1. On continue ainsi jusqu'à arriver au dernier trapèze qui finira en b donc commencera à $`x_{n-1}`$. Son aire sera $`\frac{\left(f(x_{n-1})+f(x_n)\right)\times\frac{b-a}n`}{2}`$
 
