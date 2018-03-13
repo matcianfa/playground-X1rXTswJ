@@ -11,10 +11,10 @@ from Tracer_une_courbe import mon_programme
 input_output=[\
 ((lambda x:x**2,0,4,5),"x²"),\
 ((lambda x:x**2,0,4,100),"x²"),\
-((lambda x:sqrt(1-x**2),-1,1,10),"racine(1-x²) (C'est un demi cercle de rayon 1 donc on est censé trouver pi/2)"),\
-((lambda x:sqrt(1-x**2),-1,1,100),"racine(1-x²) (C'est un demi cercle de rayon 1 donc on est censé trouver pi/2)"),\
-((lambda x:exp(-x**2/2)/sqrt(2*pi),-3,3,10),"exp(-x²/2) (C'est la courbe de Gauss)"),\
-((lambda x:exp(-x**2/2)/sqrt(2*pi),-3,3,100),"exp(-x²/2) (C'est la courbe de Gauss)"),\
+((lambda x:sqrt(1-x**2),-1,1,10),"racine(1-x²)"),\
+((lambda x:sqrt(1-x**2),-1,1,100),"racine(1-x²)"),\
+((lambda x:exp(-x**2/2)/sqrt(2*pi),-3,3,10),"exp(-x²/2)"),\
+((lambda x:exp(-x**2/2)/sqrt(2*pi),-3,3,100),"exp(-x²/2)"),\
 ((lambda x:x*(1-x)*(sin(200*x*(1-x)))**2,0,1,20),"x(1-x)sin²(200*x*(1-x))"),\
 ((lambda x:x*(1-x)*(sin(200*x*(1-x)))**2,0,1,500),"x(1-x)sin²(200*x*(1-x))"),\
 ((lambda x:(cos(20*pi*x)),0,10,100),"cos(20*pi*x)"),\
@@ -65,7 +65,7 @@ def test():
           ymin,ymax=plt.ylim()
           plt.ylim(min(0,ymin)-0.1*(ymax-ymin),ymax+0.1*(ymax-ymin)) 
           repere(ax)
-          plt.title("f(x)="+txt)
+          if compteur%2==1 : plt.ylabel("f(x)="+txt)
           assert all(round(x-r,5)==0.0 for x,r in zip(l_x,rep_l_x)) and all(round(y-r,5)==0.0 for y,r in zip(l_y,rep_l_y)) , "En testant les valeurs f(x)={}, a={}, b={} et n={} les listes obtenues sont {} et {} au lieu de {} et {}".format(str(txt),str(a),str(b),str(n),str(l_x),str(l_y),str(rep_l_x),str(rep_l_y))
           send_msg("Tests validés","En testant les valeurs f(x)={}, a={}, b={} et n={}, Vous avez obtenu les bonnes listes de valeurs.".format(str(txt),str(a),str(b),str(n)))
       fig.savefig('output.png', dpi=fig.dpi)
