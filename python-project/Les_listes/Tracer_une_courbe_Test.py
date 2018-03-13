@@ -1,5 +1,4 @@
 #Ne pas oublier de changer le module à importer
-from Tracer_une_courbe import mon_programme
 import matplotlib
 matplotlib.use('agg')
 import matplotlib.pyplot as plt
@@ -7,7 +6,7 @@ import sys
 import io
 import numpy as np
 from math import *
-
+from Tracer_une_courbe import mon_programme
 
 input_output=[\
 ((lambda x:x**2,0,4,10),"x²"),\
