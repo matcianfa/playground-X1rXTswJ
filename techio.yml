@@ -98,6 +98,8 @@ plan:
         statement: Les_listes/Plus petits elements.md
       - title: Retirer les doublons
         statement: Les_listes/Retirer les doublons.md
+      - title: Tracer de courbes
+        statement: Les_listes/Tracer une fonction.md 
       - title: Triangle de Pascal
         statement: Les_listes/Triangle de Pascal.md
       - title: Discrimination de nombres
