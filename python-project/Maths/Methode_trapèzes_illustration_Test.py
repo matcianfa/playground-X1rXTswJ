@@ -18,9 +18,9 @@ help="N'oublie pas d'utiliser print pour afficher le resultat"
 def trapezes(f,a,b,n):
     pas=(b-a)/n
     x=a+pas
-    somme=f(a)+f(b)
+    somme=(f(a)+f(b))/2
     for _ in range(n-1):
-        somme+=f(x)/2
+        somme+=f(x)
         x+=pas
     return  somme*pas
     
