@@ -33,6 +33,6 @@ Créez un programme qui prend en entrée ***f***, ***a***, ***b*** et ***n*** et
 
 > Entrée : Une fonction ***f***, les bornes de l'intervalle ***a*** et ***b*** et le nombre de subdivisions ***n***.
 
-> Sortie : L'aire calculée avec la méthode des trapèzes et affichée avec `return`.
+> Sortie : L'aire calculée avec la méthode des trapèzes et affichée avec `return`. L'erreur admise pour passer les tests est de 0.0001 par rapport à la valeur exacte.
 
 @[Méthode des trapèzes]({"stubs": ["Maths/Methode_trapèzes.py"], "command": "python3 Maths/Methode_trapèzes_Test.py"})
