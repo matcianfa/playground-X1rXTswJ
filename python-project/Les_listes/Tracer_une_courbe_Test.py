@@ -9,16 +9,16 @@ from math import *
 from Tracer_une_courbe import mon_programme
 
 input_output=[\
-((lambda x:x**2,0,4,10),"x²"),\
+((lambda x:x**2,0,4,5),"x²"),\
 ((lambda x:x**2,0,4,100),"x²"),\
 ((lambda x:sqrt(1-x**2),-1,1,10),"racine(1-x²) (C'est un demi cercle de rayon 1 donc on est censé trouver pi/2)"),\
 ((lambda x:sqrt(1-x**2),-1,1,100),"racine(1-x²) (C'est un demi cercle de rayon 1 donc on est censé trouver pi/2)"),\
-((lambda x:exp(-x**2/2)/sqrt(2*pi),-1,1,10),"exp(-x²/2) (C'est la courbe de Gauss)"),\
-((lambda x:exp(-x**2/2)/sqrt(2*pi),-1,1,100),"exp(-x²/2) (C'est la courbe de Gauss)"),\
+((lambda x:exp(-x**2/2)/sqrt(2*pi),-3,3,10),"exp(-x²/2) (C'est la courbe de Gauss)"),\
+((lambda x:exp(-x**2/2)/sqrt(2*pi),-3,3,100),"exp(-x²/2) (C'est la courbe de Gauss)"),\
 ((lambda x:x*(1-x)*(sin(200*x*(1-x)))**2,0,1,20),"x(1-x)sin²(200*x*(1-x))"),\
 ((lambda x:x*(1-x)*(sin(200*x*(1-x)))**2,0,1,500),"x(1-x)sin²(200*x*(1-x))"),\
 ((lambda x:(cos(20*pi*x)),0,10,100),"cos(20*pi*x)"),\
-((lambda x:(cos(20*pi*x)),0,10,2000),"cos(20*pi*x)"),\
+((lambda x:(cos(20*pi*x)),0,10,1000),"cos(20*pi*x)"),\
 ]
 
 #message d'aide si besoin
