@@ -5,11 +5,11 @@ Pour tracer une courbe, une calculatrice ou un ordinateur ne calcule pas les coo
 
 On considère donc une fonction ***f*** sur un intervalle [a,b]. On note ***n*** le nombre de segments que nous allons tracer pour représenter notre courbe.
 Pour ce faire, on va procéder par étape :
-1. On crée une liste ***liste_abscisses*** de n+1 abscisses répartis uniformément sur l'intervalle [a,b]. Pour cela, on crée une liste contenant la suite de valeurs : $`a`$, $`a+\frac{b-a}n`$, $`a+2\frac{b-a}n`$, $`a+3\frac{b-a}n`$ , ... ,  $`a+n\frac{b-a}n`$ (On peut remarquer que ce dernier élément vaut $`b`$).
-2. On crée une liste ***liste_ordonnées*** de n+1 ordonnées dans laquelle on calcule dans le même ordre les images par ***f*** des éléments de la liste des abscisses précédente ce qui donnera la liste [ $`f(a)`$, $`f\left(a+\frac{b-a}n\right)`$, $`f\left(a+2\frac{b-a}n\right)`$, ... ,  $`f\left(a+n\frac{b-a}n\right)`$]
+1. On crée une liste ***liste_abscisses*** de n+1 abscisses répartis uniformément sur l'intervalle [a,b]. Pour cela, on crée une liste contenant la suite de valeurs : $`a`$, $`a+\frac{b-a}n`$, $`a+2.\frac{b-a}n`$, $`a+3.\frac{b-a}n`$ , ... ,  $`a+n.\frac{b-a}n`$ (On peut remarquer que ce dernier élément vaut $`b`$).
+2. On crée une liste ***liste_ordonnées*** de n+1 ordonnées dans laquelle on calcule dans le même ordre les images par ***f*** des éléments de la liste des abscisses précédente ce qui donnera la liste [ $`f(a)`$, $`f\left(a+\frac{b-a}n\right)`$, $`f\left(a+2.\frac{b-a}n\right)`$, ... ,  $`f\left(a+n.\frac{b-a}n\right)`$ ]
 3. On affiche les segments reliant les points ayant pour abscisses les valeurs dans ***liste_abscisses*** et comme ordonnées les valeurs dans ***liste_ordonnées***. Pour cela nous allons utiliser la fonction `plot`de matplotlib de la façon suivante : `plt.plot(liste_abscisses,liste_ordonnées)`.  
 On peut même rajouter des arguments comme par exemple la couleur ou la façon de tracer les courbes :  
-`plt.plot(liste_abscisses,liste_ordonnées,color="blue",linestyle=":")` donnera une courbe bleue tracer en pointillés.
+`plt.plot(liste_abscisses,liste_ordonnées,color="blue",linestyle=":")` donnera une courbe bleue tracée en pointillés.
 ::: Détails pour quelques arguments possibles de `plot`
 + Pour les couleurs : Le paramètre `color=` permet de changer la couleur du tracé. Cette couleur peut être donnée sous plusieurs formes.
     - Sous forme de chaîne de caractères représentant les noms (ou abréviations) pour les couleurs primaires, le noir et le blanc : b ou blue, g ou green, r ou red, c ou cyan, m ou magenta, y ou yellow, k ou black, w ou white. C’est quand même assez explicite, il suffit d’écrire les noms en anglais.
@@ -33,5 +33,7 @@ Le but de cet exercice est de créer un programme qui prend en entrée ***f***, 
 > Entrée : La fonction ***f***, les bornes ***a*** et ***b*** de l'intervalle sur lequel on trace la fonction et le nombre ***n*** de segments pour tracer la courbe.
 
 > Sortie : Votre programme devra tracer avec `plt.plot` en suivant la méthode décrite au dessus et il devra de plus renvoyer les deux listes ***liste_abscisses*** et ***liste_ordonnées*** qui ont servi à tracer la courbe en utilisant `return liste_abscisses,liste_ordonnées`. Cette dernière étape ne sert qu'à vérifier que votre programme est juste. C'est inutile si on souhaite juste tracer la courbe.
+
+Remarques sur les courbes affichées : Sur chaque ligne, c'est la même fonction qui est représentée une première fois avec une faible valeur de n et la seconde avec une valeur convenable.
 
 @[Tracer la courbe représentative d'une fonction]({"stubs": ["Les_listes/Tracer_une_courbe.py"], "command": "python3 Les_listes/Tracer_une_courbe_Test.py"})
