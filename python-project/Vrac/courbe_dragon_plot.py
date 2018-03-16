@@ -1,4 +1,6 @@
 import matplotlib.pyplot as plt
+#Paramètre modifiable pour tracer la courbe jusqu'à l'étape n_max
+n_max=100000
 
 #Rajouter ici votre fonction pliage précédente
 
