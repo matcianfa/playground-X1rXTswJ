@@ -40,7 +40,7 @@ Traçons maintenant les ***n*** premiers segments de la courbe du dragon. Pour c
     - On commence au point de coordonnées ***x***=0, ***y***=0 avec une ***direction***=0. ***direction*** désigne la direction en degré dans laquelle on se déplace par rapport à l'horizontale (mais on ne mettra pas ° dans le programme). Ainsi une direction de 90° est vers le haut, de 180° vers la gauche et de 270° vers le bas. On travaillera à 360° près (en utilisant `%360`) de sorte que la direction de -90° désigne aussi vers le bas.
     - On crée deux listes ***liste_x*** = [x] et ***liste_y*** = [y] dans lesquelles on mettra respectivement les abscisses et les ordonnées des points qu'on considère. 
 2. Pour ***k*** allons de 1 à ***n***, on va répéter les étapes suivantes :
-3. On avance de 1 dans la ***direction*** en partant du point de coordonnées ***x*** et ***y***. Plus précisément on aura les modifications suivantes : 
+3. On avance de 1 selon la ***direction*** en partant du point de coordonnées ***x*** et ***y***. Plus précisément on aura les modifications suivantes : 
     - Si la direction est 0, ***x*** = ***x***+1. 
     - Si la direction est 90, ***y*** = ***y***+1.
     - Si la direction est 180, ***x*** = ***x***-1.
@@ -51,7 +51,7 @@ Traçons maintenant les ***n*** premiers segments de la courbe du dragon. Pour c
     - Si ***pliage(k)*** ="D", il faut tourner à droite c'est à dire diminuer la ***direction*** de 90° à 360° près (ne pas oublier le `%360`).
 6. On recommence à l'étape 2 en augmentant ***k*** de 1.
 7. On dessine les segments joignant les points dont les coordonnées sont dans ***liste_x*** et ***liste_y***. Pour cela, on utilisera la fonction `plt.plot(liste_x,liste_y, color="black")`. On pourra trouver sur internet des options pour modifier la couleur de tracé par exemple ou le style de trait de cette fonction.
-Voici les premières étapes :
+Voici les premières étapes qui correspondent à l'enchainement GGDGG:
 
 ![Courbe du dragon](courbe_du_dragon.png)
 
