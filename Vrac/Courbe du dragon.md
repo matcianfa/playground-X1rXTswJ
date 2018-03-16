@@ -37,18 +37,18 @@ Créer une programme ***pliage*** qui prend un entier ***k*** en entrée et affi
 
 Traçons maintenant les ***n*** premiers segments de la courbe du dragon. Pour cela, il faut procéder par étape :
 1. On commence au point de coordonnées ***x_i***=0, ***y_i***=0 avec une ***direction***=0. ***direction*** désigne la direction en degré dans laquelle on se déplace par rapport à l'horizontale (mais on ne mettra pas ° dans le programme). Ainsi une direction de 90° est vers le haut, de 180° vers la gauche et de 270° vers le bas. On travaillera à 360° près (en utilisant `%360`) de sorte que la direction de -90° désigne aussi vers le bas.
-1. Pour ***k*** allons de 1 à ***n***, on va répéter les étapes suivantes :
-1. On avance de 1 dans la ***direction*** en partant du point de coordonnées ***x_i*** et ***y_i***. On note alors ***x_f*** et ***y_f*** les coordonnées de ce point. Plus précisément : 
-  - Si la direction est 0, ***x_f***=***x_i***+1 et ***y_f***=***y_i***
-  - Si la direction est 90, ***x_f***=***x_i*** et ***y_f***=***y_i***+1
-  - Si la direction est 180, ***x_f***=***x_i***-1 et ***y_f***=***y_i***
-  - Si la direction est 270, ***x_f***=***x_i*** et ***y_f***=***y_i***-1
-1. On dessine le segment joignant les points de coordonnées (***x_i***,***y_i***) et (***x_f***,***y_f***). Pour cela, on utilisera la fonction `plt.plot([x_i,x_f],[y_i,y_f], color="black")`. On pourra trouver sur internet des options pour modifier la couleur de tracé par exemple ou le style de trait de cette fonction.
-1. On calcule ***pliage(k)*** (où pliage est la fonction de la partie précédente qu'il faudra copier coller). 
-  - Si ***pliage(k)***="G", il faut tourner à gauche c'est à dire augmenter la ***direction*** de 90° à 360° près (ne pas oublier le `%360`).
-  - Si ***pliage(k)***="D", il faut tourner à droite c'est à dire diminuer la ***direction*** de 90° à 360° près (ne pas oublier le `%360`).
-1. Le point de départ de la nouvelle étape est maintenant le point de coordonnées ***x_i***=***x_f*** et ***y_i***=***y_f***.
-1. On recommence à l'étape 2 en augmentant ***k*** de 1.
+2. Pour ***k*** allons de 1 à ***n***, on va répéter les étapes suivantes :
+3. On avance de 1 dans la ***direction*** en partant du point de coordonnées ***x_i*** et ***y_i***. On note alors ***x_f*** et ***y_f*** les coordonnées de ce point. Plus précisément : 
+    - Si la direction est 0, ***x_f***=***x_i***+1 et ***y_f***=***y_i***
+    - Si la direction est 90, ***x_f***=***x_i*** et ***y_f***=***y_i***+1
+    - Si la direction est 180, ***x_f***=***x_i***-1 et ***y_f***=***y_i***
+    - Si la direction est 270, ***x_f***=***x_i*** et ***y_f***=***y_i***-1
+4. On dessine le segment joignant les points de coordonnées (***x_i***,***y_i***) et (***x_f***,***y_f***). Pour cela, on utilisera la fonction `plt.plot([x_i,x_f],[y_i,y_f], color="black")`. On pourra trouver sur internet des options pour modifier la couleur de tracé par exemple ou le style de trait de cette fonction.
+5. On calcule ***pliage(k)*** (où pliage est la fonction de la partie précédente qu'il faudra copier coller). 
+    - Si ***pliage(k)*** ="G", il faut tourner à gauche c'est à dire augmenter la ***direction*** de 90° à 360° près (ne pas oublier le `%360`).
+    - Si ***pliage(k)*** ="D", il faut tourner à droite c'est à dire diminuer la ***direction*** de 90° à 360° près (ne pas oublier le `%360`).
+6. Le point de départ de la nouvelle étape est maintenant le point de coordonnées ***x_i***=***x_f*** et ***y_i***=***y_f***.
+7. On recommence à l'étape 2 en augmentant ***k*** de 1.
 
 Voici les premières étapes :
 
