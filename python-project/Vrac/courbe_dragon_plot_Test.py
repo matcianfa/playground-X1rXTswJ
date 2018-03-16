@@ -15,7 +15,7 @@ input_output=[\
 ]
 
 #valeur de n pour la représentation de la courbe
-n_dessin=10000
+n_dessin=100000
 
 #message d'aide si besoin
 help="N'oublie pas d'utiliser return x_f,y_f pour afficher le resultat"
