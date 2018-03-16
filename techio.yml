@@ -136,7 +136,7 @@ plan:
         statement: Vrac/Introduction.md
       - title: Autour de Kaprekar
         statement: Vrac/Kaprekar.md
-      - title: La pradoxe de Monty Hall
+      - title: La paradoxe de Monty Hall
         statement: Vrac/Monty Hall.md
       - title: La courbe du dragon
         statement: Vrac/Courbe du dragon.md
