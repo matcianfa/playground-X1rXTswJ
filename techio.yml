@@ -138,6 +138,8 @@ plan:
         statement: Vrac/Kaprekar.md
       - title: La pradoxe de Monty Hall
         statement: Vrac/Monty Hall.md
+      - title: La courbe du dragon
+        statement: Vrac/Courbe du dragon.md
   - title: Mathématiques et programmation
     plan:
       - title: Introduction
