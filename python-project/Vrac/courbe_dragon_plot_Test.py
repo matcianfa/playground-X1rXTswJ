@@ -9,12 +9,9 @@ from math import *
 from courbe_dragon_plot import *
 
 input_output=[\
-(1,(1,0)),\
-(3,(0,1)),\
-(5,(-1,2)),\
-(10,(-3,1)),\
-(20,(-4,-2)),\
-(100,(4,-6))\
+(1,([0, 1], [0, 0])),\
+(5,([0, 1, 1, 0, 0, -1], [0, 0, 1, 1, 2, 2])),\
+(20,([0, 1, 1, 0, 0, -1, -1, -2, -2, -3, -3, -2, -2, -3, -3, -4, -4, -5, -5, -4, -4], [0, 0, 1, 1, 2, 2, 1, 1, 2, 2, 1, 1, 0, 0, -1, -1, 0, 0, -1, -1, -2]))\
 ]
 
 #valeur de n pour la représentation de la courbe
@@ -30,7 +27,7 @@ def send_msg(channel, msg):
 
 
 def success():
-    print("TECHIO> open -s /project/target/ index.html")
+    print("TECHIO> open -s /project/target/ index_grossissant.html")
     print("TECHIO> success true")
 
 
