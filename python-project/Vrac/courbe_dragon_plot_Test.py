@@ -42,7 +42,8 @@ def test():
     try:
       for n,rep in input_output:
         res=mon_programme(n)
-        assert rep==res , "Les coordonnées obtenues sont {} au lieu de {}".format(str(res),str(rep))
+        assert rep==res , "Les coordonnées obtenues pour n={} sont {} au lieu de {}".format(str(n),str(res),str(rep))
+        send_msg("Résultats validés", "Les coordonnées du dernier point pour n ={} sont bien {}".format(str(n),str(res)))
       mon_programme(i)
       plt.axis('equal')
       plt.axis('off')
