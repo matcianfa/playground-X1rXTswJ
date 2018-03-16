@@ -1,5 +1,4 @@
 #Ne pas oublier de changer le module à importer
-from courbe_dragon_plot import *
 import matplotlib
 matplotlib.use('agg')
 import matplotlib.pyplot as plt
@@ -7,6 +6,7 @@ import sys
 import io
 import numpy as np
 from math import *
+from courbe_dragon_plot import *
 
 input_output=[\
 (1,(1,0)),\
