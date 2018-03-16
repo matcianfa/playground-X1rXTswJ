@@ -37,8 +37,8 @@ def test():
         k=randint(2,1000)
         count1=pliage(k)
         outp=pliage2(k)
-        assert str(count1) == str(outp), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(str(k),str(count1),str(outp))
-        send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}".format(str(k),str(count1)))
+        assert str(count1) == str(outp), "En testant l valeur k={} le résultat obtenu est {} au lieu de {}".format(str(k),str(count1),str(outp))
+        send_msg("Tests validés","En testant la valeur k={} le résultat obtenu est bien {}".format(str(k),str(count1)))
       success()
     except AssertionError as e:
       fail()
