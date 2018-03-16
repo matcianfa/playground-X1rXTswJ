@@ -45,6 +45,7 @@ def test():
       mon_programme(n_dessin)
       plt.axis('equal')
       plt.axis('off')
+      plt.plot(0,0,color="red",marker="x")
       fig.savefig('output.png', dpi=fig.dpi)
       success()
     except AssertionError as e:
