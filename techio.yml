@@ -149,7 +149,9 @@ plan:
       - title: Suite de Syracuse
         statement: Maths/Syracuse.md
       - title: Données statistiques
-        statement: Maths/Statistiques.md
+        statement: Maths/Statistiques.md      
+      - title: L'algorithme d'Euclide
+        statement: Maths/Euclide.md
       - title: La recherche par dichotomie
         statement: Maths/Dichotomie.md
       - title: La méthode des rectangles
