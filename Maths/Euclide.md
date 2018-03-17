@@ -23,3 +23,11 @@ Créer un programme qui calcule le PGCD de ***a*** et ***b*** donnés en entrée
 ---
 
 ### Version récursive
+
+Créer une version récursive (on appellera la fonction ***pgcd***) pour calculer le PGCD en utilisant la propriété du début.
+
+> Entrée : ***a*** et ***b*** deux entiers.
+
+> Sortie : Le PGCD de ***a*** et ***b*** renvoyé avec `return`.
+
+@[Algorithme d'Euclide]({"stubs": ["Maths/Euclide_recursif.py"], "command": "python3 Maths/Euclide_recursif_Test.py"})
