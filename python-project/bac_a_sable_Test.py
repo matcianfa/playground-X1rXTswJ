@@ -23,7 +23,7 @@ def send_msg(channel, msg):
 
 
 def success():
-    print("TECHIO> open -s /project/target/ index.html")
+    print("TECHIO> open -s /project/target/ universe.html")
     
     send_msg("Tests validés","Bravo !")
     print("TECHIO> success true")
@@ -35,7 +35,7 @@ def fail():
 
 def test():
     try:
-      print("TECHIO> open -s /project/target/ universe.py")
+      print("TECHIO> open -s /project/target/ interro_trigo.pdf")
       success()
     except AssertionError as e:
       fail()
