@@ -1,7 +1,7 @@
 # Le tri stupide
 `Difficulté : Moyenne`
 
-Nouos avons déjà vu des méthodes de tris dans des exercices précédents. Nous allons ici nous intéresser à une méthode de tri extrêmement peu efficace qui consiste à mélanger notre liste au hasard tant qu'elle n'est pas bien triée. C'est comme si on jetait un paquet de carte en l'air jusqu'à ce qu'il soit bien trié... Ca peu prendre du temps...
+Nous avons déjà vu des méthodes de tris dans des exercices précédents. Nous allons ici nous intéresser à une méthode de tri extrêmement peu efficace qui consiste à mélanger notre liste au hasard tant qu'elle n'est pas bien triée. C'est comme si on jetait un paquet de carte en l'air jusqu'à ce qu'il soit bien trié... Ca peu prendre du temps...
 
 Nous allons procéder par étape :
 1. D'abord nous allons créer une fonction ***est_triée*** qui renvoie si la liste est bien triée.
@@ -52,6 +52,9 @@ Maintenant qu'on a nos deux sous-fonctions, on peut créer un programme qui tri 
 
 Copiez collez vos deux programmes précédents puis créez le programme qui renvoie la liste triée par une méthode de tri stupide.
 
+::: Aide
+Pour inverser `True` et `False`, on peut mettre `not` devant.
+:::
 > Entrée : une ***liste***.
 
 > Sortie : Une liste triée dans les temps (si on a de la chance).
