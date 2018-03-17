@@ -57,7 +57,6 @@ Pour inverser `True` et `False`, on peut mettre `not` devant.
 :::
 > Entrée : une ***liste***.
 
-> Sortie : Une liste triée dans les temps (si on a de la chance).
-
+> Sortie : Une liste triée dans les temps (si on a de la chance). Si vous dépassez en temps, vous pouvez essayer plusieurs fois car ce tri étant basé sur la chance, il se peut que vous n'en n'ayez pas eu...
 
 @[Créer une fonction qui trie]({"stubs": ["Vrac/tri_stupide.py"], "command": "python3 Vrac/tri_stupide_Test.py"})
