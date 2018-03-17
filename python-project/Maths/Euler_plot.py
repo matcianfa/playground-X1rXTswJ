@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 
 #Paramètres modifiables pour le tracé final.
+#Vous pouvez prendre un pas négatif pour voir l'approximation pour les abscisses négatives.
 pas=0.75
 n=4
 
