@@ -51,7 +51,7 @@ def test():
       fig=plt.figure()
       ax = plt.subplot(111)
       #Dessin de la courbe exp
-      l_x = np.linspace(pas_negatif*n,pas*n, 100)
+      l_x = np.linspace(-0.3,pas*n, 100)
       l_y=np.array([exp(x) for x in l_x])
       plt.plot(l_x,l_y, color="red")
       #dessins des segments de la méthode d'Euler
