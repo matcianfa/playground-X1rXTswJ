@@ -6,7 +6,7 @@ import sys
 import io
 import numpy as np
 from math import *
-from Euler_plot import mon_programme,pas,pas_negatif,n
+from Euler_plot import mon_programme,pas,n
 
 input_output=[\
 ((1,3),[1, 2, 4, 8]),\
@@ -56,7 +56,6 @@ def test():
       plt.plot(l_x,l_y, color="red")
       #dessins des segments de la méthode d'Euler
       mon_programme(pas,n)
-      mon_programme(pas_negatif,n)
       xmin,xmax=plt.xlim()
       plt.xlim(xmin-0.1*(xmax-xmin),xmax+0.1*(xmax-xmin))
       ymin,ymax=plt.ylim()
