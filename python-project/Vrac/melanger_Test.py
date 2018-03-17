@@ -34,7 +34,7 @@ def test():
     try:
       for inp in input_output:
         count1 =mon_programme(list(inp))
-        assert sorted(count1) == sorted(inp), "En testant la liste {} le résultat obtenu est {} ce qui n'est pas un mélange.".format(str(inp),str(count1))
+        assert sorted(count1) == sorted(inp) and (len(inp)<7 or count1!=inp), "En testant la liste {} le résultat obtenu est {} ce qui n'est pas un mélange!".format(str(inp),str(count1))
         send_msg("Tests validés","En testant les valeurs {}, un mélange est bien {}".format(str(inp),str(count1)))
       success()
     except AssertionError as e:
