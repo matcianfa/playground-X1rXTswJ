@@ -32,12 +32,13 @@ Ce mélange s'appelle mélange de Fisher-Yates. On peut trouver des précisions 
 Créer un programme ***mélanger*** qui prend en entrée une ***liste*** et renvoie une liste mélangée par cette méthode.
 
 ::: Aide
-Pour choisir un nombre aléatoirement entre 0 et n, on peut utiliser la fonction `randint(0,n)`.
++ Pour choisir un nombre aléatoirement entre 0 et n, on peut utiliser la fonction `randint(0,n)`.
++ Pour échanger des valeurs a et b, il suffit d'écrire `a,b=b,a`.
 :::
 
 > Entrée : Une ***liste***.
 
-> Sortie : la ***liste*** mélangée.
+> Sortie : Renvoyer (avec `return`) la ***liste*** mélangée.
 
 @[Créer une fonction mélanger]({"stubs": ["Vrac/melanger.py"], "command": "python3 Vrac/melanger_Test.py"})
 
@@ -45,5 +46,15 @@ Pour choisir un nombre aléatoirement entre 0 et n, on peut utiliser la fonction
 
 ### Le tri stupide
 
+Maintenant qu'on a nos deux sous-fonctions, on peut créer un programme qui tri notre liste en procédant de la manière suivante :
+1. Tant que la liste n'est pas triée, on mélange la liste.
+2. Quand on trouve la liste triée, on la renvoie (avec `return`)
+
+Copiez collez vos deux programmes précédents puis créez le programme qui renvoie la liste triée par une méthode de tri stupide.
+
+> Entrée : une ***liste***.
+
+> Sortie : Une liste triée dans les temps (si on a de la chance).
 
 
+@[Créer une fonction qui trie]({"stubs": ["Vrac/tri_stupide.py"], "command": "python3 Vrac/tri_stupide_Test.py"})
