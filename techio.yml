@@ -157,7 +157,9 @@ plan:
       - title: La méthode des trapèzes
         statement: Maths/Methode_trapèzes.md
       - title: La méthode de Monte Carlo
-        statement: Maths/Monte Carlo.md        
+        statement: Maths/Monte Carlo.md
+      - title: La méthode d'Euler
+        statement: Maths/Méthode Euler.md
     
 projects:
   python:
