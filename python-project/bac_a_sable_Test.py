@@ -1,6 +1,6 @@
 #Ne pas oublier de changer le module à importer
 module="bac_a_sable"
-eval("from "+module+" import *")
+from bac_a_sable import *
 import sys
 import io
 
