@@ -1,4 +1,4 @@
-module="nombre_pair"
+module="Les_conditions/nombre_pair"
 from  nombre_pair import mon_programme
 import sys
 import io
