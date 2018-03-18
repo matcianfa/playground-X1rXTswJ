@@ -31,7 +31,7 @@ def afficher_correction():
             for ligne in lignes:
                 send_msg("Exemple(s) de correction", ligne)
     except:
-    pass
+        pass
 
 
 
