@@ -1,5 +1,5 @@
 #Ne pas oublier de changer le module à importer
-module="bac_a_sable"
+module="/project/target/bac_a_sable"
 from bac_a_sable import *
 import sys
 import io
