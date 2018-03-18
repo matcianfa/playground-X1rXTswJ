@@ -1,4 +1,4 @@
-module="Numero_securite_sociale"
+module="Les_conditions/Numero_securite_sociale"
 from Numero_securite_sociale import mon_programme
 import sys
 import io
