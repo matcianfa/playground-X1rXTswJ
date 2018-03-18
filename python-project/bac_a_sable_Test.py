@@ -1,5 +1,6 @@
 #Ne pas oublier de changer le module à importer
-from bac_a_sable import *
+module="bac_a_sable"
+eval("from "+module+" import *")
 import sys
 import io
 
@@ -16,16 +17,24 @@ input_output=[\
 #message d'aide si besoin
 help="N'oublie pas d'utiliser print pour afficher le resultat"
 
-
+#Afficher la correction
+def afficher_correction():
+    with open(module+"_Correction.txt", "r") as correction
+        ligne="Voici un ou des exemples de corrections possibles"
+        send_msg("Exemple(s) de correction", ligne)
+        ligne="-------------------------------------------------"
+        send_msg("Exemple(s) de correction", ligne)
+        while ligne:
+            ligne=correction.readline()
+            send_msg("Exemple(s) de correction", ligne)
 
 def send_msg(channel, msg):
     print("TECHIO> message --channel \"{}\" \"{}\"".format(channel, msg))
 
 
 def success():
-    print("TECHIO> open -s /project/target/ universe.html")
-    
     send_msg("Tests validés","Bravo !")
+    afficher_correction()
     print("TECHIO> success true")
 
 
@@ -35,7 +44,6 @@ def fail():
 
 def test():
     try:
-      print("TECHIO> open -s /project/target/ interro_trigo.pdf")
       success()
     except AssertionError as e:
       fail()
