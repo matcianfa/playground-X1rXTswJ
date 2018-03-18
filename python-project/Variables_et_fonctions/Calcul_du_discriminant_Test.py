@@ -1,4 +1,4 @@
-module="Calcul_du_discriminant"
+module="Variables_et_fonctions/Calcul_du_discriminant"
 from Calcul_du_discriminant import mon_programme
 import sys
 import io
