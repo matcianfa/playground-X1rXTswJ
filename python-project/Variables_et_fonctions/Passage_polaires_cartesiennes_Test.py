@@ -1,4 +1,4 @@
-module="Passage_polaires_cartesiennes"
+module="Variables_et_fonctions/Passage_polaires_cartesiennes"
 from Passage_polaires_cartesiennes import mon_programme
 import sys
 import io
