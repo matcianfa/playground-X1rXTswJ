@@ -1,4 +1,4 @@
-module="Prise_en_main_Exo_1"
+module="Variables_et_fonctions/Prise_en_main_Exo_1"
 from Prise_en_main_Exo_1 import mon_programme
 import sys
 import io
