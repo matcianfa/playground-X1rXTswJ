@@ -1,8 +1,15 @@
 #Ne pas oublier de changer le module à importer
 module="Defis/Euler_1"
-
 import sys
 import io
+sauvegarde_stdout=sys.stdout
+sys.stdout=io.StringIO()
+#mon_programme(*inp)
+from Euler_1 import *
+count1 = sys.stdout.getvalue()[:-1]
+sys.stdout=sauvegarde_stdout
+
+
 
 
 #La réponse
@@ -43,12 +50,13 @@ def fail():
 
 def test():
     try:
+      '''
       sauvegarde_stdout=sys.stdout
       sys.stdout=io.StringIO()
       #mon_programme(*inp)
       from Euler_1 import *
       count1 = sys.stdout.getvalue()[:-1]
-      sys.stdout=sauvegarde_stdout
+      sys.stdout=sauvegarde_stdout'''
       assert str(count1) == str(reponse), "Le résultat obtenu est {} mais ce n'est pas le bon.".format(str(count1))
       send_msg("Tests validés","Le résultat cherché est bien {}".format(str(count1)))
       success()
