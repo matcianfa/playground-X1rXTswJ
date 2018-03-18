@@ -1,5 +1,5 @@
 def mon_programme(n):
     if n%2==0:
-        print("PAIR")
+        print('PAIR')
     else:
-        print("IMPAIR")
+        print('IMPAIR')
