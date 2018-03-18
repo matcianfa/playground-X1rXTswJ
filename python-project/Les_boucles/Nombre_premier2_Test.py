@@ -1,4 +1,5 @@
 #Ne pas oublier de changer le module à importer
+module="Les_boucles/Nombre_premier2"
 from Nombre_premier2 import mon_programme
 import sys
 import io
@@ -18,6 +19,20 @@ input_output=[\
 #message d'aide si besoin
 help="N'oublie pas d'utiliser print pour afficher le resultat."
 
+#Afficher la correction
+def afficher_correction():
+    try:
+        with open(module+"_Correction.py", "r") as correction :
+            ligne="Voici un ou des exemples de corrections possibles"
+            send_msg("Exemple(s) de correction", ligne)
+            ligne="-------------------------------------------------"
+            send_msg("Exemple(s) de correction", ligne)
+            lignes=correction.read().split("\n")
+            for ligne in lignes:
+                send_msg("Exemple(s) de correction", ligne)
+    except:
+        pass
+
 
 
 def send_msg(channel, msg):
@@ -26,6 +41,7 @@ def send_msg(channel, msg):
 
 def success():
     send_msg("Tests validés","Bravo !")
+    afficher_correction()
     print("TECHIO> success true")
 
 
