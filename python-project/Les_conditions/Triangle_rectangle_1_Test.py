@@ -27,7 +27,6 @@ def afficher_correction():
             send_msg("Exemple(s) de correction", ligne)
             lignes=correction.read().split("\n")
             for ligne in lignes:
-                ligne.replace('"',"'")
                 send_msg("Exemple(s) de correction", ligne)
     except:
         pass
