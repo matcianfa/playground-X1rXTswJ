@@ -20,7 +20,7 @@ help="N'oublie pas d'utiliser print pour afficher le resultat"
 #Afficher la correction
 def afficher_correction():
     try:
-        with open(module+"_Correction.txt", "r") as correction :
+        with open(module+"_Correction.py", "r") as correction :
             ligne="Voici un ou des exemples de corrections possibles"
             send_msg("Exemple(s) de correction", ligne)
             ligne="-------------------------------------------------"
