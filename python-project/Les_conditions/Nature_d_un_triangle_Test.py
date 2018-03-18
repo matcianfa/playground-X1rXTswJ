@@ -1,5 +1,5 @@
 #Ne pas oublier de changer le module à importer
-module="Nature_d_un_triangle"
+module="Les_conditions/Nature_d_un_triangle"
 from Nature_d_un_triangle import mon_programme
 import sys
 import io
