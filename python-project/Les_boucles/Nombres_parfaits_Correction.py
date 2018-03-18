@@ -3,6 +3,6 @@ def mon_programme(n):
     for d in range(1,n):
         if n%d==0: somme+=d
     if somme == n:
-        print("PARFAIT")
+        print('PARFAIT')
     else:
-        print("PAS PARFAIT")
+        print('PAS PARFAIT')
