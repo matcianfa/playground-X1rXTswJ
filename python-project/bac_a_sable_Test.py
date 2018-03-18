@@ -1,5 +1,5 @@
-#Ne pas oublier de changer le module à importer
-module="/project/target/bac_a_sable"
+#Ne pas oublier de changer le module à importer /project/target/
+module="bac_a_sable"
 from bac_a_sable import *
 import sys
 import io
@@ -19,14 +19,17 @@ help="N'oublie pas d'utiliser print pour afficher le resultat"
 
 #Afficher la correction
 def afficher_correction():
-    with open(module+"_Correction.txt", "r") as correction :
-        ligne="Voici un ou des exemples de corrections possibles"
-        send_msg("Exemple(s) de correction", ligne)
-        ligne="-------------------------------------------------"
-        send_msg("Exemple(s) de correction", ligne)
-        while ligne:
-            ligne=correction.readline()
+    try:
+        with open(module+"_Correction.txt", "r") as correction :
+            ligne="Voici un ou des exemples de corrections possibles"
             send_msg("Exemple(s) de correction", ligne)
+            ligne="-------------------------------------------------"
+            send_msg("Exemple(s) de correction", ligne)
+            while ligne:
+                ligne=correction.readline()
+                send_msg("Exemple(s) de correction", ligne)
+    except:
+        pass
 
 def send_msg(channel, msg):
     print("TECHIO> message --channel \"{}\" \"{}\"".format(channel, msg))
