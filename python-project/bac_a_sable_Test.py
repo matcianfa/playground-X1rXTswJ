@@ -25,8 +25,8 @@ def afficher_correction():
             send_msg("Exemple(s) de correction", ligne)
             ligne="-------------------------------------------------"
             send_msg("Exemple(s) de correction", ligne)
-            while ligne:
-                ligne=correction.readline()
+            lignes=correction.read().split("\n")
+            for ligne in lignes:
                 send_msg("Exemple(s) de correction", ligne)
     except:
         pass
