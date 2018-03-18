@@ -162,6 +162,12 @@ plan:
         statement: Maths/Monte Carlo.md
       - title: La méthode d'Euler
         statement: Maths/Méthode Euler.md
+  - title: Défis
+    plan:
+      - title: Introduction
+        statement: Defis/Introduction.md
+      - title: Multiples de 3 ou de 5
+        statement: Defis/Euler_1.md
     
 projects:
   python:
