@@ -31,7 +31,7 @@ def afficher_correction():
             for ligne in lignes:
                 send_msg("Exemple(s) de correction", ligne)
     except:
-pass
+    pass
 
 def send_msg(channel, msg):
     print("TECHIO> message --channel \"{}\" \"{}\"".format(channel, msg))
