@@ -1,3 +1,4 @@
+module="Signe_des_valeurs_d_une_fonction"
 from Signe_des_valeurs_d_une_fonction import mon_programme
 import sys
 import io
@@ -15,6 +16,19 @@ input_output=[\
 #message d'aide si besoin
 help="P(x)=... n'a aucun sens en Python. Mettre P=..."
 
+def afficher_correction():
+    try:
+        with open(module+"_Correction.py", "r") as correction :
+            ligne="Voici un ou des exemples de corrections possibles"
+            send_msg("Exemple(s) de correction", ligne)
+            ligne="-------------------------------------------------"
+            send_msg("Exemple(s) de correction", ligne)
+            lignes=correction.read().split("\n")
+            for ligne in lignes:
+                send_msg("Exemple(s) de correction", ligne)
+    except:
+    pass
+
 
 
 def send_msg(channel, msg):
@@ -23,6 +37,7 @@ def send_msg(channel, msg):
 
 def success():
     send_msg("Tests validés","Bravo !")
+    afficher_correction()
     print("TECHIO> success true")
 
 
