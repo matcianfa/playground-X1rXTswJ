@@ -1,5 +1,5 @@
 #Ne pas oublier de changer le module à importer
-module="Nb_racines_poly_second_degre"
+module="Les_conditions/Nb_racines_poly_second_degre"
 from Nb_racines_poly_second_degre import mon_programme
 import sys
 import io
