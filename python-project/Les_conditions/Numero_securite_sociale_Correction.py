@@ -1,5 +1,5 @@
 def mon_programme(numéro,clé):
     if clé==97-(numéro%97):
-        print("VALIDE")
+        print('VALIDE')
     else:
-        print("NON VALIDE")
+        print('NON VALIDE')
