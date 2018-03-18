@@ -1,5 +1,5 @@
 #Ne pas oublier de changer le module à importer
-module="Triangle_rectangle_0"
+module="Les_conditions/Triangle_rectangle_0"
 from Triangle_rectangle_0 import mon_programme
 import sys
 import io
