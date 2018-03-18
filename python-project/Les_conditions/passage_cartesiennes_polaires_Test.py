@@ -1,5 +1,5 @@
 #Ne pas oublier de changer le module à importer
-module="passage_cartesiennes_polaires"
+module="Les_conditions/passage_cartesiennes_polaires"
 from passage_cartesiennes_polaires import mon_programme
 import sys
 import io
