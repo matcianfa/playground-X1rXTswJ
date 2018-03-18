@@ -1,5 +1,5 @@
 def mon_programme(a,b,c):
     if a==90 or b==90 or c==90 :
-        print("RECTANGLE")
+        print('RECTANGLE')
     else :
-        print("PAS RECTANGLE")
+        print('PAS RECTANGLE')
