@@ -1,4 +1,4 @@
-module="Perimetre_et_aire_polygone_regulier"
+module="Variables_et_fonctions/Perimetre_et_aire_polygone_regulier"
 from Perimetre_et_aire_polygone_regulier import mon_programme
 import sys
 import io
