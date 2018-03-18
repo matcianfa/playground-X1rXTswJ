@@ -1,5 +1,5 @@
 #Ne pas oublier de changer le module à importer
-module="Conversion_Celsius_Fahrenheit"
+module="Les_conditions/Conversion_Celsius_Fahrenheit"
 from Conversion_Celsius_Fahrenheit import mon_programme 
 import sys
 import io
