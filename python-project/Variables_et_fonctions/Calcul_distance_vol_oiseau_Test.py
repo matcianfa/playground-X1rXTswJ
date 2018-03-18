@@ -1,4 +1,4 @@
-module="Calcul_distance_vol_oiseau"
+module="Variables_et_fonctions/Calcul_distance_vol_oiseau"
 from Calcul_distance_vol_oiseau import mon_programme
 import sys
 import io
