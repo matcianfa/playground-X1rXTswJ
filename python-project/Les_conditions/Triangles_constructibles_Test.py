@@ -1,5 +1,5 @@
 #Ne pas oublier de changer le module à importer
-module="Triangles_constructibles"
+module="Les_conditions/Triangles_constructibles"
 from Triangles_constructibles import mon_programme
 import sys
 import io
