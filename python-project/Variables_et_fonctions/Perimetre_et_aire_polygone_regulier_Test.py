@@ -1,3 +1,4 @@
+module="Perimetre_et_aire_polygone_regulier"
 from Perimetre_et_aire_polygone_regulier import mon_programme
 import sys
 import io
@@ -17,6 +18,20 @@ input_output=[\
 #message d'aide si besoin
 help="Attention de ne pas oublier de calculer le périmètre avant l'aire. N'oublie pas non plus d'utiliser print(perimetre,aire) pour afficher le resultat."
 
+#Afficher la correction
+def afficher_correction():
+    try:
+        with open(module+"_Correction.py", "r") as correction :
+            ligne="Voici un ou des exemples de corrections possibles"
+            send_msg("Exemple(s) de correction", ligne)
+            ligne="-------------------------------------------------"
+            send_msg("Exemple(s) de correction", ligne)
+            lignes=correction.read().split("\n")
+            for ligne in lignes:
+                send_msg("Exemple(s) de correction", ligne)
+    except:
+        pass
+
 
 
 def send_msg(channel, msg):
@@ -26,6 +41,7 @@ def send_msg(channel, msg):
 def success():
     send_msg("Tests validés","Bravo !")
     send_msg("Tests validés","On pourra remarquer que plus le nombre de cotés du polygone augmente, plus le périmètre et l'aire se rapprochent des valeurs pour un cercle")
+    afficher_correction()
     print("TECHIO> success true")
 
 
