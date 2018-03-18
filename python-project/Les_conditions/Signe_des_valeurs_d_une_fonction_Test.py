@@ -1,4 +1,4 @@
-module="Signe_des_valeurs_d_une_fonction"
+module="Les_conditions/Signe_des_valeurs_d_une_fonction"
 from Signe_des_valeurs_d_une_fonction import mon_programme
 import sys
 import io
