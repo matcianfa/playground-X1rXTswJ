@@ -1,8 +1,9 @@
 module="Variables_et_fonctions/Passage_polaires_cartesiennes"
-from Passage_polaires_cartesiennes import mon_programme
+
 import sys
 import io
-
+from ma_bao import *
+tester("from Passage_polaires_cartesiennes import mon_programme",globals())
 
 #liste des couples input/output
 input_output=[\
