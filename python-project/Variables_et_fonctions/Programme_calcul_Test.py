@@ -1,9 +1,10 @@
 #Ne pas oublier de changer le module à importer
 module="Variables_et_fonctions/Programme_calcul"
-from Programme_calcul import mon_programme
+
 import sys
 import io
-
+from ma_bao import *
+tester("from Programme_calcul import mon_programme",globals())
 
 #liste des couples input/output
 input_output=[0,1,5,18,-3]
