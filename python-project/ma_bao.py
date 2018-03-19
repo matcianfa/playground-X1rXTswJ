@@ -1,11 +1,11 @@
 import sys
 
-def tester_import(txt):
+def tester_import(txt,glb):
     '''
     Permet de tester si le module n'a pas d'erreur de syntaxe ou d'indentation pour pouvoir les rattraper.
     '''
     try :
-        return exec("import "+txt)
+        return exec(txt,glb)
     except IndentationError as e:
         print("Attention il y a un problème d'indentation dans votre code à la ligne "+str(e.args[1][1]),file=sys.stderr)
         print("Vérifiez bien que vous avez correctement décaler votre code",file=sys.stderr)
