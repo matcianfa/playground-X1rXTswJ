@@ -1,9 +1,10 @@
 #Ne pas oublier de changer le module à importer
 module="Les_conditions/Nature_d_un_triangle"
-from Nature_d_un_triangle import mon_programme
+
 import sys
 import io
-
+from ma_bao import *
+tester("from Nature_d_un_triangle import mon_programme",globals())
 
 #liste des couples input/output
 input_output=[\
