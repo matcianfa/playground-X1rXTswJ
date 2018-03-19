@@ -20,6 +20,7 @@ def verif(n):
   reponses.append(a)
   reponse=n+x+y+z+a
   reponses.append(reponse)
+  reponses.append('')
   return reponses
   
 consignes=[\
@@ -27,7 +28,8 @@ consignes=[\
 "Multiplier x par 2 et sauvegarder le résultat dans y. Ensuite, afficher y",\
 "Mettre y au carré et sauvegarder le résultat dans z. Ensuite, afficher z",\
 "Diviser z par 10 et sauvegarder le résultat dans a. Ensuite, afficher a",\
-"Ajouter n, x, y, z et a et sauvegarder le résultat dans reponse. Ensuite, afficher reponse"\
+"Ajouter n, x, y, z et a et sauvegarder le résultat dans reponse. Ensuite, afficher reponse",\
+"C'est terminé !"\
 ]
 
 #message d'aide si besoin
@@ -69,10 +71,10 @@ def test():
         sys.stdout=io.StringIO()
         mon_programme(n)
         corr=verif(n)
-        rep = sys.stdout.getvalue()[:-1]
+        rep = sys.stdout.getvalue().split("\n")
         sys.stdout=sauvegarde_stdout
-        for i in range(5):
-          assert str(rep[i]) == str(corr[i]), consignes[i]
+        for i,reponse in enumerate(rep):
+          assert str(reponse) == str(corr[i]), consignes[i]
       success()
     except AssertionError as e:
       fail()
