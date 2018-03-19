@@ -1,8 +1,9 @@
 module="Variables_et_fonctions/Calcul_du_produit_scalaire"
-from Calcul_du_produit_scalaire import mon_programme
+
 import sys
 import io
-
+from ma_bao import *
+tester("from Calcul_du_produit_scalaire import mon_programme",globals())
 
 #liste des couples input/output
 input_output=[\
