@@ -1,8 +1,9 @@
 module="Variables_et_fonctions/Perimetre_et_aire_polygone_regulier"
-from Perimetre_et_aire_polygone_regulier import mon_programme
+
 import sys
 import io
-
+from ma_bao import *
+tester("from Perimetre_et_aire_polygone_regulier import mon_programme",globals())
 
 #liste des couples input/output
 input_output=[\
