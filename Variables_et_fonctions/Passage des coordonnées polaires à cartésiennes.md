@@ -1,4 +1,4 @@
-## Passage des coordonnées polaires à cartésiennes
+# Passage des coordonnées polaires à cartésiennes
 
 Pour étudier le mouvement d'un objet (une planète par exemple), il est parfois plus pratique de repérer cet objet par ses coordonnées polaires.
 On pourra trouver une présentation de ce système de coordonnées  ainsi que des indications pour la suite sur cette page [Wikipédia](https://fr.wikipedia.org/wiki/Coordonn%C3%A9es_polaires)
