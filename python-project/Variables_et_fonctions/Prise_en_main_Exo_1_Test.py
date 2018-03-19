@@ -1,8 +1,9 @@
 module="Variables_et_fonctions/Prise_en_main_Exo_1"
-from Prise_en_main_Exo_1 import mon_programme
+
 import sys
 import io
-
+from ma_bao import *
+tester("from Prise_en_main_Exo_1 import mon_programme",globals())
 
 #liste des couples input/output
 input_output=[\
