@@ -1,10 +1,12 @@
 import sys
 
-def importer(txt,glb):
+def tester(txt,glb=globals()):
     '''
     Permet de tester si le module n'a pas d'erreur de syntaxe ou d'indentation pour pouvoir les rattraper.
     '''
-    nom_fichier=txt.split()[1]+".py"
+    nom_fichier=""
+    if txt[:5]=="from " or txt[:7]=="import ":
+        nom_fichier=txt.split()[1]+".py"
     try :
         return exec(txt,glb)
     except IndentationError as e:
