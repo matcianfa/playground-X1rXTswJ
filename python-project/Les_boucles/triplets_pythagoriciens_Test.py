@@ -1,9 +1,10 @@
 #Ne pas oublier de changer le module à importer
 module="Les_boucles/triplets_pythagoriciens"
-from triplets_pythagoriciens import mon_programme
+
 import sys
 import io
-
+from ma_bao import *
+tester("from triplets_pythagoriciens import mon_programme",globals())
 
 #liste des couples input/output
 input_output=[\
