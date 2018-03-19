@@ -1,8 +1,9 @@
 module="Les_conditions/nombre_pair"
-from  nombre_pair import mon_programme
+
 import sys
 import io
-
+from ma_bao import *
+tester("from  nombre_pair import mon_programme",globals())
 
 #liste des couples input/output
 input_output=[\
