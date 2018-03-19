@@ -1,8 +1,9 @@
 module="Les_conditions/Signe_des_valeurs_d_une_fonction"
-from Signe_des_valeurs_d_une_fonction import mon_programme
+
 import sys
 import io
-
+from ma_bao import *
+tester("from Signe_des_valeurs_d_une_fonction import mon_programme",globals())
 
 #liste des couples input/output
 input_output=[\
