@@ -1,9 +1,10 @@
 #Ne pas oublier de changer le module à importer
 module="Les_conditions/Nb_racines_poly_second_degre"
-from Nb_racines_poly_second_degre import mon_programme
+
 import sys
 import io
-
+from ma_bao import *
+tester("from Nb_racines_poly_second_degre import mon_programme",globals())
 
 #liste des couples input/output
 input_output=[\
