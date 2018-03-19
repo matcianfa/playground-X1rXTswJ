@@ -3,7 +3,7 @@ import sys
 import io
 module="Variables_et_fonctions/Calcul_distance_vol_oiseau"
 from ma_bao import *
-tester_import("from Calcul_distance_vol_oiseau import mon_programme",globals())
+importer("from Calcul_distance_vol_oiseau import mon_programme",globals())
 
 
 #liste des couples input/output
