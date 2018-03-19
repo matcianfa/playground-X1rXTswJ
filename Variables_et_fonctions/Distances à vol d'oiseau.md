@@ -1,4 +1,4 @@
-## Calcul de distances à vol d'oiseau
+# Calcul de distances à vol d'oiseau
 
 Lorsqu'on regarde une carte de la Terre et que l'on souhaite aller d'un point à un autre, le plus court chemin n'est pas forcément la ligne droite sur la carte. De manière naturelle, cette plus courte distance est la distance à vol d'oiseau (ce plus court chemin s'appelle aussi l'orthodromie). Pour plus d'explication, vous pouvez aller voir [Wikipédia](https://fr.wikipedia.org/wiki/Orthodromie)
 
