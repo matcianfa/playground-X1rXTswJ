@@ -1,9 +1,10 @@
 #Ne pas oublier de changer le module à importer
 module="Les_boucles/Nombre_premier1"
-from Nombre_premier1 import mon_programme
+
 import sys
 import io
-
+from ma_bao import *
+tester("from Nombre_premier1 import mon_programme",globals())
 
 #liste des couples input/output
 input_output=[\
