@@ -1,6 +1,6 @@
 #Ne pas oublier de changer le module à importer
 module="Variables_et_fonctions/Programme_calcul2"
-
+from math import *
 import sys
 import io
 from ma_bao import *
