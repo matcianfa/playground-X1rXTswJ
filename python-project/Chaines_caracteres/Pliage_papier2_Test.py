@@ -1,5 +1,5 @@
 #Ne pas oublier de changer le module à importer
-module="Les_boucles/Pliage_papier2"
+module="Chaines_caracteres/Pliage_papier2"
 
 import sys
 import io
@@ -30,7 +30,7 @@ def send_msg(channel, msg):
 
 def success():
     send_msg("Tests validés","Bravo !")
-    afficher_correction()
+    afficher_correction(module)
     print("TECHIO> success true")
 
 
