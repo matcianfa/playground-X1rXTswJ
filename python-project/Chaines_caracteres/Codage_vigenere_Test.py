@@ -1,7 +1,12 @@
 #Ne pas oublier de changer le module à importer
-from Codage_vigenere import mon_programme
+module="Les_boucles/Codage_vigenere"
+
 import sys
 import io
+from ma_bao import *
+tester("from Codage_vigenere import mon_programme",globals())
+
+
 
 
 #liste des couples input/output
@@ -27,6 +32,7 @@ def send_msg(channel, msg):
 
 def success():
     send_msg("Tests validés","Bravo !")
+    afficher_correction()
     print("TECHIO> success true")
 
 
