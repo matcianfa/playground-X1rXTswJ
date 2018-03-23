@@ -1,4 +1,18 @@
-## Calcul des termes d'une suite
+# Calcul des termes d'une suite
+
+### Présentation de la méthode
+
+Pour calculer à l'aide d'un programme les termes d'une suite définie par récurrence, l'idée est tout simplement de calculer au fur et à mesure les valeurs de la suite en les sauvegardant dans une seule variable ***u*** qui commence à $`u_0`$. Pour s'arreter au terme souhaité, on met dans une variable ***i*** l'indice du terme qui se trouve dans la valeur ***u***.
+
+Dans la fenêtre ci-dessous, on a déjà commencé à écrire un programme pour calculer la valeur de $`u_n`$ définie par $`u_0=5`$ et $`u_{n+1}=2u_n-3`$. Remplacez les @ par ce qu'il faut pour que le programme fonctionne.
+
+> Entrée : Un entier ***n***.
+
+> Sortie : Le programme doit afficher la valeur de $`u_n`$ définie ci-dessus.
+
+@[Calcul des termes d'une suite]({"stubs": ["Les_boucles/Calcul_terme_suite0.py"], "command": "python3 Les_boucles/Calcul_terme_suite0_Test.py"})
+
+---
 
 ### Premier exercice
 
