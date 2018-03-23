@@ -1,5 +1,5 @@
 #Ne pas oublier de changer le module à importer
-module="Les_boucles/Palindrome"
+module="Chaines_caracteres/Palindrome"
 
 import sys
 import io
@@ -67,7 +67,7 @@ def test():
         assert str(count1) == str(outp), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(str(inp),str(count1),str(outp))
         send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}".format(str(inp),str(count1)))
       send_msg("Tests validés","Ce dernier test était un palindrome de 1247 mots !")
-      afficher_correction()
+      afficher_correction(module)
       success()
     except AssertionError as e:
       if succes:
