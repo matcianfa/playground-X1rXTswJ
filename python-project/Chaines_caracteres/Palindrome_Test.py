@@ -1,7 +1,12 @@
 #Ne pas oublier de changer le module à importer
-from Palindrome import mon_programme
+module="Les_boucles/Palindrome"
+
 import sys
 import io
+from ma_bao import *
+tester("from Palindrome import mon_programme",globals())
+
+
 
 
 #liste des couples input/output
@@ -62,6 +67,7 @@ def test():
         assert str(count1) == str(outp), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(str(inp),str(count1),str(outp))
         send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}".format(str(inp),str(count1)))
       send_msg("Tests validés","Ce dernier test était un palindrome de 1247 mots !")
+      afficher_correction()
       success()
     except AssertionError as e:
       if succes:
