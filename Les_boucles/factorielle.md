@@ -4,7 +4,8 @@ En mathématiques, il est fréquent que l'on ait besoin de calculer $`1\times2\t
 
 Ainsi, on a 
 + $`3!=1\times2\times3= 6`$, 
-+ $`4!=24`$, $`5!=120`$, 
++ $`4!=24`$, 
++ $`5!=120`$, 
 + $`1!=1`$. 
 + Par convention, $`0!=1`$.
 
