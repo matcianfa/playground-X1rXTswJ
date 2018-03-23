@@ -1,5 +1,5 @@
 #Ne pas oublier de changer le module à importer
-module="Les_boucles/Codage_cesar"
+module="Chaines_caracteres/Codage_cesar"
 
 import sys
 import io
@@ -32,7 +32,7 @@ def send_msg(channel, msg):
 
 def success():
     send_msg("Tests validés","Bravo !")
-    afficher_correction()
+    afficher_correction(module)
     print("TECHIO> success true")
 
 
