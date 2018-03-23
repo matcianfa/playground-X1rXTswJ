@@ -28,3 +28,22 @@ def tester(txt,glb=globals()):
         print("En général, c'est soit une erreur de frappe soit que vous n'avez pas créé votre variable ou fonction avant de l'utiliser.",file=sys.stderr)
         print("TECHIO> success false")
         sys.exit()
+
+        
+def send_msg(channel, msg):
+    print("TECHIO> message --channel \"{}\" \"{}\"".format(channel, msg))
+    
+#Afficher la correction
+def afficher_correction():
+    try:
+        with open(module+"_Correction.py", "r") as correction :
+            ligne="Voici un ou des exemples de corrections possibles"
+            send_msg("Exemple(s) de correction", ligne)
+            ligne="-------------------------------------------------"
+            send_msg("Exemple(s) de correction", ligne)
+            lignes=correction.read().split("\n")
+            for ligne in lignes:
+                send_msg("Exemple(s) de correction", ligne)
+    except:
+    pass
+
