@@ -23,3 +23,19 @@ En considérant les termes de la suite de Fibonacci dont la valeur ne dépasse p
 Créez un programme qui affiche (avec `print`) le résultat.
 
 @[Nombres de Fibonacci pairs]({"stubs": ["Defis/Euler_2.py"], "command": "python3 Defis/Euler_2_Test.py"})
+
+---
+
+# Plus grand diviseur premier
+
+`Difficulté : Facile`
+`Origine : Projet Euler n°3`
+
+Les diviseurs premiers de 13195 sont 5, 7, 13 et 29.
+
+Quel est le plus grand diviseur premier de 600851475143 ?
+
+Créez un programme qui affiche (avec `print`) le résultat.
+
+@[Plus grand diviseur premier]({"stubs": ["Defis/Euler_3.py"], "command": "python3 Defis/Euler_3_Test.py"})
+
