@@ -93,7 +93,7 @@ plan:
   - title: Les listes
     plan:
       - title: Introduction
-        statement: Chaines_caracteres/Introduction.md 
+        statement: Les_listes/Introduction.md 
       - title: Manipulations de base
         statement:  Les_listes/Manipulations de base.md 
       - title: Indices du plus petit élément dans une liste
