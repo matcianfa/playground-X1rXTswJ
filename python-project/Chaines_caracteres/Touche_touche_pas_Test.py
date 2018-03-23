@@ -1,5 +1,5 @@
 #Ne pas oublier de changer le module à importer
-module="Les_boucles/Touche_touche_pas"
+module="Chaines_caracteres/Touche_touche_pas"
 
 import sys
 import io
@@ -45,7 +45,7 @@ def send_msg(channel, msg):
 
 def success():
     send_msg("Tests validés","Bravo !")
-    afficher_correction()
+    afficher_correction(module)
     print("TECHIO> success true")
 
 
