@@ -1,5 +1,5 @@
 #Ne pas oublier de changer le module à importer
-module="Les_boucles/Anacycliques"
+module="Chaines_caracteres/Anacycliques"
 
 import sys
 import io
@@ -29,7 +29,7 @@ def send_msg(channel, msg):
 
 def success():
     send_msg("Tests validés","Bravo !")
-    afficher_correction(module)
+    afficher_correction()
     print("TECHIO> success true")
 
 
