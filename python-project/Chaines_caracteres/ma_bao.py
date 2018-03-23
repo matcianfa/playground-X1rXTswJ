@@ -34,7 +34,7 @@ def send_msg(channel, msg):
     print("TECHIO> message --channel \"{}\" \"{}\"".format(channel, msg))
     
 #Afficher la correction
-def afficher_correction(module):
+def afficher_correction():
     try:
         with open(module+"_Correction.py", "r") as correction :
             ligne="Voici un ou des exemples de corrections possibles"
