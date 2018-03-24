@@ -54,3 +54,18 @@ Créez un programme qui affiche (avec `print`) le résultat.
 
 @[Plus grand produit qui donne un palindrome]({"stubs": ["Defis/Euler_4.py"], "command": "python3 Defis/Euler_4_Test.py"})
 
+---
+
+# Plus petit multiple commun
+
+`Difficulté : Facile`
+`Origine : Projet Euler n°5`
+
+2520 est le plus petit nombre positif qui peut être divisé par tous les nombres de 1 à 10.
+
+Quel est le plus petit nombre positif qui peut être divisé par tous les nombres de 1 à 20 ?
+
+Créez un programme qui affiche (avec `print`) le résultat.
+
+@[Plus petit multiple commun]({"stubs": ["Defis/Euler_5.py"], "command": "python3 Defis/Euler_5_Test.py"})
+
