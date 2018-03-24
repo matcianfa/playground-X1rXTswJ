@@ -168,7 +168,7 @@ plan:
     plan:
       - title: Introduction
         statement: Defis/Introduction.md
-      - title: Multiples de 3 ou de 5
+      - title: Projet Euler n°1 à 5
         statement: Defis/Euler_1.md
     
 projects:
