@@ -18,7 +18,7 @@ On affichera le résultat avec `print`.
 
 # Le 10 001-ième nombre premier
 `Difficulté : Facile`
-`Origine : Projet Euler n°6`
+`Origine : Projet Euler n°7`
 
 En listant les 6 premiers nombres premiers : 2, 3, 5, 7 ,11 et 13, on voit que le sixième nombre premier est 13.
 
