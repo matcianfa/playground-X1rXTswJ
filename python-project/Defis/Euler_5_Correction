@@ -1,0 +1,20 @@
+# Si on réflechit un peu, on voit que le nombre sera forcément :
+# (Chaque nombre premier doit apparaitre avec sa puissance maximum)
+print(2**4 * 3**2 * 5 * 7 * 11 * 13 * 17 * 19)
+
+# Si on veut chercher algorithmiquement on peut tester par exemple :
+# L'idée est de remarquer que forcément le nombre cherché contient tous les nombres premiers inférieurs à 20 dans sa décomposition
+# On cherche donc parmi les multiples de 2*3*5*7*11*13*17*19 lequel est divisible par tous les nombres entre 1 et 20.
+
+trouvé = False
+n_0=2*3*5*7*11*13*17*19
+n=n_0
+while not trouvé:
+    n+=n_0
+    for i in range(2,21):
+        if n%i!=0:
+            break
+    else:
+        trouvé=True
+
+print(n)
