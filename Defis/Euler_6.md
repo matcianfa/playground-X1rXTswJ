@@ -56,7 +56,7 @@ On pose N le nombre de 1000 chiffres suivant :
 05886116467109405077541002256983155200055935729725
 71636269561882670428252483600823257530420752963450
 
-Dans ce nombre N, les 4 chiffres d'affilée qui donnent le plus grand produit sont 9989 qui donne un produit qui vaut 9*9*8*9=5832.  
+Dans ce nombre N, les 4 chiffres d'affilée qui donnent le plus grand produit sont 9989 qui donne un produit qui vaut $`9\times9\times8\times9=5832`$.  
 
 Trouvez les 13 chiffres d'affilée de N qui donnent le plus grand produit. Quelle est la valeur de ce produit ?
 
