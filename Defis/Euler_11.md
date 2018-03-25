@@ -33,6 +33,10 @@ Quel est le plus grand produit de quatre nombres d'affilée dans la même direct
 
 On affichera le résultat avec `print`.
 
+::: Aide 
+Pour vous aider, la grille est déjà fournie. Pour récupérer l'élément à la i-ème ligne et j-ème colonne, il suffit d'écrire `grille[i][j]`. Comme toujours, les lignes et colonnes commencent à l'indice 0.
+:::
+
 @[Plus grand produit dans une grille]({"stubs": ["Defis/Euler_11.py"], "command": "python3 Defis/Euler_11_Test.py"})
 
 ---
