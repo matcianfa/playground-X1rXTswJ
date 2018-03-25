@@ -43,7 +43,7 @@ def test():
       send_msg("Oops! ", e)
       if help:
         send_msg("Aide 💡", help)
-      if count1==51267216:
+      if count1==str(51267216):
         send_msg("Aide 💡", "Attention, il y a des diagonales dans deux directions différentes !")
 
 if __name__ == "__main__": test()
