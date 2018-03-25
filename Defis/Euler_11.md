@@ -41,7 +41,7 @@ Pour vous aider, la grille est déjà fournie. Pour récupérer l'élément à l
 
 ---
 
-# Nombres triangulaires 'hautement' divisible
+# Nombres triangulaires 'hautement' divisibles
 `Difficulté : Facile`
 `Origine : Projet Euler n°12`
 
@@ -65,7 +65,7 @@ Quel est le premier nombre triangulaire qui possède plus de 500 diviseurs ?
 
 On affichera le résultat avec `print`.
 
-@[Nombres triangulaires 'hautement' divisible]({"stubs": ["Defis/Euler_12.py"], "command": "python3 Defis/Euler_12_Test.py"})
+@[Nombres triangulaires 'hautement' divisibles]({"stubs": ["Defis/Euler_12.py"], "command": "python3 Defis/Euler_12_Test.py"})
 
 ---
 
