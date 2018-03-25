@@ -172,6 +172,8 @@ plan:
         statement: Defis/Euler_1.md
       - title: Projet Euler n°6 à 10
         statement: Defis/Euler_6.md
+      - title: Projet Euler n°11 à 15
+        statement: Defis/Euler_11.md
     
 projects:
   python:
