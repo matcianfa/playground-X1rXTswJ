@@ -40,3 +40,32 @@ Pour vous aider, la grille est déjà fournie. Pour récupérer l'élément à l
 @[Plus grand produit dans une grille]({"stubs": ["Defis/Euler_11.py"], "command": "python3 Defis/Euler_11_Test.py"})
 
 ---
+
+# Nombres triangulaires 'hautement' divisible
+`Difficulté : Facile`
+`Origine : Projet Euler n°12`
+
+Un nombre triangulaire est un nombre qui est la somme des entiers de 1 jusqu'à un certain nombre. Par exemple, le septième nombre triangulaire est 1 + 2 + 3 + 4 + 5 + 6 + 7 = 28. 
+
+Les 10 premiers nombres triangulaires sont : 1, 3, 6, 10, 15, 21, 28, 36, 45, 55, ...
+
+Listons les diviseurs des sept premiers nombres triangulaires :
+
+     1: 1  
+     3: 1,3  
+     6: 1,2,3,6  
+    10: 1,2,5,10  
+    15: 1,3,5,15  
+    21: 1,3,7,21  
+    28: 1,2,4,7,14,28  
+
+On peut remarquer que 28 est le premier nombre triangulaire qui a plus de 5 diviseurs.
+
+Quel est le premier nombre triangulaire qui possède plus de 500 diviseurs ?
+
+On affichera le résultat avec `print`.
+
+@[Nombres triangulaires 'hautement' divisible]({"stubs": ["Defis/Euler_12.py"], "command": "python3 Defis/Euler_12_Test.py"})
+
+---
+
