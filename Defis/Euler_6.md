@@ -66,3 +66,19 @@ On affichera le résultat avec `print`.
 
 ---
 
+# Triplet pythagoricien spécial
+`Difficulté : Facile`
+`Origine : Projet Euler n°9`
+
+Un triplet pythagoricien est un ensemble de 3 entiers naturels, a < b < c, pour lesquels $`a^2+b^2=c^2`$.
+
+Par exemple : $`3^2+4^2=5^2`$.
+
+Il existe exactement un triplet pythagoricien pour lequel $`a + b + c = 1000`$.  
+Trouver le produit abc.
+
+On affichera le résultat avec `print`.
+
+@[Triplet pythagoricien spécial]({"stubs": ["Defis/Euler_9.py"], "command": "python3 Defis/Euler_9_Test.py"})
+
+---
