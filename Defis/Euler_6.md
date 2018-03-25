@@ -82,3 +82,15 @@ On affichera le résultat avec `print`.
 @[Triplet pythagoricien spécial]({"stubs": ["Defis/Euler_9.py"], "command": "python3 Defis/Euler_9_Test.py"})
 
 ---
+
+# Sommation de nombres premiers
+`Difficulté : Facile`
+`Origine : Projet Euler n°10`
+
+La somme des nombres premiers inférieurs à 10 est 2 + 3 + 5 + 7 = 17.
+
+Trouver la somme des nombres premiers inférieurs à deux millions.
+
+On affichera le résultat avec `print`.
+
+@[Sommation de nombres premiers]({"stubs": ["Defis/Euler_10.py"], "command": "python3 Defis/Euler_10_Test.py"})
