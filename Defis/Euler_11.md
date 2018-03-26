@@ -184,3 +184,27 @@ On affichera le résultat avec `print`.
 
 ---
 
+# La plus longue suite de Collatz
+`Difficulté : Facile`
+`Origine : Projet Euler n°14`
+
+On définie une suite de nombre entier (appelée suite de Collatz ou suite de Syracuse) en itérant le procédé suivant à partir d'un nombre de départ :
+
+n → n/2 (si n est pair)
+n → 3n + 1 (si n est impair)
+
+En utilisant les règles ci-dessus et en commençant à 13, on obtient la suite suivante :  
+13 → 40 → 20 → 10 → 5 → 16 → 8 → 4 → 2 → 1
+
+On s'arrête à 1 car ensuite la suite donne en boucle 4 → 2 → 1.  
+On peut voir que cette suite (commençant à 13 et finissant à 1) contient 10 termes. Bien que cela n'a pas encore été prouvé (c'est la conjecture de Syracuse), on conjecture que pour n'importe quel nombre choisi pour commencer, la suite se terminera par 1.
+
+Quel nombre de départ, inférieur à un million, donne la plus longue chaine ?
+
+NOTE: Bien que le point de départ soit inférieur à un million, les nombres qui suivent peuvent dépasser cette valeur.
+
+On affichera le résultat avec `print`.
+
+@[La plus longue suite de Collatz]({"stubs": ["Defis/Euler_14.py"], "command": "python3 Defis/Euler_14_Test.py"})
+
+---
