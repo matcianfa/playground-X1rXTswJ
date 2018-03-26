@@ -3,3 +3,5 @@ liste = [37107287533902102798797998220837590246510135740250, 4637693767749000971
 somme = sum(liste)
 #On récupère les 10 premiers chiffres en passant par les chaines de caractères :
 print(str(somme)[:10])
+
+[test](https://en.wikipedia.org/wiki/Memoization)
