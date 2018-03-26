@@ -188,7 +188,7 @@ On affichera le résultat avec `print`.
 `Difficulté : Facile`
 `Origine : Projet Euler n°14`
 
-On définie une suite de nombre entier (appelée suite de Collatz ou suite de Syracuse) en itérant le procédé suivant à partir d'un nombre de départ :
+On définie une suite de nombres entiers (appelée suite de Collatz ou suite de Syracuse) en itérant le procédé suivant à partir d'un nombre de départ :
 
 n → n/2 (si n est pair)  
 n → 3n + 1 (si n est impair)
@@ -208,3 +208,21 @@ On affichera le résultat avec `print`.
 @[La plus longue suite de Collatz]({"stubs": ["Defis/Euler_14.py"], "command": "python3 Defis/Euler_14_Test.py"})
 
 ---
+
+# Chemins sur un quadrillage
+`Difficulté : Facile`
+`Origine : Projet Euler n°15`
+
+En commençant au coin supérieur gauche d'une grille 2x2, si on ne peut se déplacer que vers la droite et vers le bas, il y a exactement 6 routes qui vont jusqu'au coin en bas à droite.
+
+![Image](https://projecteuler.net/project/images/p015.gif)
+
+Combien y a-t-il de telles routes dans une grille 20x20 ?
+
+On affichera le résultat avec `print`.
+
+::: Aide
+Si votre programme est trop long, il va falloir faire de la mémoization c'est-à-dire enregistrer au fur et à mesure les valeurs trouvées pour ne pas avoir à les recalculer. Pour les enregistrer, vous pouvez utiliser une grille ou un dictionnaire par exemple.
+:::
+
+@[Chemins sur un quadrillage]({"stubs": ["Defis/Euler_15.py"], "command": "python3 Defis/Euler_15_Test.py"})
