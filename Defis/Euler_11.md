@@ -190,7 +190,7 @@ On affichera le résultat avec `print`.
 
 On définie une suite de nombre entier (appelée suite de Collatz ou suite de Syracuse) en itérant le procédé suivant à partir d'un nombre de départ :
 
-n → n/2 (si n est pair)
+n → n/2 (si n est pair)  
 n → 3n + 1 (si n est impair)
 
 En utilisant les règles ci-dessus et en commençant à 13, on obtient la suite suivante :  
