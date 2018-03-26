@@ -43,7 +43,7 @@ En partant du sommet du triangle ci-dessous, le chemin dont le total en addition
 2 ***4*** 6  
 8 5 ***9*** 3  
 
-En efft, 3 + 7 + 4 + 9 = 23.
+En effet, 3 + 7 + 4 + 9 = 23.
 
 Trouver le total le plus grand possible en suivant un chemin sur le triangle ci-dessous.
 
@@ -72,4 +72,21 @@ Ainsi, pour obtenir le 82 situé à la ligne 4 et à la colonne 2 (on commence �
 
 ---
 
+# Compter le nombre de dimanches
+`Difficulté : Facile`
+`Origine : Projet Euler n°19`
+
+Voici quelques informations que vous pouvez compléter par vous-même :
+
++ Le premier janvier 1900 était un lundi.
++ Les mois d'avril, juin, septembre et novembre comptent 30 jours.
++ Le mois de février a 28 jours sauf les années bissextiles où il en a 29.
++ Les autres mois ont 31 jours.
++ Les années bissextiles sont toutes les années divisibles par 4 mais pas les siècles à moins qu'ils ne soient divisibles par 400.
+
+Combien de dimanches tombent le premier d'un mois durant le vingtième siècle (1 janvier 1901 au 31 décembre 2000) ?
+
+On affichera le résultat avec `print`.
+
+@[Compter le nombre de dimanches]({"stubs": ["Defis/Euler_19.py"], "command": "python3 Defis/Euler_19_Test.py"})
 
