@@ -4,4 +4,3 @@ somme = sum(liste)
 #On récupère les 10 premiers chiffres en passant par les chaines de caractères :
 print(str(somme)[:10])
 
-[test](https://en.wikipedia.org/wiki/Memoization)
