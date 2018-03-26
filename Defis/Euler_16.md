@@ -68,7 +68,7 @@ On affichera le résultat avec `print`.
 Pour vous aider, on a déjà rentré le triangle dans un liste contenant une liste de chaque ligne.
 Ainsi, pour obtenir le 82 situé à la ligne 4 et à la colonne 2 (on commence à 0), on aura juste à écrire `triangle[4][2]`.
 
-@[Compter le nombre de lettres]({"stubs": ["Defis/Euler_17.py"], "command": "python3 Defis/Euler_17_Test.py"})
+@[Chemin de somme maximum]({"stubs": ["Defis/Euler_18.py"], "command": "python3 Defis/Euler_18_Test.py"})
 
 ---
 
