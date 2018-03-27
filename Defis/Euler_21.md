@@ -35,8 +35,17 @@ On affichera le résultat avec `print`.
 `Difficulté : Facile`
 `Origine : Projet Euler n°23`
  
+Un nombre n est dit abondant si la somme de ses diviseurs propres (c'est à dire les diviseurs positif différents de n) est plus grande strictement que n.
+
+Par exemple 12 est un nombre abondant car 1+2+3+4+6=16. C'est même le plus petit.
+
+On va s'intéresser aux nombres qui sont la somme de deux nombres abondants. Comme 12 est le plus petit nombre abondant, 24 est le plus petit nombre qui peut s'écrire comme une somme de deux nombres abondants. On peut démontrer par une analyse mathématique que tous les nombres plus grands que 28123 peuvent s'écrire comme la somme de deux nombres abondants.
+
+Trouver la somme de tous les entiers positifs qui ne peuvent pas s'écrire comme la somme de deux nombres abondants.
 
 On affichera le résultat avec `print`.
+
+Remarque : Il va peut-être falloir optimiser votre code pour qu'il finisse dans les temps.
 
 @[Sommes non abondantes]({"stubs": ["Defis/Euler_23.py"], "command": "python3 Defis/Euler_23_Test.py"})
 
