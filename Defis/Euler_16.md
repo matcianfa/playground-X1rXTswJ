@@ -90,3 +90,21 @@ On affichera le résultat avec `print`.
 
 @[Compter le nombre de dimanches]({"stubs": ["Defis/Euler_19.py"], "command": "python3 Defis/Euler_19_Test.py"})
 
+---
+
+# Somme des chiffres d'une facorielle
+`Difficulté : Facile`
+`Origine : Projet Euler n°20`
+
+n! signifie n × (n − 1) × ... × 3 × 2 × 1
+
+Par exemple, 10! = 10 × 9 × ... × 3 × 2 × 1 = 3628800,
+et la somme des chiffres dans 10! est 3 + 6 + 2 + 8 + 8 + 0 + 0 = 27.
+
+Trouver la somme des chiffres de 100!
+
+On affichera le résultat avec `print`.
+
+@[Somme des chiffres d'une facorielle]({"stubs": ["Defis/Euler_20.py"], "command": "python3 Defis/Euler_20_Test.py"})
+
+
