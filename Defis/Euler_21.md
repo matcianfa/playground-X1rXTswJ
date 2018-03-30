@@ -75,7 +75,7 @@ On affichera le résultat avec `print`.
 
 La suite de Fibonacci est définie par la relation de récurrence :
 
-    $`F_n = F_{n−1} + F_{n−2}`$, où  $`F_1 = 1`$ and $`F_2 = 1`$
+$`F_n = F_{n−1} + F_{n−2}`$, où  $`F_1 = 1`$ and $`F_2 = 1`$
 
 Ainse les 12 premiers termes seront :
 
