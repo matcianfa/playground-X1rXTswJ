@@ -51,3 +51,52 @@ Remarque : Il va peut-être falloir optimiser votre code pour qu'il finisse dans
 @[Sommes non abondantes]({"stubs": ["Defis/Euler_23.py"], "command": "python3 Defis/Euler_23_Test.py"})
 
 ---
+
+# Permutations lexicographiques
+`Difficulté : Facile`
+`Origine : Projet Euler n°24`
+
+Une permutation est un arrangement ordonné d'objets. Par exemple, 3124 est une permutation possible des chiffres 1, 2 , 3 et 4. Si on énumère toutes les permutations de la plus petite à la plus grande, on appelle cela l'ordre lexicographique. Les permutations lexicographiques de 0, 1, et 2 sont : 
+
+012   021   102   120   201   210
+
+Quelle est la millionième permutation lexicographique de 0, 1, 2, 3, 4, 5, 6, 7, 8 et 9?
+
+On affichera le résultat avec `print`.
+
+
+@[Permutations lexicographiques]({"stubs": ["Defis/Euler_24.py"], "command": "python3 Defis/Euler_24_Test.py"})
+
+---
+
+# Nombre de Fibonacci ayant 1000 chiffres
+`Difficulté : Facile`
+`Origine : Projet Euler n°25`
+
+La suite de Fibonacci est définie par la relation de récurrence :
+
+    $`F_n = F_{n−1} + F_{n−2}`$, où  $`F_1 = 1`$ and $`F_2 = 1`$
+
+Ainse les 12 premiers termes seront :
+
+    F1 = 1
+    F2 = 1
+    F3 = 2
+    F4 = 3
+    F5 = 5
+    F6 = 8
+    F7 = 13
+    F8 = 21
+    F9 = 34
+    F10 = 55
+    F11 = 89
+    F12 = 144
+
+Le douzième terme est le premier terme de la suite ayant 3 chiffres.
+
+Quel est l'indice du premier terme dans la suite de Fibonacci à contenir 1000 chiffres ?
+
+On affichera le résultat avec `print`.
+
+@[Nombre de Fibonacci ayant 1000 chiffres]({"stubs": ["Defis/Euler_25.py"], "command": "python3 Defis/Euler_25_Test.py"})
+
