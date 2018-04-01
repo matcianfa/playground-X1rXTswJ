@@ -27,20 +27,23 @@ Par exemple :
 
 Passons à des exemples d'utilisation :
 ``` Python
->>>for i in range(3) :
->>>    print(i)
+>>> for i in range(3) :
+>>>     print(i)
 0
 1
 2
 ```
 ``` Python
->>>somme=0
->>>for i in range(4) :
->>>    somme+= i
->>>print(somme)
+>>> somme=0
+>>> for i in range(4) :
+>>>     somme+= i
+>>> print(somme)
 6
 ```
-Détaillons cet exemple : Pour i allant de 0 jusqu'à 3 (c'est à dire range(4)), je demande à chaque fois somme+=i ce qui veut dire que je rajoute à somme la valeur i. Finalement, j'affiche le résultat qui n'est autre que 0+1+2+3.
+Détaillons cet exemple :  
+Pour i allant de 0 jusqu'à 3 (c'est à dire range(4)),  
+je demande à chaque fois somme+=i ce qui veut dire que je rajoute à somme la valeur i.  
+Finalement, j'affiche le résultat qui n'est autre que 0+1+2+3.
 
 # Entrainement 
 
