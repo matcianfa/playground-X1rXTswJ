@@ -7,7 +7,7 @@ from ma_bao import *
 
 sauvegarde_stdout=sys.stdout
 sys.stdout=io.StringIO()
-tester("from for_exo_1 import mon_programme",globals())
+tester("import for_exo_1",globals())
 count1 = sys.stdout.getvalue()[:-1]
 sys.stdout=sauvegarde_stdout
 
