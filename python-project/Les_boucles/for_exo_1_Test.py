@@ -14,7 +14,7 @@ sys.stdout=sauvegarde_stdout
 solution=sum([i for i in range(3,173)])
 
 #message d'aide si besoin
-help="N'oublie pas d'utiliser print pour afficher le resultat"
+help=""
 
 #Afficher la correction
 def afficher_correction():
@@ -54,8 +54,8 @@ def test():
     except AssertionError as e:
       fail()
       send_msg("Oops! ", e)
-      if help:
-        send_msg("Aide 💡", help)
+      if str(count1) == str(sum([i for i in range(3,172)])):
+        send_msg("Aide 💡", "Attention, quand on écrit range(3,172), on calcule la somme de 3 à 171 !")
 
 
 if __name__ == "__main__": test()
