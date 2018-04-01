@@ -46,6 +46,8 @@ plan:
     plan:
       - title: Introduction
         statement: Les_boucles/Intro_boucles.md
+      - title: Présentation des boucles for
+        statement: Les_boucles/presentation_for.md
       - title: Factorielle d'un nombre
         statement: Les_boucles/factorielle.md
       - title: Calcul des termes d'une suite
