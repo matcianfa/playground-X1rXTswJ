@@ -48,8 +48,8 @@ def fail():
 
 def test():
     try:
-      assert str(count1) == str(solution), "En testant les valeurs {} le résultat obtenu est {} mais ce n'est pas le bon".format(str(inp),str(count1))
-      send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}".format(str(inp),str(count1)))
+      assert str(count1) == str(solution), "Le résultat obtenu est {} mais ce n'est pas le bon".format(str(count1))
+      send_msg("Tests validés","Le résultat obtenu est bien {}".format(str(count1)))
       success()
     except AssertionError as e:
       fail()
