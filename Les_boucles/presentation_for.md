@@ -65,3 +65,16 @@ Modifier ce programme pour qu'il affiche la somme des carrés des entiers de 5 �
 
 ---
 
+### Exercice 3
+
+En s'inspirant des programmes précédents, créez un programme qui affiche, pour chaque entier entre 0 et 100, la somme du nombre et de son carré. Autrement dit, il doit afficher :
+
+    0  
+    2  
+    6  
+    12  
+    20 
+    ...
+    10100
+
+@[Exercice 3]({"stubs": ["Les_boucles/for_exo_3.py"], "command": "python3 Les_boucles/for_exo_3_Test.py"})
