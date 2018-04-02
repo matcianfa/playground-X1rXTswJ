@@ -1,6 +1,6 @@
 # Présentation des boucles ***for***
 
-La boucle `for` énumère les éléments d'un ensemble et pour chaque élément, répète toujours le même code en fonction de cet élément. Donnons un exemple informel :
+La boucle `for` énumère les éléments d'un ensemble et pour chaque élément, répète toujours le même code en fonction de cet élément. Donnons un exemple :
 
 ``` python
 for objet in liste_courses :
@@ -8,7 +8,7 @@ for objet in liste_courses :
     mettre_dans_le_chariot(objet)
 aller_payer()
 ```
-Détaillons un peu. Pour chaque objet dans ma liste de courses, je fais toujours la même chose : je le trouve, je le mets dans le chariot. C'est ça que fait ma boucle `for`. Quand il n'y a plus d'objet dans ma liste de course, je vais payer.  
+Détaillons un peu. Pour chaque objet dans ma liste de courses, je fais toujours la même chose : je le trouve puis je le mets dans le chariot. C'est ça que fait ma boucle `for`. Quand il n'y a plus d'objet dans ma liste de course, je vais payer.  
 Attention au fait que, comme pour le `if... else...`, il ne faut pas oublier les ":" en fin de ligne et, de plus, ce qui doit être fait en boucle doit être indenté. Et le `aller_payer` n'est pas indenté car je ne paye qu'à la fin. S'il était indenté, cela signifierait que pour chaque objet j'irais payer avant de passer à l'objet suivant...
 
 Passons à des exemples plus informatiques.  
@@ -58,4 +58,10 @@ Modifier ce programme pour qu'il affiche la somme des entiers de 3 à 172 c'est 
 
 ### Exercice 2
 
+On a recopié de nouveau ci-dessous le programme de l'exemple précédent.
+Modifier ce programme pour qu'il affiche la somme des carrés des entiers de 5 à 123 c'est à dire 5² + 6² + 7² + ... + 122² + 123².
+
+@[Exercice 2]({"stubs": ["Les_boucles/for_exo_2.py"], "command": "python3 Les_boucles/for_exo_2_Test.py"})
+
+---
 
