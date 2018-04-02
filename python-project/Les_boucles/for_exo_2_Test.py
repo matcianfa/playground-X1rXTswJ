@@ -54,7 +54,7 @@ def test():
     except AssertionError as e:
       fail()
       send_msg("Oops! ", e)
-      if str(count1) == str(sum([i*i for i in range(5,124)])):
+      if str(count1) == str(sum([i*i for i in range(5,123)])):
         send_msg("Aide 💡", "Attention, quand on écrit range(5,123), on calcule la somme de 5 à 122 !")
 
 
