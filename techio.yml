@@ -190,6 +190,8 @@ plan:
         statement: Optimisation/presentation_memoization.md
       - title: Mémoïzation - Système proies-prédateurs
         statement: Optimisation/Volterra.md
+      - title: Mémoïzation - Approximation de e
+        statement: Optimisation/Approximation_de_e.md
         
     
 projects:
