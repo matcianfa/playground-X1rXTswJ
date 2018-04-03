@@ -186,10 +186,8 @@ plan:
     plan:
       - title: Introduction
         statement: Optimisation/Introduction.md
-      - title: Mémoïzation
-        plan:
-          - title: Présentation
-            statement: Optimisation/presentation_memoization.md
+      - title: Mémoïzation : présentation
+        statement: Optimisation/presentation_memoization.md
 
     
 projects:
