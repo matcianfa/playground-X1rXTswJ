@@ -24,6 +24,5 @@ for a in range(-999,1000,1):
             n_max=n
             a_max=a
             b_max=b
-            print(n_max,a,b)
 
 print(a_max*b_max)
