@@ -1,0 +1,7 @@
+def fib(n,cache={0:1 , 1:1, 2:1}):
+    if n in cache: #Si n est dans le cache, on a déjà calculé la valeur donc on la renvoie directement
+        return cache[n]
+    else :
+        calcul = fib(n-1) + fib(n-2) + fib(n-3) # Je le sauvegarde pour ne pas le calculer 2 fois
+        cache[n]=calcul # Je sauvegarde la valeur de fib calculée
+        return calcul
