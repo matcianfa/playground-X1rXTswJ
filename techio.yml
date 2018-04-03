@@ -186,7 +186,7 @@ plan:
     plan:
       - title: Introduction
         statement: Optimisation/Introduction.md
-      - title: Mémoïzation : présentation
+      - title: Mémoization : présentation
         statement: Optimisation/presentation_memoization.md
 
     
