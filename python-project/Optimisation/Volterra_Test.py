@@ -30,7 +30,7 @@ def send_msg(channel, msg):
 
 def success():
     send_msg("Tests validés","Bravo !")    
-     afficher_correction(module)
+    afficher_correction(module)
     print("TECHIO> success true")
 
 
