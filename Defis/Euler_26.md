@@ -23,3 +23,20 @@ On affichera le résultat avec `print`.
 @[Cycles récurrents]({"stubs": ["Defis/Euler_26.py"], "command": "python3 Defis/Euler_26_Test.py"})
 
 ---
+
+# Nombres premiers quadratiques
+`Difficulté : Facile`
+`Origine : Projet Euler n°27`
+
+Euler a découvert la formule quadratique remarquable $`n^2 + n+41`$ qui, lorsqu'on prend pour n des valeurs entières de 0 à 39, donne 40 nombres premiers. Cependant, pour n=40, 40²+40+41=40(40+1)+41=41² n'est pas un nombre premier.
+
+Par la suite, on a découvert l'incroyable formule $`n^2-79n+1601`$ qui donne 80 nombres premiers pour les tous les n entre 0 et 79. Le produit des coefficients, -79 et 1601, est -126479.
+
+
+En considérant des formes quadratiques $`n^2+an+b`$ où |a|<1000 et |b|≤1000, trouver le produit des coefficients a et b qui donnent le nombre maximum de nombres premiers pour des valeurs successives de n qui commencent par n=0.
+
+On affichera le résultat avec `print`.
+
+@[Nombres premiers quadratiques]({"stubs": ["Defis/Euler_27.py"], "command": "python3 Defis/Euler_27_Test.py"})
+
+---
