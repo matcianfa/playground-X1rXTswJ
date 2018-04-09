@@ -4,12 +4,7 @@ module="Les_boucles/for_exo_2"
 import sys
 import io
 from ma_bao import *
-
-sauvegarde_stdout=sys.stdout
-sys.stdout=io.StringIO()
-tester("import for_exo_2",globals())
-count1 = sys.stdout.getvalue()[:-1]
-sys.stdout=sauvegarde_stdout
+import for_exo_2
 
 solution=sum([i*i for i in range(5,124)])
 
