@@ -2,7 +2,7 @@
 `Difficulté : Facile`
 `Origine : Projet Euler n°26`
 
-Une fraction unitaie possède comme numérateur 1. La représentation décimale des fractions unitaires avec les dénominateurs de 2 à 10 sont :
+Une fraction unitaire possède comme numérateur 1. La représentation décimale des fractions unitaires avec les dénominateurs de 2 à 10 sont :
 
     1/2	= 	0.5
     1/3	= 	0.(3)
@@ -85,3 +85,23 @@ On affichera le résultat avec `print`.
 @[Puissances distinctes]({"stubs": ["Defis/Euler_29.py"], "command": "python3 Defis/Euler_29_Test.py"})
 
 ---
+
+# Puissances cinquième de chiffres
+`Difficulté : Facile`
+`Origine : Projet Euler n°30`
+
+Etonnamment, il y a seulement 3 nombres qui peuvent être écrits comme la somme des puissances quatrièmes de leurs chiffres : 
+
+    1634 = 14 + 64 + 34 + 44
+    8208 = 84 + 24 + 04 + 84
+    9474 = 94 + 44 + 74 + 44
+
+Comme $`1 = 1^4`$ n'est pas une somme, il n'est pas inclus.
+
+La somme de ces nombres est 1634 + 8208 + 9474 = 19316.
+
+Trouvez la somme de tous les nombres qui peuvent être écrits comme la somme des puissances cinquièmes de leurs chiffres.
+
+On affichera le résultat avec `print`.
+
+@[Puissances cinquième de chiffres]({"stubs": ["Defis/Euler_30.py"], "command": "python3 Defis/Euler_31_Test.py"})
