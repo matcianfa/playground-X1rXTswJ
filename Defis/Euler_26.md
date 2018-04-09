@@ -40,3 +40,25 @@ On affichera le résultat avec `print`.
 @[Nombres premiers quadratiques]({"stubs": ["Defis/Euler_27.py"], "command": "python3 Defis/Euler_27_Test.py"})
 
 ---
+
+# Nombres sur les diagonales d'une spirale
+`Difficulté : Facile`
+`Origine : Projet Euler n°28`
+
+En commençant avec le nombre 1 et en tournant dans vers la droite dans le sens des aiguilles d'une montre, on peut former une spirale 5 par 5 comme ceci :
+
+**21** 22 23 24 **25**  
+20   **7**   8   **9** 10  
+19   6   **1**   2 11  
+18   **5**   4   **3** 12  
+**17** 16 15 14 **13**  
+
+On peut vérifier que la somme des nombres sur les diagonales est 101.
+
+Quelle est la somme des nombres sur les diagonales d'une spirale 1001 par 1001 construite de la même façon ?
+
+On affichera le résultat avec `print`.
+
+@[Nombres sur les diagonales d'une spirale]({"stubs": ["Defis/Euler_28.py"], "command": "python3 Defis/Euler_28_Test.py"})
+
+---
