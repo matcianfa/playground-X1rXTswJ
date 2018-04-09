@@ -21,7 +21,7 @@ def tester(txt,glb=globals()):
         print("Vérifiez que vous n'avez pas oublié des deux points ':' en fin de ligne par exemple.",file=sys.stderr)
         print("Cela peut provenir d'une parenthèse mal fermée ou une virgule mal placée.",file=sys.stderr)
         print('TECHIO> annotate --file '+ nom_fichier +' --position '+str(e.args[1][1])+' Erreur de syntaxe') 
-        print("TECHIO> success false")
+        print("TECHIO> success false",file=sys.stderr)
         sys.exit()
     except NameError as e:
         print("Attention , vous utilisez le nom '"+str(e.args[0].split("'")[1])+"' alors qu'il n'est pas défini",file=sys.stderr)
