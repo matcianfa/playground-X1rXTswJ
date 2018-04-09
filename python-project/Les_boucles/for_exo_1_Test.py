@@ -5,7 +5,11 @@ import sys
 import io
 from ma_bao import *
 
+sauvegarde_stdout=sys.stdout
+sys.stdout=io.StringIO()
 import for_exo_1
+count1 = sys.stdout.getvalue()[:-1]
+sys.stdout=sauvegarde_stdout
 
 solution=sum([i for i in range(3,173)])
 
