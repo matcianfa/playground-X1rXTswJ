@@ -62,3 +62,26 @@ On affichera le résultat avec `print`.
 @[Nombres sur les diagonales d'une spirale]({"stubs": ["Defis/Euler_28.py"], "command": "python3 Defis/Euler_28_Test.py"})
 
 ---
+
+# Puissances distinctes
+`Difficulté : Facile`
+`Origine : Projet Euler n°29`
+
+Considérons tous les combinaisons entière $`a^b`$ pour 2 ≤ a ≤ 5 et 2 ≤ b ≤ 5 :
+
+    22=4, 23=8, 24=16, 25=32  
+    32=9, 33=27, 34=81, 35=243  
+    42=16, 43=64, 44=256, 45=1024  
+    52=25, 53=125, 54=625, 55=3125  
+
+Si on les place dans l'ordre croissant, en retirant les répétitions, on obtient la suite des 15 nombres distincts :
+
+4, 8, 9, 16, 25, 27, 32, 64, 81, 125, 243, 256, 625, 1024, 3125
+
+Combien de nombres distincts obtient-on dans la suite générée par les $`a^b`$ pour 2 ≤ a ≤ 100 et 2 ≤ b ≤ 100 ?
+
+On affichera le résultat avec `print`.
+
+@[Puissances distinctes]({"stubs": ["Defis/Euler_29.py"], "command": "python3 Defis/Euler_29_Test.py"})
+
+---
