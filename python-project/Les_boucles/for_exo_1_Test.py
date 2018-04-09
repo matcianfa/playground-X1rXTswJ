@@ -5,15 +5,7 @@ import sys
 import io
 from ma_bao import *
 
-sauvegarde_stdout=sys.stdout
-sys.stdout=io.StringIO()
-tester("import for_exo_1",globals())
-count1 = sys.stdout.getvalue()[:-1]
-sys.stdout=sauvegarde_stdout
-print(count1,file=sys.stdout)
-if len(count1)>7 and count1[:7]=="TECHIO>": [print(phrase) for phrase in count1.split("\n")]
-
-
+import for_exo_1
 
 solution=sum([i for i in range(3,173)])
 
