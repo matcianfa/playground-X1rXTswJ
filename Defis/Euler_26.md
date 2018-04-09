@@ -104,4 +104,4 @@ Trouvez la somme de tous les nombres qui peuvent être écrits comme la somme de
 
 On affichera le résultat avec `print`.
 
-@[Puissances cinquième de chiffres]({"stubs": ["Defis/Euler_30.py"], "command": "python3 Defis/Euler_31_Test.py"})
+@[Puissances cinquième de chiffres]({"stubs": ["Defis/Euler_30.py"], "command": "python3 Defis/Euler_30_Test.py"})
