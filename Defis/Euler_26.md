@@ -48,9 +48,9 @@ On affichera le résultat avec `print`.
 En commençant avec le nombre 1 et en tournant dans vers la droite dans le sens des aiguilles d'une montre, on peut former une spirale 5 par 5 comme ceci :
 
 **21** 22 23 24 **25**  
-20   **7**   8   **9** 10  
-19   6   **1**   2 11  
-18   **5**   4   **3** 12  
+20   **07**   08   **09** 10  
+19   06   **01**   02 11  
+18   **05**   04   **03** 12  
 **17** 16 15 14 **13**  
 
 On peut vérifier que la somme des nombres sur les diagonales est 101.
