@@ -8,7 +8,7 @@ from ma_bao import *
 sauvegarde_stdout=sys.stdout
 sys.stdout=io.StringIO()
 import for_exo_3
-count1 = sys.stdout.getvalue()[:-1]
+count1 = sys.stdout.getvalue()[:-1].split("\n")
 sys.stdout=sauvegarde_stdout
 
 solution=[i*i+i for i in range(101)]
