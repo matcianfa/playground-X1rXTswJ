@@ -17,3 +17,21 @@ On affichera le résultat avec `print`.
 @[Sommes de pièces]({"stubs": ["Defis/Euler_31.py"], "command": "python3 Defis/Euler_31_Test.py"})
 
 ---
+
+# Produit pandigital
+`Difficulté : Facile`
+`Origine : Projet Euler n°32`
+
+On dit qu'un nombre de n chiffres est pandigital si on utilise pour l'écrire tous les chiffres de 1 à n exactement une fois. Par exemple, le nombre de 5 chiffres 15234 est de 1 à 5 pandigital.
+
+Le produit 7254 est assez remarquable car l'égalité 39 × 186 = 7254 contenant multiplicande, multiplicateur et produit est de 1 à 9 pandigitale.
+
+Trouver la somme de tous les produits tels que l'égalité multiplicande, multiplicateur et produit soit de 1 à 9 pandigitale.
+
+Aide : Certains produits peuvent être obtenus de plusieurs façons, il ne faudra les compter qu'une seule fois dans la somme.
+
+On affichera le résultat avec `print`.
+
+@[Produit pandigital]({"stubs": ["Defis/Euler_32.py"], "command": "python3 Defis/Euler_32_Test.py"})
+
+---
