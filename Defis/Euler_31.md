@@ -35,3 +35,23 @@ On affichera le résultat avec `print`.
 @[Produit pandigital]({"stubs": ["Defis/Euler_32.py"], "command": "python3 Defis/Euler_32_Test.py"})
 
 ---
+
+
+# Simplifications des chiffres d'une fraction
+`Difficulté : Facile`
+`Origine : Projet Euler n°33`
+
+La fraction $`\frac{49}{98}`$ est une fraction curieuse, car si on "simplifie" les 9, on obtient l'égalité  $`\frac{49}{98}=\frac{4}8`$ qui est correcte.
+
+On va considérer qu'une fraction comme $`\frac{30}{50}=\frac 3 5`$ est un exemple trivial de simplification comme ci dessus.
+
+Il y a exactement quatre exemples non triviaux de ce type de fraction qui sont strictement inférieures à 1 et contiennent des nombres de 2 chiffres au numérateur et au dénominateur.
+
+Si on calcule le produit de ces quatre fractions, trouver la valeur du dénominateur du résultat sous forme irreductible.
+
+On affichera le résultat avec `print`.
+
+@[Simplifications des chiffres d'une fraction]({"stubs": ["Defis/Euler_33.py"], "command": "python3 Defis/Euler_33_Test.py"})
+
+---
+
