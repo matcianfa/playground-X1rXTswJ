@@ -36,7 +36,6 @@ On affichera le résultat avec `print`.
 
 ---
 
-
 # Simplifications des chiffres d'une fraction
 `Difficulté : Facile`
 `Origine : Projet Euler n°33`
@@ -52,6 +51,22 @@ Si on calcule le produit de ces quatre fractions, trouver la valeur du dénomina
 On affichera le résultat avec `print`.
 
 @[Simplifications des chiffres d'une fraction]({"stubs": ["Defis/Euler_33.py"], "command": "python3 Defis/Euler_33_Test.py"})
+
+---
+
+# Factorielle de chiffres
+`Difficulté : Facile`
+`Origine : Projet Euler n°34`
+
+145 est un nombre curieux, en efft 1! + 4! + 5! = 1 + 24 + 120 = 145.
+
+Trouver la somme des tous les nombres qui sont égaux à la somme des factorielles de leurs chiffres.
+
+Note : comme 1! = 1 et 2! = 2 ne sont pas des sommes, ils ne sont pas inclus.
+
+On affichera le résultat avec `print`.
+
+@[Factorielle de chiffres]({"stubs": ["Defis/Euler_33.py"], "command": "python3 Defis/Euler_33_Test.py"})
 
 ---
 
