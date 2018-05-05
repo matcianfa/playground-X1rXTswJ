@@ -66,7 +66,7 @@ Note : comme 1! = 1 et 2! = 2 ne sont pas des sommes, ils ne sont pas inclus.
 
 On affichera le résultat avec `print`.
 
-@[Factorielle de chiffres]({"stubs": ["Defis/Euler_33.py"], "command": "python3 Defis/Euler_33_Test.py"})
+@[Factorielle de chiffres]({"stubs": ["Defis/Euler_34.py"], "command": "python3 Defis/Euler_34_Test.py"})
 
 ---
 
