@@ -58,7 +58,7 @@ On affichera le résultat avec `print`.
 `Difficulté : Facile`
 `Origine : Projet Euler n°34`
 
-145 est un nombre curieux, en efft 1! + 4! + 5! = 1 + 24 + 120 = 145.
+145 est un nombre curieux, en effet 1! + 4! + 5! = 1 + 24 + 120 = 145.
 
 Trouver la somme des tous les nombres qui sont égaux à la somme des factorielles de leurs chiffres.
 
@@ -70,3 +70,18 @@ On affichera le résultat avec `print`.
 
 ---
 
+# Nombres premiers circulaires
+`Difficulté : Facile`
+`Origine : Projet Euler n°35`
+
+Le nombre 197 est appelé nombre premier circulaire car chaque rotations des chiffres (197, 971 et 719) donne de nouveau un nombre premier.
+
+Il y a 13 nombres premiers circulaires inférieurs à 100 :  2, 3, 5, 7, 11, 13, 17, 31, 37, 71, 73, 79 et 97.
+
+Combien y a-t-il de nombres premiers circulaires inférieurs à un million ?
+
+On affichera le résultat avec `print`.
+
+@[Nombres premiers circulaires]({"stubs": ["Defis/Euler_35.py"], "command": "python3 Defis/Euler_35_Test.py"})
+
+---
