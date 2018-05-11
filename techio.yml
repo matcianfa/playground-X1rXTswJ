@@ -184,6 +184,8 @@ plan:
         statement: Defis/Euler_26.md
       - title: Projet Euler n°31 à 35
         statement: Defis/Euler_31.md
+      - title: Projet Euler n°36 à 40
+        statement: Defis/Euler_36.md
   - title: Optimisation
     plan:
       - title: Introduction
