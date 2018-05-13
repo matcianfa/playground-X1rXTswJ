@@ -1,6 +1,3 @@
-# Première remarque : Il ne sert à rien de considérer les nombres contenant 0,2,4,6,8 après le premier chiffre car en troncant, il y aura un des nombres qui sera pair
-# Même remarque pour le chiffre 5. Donc les chiffres ne peuvent être que 1,3,7 et 9 (à part le premier).
-
 # On crée une fonction pour savoir si le nombre est premier ou pas
 def est_premier(n):
     if n < 2: return False
