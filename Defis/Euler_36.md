@@ -66,3 +66,22 @@ On affichera le résultat avec `print`.
 @[Triangles rectangles de longueurs entières]({"stubs": ["Defis/Euler_39.py"], "command": "python3 Defis/Euler_39_Test.py"})
 
 ---
+
+# Constante de Champernowne
+`Difficulté : Facile`
+`Origine : Projet Euler n°40`
+
+On peut créer nombre décimal irrationel en concaténant les entiers positifs comme suit :
+
+0.1234567891***0***1112131415161718192021... (C'est la constante de Champernowne)
+
+On peut voir que le 11e chiffre de la partie décimale est 0.
+
+Si $`d_n`$ représente le n ième chiffre de la partie décimale, trouvez la valeur de l'expression suivante : 
+If dn represents the nth digit of the fractional part, find the value of the following expression.
+
+$`d_1 \times d_{10} \times d_{100}\times d_{1000}\times d_{10000}\times d_{100000}\times d_{1000000}`$
+
+On affichera le résultat avec `print`.
+
+@[Constante de Champernowne]({"stubs": ["Defis/Euler_40.py"], "command": "python3 Defis/Euler_40_Test.py"})
