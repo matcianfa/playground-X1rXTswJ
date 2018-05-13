@@ -29,3 +29,25 @@ On affichera le résultat avec `print`.
 @[Nombres premiers troncables]({"stubs": ["Defis/Euler_37.py"], "command": "python3 Defis/Euler_37_Test.py"})
 
 ---
+
+# Multiples pandigitals (pandigitaux ?)
+`Difficulté : Facile`
+`Origine : Projet Euler n°38`
+
+Prenons le nombre 192 et multiplions le par 1, 2 et 3. On obtient 
+
+    192 × 1 = 192
+    192 × 2 = 384
+    192 × 3 = 576
+
+En concaténant chaque produit, on obtient le nombre 1 à 9 pandigital 192384576. On va appeler 192384576 le produit concaténé de 192 et de (1,2,3)
+
+On peut faire la même chose en commençant par 9 et en multipliant par 1, 2 ,3, 4 et 5 ce qui donne le nombre 1 à 9  pandigital  918273645, qui est le poduit concaténé de 9 et de (1,2,3,4,5).
+
+Quel est le plus grand nombre 1 à 9 pandigital qui peut être formé comme un produit concaténé d'un entier et de (1,2, ... , n) où n > 1?
+
+On affichera le résultat avec `print`.
+
+@[Multiples pandigitals]({"stubs": ["Defis/Euler_38.py"], "command": "python3 Defis/Euler_38_Test.py"})
+
+---
