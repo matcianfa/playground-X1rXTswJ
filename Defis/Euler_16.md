@@ -92,7 +92,7 @@ On affichera le résultat avec `print`.
 
 ---
 
-# Somme des chiffres d'une facorielle
+# Somme des chiffres d'une factorielle
 `Difficulté : Facile`
 `Origine : Projet Euler n°20`
 
@@ -105,6 +105,6 @@ Trouver la somme des chiffres de 100!
 
 On affichera le résultat avec `print`.
 
-@[Somme des chiffres d'une facorielle]({"stubs": ["Defis/Euler_20.py"], "command": "python3 Defis/Euler_20_Test.py"})
+@[Somme des chiffres d'une factorielle]({"stubs": ["Defis/Euler_20.py"], "command": "python3 Defis/Euler_20_Test.py"})
 
 
