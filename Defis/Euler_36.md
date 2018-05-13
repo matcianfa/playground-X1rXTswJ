@@ -51,3 +51,18 @@ On affichera le résultat avec `print`.
 @[Multiples pandigitals]({"stubs": ["Defis/Euler_38.py"], "command": "python3 Defis/Euler_38_Test.py"})
 
 ---
+
+
+# Triangles rectangles de longueurs entières
+`Difficulté : Facile`
+`Origine : Projet Euler n°39`
+
+Si p est le périmètre du'un triangle rectangle dont les côtés {a,b,c} sont de longueurs entières, il y a exactement trois solutions pour p=120 qui sont {20,48,52}, {24,45,51}, {30,40,50}.
+
+Pour quelle valeur de p ≤ 1000, ce nombre de solution est-il maximal ?
+
+On affichera le résultat avec `print`.
+
+@[Triangles rectangles de longueurs entières]({"stubs": ["Defis/Euler_39.py"], "command": "python3 Defis/Euler_39_Test.py"})
+
+---
