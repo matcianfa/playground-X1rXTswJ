@@ -53,3 +53,26 @@ On affichera le résultat avec `print`.
 @[Divisibilité de sous-chaines]({"stubs": ["Defis/Euler_43.py"], "command": "python3 Defis/Euler_43_Test.py"})
 
 ---
+
+# Nombres pentagonaux
+`Difficulté : Facile`
+`Origine : Projet Euler n°44`
+
+Un nombre pentagonal est donné par la formule $`P_n=\frac{n(3n-1)}2`$. Les dix premiers nombres pentagonaux sont :
+
+1, 5, 12, 22, 35, 51, 70, 92, 117, 145, ...
+
+On peut remarqur que $`P_4+ P_7=22+70 = 92 = P_8`$. Cependant, leur différence, 70 - 22 = 48, n'est pas pentagonale.
+
+Trouver la pair de nombres pentagonaux $`P_j`$ et $`P_k`$ tels que leur somme et leur différence sont pentagonal et $`D = |Pk − Pj|`$ est la plus petite; donner la valeur de D.
+
+::: Indications
+On pourra considérer que le premier trouvé est le bon.
+On pourra utiliser les ensembles au lieu des listes pour gagner en vitesse, ce qui ne sera pas un luxe.
+:::
+
+On affichera le résultat avec `print`.
+
+@[Nombres pentagonaux]({"stubs": ["Defis/Euler_44.py"], "command": "python3 Defis/Euler_44_Test.py"})
+
+---
