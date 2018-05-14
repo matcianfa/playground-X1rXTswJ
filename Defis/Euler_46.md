@@ -77,3 +77,23 @@ On affichera le résultat avec `print`.
 @[Permutations premières]({"stubs": ["Defis/Euler_49.py"], "command": "python3 Defis/Euler_49_Test.py"})
 
 ---
+
+# Somme de nombres premiers consécutifs
+`Difficulté : Facile`
+`Origine : Projet Euler n°50`
+
+Le nombre premier 41 peut s'écrire comme la somme de six nombres premiers consécutifs :
+
+    41 = 2 + 3 + 5 + 7 + 11 + 13
+
+C'est la somme la plus longue de nombres premiers consécutifs qui donne un nombre premier inférieur à 100.
+
+La somme la plus longue de nombres premiers  qui donne un nombre premier inférieur à 1000 contient 21 termes et vaut 953.
+
+Quel nombre premier inférieur à un million peut s'écrire comme la somme la plus longue de nombres premiers consecutifs ?
+
+On affichera le résultat avec `print`.
+
+@[Somme de nombres premiers consécutifs]({"stubs": ["Defis/Euler_50.py"], "command": "python3 Defis/Euler_50_Test.py"})
+
+---
