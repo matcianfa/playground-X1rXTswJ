@@ -20,3 +20,28 @@ On affichera le résultat avec `print`.
 @[Autre conjecture de Goldbach]({"stubs": ["Defis/Euler_46.py"], "command": "python3 Defis/Euler_46_Test.py"})
 
 ---
+
+# Facteurs premiers distincts
+`Difficulté : Facile`
+`Origine : Projet Euler n°47`
+
+Les deux premiers nombres consécutifs qui ont deux facteurs premiers distincts sont :
+
+14 = 2 × 7  
+15 = 3 × 5  
+
+Les trois premiers nombres consecutifs qui ont 3 facteurs premiers distincts sont :
+
+644 = 2² × 7 × 23  
+645 = 3 × 5 × 43  
+646 = 2 × 17 × 19.  
+
+Trouver les quatre premiers entiers consecutifs qui ont quatre facteurs premiers distincts. Quel est le premier de ces nombres ?
+
+Note : Votre programme risque d'être lent, il faudra soit l'optimiser, soit passer par un interpreteur extérieur (et valider seulement la réponse ici).
+
+On affichera le résultat avec `print`.
+
+@[Facteurs premiers distincts]({"stubs": ["Defis/Euler_47.py"], "command": "python3 Defis/Euler_47_Test.py"})
+
+---
