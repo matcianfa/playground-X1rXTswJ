@@ -81,6 +81,15 @@ On affichera le résultat avec `print`.
 `Difficulté : Facile`
 `Origine : Projet Euler n°45`
 
+Les nombres triangulaires, pentagonaux et hexagonaux sont donnés par les formules suivantes :
+
+Triangulaire 	$`T_n=\frac{n(n+1)}2 `$	  	    1, 3, 6, 10, 15, ...
+Pentagonaux 	$`P_n=\frac{n(3n−1)}2`$         1, 5, 12, 22, 35, ...
+Hexagonaux 	  	$`H_n=n(2n−1)`$         	  	1, 6, 15, 28, 45, ...
+
+On peut vérifier que $`T_{285}=P_{165}=H_{143}=40755`$.
+
+Trouver le nombre triangulaire suivant qui est aussi pentagonal et hexagonal.
 
 On affichera le résultat avec `print`.
 
