@@ -67,7 +67,7 @@ On peut remarqur que $`P_4+ P_7=22+70 = 92 = P_8`$. Cependant, leur différence,
 Trouver la pair de nombres pentagonaux $`P_j`$ et $`P_k`$ tels que leur somme et leur différence sont pentagonal et $`D = |Pk − Pj|`$ est la plus petite; donner la valeur de D.
 
 ::: Indications
-On pourra considérer que le premier trouvé est le bon.
+On pourra considérer que le premier trouvé est le bon.  
 On pourra utiliser les ensembles au lieu des listes pour gagner en vitesse, ce qui ne sera pas un luxe.
 :::
 
@@ -76,3 +76,12 @@ On affichera le résultat avec `print`.
 @[Nombres pentagonaux]({"stubs": ["Defis/Euler_44.py"], "command": "python3 Defis/Euler_44_Test.py"})
 
 ---
+
+# Nombres triangulaires, pentagonaux et hexagonaux
+`Difficulté : Facile`
+`Origine : Projet Euler n°45`
+
+
+On affichera le résultat avec `print`.
+
+@[Nombres triangulaires, pentagonaux et hexagonaux]({"stubs": ["Defis/Euler_45.py"], "command": "python3 Defis/Euler_45_Test.py"})
