@@ -46,7 +46,6 @@ On affichera le résultat avec `print`.
 
 ---
 
-
 # Somme de puissances  
 `Difficulté : Facile`
 `Origine : Projet Euler n°48`
@@ -58,5 +57,23 @@ Trouver les dix derniers chiffres de la série $`1^1 + 2^2 + 3^3 + ... + 1000^{1
 On affichera le résultat avec `print`.
 
 @[Somme de puissances]({"stubs": ["Defis/Euler_48.py"], "command": "python3 Defis/Euler_48_Test.py"})
+
+---
+
+# Permutations premières 
+`Difficulté : Facile`
+`Origine : Projet Euler n°49`
+
+La suite arithmétique 1487, 4817 et 8147 pour laquelle chaque terme augmente de 3330 est inhabituelle car :   
+(i) chacun des trois termes est premier  
+(ii) chacun des nombres de 4 chiffres est une permutations des autres.
+
+Il n'y a pas de suite arithmétique croissante composée de nombres de 1, 2 ou 3 chiffres ayant ces deux propriétés mais il y en a une autre de 4 chiffres.
+
+Quel nombre de 12 chiffres peut-on former en concaténant les 3 termes de cette autre suite ?
+
+On affichera le résultat avec `print`.
+
+@[Permutations premières]({"stubs": ["Defis/Euler_49.py"], "command": "python3 Defis/Euler_49_Test.py"})
 
 ---
