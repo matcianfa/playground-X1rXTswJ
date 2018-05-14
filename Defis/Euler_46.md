@@ -45,3 +45,18 @@ On affichera le résultat avec `print`.
 @[Facteurs premiers distincts]({"stubs": ["Defis/Euler_47.py"], "command": "python3 Defis/Euler_47_Test.py"})
 
 ---
+
+
+# Somme de puissances  
+`Difficulté : Facile`
+`Origine : Projet Euler n°48`
+
+La série $`1^1 + 2^2 + 3^3 + ... + 10^{10 }= 10405071317`$.
+
+Trouver les dix derniers chiffres de la série $`1^1 + 2^2 + 3^3 + ... + 1000^{1000}`$.
+
+On affichera le résultat avec `print`.
+
+@[Somme de puissances]({"stubs": ["Defis/Euler_48.py"], "command": "python3 Defis/Euler_48_Test.py"})
+
+---
