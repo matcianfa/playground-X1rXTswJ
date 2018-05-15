@@ -13,3 +13,17 @@ On affichera le résultat avec `print`.
 @[Remplacement de chiffres dans un nombre premier]({"stubs": ["Defis/Euler_51.py"], "command": "python3 Defis/Euler_51_Test.py"})
 
 ---
+
+# Multiples permutés
+`Difficulté : Facile`
+`Origine : Projet Euler n°52`
+
+On peut voir que le nombres 125874 et son double 251748 contiennent exactement les mêmes chiffres mais dans un ordre différent.
+
+Trouver le plus petit entier positif x tel que 2x, 3x, 4x, 5x, et 6x contiennent les mêmes chiffres.
+
+On affichera le résultat avec `print`.
+
+@[Multiples permutés]({"stubs": ["Defis/Euler_52.py"], "command": "python3 Defis/Euler_52_Test.py"})
+
+---
