@@ -27,3 +27,24 @@ On affichera le résultat avec `print`.
 @[Multiples permutés]({"stubs": ["Defis/Euler_52.py"], "command": "python3 Defis/Euler_52_Test.py"})
 
 ---
+
+# Selection combinatoire
+`Difficulté : Facile`
+`Origine : Projet Euler n°53`
+
+Il y a exactement 10 façon de selectionner 3 chiffres parmi 5, 12345 :
+
+123, 124, 125, 134, 135, 145, 234, 235, 245, et 345
+En combinatoire, on utilise la notation $`C_5^3 = 10`$.
+
+En général, on a la formule : $`C^r_n= \dfrac{n!}{r!(n-r)!}`$ où $`r\leq n`$, et $`n!=n\times(n-1)\times...\times 3\times 2\times 1`$, et la convention $`0!=1`$.
+
+Ce n'est que pour n=23 qu'une valeur dépasse un million : $`C_{23}{10}=1144066`$.
+
+Combien de valeur de $`C_n^r`$ (non necessairement distincts) pour 1 ≤ n ≤ 100, sont supérieurs à un million ?
+
+On affichera le résultat avec `print`.
+
+@[Selection combinatoire]({"stubs": ["Defis/Euler_53.py"], "command": "python3 Defis/Euler_53_Test.py"})
+
+---
