@@ -65,8 +65,6 @@ def transformer(main):
 # Il ne reste plus qu'à comparer toutes les parties :
 compteur=0
 for partie in liste_parties:
-    #print(partie,transformer(partie[:5]),transformer(partie[5:]))
     if transformer(partie[:5])>transformer(partie[5:]):
-        #print("J1")
         compteur+=1
 print(compteur)
