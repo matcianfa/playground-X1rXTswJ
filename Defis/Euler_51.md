@@ -48,3 +48,14 @@ On affichera le résultat avec `print`.
 @[Selection combinatoire]({"stubs": ["Defis/Euler_53.py"], "command": "python3 Defis/Euler_53_Test.py"})
 
 ---
+
+# Mains au poker
+`Difficulté : Moyenne (10%)`
+`Origine : Projet Euler n°54`
+
+
+On affichera le résultat avec `print`.
+
+@[Mains au poker]({"stubs": ["Defis/Euler_54.py"], "command": "python3 Defis/Euler_54_Test.py"})
+
+---
