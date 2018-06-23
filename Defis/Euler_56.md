@@ -11,3 +11,14 @@ On affichera le résultat avec `print`.
 @[Somme des chiffres de puissances]({"stubs": ["Defis/Euler_56.py"], "command": "python3 Defis/Euler_56_Test.py"})
 
 ---
+
+# Fraction continue de racine de 2
+`Difficulté : Facile`
+`Origine : Projet Euler n°57`
+
+
+On affichera le résultat avec `print`.
+
+@[Fraction continue de racine de 2]({"stubs": ["Defis/Euler_57.py"], "command": "python3 Defis/Euler_57_Test.py"})
+
+---
