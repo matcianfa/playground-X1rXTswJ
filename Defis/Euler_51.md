@@ -84,7 +84,7 @@ Partie n°2 :
 2C 5C 7D 8S QH (Plus haute carte : Dame)  
 Gagnant : Joueur 1
     
-Partie n°3 :
+Partie n°3 :  
 2D 9C AS AH AC (Brelan d'As)  
 3D 6D 7D TD QD (Couleur)  
 Gagnant : Joueur 2
