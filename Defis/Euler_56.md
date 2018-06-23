@@ -36,3 +36,27 @@ On affichera le résultat avec `print`.
 @[Fraction continue de racine de 2]({"stubs": ["Defis/Euler_57.py"], "command": "python3 Defis/Euler_57_Test.py"})
 
 ---
+
+# Spirale de nombres premiers
+`Difficulté : Facile`
+`Origine : Projet Euler n°58`
+
+En partant de 1 et en tournant dans le sens inverse des aiguilles d'une montre, on peut former la spirale de coté 7 suivante : 
+
+**37** 36 35 34 33 32 **31**
+38 **17** 16 15 14 **13** 30
+39 18  **05**  04  **03** 12 29
+40 19  06  01  02 11 28
+41 20  **07**  08  09 10 27
+42 21 22 23 24 25 26
+**43** 44 45 46 47 48 49 
+
+Il est intéressant de noter que 8 des 13 nombres sur les deux diagonales sont premiers. On obtient alors un ratio de 8/13 ≈ 62%.
+
+Si on complète par un nouveau tour la spirale ci-dessus, on obtient un carré de coté 9. Si on continue ce procédé, quel est la plus petite largeur de la spirale carrée qu'il faut pour que le ratio des nombres premiers présents sur les diagonales tombe en dessous de 10% ?
+
+On affichera le résultat avec `print`.
+
+@[Spirale de nombres premiers]({"stubs": ["Defis/Euler_58.py"], "command": "python3 Defis/Euler_58_Test.py"})
+
+---
