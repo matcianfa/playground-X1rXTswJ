@@ -108,3 +108,30 @@ On affichera le résultat avec `print`.
 @[Mains au poker]({"stubs": ["Defis/Euler_54.py"], "command": "python3 Defis/Euler_54_Test.py"})
 
 ---
+
+# Nombres de Lychrel
+`Difficulté : Facile`
+`Origine : Projet Euler n°55`
+
+Si on considère le nombre 47 et qu'on lui additionne son renversé, on obtient 47 + 74 = 121 qui est un palindrome.
+
+Tous les nombres ne donnent pas de palindromes aussi rapidement. Par exemple : 
+
+349 + 943 = 1292,  
+1292 + 2921 = 4213  
+4213 + 3124 = 7337  
+
+Donc, il faut trois itérations en partant de 349 pour arriver à un palindrome.
+
+Pour l'instant, personne n'a réussi à prouver que certains nombres comme 196 ne donneront jamais de palindrome en itérant ainsi. Un tel nombre, qui ne produit jamais de palindrome en itérant ce procédé (ajouter le nombre et son renversé) est appelé nombre de Lychrel. Pour ce problème, on supposera qu'un nombre est de Lychrel si on ne prouve pas le contraire.  
+De plus, on a pour tous les nombres inférieurs à 10 000 : soit on obtient un palindrome en moins de 50 itérations, soit aucun ordinateur n'a jusqu'à présent obtenu un palindrome en partant de ce nombre (on le supposera donc de Lychrel).
+
+10677 est le premier nombre qui nécessite plus de 50 itérations pour obtenir un nombre palindrome : On obtient 4668731596684224866951378664 après 53 itérations.
+
+De manière surprenante, il y a des nombres palindromes qui sont eux même de Lychrel comme par exemple 4994.
+
+Combien existent-ils de nombres de Lychrel inférieurs à 10 000 ?
+
+On affichera le résultat avec `print`.
+
+@[Nombres de Lychrel]({"stubs": ["Defis/Euler_55.py"], "command": "python3 Defis/Euler_55_Test.py"})
