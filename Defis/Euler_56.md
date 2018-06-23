@@ -24,8 +24,8 @@ En calculant les quatre premières itérations, on obtient :
 
 $`1+\dfrac 1 2 = \dfrac 3 2 =1.5`$  
 $`1+\dfrac 1{2+\frac 1 2} = \dfrac 7 5 = 1.4`$  
-$`1+\dfrac 1{2+\frac 1 {2+\frac{1 2}}} = \dfrac {17} {12} = 1.41666...`$  
-$`1+\dfrac 1{2+\frac 1 {2+\frac{1 {2+\frac 1 2}}}} = \dfrac {41} {29} = 1.41379...`$  
+$`1+\dfrac 1{2+\frac 1 {2+\frac 1 2}} = \dfrac {17} {12} = 1.41666...`$  
+$`1+\dfrac 1{2+\frac 1 {2+\frac 1 {2+\frac 1 2}}} = \dfrac {41} {29} = 1.41379...`$  
 
 Les trois développement suivants sont $`\dfrac{99}{70}`$, $`\dfrac{239}{169}`$ et $`\dfrac{577}{408}`$ mais le huitième développement $`\dfrac{1393}{985}`$ est le premier example où le nombre de chiffres du numérateur dépasse le nombre de chiffres du dénominateur.
 
