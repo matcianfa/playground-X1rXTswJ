@@ -74,25 +74,30 @@ Si malgré cela, il y a encore égalité, c'est alors la carte de plus haute val
 
 Voici des exemples de parties de deux joueurs où sont données les mains des deux joueurs suivies du gagnant :
 
-1	 	5H 5C 6S 7S KD (Paire de 5)  
-	 	2C 3S 8S 8D TD (Paire de 8)  
-	 	Gagnant : Joueur 2
+Partie n°1 :  
+5H 5C 6S 7S KD (Paire de 5)  
+2C 3S 8S 8D TD (Paire de 8)   
+Gagnant : Joueur 2
     
-2	 	5D 8C 9S JS AC (Plus haute carte : As)  
-	 	2C 5C 7D 8S QH (Plus haute carte : Dame)  
-	 	Gagnant : Joueur 1
+Partie n°2 :  
+5D 8C 9S JS AC (Plus haute carte : As)  
+2C 5C 7D 8S QH (Plus haute carte : Dame)  
+Gagnant : Joueur 1
     
-3	 	2D 9C AS AH AC (Brelan d'As)  
-	 	3D 6D 7D TD QD (Couleur)  
-	 	Gagnant : Joueur 2
+Partie n°3 :
+2D 9C AS AH AC (Brelan d'As)  
+3D 6D 7D TD QD (Couleur)  
+Gagnant : Joueur 2
     
-4	 	4D 6S 9H QH QC (Paire de Dame, plus haute carte 9)  
-	 	3D 6D 7H QD QS (Paire de Dame, plus haute carte 7)  
-	 	Gagnant : Joueur 1
+Partie n°4 :  
+4D 6S 9H QH QC (Paire de Dame, plus haute carte 9)  
+3D 6D 7H QD QS (Paire de Dame, plus haute carte 7)  
+Gagnant : Joueur 1
     
-5	 	2H 2D 4C 4D 4S (Full de 4 par les 2)
-	 	3C 3D 3S 9S 9D (Full de 3 par les 9)
-	 	Gagnant : Joueur 1
+Partie n°5:  
+2H 2D 4C 4D 4S (Full de 4 par les 2)  
+3C 3D 3S 9S 9D (Full de 3 par les 9)  
+Gagnant : Joueur 1
 
 On a placé dans la variable ***parties*** 1000 mains aléatoires de deux joueurs. Chaque ligne contient dix cartes séparées par un simple espaces : Les cinq premières correspondent au joueur 1 et les cinq dernières sont les cartes du joueur 2. On pourra supposer que  toutes les mains sont valides (pas de caractères invalides ni de cartes qui se répètent), chaque main est donnée sans ordre spécifique (elles ne sont pas déjà classées) et dans chaque partie, il y a un gagnant (pas d'égalité).
 
