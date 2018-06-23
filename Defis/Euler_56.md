@@ -43,13 +43,13 @@ On affichera le résultat avec `print`.
 
 En partant de 1 et en tournant dans le sens inverse des aiguilles d'une montre, on peut former la spirale de coté 7 suivante : 
 
-**37** 36 35 34 33 32 **31**
-38 **17** 16 15 14 **13** 30
-39 18  **05**  04  **03** 12 29
-40 19  06  01  02 11 28
-41 20  **07**  08  09 10 27
-42 21 22 23 24 25 26
-**43** 44 45 46 47 48 49 
+**37** 36 35 34 33 32 **31**  
+38 **17** 16 15 14 **13** 30  
+39 18  **05**  04  **03** 12 29  
+40 19  06  01  02 11 28  
+41 20  **07**  08  09 10 27  
+42 21 22 23 24 25 26  
+**43** 44 45 46 47 48 49   
 
 Il est intéressant de noter que 8 des 13 nombres sur les deux diagonales sont premiers. On obtient alors un ratio de 8/13 ≈ 62%.
 
