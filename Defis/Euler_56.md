@@ -83,3 +83,17 @@ On affichera le résultat avec `print`.
 @[Décryptage XOR]({"stubs": ["Defis/Euler_59.py"], "command": "python3 Defis/Euler_59_Test.py"})
 
 ---
+
+# Ensemble de paires de nombres premiers
+`Difficulté : Moyen (20%)`
+`Origine : Projet Euler n°60`
+
+Les nombres premiers 3, 7, 109, 673 sont assez remarquables. En prenant n'importe quelle paire parmi ces nombres et en les concaténant dans n'importe quel ordre, on obtient toujours un nombre premier. Par exemple en prenant 7 et 109, les deux nombres formés par concaténation 7109 et 1097 sont premiers. La somme de ces quatre nombres premiers, 792, est la plus petite somme qu'on puisse obtenir à partir d'un ensemble de quatre nombres premiers ayant cette propriété.
+
+Trouver la plus petite somme pour un ensemble de cinq nombres premiers pour lesquels n'importe quelle paire donne, en les concaténant (dans les deux sens) un nombre premier.
+
+Remarque : Il est fort possible que la solution demande trop de temps pour être exécutée ici. Il faudra alors passer par un IDE Python externe.
+
+On affichera le résultat avec `print`.
+
+@[Ensemble de paires de nombres premiers]({"stubs": ["Defis/Euler_60.py"], "command": "python3 Defis/Euler_60_Test.py"})
