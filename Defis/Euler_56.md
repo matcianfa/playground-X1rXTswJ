@@ -60,3 +60,26 @@ On affichera le résultat avec `print`.
 @[Spirale de nombres premiers]({"stubs": ["Defis/Euler_58.py"], "command": "python3 Defis/Euler_58_Test.py"})
 
 ---
+
+# Décryptage XOR
+`Difficulté : Facile`
+`Origine : Projet Euler n°59`
+
+Chaque caractère d'un ordinateur peut être associé à un unique code ASCII. Par exemple, la majuscule A est associé à 65, l'asterisque (*) à 42 et la minuscule k à 107.
+
+Une méthode de cryptage moderne est de prendre un texte, le convertir en code ASCII, et utiliser le XOR (ou exclusif) de chaque valeur avec une valeur donnée, prise dans une clé secrète. L'avantage avec la fonction XOR est qu'en cryptant le message crypté, on le décrypte. Par exemple 65 XOR 42 = 107, et 107 XOR 42 = 65.
+
+Pour un cryptage incassable, la clé doit être de la même longueur que le message à crypter. L'utilisateur garde le message crypté et la clé de cryptage dans des endroits différents et sans les deux moitiés, il est impossible de decrypter le message.
+
+Malheureusement cette méthode est inutilisable la plupart du temps donc on utilise comme clé un simple mot de passe. S'il est plus court que le message, on le répète de manière cyclique tout au long du message à coder. Il faut donc choisir un mot de passe assez long pour être efficace mais assez court pour être mémorisable.
+
+Le but ici est de décoder le message donné et au final donner la somme des valeurs ASCII des lettres du message décrypté. On donne les informations suivantes :
+- La clé de cryptage utilisée ne contient que trois lettres minuscules. 
+- Le fichier crypté est donné directement sous forme de liste des valeurs ASCII du message.
+- Le message original contient des mots communs anglais
+
+On affichera le résultat avec `print`.
+
+@[Décryptage XOR]({"stubs": ["Defis/Euler_59.py"], "command": "python3 Defis/Euler_59_Test.py"})
+
+---
