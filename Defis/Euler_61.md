@@ -43,3 +43,17 @@ On affichera le résultat avec `print`.
 @[Permutations cubiques]({"stubs": ["Defis/Euler_62.py"], "command": "python3 Defis/Euler_62_Test.py"})
 
 ---
+
+# Puissances et nombre de chiffres
+`Difficulté : Facile`
+`Origine : Projet Euler n°63`
+
+Le nombre de cinq chiffres $`16807=7^5`$ est aussi une puissance 5-ième. De même, le nombre de 9 chiffres $`134217728=8^9`$ est une puissance 9-ième.
+
+Combien existe-t-il de nombres entiers positifs de n-chiffres qui sont aussi des puissances n-ième ?
+
+On affichera le résultat avec `print`.
+
+@[Puissances et nombres de chiffres]({"stubs": ["Defis/Euler_63.py"], "command": "python3 Defis/Euler_63_Test.py"})
+
+---
