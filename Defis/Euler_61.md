@@ -26,6 +26,20 @@ Trouver la somme de l'unique ensemble de six nombres de quatre chiffres qui form
 
 On affichera le résultat avec `print`.
 
-@[Nombres cycliques associés à une figure]({"stubs": ["Defis/Euler_61.py"], "command": "python3 Defis/Euler_61_Test.py"})
+@[Nombres polygonaux cycliques]({"stubs": ["Defis/Euler_61.py"], "command": "python3 Defis/Euler_61_Test.py"})
+
+---
+
+# Permutations cubiques
+`Difficulté : Moyen (15%)`
+`Origine : Projet Euler n°62`
+
+Le cube 41063625 ($`3453^3`$) peut être permuté pour produire deux autres cubes 56623104 ($`384^3`$) and 66430125 ($`405^3`$). En fait, 41063625 est le plus petit cube ayant exactement trois permutations de ses chiffres qui sont des cubes.
+
+Trouver le plus petit cube qui a exactement cinq permutations de ses chiffres qui sont des cubes.
+
+On affichera le résultat avec `print`.
+
+@[Permutations cubiques]({"stubs": ["Defis/Euler_62.py"], "command": "python3 Defis/Euler_62_Test.py"})
 
 ---
