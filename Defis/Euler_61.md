@@ -50,7 +50,7 @@ On affichera le résultat avec `print`.
 
 Le nombre de cinq chiffres $`16807=7^5`$ est aussi une puissance 5-ième. De même, le nombre de 9 chiffres $`134217728=8^9`$ est une puissance 9-ième.
 
-Combien existe-t-il de nombres entiers positifs de n-chiffres qui sont aussi des puissances n-ième ?
+Combien existe-t-il de nombres entiers strictement positifs de n-chiffres qui sont aussi des puissances n-ième ?
 
 On affichera le résultat avec `print`.
 
