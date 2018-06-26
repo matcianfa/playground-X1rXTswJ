@@ -57,3 +57,52 @@ On affichera le résultat avec `print`.
 @[Puissances et nombres de chiffres]({"stubs": ["Defis/Euler_63.py"], "command": "python3 Defis/Euler_63_Test.py"})
 
 ---
+
+# Racines carrées de période impaire
+`Difficulté : Moyen(20%)`
+`Origine : Projet Euler n°64`
+
+Toutes les racines carrées sont périodiques quand elles sont écrites sous forme de fractions continues c'est à dire sous la forme : 
+
+$`\sqrt N = a_0+\dfrac{1}{a_1+\frac{1}{a_2+\frac{1}{a_3+\dots}}}`$
+
+Par exemple :
+
+$`\sqrt{23}=4+\sqrt{23}-4= 4+\dfrac{1}{\frac{1}{\sqrt{23}-4} }= 4 + \dfrac{1}{1+\frac{\sqrt{23}-3}{7}}`$
+
+Si on continue, on obtiendrait le développement suivant :  
+$`\sqrt{23} = 1+\dfrac{1}{1+\frac{1}{3+\frac{1}{1+\frac 1{8+\dots}}}}`$
+
+Le processus peut être résumé comme suit :
+
+$`a_0=4`$, $`\dfrac 1{\sqrt{23}-4}=\dfrac{\sqrt{23}+4} 7= 1+\dfrac{\sqrt{23}-3}7`$  
+$`a_1=1`$, $`\dfrac 7{\sqrt{23}-3}=\dfrac{7(\sqrt{23}+3)}{14}=3+\dfrac{\sqrt{23}-3}{2}`$  
+$`a_2=3`$, $`\dfrac 72{\sqrt{23}-3}=\dfrac{2(\sqrt{23}+3)}{14}=1+\dfrac{\sqrt{23}-4}{7}`$  
+$`a_3=1`$, $`\dfrac 7{\sqrt{23}-4}=\dfrac{7(\sqrt{23}+4)}{7}=8+\sqrt{23}-4`$  
+$`a_4=8`$, $`\dfrac 1{\sqrt{23}-4}=\dfrac{\sqrt{23}+4} 7= 1+\dfrac{\sqrt{23}-3}7`$  
+$`a_5=1`$, $`\dfrac 7{\sqrt{23}-3}=\dfrac{7(\sqrt{23}+3)}{14}=3+\dfrac{\sqrt{23}-3}{2}`$  
+$`a_6=3`$, $`\dfrac 72{\sqrt{23}-3}=\dfrac{2(\sqrt{23}+3)}{14}=1+\dfrac{\sqrt{23}-4}{7}`$  
+$`a_7=1`$, $`\dfrac 7{\sqrt{23}-4}=\dfrac{7(\sqrt{23}+4)}{7}=8+\sqrt{23}-4`$  
+
+Les dix premieres représentations en fraction continue des racines carrées (irrationnelles) sont : 
+
+$`\sqrt 2=[1;(2)]`$, periode=1  
+$`\sqrt 3=[1;(1,2)]`$, periode=2  
+$`\sqrt 5=[2;(4)]`$, periode=1  
+$`\sqrt 6=[2;(2,4)]`$, periode=2  
+$`\sqrt 7=[2;(1,1,1,4)]`$, periode=4  
+$`\sqrt 8=[2;(1,4)]`$, periode=2  
+$`\sqrt{10}=[3;(6)]`$, periode=1  
+$`\sqrt{11}=[3;(3,6)]`$, periode=2  
+$`\sqrt{12}= [3;(2,6)]`$, periode=2  
+$`\sqrt {13}=[3;(1,1,1,1,6)]`$, periode=5  
+
+Exactement quatre fractions continues pour N ≤ 13 ont une période impaire.
+
+Combien de fractions continues pour N ≤ 10000 ont une période impaire ?
+
+On affichera le résultat avec `print`.
+
+@[Racines carrées de période impaire]({"stubs": ["Defis/Euler_64.py"], "command": "python3 Defis/Euler_64_Test.py"})
+
+---
