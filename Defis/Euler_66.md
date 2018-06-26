@@ -51,3 +51,37 @@ On affichera le résultat avec `print`.
 @[Chemin de somme maximum II]({"stubs": ["Defis/Euler_67.py"], "command": "python3 Defis/Euler_67_Test.py"})
 
 ---
+
+# Pentagone magique
+`Difficulté : Moyen(25%)`
+`Origine : Projet Euler n°68`
+
+Considérons le triangle magique suivant, rempli avec les nombres de 1 à 6 tel que chaque ligne a une somme qui vaut neuf.
+
+![Triangle magique](https://projecteuler.net/project/images/p068_1.gif)
+
+En tournant dans le sens des aiguilles d'une montre et en commençant par le groupe de trois qui a le noeud externe dont la valeur est la plus petite (4,3,2 dans cet exemple), chaque solution peut être décrite de manière unique. Par exemple, la solution ci-dessus peut être décrite par l'ensemble : 4,3,2; 6,2,1; 5,1,3 .
+
+Il est possible de completer ce triangle avec quatre sommes différentes : 9, 10, 11 et 12. Il y a en tout huit solutions : 
+
+Total	 Ensemble solution 
+9	  4,2,3; 5,3,1; 6,1,2  
+9	  4,3,2; 6,2,1; 5,1,3  
+10	2,3,5; 4,5,1; 6,1,3  
+10	2,5,3; 6,3,1; 4,1,5  
+11	1,4,6; 3,6,2; 5,2,4  
+11	1,6,4; 5,4,2; 3,2,6  
+12	1,5,6; 2,6,4; 3,4,5  
+12	1,6,5; 3,5,4; 2,4,6  
+
+En concaténant chaque groupe, il est possible de former une chaine de caractère de 9 chiffres. La chaine maximum pour ce triangle magique est 432621513.
+
+En utilisant des nombres de 1 à 10, selon l'arrangement, il est possible de former ainsi des chaines de 16 ou 17 chiffres. Quelle est la chaine de caractère maximum formée de 16 chiffres pour un pentagone magique ?
+
+![Pentagone magique](https://projecteuler.net/project/images/p068_2.gif)
+
+On affichera le résultat avec `print`.
+
+@[Pentagone magique]({"stubs": ["Defis/Euler_68.py"], "command": "python3 Defis/Euler_68_Test.py"})
+
+---
