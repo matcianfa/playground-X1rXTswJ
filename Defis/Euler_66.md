@@ -114,3 +114,21 @@ On affichera le résultat avec `print`.
 @[Fonction phi d'Euler et maximum]({"stubs": ["Defis/Euler_69.py"], "command": "python3 Defis/Euler_69_Test.py"})
 
 ---
+
+# Fonction phi d'Euler et permutations
+`Difficulté : Moyen(20%)`
+`Origine : Projet Euler n°70`
+
+La fonction phi d'Euler, φ(n) est utilisée pour déterminer le nombre d'entiers inférieurs à n qui sont premiers avec  n. Par exemple, comme les entiers 1, 2, 4, 5, 7, et 8 sont tous inférieurs à 9 et premiers avec 9, on a φ(9)=6.
+
+le nombre 1 est considéré comme premier avec tout entier strictement positif donc φ(1)=1.
+
+Il est interessant de noter que φ(87109)=79180, en remarquant que 87109 est une permutation de 79180.
+
+Trouver la valeur de n inférieure à $`10^7`$ pour laquelle φ(n) est une permutation de net le ratio n/φ(n) est un minimum.
+
+On affichera le résultat avec `print`.
+
+@[Fonction phi d'Euler et permutations]({"stubs": ["Defis/Euler_70.py"], "command": "python3 Defis/Euler_70_Test.py"})
+
+---
