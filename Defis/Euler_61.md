@@ -1,5 +1,5 @@
 # Nombres polygonaux cycliques
-`Difficulté : Moyen (20%)`
+`Difficulté : Moyenne (20%)`
 `Origine : Projet Euler n°61`
 
 Les nombres triangulaires, carrés, pentagonaux, hexagonaux, heptagonaux et octogonaux sont des nombres polygonaux donnés par les formules suivantes :
@@ -31,7 +31,7 @@ On affichera le résultat avec `print`.
 ---
 
 # Permutations cubiques
-`Difficulté : Moyen (15%)`
+`Difficulté : Moyenne (15%)`
 `Origine : Projet Euler n°62`
 
 Le cube 41063625 ($`3453^3`$) peut être permuté pour produire deux autres cubes 56623104 ($`384^3`$) and 66430125 ($`405^3`$). En fait, 41063625 est le plus petit cube ayant exactement trois permutations de ses chiffres qui sont des cubes.
@@ -59,7 +59,7 @@ On affichera le résultat avec `print`.
 ---
 
 # Racines carrées de période impaire
-`Difficulté : Moyen(20%)`
+`Difficulté : Moyenne(20%)`
 `Origine : Projet Euler n°64`
 
 Toutes les racines carrées sont périodiques quand elles sont écrites sous forme de fractions continues c'est à dire sous la forme : 
@@ -104,5 +104,42 @@ Combien de fractions continues pour N ≤ 10000 ont une période impaire ?
 On affichera le résultat avec `print`.
 
 @[Racines carrées de période impaire]({"stubs": ["Defis/Euler_64.py"], "command": "python3 Defis/Euler_64_Test.py"})
+
+---
+
+# Convergence de e
+`Difficulté : Moyenne(15%)`
+`Origine : Projet Euler n°65`
+
+
+La racine carrée de 2 peut être écrite en fraction continue infinie sous la forme :  
+$`\sqrt 2 = 1+\dfrac{1}{2+\frac{1}{2+\frac{1}{2+\dots}}}`$
+
+Cette fraction continue infinie peut s'écrire $`\sqrt{2}=[1;(2)]`$ où $`(2)`$ indique que 2 se répète *ad infinitum*. De la même manière, on a $`\sqrt{23}=[4;(1,3,1,8)]`$ (voir le problème précédent).
+
+La suite des valeurs des fractions continues partielles qu'on obtient en s'arretant donne pour une racine carrée la meilleurs approximation rationnelle. Considérons les fractions obtenues pour $`\sqrt{2}`$ :  
+
+$`1+\dfrac 1 2 = \dfrac 3 2 `$  
+$`1+\dfrac 1 {2+\frac 12}=\dfrac 7 5`$  
+$`1+\dfrac 1 {2+\frac 1{2+\frac 12}}=\dfrac {17}{12}`$   
+$`1+\dfrac 1 {2+\frac 1{2+\frac 1{2+\frac 12}}}=\dfrac {41}{29}`$   
+ 
+On obtient ainsi la suite des dix premieres fractions continues partielles de $`\sqrt{2}`$ :  
+$`1, \dfrac 32, \dfrac 75, \dfrac{17}{12}, \dfrac{41}{29},\dfrac{99}{70}, \dfrac{239}{169}, \dfrac{577}{408}, \dfrac{1393}{985}, \dfrac{3363}{2378},...`$
+
+La constant ***e*** a un développement remarquable :
+
+$`e = [2; 1,2,1, 1,4,1, 1,6,1 , ... , 1,2k,1, ...]`$.
+
+Les dix premiers termes de la suite des fractions continues partielles de ***e*** sont :
+$`2, 3, \dfrac 83, \dfrac{11}4, \dfrac{19}7, \dfrac{87}{32}, \dfrac{106}{39},\dfrac{193}{71}, \dfrac{1264}{465}, \dfrac{1457}{536}, ...`$
+
+La somme des chiffres du numérateur de la dixième fraction est 1+4+5+7=17.
+
+Trouver la somme des chiffres du numérateur de la 100e fraction continue partielle de ***e***.
+
+On affichera le résultat avec `print`.
+
+@[Convergence de e]({"stubs": ["Defis/Euler_65.py"], "command": "python3 Defis/Euler_65_Test.py"})
 
 ---
