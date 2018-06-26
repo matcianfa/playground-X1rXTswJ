@@ -111,11 +111,9 @@ On peut voir que pour n=6, la valeur de n/φ(n) est maximum pour n ≤ 10.
 
 Trouver la valeur de n ≤ 1,000,000 pour laquelle n/φ(n) est maximum.
 
-| Option | Description |
-| ------ | ----------- |
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
+| n | premiers avec n | φ(n)| n/φ(n) |
+| ------ | ----------- | ---- | ---- |
+| data   | path to data files to supply the data that will be passed into templates. | qg | qd |
 
 On affichera le résultat avec `print`.
 
