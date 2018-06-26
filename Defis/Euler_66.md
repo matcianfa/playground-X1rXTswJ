@@ -125,7 +125,7 @@ le nombre 1 est considéré comme premier avec tout entier strictement positif d
 
 Il est interessant de noter que φ(87109)=79180, en remarquant que 87109 est une permutation de 79180.
 
-Trouver la valeur de n inférieure à $`10^7`$ pour laquelle φ(n) est une permutation de net le ratio n/φ(n) est un minimum.
+Trouver la valeur de n inférieure à $`10^7`$ pour laquelle φ(n) est une permutation de n et le ratio n/φ(n) est un minimum.
 
 On affichera le résultat avec `print`.
 
