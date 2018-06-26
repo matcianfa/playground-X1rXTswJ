@@ -113,7 +113,9 @@ Trouver la valeur de n ≤ 1,000,000 pour laquelle n/φ(n) est maximum.
 
 | n | premiers avec n | φ(n)| n/φ(n) |
 | ------ | ----------- | ---- | ---- |
-| data   | path to data files to supply the data that will be passed into templates. | qg | qd |
+| 2 | 1 | 1 | 2 |
+| 3 | 1,2 | 2 | 1.5 |
+| 4 | 1,3 | 2 | 2 |
 
 On affichera le résultat avec `print`.
 
