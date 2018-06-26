@@ -92,11 +92,11 @@ On affichera le résultat avec `print`.
 
 La fonction phi d'Euler, φ(n) est utilisée pour déterminer le nombre d'entiers inférieurs à n qui sont premiers avec  n. Par exemple, comme les entiers 1, 2, 4, 5, 7, et 8 sont tous inférieurs à 9 et premiers avec 9, on a φ(9)=6.
 
-| n |	Relatively Prime |	φ(n) |	n/φ(n) |
-| - | ---------------- | ----- | ------- |
-| 2 | 	1 |	1 |	2 |
+| n  | Relatively Prime | φ(n) | n/φ(n) |
+| -- | ---------------- | ---- | ------ |
+| 2 |	1 |	1 |	2 |
 | 3 |	1,2 |	2 |	1.5 |
-| 4 |	1,3 |	2 	| 2 |
+| 4 |	1,3 |	2 | 2 |
 | 5 |	1,2,3,4 |	4 |	1.25 |
 | 6 |	1,5 |	2 |	3 |
 | 7 |	1,2,3,4,5,6 |	6 |	1.1666... |
