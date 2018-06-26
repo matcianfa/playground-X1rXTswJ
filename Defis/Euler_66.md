@@ -108,6 +108,12 @@ On peut voir que pour n=6, la valeur de n/φ(n) est maximum pour n ≤ 10.
 
 Trouver la valeur de n ≤ 1,000,000 pour laquelle n/φ(n) est maximum.
 
+| Option | Description |
+| ------ | ----------- |
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
+
 On affichera le résultat avec `print`.
 
 @[Fonction phi d'Euler et maximum]({"stubs": ["Defis/Euler_69.py"], "command": "python3 Defis/Euler_69_Test.py"})
