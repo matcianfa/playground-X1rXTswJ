@@ -26,3 +26,26 @@ On affichera le résultat avec `print`.
 @[Equation Diophantienne]({"stubs": ["Defis/Euler_66.py"], "command": "python3 Defis/Euler_66_Test.py"})
 
 ---
+
+# Chemin de somme maximum II
+`Difficulté : Facile`
+`Origine : Projet Euler n°67`
+
+A partir d'un nombre dans les triangles ci-dessous, on peut se déplacer uniquement vers le bas soit vers le nombre juste en dessous, soit vers le nombre à droite de celui qui est en dessous. Par exemple, à partir du 6, on peut descendre uniquement vers le 9 ou le 3 mais pas vers le 5.
+
+En partant du sommet du triangle ci-dessous, le chemin dont le total en additionnant les nombres du chemin est le plus grand est 23.
+
+***3***  
+***7*** 4  
+2 ***4*** 6  
+8 5 ***9*** 3  
+
+En effet, 3 + 7 + 4 + 9 = 23.
+
+Trouver le chemin de somme maximum dans le triangle donné. (Le triangle est donné sous forme de chaine de caractère)
+
+On affichera le résultat avec `print`.
+
+@[Chemin de somme maximum II]({"stubs": ["Defis/Euler_67.py"], "command": "python3 Defis/Euler_67_Test.py"})
+
+---
