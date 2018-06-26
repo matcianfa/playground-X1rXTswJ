@@ -5,7 +5,7 @@
 COnsidérons l'équation Diophantienne quadratique de la forme :
 $`x^2-Dy^2=1`$.
 
-Par exemple, quand $`D=13`$, la solution minimale en $`x`$ est $ 6492 – 13×1802 = 1`$.
+Par exemple, quand $`D=13`$, la solution minimale en $`x`$ est $`649^2 – 13×180^2 = 1`$.
 
 On admettra qu'il n'y a pas de solutions pour les entiers strictement positifs quand D est un carré.
 
