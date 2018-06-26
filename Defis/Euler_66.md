@@ -94,6 +94,9 @@ La fonction phi d'Euler, φ(n) est utilisée pour déterminer le nombre d'entier
 
 | n  | Relatively Prime | φ(n) | n/φ(n) |
 | -- | ---------------- | ---- | ------ |
+| gsd | dsfsf | qs | sg |
+
+
 | 2 |	1 |	1 |	2 |
 | 3 |	1,2 |	2 |	1.5 |
 | 4 |	1,3 |	2 | 2 |
