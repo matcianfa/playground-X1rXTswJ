@@ -42,7 +42,9 @@ En partant du sommet du triangle ci-dessous, le chemin dont le total en addition
 
 En effet, 3 + 7 + 4 + 9 = 23.
 
-Trouver le chemin de somme maximum dans le triangle donné. (Le triangle est donné sous forme de chaine de caractère)
+Trouver le chemin de somme maximum dans le triangle donné. (Le triangle est donné sous forme de chaine de caractère).
+
+Note : L'énoncé est le même que le problème 18 à la différence près que cette fois ci le triangle a 100 lignes ce qui fait un total de 2^99 chemins. Même avec un ordinateur qui calcule 1000 milliard de chemins par seconde, il faudrait 20 milliard d'années pour tous les tester. Il vaut donc mieux refléchir à des stratégies plus efficaces.
 
 On affichera le résultat avec `print`.
 
