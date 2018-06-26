@@ -28,7 +28,6 @@ n_min=0
 for n in range(2,1000001):
     temp = calcul(n)
     if temp <val_min:
-        print(val_min,n)
         val_min=temp
         n_min=n
         
