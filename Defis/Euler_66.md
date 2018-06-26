@@ -64,7 +64,7 @@ En tournant dans le sens des aiguilles d'une montre et en commençant par le gro
 
 Il est possible de completer ce triangle avec quatre sommes différentes : 9, 10, 11 et 12. Il y a en tout huit solutions : 
 
-Total	 Ensemble solution 
+Total	 Ensemble solution   
 9	  4,2,3; 5,3,1; 6,1,2  
 9	  4,3,2; 6,2,1; 5,1,3  
 10	2,3,5; 4,5,1; 6,1,3  
