@@ -92,25 +92,6 @@ On affichera le résultat avec `print`.
 
 La fonction phi d'Euler, φ(n) est utilisée pour déterminer le nombre d'entiers inférieurs à n qui sont premiers avec  n. Par exemple, comme les entiers 1, 2, 4, 5, 7, et 8 sont tous inférieurs à 9 et premiers avec 9, on a φ(9)=6.
 
-| n  | Relatively Prime | φ(n) | n/φ(n) |
-| -- | ---------------- | ---- | ------ |
-| gsd | dsfsf | qs | sg |
-
-
-| 2 |	1 |	1 |	2 |
-| 3 |	1,2 |	2 |	1.5 |
-| 4 |	1,3 |	2 | 2 |
-| 5 |	1,2,3,4 |	4 |	1.25 |
-| 6 |	1,5 |	2 |	3 |
-| 7 |	1,2,3,4,5,6 |	6 |	1.1666... |
-| 8 |	1,3,5,7 |	4 |	2 |
-| 9 |	1,2,4,5,7,8 |	6 |	1.5 |
-| 10 | 1,3,7,9 | 4 |	2.5 |
-
-On peut voir que pour n=6, la valeur de n/φ(n) est maximum pour n ≤ 10.
-
-Trouver la valeur de n ≤ 1,000,000 pour laquelle n/φ(n) est maximum.
-
 | n | premiers avec n | φ(n)| n/φ(n) |
 | ------ | ----------- | ---- | ---- |
 | 2 | 1 | 1 | 2 |
@@ -122,6 +103,11 @@ Trouver la valeur de n ≤ 1,000,000 pour laquelle n/φ(n) est maximum.
 | 8 |	1,3,5,7 |	4 |	2 |
 | 9 |	1,2,4,5,7,8 |	6 |	1.5 |
 | 10 | 1,3,7,9 | 4 |	2.5 |
+
+On peut voir que pour n=6, la valeur de n/φ(n) est maximum pour n ≤ 10.
+
+Trouver la valeur de n ≤ 1,000,000 pour laquelle n/φ(n) est maximum.
+
 
 On affichera le résultat avec `print`.
 
