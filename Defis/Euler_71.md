@@ -68,15 +68,15 @@ Le nombre 145 est bien connu pour avoir la propriété que la summ des factoriel
 
 Il est cependant moins connu que 169 produit une chaine de nombre qui revient sur 169. Il s'avère qu'il y a seulement 3 telles boucles qui existent : 
 
-169 → 363601 → 1454 → 169
-871 → 45361 → 871
-872 → 45362 → 872
+169 → 363601 → 1454 → 169  
+871 → 45361 → 871  
+872 → 45362 → 872  
 
 Il n'est pas difficile de montre que pour chaque nombre de départ sera bloqué dans une boucle. Par exemple :
 
-69 → 363600 → 1454 → 169 → 363601 (→ 1454)
-78 → 45360 → 871 → 45361 (→ 871)
-540 → 145 (→ 145)
+69 → 363600 → 1454 → 169 → 363601 (→ 1454)  
+78 → 45360 → 871 → 45361 (→ 871)  
+540 → 145 (→ 145)  
 
 En partant de 69, on crée une chaine de 5 termes distincts. La chaine la plus longue de nombres distincts avec un nombre de départ inférieur à un million est de 60 termes.
 
