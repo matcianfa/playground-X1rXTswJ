@@ -87,3 +87,28 @@ On affichera le résultat avec `print`.
 @[Chaine de factorielle de chiffres]({"stubs": ["Defis/Euler_74.py"], "command": "python3 Defis/Euler_74_Test.py"})
 
 ---
+
+# Périmètre singulier de triangles rectangles entiers
+`Difficulté : Moyen (25%)`
+`Origine : Projet Euler n°75`
+
+Il s'avère que 12 cm est la plus petite longueur de corde telle qu'on peut former un triangle rectangle dont la longueur des cotés est un entier et d'une unique façon. Voici d'autres exemples : 
+
+12 cm: (3,4,5)  
+24 cm: (6,8,10)  
+30 cm: (5,12,13)  
+36 cm: (9,12,15)  
+40 cm: (8,15,17)  
+48 cm: (12,16,20)  
+
+A l'opposé, certaines longueurs de cordes, comme 20 cm ne peuvent pas être utilisées pour former un triangle rectangle de cotés entiers. D'un autre coté, certaines longueurs ont plusieurs possibilités pour former un triangle rectangle de cotés entiers comme par exemple 120 cm avec laquelle on peut former 3 triangles différents :
+
+120 cm: (30,40,50), (20,48,52), (24,45,51)
+
+Etant donnée une longueur L de corde, pour combien de valeurs de L ≤ 1,500,000 peut-on former exactement un seul triangle rectangle de cotés entiers ? 
+
+On affichera le résultat avec `print`.
+
+@[Périmètre singulier de triangles rectangles entiers]({"stubs": ["Defis/Euler_75.py"], "command": "python3 Defis/Euler_75_Test.py"})
+
+---
