@@ -57,3 +57,33 @@ On affichera le résultat avec `print`.
 @[Décompte du nombre de fractions dans un intervalle]({"stubs": ["Defis/Euler_73.py"], "command": "python3 Defis/Euler_73_Test.py"})
 
 ---
+
+# Chaine de factorielle de chiffres
+`Difficulté : Moyen (15%)`
+`Origine : Projet Euler n°74`
+
+Le nombre 145 est bien connu pour avoir la propriété que la summ des factorielles de ses chiffres est égale à 145 :
+
+1! + 4! + 5! = 1 + 24 + 120 = 145
+
+Il est cependant moins connu que 169 produit une chaine de nombre qui revient sur 169. Il s'avère qu'il y a seulement 3 telles boucles qui existent : 
+
+169 → 363601 → 1454 → 169
+871 → 45361 → 871
+872 → 45362 → 872
+
+Il n'est pas difficile de montre que pour chaque nombre de départ sera bloqué dans une boucle. Par exemple :
+
+69 → 363600 → 1454 → 169 → 363601 (→ 1454)
+78 → 45360 → 871 → 45361 (→ 871)
+540 → 145 (→ 145)
+
+En partant de 69, on crée une chaine de 5 termes distincts. La chaine la plus longue de nombres distincts avec un nombre de départ inférieur à un million est de 60 termes.
+
+Combien de chaines de 60 termes exactement existe-t-il en commençant avec un nombre inférieur à un million ?
+
+On affichera le résultat avec `print`.
+
+@[Chaine de factorielle de chiffres]({"stubs": ["Defis/Euler_74.py"], "command": "python3 Defis/Euler_74_Test.py"})
+
+---
