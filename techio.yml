@@ -198,6 +198,8 @@ plan:
         statement: Defis/Euler_61.md
       - title: Projet Euler n°66 à 70
         statement: Defis/Euler_66.md
+      - title: Projet Euler n°71 à 75
+        statement: Defis/Euler_71.md
   - title: Optimisation
     plan:
       - title: Introduction
