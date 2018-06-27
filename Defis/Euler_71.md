@@ -19,7 +19,7 @@ On affichera le résultat avec `print`.
 ---
 
 # Décompte du nombre de fractions dans un intervalle
-`Difficulté : Moyen (15%)`
+`Difficulté : Moyen (20%)`
 `Origine : Projet Euler n°72`
 
 Considérons la fraction n/d où n et d sont des entiers strictement positifs. Si n<d et PGCD(n,d)=1, on dit que la fraction est réduite et propre.
@@ -28,7 +28,9 @@ Si on liste la liste des fractions réduites et propres pour d ≤ 8 dans l'ordr
 
 1/8, 1/7, 1/6, 1/5, 1/4, 2/7, 1/3, 3/8, 2/5, 3/7, 1/2, 4/7, 3/5, 5/8, 2/3, 5/7, 3/4, 4/5, 5/6, 6/7, 7/8
 
+On peut voir qu'il y a 21 fractions dans cette liste.
 
+Combien d'éléments contiendra la liste des fractions réduites et propres pour d ≤ 1,000,000 ?
 
 On affichera le résultat avec `print`.
 
