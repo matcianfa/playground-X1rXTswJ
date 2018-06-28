@@ -39,3 +39,24 @@ On affichera le résultat avec `print`.
 
 ---
 
+# Partitions de pièces
+`Difficulté : Moyen (30%)`
+`Origine : Projet Euler n°78`
+
+Soit p(n) le nombre de façons différentes de séparer n pièces en piles. Par exemple, cinq piècecs peuvent être séparées en piles de 7 manières différentes, donc p(5)=7 : 
+
+OOOOO  
+OOOO   O  
+OOO   OO  
+OOO   O   O  
+OO   OO   O  
+OO   O   O   O  
+O   O   O   O   O  
+
+Trouver la plus petite valeur de n telle que p(n) est divisible par un million.
+
+On affichera le résultat avec `print`.
+
+@[Partitions de pièces]({"stubs": ["Defis/Euler_78.py"], "command": "python3 Defis/Euler_78_Test.py"})
+
+---
