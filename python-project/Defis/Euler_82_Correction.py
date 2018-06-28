@@ -16,7 +16,7 @@ for ligne in range(N):
     for colonne in range(N):
         graphe[(ligne,colonne)]=(matrice[ligne][colonne],[])
         # Regardons déjà tous les déplacements à droite : 
-        if col<N-1 :
+        if colonne<N-1 :
             graphe[(ligne,colonne)][1].append((ligne,colonne+1))
         # Regardons maintenant tous les déplacements vers le haut : 
         if ligne>0 and 0<colonne<N-1: # C'est abérrant de monter ou descendre au debut ou à la fin
