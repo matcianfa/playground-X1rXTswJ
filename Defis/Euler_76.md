@@ -60,3 +60,19 @@ On affichera le résultat avec `print`.
 @[Partitions de pièces]({"stubs": ["Defis/Euler_78.py"], "command": "python3 Defis/Euler_78_Test.py"})
 
 ---
+
+# Dérivation de mot de passe
+`Difficulté : Facile`
+`Origine : Projet Euler n°79`
+
+Une méthode classique utilisée par les banque en ligne est de ne demander à l'utilisateur que 3 caractères aléatoires d'un mot de passe. Par exemple, si le code est 531278, ils peuvent demander le 2e, 3e et 5e chiffre. la réponse attendue est alors 317.
+
+On a regrouper dans la liste donnée ci-desous 50 tentatives de connexions réussies.
+
+Etant donné que les 3 chiffres sont toujours demandés dans l'ordre d'apparition, analysez ces connexions pour déterminer le plus petit mot de passe valide possible.
+
+On affichera le résultat avec `print`.
+
+@[Dérivation de mot de passe]({"stubs": ["Defis/Euler_79.py"], "command": "python3 Defis/Euler_79_Test.py"})
+
+---
