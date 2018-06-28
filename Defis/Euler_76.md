@@ -76,3 +76,19 @@ On affichera le résultat avec `print`.
 @[Dérivation de mot de passe]({"stubs": ["Defis/Euler_79.py"], "command": "python3 Defis/Euler_79_Test.py"})
 
 ---
+
+# Développement décimal d'une racine carrée
+`Difficulté : Moyen (20%)`
+`Origine : Projet Euler n°80`
+
+Il est bien connu que si la racine carrée d'un entier naturel n'est pas un entier, il est irrationnel. Son développement décimal est alors infini sans aucun cycle.
+
+La racine carrée de 2 est 1.41421356237309504880... et la somme de ses cent premiers chiffres est 475 (y compris celui avant la virgule).
+
+Pour les cent premiers entiers naturels qui ne sont pas des carrés, trouver la somme totale des sommes des cent premiers chiffres de leur racine carrée.
+
+On affichera le résultat avec `print`.
+
+@[Développement décimal d'une racine carrée]({"stubs": ["Defis/Euler_80.py"], "command": "python3 Defis/Euler_80_Test.py"})
+
+---
