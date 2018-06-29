@@ -70,7 +70,7 @@ On affichera le résultat avec `print`.
 
 Dans le jeu de Monopoly, le plateau standard ressemble à ceci (C'est une version anglaise) :
 
-![plateau](https://drive.google.com/open?id=1rxERHneYM1weOBQYIjRd0xZxLMOE6iXv)
+![plateau](https://github.com/matcianfa/playground-X1rXTswJ/blob/master/Defis/Euler84.png)
 
 Un joueur commence sur la case GO et ajoute le score fait avec 2 dés à 6 faces pour déterminer de combien de case il avance dans le sens des aiguilles d'une montre. Sans aucune autre règle, on peut s'attendre à visiter toutes les cases avec la même probabilité : 2.5%. Cependant, comber sur la case G2J (Aller en prison), CC (carte communauté) et CH (carte chance) change cette distribution.
 
