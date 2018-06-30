@@ -17,3 +17,22 @@ On affichera le résultat avec `print`.
 @[Chemin sur un pavé]({"stubs": ["Defis/Euler_86.py"], "command": "python3 Defis/Euler_86_Test.py"})
 
 ---
+
+# Triplets de puissances de nombres premiers
+`Difficulté : Moyen (20%)`
+`Origine : Projet Euler n°87`
+
+Le plus petit nombre qu'on peut exprimer comme la somme d'un carré d'un nombre premier, d'un cube d'un nombre premier et d'une puissance quatrième d'un nombre premier est 28. En fait, il y a exactement quatre nombres inférieurs à 50 qui peuvent s'exprimer d'une telle façon :
+
+$`28 = 2^2 + 2^3 + 2^4  `$  
+$`33 = 3^2 + 2^3 + 2^4  `$  
+$`49 = 5^2 + 2^3 + 2^4 `$   
+$`47 = 2^2 + 3^3 + 2^4`$  
+
+Combien de nombres inférieurs à 50 million peuvent s'exprimer comme la somme d'un nombre premier au carré, d'un autre au cube et d'un troisième à la puissance quatre ?
+
+On affichera le résultat avec `print`.
+
+@[Triplets de puissances de nombres premiers]({"stubs": ["Defis/Euler_87.py"], "command": "python3 Defis/Euler_87_Test.py"})
+
+---
