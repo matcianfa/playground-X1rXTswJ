@@ -105,3 +105,20 @@ On affichera le résultat avec `print`.
 @[Chances au monopoly]({"stubs": ["Defis/Euler_84.py"], "command": "python3 Defis/Euler_84_Test.py"})
 
 ---
+
+
+# Décompte de rectangles
+`Difficulté : Moyen (15%)`
+`Origine : Projet Euler n°85`
+
+Dans une grille rectangulaire de dimension 3 par 2, on peut compter 18 rectangles :
+
+![rectangles](https://projecteuler.net/project/images/p085.gif)
+
+Cependant, il n'existe pas de grille qui contienne exactement 2 million de rectangles. Trouver l'aire de la grille dont le nombre de rectangles est le plus proche de 2 million.
+
+On affichera le résultat avec `print`.
+
+@[Décompte de rectangles]({"stubs": ["Defis/Euler_85.py"], "command": "python3 Defis/Euler_85_Test.py"})
+
+---
