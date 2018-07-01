@@ -1,4 +1,4 @@
-# L'idée est basée sur  la ramque suivante : Si on prend n'importe quel produit a_1*a_2*...*a_n, on peut toujours s'arranger pour qu'il donne un produit égal à la somme (en ajoutant le nombre de 1 qu'il faut.
+# L'idée est basée sur  la remarque suivante : Si on prend n'importe quel produit a_1*a_2*...*a_n, on peut toujours s'arranger pour qu'il donne un produit égal à la somme (en ajoutant le nombre de 1 qu'il faut.
 # Par exemple 2*5 = 10 = 2+5+ 1+1+1. C'est donc un candidat pour k=5. Donc l'idée est de balayer les produits, completer par des un et regarder si le résultats est minimal pour le k qu'on obtient.
 # On peut voir assez facilement qu'on balaye bien toute les possibilités en faisant tous les produits possibles
 
