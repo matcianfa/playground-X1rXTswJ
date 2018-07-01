@@ -36,3 +36,31 @@ On affichera le résultat avec `print`.
 @[Triplets de puissances de nombres premiers]({"stubs": ["Defis/Euler_87.py"], "command": "python3 Defis/Euler_87_Test.py"})
 
 ---
+
+# Nombres produits-sommes
+`Difficulté : Difficile (40%)`
+`Origine : Projet Euler n°88`
+
+Un entier naturel N qui peut s'écrire comme somme et produit d'une liste d'au moins deux nombres $`\{a_1, a_2, \dots, a_k\}`$ est appelé un nombre produit-somme : $`N = a_1 + a_2 + ... + a_k = a_1 × a_2 × ... × a_k`$.
+
+Par exemple, 6 = 1 + 2 + 3 = 1 × 2 × 3.
+
+Pour un ensemble donné de taille k, on peut appelé le plus petit N avec cette propriété un nombre produit-somme minimal. Les nombres produits-sommes minimaux pour les ensembles de taille k= 2, 3, 4, 5, et 6 sont les suivants :
+
+k=2: 4 = 2 × 2 = 2 + 2  
+k=3: 6 = 1 × 2 × 3 = 1 + 2 + 3  
+k=4: 8 = 1 × 1 × 2 × 4 = 1 + 1 + 2 + 4  
+k=5: 8 = 1 × 1 × 2 × 2 × 2 = 1 + 1 + 2 + 2 + 2  
+k=6: 12 = 1 × 1 × 1 × 1 × 2 × 6 = 1 + 1 + 1 + 1 + 2 + 6  
+
+Ainsi pour 2≤k≤6, la somme de tous les nombres produits-sommes- minimaux est 4+6+8+12 = 30; On notera que 8 n'est conmpté qu'une sseule fois dans la somme.
+
+De plus, la somme des nombres produits-sommes pour 2≤k≤12 est {4, 6, 8, 12, 15, 16}, la somme est donc 61.
+
+Quelle est la somme de tous les nombres produits-sommes minimaux pour 2≤k≤12000 ?
+
+On affichera le résultat avec `print`.
+
+@[Nombres produits-sommes]({"stubs": ["Defis/Euler_88.py"], "command": "python3 Defis/Euler_88_Test.py"})
+
+---
