@@ -95,3 +95,32 @@ On affichera le résultat avec `print`.
 @[Chiffres romains]({"stubs": ["Defis/Euler_89.py"], "command": "python3 Defis/Euler_89_Test.py"})
 
 ---
+
+# Paire de chiffres sur un cube
+`Difficulté : Moyen (40%)`
+`Origine : Projet Euler n°90`
+
+Chacune des six faces d'un cube a un chiffre différent (de 0 à 9) écrit dessus. De même sur un second cube. En plaça,t les deux cubes cote à cote dans différentes positions, on peut former une variété de nombres de 2 chiffres.
+
+Par exemple, le nombre 64 peut être formé :
+
+![cube](https://projecteuler.net/project/images/p090.gif)
+
+En choisissant bien les nombres sur les deux cubes, il est possible de retrouver tous les nombres qui sont des carrés inférieurs à 100 : 01, 04, 09, 16, 25, 36, 49, 64, and 81.
+
+Par exemple, une manière d'y arriver est en plaçant {0, 5, 6, 7, 8, 9} sur un cube et {1, 2, 3, 4, 8, 9} sur l'autre.
+
+De plus, pour ce problème, on pourra tourner le 6 pour obtenir un 9 et inversement ce qui veut dire qu'un arrangement comme {0, 5, 6, 7, 8, 9} et  {1, 2, 3, 4, 6, 7} permet aux 9 carrés d'être obtenus aussi non le carré 09 ne pourrait pas être obtenu.
+
+Pour déterminer des arrangement distincts, on s'intéresse aux nombres de chaque cube, pas à leur ordre.
+
+{1, 2, 3, 4, 5, 6} est equivalent à {3, 6, 4, 1, 2, 5}
+{1, 2, 3, 4, 5, 6} est distinct de {1, 2, 3, 4, 5, 9}
+
+Combien d'arrangements distincts de deux cubes permet à tous les nombres carrés inférieurs à 100 d'être obtenus ? 
+
+On affichera le résultat avec `print`.
+
+@[Paire de chiffres sur un cube]({"stubs": ["Defis/Euler_90.py"], "command": "python3 Defis/Euler_90_Test.py"})
+
+---
