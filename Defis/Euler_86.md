@@ -64,3 +64,34 @@ On affichera le résultat avec `print`.
 @[Nombres produits-sommes]({"stubs": ["Defis/Euler_88.py"], "command": "python3 Defis/Euler_88_Test.py"})
 
 ---
+
+# Chiffres romains
+`Difficulté : Moyen (20%)`
+`Origine : Projet Euler n°89`
+
+Pour qu'un nombre écrit en chiffres romains soit considéré valide, il y a quelques règles de base qu'il faut suivre. Cependant, les règles laissent la possibilité pour certains nombres d'être représentés de plusieurs façons mais il y en a toujours une "meilleure".
+
+Par exemple, il ya au moins 6 façons d'écrire le nombre 16 :
+
+IIIIIIIIIIIIIIII  
+VIIIIIIIIIII  
+VVIIIIII  
+XIIIIII  
+VVVI  
+XVI  
+
+Cependant, d'après les règles, seules XIIIIII et XVI sont valides et cette dernière est considérée comme la plus efficiente car elle utilise le moins de caractères.
+
+On pourra trouver les règles complètes ici : [règles](https://projecteuler.net/about=roman_numerals).
+
+On donne ci-dessous la liste d'un millier de nombre en chiffres romains dont l'écriture est valide mais pas necessairement minimale.
+
+Trouver le nombre de caractères economisé en ecrivant chacun sous leur forme minimale.
+
+Note: On pourra admettre que chaque nombre dans la liste ne contient pas plus de 4 caractères identiques consécutifs.
+
+On affichera le résultat avec `print`.
+
+@[Chiffres romains]({"stubs": ["Defis/Euler_89.py"], "command": "python3 Defis/Euler_89_Test.py"})
+
+---
