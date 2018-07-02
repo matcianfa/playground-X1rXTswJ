@@ -63,3 +63,19 @@ On affichera le résultat avec `print`.
 @[Expressions arithmétiques]({"stubs": ["Defis/Euler_93.py"], "command": "python3 Defis/Euler_93_Test.py"})
 
 ---
+
+# Triangles presque équilatéraux
+`Difficulté : Moyen (35%)`
+`Origine : Projet Euler n°94`
+
+Il est facile de prouver qu'aucun triangle equilatéral n'a à la fois  les longueurs des cotés entières et son aire entière. Cependant, le triangle presque équilatéral 5-5-6 a une aire de 12 unité d'aire.
+
+On définit un triangle presque équilatéral comme un triangle qui a deux cotés égaux et le troisième diffère de moins de 1 des deux autres.
+
+Trouver la somme des périmètres de tous les triangles presque equilatéraux qui ont les longueurs des cotés entières ainsi que leur aire et dont le périmètre n'exède pas un milliard.
+
+On affichera le résultat avec `print`.
+
+@[Triangles presque équilatéraux]({"stubs": ["Defis/Euler_94.py"], "command": "python3 Defis/Euler_94_Test.py"})
+
+---
