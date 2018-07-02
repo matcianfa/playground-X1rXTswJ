@@ -35,6 +35,31 @@ Combien de nombres de départ inférieurs à dix million vont arriver à 89 ?
 
 On affichera le résultat avec `print`.
 
-@[Chaine de carrés de chiffres ]({"stubs": ["Defis/Euler_92.py"], "command": "python3 Defis/Euler_92_Test.py"})
+@[Chaine de carrés de chiffres]({"stubs": ["Defis/Euler_92.py"], "command": "python3 Defis/Euler_92_Test.py"})
+
+---
+
+# Expressions arithmétiques
+`Difficulté : Moyen (35%)`
+`Origine : Projet Euler n°93`
+
+En utilisant chaque chiffre de l'ensemble {1, 2, 3, 4} exactement une fois, et en utilisant les quatre opérations arithmétiques  (+, −, *, /) et des parenthèses, il est possible d'obtenir différents entiers positifs.
+
+Par exemple :
+
+8 = (4 * (1 + 3)) / 2  
+14 = 4 * (3 + 1 / 2)  
+19 = 4 * (2 + 3) − 1  
+36 = 3 * 4 * (2 + 1)  
+
+La concaténation des chiffres n'est pas permise comme 12+34.
+
+En utilisant l'ensemble {1, 2, 3, 4}, il est possible d'obtenir 31 nombres distincts parmi lesquels 36 est le maximum et chaque nombres de 1 à 28 est obtenu mais pas 29.
+
+Trouver l'ensemble de 4 chiffres distincts a < b < c < d, pour lesquels la liste des nombres consécutifs de 1 à n qu'on puisse obtenir avec des opérations arithmétiques est la plus longue. On donnera la réponse sous la forme d'un mot : abcd.
+
+On affichera le résultat avec `print`.
+
+@[Expressions arithmétiques]({"stubs": ["Defis/Euler_93.py"], "command": "python3 Defis/Euler_93_Test.py"})
 
 ---
