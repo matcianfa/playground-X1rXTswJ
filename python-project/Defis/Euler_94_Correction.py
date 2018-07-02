@@ -1,5 +1,5 @@
 '''
-# Première méthode assez naturelle mais trop lente.
+# Première méthode assez naturelle mais beaucoup trop lente
 # On va tout simplement utiliser les propriétés de ces triangles trouvées sur wikipédia : https://en.wikipedia.org/wiki/Integer_triangle#Isosceles_Heronian_triangles
 # Parmi tous les triangles isocèles à périmètre et aire  entièrs, on ne compte que ceux qui sont presque equilatéraux
 
@@ -24,8 +24,7 @@ def chercher():
     
 print(chercher())
 '''                    
---------------------------------------------------------------------------------------------------------------------
-
+                    
 # Deuxième méthode basée sur la même idée au fond mais utilisant une génération des triplets pythagoriciens un peu plus efficace. Les triangles de Héron isocèle proviennent de la juxtaposition de deux triangles rectangles identiques d'où la recherche des triplets pythagoriciens
 # Un lien vers la méthode : https://en.wikipedia.org/wiki/Tree_of_primitive_Pythagorean_triples
 
@@ -39,16 +38,13 @@ N_max=10**9
 
 somme=0
 def chercher(liste=[[3,4,5]]):
-    print(liste)
     global somme
     for x,y,z in liste:
         if x+y+z<N_max :
             if abs(2*x-z)==1 :
-                print(x,y,z,"1")
                 somme += 2*(z +x)
                 chercher([A(x,y,z),B(x,y,z),C(x,y,z)])
             elif abs(2*y-z)==1:
-                print(x,y,z,"2")
                 somme+= 2*(z+y)
                 chercher([A(x,y,z),B(x,y,z),C(x,y,z)])
             
