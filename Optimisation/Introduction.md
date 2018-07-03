@@ -25,3 +25,22 @@ def fonction():
 fonction()
 ```  
 A priori, on fait la même chose or la première méthode met 15 sec pour s'executer et la seconde seulement 10 sec. Ce qui est énorme comme différence pour faire exactement la même chose donc il vaut mieux, quand on a des boucles longues, les mettre dans une fonction.
+
+
+### Savoir déterminer le temps mis par notre programme
+
+Pour cela, on utilise la fonction time du module time. Cette fonction donne le nombre de seconde écoulée depuis l'instant 0 de l'informatique (qui est le 1 janvier 1970 à 00h00). Il suffit donc de faire la différence entre le temps final et le temps initial pour savoir combien de temps s'est écoulé. Voici la structure de son utilisation :
+
+```python
+from time import time
+
+t_i = time()
+
+# le code à executer
+blablabla
+
+t_f = time()
+
+print(" Le temps mis en secondes est : ",t_f-t_i)
+```
+
