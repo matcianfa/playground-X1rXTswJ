@@ -63,4 +63,4 @@ def chrono(fonction):
 ```
 
 Et sur un exemple à tester :
-@[Mesure du temps avec décorateur]({"stubs": ["Optimisation/mesure_temps_deco.py"], "command": "python3 Defis/mesure_temps_deco.py"})
+@[Mesure du temps avec décorateur]({"stubs": ["Optimisation/mesure_temps_deco.py"], "command": "python3 Optimisation/mesure_temps_deco.py"})
