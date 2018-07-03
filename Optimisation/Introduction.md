@@ -73,3 +73,7 @@ Lancer les tests ci-dessous et analysons les résultats.
 @[Mesure du temps : parcourt d'une liste/ensemble/dictionnaire]({"stubs": ["Optimisation/mesure_temps_parcourt.py"], "command": "python3 Optimisation/mesure_temps_parcourt.py"})
 
 @[Mesure du temps : appartenance à une liste/ensemble/dictionnaire]({"stubs": ["Optimisation/mesure_temps_appartenance.py"], "command": "python3 Optimisation/mesure_temps_appartenance.py"})
+
+Dans le premier exemple, on constate qu'il est beaucoup plus rapide de parcourir une liste et un dictionnaire qu'un ensemble. Par contre, on voit dans le deuxième exemple qu'il est beaucoup plus long de chercher un élément dans une liste que dans un ensemble ou un dictionnaire. Ainsi l'utilisation qu'on va faire des données stockées (parcourt ou appartenance ou ...) détermine grandement le choix à faire pour éviter d'avoir des programmes beaucoup trop long inutilement. 
+
+Quand plusieurs choix s'offrent à vous pour programmer, il ne faut pas hésiter à tester comme dans les deux exemples précédents lequel serait le plus efficace et se faire une liste des préférences qu'il faut avoir selon les cas.
