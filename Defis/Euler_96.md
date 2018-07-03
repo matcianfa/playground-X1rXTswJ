@@ -17,3 +17,19 @@ On affichera le résultat avec `print`.
 @[Su Doku]({"stubs": ["Defis/Euler_96.py"], "command": "python3 Defis/Euler_96_Test.py"})
 
 ---
+
+# Grand nombre premier qui n'est pas un nombre de Mersenne
+`Difficulté : Facile (5%)`
+`Origine : Projet Euler n°97`
+
+Le premier nombre premier trouvé excedant un million de chiffre a été découvert en 1999 et est un nombre de Mersenne premier de la forme $`2^{6972593}−1`$; Il contient exactement 2,098,960 chiffres. Ensuite, un autre nombre de Mersenne premier a été trouvé contenant davantage de chiffres.
+
+Cependant, en 2004, il a été trouvé un énorme nombre premier qui n'est pas de Mersenne contenant 2,357,207 chiffres : $`28433×2^{7830457}+1`$.
+
+Trouver les 10 derniers chiffres de ce nombre premier.
+
+On affichera le résultat avec `print`.
+
+@[Grand nombre premier qui n'est pas un nombre de Mersenne]({"stubs": ["Defis/Euler_97.py"], "command": "python3 Defis/Euler_97_Test.py"})
+
+---
