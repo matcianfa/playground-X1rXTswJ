@@ -44,7 +44,7 @@ t_f = time()
 print(" Le temps mis en secondes est : ",t_f-t_i)
 ```
 
-##### Compléments 
+###### Compléments sur la mesure du temps
 Comme on cherche souvent à connaitre le temps mis par nos programmes ou seulement d'une fonction, il peut être agréable de créer une bonne fois pour toute une fonction sous forme de décorateur qui nous donne le temps mis par une fonction. Le plus simple est de mettre le décorateur dans notre boite à outils perso. Pour plus de précisions sur les décorateurs, allez voir sur internet.
 
 Voici le décorateur : 
@@ -64,3 +64,12 @@ def chrono(fonction):
 
 Et sur un exemple à tester :
 @[Mesure du temps avec décorateur]({"stubs": ["Optimisation/mesure_temps_deco.py"], "command": "python3 Optimisation/mesure_temps_deco.py"})
+
+### Bien connaitre et choisir ses outils
+
+Les données qu'on utilise ne sont pas toutes les mêmes et la façon dont elles sont gérées doit nous influer sur notre choix selon l'utilisation qu'on va en faire. Par exemple, si on travaille avec des entiers, il ne sert à rien d'utiliser des flottants qui sont beaucoup plus gourmands en mémoire et en calcul. Prenons un exemple un peu moins évident : quand on utilise des listes, ensembles ou dictionnaires.
+
+Lancer les tests ci-dessous et analysons les résultats.
+@[Mesure du temps : parcourt d'une liste/ensemble/dictionnaire]({"stubs": ["Optimisation/mesure_temps_parcourt.py"], "command": "python3 Optimisation/mesure_temps_parcourt.py"})
+
+@[Mesure du temps : appartenance à une liste/ensemble/dictionnaire]({"stubs": ["Optimisation/mesure_temps_appartenance.py"], "command": "python3 Optimisation/mesure_temps_appartenance.py"})
