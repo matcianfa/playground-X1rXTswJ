@@ -35,6 +35,7 @@ def send_msg(channel, msg):
     
 #Afficher la correction
 def afficher_correction(module):
+    send_msg("Tests validés","N'hésitez pas à aller sur le site https://projecteuler.net pour valider votre progression !")
     try:
         with open(module+"_Correction.py", "r") as correction :
             ligne="Voici un ou des exemples de corrections possibles"
