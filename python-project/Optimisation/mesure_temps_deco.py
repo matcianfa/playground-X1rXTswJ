@@ -16,3 +16,5 @@ def fonction_à_tester(n):
         if n%i==0:
             somme+= i
     return somme        
+
+print(fonction_à_tester(10**7))
