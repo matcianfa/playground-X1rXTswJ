@@ -79,3 +79,25 @@ On affichera le résultat avec `print`.
 @[Triangles presque équilatéraux]({"stubs": ["Defis/Euler_94.py"], "command": "python3 Defis/Euler_94_Test.py"})
 
 ---
+
+# Chaines amicales
+`Difficulté : Moyen (30%)`
+`Origine : Projet Euler n°95`
+
+Les diviseurs propres d'un nombre sont tous les diviseurs de ce nombre hormis lui même. Par exemple, les diviseurs propres de 28 sont 1, 2, 4, 7, et 14. Comme la somme de ces diviseurs est égal à 28, on appelle un tel nombre un nombre parfait.
+
+La somme des diviseurs propres de 220 est 284 et celle de 284 est 220 formant ainsi une chaine de deux nombres. 220 et 284 sont dits amicaux.
+
+Les chaines plus longues sont moins connues. Par exemple, en commençant avec 12496, et en calculant à chaque fois la somme des diviseurs propres, on peut former une chaine de 5 nombres :
+
+12496 → 14288 → 15472 → 14536 → 14264 (→ 12496 → ...)
+
+Comme cette chaine revient à son point de dépat, on l'appelle une chaine amicale.
+
+Trouver le plus petit membre de la chaine amicale la plus longue sans éléments qui dépasse un million.
+
+On affichera le résultat avec `print`.
+
+@[Chaines amicales]({"stubs": ["Defis/Euler_95.py"], "command": "python3 Defis/Euler_95_Test.py"})
+
+---
