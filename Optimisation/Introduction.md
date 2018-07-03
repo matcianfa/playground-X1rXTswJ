@@ -44,3 +44,23 @@ t_f = time()
 print(" Le temps mis en secondes est : ",t_f-t_i)
 ```
 
+##### Compléments 
+Comme on cherche souvent à connaitre le temps mis par nos programmes ou seulement d'une fonction, il peut être agréable de créer une bonne fois pour toute une fonction sous forme de décorateur qui nous donne le temps mis par une fonction. Le plus simple est de mettre le décorateur dans notre boite à outils perso. Pour plus de précisions sur les décorateurs, allez voir sur internet.
+
+Voici le décorateur : 
+
+``` python
+from time import time 
+
+def chrono(fonction):
+    def lancer(*args, **kwargs):
+        t_i = time()
+        resultat = fonction(*args, **kwargs)
+        t_f = time()
+        print("temps d'execution (en s):", t_f-t_i)
+        return resultat
+    return lancer
+```
+
+Et sur un exemple à tester :
+@[Mesure du temps avec décorateur]({"stubs": ["Optimisation/mesure_temps_deco.py"], "command": "python3 Defis/mesure_temps_deco.py"})
