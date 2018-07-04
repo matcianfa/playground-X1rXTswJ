@@ -65,3 +65,19 @@ On affichera le résultat avec `print`.
 @[Puissance la plus grande]({"stubs": ["Defis/Euler_99.py"], "command": "python3 Defis/Euler_99_Test.py"})
 
 ---
+
+# Probabilité arrangée
+`Difficulté : Moyen (30%)`
+`Origine : Projet Euler n°100`
+
+Si une boite contient 21 disques de couleur, conposé de 15 disques bleus et six disques rougeset qu'on prend au hasard 2 disques, on peu voir que la probabilité de prendre 2 disque bleus est $`P=\dfrac{15\times14}{21\times 20}=\dfrac 1 2`$.
+
+Le prochain arrangement pour lequel il y a exactement 50% de chance d'avoir deux disques bleus en tirant deux disques au hasard se produit lorsque la boite contient 85 disques bleus et 35 disques rouges.
+
+En trouvant le premier arrangement qui cntient $`10^{12}=1 000 000 000 000`$ disques en tout, déterminer le nombre de disques bleus que la boite contient.
+
+On affichera le résultat avec `print`.
+
+@[Probabilité arrangée]({"stubs": ["Defis/Euler_100.py"], "command": "python3 Defis/Euler_100_Test.py"})
+
+---
