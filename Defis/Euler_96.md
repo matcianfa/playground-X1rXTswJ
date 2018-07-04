@@ -33,3 +33,19 @@ On affichera le résultat avec `print`.
 @[Grand nombre premier qui n'est pas un nombre de Mersenne]({"stubs": ["Defis/Euler_97.py"], "command": "python3 Defis/Euler_97_Test.py"})
 
 ---
+
+# Carrés et anagrammes
+`Difficulté : Moyen (35%)`
+`Origine : Projet Euler n°98`
+
+En remplaçant chaque lettre du mot CARE par 1,2,9 et 6 respectivement, on forme le nombre carré 1296=36². Ce qui est remarquable est qu' en utilisant la même substitution, l'anagramme RACE forme aussi un carré : 9216=96². On appellera CARE et RACE des une paire d'anagrammes carrées. On précise que les zéros en début de nombre ne sont pas permis ni la possibilité d'avoir plusieurs lettres associées à un même chiffre.
+
+En utilisant la liste de mots usuels anglais donnée ci-dessous, trouver toutes les paires d'anagrammes carrées (un palindrome n'est pas considéré comme une anagramme de lui même ici) et donner le plus grand carré possibleformé à partir d'un des membres d'une paire de ces anagrammes carrées.
+
+NOTE: Chaque anagramme formée doit faire partie de la liste des mots donnée.
+
+On affichera le résultat avec `print`.
+
+@[Carrés et anagrammes]({"stubs": ["Defis/Euler_98.py"], "command": "python3 Defis/Euler_98_Test.py"})
+
+---
