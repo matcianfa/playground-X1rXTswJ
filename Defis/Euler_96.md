@@ -49,3 +49,19 @@ On affichera le résultat avec `print`.
 @[Carrés et anagrammes]({"stubs": ["Defis/Euler_98.py"], "command": "python3 Defis/Euler_98_Test.py"})
 
 ---
+
+# Puissance la plus grande
+`Difficulté : Facile (10%)`
+`Origine : Projet Euler n°99`
+
+En comparant deux nombres écrits sous la forme $`2^{11}`$ et $`3^7`$ n'est pas difficile et n'importe quel calculateur pourra confirmer que $`2^11=2048 < 3^7=2187`$
+
+Cependant, confirmer que $`632382^{518061} > 519432^{525806}`$ peut être beaucoup plus difficile car les deux nombres ont plus de trois millions de chiffres.
+
+En utilisant la liste donnée ci-dessous composée de mille couples sous la forme (base,exposant), déterminer quelle ligne a la plus grande valeur numérique.
+
+On affichera le résultat avec `print`.
+
+@[Puissance la plus grande]({"stubs": ["Defis/Euler_99.py"], "command": "python3 Defis/Euler_99_Test.py"})
+
+---
