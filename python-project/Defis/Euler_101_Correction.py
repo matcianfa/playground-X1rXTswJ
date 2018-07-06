@@ -27,11 +27,9 @@ def f(x):
 def chercher():
     reponse=0
     liste = list(range(1,20)) # On prend de la marge
-    print("f",[f(x) for x in range(1,20)]) ### 
     for k in range(10):
         L=Lagrange(liste[:k+1],f)
         BOP=k+1
-        print("L",k,[L(x) for x in range(1,20)]) ### 
         while L(BOP)==f(BOP):
             BOP+=1
         reponse+=L(BOP)
