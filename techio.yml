@@ -210,6 +210,8 @@ plan:
         statement: Defis/Euler_91.md
       - title: Projet Euler n°96 à 100
         statement: Defis/Euler_96.md
+      - title: Projet Euler n°101 à 105
+        statement: Defis/Euler_101.md
   - title: Optimisation
     plan:
       - title: Introduction
