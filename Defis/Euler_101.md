@@ -35,3 +35,25 @@ On affichera le résultat avec `print`.
 @[Polynôme optimal]({"stubs": ["Defis/Euler_101.py"], "command": "python3 Defis/Euler_101_Test.py"})
 
 ---
+
+# Point à l'intérieur d'un triangle
+`Difficulté : Moyen (15%)`
+`Origine : Projet Euler n°102`
+
+Trois points distincts sont placés au hasard sur un plan cartésien pour lesquelles -1000 ≤ x, y ≤ 1000, et tels qu'un triangle soit formé.
+
+Considzrons les eux triangles suivants :
+
+A(-340,495), B(-153,-910), C(835,-947)  
+
+X(-175,41), Y(-421,-714), Z(574,-645)  
+
+On peut vérifier que le triangle ABC contient l'origine alors que XYZ ne la contient pas.
+
+On donne ci-dessous une liste contenant les coordonnées des trois sommets de mille triangles. Trouver le nombre de triangles qui contiennent l'origine à l'intérieur.
+
+On affichera le résultat avec `print`.
+
+@[Point à l'intérieur d'un triangle]({"stubs": ["Defis/Euler_102.py"], "command": "python3 Defis/Euler_102_Test.py"})
+
+---
