@@ -27,7 +27,7 @@ def vérif2(A):
     
     
 # Si on applique la règle proposée, on obtient comme nombre minimum 22 et maximum 46.
-# On va donc chercher dans tous les 7 uplets de nombres entre 19 et 49. Ce qui fait à peut près 2 millions de cas donc c'est raisonnable
+# On va donc chercher dans tous les 7 uplets de nombres entre 19 et 49. Ce qui fait à peu près 2 millions de cas donc c'est raisonnable
 def chercher():
     somme_min=49*7
     ens_min=[]
