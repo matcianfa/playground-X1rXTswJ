@@ -57,3 +57,34 @@ On affichera le résultat avec `print`.
 @[Point à l'intérieur d'un triangle]({"stubs": ["Defis/Euler_102.py"], "command": "python3 Defis/Euler_102_Test.py"})
 
 ---
+
+# Ensembles de sommes spéciaux : Optimum
+`Difficulté : Difficile (45%)`
+`Origine : Projet Euler n°103`
+
+Notons S(A) la somme des éléments d'un ensemble A de taille n. On dira que A est un ensemble de sommes spécial si pour tous ensembles disjoints B et C, on a les deux propriétés suivantes qui sont vérifiées :
+
+    S(B) ≠ S(C) : c'est à dire que les sommes de sous ensembles sont toutes différentes
+    Si B contient plus d'éléments que C alors S(B) > S(C)
+
+Si S(A) est minimisée pour un n donné, on dira que l'ensemble de somme spécial est optimum. Les cinq premiers de ces ensembles sont :
+
+n = 1: {1}  
+n = 2: {1, 2}  
+n = 3: {2, 3, 4}  
+n = 4: {3, 5, 6, 7}  
+n = 5: {6, 9, 11, 12, 13}  
+
+Il semble que pour un ensemble optimum donné, $`A = \{a_1, a_2, ... , a_n\}`$, l'ensemble optimum  suivant est de la forme $`B= \{b, a_1+b, a_2+b, ... ,a_n+b\}`$, où b est l'élément au "milieu" de A.
+
+En appliquant cette règle, on devrait s'attent à ce que l'optimum pour n=6 soit A = {11, 17, 20, 22, 23, 24}, avec S(A) = 117. Cependant, ce n'est pas un ensemble optimum car on peut trouve que l'ensemble optimum pour n=6 est A = {11, 18, 19, 20, 22, 25}, avec S(A) = 115 et qu'on peut lui faire correspond le nombre(créé en concaténant les valeurs de l'ensemble) 111819202225.
+
+Trouver le nombre associé à l'ensemble optimum pour n=7.
+
+Note : Ce problème est en relation avec le problème 105 et 106.
+
+On affichera le résultat avec `print`.
+
+@[Ensembles de sommes spéciaux : Optimum]({"stubs": ["Defis/Euler_103.py"], "command": "python3 Defis/Euler_103_Test.py"})
+
+---
