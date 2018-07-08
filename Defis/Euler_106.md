@@ -31,15 +31,15 @@ Le réseau non orienté suivant est composé de 7 sommets and 12 arêtes avec un
 
 Ce réseau peut être représenté par le tableau suivant :
 
-|  | A | B | C | D | E | F | G |  
-| -- | -- | -- | -- | -- | -- | -- | -- | 
-| A | - | 16 | 12 | 21 | - | - | - |  
-| B | 16 | - | -  | 17 | 20 | - | - | 
-| C | 12 | - | - | 28 | - | 31 | -  |
-| D | 21 | 17 | 28 | - | 18 | 19 | 23 |
-| E | - | 20 | - | 18 | - | - | 11 |
-| F | - | - | 31 | 19 | - | - | 27 | 
-| G | - | - | - | 23 | 11 | 27 | - | 
+|  | A | B | C | D | E | F | G |   
+| -- | -- | -- | -- | -- | -- | -- | -- |   
+| A | - | 16 | 12 | 21 | - | - | - |    
+| B | 16 | - | -  | 17 | 20 | - | - |   
+| C | 12 | - | - | 28 | - | 31 | -  |  
+| D | 21 | 17 | 28 | - | 18 | 19 | 23 |  
+| E | - | 20 | - | 18 | - | - | 11 |  
+| F | - | - | 31 | 19 | - | - | 27 |   
+| G | - | - | - | 23 | 11 | 27 | - |   
 
 Cependant, il est possible d'optimiser le reseau en retirant des arêtes et toujours assurer que chaque points du réseau reste connecté. Le réseau qui réussit le maximum d'économie est montré ci-dessous. Il a un poids de 93, représentant une économie de 243 − 93 = 150 par rapport au réseau d'origine.
 
