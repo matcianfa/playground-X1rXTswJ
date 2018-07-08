@@ -20,3 +20,35 @@ On affichera le résultat avec `print`.
 @[Ensembles de sommes spéciaux : Meta-Testing]({"stubs": ["Defis/Euler_106.py"], "command": "python3 Defis/Euler_106_Test.py"})
 
 ---
+
+# Réseau minimal
+`Difficulté : Moyen (35%)`
+`Origine : Projet Euler n°107`
+
+Le réseau non orienté suivant est composé de 7 sommets and 12 arêtes avec un poids total de 243. 
+
+![reseau](https://projecteuler.net/project/images/p107_1.gif)
+
+Ce réseau peut être représenté par le tableau suivant :
+
+ | A | B | C | D | E | F | G   
+ -- | -- | -- | -- | -- | -- | -- | --  
+A | - | 16 | 12 | 21 | - | - | -   
+B | 16 | - | -  | 17 | 20 | - | -  
+C | 12 | - | - | 28 | - | 31 | -  
+D | 21 | 17 | 28 | - | 18 | 19 | 23  
+E | - | 20 | - | 18 | - | - | 11  
+F | - | - | 31 | 19 | - | - | 27  
+G | - | - | - | 23 | 11 | 27 | -  
+
+Cependant, il est possible d'optimiser le reseau en retirant des arêtes et toujours assurer que chaque points du réseau reste connecté. Le réseau qui réussit le maximum d'économie est montré ci-dessous. Il a un poids de 93, représentant une économie de 243 − 93 = 150 par rapport au réseau d'origine.
+
+![Matrice minimale](https://projecteuler.net/project/images/p107_2.gif)
+
+En utilisant la matrice donnée ci-dessous,  correspondant à un réseau de 40 sommets, trouver l'économie maximum qui peut être réalisée en retirant des arêtes du réseau mais en assurant que tous les sommets restent connectés entre eux.
+
+On affichera le résultat avec `print`.
+
+@[Minimal network]({"stubs": ["Defis/Euler_107.py"], "command": "python3 Defis/Euler_107_Test.py"})
+
+---
