@@ -88,3 +88,21 @@ On affichera le résultat avec `print`.
 @[Ensembles de sommes spéciaux : Optimum]({"stubs": ["Defis/Euler_103.py"], "command": "python3 Defis/Euler_103_Test.py"})
 
 ---
+
+# Nombres de Fibonacci pandigitaux
+`Difficulté : Moyen (25%)`
+`Origine : Projet Euler n°104`
+
+La suite de Fibonacci est définie par la relation de récurrence :
+
+    $`F_n = F_{n−1} + F_{n−2}`$, où $`F_1 = 1`$ and $`F_2 = 1`$.
+    
+Le nombre $`F_{541}`$ qui possède 113 chiffres et le premier nombre de Fibonacco qui a ses 9 derniers chiffres qui forment un nombre 1-9 pandigital (C'est à dire qu'il contient exactement les chiffres de 1 à 9 mais pas forcément dans l'ordre). Le nombre $`F_{2749}`$ qui possède 575 chiffres, est le premier nombre de Fibonacci qui a ses neuf premiers chiffres qui forment un nombre 1-9 pandigital.
+
+Trouver l'indice k du premier nombre de Fibonacci $`F_k`$ qui a, à la fois, ses neuf premiers chiffres qui forment un nombre 1-9 pandigital et ses 9 derniers chiffres aussi.
+
+On affichera le résultat avec `print`.
+
+@[Nombres de Fibonacci pandigitaux]({"stubs": ["Defis/Euler_104.py"], "command": "python3 Defis/Euler_104_Test.py"})
+
+---
