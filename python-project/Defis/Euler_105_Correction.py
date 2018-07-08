@@ -36,7 +36,6 @@ def chercher():
     somme=0
     for ens in liste:
         if vérif1(ens) and vérif2(ens) :
-            print(ens)
             somme+= sum(ens)
     return somme
     
