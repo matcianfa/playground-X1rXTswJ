@@ -106,3 +106,24 @@ On affichera le résultat avec `print`.
 @[Nombres de Fibonacci pandigitaux]({"stubs": ["Defis/Euler_104.py"], "command": "python3 Defis/Euler_104_Test.py"})
 
 ---
+
+# Ensembles de sommes spéciaux : Testing
+`Difficulté : Difficile (45%)`
+`Origine : Projet Euler n°105`
+
+Notons S(A) la somme des éléments d'un ensemble A de taille n. On dira que A est un ensemble de sommes spécial si pour tous ensembles disjoints B et C, on a les deux propriétés suivantes qui sont vérifiées :
+
+    S(B) ≠ S(C) : c'est à dire que les sommes de sous ensembles sont toutes différentes
+    Si B contient plus d'éléments que C alors S(B) > S(C)
+
+Par exemple, {81, 88, 75, 42, 87, 84, 86, 65} n'est pas un ensemble de somme spécial car 65 + 87 + 88 = 75 + 81 + 84, alors que  {157, 150, 164, 119, 79, 159, 161, 139, 158} satisfait les deux règles pour toutes les pairs de sous-ensembles et S(A) = 1286.
+
+A partir de la liste de cent ensembles donnée ci-dessous contenant entre 7 et 12 éléments, identifier tous les ensembles de sommes spéciaux A1, A2, ..., Ak, et trouver la valeur de S(A1) + S(A2) + ... + S(Ak).
+
+Note : Ce problème est en relation avec le problème 103 et 106.
+
+On affichera le résultat avec `print`.
+
+@[Ensembles de sommes spéciaux : Testing]({"stubs": ["Defis/Euler_105.py"], "command": "python3 Defis/Euler_105_Test.py"})
+
+---
