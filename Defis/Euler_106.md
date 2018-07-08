@@ -31,16 +31,6 @@ Le réseau non orienté suivant est composé de 7 sommets and 12 arêtes avec un
 
 Ce réseau peut être représenté par le tableau suivant :
 
-|  | A | B | C | D | E | F | G |   
-| -- | -- | -- | -- | -- | -- | -- | -- |   
-| A | - | 16 | 12 | 21 | - | - | - |    
-| B | 16 | - | -  | 17 | 20 | - | - |   
-| C | 12 | - | - | 28 | - | 31 | -  |  
-| D | 21 | 17 | 28 | - | 18 | 19 | 23 |  
-| E | - | 20 | - | 18 | - | - | 11 |  
-| F | - | - | 31 | 19 | - | - | 27 |   
-| G | - | - | - | 23 | 11 | 27 | - |   
-
 <table>
   <tr>
     <th>  </th>
