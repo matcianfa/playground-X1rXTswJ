@@ -43,20 +43,84 @@ Ce réseau peut être représenté par le tableau suivant :
 
 <table>
   <tr>
-    <th>Option</th>
-    <th>Description</th>
+    <th>  </th>
+    <th> A </th>
+    <th> B </th>
+    <th> C </th>
+    <th> D </th>
+    <th> E </th>
+    <th> F </th>
+    <th> G </th>
   </tr>
   <tr>
-    <td>data</td>
-    <td>path to data files to supply the data that will be passed into templates.</td>
+    <td> A </td>
+    <td> - </td>
+    <td> 16 </td>
+    <td> 12 </td>
+    <td> 21 </td> 
+    <td> - </td>
+    <td> -</td>
+    <td> - </td>
   </tr>
   <tr>
-    <td>engine</td>
-    <td>engine to be used for processing templates. Handlebars is the default.</td>
+    <td> B </td>
+    <td> 16 </td>
+    <td> - </td>
+    <td> - </td>
+    <td> 17 </td> 
+    <td> 20 </td>
+    <td> - </td>
+    <td> - </td>
   </tr>
   <tr>
-    <td>ext</td>
-    <td>extension to be used for dest files.</td>
+    <td> C </td>
+    <td> 12 </td>
+    <td> - </td>
+    <td> - </td>
+    <td> 28 </td> 
+    <td> - </td>
+    <td> 31 </td>
+    <td> - </td>
+  </tr>
+  <tr>
+    <td> D </td>
+    <td> 21 </td>
+    <td> 17 </td>
+    <td> 28 </td>
+    <td> - </td> 
+    <td> 18 </td>
+    <td> 19 </td>
+    <td> 23 </td>
+  </tr>
+  <tr>
+    <td> E </td>
+    <td> - </td>
+    <td> 20 </td>
+    <td> - </td>
+    <td> 18 </td> 
+    <td> - </td>
+    <td> - </td>
+    <td> 11 </td>
+  </tr>
+  <tr>
+    <td> F </td>
+    <td> - </td>
+    <td> - </td>
+    <td> 31 </td>
+    <td> 19 </td> 
+    <td> - </td>
+    <td> - </td>
+    <td> 27 </td>
+  </tr>
+  <tr>
+    <td> G </td>
+    <td> - </td>
+    <td> - </td>
+    <td> - </td>
+    <td> 23 </td> 
+    <td> 11 </td>
+    <td> 27 </td>
+    <td> - </td>
   </tr>
 </table>
 
