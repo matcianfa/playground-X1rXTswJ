@@ -125,3 +125,27 @@ On affichera le résultat avec `print`.
 @[Minimal network]({"stubs": ["Defis/Euler_107.py"], "command": "python3 Defis/Euler_107_Test.py"})
 
 ---
+
+# Equation diphantienne réciproque I
+`Difficulté : Moyen (30%)`
+`Origine : Projet Euler n°108`
+
+Considérons l'équation suivante pour x, y et n des entiers positifs :
+
+$`\dfrac 1 x+ \dfrac 1 y = \dfrac 1 n`$
+
+Pour n=4, il y a exactement trois solutions distinctes :
+
+$`\dfrac 1 5+ \dfrac 1 {20} = \dfrac 1 4`$  
+$`\dfrac 1 6+ \dfrac 1 {12} = \dfrac 1 4`$  
+$`\dfrac 1 8+ \dfrac 1 {8} = \dfrac 1 4`$  
+
+Quelle est la plus petit valeur de n pour laquelle le nombre de solutions distinctes dépasse 1000 ?
+
+Ce problème est une version plus facile du problème 110. Il est fortement conseillé de le résoudre en premier.
+
+On affichera le résultat avec `print`.
+
+@[Equation diphantienne réciproque I]({"stubs": ["Defis/Euler_108.py"], "command": "python3 Defis/Euler_108_Test.py"})
+
+---
