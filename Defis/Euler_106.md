@@ -149,3 +149,38 @@ On affichera le résultat avec `print`.
 @[Equation diphantienne réciproque I]({"stubs": ["Defis/Euler_108.py"], "command": "python3 Defis/Euler_108_Test.py"})
 
 ---
+
+# 
+`Difficulté : Moyen (30%)`
+`Origine : Projet Euler n°109`
+
+
+On affichera le résultat avec `print`.
+
+@[Equation diphantienne réciproque I]({"stubs": ["Defis/Euler_108.py"], "command": "python3 Defis/Euler_108_Test.py"})
+
+---
+
+# Equation diphantienne réciproque II
+`Difficulté : Moyen (40%)`
+`Origine : Projet Euler n°110`
+
+Considérons l'équation suivante pour x, y et n des entiers positifs :
+
+$`\dfrac 1 x+ \dfrac 1 y = \dfrac 1 n`$
+
+Pour n=4, il y a exactement trois solutions distinctes :
+
+$`\dfrac 1 5+ \dfrac 1 {20} = \dfrac 1 4`$  
+$`\dfrac 1 6+ \dfrac 1 {12} = \dfrac 1 4`$  
+$`\dfrac 1 8+ \dfrac 1 {8} = \dfrac 1 4`$  
+
+Quelle est la plus petit valeur de n pour laquelle le nombre de solutions distinctes dépasse quatre million ?
+
+Ce problème est une version plus difficile du problème 108. Il est fortement conseillé de le résoudre en premier.
+
+On affichera le résultat avec `print`.
+
+@[Equation diphantienne réciproque II]({"stubs": ["Defis/Euler_110.py"], "command": "python3 Defis/Euler_110_Test.py"})
+
+---
