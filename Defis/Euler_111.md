@@ -10,10 +10,10 @@ On notera M(n,d) le nombre maximum de chiffres d répétés dans un nombre premi
 
 Par exemple, M(4,1)=3 est le nombre maximum de répétition de 3 dans un nombre premier de quatre chiffres, il y a N(4,1)=9 nombres premiers ainsi et la somme de ces nombres est S(4,1)=22274. Pour d=0, on a seulement M(4,0)=2 répétitions possible mais N(4,0)=13 dans ce cas.
 
-De la même façon, on peut obtenir les résultats suivant pour les nombres premiers de 4 chiffres : 
+De la même façon, on peut obtenir les résultats suivants pour les nombres premiers de 4 chiffres : 
 
 | Chiffre : d | M(4,d) | N(4,d) | S(4,d) |
-| -- | -- | -- | -- | 
+| ----------- | ------ | ------ | ------ |
 | 0 | 2 | 13 | 67061 |
 | 1 | 3 | 9 | 22275 |
 
