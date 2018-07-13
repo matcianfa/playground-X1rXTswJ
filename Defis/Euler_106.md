@@ -150,14 +150,47 @@ On affichera le résultat avec `print`.
 
 ---
 
-# 
-`Difficulté : Moyen (30%)`
+# Flechettes
+`Difficulté : Moyen (45%)`
 `Origine : Projet Euler n°109`
 
+Au jeu de flechettes, un joueur lance 3 flechettes sur une cible qui est divisée en 20 secteurs égaux numérotés de 1 à 20.
+
+![Cible](https://projecteuler.net/project/images/p109.gif)
+
+Le score d'une flechette est déterminé par le nombre du secteur dans lequelle elle est tombée. Une flechette qui tombe en dehors du cercle rouge et vert extérieur compte pour 0. Les parties de couleur noire ou crème représentent un score simple. Cependant, les cercles rouges et verts extérieurs et intérieurs représentent un score doublé et triplé respectivement.
+
+Au centre de la cible il y a un anneau vert qui rapporte 25 points et un disque rouge qui rapporte 50 points.
+
+Il y a différentes règles mais les plus populaires sont que le joueur commence avec un score de 301 ou 501 et le premier joueur à réduire son total à 0 gagne. Cependant, pour gagner, il faut faire un double (y compris le double au centre de la cible) sur sa fleche qui fait descendre en dessous de 0. Toutes les autres flechettes qui réduise le score en dessous de 1 ne suffisent pas pour gagner.
+
+Quand un joueur est capable de finir à partir de son score, on dit que c'est un "check out" et le plus grand checkout est 170 : T20 T20 D25 (2 triples 20 et un double 25 au centre de la cible)
+
+Il y a exactement 11 différentes façon d'obtenir un check out de 6 :
+
+D3  
+D1 	D2   	 
+S2 	D2 	   
+D2 	D1 	   
+S4 	D1 	   
+S1 	S1 	D2  
+S1 	T1 	D1  
+S1 	S3 	D1  
+D1 	D1 	D1  
+D1 	S2 	D1  
+S2 	S2 	D1  
+
+Il faut remarquer que D1 et D2 sont considérés comme différents car ils finissent par des doubles différents. Cependant, S1 T1 D1 et T1 S1 D1 sont considérés comme identiques.
+
+De plus, On n'inclut pas les manqués dans les combinaisons considérées. Par exemple D3 et identique ) 0 D3 et 0 0 D3.
+
+Il y a 42336 différents check out en tout.
+
+Combien de façons différentes existent il pour un joueur de faire un check-out s'il a un score inférieur strictement à 100 ?
 
 On affichera le résultat avec `print`.
 
-@[Equation diphantienne réciproque I]({"stubs": ["Defis/Euler_108.py"], "command": "python3 Defis/Euler_108_Test.py"})
+@[Flechettes]({"stubs": ["Defis/Euler_109.py"], "command": "python3 Defis/Euler_109_Test.py"})
 
 ---
 
