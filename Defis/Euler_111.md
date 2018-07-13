@@ -34,3 +34,25 @@ On affichera le résultat avec `print`.
 @[Nombres premiers avec répétitions de chiffres]({"stubs": ["Defis/Euler_111.py"], "command": "python3 Defis/Euler_111_Test.py"})
 
 ---
+
+# Nombres oscillants
+`Difficulté : Moyen (15%)`
+`Origine : Projet Euler n°112`
+
+En travaillant de gauche à droite, si aucun chiffre d'un nombre n'est excédé par le chiffre sur sa gauche, on dira que le nombre est croissant. Par exemple 134468.
+
+De même, si aucun chiffre n'est excédé par le chiffre sur sa droite, on dira le nombre décroissant comme par exemple 66420.
+
+On dira qu'un entier est "oscillant" s'il n'est ni croissant ni décroissant comme par exemple 155349.
+
+Il n'y a clairement pas de nombres oscillants en dessous de 100 mais juste un peu plus de la moitié (525) des nombres inférieurs à 1000 sont oscillants. En fait, le plus petit nombre pour lequel la proportion de nombres oscillants dépasse 50% est 538.
+
+De façon assez surprenante, les nombres oscillants deviennent de plus en plus fréquents et à partir de 21780, la proportion de nombres oscillants est de 90%.
+
+Trouver le plus petit nombre pour lequel la proportion de nombres oscillants est exactement 99%.
+
+On affichera le résultat avec `print`.
+
+@[Nombres oscillants]({"stubs": ["Defis/Euler_112.py"], "command": "python3 Defis/Euler_112_Test.py"})
+
+---
