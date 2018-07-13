@@ -13,7 +13,7 @@ Par exemple, M(4,1)=3 est le nombre maximum de répétition de 3 dans un nombre 
 De la même façon, on peut obtenir les résultats suivants pour les nombres premiers de 4 chiffres : 
 
 | Chiffre : d | M(4,d) | N(4,d) | S(4,d) |
-| ----------- | ------ | ------ | ------ |
+|:-----------:|:------:|:------:|:------:|
 | 0 | 2 | 13 | 67061 |
 | 1 | 3 | 9 | 22275 |
 
