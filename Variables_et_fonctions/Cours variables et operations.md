@@ -53,9 +53,27 @@ Dans cette partie, nous allons voir les opérations de base que l'on peut effect
   ```python runnable
   a=17
   b=3
-  print(a//b)
-  print(a%b)
+  print(a//b) # Affiche le quotient de la division euclidienne de a par b
+  print(a%b) # Affiche le reste de la division euclidienne de a par b
   ```
+  Remarque : Même si ces opérations sont finalement assez peu utilisée en cours de mathématiques, elles le sont beaucoup plus en informatique, principalement le calcul du reste de la division euclidienne. Par exemple pour déterminer si un nombre est pair, il suffit de regarder si `x%2` vaut 0. En effet, un nombre est pair si et seulement si son reste par la division par 2 est nul. On l'utilisera régulièrement dans les exercices.
   
-+  
+# Troisième partie : QCM
+
+Voici quelques QCM pour voir si vous avez bien compris. N'hésitez pas à relire ce qui précède si vous avez un doute.
+
+1. ?[Quelle valeur sera affichée si on execute le programme ci dessous ?  
+```python
+a=5
+b=a-2
+print(a*b)
+``` 
+]
+-[ ] -10
+-[x] 15
+-[ ] 23
+-[ ] 3
+-[ ] 8
+
+
   
