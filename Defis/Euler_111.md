@@ -56,3 +56,23 @@ On affichera le résultat avec `print`.
 @[Nombres oscillants]({"stubs": ["Defis/Euler_112.py"], "command": "python3 Defis/Euler_112_Test.py"})
 
 ---
+
+# Nombres non oscillants
+`Difficulté : Moyen (30%)`
+`Origine : Projet Euler n°113`
+
+En travaillant de gauche à droite, si aucun chiffre d'un nombre n'est excédé par le chiffre sur sa gauche, on dira que le nombre est croissant. Par exemple 134468.
+
+De même, si aucun chiffre n'est excédé par le chiffre sur sa droite, on dira le nombre décroissant comme par exemple 66420.
+
+On dira qu'un entier est "oscillant" s'il n'est ni croissant ni décroissant comme par exemple 155349.
+
+Quand n augmente, la proportion de nombres oscillants inférieurs à n croit tellement qu'il n'y a que 12951 nombres inférieurs à un million qui ne sont pas oscillants et seulement 277032 nombres non oscillants inférieurs à $`10^{10}`$.
+
+Combien de nombres inférieurs à un googol ($`10^{100}`$) sont non oscillants ?
+
+On affichera le résultat avec `print`.
+
+@[Nombres non oscillants]({"stubs": ["Defis/Euler_113.py"], "command": "python3 Defis/Euler_113_Test.py"})
+
+---
