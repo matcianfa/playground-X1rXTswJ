@@ -67,11 +67,20 @@ Voici quelques QCM pour voir si vous avez bien compris. N'hésitez pas à relire
    b=a-2
    print(a*b)
    ```  
-   ?[Quelle valeur sera affichée si on execute le programme ci-dessus ? ]
-   -[ ] -10
-   -[x] 15
-   -[ ] 23
-   -[ ] 3
-   -[ ] 8
+?[Quelle valeur sera affichée si on execute le programme ci-dessus ? ]
+-[ ] -10
+-[x] 15
+-[ ] 23
+-[ ] 3
+-[ ] 8
 
-  
+2. ```python
+   a=7
+   b=a-1
+   print((b/2)**2)
+   ```
+?[Quelle valeur sera affichée si on execute le programme ci-dessus ? ]
+-[ ] 6.0
+-[ ] 1.5
+-[x] 9.0
+-[ ] -0.25  
