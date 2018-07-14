@@ -25,4 +25,14 @@ On voit s'afficher la valeur de c.
 
 Dans cette partie, nous allons voir les opérations de base que l'on peut effectuer en python sur des nombres.
 
-Il y a bien sur les quatre opérations classiques +, -, \*, /.  
+Il y a bien sur les quatre opérations classiques +, -, \*, / avec les priorités opératoires habituelles. Par exemple :
+```python runnable
+a=5
+b=3
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+```
+
+
