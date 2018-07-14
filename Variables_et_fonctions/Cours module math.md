@@ -13,6 +13,21 @@ Voici quelques fonctions qui peuvent être utiles :
 
 # Deuxième partie : Les fonctions du module math
 
+## Importation de modules
+Commençons par parler de modules. Il existe de nombreuses fonctions qu'on peut utiliser avec Python mais pour éviter de saturer à la fois la mémoire et les noms de fonctions utilisables, on a regroupé dans ce qu'on appelle des modules, les fonctions qui ont une utilité spécifique. Pour les utiliser il faut donc demander à Python de les mettre en mémoire pour pouvoir les utiliser. Pour cela, il faut mettre en début de programme les modules qu'on importe.   
+Pour simplifier, on va systématiquement importer : 
+- soit une fonction spécifique en tapant `from nom_du_module import nom_de_la_fonction`.
+- soit tout le module directement en tapant `from nom_du_module import *`. 
+
+Par exemple : Pour importer la fonction cosinus (qui s'appelle cos en python) du module math, on ecrira en début de programme : `from math import cos`.  
+Pour importer tout le module math pour utiliser directement toutes les fonctions qu'on va voir après, on écrira `from math import *`
+
+Remarque : On verra plus tard d'autres façons d'importer des modules voire d'en créer pour se faire une boite à outils par exemple de fonctions qu'on utilise souvent.
+
+## Présentation des fonctions du module math
+
+
+
 
   
 # Troisième partie : QCM
