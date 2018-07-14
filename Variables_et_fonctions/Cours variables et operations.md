@@ -1,6 +1,6 @@
 # Cours : Variables et opérations
 
-### Première partie : Les variables
+## Première partie : Les variables
 
 Une variable en informatique permet de garder en mémoire (le temps que le programme s'exécute) des données comme par exemple le résultat d'un calcul ou un mot, une liste ou bien d'autres choses.  
 Pour stocker en mémoire une valeur dans une variable, on utilise simplement le signe égal =.  
@@ -21,29 +21,29 @@ print(c)
 ```
 On voit s'afficher la valeur de c. 
 
-### Deuxième partie : Les opérations sur les variables numériques
+## Deuxième partie : Les opérations sur les variables numériques
 
 Dans cette partie, nous allons voir les opérations de base que l'on peut effectuer en python sur des nombres.
 
 + Il y a bien sur les quatre opérations classiques +, -, \*, / avec les priorités opératoires habituelles. Par exemple :
-```python runnable
-a=5
-b=3
-print(a+b)
-print(a-b)
-print(a*b)
-print(a/b)
-```
+  ```python runnable
+  a=5
+  b=3
+  print(a+b)
+  print(a-b)
+  print(a*b)
+  print(a/b)
+  ```
 + Les deux autres opérations qu'on utilise couramment sont les puissances et la racine carrée.  
   - Pour les ***puissances***, on double simplement la multiplication. Ainsi $`x^n`$ s'obtiendra en écrivant `x**n`.  
   - Pour la ***racine carrée***, on va simplement utiliser une propriété mathématique : $`\sqrt x = x^{0.5}`$. Donc pour calculer la racine carrée d'un nombre x, il suffit d'écrire `x**0.5`.  
-Voici quelques exemples. On a rajouté des commentaires à coté des instructions d'affichage des calculs pour que ces instructions soient plus claires. Pour écrire un commentaire, il suffit de mettre un # devant. Tout ce qui suit le # ne sera pas executé par l'ordinateur et ne sert donc qu'à la personne qui lit le programme.
-```python runnable
-print(2**3) # Affiche le résultat de 2 puissance 3
-print(3**2) # Affiche le résultat de 3 puissance 2
-print(9**0.5) # Affiche la racine carrée de 9
-print(2**0.5) # Affiche la racine carrée de 2
-```
+  Voici quelques exemples. On a rajouté des commentaires à coté des instructions d'affichage des calculs pour que ces instructions soient plus claires. Pour écrire un commentaire, il suffit de mettre un # devant. Tout ce qui suit le # ne sera pas executé par l'ordinateur et ne sert donc qu'à la personne qui lit le programme.
+  ```python runnable
+  print(2**3) # Affiche le résultat de 2 puissance 3
+  print(3**2) # Affiche le résultat de 3 puissance 2
+  print(9**0.5) # Affiche la racine carrée de 9
+  print(2**0.5) # Affiche la racine carrée de 2
+  ```
 
 + On peut aussi réaliser facilement des divisions euclidiennes (c'est à dire les divisions posées comme au primaire). 
   - Pour obtenir le ***quotient*** de la division de a par b, il suffit d'écrire `a//b`.
@@ -57,5 +57,5 @@ print(2**0.5) # Affiche la racine carrée de 2
   print(a%b)
   ```
   
-  
++  
   
