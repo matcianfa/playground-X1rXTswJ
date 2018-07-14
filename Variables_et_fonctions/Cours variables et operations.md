@@ -1,6 +1,6 @@
-# Cours : Variables et opérations
+<h1 align="center"> Cours : Variables et opérations </h1>
 
-## Première partie : Les variables
+# Première partie : Les variables
 
 Une variable en informatique permet de garder en mémoire (le temps que le programme s'exécute) des données comme par exemple le résultat d'un calcul ou un mot, une liste ou bien d'autres choses.  
 Pour stocker en mémoire une valeur dans une variable, on utilise simplement le signe égal =.  
@@ -21,7 +21,7 @@ print(c)
 ```
 On voit s'afficher la valeur de c. 
 
-## Deuxième partie : Les opérations sur les variables numériques
+# Deuxième partie : Les opérations sur les variables numériques
 
 Dans cette partie, nous allons voir les opérations de base que l'on peut effectuer en python sur des nombres.
 
@@ -58,7 +58,7 @@ Dans cette partie, nous allons voir les opérations de base que l'on peut effect
   ```
   Remarque : Même si ces opérations sont finalement assez peu utilisée en cours de mathématiques, elles le sont beaucoup plus en informatique, principalement le calcul du reste de la division euclidienne. Par exemple pour déterminer si un nombre est pair, il suffit de regarder si `x%2` vaut 0. En effet, un nombre est pair si et seulement si son reste par la division par 2 est nul. On l'utilisera régulièrement dans les exercices.
   
-## Troisième partie : QCM
+# Troisième partie : QCM
 
 Voici quelques QCM pour voir si vous avez bien compris. N'hésitez pas à relire ce qui précède si vous avez un doute.
 
@@ -117,7 +117,7 @@ print((a//b)+(a%b))
 -[x] 6
 -[ ] 114.4 
 
-## A vous !
+# A vous !
 
 ###### Exercice 1 :
 
