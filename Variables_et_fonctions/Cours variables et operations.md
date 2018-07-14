@@ -75,5 +75,11 @@ print(a*b)
 -[ ] 3
 -[ ] 8
 
+1. ?[Quelle valeur sera affichée si on execute le programme ci dessous ?]
+-[ ] -10
+-[x] 15
+-[ ] 23
+-[ ] 3
+-[ ] 8
 
   
