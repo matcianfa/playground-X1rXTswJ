@@ -16,16 +16,48 @@ Voici quelques fonctions qui peuvent être utiles :
 ## Importation de modules
 Commençons par parler de modules. Il existe de nombreuses fonctions qu'on peut utiliser avec Python mais pour éviter de saturer à la fois la mémoire et les noms de fonctions utilisables, on a regroupé dans ce qu'on appelle des modules, les fonctions qui ont une utilité spécifique. Pour les utiliser il faut donc demander à Python de les mettre en mémoire pour pouvoir les utiliser. Pour cela, il faut mettre en début de programme les modules qu'on importe.   
 Pour simplifier, on va systématiquement importer : 
-- soit une fonction spécifique en tapant `python from nom_du_module import nom_de_la_fonction`.
+- soit une fonction spécifique en tapant `from nom_du_module import nom_de_la_fonction`.
 - soit tout le module directement en tapant `from nom_du_module import *`. 
 
-Par exemple : Pour importer la fonction cosinus (qui s'appelle cos en python) du module math, on ecrira en début de programme : `from math import cos`.  
-Pour importer tout le module math pour utiliser directement toutes les fonctions qu'on va voir après, on écrira `from math import *`
+Par exemple : Pour importer uniquement la fonction cosinus (qui s'appelle cos en python) du module math, on ecrira en début de programme : `from math import cos`.  
+Pour importer tout le module math pour utiliser directement toutes les fonctions qu'on va voir après, on écrira `from math import *`.
 
 Remarque : On verra plus tard d'autres façons d'importer des modules voire d'en créer pour se faire une boite à outils par exemple de fonctions qu'on utilise souvent.
 
 ## Présentation des fonctions du module math
 
+On ne va présenter ici que les fonctions utiles au lycée. On pourra trouver la liste complète du module math [ici](https://docs.python.org/fr/3.6/library/math.html#module-math)
+
++ `sqrt(x)` : Donne la racine carrée de x. On a déjà vu qu'on pouvait l'obtenir en tapant `x**0.5` qui a l'avantage de ne pas demander d'importer le module math mais les puristes préfère peut-être celle ci.
++ `cos(x)`, `sin(x)` et `tan(x)` : Donnent respectivement le cosinus, le sinus et la tangente de x **lorsque x est en radians**. Il faut donc convertir l'angle en radian avant (avec la fonction qui suit par exemple).
++ `radians(x)` : Convertit l'angle x des degrés en radians.
++ `acos(x)`, `asin(x)`, `atan(x)` : Donnent respectivement l'arccos, l'arcsin et l'arctan de x en radians.
++ `exp(x)`, `log(x)` :  Donne l'exponentielle et le logarithme népérien de x. Si on veut le logarithme en base b, il suffit de taper log(x,b).
++ `pi` : Donne la valeur de pi avec la meilleure précision disponible.
++ `e` : Donne la valeur de la constante d'Euler (ou de Neper) e avec la meilleure précision disponible.
++ `inf` : Donne l'équivalent informatique de l'infini c'est à dire que inf est plus grand que n'importe quel nombre. Il est très pratique pour initialiser des variables qu'on veut minimiser par exemple.
+
+Voyons quelques exemples d'utilisation (Appuyer sur Run pour voir le résultat) : 
+1. Calcul de la racine carrée de pi :
+  ```python runnable
+  from math import *
+
+  a=sqrt(pi)
+  print(a)
+  ```
+1. Calcul du cosinus d'un angle :
+  ```python runnable
+  from math import *
+
+  angle = 60 
+  angle_en_radian = radians(angle) # On convertit l'angle en radian
+  c= cos(angle_en_radian) 
+  print(c)
+  
+  # On aurait pu écrire aussi directement : 
+  print(cos(radians(angle)))
+  ```
+1. 
 
 
 
