@@ -10,7 +10,19 @@ count1 = sys.stdout.getvalue()[:-1]
 sys.stdout=sauvegarde_stdout
 from ma_bao import *
 
-
+#Afficher la correction
+def afficher_correction():
+    try:
+        with open(module+"_Correction.py", "r") as correction :
+            ligne="Voici un ou des exemples de corrections possibles"
+            send_msg("Exemple(s) de correction", ligne)
+            ligne="-------------------------------------------------"
+            send_msg("Exemple(s) de correction", ligne)
+            lignes=correction.read().split("\n")
+            for ligne in lignes:
+                send_msg("Exemple(s) de correction", ligne)
+    except:
+pass
 
 #La réponse
 reponse=max(2**pi,pi**2)
@@ -25,7 +37,7 @@ def send_msg(channel, msg):
 
 def success():
     send_msg("Tests validés","Bravo !")
-    afficher_correction(module)
+    afficher_correction()
     print("TECHIO> success true")
 
 
