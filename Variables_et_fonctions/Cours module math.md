@@ -58,7 +58,12 @@ Voyons quelques exemples d'utilisation (Appuyer sur Run pour voir le résultat) 
    print(cos(radians(angle)))
    ```
 1. Calcul de l'arrondi de pi² à 5 chiffres après la virgule en n'important que pi du module math :
-
+   ```python runnable
+   from math import pi
+   
+   a=round(pi**2,5) 
+   print(a)
+   ```
 
 
   
@@ -68,73 +73,32 @@ Voici quelques QCM pour voir si vous avez bien compris. N'hésitez pas à relire
 
 ###### QCM 1
 ```python
-a=5
-b=a-2
-print(a*b)
+from math import *
+
+angle=30
+print(sin(...))
 ```  
-?[Quelle valeur sera affichée si on execute le programme ci-dessus ? ]
--[ ] -10
--[x] 15
--[ ] 23
--[ ] 3
--[ ] 8
+?[Que faut-il mettre à la place des ... pour que s'affiche le sinus de 30 degré ? ]
+-[ ] angle
+-[x] radians(angle)
+-[ ] angle(radians)
+-[ ] 30°
 
 ---
 
 ###### QCM 2
 ```python
-a=5
-a=a-2
-a=a*a+1
+from math import *
+
+a=...
 print(a)
 ```  
-?[Quelle valeur sera affichée si on execute le programme ci-dessus ? ]
--[ ] 16
--[ ] 26
--[ ] 12
--[x] 10
+?[Que faut-il mettre à la place des ... pour que s'affiche pi arrondi à 0.000001 près]
+-[ ] pi\*0.000001
+-[ ] round(pi,5)
+-[ ] pi\*\*5
+-[x] round(pi,6)
 
----
-
-###### QCM 3
-```python
-a=7
-b=a-1
-print((b/2)**2)
-```
-?[Quelle valeur sera affichée si on execute le programme ci-dessus ? ]
--[ ] 6.0
--[ ] 1.5
--[x] 9.0
--[ ] -0.25  
-
----
-
-##### QCM 4
-```python
-a=3
-b=a+1
-print((a**2+b**2)**0.5)
-```
-?[Quelle valeur sera affichée si on execute le programme ci-dessus ? ]
--[x] 5.0
--[ ] 13.0
--[ ] 12.5
--[ ] 7.0
-
----
-
-###### QCM 5
-```python
-a=22
-b=5
-print((a//b)+(a%b))
-```
-?[Quelle valeur sera affichée si on execute le programme ci-dessus ? ]
--[ ] 6.4
--[ ] 4.4
--[x] 6
--[ ] 114.4 
 
 # A vous !
 
@@ -148,21 +112,17 @@ N'effacez pas ce que vous avez fait juste. Il faut rajouter au fur et à mesure 
 
 Quand on demande d'afficher, c'est avec `print`.
 
-@[Programme de calcul]({"stubs": ["Variables_et_fonctions/Programme_calcul.py"], "command": "python3 Variables_et_fonctions/Programme_calcul_Test.py"})
+@[Programme de calcul]({"stubs": ["Variables_et_fonctions/Programme_calcul2.py"], "command": "python3 Variables_et_fonctions/Programme_calcul2_Test.py"})
 
 ---
 
 ###### Exercice 2 :
 
-La consigne de cet exercice est identique au précédent.
-
-Appuyez sur Run et suivez les instructions qui s'affichent.
-
-N'effacez pas ce que vous avez fait juste. Il faut rajouter au fur et à mesure en dessous.
+Créez un programme qui calcule $`\pi^2`$ et $`2^\pi`$ (même si vous ne savez pas comment on le calcule, Python sait) et affiche le plus grand des deux.
 
 Quand on demande d'afficher, c'est avec `print`.
 
-@[Programme de calcul]({"stubs": ["Variables_et_fonctions/Programme_calcul1.py"], "command": "python3 Variables_et_fonctions/Programme_calcul1_Test.py"})
+@[Afficher le plus grand des deux]({"stubs": ["Variables_et_fonctions/pi2et2pi.py"], "command": "python3 Variables_et_fonctions/pi2et2pi_Test.py"})
 
 ---
 
