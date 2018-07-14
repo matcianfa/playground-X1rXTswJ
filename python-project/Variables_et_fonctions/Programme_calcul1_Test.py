@@ -21,7 +21,7 @@ def verif(n):
   reponses.append(d)
   e=(a+5)%(n-1)
   reponses.append(e)
-  f=a+c+d+e
+  f=a*c*d*e
   reponses.append(f)
   reponses.append('')
   return reponses
