@@ -58,7 +58,7 @@ Dans cette partie, nous allons voir les opérations de base que l'on peut effect
   ```
   Remarque : Même si ces opérations sont finalement assez peu utilisée en cours de mathématiques, elles le sont beaucoup plus en informatique, principalement le calcul du reste de la division euclidienne. Par exemple pour déterminer si un nombre est pair, il suffit de regarder si `x%2` vaut 0. En effet, un nombre est pair si et seulement si son reste par la division par 2 est nul. On l'utilisera régulièrement dans les exercices.
   
-# Troisième partie : QCM
+## Troisième partie : QCM
 
 Voici quelques QCM pour voir si vous avez bien compris. N'hésitez pas à relire ce qui précède si vous avez un doute.
 
@@ -105,7 +105,7 @@ print((a**2+b**2)**0.5)
 
 ---
 
-QCM 4
+######QCM 4
 ```python
 a=22
 b=5
@@ -117,6 +117,7 @@ print((a//b)+(a%b))
 -[x] 6
 -[ ] 114.4 
 
-# A vous !
+## A vous !
+
 
 
