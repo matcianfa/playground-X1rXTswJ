@@ -16,8 +16,6 @@ plan:
         statement: Variables_et_fonctions/Cours module math.md
       - title: Prise en main
         statement: Variables_et_fonctions/prise en main.md
-      - title: Programmes de calcul
-        statement: Variables_et_fonctions/Programme_calcul.md
       - title: Passage des coordonnées polaires à cartésiennes
         statement: Variables_et_fonctions/Passage des coordonnées polaires à cartésiennes.md
       - title: Périmètre et aire d'un polygone régulier
