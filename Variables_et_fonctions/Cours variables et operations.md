@@ -25,4 +25,4 @@ On voit s'afficher la valeur de c.
 
 Dans cette partie, nous allons voir les opérations de base que l'on peut effectuer en python sur des nombres.
 
-Il y a bien sur les quatre opérations classiques +, -, *, /.
+Il y a bien sur les quatre opérations classiques +, -, \*, /.  
