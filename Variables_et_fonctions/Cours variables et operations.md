@@ -62,29 +62,16 @@ Dans cette partie, nous allons voir les opérations de base que l'on peut effect
 
 Voici quelques QCM pour voir si vous avez bien compris. N'hésitez pas à relire ce qui précède si vous avez un doute.
 
-1. ?[Quelle valeur sera affichée si on execute le programme ci dessous ?  
-```python
-a=5
-b=a-2
-print(a*b)
-``` 
-]
--[ ] -10
--[x] 15
--[ ] 23
--[ ] 3
--[ ] 8
-
 1. ```python
     a=5
     b=a-2
     print(a*b)
     ```
-?[Quelle valeur sera affichée si on execute le programme ci-dessus ? ]
--[ ] -10
--[x] 15
--[ ] 23
--[ ] 3
--[ ] 8
+    ?[Quelle valeur sera affichée si on execute le programme ci-dessus ? ]
+    -[ ] -10
+    -[x] 15
+    -[ ] 23
+    -[ ] 3
+    -[ ] 8
 
   
