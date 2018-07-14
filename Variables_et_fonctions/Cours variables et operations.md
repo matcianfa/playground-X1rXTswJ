@@ -62,11 +62,12 @@ Dans cette partie, nous allons voir les opérations de base que l'on peut effect
 
 Voici quelques QCM pour voir si vous avez bien compris. N'hésitez pas à relire ce qui précède si vous avez un doute.
 
-+ ```python
-   a=5
-   b=a-2
-   print(a*b)
-   ```  
+###### QCM 1
+```python
+a=5
+b=a-2
+print(a*b)
+```  
 ?[Quelle valeur sera affichée si on execute le programme ci-dessus ? ]
 -[ ] -10
 -[x] 15
@@ -74,33 +75,42 @@ Voici quelques QCM pour voir si vous avez bien compris. N'hésitez pas à relire
 -[ ] 3
 -[ ] 8
 
-+ ```python
-   a=7
-   b=a-1
-   print((b/2)**2)
-   ```
+---
+
+###### QCM 2
+```python
+a=7
+b=a-1
+print((b/2)**2)
+```
 ?[Quelle valeur sera affichée si on execute le programme ci-dessus ? ]
 -[ ] 6.0
 -[ ] 1.5
 -[x] 9.0
 -[ ] -0.25  
 
-+ ```python
-   a=3
-   b=a+1
-   print((a**2+b**2)**0.5)
-   ```
+---
+
+##### QCM 3
+```python
+a=3
+b=a+1
+print((a**2+b**2)**0.5)
+```
 ?[Quelle valeur sera affichée si on execute le programme ci-dessus ? ]
 -[x] 5.0
 -[ ] 13.0
 -[ ] 12.5
 -[ ] 7.0
 
-+ ```python
-   a=22
-   b=5
-   print((a//b)+(a%b))
-   ```
+---
+
+QCM 4
+```python
+a=22
+b=5
+print((a//b)+(a%b))
+```
 ?[Quelle valeur sera affichée si on execute le programme ci-dessus ? ]
 -[ ] 6.4
 -[ ] 4.4
