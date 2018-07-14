@@ -21,6 +21,17 @@ print(c)
 ```
 On voit s'afficher la valeur de c. 
 
+Petite subtilité avec les variables : On peut utiliser une certaine variable a pour faire un calcul et stocker la réponse de nouveau dans a ce qui aura pour effet de faire disparaitre la première valeur de a. C'est très pratique pour éviter d'utiliser trop de variables différentes par exemple.
+```python runnable
+a=3
+a=a+2
+print(a)
+a=a+a
+print(a)
+```
+Petite explication des résultats affichés : Au début *a* vaut 3, on lui ajoute 2 et on stocke dans *a* donc maintenant *a* vaut 5, ce qu'on affiche en premier. Ensuite on calcule *a+a* donc 5+5=10 qu'on stocke de nouveau dans *a*, d'où l'affichage du 10 en deuxième.
+
+
 # Deuxième partie : Les opérations sur les variables numériques
 
 Dans cette partie, nous allons voir les opérations de base que l'on peut effectuer en python sur des nombres.
@@ -79,6 +90,21 @@ print(a*b)
 
 ###### QCM 2
 ```python
+a=5
+a=a-2
+a=a*a+1
+print(a)
+```  
+?[Quelle valeur sera affichée si on execute le programme ci-dessus ? ]
+-[ ] 16
+-[ ] 26
+-[ ] 12
+-[x] 10
+
+---
+
+###### QCM 3
+```python
 a=7
 b=a-1
 print((b/2)**2)
@@ -91,7 +117,7 @@ print((b/2)**2)
 
 ---
 
-##### QCM 3
+##### QCM 4
 ```python
 a=3
 b=a+1
@@ -105,7 +131,7 @@ print((a**2+b**2)**0.5)
 
 ---
 
-###### QCM 4
+###### QCM 5
 ```python
 a=22
 b=5
