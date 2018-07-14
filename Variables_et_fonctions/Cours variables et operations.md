@@ -80,11 +80,11 @@ print(a*b)
     b=a-2
     print(a*b)
     ```
-  ?[Quelle valeur sera affichée si on execute le programme ci-dessus ? ]
-  -[ ] -10
-  -[x] 15
-  -[ ] 23
-  -[ ] 3
-  -[ ] 8
+?[Quelle valeur sera affichée si on execute le programme ci-dessus ? ]
+-[ ] -10
+-[x] 15
+-[ ] 23
+-[ ] 3
+-[ ] 8
 
   
