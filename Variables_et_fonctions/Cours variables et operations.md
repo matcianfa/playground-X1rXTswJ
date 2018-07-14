@@ -1,4 +1,4 @@
-<h1 align="center"> Cours : Variables et opérations </h1>
+<h1> <center>Cours : Variables et opérations </center></h1>
 
 # Première partie : Les variables
 
