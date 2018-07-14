@@ -1,4 +1,4 @@
-<h1> <center>Cours : Module math</center></h1>
+<h1> <center>Cours : Le module math</center></h1>
 
 Avant de présenter à proprement parler le module math de Python, nous allons voir quelques fonctions liées aux mathématiques mais accessibles sans importer aucun module.
 
@@ -16,7 +16,7 @@ Voici quelques fonctions qui peuvent être utiles :
 ## Importation de modules
 Commençons par parler de modules. Il existe de nombreuses fonctions qu'on peut utiliser avec Python mais pour éviter de saturer à la fois la mémoire et les noms de fonctions utilisables, on a regroupé dans ce qu'on appelle des modules, les fonctions qui ont une utilité spécifique. Pour les utiliser il faut donc demander à Python de les mettre en mémoire pour pouvoir les utiliser. Pour cela, il faut mettre en début de programme les modules qu'on importe.   
 Pour simplifier, on va systématiquement importer : 
-- soit une fonction spécifique en tapant `from nom_du_module import nom_de_la_fonction`.
+- soit une fonction spécifique en tapant `python from nom_du_module import nom_de_la_fonction`.
 - soit tout le module directement en tapant `from nom_du_module import *`. 
 
 Par exemple : Pour importer la fonction cosinus (qui s'appelle cos en python) du module math, on ecrira en début de programme : `from math import cos`.  
