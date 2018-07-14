@@ -25,7 +25,7 @@ On voit s'afficher la valeur de c.
 
 Dans cette partie, nous allons voir les opérations de base que l'on peut effectuer en python sur des nombres.
 
-Il y a bien sur les quatre opérations classiques +, -, \*, / avec les priorités opératoires habituelles. Par exemple :
+1. Il y a bien sur les quatre opérations classiques +, -, \*, / avec les priorités opératoires habituelles. Par exemple :
 ```python runnable
 a=5
 b=3
@@ -35,7 +35,7 @@ print(a*b)
 print(a/b)
 ```
 
-Les deux autres opérations qu'on utilise couramment sont les puissances et la racine carrée.  
+2. Les deux autres opérations qu'on utilise couramment sont les puissances et la racine carrée.  
 Pour les puissances, on double simplement la multiplication. Ainsi $`x^n`$ s'obtiendra en écrivant `x**n`.  
 Pour la racine carrée, on va simplement utiliser une propriété mathématique : $`\sqrt x = x^{0.5}`$. Donc pour calculer la racine carrée d'un nombre x, il suffit d'écrire `x**0.5`.
 
