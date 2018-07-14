@@ -34,13 +34,9 @@ print(a-b)
 print(a*b)
 print(a/b)
 ```
-
 2. Les deux autres opérations qu'on utilise couramment sont les puissances et la racine carrée.  
 Pour les puissances, on double simplement la multiplication. Ainsi $`x^n`$ s'obtiendra en écrivant `x**n`.  
-Pour la racine carrée, on va simplement utiliser une propriété mathématique : $`\sqrt x = x^{0.5}`$. Donc pour calculer la racine carrée d'un nombre x, il suffit d'écrire `x**0.5`.
-
-Voici quelques exemples. On a rajouté des commentaires à coté des instructions d'affichage des calculs pour que ces instructions soient plus claires. Pour écrire un commentaire, il suffit de mettre un # devant. Tout ce qui suit le # ne sera pas executé par l'ordinateur et ne sert donc qu'à la personne qui lit le programme.
-
+Pour la racine carrée, on va simplement utiliser une propriété mathématique : $`\sqrt x = x^{0.5}`$. Donc pour calculer la racine carrée d'un nombre x, il suffit d'écrire `x**0.5`.  Voici quelques exemples. On a rajouté des commentaires à coté des instructions d'affichage des calculs pour que ces instructions soient plus claires. Pour écrire un commentaire, il suffit de mettre un # devant. Tout ce qui suit le # ne sera pas executé par l'ordinateur et ne sert donc qu'à la personne qui lit le programme.
 ```python runnable
 print(2**3) # Affiche le résultat de 2 puissance 3
 print(3**2) # Affiche le résultat de 3 puissance 2
