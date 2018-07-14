@@ -75,18 +75,16 @@ print(a*b)
 -[ ] 3
 -[ ] 8
 
-1. 
-?[Quelle valeur sera affichée si on execute le programme ci dessous ? 
-  ```python
-  a=5
-  b=a-2
-  print(a*b)
-  ```
-  ]
--[ ] -10
--[x] 15
--[ ] 23
--[ ] 3
--[ ] 8
+1. ```python
+    a=5
+    b=a-2
+    print(a*b)
+    ```
+  ?[Quelle valeur sera affichée si on execute le programme ci-dessus ? ]
+  -[ ] -10
+  -[x] 15
+  -[ ] 23
+  -[ ] 3
+  -[ ] 8
 
   
