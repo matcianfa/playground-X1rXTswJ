@@ -39,25 +39,25 @@ On ne va présenter ici que les fonctions utiles au lycée. On pourra trouver la
 
 Voyons quelques exemples d'utilisation (Appuyer sur Run pour voir le résultat) : 
 1. Calcul de la racine carrée de pi :
-  ```python runnable
-  from math import *
-
-  a=sqrt(pi)
-  print(a)
-  ```
+   ```python runnable
+   from math import *
+   
+   a=sqrt(pi)
+   print(a)
+   ```
 1. Calcul du cosinus d'un angle :
-  ```python runnable
-  from math import *
-
-  angle = 60 
-  angle_en_radian = radians(angle) # On convertit l'angle en radian
-  c= cos(angle_en_radian) 
-  print(c)
-  
-  # On aurait pu écrire aussi directement : 
-  print(cos(radians(angle)))
-  ```
-1. 
+   ```python runnable
+   from math import *
+   
+   angle = 60 
+   angle_en_radian = radians(angle) # On convertit l'angle en radian
+   c= cos(angle_en_radian) 
+   print(c)
+   
+   # On aurait pu écrire aussi directement : 
+   print(cos(radians(angle)))
+   ```
+1. Calcul de l'arrondi de pi² à 5 chiffres après la virgule en n'important que pi du module math :
 
 
 
