@@ -5,7 +5,7 @@ Cette page est un complément du cours sur les variables et opérations pour app
 # Première partie : Affectations de variables
 
 Nous avons déjà vu comment affecter à des variables des valeurs. Il y a plusieurs façons d'améliorer ces affectations selon la situation.
-+ Commençons par la technique la plus utile : l'incrémentation. Il va nous arriver très souvent de vouloir ajouter un nombre à une variable. Une façon de faire pour ajouter 3 à une variable x est :
++ Commençons par la technique la plus utile : l'incrémentation. Il va nous arriver très souvent de vouloir augmenter une variable d'une certaine valeur. Une façon de faire pour ajouter 3 à une variable x est :
   ```python
   x = x + 3
   ```
@@ -14,7 +14,8 @@ Nous avons déjà vu comment affecter à des variables des valeurs. Il y a plusi
   x += 3
   ```
   Cela peut sembler anecdotique mais quand on a beaucoup de variables avec des noms longs et peu agréables à écrire, on savoure le plaisir de n'avoir à les écrire qu'une fois grâce à cette notation.  
-  Cette notation existe pour beaucoup d'opérations classiques. On peut soustraire une valeur à une variable (avec -=), multiplier (*=), diviser (/=), mettre à la puissance (**=), effectuer la division euclidienne (//=) ou le reste (%=) ... Exemple (Vous pouvez modifier les exemples pour tester par vous même):
+  Cette notation existe pour beaucoup d'opérations classiques. On peut soustraire une valeur à une variable (avec -=), multiplier (\*=), diviser (/=), mettre à la puissance (\*\*=), effectuer la division euclidienne (//=) ou le reste (%=) ...  
+  Exemple (Vous pouvez modifier les exemples pour tester par vous même):
   ```python runnable
   x = 3
   x += 4
@@ -47,36 +48,59 @@ Nous avons déjà vu comment affecter à des variables des valeurs. Il y a plusi
   ```
   Mais on a en Python la possibilité de regrouper ces affectations en une seule en écrivant : 
   ```python
-  a, b, c=3, 7, 1
+  a, b, c = 3, 7, 1
   ```
   Python affecte à la première variable la première valeur, à la deuxième variable la deuxième valeur etc.
-+ On peut améliorer encore cette dernière technique en utilisant stockant dans des variables des calculs utilisant ces mêmes variables. Par exemple : supposons que x=2 et y=4 et qu'on veuille maintenant stocker dans x le résultat de x+y et dans y le résultat de x-y. Pour cela, on écrirait simplement : 
++ On peut améliorer encore cette dernière technique en utilisant stockant dans des variables des calculs utilisant ces mêmes variables. Par exemple : supposons que x=1 et y=4 et qu'on veuille maintenant stocker dans x le résultat de x+y et dans y le résultat de x-y. Pour cela, on écrirait simplement : 
   ```python
-  x, y=2, 4
-  x, y= x + y, x - y
+  x, y = 1, 4
+  x, y = x + y, x - y
   ```
   Remarque importante : Ce que l'on vient de faire est très différent de :
   ```python
-  x = 2
+  x = 1
   y = 4
   x = x + y
   y = x - y
   ```
   Vous pouvez le constater en appuyant sur Run et observer les résultats :
   ```python runnable
-  x, y=2, 4
-  x, y= x + y, x - y
-  print("Résultat dans le premier cas : x=",x,"et y=",y)
-  x = 2
+  x, y = 1, 4
+  x, y = x + y, x - y
+  print("Résultat dans le premier cas : x =",x,"et y =",y)
+  x = 1
   y = 4
   x = x + y
   y = x - y
-  print("Résultat dans le second cas : x=",x,"et y=",y)
+  print("Résultat dans le second cas : x =",x,"et y =",y)
   ```
-  Explications : Dans le premier cas, Python calcule x+y et x-y puis stocke en mémoire. Dans le second cas, on calcule d'abord x+y et on stocke dans x ce qui veut dire que x vaut maintenant 6 puis calcule x-y (avec x=6 donc) puis stocke dans y. Le résultat n'est donc pas le même.  
-  Cette technique est très pratique par exemple pour intervertir les valeurs de certaines variables. Il suffit d'écrire `x, y=y, x`.
+  Explications : Dans le premier cas, Python calcule x+y et x-y puis stocke en mémoire. Dans le second cas, on calcule d'abord x+y et on stocke dans x ce qui veut dire que x vaut maintenant 5 puis calcule x-y (avec x=5 donc) puis stocke dans y. Le résultat n'est donc pas le même.  
+  Cette technique est très pratique par exemple pour intervertir les valeurs de certaines variables. Il suffit d'écrire `x, y = y, x`.
 
 # Deuxième partie : Complément sur la fonction `print`
+
+Nous avons vu comment afficher la valeur d'une variable en utilisant la fonction `print`. Nous allons voir que nous pouvons améliorer cette affichage.
++ Afficher un texte : Pour Python, tout ce qui est entre guillemets (ou apostrophes) est considéré comme du texte (Informatiquement, c'est plus précisément une chaine de caractère). Donc si on veut afficher un texte, il suffit de le mettre entre guillemets et l'afficher avec print ce qui donnerait par exemple : 
+  ```python runnable
+  print("Bonjour")
+  print("Hello World !")
+  ```
++ Afficher plusieurs variables d'affilée : On remarquera dans l'exemple précédent que Python va à la ligne chaque fois qu'on utilise `print`. Il peut être utile d'afficher sur une seule ligne des données. Pour cela il suffit simplement de les séparer par des virgules à l'intérieur de la fonction print. On peut ainsi afficher des variables, du texte ou un mélange de tout cela.  
+  Par exemple :
+  ```python runnable
+  x = 3
+  y = 3*x**2-1
+  print("Pour x =", x,"la valeur de 3x²-1 est",y)
+  ```
+  On remarquera que les *x* qui sont dans les guillemets ne sont pas remplacés par la valeur de x contrairement au *x* hors guillemets qui lui l'est. 
++ Un peu plus anecdotique, il peut arriver qu'on utilise plusieurs fois la fonction `print` mais qu'on ne veuille pas aller à la ligne ou bien qu'on veuille rajouter quelque chose en fin de phrase. Pour cela, il faut préciser dans la fonction `print` ce qu'on veut à la fin en écrivant `print("Le texte ou des variables", end="Ce qu'on veut mettre à la fin")`. De base, quand on ne met rien, on a `end = "\n"` car \n dans un texte est remplacé automatiquement par un retour à la ligne. Donc si on ne veut pas de retour à la ligne, il suffit d'écrire `print("texte", end="")`.
+Par exemple si on veut coller deux résultats pour n'afficher qu'un nombre :
+```python runnable
+debut=12
+fin=345
+print(debut,end="")
+print(fin)
+```
 
 
 # Troisième partie : Les nombres ebn Python et les erreurs d'arrondi
