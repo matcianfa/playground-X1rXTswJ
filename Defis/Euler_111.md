@@ -76,3 +76,21 @@ On affichera le résultat avec `print`.
 @[Nombres non oscillants]({"stubs": ["Defis/Euler_113.py"], "command": "python3 Defis/Euler_113_Test.py"})
 
 ---
+
+# Compter les combinaisons de blocs I
+`Difficulté : Moyen (35%)`
+`Origine : Projet Euler n°114`
+
+On considère une ligne mesurant 7 unités de long sur laquelle on place des bandes rouges de longueur minimale 3 telles que ces bandes sont séparées par au moins un bloc noir. Il y a exactement 17 façons de le faire : 
+
+[bandes colorées](https://projecteuler.net/images/spacer.gif)
+
+De combien de façons peut-on recouvrir une bande de 50 unités de long ?
+
+Note : Bien que sur l'exemple donné cette possibilité est impossible, en général, les blocs rouges peuvent être de longueurs différentes : Par exemple si la longueur est 8, on peut avoir un recouvrement de la forme rouge(3) noir(1) et rouge(4).
+
+On affichera le résultat avec `print`.
+
+@[Compter les combinaisons de blocs I]({"stubs": ["Defis/Euler_114.py"], "command": "python3 Defis/Euler_114_Test.py"})
+
+---
