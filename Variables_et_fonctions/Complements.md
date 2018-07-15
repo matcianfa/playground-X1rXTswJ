@@ -112,7 +112,7 @@ print("PQRSTUVWXYZ", end =" *BOUM !*")
 # Troisième partie : Les nombres ebn Python et les erreurs d'arrondi
 
 Les nombres ne sont pas tous traités de la même façon par Python. Les calculs avec les entiers sont beaucoup plus naturels pour Python que ceux avec les décimaux (que l'on appelle flottants en informatique). Prenons un exemple : 
-```
+```python runnable
 x=2**100
 print(x)
 y=2.0**100
@@ -120,7 +120,7 @@ print(y)
 print(x+1-x)
 print(y+1-y)
 ```
-
+Analysons les résultats : Dans un premier temps, on a stocké dans x la valeur de 2 puissance 100 (calcul avec des entiers). Dans  un deuxième temps, on a stocké dans y la valeur de 2 puissance 100 mais en calculant avec 2.0 c'est à dire un nombre flottant. Mathématiquement, il n'y a aucune différence mais dans la façon dont Python gère les deux, il y a une énorme différence. On peut le voir en effectuant les calculs x+1-x et y+1-y. Mathématiquement, le résultat est 1.
 
   
 # Troisième partie : QCM
