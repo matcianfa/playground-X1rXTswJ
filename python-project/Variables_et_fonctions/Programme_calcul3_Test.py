@@ -18,9 +18,9 @@ def verif(n):
   b = n**2
   reponses.append(b)
   a,b=b,a
-  reponses.append(a,b)
+  reponses.append(str(a)+" "+str(b))
   a,b=3*a+1,2*a-b
-  reponses.append(a,b)
+  reponses.append(str(a)+" "+str(b))
   reponses.append('')
   return reponses
   
