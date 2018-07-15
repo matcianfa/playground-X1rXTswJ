@@ -14,6 +14,8 @@ plan:
         statement: Variables_et_fonctions/Cours variables et operations.md
       - title: Cours - Module math
         statement: Variables_et_fonctions/Cours module math.md
+      - title: Compléments sur les variables et opérations
+        statement: Variables_et_fonctions/Complements.md
       - title: Prise en main
         statement: Variables_et_fonctions/prise en main.md
       - title: Passage des coordonnées polaires à cartésiennes
