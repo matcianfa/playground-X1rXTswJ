@@ -132,79 +132,55 @@ Si on veut faire des calculs plus précis, on pourra s'intéresser au module Dec
 Pour plus de précision sur ces erreurs d'arrondi, on pourra regarder [la doc python](https://docs.python.org/fr/2/tutorial/floatingpoint.html)
 
   
-# Troisième partie : QCM
+# Quatrième partie : QCM
 
 Voici quelques QCM pour voir si vous avez bien compris. N'hésitez pas à relire ce qui précède si vous avez un doute.
 
 ###### QCM 1
 ```python
-a=5
-b=a-2
-print(a*b)
+a, b = 5, 2
+b, a = a+1, b-a
+print(a, b)
 ```  
-?[Quelle valeur sera affichée si on execute le programme ci-dessus ? ]
--[ ] -10
--[x] 15
--[ ] 23
--[ ] 3
--[ ] 8
+?[Quelles valeurs sera affichée si on execute le programme ci-dessus ? ]
+-[ ] 6 -3
+-[ ] -4 6
+-[ ] 3 -3 
+-[x] -3 6
 
 ---
 
 ###### QCM 2
 ```python
-a=5
-a=a-2
-a=a*a+1
+a = 4
+b = 2
+b *= 3
+a += b
 print(a)
 ```  
 ?[Quelle valeur sera affichée si on execute le programme ci-dessus ? ]
--[ ] 16
--[ ] 26
--[ ] 12
 -[x] 10
+-[ ] 3
+-[ ] 9
+-[ ] 6
 
 ---
 
 ###### QCM 3
 ```python
-a=7
-b=a-1
-print((b/2)**2)
+a = b = 3
+c = 2
+b **= 2
+b, c, a = a + c, a + b, b + c
+print(a)
 ```
 ?[Quelle valeur sera affichée si on execute le programme ci-dessus ? ]
--[ ] 6.0
--[ ] 1.5
--[x] 9.0
--[ ] -0.25  
+-[ ] 5
+-[ ] 8
+-[x] 11
+-[ ] 17 
 
 ---
-
-##### QCM 4
-```python
-a=3
-b=a+1
-print((a**2+b**2)**0.5)
-```
-?[Quelle valeur sera affichée si on execute le programme ci-dessus ? ]
--[x] 5.0
--[ ] 13.0
--[ ] 12.5
--[ ] 7.0
-
----
-
-###### QCM 5
-```python
-a=22
-b=5
-print((a//b)+(a%b))
-```
-?[Quelle valeur sera affichée si on execute le programme ci-dessus ? ]
--[ ] 6.4
--[ ] 4.4
--[x] 6
--[ ] 114.4 
 
 # A vous !
 
@@ -218,23 +194,5 @@ N'effacez pas ce que vous avez fait juste. Il faut rajouter au fur et à mesure 
 
 Quand on demande d'afficher, c'est avec `print`.
 
-@[Programme de calcul]({"stubs": ["Variables_et_fonctions/Programme_calcul.py"], "command": "python3 Variables_et_fonctions/Programme_calcul_Test.py"})
-
----
-
-###### Exercice 2 :
-
-La consigne de cet exercice est identique au précédent.
-
-Appuyez sur Run et suivez les instructions qui s'affichent.
-
-N'effacez pas ce que vous avez fait juste. Il faut rajouter au fur et à mesure en dessous.
-
-Quand on demande d'afficher, c'est avec `print`.
-
-@[Programme de calcul]({"stubs": ["Variables_et_fonctions/Programme_calcul1.py"], "command": "python3 Variables_et_fonctions/Programme_calcul1_Test.py"})
-
----
-
-
+@[Programme de calcul]({"stubs": ["Variables_et_fonctions/Programme_calcul3.py"], "command": "python3 Variables_et_fonctions/Programme_calcul3_Test.py"})
 
