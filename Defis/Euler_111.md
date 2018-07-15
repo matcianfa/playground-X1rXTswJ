@@ -83,7 +83,7 @@ On affichera le résultat avec `print`.
 
 On considère une ligne mesurant 7 unités de long sur laquelle on place des bandes rouges de longueur minimale 3 telles que ces bandes sont séparées par au moins un bloc noir. Il y a exactement 17 façons de le faire : 
 
-[bandes colorées](https://projecteuler.net/images/spacer.gif)
+[bandes colorées](Euler114.png)
 
 De combien de façons peut-on recouvrir une bande de 50 unités de long ?
 
