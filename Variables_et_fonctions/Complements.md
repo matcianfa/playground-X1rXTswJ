@@ -77,7 +77,7 @@ Nous avons déjà vu comment affecter à des variables des valeurs. Il y a plusi
   Explications : Dans le premier cas, Python calcule x+y et x-y puis stocke en mémoire. Dans le second cas, on calcule d'abord x+y et on stocke dans x ce qui veut dire que x vaut maintenant 5 puis calcule x-y (avec x=5 donc) puis stocke dans y. Le résultat n'est donc pas le même.  
   Cette technique est très pratique par exemple pour intervertir les valeurs de certaines variables. Il suffit d'écrire `x, y = y, x`.
 
-# Deuxième partie : Complément sur la fonction `print`
+# Deuxième partie : Compléments sur la fonction `print`
 
 Nous avons vu comment afficher la valeur d'une variable en utilisant la fonction `print`. Nous allons voir que nous pouvons améliorer cette affichage.
 + Afficher un texte : Pour Python, tout ce qui est entre guillemets (ou apostrophes) est considéré comme du texte (Informatiquement, c'est plus précisément une chaine de caractère). Donc si on veut afficher un texte, il suffit de le mettre entre guillemets et l'afficher avec print ce qui donnerait par exemple : 
@@ -93,7 +93,7 @@ Nous avons vu comment afficher la valeur d'une variable en utilisant la fonction
   print("Pour x =", x,"la valeur de 3x²-1 est",y)
   ```
   On remarquera que les *x* qui sont dans les guillemets ne sont pas remplacés par la valeur de x contrairement au *x* hors guillemets qui lui l'est. 
-+ Un peu plus anecdotique, il peut arriver qu'on utilise plusieurs fois la fonction `print` mais qu'on ne veuille pas aller à la ligne ou bien qu'on veuille rajouter quelque chose en fin de phrase. Pour cela, il faut préciser dans la fonction `print` ce qu'on veut à la fin en écrivant `print("Le texte ou des variables", end="Ce qu'on veut mettre à la fin")`. De base, quand on ne met rien, on a `end = "\n"` car \n dans un texte est remplacé automatiquement par un retour à la ligne. Donc si on ne veut pas de retour à la ligne, il suffit d'écrire `print("texte", end="")`.
++ Un peu plus anecdotique, il peut arriver qu'on utilise plusieurs fois la fonction `print` mais qu'on ne veuille pas aller à la ligne ou bien qu'on veuille rajouter quelque chose en fin de phrase. Pour cela, il faut préciser dans la fonction `print` ce qu'on veut à la fin en écrivant `print("Le texte ou des variables", end="Ce qu'on veut mettre à la fin")`. De base, quand on ne met rien, on a `end = "\n"` car \n dans un texte est remplacé automatiquement par un retour à la ligne. Donc si on ne veut pas de retour à la ligne, il suffit d'écrire `print("texte", end="")`.  
 Par exemple si on veut coller deux résultats pour n'afficher qu'un nombre :
 ```python runnable
 debut=12
@@ -101,7 +101,13 @@ fin=345
 print(debut,end="")
 print(fin)
 ```
-
+Exemple de modification de fin de phrase avec print et d'utilisation de \n dans un texte:
+```python runnable
+print("ABC\nDE",end=" *hic!*\n")
+print("FG\nHI",end=" *hic!*\n")
+print("J\nK\nL\nM\nN\nO", end=" *hic!*\n")
+print("PQRSTUVWXYZ", end ="*BOUM !*")
+```
 
 # Troisième partie : Les nombres ebn Python et les erreurs d'arrondi
 
