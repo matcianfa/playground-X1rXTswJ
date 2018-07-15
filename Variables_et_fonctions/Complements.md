@@ -109,7 +109,7 @@ print("J\nK\nL\nM\nN\nO", end=" *hic!*\n")
 print("PQRSTUVWXYZ", end =" *BOUM !*")
 ```
 
-# Troisième partie : Les nombres ebn Python et les erreurs d'arrondi
+# Troisième partie : Les nombres en Python et les erreurs d'arrondi
 
 Les nombres ne sont pas tous traités de la même façon par Python. Les calculs avec les entiers sont beaucoup plus naturels pour Python que ceux avec les décimaux (que l'on appelle flottants en informatique). Prenons un exemple : 
 ```python runnable
@@ -120,7 +120,16 @@ print(y)
 print(x+1-x)
 print(y+1-y)
 ```
-Analysons les résultats : Dans un premier temps, on a stocké dans x la valeur de 2 puissance 100 (calcul avec des entiers). Dans  un deuxième temps, on a stocké dans y la valeur de 2 puissance 100 mais en calculant avec 2.0 c'est à dire un nombre flottant. Mathématiquement, il n'y a aucune différence mais dans la façon dont Python gère les deux, il y a une énorme différence. On peut le voir en effectuant les calculs x+1-x et y+1-y. Mathématiquement, le résultat est 1.
+Analysons les résultats : Dans un premier temps, on a stocké dans x la valeur de 2 puissance 100 (calcul avec des entiers). Dans  un deuxième temps, on a stocké dans y la valeur de 2 puissance 100 mais en calculant avec 2.0 c'est à dire un nombre flottant. Mathématiquement, il n'y a aucune différence mais dans la façon dont Python gère les deux, il y a une énorme différence. On peut le voir en effectuant les calculs x+1-x et y+1-y. Mathématiquement, le résultat est 1 mais dans le deuxième cas, Python obtient 0. La raison est simple : Python ne peut pas stocker une infinité de chiffres après la virgule donc il n'en garde qu'une partie en mémoire donc dès qu'on manipule des nombres qui ont plus de chiffres que le nombre de chiffres que Python a en mémoire, cela crée des erreurs d'arrondi. Par exemple 2 puissance 100 possède 31 chiffres. Si python garde en mémoire (par exemple) les 20 premiers chiffres et qu'on ajoute 1, le nombre obtenu sera pour python le même que si on n'ajoute pas 1 puisque ce 1 s'ajoute dans les chiffres non gardés en mémoire. Donc quand on resoustrait y, on retombe sur 0. Par contre quand on travaille avec des entiers, les calculs sont exacts.   
+On peut le voir encore plus facilement en tapant : 
+```python runnable
+print(0.1+0.1+0.1)
+```
+On voit que le résultat n'est pas 0.3 ! Cette petite erreur qui semble ridicule peut vite grossir si on continue à faire des calculs ensuite. Le problème va surtout se poser si on veut par exemple vérifier si le résultat d'un calcul vaut 0.3. Pour Python on aura 0.1+0.1+0.1 différent de 0.3.  
+Moralité : Eviter d'utiliser les nombres flottants pour des calculs trop long, complexes précis et pour tester si des résultats sont égaux ou pas.
+
+Si on veut faire des calculs plus précis, on pourra s'intéresser au module Decimal.  
+Pour plus de précision sur ces erreurs d'arrondi, on pourra regarder [la doc python](https://docs.python.org/fr/2/tutorial/floatingpoint.html)
 
   
 # Troisième partie : QCM
