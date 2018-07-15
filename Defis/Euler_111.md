@@ -83,7 +83,7 @@ On affichera le résultat avec `print`.
 
 On considère une ligne mesurant 7 unités de long sur laquelle on place des bandes rouges de longueur minimale 3 telles que ces bandes sont séparées par au moins un bloc noir. Il y a exactement 17 façons de le faire : 
 
-[bandes colorées](Euler114.png)
+![bandes colorées](Euler114.png)
 
 De combien de façons peut-on recouvrir une bande de 50 unités de long ?
 
@@ -92,5 +92,29 @@ Note : Bien que sur l'exemple donné cette possibilité est impossible, en gén�
 On affichera le résultat avec `print`.
 
 @[Compter les combinaisons de blocs I]({"stubs": ["Defis/Euler_114.py"], "command": "python3 Defis/Euler_114_Test.py"})
+
+---
+
+# Compter les combinaisons de blocs II
+`Difficulté : Moyen (35%)`
+`Origine : Projet Euler n°115`
+
+Note : Ce problème est une version un peu plus difficile du problème précédent.
+
+Une bande mesurant n unité de longueur est recouverte par des bandes rouges de longueur minimale m telles que deux blocs rouges sont séparées par au moins une case noire.
+
+On pose F(m,n) le nombre de façon de recouvrir une bande de longueur n par des bandes rouges de longueur au moins m.
+
+On a par exemple F(3, 29) = 673135 et F(3, 30) = 1089155.
+
+On peut voir que pour m=3, n=30 est la plus petite valeur telle que F(3,.) dépasse un million.
+
+De la même façon, pour m=10, on peut vérifier que F(10, 56) = 880711 et F(10, 57) = 1148904, donc n=57 est la plus petite valeur telle que la fonction F(10,.) dépasse un million.
+
+Pour m = 50, quelle est la plus petite valeur de n pour laquelle F(50,.) dépasse un million ?
+
+On affichera le résultat avec `print`.
+
+@[Compter les combinaisons de blocs II]({"stubs": ["Defis/Euler_115.py"], "command": "python3 Defis/Euler_115_Test.py"})
 
 ---
