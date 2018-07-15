@@ -106,10 +106,20 @@ Exemple de modification de fin de phrase avec print et d'utilisation de \n dans 
 print("ABC\nDE",end=" *hic!*\n")
 print("FG\nHI",end=" *hic!*\n")
 print("J\nK\nL\nM\nN\nO", end=" *hic!*\n")
-print("PQRSTUVWXYZ", end ="*BOUM !*")
+print("PQRSTUVWXYZ", end =" *BOUM !*")
 ```
 
 # Troisième partie : Les nombres ebn Python et les erreurs d'arrondi
+
+Les nombres ne sont pas tous traités de la même façon par Python. Les calculs avec les entiers sont beaucoup plus naturels pour Python que ceux avec les décimaux (que l'on appelle flottants en informatique). Prenons un exemple : 
+```
+x=2**100
+print(x)
+y=2.0**100
+print(y)
+print(x+1-x)
+print(y+1-y)
+```
 
 
   
