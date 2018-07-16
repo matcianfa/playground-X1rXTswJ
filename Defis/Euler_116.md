@@ -1,4 +1,4 @@
-# Bandes rouges, vertes et bleues
+# Bandes rouges, vertes et bleues I
 `Difficulté : Moyen (30%)`
 `Origine : Projet Euler n°116`
 
@@ -24,6 +24,22 @@ Note : Ce problème est en relation avec le problème 117.
 
 On affichera le résultat avec `print`.
 
-@[Bandes rouges, vertes et bleues]({"stubs": ["Defis/Euler_116.py"], "command": "python3 Defis/Euler_116_Test.py"})
+@[Bandes rouges, vertes et bleues I]({"stubs": ["Defis/Euler_116.py"], "command": "python3 Defis/Euler_116_Test.py"})
+
+---
+
+# Bandes rouges, vertes et bleues II
+`Difficulté : Moyen (35%)`
+`Origine : Projet Euler n°117`
+
+En utilisant des combinaisons de cases noires et de bandes rouges mesurant 2 cases, de bandes vertes mesurant 3 cases et de bandes bleues de longueurs 4 cases, il est possible de recouvrir une bande de 5 cases de longueur d'exactemennt 15 façons différentes : 
+
+![bandes colorées](Euler117.png)
+
+De combien de façons peut-on recouvrir une bande de mesurant 50 cases ?
+
+On affichera le résultat avec `print`.
+
+@[Bandes rouges, vertes et bleues II]({"stubs": ["Defis/Euler_117.py"], "command": "python3 Defis/Euler_117_Test.py"})
 
 ---
