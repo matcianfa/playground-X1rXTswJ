@@ -75,3 +75,19 @@ On affichera le résultat avec `print`.
 @[Puissances de sommes de chiffres]({"stubs": ["Defis/Euler_119.py"], "command": "python3 Defis/Euler_119_Test.py"})
 
 ---
+
+# Restes de puissances
+`Difficulté : Moyen (25%)`
+`Origine : Projet Euler n°120`
+
+On note r le reste de la division euclidienne de $`(a-1)^n+(a+1)^n`$ par $`a^2`$.
+
+Par exemple, si a = 7 et n = 3, alors r = 42 car $`6^3+8^3 = 728 \equiv 42 [49]`$. Quand n varie, alors r aussi mais pour a = 7 on a comme valeur maximum pour r : $`r_{max}(7)=42`$
+
+Pour 3 ≤ a ≤ 1000, trouver la somme des restes maximums pour a autrement dit la valeur de $`\sum\limits_{a=3}^{1000} r_{max}(a)`$.
+
+On affichera le résultat avec `print`.
+
+@[Restes de puissances]({"stubs": ["Defis/Euler_120.py"], "command": "python3 Defis/Euler_120_Test.py"})
+
+---
