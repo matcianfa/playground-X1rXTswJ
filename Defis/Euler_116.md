@@ -43,3 +43,17 @@ On affichera le résultat avec `print`.
 @[Bandes rouges, vertes et bleues II]({"stubs": ["Defis/Euler_117.py"], "command": "python3 Defis/Euler_117_Test.py"})
 
 ---
+
+# Ensembles pandigitaux de nombres premiers 
+`Difficulté : Moyen (45%)`
+`Origine : Projet Euler n°118`
+
+En utilisant tous les chiffres de 1 à 9 et en les concaténant librement pour former des entiers, on peut former différents ensembles. Par exemple l'ensemble {2,5,47,89,631} est remarquable car il ne contient que des nombres premiers
+
+Combien d'ensembles distincts contenant chaque chiffre de un à neuf exactement une fois contiennent uniquement des nombres premiers ?
+
+On affichera le résultat avec `print`.
+
+@[Ensembles pandigitaux de nombres premiers ]({"stubs": ["Defis/Euler_118.py"], "command": "python3 Defis/Euler_118_Test.py"})
+
+---
