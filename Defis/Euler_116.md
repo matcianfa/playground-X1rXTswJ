@@ -57,3 +57,21 @@ On affichera le résultat avec `print`.
 @[Ensembles pandigitaux de nombres premiers ]({"stubs": ["Defis/Euler_118.py"], "command": "python3 Defis/Euler_118_Test.py"})
 
 ---
+
+# Puissances de sommes de chiffres
+`Difficulté : Moyen (30%)`
+`Origine : Projet Euler n°119`
+
+Le nombre 512 est intéressant car il est égal à la somme de ses chiffres élevé à une certaine puissance : 5 + 1 + 2 = 8 et $`8^3=512`$. Un autre exemple d'un tel nombre est 614656 = $`28^4`$.
+
+On peut ainsi définir $`a_n`$ comme le n-ième terme de cette suite de nombres en précisant que de tels nombres doivent avoir au moins 2 chiffres pour pouvoir en faire la somme.
+
+Ainsi on a $`a_2 = 512`$ et $`a_{10} = 614656`$ 
+
+Trouver $`a_{30}`$
+
+On affichera le résultat avec `print`.
+
+@[Puissances de sommes de chiffres]({"stubs": ["Defis/Euler_119.py"], "command": "python3 Defis/Euler_119_Test.py"})
+
+---
