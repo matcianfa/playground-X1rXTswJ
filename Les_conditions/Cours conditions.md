@@ -88,7 +88,7 @@ note = 19
 
 if note>15 :
     print("Très Bien !")
-    if n>17 : 
+    if note>17 : 
         print("Félicitations !")
         if note>20 :
            print("Tu es un génie !!!")
@@ -113,36 +113,40 @@ N'hésitez pas à modifier la valeur de la note dans le programme précédent en
 
 # Deuxième partie : Les conditions
 
-Après un `if`ou un `elif`, on a dit qu'il fallait mettre une condition. Une condition est tout simplement quelque chose qui peut être vrai ou faux. 
+Après un `if`ou un `elif`, on a dit qu'il fallait mettre une condition. Une condition est tout simplement quelque chose qui peut être vrai ou faux. Voici quelques exemples de conditions qu'on complétera au besoin.
 
-Comparaisons : Une façon d'obtenir un booléen est en comparant deux objets. Voici les notations pour pouvoir comparer :
-        == : pour tester l'égalité. Il faut doubler le = pour le différencier de l'affectation des variables.
-        != : différent de.
-        < : strictement inférieur.
-        <= :inférieur ou égal.
-        > : strictement supérieur.
-        >= : supérieur ou égal.
-            >>>1+1 == 2
-            True
-            >>>2*3 == 3
-            False
-            >>> 2+3 != 4
-            True
-            >>> 14 >= 15
-            False
-        Les inégalités ne fonctionnent pas que pour les nombres. Par exemple on peut comparer des mots avec l'ordre lexicographique (celui du dictionnaire).
-            >>> "elephant" < "souris"
-            True
-            >>> "français" < "mathématiques"
-            True
-            >>> (1,5)<(2,3)
-            True
-not, and et or : On les appelle des connecteurs logiques. Il en existe plusieurs mais ce sont les principaux.
-        Si on les traduit, ça donnerait "contraire de" pour not, "et" pour and et "ou" pour or.
-        Par exemple :
-        not x<3 est identique à x>=3.
-        x<3 and x>1 est identique à 1<x<3 car x doit vérifier les deux conditions en même temps.
-        x<3 or x>5 est identique... à elle même car il n'y a pas de façon plus concise de l'écrire. Elle sera vraie si une des deux conditions est vérifiée.  
+- `True` et `False` :  
+  Ils signifient vrai et faux donc ce sont les conditions les plus évidentes. On les appelle les booléens. Il peut paraitre absurde de mettre un booléen directement après un if (puisque si on met True, le code correspondant sera toujours executé donc le if ne sert à rien et inversement pour le False) mais dans la pratique, le booléen sera dans une variable qui elle pourra être modifiée et donc selon la valeur, l'action à effectuer ne sera pas la même.
+
+- Les comparaisons :  
+  Une façon d'obtenir un booléen est en comparant deux objets comme on a fait avec notre note dans la partie précédente. Voici les notations pour pouvoir comparer :
+    - == : pour tester l'égalité. Il faut doubler le = pour le différencier de l'affectation des variables.
+    - != : différent de.
+    - < : strictement inférieur.
+    - <= :inférieur ou égal.
+    - > : strictement supérieur.
+    - >= : supérieur ou égal.
+
+  Vous pouvez tester et modifier les exemples suivants :
+  ```python runnable
+  1+1 == 2
+  2*3 == 3
+  2+3 != 4
+  14 >= 15
+  ```
+  Les inégalités ne fonctionnent pas que pour les nombres. Par exemple on peut comparer des mots ou des listes de nombres avec l'ordre lexicographique (celui du dictionnaire).
+  ```python runnable
+  "elephant" < "souris"
+  "français" < "mathématiques"
+  (1,5)<(2,3)
+  ```
+- Les connecteurs logiques `not`, `and` et `or`:  
+  Ils permettent de créer une condition à partir d'autres conditions. Il en existe d'autres mais ce sont les principaux.
+  Si on les traduit, ça donnerait "contraire de" pour not, "et" pour and et "ou" pour or.
+  Par exemple :  
+  - not x<3 est identique à x>=3.
+  - x<3 and x>1 est identique à 1<x<3 car x doit vérifier les deux conditions en même temps.
+  - x<3 or x>5 est identique... à elle même car il n'y a pas de façon plus concise de l'écrire. Elle sera vraie si une des deux conditions est vérifiée.  
         
 # Troisième partie : QCM
 
