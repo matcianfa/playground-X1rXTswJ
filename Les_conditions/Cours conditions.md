@@ -66,7 +66,7 @@ elif note>20 :
     print("Tu es un génie !!!")
 else :
     print("Tu devras recopier 3 fois toutes les décimales de pi !")
-#Tout ce qui n'est pas indenté et qui suit le bloc if... elif... else sera executé quoi qu'il se passe dans ce bloc
+# Tout ce qui n'est pas indenté et qui suit le bloc if... elif... else sera executé quoi qu'il se passe dans ce bloc
 # C'est tout simplement la suite du programme...
 # Si on le décale, il s'executera dans la partie else du bloc de condition.
 print("Ce message représente la suite du programme...")
@@ -84,6 +84,8 @@ Un rapide complément pour montrer à quoi ressemble un programme quand on encha
 ::: Complément : Imbrication de blocs conditionnels
 On a vu que ce qui doit être exécuté après une condition doit être indenté. Ce qui veut dire que si après une condition, on veut retester une autre condition, il faudra penser à tout décaler. Si je reprends l'exemple précédent pour l'améliorer un peu pour être plus précis cela pourrait donner : 
 ```python runnable
+note = 19
+
 if note>15 :
     print("Très Bien !")
     if n>17 : 
@@ -99,7 +101,14 @@ else :
     if note<6 :
         print("Tu devras en plus recopier 3 fois toutes les décimales de pi !")
 ```
-
+Donnons quelques explications sur un exemple. Si la note est 19 :
+- comme note>15, on va effectuer toute la partie qui est indentée et qui suit cette condition. Autrement dit, les lignes 4 à 8.  
+- La ligne 4 demande d'afficher "Très bien !" donc ça l'affiche.  
+- On a de nouveau une condition. Comme note>17, on exécute tout ce qui suit cette condition et qui est indentée par rapport à elle c'est à dire les lignes 6 à 8.  
+- La ligne 6 demande d'afficher "Félicitations !" donc ca l'affiche.  
+- La ligne 7 est une condition mais comme elle n'est pas vérifiée, on n'execute pas la ligne 8. 
+- Comme on a fini d'executer ce qu'on devait, on a fini.
+N'hésitez pas à modifier la valeur de la note dans le programme précédent en essayant de deviner le résultat qu'on devrait obtenir avant pour voir si vous avez bien compris. Essayez 17, 18, 22, 8, 4 par exemple.
 :::
 
 # Deuxième partie : Les conditions
