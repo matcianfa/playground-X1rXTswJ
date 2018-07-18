@@ -14,13 +14,13 @@ Je vous conseille de lire le résumé de cours associé que vous pouvez trouver 
 </body>
 
 <h1> Test</h1>
-<h2> niveau2 </h2>
-<h2> re niv 2</h2>
+    <h2> niveau2 </h2>
+    <h2> re niv 2</h2>
 
 <h1> Test2</h1>
-<h2> reniveau2 </h2>
-<h2> re niv 2</h2>
-<h3> h3 </h3>
-<h2> h2 </h2>
+    <h2> reniveau2 </h2>
+    <h2> re niv 2</h2>
+        <h3> h3 </h3>
+    <h2> h2 </h2>
 
 
