@@ -39,7 +39,7 @@ if note>16 :
     print("Très Bien !")
 elif note>13 :
     print("Bien")
-elif note>10
+elif note>10 :
     print("Assez Bien")
 elif note>20 :
     print("Tu es un génie !!!")
@@ -60,7 +60,7 @@ if note>16 :
     print("Très Bien !")
 elif note>13 :
     print("Bien")
-elif note>10
+elif note>10 :
     print("Assez Bien")
 elif note>20 :
     print("Tu es un génie !!!")
@@ -71,6 +71,11 @@ else :
 # Si on le décale, il s'executera dans la partie else du bloc de condition.
 print("Ce message représente la suite du programme...")
 ```
+
+Concluons cette partie avec des erreurs classiques à éviter :
+1. Après `if`et `elif`il y a toujours une condition.
+2. Après `else`, il n'y a jamais de condition (étant donné que signifie sinon donc correspond à tous les cas restants, pas besoin donc de les préciser même si par chance on les connait)
+3. Après un `if`, `elif` et `else` il ne faut pas oublier de mettre en fin de ligne les deux points `:`.
 
 
 # Deuxième partie : Les conditions
