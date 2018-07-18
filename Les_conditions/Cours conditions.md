@@ -10,7 +10,7 @@ Quand on programme, il est indispensable de pouvoir expliquer à notre cher ordi
 
 Commençons par la structure la plus simple : `if` tout seul. Elle va nous permettre d'expliquer ce qu'il faut faire si une condition est vérifiée. Décortiquons un exemple de cette partie de code (on suppose qu'il y a du code avant où on obtient la valeur de la variable `note`) : 
 ```python
-if note>16 : 
+if note>15 : 
   print("Très Bien !")
 ```
 Dans la première ligne on pourrait traduire le "if" par "si" et l'indispensable ":" en fin de ligne par "faire" ce qui donnerait "Si note>16 faire".  
@@ -22,7 +22,7 @@ Pour résumer notre exemple, si la note obtenue est par exemple 19, le programme
 Étoffons notre exemple en rajoutant ce qu'il doit afficher si la note n'est pas supérieure à 16. 
 
 ```python
-if note>16 :
+if note>15 :
     print("Très Bien !")
 else :
     print("Tu devras recopier 3 fois toutes les décimales de pi !")
@@ -35,11 +35,11 @@ Pour résumer notre exemple, si la note obtenue est par exemple 19, le programme
 On comprend bien sur notre exemple qu'il faudrait rajouter davantage de conditions selon la valeur de la note pour afficher des commentaires plus pertinents. Pour cela, on va utiliser l'instruction intermédiaire `elif` qui est une contraction de `else` et `if` c'est à dire qu'on peut le traduire par "sinon si". Il va nous permettre d'enchainer les distinctions de cas. On peut en mettre autant que l'on veut.
 
 ```python
-if note>16 :
+if note>15 :
     print("Très Bien !")
 elif note>13 :
     print("Bien")
-elif note>10 :
+elif note>11 :
     print("Assez Bien")
 elif note>20 :
     print("Tu es un génie !!!")
@@ -56,11 +56,11 @@ Voici le code précédent que vous pouvez tester et modifier pour bien comprendr
 # valeur de la note que vous pouvez modifier
 note = 19
 
-if note>16 :
+if note>15 :
     print("Très Bien !")
 elif note>13 :
     print("Bien")
-elif note>10 :
+elif note>11 :
     print("Assez Bien")
 elif note>20 :
     print("Tu es un génie !!!")
@@ -77,10 +77,64 @@ Concluons cette partie avec des erreurs classiques à éviter :
 2. Après `else`, il n'y a jamais de condition (étant donné que signifie sinon donc correspond à tous les cas restants, pas besoin donc de les préciser même si par chance on les connait)
 3. Après un `if`, `elif` et `else` il ne faut pas oublier de mettre en fin de ligne les deux points `:`.
 
+## Complément : Imbrication de blocs conditionnels
+
+Un rapide complément pour montrer à quoi ressemble un programme quand on enchaine des blocs conditionnels. Appuyez sur le bouton déroulant ci-dessous pour l'afficher
+
+::: Complément : Imbrication de blocs conditionnels
+On a vu que ce qui doit être exécuté après une condition doit être indenté. Ce qui veut dire que si après une condition, on veut retester une autre condition, il faudra penser à tout décaler. Si je reprends l'exemple précédent pour l'améliorer un peu pour être plus précis cela pourrait donner : 
+```python runnable
+if note>15 :
+    print("Très Bien !")
+    if n>17 : 
+        print("Félicitations !")
+        if note>20 :
+           print("Tu es un génie !!!")
+elif note>13 :
+    print("Bien")
+elif note>11 :
+    print("Assez Bien")
+else :
+    print("Tu devras recommencer l'interrogation en devoir maison")
+    if note<6 :
+        print("Tu devras en plus recopier 3 fois toutes les décimales de pi !")
+```
+
+:::
 
 # Deuxième partie : Les conditions
 
-  
+Après un `if`ou un `elif`, on a dit qu'il fallait mettre une condition. Une condition est tout simplement quelque chose qui peut être vrai ou faux. 
+
+Comparaisons : Une façon d'obtenir un booléen est en comparant deux objets. Voici les notations pour pouvoir comparer :
+        == : pour tester l'égalité. Il faut doubler le = pour le différencier de l'affectation des variables.
+        != : différent de.
+        < : strictement inférieur.
+        <= :inférieur ou égal.
+        > : strictement supérieur.
+        >= : supérieur ou égal.
+            >>>1+1 == 2
+            True
+            >>>2*3 == 3
+            False
+            >>> 2+3 != 4
+            True
+            >>> 14 >= 15
+            False
+        Les inégalités ne fonctionnent pas que pour les nombres. Par exemple on peut comparer des mots avec l'ordre lexicographique (celui du dictionnaire).
+            >>> "elephant" < "souris"
+            True
+            >>> "français" < "mathématiques"
+            True
+            >>> (1,5)<(2,3)
+            True
+not, and et or : On les appelle des connecteurs logiques. Il en existe plusieurs mais ce sont les principaux.
+        Si on les traduit, ça donnerait "contraire de" pour not, "et" pour and et "ou" pour or.
+        Par exemple :
+        not x<3 est identique à x>=3.
+        x<3 and x>1 est identique à 1<x<3 car x doit vérifier les deux conditions en même temps.
+        x<3 or x>5 est identique... à elle même car il n'y a pas de façon plus concise de l'écrire. Elle sera vraie si une des deux conditions est vérifiée.  
+        
 # Troisième partie : QCM
 
 Voici quelques QCM pour voir si vous avez bien compris. N'hésitez pas à relire ce qui précède si vous avez un doute.
