@@ -221,11 +221,20 @@ Quand on demande d'afficher, c'est avec `print`.
 
 ###### Exercice 2 :
 
+Ecrire un programme qui prend en entrée une température ***t*** et qui affiche l'état de l'eau à cette température c'est à dire "SOLIDE", "LIQUIDE" ou "GAZEUX". 
 
+On prendra comme conditions les suivantes : 
+- Si la température est strictement négative alors l'eau est à l'état solide.
+- Si la température est entre 0 et 100 (compris) l'eau est à l'état liquide.
+- Si la température est strictement supérieure à 100.
+
+> Entrée : Une température ***t***.
+
+> Sortie : L'état de l'eau à cette température parmi les trois possibilités : "SOLIDE", "LIQUIDE" ou "GAZEUX".
 
 Quand on demande d'afficher, c'est avec `print`.
 
-@[Afficher le plus grand des deux]({"stubs": ["Variables_et_fonctions/pi2et2pi.py"], "command": "python3 Variables_et_fonctions/pi2et2pi_Test.py"})
+@[Afficher le plus grand des deux]({"stubs": ["Les_conditions/Etat_eau.py"], "command": "python3 Les_conditions/Etat_eau_Test.py"})
 
 ---
 
