@@ -1,7 +1,7 @@
 def mon_programme(t):
     if t<0 : 
-        print("SOLIDE")
+        print('SOLIDE')
     elif t>100 :
-        print("GAZEUX")
+        print('GAZEUX')
     else :
-        print("LIQUIDE")
+        print('LIQUIDE')
