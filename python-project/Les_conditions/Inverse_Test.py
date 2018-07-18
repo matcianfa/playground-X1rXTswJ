@@ -53,11 +53,11 @@ def test():
       for inp,outp in input_output:
         sauvegarde_stdout=sys.stdout
         sys.stdout=io.StringIO()
-        mon_programme(*inp)
+        mon_programme(inp)
         count1 = sys.stdout.getvalue()[:-1]
         sys.stdout=sauvegarde_stdout
         assert str(count1) == str(outp), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(str(inp),str(count1),str(outp))
-        send_msg("Tests validés",("La température {}°"+"C"*(inp[1]==0)+"F"*(inp[1]==1)+" correspond bien à {}°"+"C"*(inp[1]==1)+"F"*(inp[1]==0)).format(str(inp[0]),str(count1)))
+        send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}".format(str(inp),str(count1)))
       success()
     except AssertionError as e:
       fail()
