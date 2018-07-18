@@ -107,7 +107,7 @@ Donnons quelques explications sur un exemple. Si la note est 19 :
 - On a de nouveau une condition. Comme note>17, on exécute tout ce qui suit cette condition et qui est indentée par rapport à elle c'est à dire les lignes 6 à 8.  
 - La ligne 6 demande d'afficher "Félicitations !" donc ca l'affiche.  
 - La ligne 7 est une condition mais comme elle n'est pas vérifiée, on n'execute pas la ligne 8. 
-- Comme on a fini d'executer ce qu'on devait, on a fini.
+- Comme on a fini d'executer ce qu'on devait, on a fini.  
 N'hésitez pas à modifier la valeur de la note dans le programme précédent en essayant de deviner le résultat qu'on devrait obtenir avant pour voir si vous avez bien compris. Essayez 17, 18, 22, 8, 4 par exemple.
 :::
 
@@ -119,13 +119,13 @@ Après un `if`ou un `elif`, on a dit qu'il fallait mettre une condition. Une con
   Ils signifient vrai et faux donc ce sont les conditions les plus évidentes. On les appelle les booléens. Il peut paraitre absurde de mettre un booléen directement après un if (puisque si on met True, le code correspondant sera toujours executé donc le if ne sert à rien et inversement pour le False) mais dans la pratique, le booléen sera dans une variable qui elle pourra être modifiée et donc selon la valeur, l'action à effectuer ne sera pas la même.
 
 - Les comparaisons :  
-  Une façon d'obtenir un booléen est en comparant deux objets comme on a fait avec notre note dans la partie précédente. Voici les notations pour pouvoir comparer :
-    - == : pour tester l'égalité. Il faut doubler le = pour le différencier de l'affectation des variables.
-    - != : différent de.
-    - < : strictement inférieur.
-    - <= :inférieur ou égal.
-    - > : strictement supérieur.
-    - >= : supérieur ou égal.
+  Une façon d'obtenir un booléen est en comparant deux objets comme on a fait avec notre note dans la partie précédente. Voici les notations pour pouvoir comparer :  
+    == : pour tester l'égalité. Il faut doubler le = pour le différencier de l'affectation des variables.  
+    != : différent de.  
+    < : strictement inférieur.  
+    <= :inférieur ou égal.  
+    \> : strictement supérieur.  
+    \>= : supérieur ou égal.  
 
   Vous pouvez tester et modifier les exemples suivants :
   ```python runnable
