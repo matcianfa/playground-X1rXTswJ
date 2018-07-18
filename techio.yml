@@ -28,6 +28,8 @@ plan:
     plan:
       - title: Introduction
         statement: Les_conditions/Intro_conditions.md
+      - title: Cours - Les conditions
+        statement: Les_conditions/Cours conditions.md
       - title: Signe des valeurs d'une fonction
         statement: Les_conditions/Signe des valeurs d'une fonction.md
       - title: Afficher si un nombre est pair
