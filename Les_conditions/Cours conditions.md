@@ -194,7 +194,7 @@ if ... :
 
 ---
 
-###### QCM 3
+###### QCM 4
 ?[Cochez les cases qui correspondent à des conditions vraies]
 -[x] 3>2 and 1<=5
 -[ ] 3>2 and 1>=5
@@ -209,12 +209,13 @@ if ... :
 
 # A vous !
 
-###### Exercice 1 :
+###### Exercice 1 : Calcul de l'inverse d'un nombre
 
+Ecrire un programme qui prend en entrée un nombre ***x*** et qui renvoie "Impossible" si ***x*** est nul et le resultat de 1/***x*** sinon.
 
 Quand on demande d'afficher, c'est avec `print`.
 
-@[Programme de calcul]({"stubs": ["Variables_et_fonctions/Programme_calcul2.py"], "command": "python3 Variables_et_fonctions/Programme_calcul2_Test.py"})
+@[Calcul de l'inverse d'un nombre]({"stubs": ["Les_conditions/Inverse.py"], "command": "python3 Les_conditions/Inverse_Test.py"})
 
 ---
 
