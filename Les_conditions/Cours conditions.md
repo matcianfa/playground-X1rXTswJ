@@ -120,33 +120,31 @@ Après un `if`ou un `elif`, on a dit qu'il fallait mettre une condition. Une con
 
 - Les comparaisons :  
   Une façon d'obtenir un booléen est en comparant deux objets comme on a fait avec notre note dans la partie précédente. Voici les notations pour pouvoir comparer :  
-    == : pour tester l'égalité. Il faut doubler le = pour le différencier de l'affectation des variables.  
-    != : différent de.  
-    < : strictement inférieur.  
-    <= :inférieur ou égal.  
-    \> : strictement supérieur.  
-    \>= : supérieur ou égal.  
+    `==` : pour tester l'égalité. Il faut doubler le = pour le différencier de l'affectation des variables.  
+    `!=` : différent de.  
+    `<` : strictement inférieur.  
+    `<=` :inférieur ou égal.  
+    `\>` : strictement supérieur.  
+    `\>=` : supérieur ou égal.  
 
-  Vous pouvez tester et modifier les exemples suivants :
-  ```python runnable
-  1+1 == 2
-  2*3 == 3
-  2+3 != 4
-  14 >= 15
-  ```
-  Les inégalités ne fonctionnent pas que pour les nombres. Par exemple on peut comparer des mots ou des listes de nombres avec l'ordre lexicographique (celui du dictionnaire).
-  ```python runnable
-  "elephant" < "souris"
-  "français" < "mathématiques"
-  (1,5)<(2,3)
-  ```
+  Par exemple :  
+    `1+1 == 2` est vrai.  
+    `2\*3 == 3` est faux.  
+    `2+3 != 4` est vrai.  
+    `14 >= 15` est faux.  
+
+  Les inégalités ne fonctionnent pas que pour les nombres. Par exemple on peut comparer des mots ou des listes de nombres avec l'ordre lexicographique (celui du dictionnaire).  
+  `"elephant" < "souris"` est vrai  
+  `"français" < "mathématiques"` est vrai  
+  `(1,5)<(2,3)` est vrai  
+
 - Les connecteurs logiques `not`, `and` et `or`:  
   Ils permettent de créer une condition à partir d'autres conditions. Il en existe d'autres mais ce sont les principaux.
   Si on les traduit, ça donnerait "contraire de" pour not, "et" pour and et "ou" pour or.
   Par exemple :  
-  - not x<3 est identique à x>=3.
-  - x<3 and x>1 est identique à 1<x<3 car x doit vérifier les deux conditions en même temps.
-  - x<3 or x>5 est identique... à elle même car il n'y a pas de façon plus concise de l'écrire. Elle sera vraie si une des deux conditions est vérifiée.  
+  `not x<3` est identique à `x>=3`.
+  `x<3 and x>1` est identique à `1<x<3` car x doit vérifier les deux conditions en même temps.
+  `x<3 or x>5` est identique... à elle même car il n'y a pas de façon plus concise de l'écrire. Elle sera vraie si une des deux conditions est vérifiée.  
         
 # Troisième partie : QCM
 
@@ -154,32 +152,60 @@ Voici quelques QCM pour voir si vous avez bien compris. N'hésitez pas à relire
 
 ###### QCM 1
 ```python
-from math import *
-
-angle=30
-print(sin(...))
+x = 2
+if x <= -1 : 
+    print(2*x+1)
+elif x <=3 :
+    print(-x+2)
+else :
+    print(2*x-5)
 ```  
-?[Que faut-il mettre à la place des ... pour que s'affiche le sinus de 30 degré ? ]
--[ ] angle
--[x] radians(angle)
--[ ] angle(radians)
--[ ] 30°
+?[Que va afficher ce programme ? ]
+-[ ] -x+2
+-[x] 0
+-[ ] 5
+-[ ] -1
 
 ---
 
 ###### QCM 2
 ```python
-from math import *
-
-a=...
-print(a)
+if ... :
+    print("a est nul")
 ```  
-?[Que faut-il mettre à la place des ... pour que s'affiche pi arrondi à 0.000001 près]
--[ ] pi\*0.000001
--[ ] round(pi,5)
--[ ] pi\*\*5
--[x] round(pi,6)
+?[Que faut-il mettre à la place des ... pour que s'affiche "a est nul" lorsque a vaut 0 ?]
+-[ ] a=0
+-[ ] a != 0
+-[ ] a%0
+-[x] a==0
 
+---
+
+###### QCM 3
+```python
+if ... :
+    print("a est non nul")
+```  
+?[Que faut-il mettre à la place des ... pour que s'affiche "a est non nul" lorsque a ne vaut pas 0 ?]
+-[ ] a/=0
+-[x] a != 0
+-[ ] a%0
+-[ ] a<>0
+
+---
+
+###### QCM 3
+?[Cochez les cases qui correspondent à des conditions vraies]
+-[x] 3>2 and 1<=5
+-[ ] 3>2 and 1>=5
+-[ ] 3<2 and 1>=5
+-[ ] 3<2 and 1<=5
+-[x] 3>2 or 1<=5
+-[x] 3>2 or 1>=5
+-[ ] 3<2 or 1>=5
+-[x] 3<2 or 1<=5
+-[ ] not 3>2
+-[x] not 1>=5
 
 # A vous !
 
