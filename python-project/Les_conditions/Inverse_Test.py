@@ -8,7 +8,7 @@ tester("from Inverse import mon_programme ",globals())
 
 #liste des couples input/output
 input_output=[\
-[0,"Faux"],\
+[0,"Impossible"],\
 (1,1.0),\
 (2,0.5),\
 (4,0.25),\
