@@ -28,15 +28,15 @@ Par exemple :
 - `range(3,0,-1)` est la suite 3 2 1  (un pas négatif permet de compter à l'envers ce qui est très pratique des fois)
 
 Passons à des exemples d'utilisation. Essayez d'abord de deviner le résultat puis appuyez sur Run pour vérifier.
-``` Python runnable
+```python runnable
 for i in range(3) :
    print("Bonjour !")
 ```
-``` Python runnable
+```python runnable
 for i in range(3) :
    print(i)
 ```
-``` Python runnable
+```python runnable
 somme=0
 for i in range(4) :
    somme+= i
