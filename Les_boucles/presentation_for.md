@@ -1,4 +1,6 @@
-# Présentation des boucles ***for***
+<h1> <center>Cours : Les boucles `for`</center></h1>
+
+# Présentation des boucles `for`
 
 La boucle `for` énumère les éléments d'un ensemble et pour chaque élément, répète toujours le même code en fonction de cet élément. Donnons un exemple :
 
@@ -25,20 +27,20 @@ Par exemple :
 - `range(1,9,3)` est la suite de nombres 1 4 7 (de 3 en 3 en partant de 1)
 - `range(3,0,-1)` est la suite 3 2 1  (un pas négatif permet de compter à l'envers ce qui est très pratique des fois)
 
-Passons à des exemples d'utilisation :
-``` Python
->>> for i in range(3) :
->>>     print(i)
-0
-1
-2
+Passons à des exemples d'utilisation. Essayez d'abord de deviner le résultat puis appuyez sur Run pour vérifier.
+``` Python runnable
+for i in range(3) :
+   print("Bonjour !")
 ```
-``` Python
->>> somme=0
->>> for i in range(4) :
->>>     somme+= i
->>> print(somme)
-6
+``` Python runnable
+for i in range(3) :
+   print(i)
+```
+``` Python runnable
+somme=0
+for i in range(4) :
+   somme+= i
+print(somme)
 ```
 Détaillons cet exemple :  
 Pour i allant de 0 jusqu'à 3 (c'est à dire range(4)),  
@@ -67,14 +69,14 @@ Modifier ce programme pour qu'il affiche la somme des carrés des entiers de 5 �
 
 ### Exercice 3
 
-En s'inspirant des programmes précédents, créez un programme qui affiche, pour chaque entier entre 0 et 100, la somme du nombre et de son carré. Autrement dit, il doit afficher :
+En s'inspirant des programmes précédents, créez un programme qui affiche, pour chaque entier entre 0 et 100, son carré. Autrement dit, il doit afficher :
 
     0  
-    2  
-    6  
-    12  
-    20 
+    1  
+    4  
+    9  
+    16 
     ...
-    10100
+    10000
 
 @[Exercice 3]({"stubs": ["Les_boucles/for_exo_3.py"], "command": "python3 Les_boucles/for_exo_3_Test.py"})
