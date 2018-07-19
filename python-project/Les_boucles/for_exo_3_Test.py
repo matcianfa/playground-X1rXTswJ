@@ -11,7 +11,7 @@ import for_exo_3
 count1 = sys.stdout.getvalue()[:-1].split("\n")
 sys.stdout=sauvegarde_stdout
 
-solution=[i*i+i for i in range(101)]
+solution=[i*i for i in range(101)]
 
 #message d'aide si besoin
 help=""
