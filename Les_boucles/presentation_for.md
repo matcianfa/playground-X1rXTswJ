@@ -103,6 +103,36 @@ for k in range(5):
 
 ---
 
+###### QCM 5
+```python
+somme = 0
+for n in range(4):
+    somme += n*n
+print(somme)
+```  
+?[Que va afficher ce programme (les `/` remplacent ici un retour à la ligne)? ]
+-[x] 14
+-[ ] 6 
+-[ ] 39 
+-[ ] 0 / 1 / 4 / 9 
+-[ ] 0 / 1 / 5 / 14
+
+---
+
+###### QCM 5
+```python
+somme = 0
+for n in range(5):
+    somme += ...
+print(somme)
+```  
+?[Que mettre à la place des ... pour que ce programme affiche la valeur de la somme 2\*0 + 2\*1 + 2\*2 + 2\*3 +2\*4 ? ]
+-[ ] n
+-[x] 2*n 
+-[ ] n*n
+-[ ] 2\*0 + 2\*1 + 2\*2 + 2\*3 +2\*4
+
+
 # Entrainement 
 
 ### Exercice 1
