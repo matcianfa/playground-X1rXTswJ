@@ -119,14 +119,14 @@ print(somme)
 
 ---
 
-###### QCM 5
+###### QCM 6
 ```python
 somme = 0
 for n in range(5):
     somme += ...
 print(somme)
 ```  
-?[Que mettre à la place des ... pour que ce programme affiche la valeur de la somme 2\*0 + 2\*1 + 2\*2 + 2\*3 +2\*4 ? ]
+?[Que mettre à la place des ... pour que ce programme affiche la valeur de la somme 2*0 + 2*1 + 2*2 + 2*3 +2*4 ? ]
 -[ ] n
 -[x] 2*n 
 -[ ] n*n
