@@ -15,3 +15,38 @@ On affichera le résultat avec `print`.
 @[Prix pour un jeu de disques]({"stubs": ["Defis/Euler_121.py"], "command": "python3 Defis/Euler_121_Test.py"})
 
 ---
+
+# Calculs de puissances efficaces
+`Difficulté : Moyen (40%)`
+`Origine : Projet Euler n°122`
+
+LA méthode la plus naïve pour calculer $`n^{15}`$ requière 14 multiplications :
+
+$`n\times n \times n\times ... \times n = n ^{15}`$.
+
+Mais en utilisant la méthode binaire, on peut calculer en six multiplications : 
+
+$`n × n = n^2`$  
+$`n^2 × n^2 = n^4`$  
+$`n^4 × n^4 = n^8`$  
+$`n^8 × n^4 = n^{12}`$  
+$`n^{12} × n^2 = n^{14}`$  
+$`n^{14} × n = n^{15}`$  
+
+Cependant, il est possible de calculer avec seulement 5 multiplications : 
+
+$`n × n = n^2`$  
+$`n2 × n = n^3`$  
+$`n^3 × n^3 = n^6`$  
+$`n^6 × n^6 = n^{12}`$  
+$`n^{12} × n^3 = n^{15}`$  
+
+On peut définir m(k) comme le nimbre minimum de multiplications pour calculer $`n^k`$. Par exemple, on a vu : m(15)=5
+
+Pour 1 ≤ k ≤ 200, Trouver la somme des m(k).
+
+On affichera le résultat avec `print`.
+
+@[Calculs de puissances efficaces]({"stubs": ["Defis/Euler_122.py"], "command": "python3 Defis/Euler_122_Test.py"})
+
+---
