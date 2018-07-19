@@ -1,247 +1,245 @@
 title: Recueil d'exercices pour apprendre Python au lycée
 plan:
+- title: Présentation
+  plan:
   - title: Présentation
-    plan:
-      - title: Présentation
-        statement: markdowns/welcome.md
-      - title: Bac à sable
-        statement: markdowns/Bac a sable.md 
-  - title: Variables et fonctions mathématiques
-    plan:
-      - title: Introduction
-        statement: Variables_et_fonctions/Intro_variables.md
-      - title: Cours - Variables et opérations
-        statement: Variables_et_fonctions/Cours variables et operations.md
-      - title: Cours - Module math
-        statement: Variables_et_fonctions/Cours module math.md
-      - title: Compléments sur les variables et opérations
-        statement: Variables_et_fonctions/Complements.md
-      - title: Prise en main
-        statement: Variables_et_fonctions/prise en main.md
-      - title: Passage des coordonnées polaires à cartésiennes
-        statement: Variables_et_fonctions/Passage des coordonnées polaires à cartésiennes.md
-      - title: Périmètre et aire d'un polygone régulier
-        statement: Variables_et_fonctions/Périmètre et aire d'un polygone régulier.md
-      - title: Distances à vol d'oiseau
-        statement: Variables_et_fonctions/Distances à vol d'oiseau.md
-  - title: Les conditions if... else...
-    plan:
-      - title: Introduction
-        statement: Les_conditions/Intro_conditions.md
-      - title: Cours - Les conditions
-        statement: Les_conditions/Cours conditions.md
-      - title: Signe des valeurs d'une fonction
-        statement: Les_conditions/Signe des valeurs d'une fonction.md
-      - title: Afficher si un nombre est pair
-        statement: Les_conditions/Afficher si un nombre est pair.md
-      - title: Numéros de sécurité sociale 
-        statement: Les_conditions/Numéro de sécurité sociale 
-      - title:  Nombre de racines d'un polynome du second degré 
-        statement:  Les_conditions/Nombre de racines d'un polynome du second degré.md
-      - title: Conversion degré Celsius / degré Fahrenheit
-        statement: Les_conditions/Conversion Celsius Fahrenheit.md
-      - title: Dire si un triangle est rectangle
-        statement: Les_conditions/Dire si un triangle est rectangle.md        
-      - title: Triangles constructibles
-        statement: Les_conditions/Triangles constructibles.md
-      - title: Donner la nature d'un triangle
-        statement:  Les_conditions/Donner la nature d'un triangle.md
-      - title: Passage des coordonnées cartesiennes à polaire
-        statement: Les_conditions/Passage des coordonnées cartesiennes à polaire.md
-  - title: Les boucles
-    plan:
-      - title: Introduction
-        statement: Les_boucles/Intro_boucles.md
-      - title: Présentation des boucles for
-        statement: Les_boucles/presentation_for.md
-      - title: Factorielle d'un nombre
-        statement: Les_boucles/factorielle.md
-      - title: Calcul des termes d'une suite
-        statement: Les_boucles/Calcul des termes d'une suite.md
-      - title: Calcul de sommes
-        statement: Les_boucles/Calcul de sommes.md
-      - title: Constante de Champernowne
-        statement: Les_boucles/Constante de Champernowne.md
-      - title: Nombres parfaits
-        statement: Les_boucles/Nombres parfaits.md
-      - title: Sommes de dés
-        statement: Les_boucles/Sommes de dés.md
-      - title: Nombres premiers
-        statement: Les_boucles/Nombres premiers.md
-      - title: Recherche de seuil
-        statement: Les_boucles/Recherche de seuil.md
-      - title: Escargot de Gardner
-        statement: Les_boucles/Escargot de Gardner.md
-      - title: Décomposition d'entier en impair et puissance de 2
-        statement: Les_boucles/Décomposition d'entier en impair et puissance de 2.md
-      - title: Triplets pythagoriciens
-        statement: Les_boucles/Triplets pythagoriciens.md
-      - title: Monnaie syldave
-        statement: Les_boucles/Monnaie syldave.md
-  - title: Chaines de caractères
-    plan:
-      - title: Introduction
-        statement: Chaines_caracteres/Introduction.md 
-      - title: Tirages au scrabble
-        statement: Chaines_caracteres/Tirages au scrabble.md
-      - title: Palindromes et anacycliques
-        statement: Chaines_caracteres/Anacycliques.md
-      - title: Sapin de noel
-        statement: Chaines_caracteres/Sapin de noel.md
-      - title: Carte bancaire
-        statement: Chaines_caracteres/Carte bancaire.md
-      - title: Expression bien parenthesee
-        statement: Chaines_caracteres/Expression bien parenthesee.md
-      - title: Touche, touche pas
-        statement: Chaines_caracteres/Touche touche pas.md
-      - title: Suite des pliages d un papier
-        statement: Chaines_caracteres/Suite des pliages d un papier.md
-      - title: Codage de César
-        statement: Chaines_caracteres/Codage de César.md
-  - title: Les listes
-    plan:
-      - title: Introduction
-        statement: Les_listes/Introduction.md 
-      - title: Manipulations de base
-        statement:  Les_listes/Manipulations de base.md 
-      - title: Indices du plus petit élément dans une liste
-        statement: Les_listes/Plus petits elements.md
-      - title: Retirer les doublons
-        statement: Les_listes/Retirer les doublons.md
-      - title: Tracer la courbes représentative d'une fonction
-        statement: Les_listes/Tracer une fonction.md 
-      - title: Triangle de Pascal
-        statement: Les_listes/Triangle de Pascal.md
-      - title: Discrimination de nombres
-        statement: Les_listes/Discrimination de nombres.md
-      - title: Liste de nombres premiers
-        statement: Les_listes/Liste de nombres premiers.md
-      - title: Tout en une ligne !
-        statement: Les_listes/Tout_en_une_ligne.md
-      - title: Méthodes de tri
-        statement: Les_listes/Tris.md
-  - title: Les fonctions
-    plan:
-      - title: Introduction
-        statement: Les_fonctions/Introduction.md
-      - title: Exercices de base
-        statement: Les_fonctions/Exercices de base.md
-      - title: Factorielle
-        statement: Les_fonctions/factorielle.md
-      - title: Suites recurrentes
-        statement: Les_fonctions/Suites_recurrentes.md
-      - title: Palindromes
-        statement: Les_fonctions/palindromes.md
-      - title: Anagrammes
-        statement: Les_fonctions/Anagrammes.md
-      - title: Plouf plouf !
-        statement: Les_fonctions/plouf_plouf.md
-      - title: Tours de Hanoï
-        statement: Les_fonctions/Tours de hanoi.md
-      - title: Systeme proie-prédateur
-        statement: Les_fonctions/Systeme proie-prédateur.md
-  - title: Exercices de synthèse
-    plan:
-      - title: Introduction
-        statement: Vrac/Introduction.md
-      - title: Autour de Kaprekar
-        statement: Vrac/Kaprekar.md
-      - title: Tri stupide
-        statement: Vrac/tri_stupide.md
-      - title: La paradoxe de Monty Hall
-        statement: Vrac/Monty Hall.md
-      - title: La courbe du dragon
-        statement: Vrac/Courbe du dragon.md
-  - title: Mathématiques et programmation
-    plan:
-      - title: Introduction
-        statement: Maths/Introduction.md
-      - title: Suite de Syracuse
-        statement: Maths/Syracuse.md
-      - title: Données statistiques
-        statement: Maths/Statistiques.md      
-      - title: L'algorithme d'Euclide
-        statement: Maths/Euclide.md
-      - title: La recherche par dichotomie
-        statement: Maths/Dichotomie.md
-      - title: La méthode des rectangles
-        statement: Maths/methode_rectangles.md
-      - title: La méthode des trapèzes
-        statement: Maths/Methode_trapèzes.md
-      - title: La méthode de Monte Carlo
-        statement: Maths/Monte Carlo.md
-      - title: La méthode d'Euler
-        statement: Maths/Méthode Euler.md
-  - title: Défis
-    plan:
-      - title: Introduction
-        statement: Defis/Introduction.md
-      - title: Projet Euler n°1 à 5
-        statement: Defis/Euler_1.md
-      - title: Projet Euler n°6 à 10
-        statement: Defis/Euler_6.md
-      - title: Projet Euler n°11 à 15
-        statement: Defis/Euler_11.md
-      - title: Projet Euler n°16 à 20
-        statement: Defis/Euler_16.md
-      - title: Projet Euler n°21 à 25
-        statement: Defis/Euler_21.md
-      - title: Projet Euler n°26 à 30
-        statement: Defis/Euler_26.md
-      - title: Projet Euler n°31 à 35
-        statement: Defis/Euler_31.md
-      - title: Projet Euler n°36 à 40
-        statement: Defis/Euler_36.md
-      - title: Projet Euler n°41 à 45
-        statement: Defis/Euler_41.md
-      - title: Projet Euler n°46 à 50
-        statement: Defis/Euler_46.md
-      - title: Projet Euler n°51 à 55
-        statement: Defis/Euler_51.md
-      - title: Projet Euler n°56 à 60
-        statement: Defis/Euler_56.md
-      - title: Projet Euler n°61 à 65
-        statement: Defis/Euler_61.md
-      - title: Projet Euler n°66 à 70
-        statement: Defis/Euler_66.md
-      - title: Projet Euler n°71 à 75
-        statement: Defis/Euler_71.md
-      - title: Projet Euler n°76 à 80
-        statement: Defis/Euler_76.md
-      - title: Projet Euler n°81 à 85
-        statement: Defis/Euler_81.md
-      - title: Projet Euler n°86 à 90
-        statement: Defis/Euler_86.md
-      - title: Projet Euler n°91 à 95
-        statement: Defis/Euler_91.md
-      - title: Projet Euler n°96 à 100
-        statement: Defis/Euler_96.md
-      - title: Projet Euler n°101 à 105
-        statement: Defis/Euler_101.md
-      - title: Projet Euler n°106 à 110
-        statement: Defis/Euler_106.md
-      - title: Projet Euler n°111 à 115
-        statement: Defis/Euler_111.md
-      - title: Projet Euler n°116 à 120
-        statement: Defis/Euler_116.md
-      - title: Projet Euler n°121 à 125
-        statement: Defis/Euler_121.md
-  - title: Optimisation
-    plan:
-      - title: Introduction
-        statement: Optimisation/Introduction.md
-      - title: Mémoïzation - présentation
-        statement: Optimisation/presentation_memoization.md
-      - title: Mémoïzation - Système proies-prédateurs
-        statement: Optimisation/Volterra.md
-      - title: Mémoïzation - Approximation de e
-        statement: Optimisation/Approximation_de_e.md
-        
-    
+    statement: markdowns/welcome.md
+  - title: Bac à sable
+    statement: markdowns/Bac a sable.md
+- title: Variables et fonctions mathématiques
+  plan:
+  - title: Introduction
+    statement: Variables_et_fonctions/Intro_variables.md
+  - title: Cours - Variables et opérations
+    statement: Variables_et_fonctions/Cours variables et operations.md
+  - title: Cours - Module math
+    statement: Variables_et_fonctions/Cours module math.md
+  - title: Compléments sur les variables et opérations
+    statement: Variables_et_fonctions/Complements.md
+  - title: Prise en main
+    statement: Variables_et_fonctions/prise en main.md
+  - title: Passage des coordonnées polaires à cartésiennes
+    statement: Variables_et_fonctions/Passage des coordonnées polaires à cartésiennes.md
+  - title: Périmètre et aire d'un polygone régulier
+    statement: Variables_et_fonctions/Périmètre et aire d'un polygone régulier.md
+  - title: Distances à vol d'oiseau
+    statement: Variables_et_fonctions/Distances à vol d'oiseau.md
+- title: Les conditions if... else...
+  plan:
+  - title: Introduction
+    statement: Les_conditions/Intro_conditions.md
+  - title: Cours - Les conditions
+    statement: Les_conditions/Cours conditions.md
+  - title: Signe des valeurs d'une fonction
+    statement: Les_conditions/Signe des valeurs d'une fonction.md
+  - title: Afficher si un nombre est pair
+    statement: Les_conditions/Afficher si un nombre est pair.md
+  - title: Numéros de sécurité sociale
+    statement: Les_conditions/Numéro de sécurité sociale
+  - title: Nombre de racines d'un polynome du second degré
+    statement: Les_conditions/Nombre de racines d'un polynome du second degré.md
+  - title: Conversion degré Celsius / degré Fahrenheit
+    statement: Les_conditions/Conversion Celsius Fahrenheit.md
+  - title: Dire si un triangle est rectangle
+    statement: Les_conditions/Dire si un triangle est rectangle.md
+  - title: Triangles constructibles
+    statement: Les_conditions/Triangles constructibles.md
+  - title: Donner la nature d'un triangle
+    statement: Les_conditions/Donner la nature d'un triangle.md
+  - title: Passage des coordonnées cartesiennes à polaire
+    statement: Les_conditions/Passage des coordonnées cartesiennes à polaire.md
+- title: Les boucles
+  plan:
+  - title: Introduction
+    statement: Les_boucles/Intro_boucles.md
+  - title: Cours - Les boucles for
+    statement: Les_boucles/presentation_for.md
+  - title: Factorielle d'un nombre
+    statement: Les_boucles/factorielle.md
+  - title: Calcul des termes d'une suite
+    statement: Les_boucles/Calcul des termes d'une suite.md
+  - title: Calcul de sommes
+    statement: Les_boucles/Calcul de sommes.md
+  - title: Constante de Champernowne
+    statement: Les_boucles/Constante de Champernowne.md
+  - title: Nombres parfaits
+    statement: Les_boucles/Nombres parfaits.md
+  - title: Sommes de dés
+    statement: Les_boucles/Sommes de dés.md
+  - title: Nombres premiers
+    statement: Les_boucles/Nombres premiers.md
+  - title: Recherche de seuil
+    statement: Les_boucles/Recherche de seuil.md
+  - title: Escargot de Gardner
+    statement: Les_boucles/Escargot de Gardner.md
+  - title: Décomposition d'entier en impair et puissance de 2
+    statement: Les_boucles/Décomposition d'entier en impair et puissance de 2.md
+  - title: Triplets pythagoriciens
+    statement: Les_boucles/Triplets pythagoriciens.md
+  - title: Monnaie syldave
+    statement: Les_boucles/Monnaie syldave.md
+- title: Chaines de caractères
+  plan:
+  - title: Introduction
+    statement: Chaines_caracteres/Introduction.md
+  - title: Tirages au scrabble
+    statement: Chaines_caracteres/Tirages au scrabble.md
+  - title: Palindromes et anacycliques
+    statement: Chaines_caracteres/Anacycliques.md
+  - title: Sapin de noel
+    statement: Chaines_caracteres/Sapin de noel.md
+  - title: Carte bancaire
+    statement: Chaines_caracteres/Carte bancaire.md
+  - title: Expression bien parenthesee
+    statement: Chaines_caracteres/Expression bien parenthesee.md
+  - title: Touche, touche pas
+    statement: Chaines_caracteres/Touche touche pas.md
+  - title: Suite des pliages d un papier
+    statement: Chaines_caracteres/Suite des pliages d un papier.md
+  - title: Codage de César
+    statement: Chaines_caracteres/Codage de César.md
+- title: Les listes
+  plan:
+  - title: Introduction
+    statement: Les_listes/Introduction.md
+  - title: Manipulations de base
+    statement: Les_listes/Manipulations de base.md
+  - title: Indices du plus petit élément dans une liste
+    statement: Les_listes/Plus petits elements.md
+  - title: Retirer les doublons
+    statement: Les_listes/Retirer les doublons.md
+  - title: Tracer la courbes représentative d'une fonction
+    statement: Les_listes/Tracer une fonction.md
+  - title: Triangle de Pascal
+    statement: Les_listes/Triangle de Pascal.md
+  - title: Discrimination de nombres
+    statement: Les_listes/Discrimination de nombres.md
+  - title: Liste de nombres premiers
+    statement: Les_listes/Liste de nombres premiers.md
+  - title: Tout en une ligne !
+    statement: Les_listes/Tout_en_une_ligne.md
+  - title: Méthodes de tri
+    statement: Les_listes/Tris.md
+- title: Les fonctions
+  plan:
+  - title: Introduction
+    statement: Les_fonctions/Introduction.md
+  - title: Exercices de base
+    statement: Les_fonctions/Exercices de base.md
+  - title: Factorielle
+    statement: Les_fonctions/factorielle.md
+  - title: Suites recurrentes
+    statement: Les_fonctions/Suites_recurrentes.md
+  - title: Palindromes
+    statement: Les_fonctions/palindromes.md
+  - title: Anagrammes
+    statement: Les_fonctions/Anagrammes.md
+  - title: Plouf plouf !
+    statement: Les_fonctions/plouf_plouf.md
+  - title: Tours de Hanoï
+    statement: Les_fonctions/Tours de hanoi.md
+  - title: Systeme proie-prédateur
+    statement: Les_fonctions/Systeme proie-prédateur.md
+- title: Exercices de synthèse
+  plan:
+  - title: Introduction
+    statement: Vrac/Introduction.md
+  - title: Autour de Kaprekar
+    statement: Vrac/Kaprekar.md
+  - title: Tri stupide
+    statement: Vrac/tri_stupide.md
+  - title: La paradoxe de Monty Hall
+    statement: Vrac/Monty Hall.md
+  - title: La courbe du dragon
+    statement: Vrac/Courbe du dragon.md
+- title: Mathématiques et programmation
+  plan:
+  - title: Introduction
+    statement: Maths/Introduction.md
+  - title: Suite de Syracuse
+    statement: Maths/Syracuse.md
+  - title: Données statistiques
+    statement: Maths/Statistiques.md
+  - title: L'algorithme d'Euclide
+    statement: Maths/Euclide.md
+  - title: La recherche par dichotomie
+    statement: Maths/Dichotomie.md
+  - title: La méthode des rectangles
+    statement: Maths/methode_rectangles.md
+  - title: La méthode des trapèzes
+    statement: Maths/Methode_trapèzes.md
+  - title: La méthode de Monte Carlo
+    statement: Maths/Monte Carlo.md
+  - title: La méthode d'Euler
+    statement: Maths/Méthode Euler.md
+- title: Défis
+  plan:
+  - title: Introduction
+    statement: Defis/Introduction.md
+  - title: Projet Euler n°1 à 5
+    statement: Defis/Euler_1.md
+  - title: Projet Euler n°6 à 10
+    statement: Defis/Euler_6.md
+  - title: Projet Euler n°11 à 15
+    statement: Defis/Euler_11.md
+  - title: Projet Euler n°16 à 20
+    statement: Defis/Euler_16.md
+  - title: Projet Euler n°21 à 25
+    statement: Defis/Euler_21.md
+  - title: Projet Euler n°26 à 30
+    statement: Defis/Euler_26.md
+  - title: Projet Euler n°31 à 35
+    statement: Defis/Euler_31.md
+  - title: Projet Euler n°36 à 40
+    statement: Defis/Euler_36.md
+  - title: Projet Euler n°41 à 45
+    statement: Defis/Euler_41.md
+  - title: Projet Euler n°46 à 50
+    statement: Defis/Euler_46.md
+  - title: Projet Euler n°51 à 55
+    statement: Defis/Euler_51.md
+  - title: Projet Euler n°56 à 60
+    statement: Defis/Euler_56.md
+  - title: Projet Euler n°61 à 65
+    statement: Defis/Euler_61.md
+  - title: Projet Euler n°66 à 70
+    statement: Defis/Euler_66.md
+  - title: Projet Euler n°71 à 75
+    statement: Defis/Euler_71.md
+  - title: Projet Euler n°76 à 80
+    statement: Defis/Euler_76.md
+  - title: Projet Euler n°81 à 85
+    statement: Defis/Euler_81.md
+  - title: Projet Euler n°86 à 90
+    statement: Defis/Euler_86.md
+  - title: Projet Euler n°91 à 95
+    statement: Defis/Euler_91.md
+  - title: Projet Euler n°96 à 100
+    statement: Defis/Euler_96.md
+  - title: Projet Euler n°101 à 105
+    statement: Defis/Euler_101.md
+  - title: Projet Euler n°106 à 110
+    statement: Defis/Euler_106.md
+  - title: Projet Euler n°111 à 115
+    statement: Defis/Euler_111.md
+  - title: Projet Euler n°116 à 120
+    statement: Defis/Euler_116.md
+  - title: Projet Euler n°121 à 125
+    statement: Defis/Euler_121.md
+- title: Optimisation
+  plan:
+  - title: Introduction
+    statement: Optimisation/Introduction.md
+  - title: Mémoïzation - présentation
+    statement: Optimisation/presentation_memoization.md
+  - title: Mémoïzation - Système proies-prédateurs
+    statement: Optimisation/Volterra.md
+  - title: Mémoïzation - Approximation de e
+    statement: Optimisation/Approximation_de_e.md
 projects:
   python:
-    root: /python-project 
     buildCommand: pip3 install --ignore-installed matplotlib Pillow
+    root: /python-project
     runner:
       name: python
       version: '3'
