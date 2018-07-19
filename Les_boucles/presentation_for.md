@@ -33,7 +33,7 @@ for i in range(3) :
    print("Bonjour !")
 ```
 ```python runnable
-for i in range(3) :
+for i in range(5) :
    print(i)
 ```
 ```python runnable
@@ -43,9 +43,65 @@ for i in range(4) :
 print(somme)
 ```
 Détaillons cet exemple :  
-Pour i allant de 0 jusqu'à 3 (c'est à dire range(4)),  
-je demande à chaque fois somme+=i ce qui veut dire que je rajoute à somme la valeur i.  
+Pour `i` allant de 0 jusqu'à 3 (c'est à dire range(4)),  
+je demande à chaque fois `somme += i` ce qui veut dire que je rajoute à `somme` la valeur `i` qui vaut tour à tour 0 puis 1 puis 2 puis 3.  
 Finalement, j'affiche le résultat qui n'est autre que 0+1+2+3.
+
+# QCM
+
+Voici quelques QCM pour voir si vous avez bien compris. N'hésitez pas à relire ce qui précède si vous avez un doute.
+
+###### QCM 1
+```python
+for k in range(3):
+    print(k)
+```  
+?[Que va afficher ce programme (les `/` remplacent ici un retour à la ligne)? ]
+-[ ] 0 / 1 / 2 / 3
+-[x] 0 / 1 / 2
+-[ ] 0 / 3 / 6
+-[ ] 1 / 2 / 3
+
+---
+
+###### QCM 2
+```python
+for k in range(1,7,2):
+    print(k)
+```  
+?[Que va afficher ce programme (les `/` remplacent ici un retour à la ligne)? ]
+-[ ] 1 / 3 / 5 / 7
+-[ ] 1 / 2 / 3 / 4 / 5 / 6
+-[ ] 1 / 2 / 3 / 4 / 5 / 6 / 1 / 2 / 3 / 4 / 5 / 6
+-[x] 1 / 3 / 5 
+
+---
+
+###### QCM 3
+```python
+for k in ... :
+    print(k)
+```  
+?[Par quoi remplacer les ... pour que le programme précédent affiche 3 / 6 / 9 / 12 (les `/` remplacent ici un retour à la ligne) ? ]
+-[ ] range(3,12,3)
+-[x] range(3,13,3)
+-[ ] range(13,3)
+-[ ] range(3, 13)
+
+---
+
+###### QCM 4
+```python
+for k in range(5):
+    print(k*k + k)
+```  
+?[Que va afficher ce programme (les `/` remplacent ici un retour à la ligne)? ]
+-[ ] 2  / 6 / 12 / 20 / 30
+-[ ] 0 / 1 / 2 / 3 / 4 
+-[ ] 0 / 1 / 4 / 9 / 16 
+-[x] 0 / 2 / 6 / 12 / 20 
+
+---
 
 # Entrainement 
 
