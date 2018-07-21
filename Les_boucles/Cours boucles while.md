@@ -159,14 +159,6 @@ En vous inspirant des exemples donnés dans la partie cours, écrire un programm
 
 ### Exercice 3
 
-En s'inspirant des programmes précédents, créez un programme qui affiche, pour chaque entier entre 0 et 100, son carré. Autrement dit, il doit afficher :
+En vous inspirant des exemples donnés dans la partie cours, écrire un programme qui affiche le plus petit entier n tel que 1² + 2² + 3² + ... + n² dépasse 12345.
 
-    0  
-    1  
-    4  
-    9  
-    16 
-    ...
-    10000
-
-@[Exercice 3]({"stubs": ["Les_boucles/for_exo_3.py"], "command": "python3 Les_boucles/for_exo_3_Test.py"})
+@[Exercice 3]({"stubs": ["Les_boucles/while_exo_3.py"], "command": "python3 Les_boucles/while_exo_3_Test.py"})
