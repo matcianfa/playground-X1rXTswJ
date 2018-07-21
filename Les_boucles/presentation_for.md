@@ -1,6 +1,6 @@
 <h1> <center>Cours : Les boucles `for`</center></h1>
 
-![test](../techio.yml)
+![test](../python-project/Defis/Euler_100_Correction.py )
 
 # Présentation des boucles `for`
 
