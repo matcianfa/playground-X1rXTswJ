@@ -37,7 +37,7 @@ Pour créer une liste *à la main*, il suffit de mettre nos objets entre crochet
 
 On peut énumérer une liste élément par élément avec une boucle `for` tout simplement en remplaçant `range` par la liste que l'on veut énumérer. Par exemple, pour afficher les éléments d'une liste :
 ```python runnable
-liste = [ 1, "arbre", true, 2.564, "Bonjour !"]
+liste = [ 1, "arbre", True, 2.564, "Bonjour !"]
 for k in liste: 
     print(k)
 ```
@@ -125,5 +125,20 @@ print(compteur)
 
 ---
 
+# A vous !
 
+
+###### Exercice 1 : 
+
+Ecrire un programme qui prend en entrée une ***liste*** et affichera en sortie s'il contient 0 ou non. Pour cela, il affichera "0 trouvé" ou "0 non trouvé".
+
+> Entrée : Une liste de nombres nommée ***liste***.
+
+> Sortie : "0 trouvé" ou "0 non trouvé" selon les cas.
+
+Quand on demande d'afficher, c'est avec `print`.
+
+@[Exercice 1]({"stubs": ["Les_boucles/Complements_exo_1.py"], "command": "python3 Les_boucles/Complements_exo_1_Test.py"})
+
+---
 
