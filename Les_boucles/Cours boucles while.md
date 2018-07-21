@@ -145,7 +145,7 @@ print(n)
 
 En vous inspirant des exemples donnés dans la partie cours, écrire un programme qui affiche le plus petit entier n tel que (n+1)*(n+3) dépasse 12345.
 
-@[Exercice 1]({"stubs": ["Les_boucles/while_exo_1.py"], "command": "python3 Les_boucles/while_exo_1_Test.py"})
+@[Exercice 1]({"stubs": ["Les_boucles/while_exo1.py"], "command": "python3 Les_boucles/while_exo1_Test.py"})
 
 ---
 
