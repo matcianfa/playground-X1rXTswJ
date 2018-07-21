@@ -54,6 +54,8 @@ plan:
     statement: Les_boucles/Intro_boucles.md
   - title: Cours - Les boucles for
     statement: Les_boucles/presentation_for.md
+  - title: Compléments sur les boucles
+    statement: Les_boucles/Complements boucles.md
   - title: Factorielle d'un nombre
     statement: Les_boucles/factorielle.md
   - title: Calcul des termes d'une suite
