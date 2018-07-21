@@ -69,7 +69,7 @@ plan:
   - title: Nombres premiers
     statement: Les_boucles/Nombres premiers.md
   - title: Cours - Les boucles while
-    statement: Les_boucles/Cours boules while.md
+    statement: Les_boucles/Cours boucles while.md
   - title: Recherche de seuil
     statement: Les_boucles/Recherche de seuil.md
   - title: Escargot de Gardner
