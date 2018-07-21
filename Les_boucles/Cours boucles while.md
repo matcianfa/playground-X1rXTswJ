@@ -143,7 +143,7 @@ print(n)
 
 ### Exercice 1
 
-En vous inspirant des exemples donnés dans la partie cours, écrire un programme qui affiche le plus petit entier n tel que (n+1)*(n+3) dépasse 12345.
+En vous inspirant des exemples donnés dans la partie cours, écrire un programme qui affiche le plus petit entier n tel que (n+1)\*(n+3) dépasse 12345.
 
 @[Exercice 1]({"stubs": ["Les_boucles/while_exo1.py"], "command": "python3 Les_boucles/while_exo1_Test.py"})
 
@@ -151,10 +151,9 @@ En vous inspirant des exemples donnés dans la partie cours, écrire un programm
 
 ### Exercice 2
 
-On a recopié de nouveau ci-dessous le programme de l'exemple précédent.
-Modifier ce programme pour qu'il affiche la somme des carrés des entiers de 5 à 123 c'est à dire 5² + 6² + 7² + ... + 122² + 123².
+En vous inspirant des exemples donnés dans la partie cours, écrire un programme qui affiche le plus petit entier n tel que 4 + 5 + 6 + ... + n dépasse 12345.
 
-@[Exercice 2]({"stubs": ["Les_boucles/for_exo_2.py"], "command": "python3 Les_boucles/for_exo_2_Test.py"})
+@[Exercice 2]({"stubs": ["Les_boucles/while_exo_2.py"], "command": "python3 Les_boucles/while_exo_2_Test.py"})
 
 ---
 
