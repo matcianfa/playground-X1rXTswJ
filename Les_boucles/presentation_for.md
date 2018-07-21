@@ -1,6 +1,6 @@
 <h1> <center>Cours : Les boucles `for`</center></h1>
 
-![test](../cover.png)
+![test](../techio.yml)
 
 # Présentation des boucles `for`
 
