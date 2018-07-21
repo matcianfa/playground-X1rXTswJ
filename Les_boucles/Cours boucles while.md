@@ -30,7 +30,7 @@ while n*(n+1)*(n+2) < 1000000 :
     n+=1
 print(n)
 ```
-Notre programme commence avec n=0 puis tant que le calcul de n*(n+1)*(n+2) ne dépasse pas un million, on augmente n de 1 pour tester de nouveau si n*(n+1)*(n+2) ne dépasse pas un million etc. Dés que n*(n+1)*(n+2) dépasse un million, la boucle s'arrête et on affiche la valeur de n qui sera forcément la première telle que n*(n+1)*(n+2) dépasse un million.
+Notre programme commence avec n=0 puis tant que le calcul de n\*(n+1)\*(n+2) ne dépasse pas un million, on augmente n de 1 pour tester de nouveau si n\*(n+1)\*(n+2) ne dépasse pas un million etc. Dés que n\*(n+1)\*(n+2) dépasse un million, la boucle s'arrête et on affiche la valeur de n qui sera forcément la première telle que n\*(n+1)\*(n+2) dépasse un million.
 
 Voyons un autre exemple classique de ce qu'on appelle une recherche de seuil, où cette fois ci on recherche à partir de quel valeur de n la somme 1 + 2 + 3 + ... + n dépasse un million. Ce fois ci, il va falloir à chaque étape de la boucle à la fois augmenter n mais aussi calculer la somme au fur et à mesure. Voici un exemple de programme qui pourrait répondre à la question :
 ```python runnable
