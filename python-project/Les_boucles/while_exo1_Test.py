@@ -1,5 +1,5 @@
 #Ne pas oublier de changer le module à importer
-module="Les_boucles/while_exo_1"
+module="Les_boucles/while_exo1"
 
 import sys
 import io
@@ -7,7 +7,7 @@ from ma_bao import *
 
 sauvegarde_stdout=sys.stdout
 sys.stdout=io.StringIO()
-import while_exo_1
+import while_exo1
 count1 = sys.stdout.getvalue()[:-1]
 sys.stdout=sauvegarde_stdout
 
