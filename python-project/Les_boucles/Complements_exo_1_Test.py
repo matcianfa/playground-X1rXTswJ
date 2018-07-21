@@ -8,14 +8,14 @@ tester("from Complements_exo_1 import mon_programme",globals())
 
 #liste des couples input/output
 input_output=[\
-([1,2,3,0,1,2],"0 trouvé"),\
+([1,2,3,0,1,2,0,5],"0 trouvé"),\
 ([1,2,3,4],"0 non trouvé"),\
 (range(-2,10**100),"0 trouvé")\
 ]
 
 
 #message d'aide si besoin
-help="N'oublie pas d'utiliser print pour afficher le resultat"
+help="Essayez d'utiliser une boucle for avec les instructions break et else."
 
 #Afficher la correction
 def afficher_correction():
