@@ -18,14 +18,13 @@ plan:
     statement: Variables_et_fonctions/Complements.md
   - title: Prise en main
     statement: Variables_et_fonctions/prise en main.md
-  - title: Exercices d'approfondissement
-    plan: 
-    - title: Passage des coordonnées polaires à cartésiennes
-      statement: Variables_et_fonctions/Passage des coordonnées polaires à cartésiennes.md
-    - title: Périmètre et aire d'un polygone régulier
-      statement: Variables_et_fonctions/Périmètre et aire d'un polygone régulier.md
-    - title: Distances à vol d'oiseau
-      statement: Variables_et_fonctions/Distances à vol d'oiseau.md
+  - title: Exercices d'approfondissement 
+  - title: Passage des coordonnées polaires à cartésiennes
+    statement: Variables_et_fonctions/Passage des coordonnées polaires à cartésiennes.md
+  - title: Périmètre et aire d'un polygone régulier
+    statement: Variables_et_fonctions/Périmètre et aire d'un polygone régulier.md
+  - title: Distances à vol d'oiseau
+    statement: Variables_et_fonctions/Distances à vol d'oiseau.md
 - title: Les conditions if... else...
   plan:
   - title: Introduction
