@@ -1,5 +1,7 @@
 <h1> <center>Cours : Les boucles `for`</center></h1>
 
+![test](../cover.png)
+
 # Présentation des boucles `for`
 
 La boucle `for` énumère les éléments d'un ensemble et pour chaque élément, répète toujours le même code en fonction de cet élément. Donnons un exemple :
