@@ -59,7 +59,7 @@ def fail():
 def test():
     try:
       assert all([abs(a-b)<precision for (a,b) in zip(compteur,reponse)]), "La répartition des valeurs est {} alors qu'elle devrait plutôt être {}".format(str(compteur),str(reponse))
-      send_msg("Tests validés","Le résultat cherché est bien {}".format(str(count1)))
+      #send_msg("Tests validés","La fréquences des valeurs est {}".format(str(count1)))
       success()
     except AssertionError as e:
       fail()
