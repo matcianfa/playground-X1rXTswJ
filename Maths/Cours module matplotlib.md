@@ -70,7 +70,7 @@ Comme il n'y a pas réellement de vérifications possibles sur le graphique obte
 
 ### Exercice 1
 
-Afficher la représentation graphique de la fonction y = x\*\*3 + 3x²-9x+1 pour x entre -2 et 4.
+Afficher la représentation graphique de la fonction $`y = x^3 + 3x^2-9x+1`$ pour x entre -2 et 4.
 
 ---
 
