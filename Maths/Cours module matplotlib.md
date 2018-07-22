@@ -57,6 +57,33 @@ Voici un autre exemple où on trace une famille de fonction y=cos(nx) avec n all
 On en a profité pour rajouter une légende pour que le graphique soit plus compréhensible. Pour cela, il faut rajouter un label dans la fonction `plot` et la fonction `plt.legend()` dans laquelle on précise sa position (ici en bas à droite).  
 On remarquera aussi que nous avons utilisé `np.pi` qui est tout simplement la constante pi qui est donc disponible aussi dans le module numpy.
 
+## Tracé de diagrammes en bâtons et histogrammes
+
+On peut tracer assez facilement à partir de séries statistiques des diagrammes en bâtons et des histogrammes. Voici un exemple de chaque :
+
++ Pour les diagrammes en bâtons, on utilise la fonction `bar(valeurs,effectifs)`.
+  @[Diagramme en bâtons]({"stubs": ["Maths/plot7.py"], "command": "python3 Maths/plot7_Test.py"})
+
++ Pour les histogrammes, on utilise la fonction `hist(liste,[n])` qui trace l'histogramme de la liste répartie en n groupes(si n est précisé).
+  Par exemple si on lance deux dés au hasard et qu'on fait leur somme  et qu'on répète 1000 fois ceci. On peut tracer l'histogramme des résultats en écrivant :
+  @[Histogramme]({"stubs": ["Maths/plot8.py"], "command": "python3 Maths/plot8_Test.py"})
+
+## Affichages de nuages de points
+
+Pour tracer des points, il suffit d'utiliser la fonction `plt.scatter(abscisses, ordonnées)` où `abscisses` est la liste des abscisses des points qu'on veut tracer et `ordonnées` la liste des ordonnées.  
+Par exemple si on veut placer les points (1,2), (3,3), (2,1) et (1,3) :
+@[Nuage de points]({"stubs": ["Maths/plot9.py"], "command": "python3 Maths/plot9_Test.py"})
+
+## Pour aller plus loin
+
+Ce qui a été présenté ici n'est qu'une infime partie des possibilités de matplotlib. 
+Parmi les choses que nous n'avons pas abordées, voici quelques points qui peuvent être intéressants à regarder :
++ Toutes les options de plot : le changement de couleur, de façon de tracer la courbe, de rajouter des points sur ces courbes, d'annoter la courbe.
++ La gestion des axes et des grilles. On peut améliorer nettement la présentation en modifiant les paramètres pour obtenir ce que l'on souhaite.
++ L'affichage de plusieurs graphiques dans plusieurs repères.
++ D'autres types de graphes comme les graphiques en 3D, en camembert, champs de vecteurs etc.
++ ...
+
 # Bac à sable
 
 Voici une fenêtre vide que vous pouvez utiliser pour faire les exercices qui suivent ou tout simplement essayer de nouvelles choses en utilisant matplotlib.
