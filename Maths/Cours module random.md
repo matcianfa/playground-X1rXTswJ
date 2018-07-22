@@ -108,7 +108,7 @@ print(résultat)
 
 ### Exercice 1
 
-Créez un programme qui simule le lancer de deux dés, fait la somme et affiche le résultat de cette somme.
+Créez un programme qui simule le lancer de deux dés, fait la somme et affiche (avec `print`) le résultat de cette somme.
 
 @[Exercice 1]({"stubs": ["Maths/random_exo_1.py"], "command": "python3 Maths/random_exo_1_Test.py"})
 
@@ -116,9 +116,9 @@ Créez un programme qui simule le lancer de deux dés, fait la somme et affiche 
 
 ### Exercice 2
 
-En vous inspirant des exemples donnés dans la partie cours, écrire un programme qui affiche le plus petit entier n tel que 4 + 5 + 6 + ... + n dépasse 12345.
+Affichez (avec `print`) une liste de de 200 nombres entiers aléatoires compris entre 5 et 17. 
 
-@[Exercice 2]({"stubs": ["Les_boucles/while_exo_2.py"], "command": "python3 Les_boucles/while_exo_2_Test.py"})
+@[Exercice 2]({"stubs": ["Maths/random_exo_2.py"], "command": "python3 Maths/random_exo_2_Test.py"})
 
 ---
 
