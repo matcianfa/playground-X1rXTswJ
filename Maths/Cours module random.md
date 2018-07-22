@@ -108,7 +108,9 @@ print(résultat)
 
 ### Exercice 1
 
-Créez un programme qui simule le lancer de deux dés, fait la somme et affiche (avec `print`) le résultat de cette somme.
+Créez un programme qui simule le lancer de deux dés, fait la somme et affiche le résultat de cette somme.
+
+On affichera le résultat avec `print`.
 
 @[Exercice 1]({"stubs": ["Maths/random_exo_1.py"], "command": "python3 Maths/random_exo_1_Test.py"})
 
@@ -116,7 +118,9 @@ Créez un programme qui simule le lancer de deux dés, fait la somme et affiche 
 
 ### Exercice 2
 
-Affichez (avec `print`) une liste de de 200 nombres entiers aléatoires compris entre 5 et 17. 
+Affichez une liste de de 200 nombres entiers aléatoires compris entre 5 et 17. 
+
+On affichera le résultat avec `print`.
 
 @[Exercice 2]({"stubs": ["Maths/random_exo_2.py"], "command": "python3 Maths/random_exo_2_Test.py"})
 
@@ -124,6 +128,10 @@ Affichez (avec `print`) une liste de de 200 nombres entiers aléatoires compris 
 
 ### Exercice 3
 
-En vous inspirant des exemples donnés dans la partie cours, écrire un programme qui affiche le plus petit entier n tel que 1² + 2² + 3² + ... + n² dépasse 12345.
+On donne les résultats du jeu Pierre Caillou Ciseaux sous forme de liste. On veut simuler 100 résultats sous forme d'une liste.
 
-@[Exercice 3]({"stubs": ["Les_boucles/while_exo_3.py"], "command": "python3 Les_boucles/while_exo_3_Test.py"})
+Faire un programme qui crée cette liste de 100 résultats aléatoires parmi "Pierre", "Caillou" et "Ciseaux" et l'affiche.
+
+On affichera le résultat avec `print`.
+
+@[Exercice 3]({"stubs": ["Maths/random_exo_3.py"], "command": "python3 Maths/random_exo_3_Test.py"})
