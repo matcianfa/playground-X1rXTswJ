@@ -88,7 +88,7 @@ print(n)
 ---
 
 ###### QCM 3
-```python runnable
+```python 
 from random import *
 
 prénoms = [ "Pierre", "Marie", "Paul", "Elisa", "Léa", "Baptiste"]
