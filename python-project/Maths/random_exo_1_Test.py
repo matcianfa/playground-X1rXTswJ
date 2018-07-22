@@ -11,6 +11,7 @@ compteur=[0]*13
 N_essais=1000000
 # précision de la vérification
 precision = 0.001
+import random_exo_1
 for _ in range(N_essais):
     reload(random_exo_1)
     count1 = sys.stdout.getvalue()[:-1]
