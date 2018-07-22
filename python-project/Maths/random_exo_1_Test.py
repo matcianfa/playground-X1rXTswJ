@@ -13,7 +13,7 @@ precision = 0.001
 for _ in range(N_essais):
     from random_exo_1 import *
     count1 = sys.stdout.getvalue()[:-1]
-    compteur[count1]+=1
+    compteur[int(count1)]+=1
 compteur=[k/N_essais for k in compteur]
 sys.stdout=sauvegarde_stdout
 from ma_bao import *
