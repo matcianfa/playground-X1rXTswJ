@@ -28,10 +28,18 @@ import numpy as np
   De plus, si on fait une opération sur cette liste comme par exemple multiplier par 2, alors cette opération sera automatiquement appliquée à chaque terme de la liste (ce qui n'est pas vrai si on utilise une liste classique).  
   Par exemple, traçons la fonction définie par y = 2x²+3x-4 entre -2 et 2 en utilisant 100 points :
   @[Exemple d'utilisation de plot]({"stubs": ["Maths/plot2.py"], "command": "python3 Maths/plot2_Test.py"})
+  Amusez vous à modifier la fonction, les bornes et le nombre de points (par exemple 10) utilisés pour bien comprendre le fonctionnement.
   
 + `plt.axis(x_min, x_max, y_min, y_max)` : Cette fonction permet de modifier les axes du repère qui sera affiché. Si on ne l'utilise pas, le choix des axes sera fait automatiquement mais des fois ce choix n'est pas pertinent et il faudra donc le modifier avec cette fonction. Les deux premières valeurs qu'on donne sont les valeurs minimale et maximale pour l'axe des abscisses et les deux suivantes sont celles pour l'axe des ordonnées.
 
 + `plt.grid()` : Affiche un quadrillage en plus sur notre repère.
+
+## Tracé de fonctions plus complexes
+
+Supposons qu'on veuille tracer des fonctions faisant intervenir autre chose que les opérations +, -, \*, / et ** comme par exemple des cosinus, sinus, exponentielle, logarithme... Dans ce cas on ne peut pas faire exactement comme dans l'exemple précédent.
+
++ Une première façon de faire est de créer "à la main" la liste des y correspondants aux x. Par exemple si on veut tracer la fonction y = cos(x) + 3 sin(2x) entre -4 et 4, on pourra faire ainsi :
+  @[Tracé de y = cos(x) + 3 sin(2x)]({"stubs": ["Maths/plot3.py"], "command": "python3 Maths/plot3_Test.py"})
 
 # QCM
 
