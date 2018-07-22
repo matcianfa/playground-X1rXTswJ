@@ -8,9 +8,9 @@ sauvegarde_stdout=sys.stdout
 sys.stdout=io.StringIO()
 # On va simuler beaucoup de lancer pour vérifier que la répartition de la somem des deux dés est cohérente
 compteur=[0]*13
-N_essais=1000000
+N_essais=100000
 # précision de la vérification
-precision = 0.001
+precision = 0.01
 import random_exo_1
 for _ in range(N_essais-1):
     reload(random_exo_1)
