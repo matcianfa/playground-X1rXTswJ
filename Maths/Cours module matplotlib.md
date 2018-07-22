@@ -38,7 +38,8 @@ import numpy as np
 
 Supposons qu'on veuille tracer des fonctions faisant intervenir autre chose que les opérations +, -, \*, / et ** comme par exemple des cosinus, sinus, exponentielle, logarithme... Dans ce cas on ne peut pas faire exactement comme dans l'exemple précédent.
 
-+ Une première façon de faire est de créer "à la main" la liste des y correspondants aux x. Par exemple si on veut tracer la fonction y = cos(x) + 3 sin(2x) entre -4 et 4, on pourra faire ainsi :
++ Une première façon de faire est de créer "à la main" la liste des y correspondants aux x c'est à dire créer une liste composée des f(x) pour x dans la liste des abscisses.  
+Par exemple si on veut tracer la fonction y = cos(x) + 3 sin(2x) entre -4 et 4, on pourra faire ainsi :
   @[Tracé de y = cos(x) + 3 sin(2x)]({"stubs": ["Maths/plot3.py"], "command": "python3 Maths/plot3_Test.py"})
 
 # QCM
