@@ -74,6 +74,10 @@ Pour tracer des points, il suffit d'utiliser la fonction `plt.scatter(abscisses,
 Par exemple si on veut placer les points (1,2), (3,3), (2,1) et (1,3) :
 @[Nuage de points]({"stubs": ["Maths/plot9.py"], "command": "python3 Maths/plot9_Test.py"})
 
+Il peut être intéressant de modifier la couleur selon que les coordonnées vérifient une condition ou pas. Pour cela, on peut fournir en plus une liste de couleur pour chaque point avec l'argument `c= liste_couleurs`. On peut modifier la taille des points avec l'argument `s=`.  
+Voici un nuage de 5000 points pris au hasard. On a coloré en rouge ceux qui vérifient la condition y<x².
+@[Nuage de points]({"stubs": ["Maths/plot10.py"], "command": "python3 Maths/plot10_Test.py"})
+
 ## Pour aller plus loin
 
 Ce qui a été présenté ici n'est qu'une infime partie des possibilités de matplotlib. 
