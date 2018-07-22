@@ -2,6 +2,7 @@
 module="Maths/random_exo_1"
 import sys
 import io
+from importlib import reload #Pour réimporter plusieurs fois
 #On récupère les données de l'utilisateur
 sauvegarde_stdout=sys.stdout
 sys.stdout=io.StringIO()
@@ -11,7 +12,7 @@ N_essais=1000000
 # précision de la vérification
 precision = 0.001
 for _ in range(N_essais):
-    from random_exo_1 import *
+    reload(random_exo_1)
     count1 = sys.stdout.getvalue()[:-1]
     compteur[int(count1)]+=1
 compteur=[k/N_essais for k in compteur]
