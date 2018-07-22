@@ -3,7 +3,8 @@ import matplotlib
 matplotlib.use('agg')
 import sys
 import io
-
+import matplotlib.pyplot as plt
+import numpy as np
 #message d'aide si besoin
 help=""
 
