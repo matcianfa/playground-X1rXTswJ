@@ -9,6 +9,8 @@ Commençons par les fonctions les plus utiles :
 + `randint(a,b)` : Donne un entier choisit au hasard entre a et b compris.
   Très pratique pour simuler un dés par exemple (appuyez plusieurs fois sur Run pour voir que le résultat change à chaque fois):
   ```python runnable
+  from random import *
+  
   n = randint(1,6)
   print(n)
   ```
@@ -17,6 +19,8 @@ Commençons par les fonctions les plus utiles :
   `uniform(a,b)` : Donne un flottant au hasard entre a et b.
   Appuyez plusieurs fois sur Run pour voir le résultat.
   ```python runnable
+  from random import *
+  
   n = random()
   print(n)
   x = uniform(12, 18)
@@ -26,6 +30,8 @@ Commençons par les fonctions les plus utiles :
 + `choice(liste)` : Choisit un élément au hasard dans une liste.
   Par exemple :
   ```python runnable
+  from random import *
+  
   liste = [ "Pierre", "Caillou", "Ciseaux"]
   résultat = choice(liste)
   print(résultat)
@@ -34,6 +40,8 @@ Commençons par les fonctions les plus utiles :
 + `shuffle(liste)` : Mélange la liste sur place (c'est à dire qu'il modifie la liste d'origine).
   Exemple : 
   ```python runnable
+  from random import *
+  
   lettres = ["a" , "b", "c", "d", "e"]
   shuffle(lettres)
   print(lettres)
@@ -47,6 +55,8 @@ Voici quelques QCM pour voir si vous avez bien compris. N'hésitez pas à relire
 
 ###### QCM 1
 ```python
+from random import *
+
 n = randint(10,19)
 print(n)
 ``` 
@@ -62,6 +72,8 @@ print(n)
 
 ###### QCM 2
 ```python
+from random import *
+
 n = uniform(10,19)
 print(n)
 ``` 
@@ -77,6 +89,8 @@ print(n)
 
 ###### QCM 3
 ```python runnable
+from random import *
+
 prénoms = [ "Pierre", "Marie", "Paul", "Elisa", "Léa", "Baptiste"]
 résultat = ...
 print(résultat)
