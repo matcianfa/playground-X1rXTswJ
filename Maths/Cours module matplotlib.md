@@ -39,8 +39,22 @@ import numpy as np
 Supposons qu'on veuille tracer des fonctions faisant intervenir autre chose que les opérations +, -, \*, / et ** comme par exemple des cosinus, sinus, exponentielle, logarithme... Dans ce cas on ne peut pas faire exactement comme dans l'exemple précédent.
 
 + Une première façon de faire est de créer "à la main" la liste des y correspondants aux x c'est à dire créer une liste composée des f(x) pour x dans la liste des abscisses.  
-Par exemple si on veut tracer la fonction y = cos(x) + 3 sin(2x) entre -4 et 4, on pourra faire ainsi :
+  Par exemple si on veut tracer la fonction y = cos(x) + 3 sin(2x) entre -4 et 4, on pourra faire ainsi :
   @[Tracé de y = cos(x) + 3 sin(2x)]({"stubs": ["Maths/plot3.py"], "command": "python3 Maths/plot3_Test.py"})
+  
++ Une seconde méthode consiste à utiliser les fonctions classiques modifiées contenues dans numpy (en écrivant np.cos pour le cosinus par exemple). Pourquoi modifiées? Car elles s'appliquent directement à toute la liste.  
+  Si on garde le même exemple de fonction y = cos(x) + 3 sin(2x) entre -4 et 4, cela donnera :
+  @[Tracé de y = cos(x) + 3 sin(2x)]({"stubs": ["Maths/plot4.py"], "command": "python3 Maths/plot4_Test.py"})
+
+## Tracé de plusieurs fonctions
+
+Pour tracer plusieurs fonctions dans un même repère, il suffit de tracer plusieurs fois une fonction... Elles seront automatiquement dans le même repère.  
+Par exemple, si je veux vérifier graphiquement que l'équation de droite y = -2x + 3 que j'ai obtenu correspond bien à l'équation de la tangente en 1 de la fonction y = x² - 4x + 4, il suffira d'écrire : 
+@[Vérification graphique]({"stubs": ["Maths/plot5.py"], "command": "python3 Maths/plot5_Test.py"})
+
+Voici un autre exemple où on trace une famille de fonction y=cos(nx) avec n allant de 1 à 4 :
+@[Famille de fonctions]({"stubs": ["Maths/plot6.py"], "command": "python3 Maths/plot6_Test.py"})
+On en a profité pour rajouter une légende pour que le graphique soit plus compréhensible. Pour cela, il faut rajouter un label dans la fonction `plot` et la fonction `plt.legend()` dans laquelle on précise sa position (ici en bas à droite). 
 
 # QCM
 
