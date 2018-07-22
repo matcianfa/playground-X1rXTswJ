@@ -76,7 +76,7 @@ Afficher la représentation graphique de la fonction $`y = x^3 + 3x^2-9x+1`$ pou
 
 ### Exercice 2
 
-Afficher la représentation graphique de la fonction y = 3 cos(2x) - 2 sin(3x) entre -pi et pi.
+Afficher la représentation graphique de la fonction $`y = 3 \cos(2x) - 2 \sin(3x)`$ entre $`-\pi`$ et $`\pi`$.
 
 ---
 
