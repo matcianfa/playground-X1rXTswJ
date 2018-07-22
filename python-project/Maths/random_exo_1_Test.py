@@ -12,10 +12,10 @@ N_essais=1000000
 # précision de la vérification
 precision = 0.001
 import random_exo_1
-for _ in range(N_essais):
+for _ in range(N_essais-1):
     reload(random_exo_1)
 count1 = sys.stdout.getvalue()[:-1]
-for resultat in count1.split(\n):    
+for resultat in count1.split("\n"):
     compteur[int(resultat)]+=1
 compteur=[k/N_essais for k in compteur]
 sys.stdout=sauvegarde_stdout
