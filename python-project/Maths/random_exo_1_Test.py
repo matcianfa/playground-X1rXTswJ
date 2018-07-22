@@ -9,8 +9,8 @@ sys.stdout=io.StringIO()
 compteur=[0]*13
 N_essais=1000000
 # précision de la vérification
-precision = 0.01
-for _ in range(N_essais)
+precision = 0.001
+for _ in range(N_essais):
     from random_exo_1 import *
     count1 = sys.stdout.getvalue()[:-1]
     compteur[count1]+=1
