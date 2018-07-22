@@ -9,7 +9,7 @@ Le module matplotlib est un module très complet. Nous allons ici nous intéress
 Comme tous les modules, il faut le charger et plus précisément c'est un sous-module qui va nous intéresser : pyplot. Pour cela, nous n'allons pas charger toutes les fonctions comme d'habitude mais l'importer sous un nom plus court à utiliser. On utilisera donc `import matplotlib.pyplot as plt`. Ce qui signifie que pour utiliser une fonction de ce module comme `show()` par exemple, on devra écrire `plt.show()` (puisqu'on a importer le module sous le nom plt).  
 De plus, le module matplotlib est très lié à un autre module qui sert à faire du calcul numérique qui s'appelle numpy et qu'on import souvent sous le nom np. 
 
-Pour résumer, pour représenter graphiquement des fonctions ou autres, il faudra mettre en entête :
+Pour résumer, pour représenter graphiquement des fonctions ou autres, il faudra mettre en en-tête :
 ```python
 import matplotlib.pyplot as plt
 import numpy as np
@@ -21,8 +21,17 @@ import numpy as np
 
 + `plt.plot(liste_x,liste_y)` : Où liste_x est une liste de nombres [x_1, x_2, ..., x_n] et liste_y une liste de nombres [y_1, y_2, ..., y_n] avec le même nombre d'éléments. Alors `plt.plot(liste_x,liste_y)` placera les points de coordonnées (x_1,y_1), (x_2,y_2), ..., (x_n, y_n) et les reliera de proche en proche par un segment. Voici un exemple où on relie les points (1;2), (3;1) et (4;6) :
   @[Exemple d'utilisation de plot]({"stubs": ["Maths/plot1.py"], "command": "python3 Maths/plot1_Test.py"})
+  Vous pouvez modifier les listes de points dans le programme ci-dessus pour voir le résultat.  
+  L'idée pour tracer une fonction va donc être de placer beaucoup de points de la courbe qu'on veut représenter assez proches pour qu'on ne voit pas qu'ils sont reliés par une droite.
   
++ `np.linspace(debut, fin, N)` : C'est ici que le module numpy intervient. Pour tracer correctement une fonction, il va nous falloir beaucoup de points qu'il est hors de question de rentrer à la main comme dans l'exemple précédent. La fonction `np.linspace(debut, fin, nombre)` permet de créer une liste de `N` nombres qui commencent à la valeur `debut` et s'arrête à la valeur `fin` et uniformément répartis.  
+  De plus, si on fait une opération sur cette liste comme par exemple multiplier par 2, alors cette opération sera automatiquement appliquée à chaque terme de la liste (ce qui n'est pas vrai si on utilise une liste classique).  
+  Par exemple, traçons la fonction définie par y = 2x²+3x-4 entre -2 et 2 en utilisant 100 points :
+  @[Exemple d'utilisation de plot]({"stubs": ["Maths/plot2.py"], "command": "python3 Maths/plot2_Test.py"})
+  
++ `plt.axis(x_min, x_max, y_min, y_max)` : Cette fonction permet de modifier les axes du repère qui sera affiché. Si on ne l'utilise pas, le choix des axes sera fait automatiquement mais des fois ce choix n'est pas pertinent et il faudra donc le modifier avec cette fonction. Les deux premières valeurs qu'on donne sont les valeurs minimale et maximale pour l'axe des abscisses et les deux suivantes sont celles pour l'axe des ordonnées.
 
++ `plt.grid()` : Affiche un quadrillage en plus sur notre repère.
 
 # QCM
 
