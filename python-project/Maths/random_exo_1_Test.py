@@ -16,7 +16,7 @@ for _ in range(N_essais):
     compteur[int(count1)]+=1
 compteur=[k/N_essais for k in compteur]
 sys.stdout=sauvegarde_stdout
-from ma_bao import *
+#from ma_bao import *
 
 #Afficher la correction
 def afficher_correction():
