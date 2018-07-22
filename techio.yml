@@ -160,6 +160,8 @@ plan:
   plan:
   - title: Introduction
     statement: Maths/Introduction.md
+  - title: Cours - Le module random
+    statement: Maths/Cours module random.md
   - title: Suite de Syracuse
     statement: Maths/Syracuse.md
   - title: Données statistiques
