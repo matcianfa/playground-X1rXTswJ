@@ -162,6 +162,8 @@ plan:
     statement: Maths/Introduction.md
   - title: Cours - Le module random
     statement: Maths/Cours module random.md
+  - title: Cours - Représentation graphique avec matplotlib
+    statement: Maths/Cours module matplotlib.md
   - title: Suite de Syracuse
     statement: Maths/Syracuse.md
   - title: Données statistiques
