@@ -78,18 +78,27 @@ Pour l'affichage, on utilisera `print` et les code ASCII seront affichés en all
 
 ### Exercice 2
 
-Pour le texte donné dans la fenêtre ci-dessous, créer un programme qui affiche le nombre de voyelle.
+Pour le texte donné dans la fenêtre ci-dessous, créer un programme qui, pour chaque lettre du texte, affiche la lettre suivante dans l'alphabet. 
 
-Pour l'affichage, on utilisera `print`.
+Quelques compléments : 
++ Pour le "z", on affichera "a". 
++ Le texte n'est composé que de lettres minuscules.
 
-@[Exercice 2]({"stubs": ["Chaines_caracteres/chaine_exo_2.py"], "command": "python3 Chaines_caracteres/chaine_exo_2_Test.py"})
+Pour l'affichage, on utilisera `print` et chaque lettre sera affichée en allant à la ligne.
+
+@[Exercice 2]({"stubs": ["Chaines_caracteres/Comp_chaine_exo_2.py"], "command": "python3 Chaines_caracteres/Comp_chaine_exo_2_Test.py"})
 
 ---
 
 ### Exercice 3
 
-Pour le texte donné dans la fenêtre ci-dessous, créer un programme qui affiche l'indice de tous les "e" dans ce texte.
+Pour le texte donné dans la fenêtre ci-dessous, créer un programme qui, pour chaque lettre du texte, affiche la lettre suivante dans l'alphabet. 
 
-Pour l'affichage, on utilisera `print` et les indices seront affichés en allant à la ligne à chaque fois.
+Quelques compléments : 
++ Pour le "z", on affichera "a". 
++ Les lettres du texte sont toutes en minuscule.
++ La ponctuation et espaces devront rester inchangés.
 
-@[Exercice 3]({"stubs": ["Chaines_caracteres/chaine_exo_1.py"], "command": "python3 Chaines_caracteres/chaine_exo_1_Test.py"})
+Pour l'affichage, on utilisera `print` et chaque lettre sera affichée en allant à la ligne.
+
+@[Exercice 2]({"stubs": ["Chaines_caracteres/Comp_chaine_exo_3.py"], "command": "python3 Chaines_caracteres/Comp_chaine_exo_3_Test.py"})
