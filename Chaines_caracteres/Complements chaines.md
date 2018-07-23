@@ -64,122 +64,32 @@ print("Dans b il y a la valeur {1:.2f}, dans a il y a la valeur {0:.2f} et dans 
 
 Voici pour cette initiation à la fonction format. Si on veut aller plus loin (formatage de dates, personnalisés...), internet regorge d'information !
 
-
-# QCM
-
-Voici quelques QCM pour voir si vous avez bien compris. N'hésitez pas à relire ce qui précède si vous avez un doute.
-
-###### QCM 1
-```python
-k = 0
-while k < 6 :
-    print(k)
-    k += 2
-```  
-?[Que va afficher ce programme (les `/` remplacent ici un retour à la ligne)? ]
--[x] 0 / 2 / 4 
--[ ] 0 / 1 / 2 / 3 / 4 / 5 
--[ ] 0 / 2 / 4 / 6
--[ ] 2 / 4 
-
----
-
-###### QCM 2
-```python
-k = 0
-while k < 6 :
-    k += 2
-    print(k)
-```  
-?[Que va afficher ce programme (les `/` remplacent ici un retour à la ligne)? ]
--[ ] 0 / 2 / 4 
--[ ] 0 / 1 / 2 / 3 / 4 / 5 
--[ ] 0 / 2 / 4 / 6
--[x] 2 / 4  
-
----
-
-###### QCM 3
-```python
-n=0
-while ... :
-    print(n)
-    n += 3
-```  
-?[Par quoi remplacer les ... pour que le programme précédent affiche 0 / 3 / 6 / 9 / 12 (les `/` remplacent ici un retour à la ligne) ? ]
--[ ] n < 12
--[x] n <= 12
--[x] n < 14
--[x] n**2 < 145
-
----
-
-###### QCM 4
-```python
-n=0
-while ... :
-    n += 1
-print(n)
-```  
-?[Par quoi remplacer les ... pour que le programme précédent affiche la plus petite valeur de n telle que n²+3n dépasse 1000 ? ]
--[ ] n² + 3n < 1000
--[ ] n**2 + 3*n > 1000
--[ ] n < 1000
--[x] n**2 + 3*n < 1000
-
----
-
-###### QCM 5
-```python 
-n = 0
-somme = 0
-while somme < 10000 :
-    n += 1
-    ... 
-print(n)
-``` 
-?[Par quoi remplacer les ... pour que le programme précédent affiche la plus petite valeur de n telle que 2*1+ 2*2 + 2*3 + ... + 2*n dépasse 10000 ?]
--[ ] somme += n
--[ ] somme = 2 * somme 
--[x] somme += 2*n
--[ ] somme = 2*1+ 2*2 + 2*3 + 2*n
-
----
-
-###### QCM 6
-```python
-n=0
-while ... :
-    n += 1
-print(n)
-```  
-?[Par quoi remplacer les ... pour que le programme précédent affiche la plus petite valeur de n telle que 1/n soit inférieur à 0.12345 ? ]
--[ ] n < 0.12345
--[ ] 1/n < 0.12345
--[ ] 1/n != 0.12345
--[x] 1/n > 0.12345
-
-
 # Entrainement 
 
 ### Exercice 1
 
-En vous inspirant des exemples donnés dans la partie cours, écrire un programme qui affiche le plus petit entier n tel que (n+1)\*(n+3) dépasse 12345.
+Pour le texte donné dans la fenêtre ci-dessous, créer un programme qui affiche le code ASCII correspondant à chaque lettre.
 
-@[Exercice 1]({"stubs": ["Les_boucles/while_exo1.py"], "command": "python3 Les_boucles/while_exo1_Test.py"})
+Pour l'affichage, on utilisera `print` et les code ASCII seront affichés en allant à la ligne à chaque fois.
+
+@[Exercice 1]({"stubs": ["Chaines_caracteres/Comp_chaine_exo_1.py"], "command": "python3 Chaines_caracteres/Comp_chaine_exo_1_Test.py"})
 
 ---
 
 ### Exercice 2
 
-En vous inspirant des exemples donnés dans la partie cours, écrire un programme qui affiche le plus petit entier n tel que 4 + 5 + 6 + ... + n dépasse 12345.
+Pour le texte donné dans la fenêtre ci-dessous, créer un programme qui affiche le nombre de voyelle.
 
-@[Exercice 2]({"stubs": ["Les_boucles/while_exo_2.py"], "command": "python3 Les_boucles/while_exo_2_Test.py"})
+Pour l'affichage, on utilisera `print`.
+
+@[Exercice 2]({"stubs": ["Chaines_caracteres/chaine_exo_2.py"], "command": "python3 Chaines_caracteres/chaine_exo_2_Test.py"})
 
 ---
 
 ### Exercice 3
 
-En vous inspirant des exemples donnés dans la partie cours, écrire un programme qui affiche le plus petit entier n tel que 1² + 2² + 3² + ... + n² dépasse 12345.
+Pour le texte donné dans la fenêtre ci-dessous, créer un programme qui affiche l'indice de tous les "e" dans ce texte.
 
-@[Exercice 3]({"stubs": ["Les_boucles/while_exo_3.py"], "command": "python3 Les_boucles/while_exo_3_Test.py"})
+Pour l'affichage, on utilisera `print` et les indices seront affichés en allant à la ligne à chaque fois.
+
+@[Exercice 3]({"stubs": ["Chaines_caracteres/chaine_exo_1.py"], "command": "python3 Chaines_caracteres/chaine_exo_1_Test.py"})
