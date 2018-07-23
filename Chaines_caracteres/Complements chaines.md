@@ -82,7 +82,7 @@ Pour le texte donné dans la fenêtre ci-dessous, créer un programme qui, pour 
 
 Quelques compléments : 
 + Pour le "z", on affichera "a". 
-+ Le texte n'est composé que de lettres minuscules.
++ Le texte n'est composé que de lettres minuscules et sans accent.
 
 Pour l'affichage, on utilisera `print` et chaque lettre sera affichée en allant à la ligne.
 
@@ -96,7 +96,7 @@ Pour le texte donné dans la fenêtre ci-dessous, créer un programme qui, pour 
 
 Quelques compléments : 
 + Pour le "z", on affichera "a". 
-+ Les lettres du texte ne sont pas toutes en minuscule.
++ Les lettres du texte sont toutes sans accent mais ne sont pas toutes en minuscule.
 + La ponctuation et espaces devront rester inchangés.
 
 Pour l'affichage, on utilisera `print` et chaque lettre sera affichée en allant à la ligne.
