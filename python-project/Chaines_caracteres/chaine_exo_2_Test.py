@@ -10,7 +10,7 @@ sys.stdout=io.StringIO()
 import chaine_exo_2
 count1 = sys.stdout.getvalue()[:-1]
 sys.stdout=sauvegarde_stdout
-solution=sum([chaine_exo_2.texte.lower().count("v") for v in "aeiouy"])
+solution=sum([chaine_exo_2.texte.lower().count(v) for v in "aeiouy"])
 
 #message d'aide si besoin
 help=""
