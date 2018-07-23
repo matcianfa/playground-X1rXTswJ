@@ -86,7 +86,7 @@ plan:
   plan:
   - title: Introduction
     statement: Chaines_caracteres/Introduction.md
-  - title: Cours : Les chaines de caractères
+  - title: Cours - Les chaines de caractères
     statement: Chaines_caracteres/Cours chaine de caracteres.md
   - title: Compléments sur les chaines de caractères
     statement: Chaines_caracteres/Complements chaines.md
