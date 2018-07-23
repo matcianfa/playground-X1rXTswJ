@@ -142,102 +142,148 @@ Voici quelques QCM pour voir si vous avez bien compris. N'hésitez pas à relire
 
 ###### QCM 1
 ```python
-k = 0
-while k < 6 :
-    print(k)
-    k += 2
+texte = "Un chasseur sachant chasser doit savoir chasser sans son chien."
+print(texte[5])
 ```  
-?[Que va afficher ce programme (les `/` remplacent ici un retour à la ligne)? ]
--[x] 0 / 2 / 4 
--[ ] 0 / 1 / 2 / 3 / 4 / 5 
--[ ] 0 / 2 / 4 / 6
--[ ] 2 / 4 
+?[Que va afficher ce programme ? ]
+-[x] "a" 
+-[ ] "s"
+-[ ] "Un ch"
+-[ ] "h"
 
 ---
 
 ###### QCM 2
 ```python
-k = 0
-while k < 6 :
-    k += 2
-    print(k)
+texte = "Un chasseur sachant chasser doit savoir chasser sans son chien."
+print(texte[:5])
 ```  
-?[Que va afficher ce programme (les `/` remplacent ici un retour à la ligne)? ]
--[ ] 0 / 2 / 4 
--[ ] 0 / 1 / 2 / 3 / 4 / 5 
--[ ] 0 / 2 / 4 / 6
--[x] 2 / 4  
+?[Que va afficher ce programme ? ]
+-[ ] "Un cha" 
+-[ ] "Un chasseur sachant chasser doit"
+-[x] "Un ch"
+-[ ] "asseur sachant chasser doit savoir chasser sans son chien."
 
 ---
 
 ###### QCM 3
 ```python
-n=0
-while ... :
-    print(n)
-    n += 3
+texte = "Un chasseur sachant chasser doit savoir chasser sans son chien."
+print(texte[5:10])
 ```  
-?[Par quoi remplacer les ... pour que le programme précédent affiche 0 / 3 / 6 / 9 / 12 (les `/` remplacent ici un retour à la ligne) ? ]
--[ ] n < 12
--[x] n <= 12
--[x] n < 14
--[x] n**2 < 145
+?[Que va afficher ce programme ? ]
+-[x] "asseu" 
+-[ ] "hasseu"
+-[ ] "asseur"
+-[ ] "ar"
 
 ---
 
 ###### QCM 4
 ```python
-n=0
-while ... :
-    n += 1
-print(n)
+texte = "Un chasseur sachant chasser doit savoir chasser sans son chien."
+print(texte[-2])
 ```  
-?[Par quoi remplacer les ... pour que le programme précédent affiche la plus petite valeur de n telle que n²+3n dépasse 1000 ? ]
--[ ] n² + 3n < 1000
--[ ] n**2 + 3*n > 1000
--[ ] n < 1000
--[x] n**2 + 3*n < 1000
+?[Que va afficher ce programme ? ]
+-[ ] "i" 
+-[ ] "e"
+-[x] "n"
+-[ ] "."
+
 
 ---
 
 ###### QCM 5
-```python 
-n = 0
-somme = 0
-while somme < 10000 :
-    n += 1
-    ... 
-print(n)
-``` 
-?[Par quoi remplacer les ... pour que le programme précédent affiche la plus petite valeur de n telle que 2*1+ 2*2 + 2*3 + ... + 2*n dépasse 10000 ?]
--[ ] somme += n
--[ ] somme = 2 * somme 
--[x] somme += 2*n
--[ ] somme = 2*1+ 2*2 + 2*3 + 2*n
+```python
+texte = "Un chasseur sachant chasser doit savoir chasser sans son chien."
+print(texte[:2]+texte[6:8])
+```  
+?[Que va afficher ce programme ? ]
+-[ ] "Un sse" 
+-[ ] "Un ss"
+-[ ] "Unsse"
+-[x] "Unss"
+
 
 ---
 
 ###### QCM 6
 ```python
-n=0
-while ... :
-    n += 1
-print(n)
+texte = "Un chasseur sachant chasser doit savoir chasser sans son chien."
+print(...)
 ```  
-?[Par quoi remplacer les ... pour que le programme précédent affiche la plus petite valeur de n telle que 1/n soit inférieur à 0.12345 ? ]
--[ ] n < 0.12345
--[ ] 1/n < 0.12345
--[ ] 1/n != 0.12345
--[x] 1/n > 0.12345
+?[Que faut-il mettre à la place des ... pour afficher "sachant"? ]
+-[ ] texte[12:18] 
+-[ ] texte[11:18]
+-[x] texte[12:19]
+-[ ] texte[12]+texte[18]
 
+---
+
+###### QCM 7
+```python
+texte = "Un chasseur sachant chasser doit savoir chasser sans son chien."
+print(...)
+```  
+?[Que faut-il mettre à la place des ... pour afficher le nombre de "e" dans ce texte ? ]
+-[x] texte.count("e")
+-[ ] count("e")
+-[ ] count(texte,"e")
+-[ ] texte.count(e)
+
+---
+
+###### QCM 8
+```python
+texte = "Un chasseur sachant chasser doit savoir chasser sans son chien."
+print(texte.find("ch"))
+```  
+?[Que va afficher ce programme ? ]
+-[x] 3
+-[ ] 4
+-[ ] 5
+-[ ] 3, 13, 19, 39, 57
+
+---
+
+###### QCM 9
+```python
+texte = "Un chasseur sachant chasser doit savoir chasser sans son chien."
+print(texte.replace("ss","ch"))
+```  
+?[Que va afficher ce programme ? ]
+-[ ] "Un ssasseur sassant ssasser doit savoir ssasser sans son ssien."
+-[ ] "Un chacheur sachant chacher doit savoir chacher sanchon chien."
+-[ ] "Un chacheur chachant chacher doit chavoir chacher chanch chon chien."
+-[x] "Un chacheur sachant chacher doit savoir chacher sans son chien."
+
+---
+
+###### QCM 10
+```python
+texte = "Un chasseur sachant chasser doit savoir chasser sans son chien."
+print("ch" in texte)
+print("chant" in texte)
+print("Un chien" in texte)
+print("r s" in texte)
+print("u" in texte)
+```  
+?[Cochez les cases correspondant au numéro des lignes qui vont afficher True ]
+-[x] 2
+-[x] 3
+-[ ] 4
+-[x] 5
+-[ ] 6
 
 # Entrainement 
 
 ### Exercice 1
 
-En vous inspirant des exemples donnés dans la partie cours, écrire un programme qui affiche le plus petit entier n tel que (n+1)\*(n+3) dépasse 12345.
+Pour le texte donné dans la fenêtre ci-dessous, créer un programme qui affiche l'indice de tous les "e" dans ce texte.
 
-@[Exercice 1]({"stubs": ["Les_boucles/while_exo1.py"], "command": "python3 Les_boucles/while_exo1_Test.py"})
+Pour l'affichage, on utilisera `print` et les indices seront affichés en allant à la ligne à chaque fois.
+
+@[Exercice 1]({"stubs": ["Chaines_caracteres/chaine_exo_1.py"], "command": "python3 Chaines_caracteres/chaine_exo_1_Test.py"})
 
 ---
 
