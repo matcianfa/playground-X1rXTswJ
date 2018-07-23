@@ -96,9 +96,9 @@ Pour le texte donné dans la fenêtre ci-dessous, créer un programme qui, pour 
 
 Quelques compléments : 
 + Pour le "z", on affichera "a". 
-+ Les lettres du texte sont toutes en minuscule.
++ Les lettres du texte ne sont pas toutes en minuscule.
 + La ponctuation et espaces devront rester inchangés.
 
 Pour l'affichage, on utilisera `print` et chaque lettre sera affichée en allant à la ligne.
 
-@[Exercice 2]({"stubs": ["Chaines_caracteres/Comp_chaine_exo_3.py"], "command": "python3 Chaines_caracteres/Comp_chaine_exo_3_Test.py"})
+@[Exercice 3]({"stubs": ["Chaines_caracteres/Comp_chaine_exo_3.py"], "command": "python3 Chaines_caracteres/Comp_chaine_exo_3_Test.py"})
