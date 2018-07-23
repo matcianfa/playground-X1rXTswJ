@@ -279,11 +279,11 @@ print("u" in texte)
 
 ### Exercice 1
 
-Pour le texte donné dans la fenêtre ci-dessous, créer un programme qui affiche l'indice de tous les "e" dans ce texte.
+Pour le nombre `n` donné dans la fenêtre ci-dessous, énumérez ses chiffres.
 
-Pour l'affichage, on utilisera `print` et les indices seront affichés en allant à la ligne à chaque fois.
+Pour l'affichage, on utilisera `print` et les chiffres seront affichés en allant à la ligne à chaque fois.
 
-@[Exercice 1]({"stubs": ["Chaines_caracteres/chaine_exo_1.py"], "command": "python3 Chaines_caracteres/chaine_exo_1_Test.py"})
+@[Exercice 1]({"stubs": ["Chaines_caracteres/chaine_exo_1bis.py"], "command": "python3 Chaines_caracteres/chaine_exo_1bis_Test.py"})
 
 ---
 
