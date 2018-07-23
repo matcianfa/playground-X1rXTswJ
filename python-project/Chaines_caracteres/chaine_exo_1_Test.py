@@ -12,7 +12,7 @@ count1 = sys.stdout.getvalue()[:-1].split("\n")
 sys.stdout=sauvegarde_stdout
 
 
-solution=[i for i,c in enumerate(texte) if c=="e"]
+solution=[i for i,c in enumerate(chaine_exo_1.texte) if c=="e"]
 
 #message d'aide si besoin
 help=""
