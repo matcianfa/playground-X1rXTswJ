@@ -15,7 +15,7 @@ solution=""
 for lettre in Comp_chaine_exo_3.texte :
     if lettre == "z":
         nouvelle_lettre = "a"
-    if lettre in "abcdefghijklmnopqrstuvwxyABCDEFGHIJKLMNOPQRSTUVWXY" :
+    elif lettre in "abcdefghijklmnopqrstuvwxyABCDEFGHIJKLMNOPQRSTUVWXY" :
         nouvelle_lettre = chr(ord(lettre)+1)
     else :
         nouvelle_lettre = lettre
