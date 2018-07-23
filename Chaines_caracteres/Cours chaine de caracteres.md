@@ -289,14 +289,18 @@ Pour l'affichage, on utilisera `print` et les indices seront affichés en allant
 
 ### Exercice 2
 
-En vous inspirant des exemples donnés dans la partie cours, écrire un programme qui affiche le plus petit entier n tel que 4 + 5 + 6 + ... + n dépasse 12345.
+Pour le texte donné dans la fenêtre ci-dessous, créer un programme qui affiche le nombre de voyelle.
 
-@[Exercice 2]({"stubs": ["Les_boucles/while_exo_2.py"], "command": "python3 Les_boucles/while_exo_2_Test.py"})
+Pour l'affichage, on utilisera `print`.
+
+@[Exercice 2]({"stubs": ["Chaines_caracteres/chaine_exo_2.py"], "command": "python3 Chaines_caracteres/chaine_exo_2_Test.py"})
 
 ---
 
 ### Exercice 3
 
-En vous inspirant des exemples donnés dans la partie cours, écrire un programme qui affiche le plus petit entier n tel que 1² + 2² + 3² + ... + n² dépasse 12345.
+Pour le texte donné dans la fenêtre ci-dessous, créer un programme qui affiche l'indice de tous les "e" dans ce texte.
 
-@[Exercice 3]({"stubs": ["Les_boucles/while_exo_3.py"], "command": "python3 Les_boucles/while_exo_3_Test.py"})
+Pour l'affichage, on utilisera `print` et les indices seront affichés en allant à la ligne à chaque fois.
+
+@[Exercice 3]({"stubs": ["Chaines_caracteres/chaine_exo_1.py"], "command": "python3 Chaines_caracteres/chaine_exo_1_Test.py"})
