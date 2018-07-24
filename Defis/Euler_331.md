@@ -20,6 +20,8 @@ Trouver $`\Sigma\limits_{i=3}^{31}T(2^i-i)`$
 
 On affichera le résultat avec `print`.
 
+Remarque : Si vous trouvez une solution qui met moins de 50 sec pour s'exécuter, je suis très intéressé !
+
 @[Inversion en croix]({"stubs": ["Defis/Euler_331.py"], "command": "python3 Defis/Euler_331_Test.py"})
 
 ---
