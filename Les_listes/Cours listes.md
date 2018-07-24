@@ -28,7 +28,7 @@ Commençons par les bases : Créer une liste. Il y a plusieurs façons d'en cré
       ```python runnable
       ma_liste_de_courses = [ "stylos rouges" , "piles" , "souris pour la salle info" , "claviers" ]
       ma_liste_de_courses.append("brosse pour effacer")
-      print(ma_liste_de_course)
+      print(ma_liste_de_courses)
       ```
       Je suis obligé de retaper le nom de ma liste pour la voir car elle a été modifiée directement.  
       En partant de la liste vide, on peut ainsi créer un nouvelle liste en ajoutant élément par élément. Cela peut sembler absurde ou du moins très long  mais dans une boucle for ou while, c'est une manière très pratique de créer une liste de données qu'on calcule ou qui nous arrive au fur et à mesure.
@@ -65,11 +65,11 @@ Commençons par les bases : Créer une liste. Il y a plusieurs façons d'en cré
   Remarque importante : On a précisé ici que `range` fournit une *énumération*. En effet, ce n'est pas directement une liste de nombre comme on pourrait le penser quand on l'utilise avec `for`. On peut cependant très facilement en faire une liste en lui appliquant `list()`.  
   Par exemple :
   ```python runnable
-  print(range(4))
-  print(list(range(4)))
-  print(list(range(3,6)))
-  print(list(range(1,9,3)))
-  print(list(range(3,0,-1)))
+  print(range(6))
+  print(list(range(6)))
+  print(list(range(3,9)))
+  print(list(range(1,15,3)))
+  print(list(range(7,0,-1)))
   ```
   On remarquera que le premier exemple ne donne pas une liste et qu'il faut absolument rajouter `list()` pour l'obtenir.
   
@@ -82,16 +82,17 @@ Maintenant qu'on sait créer des listes, encore faut-il pouvoir les manipuler. V
 + `liste[n]` : Permet de récupérer l'élément d'indice n. Attention : le premier élément est d'indice 0 !
   ```python runnable
   ma_liste_de_courses = [ "stylos rouges" , "piles" , "souris pour la salle info" , "claviers" ]
-  ma_liste_de_courses[1]
-  ma_liste_de_courses[-1]
+  print(ma_liste_de_courses[1])
+  print(ma_liste_de_courses[-1])
   ```
   Comme pour les chaines de caractères, un nombre négatif nous permet de partir de la fin.
+  Astuce : Pour inverser deux éléments d'une liste, on peut  écrire : `liste[i], liste[j] = liste[j], liste[i]`
   
 + `liste[n1:n2]` : Permet de récupérer la liste des éléments d'indice compris entre n1 et n2-1.
   ```python runnable
   ma_liste_de_courses = [ "stylos rouges" , "piles" , "souris pour la salle info" , "claviers" ]
-  ma_liste_de_courses[1 : 3]  
-  ma_liste_de_courses[:3]
+  print(ma_liste_de_courses[1 : 3])
+  print(ma_liste_de_courses[:3])
   ```
   Comme pour les chaines de caractères, si on omet  n1, on part du début et si on omet n2, on va jusqu'à la fin de la liste.
   
@@ -105,7 +106,7 @@ Maintenant qu'on sait créer des listes, encore faut-il pouvoir les manipuler. V
 + `len(liste)` : Donne la longueur de la liste (le nombre d'éléments).
   ```python runnable
   ma_liste_de_courses = [ "stylos rouges" , "piles" , "souris pour la salle info" , "claviers" ]
-  len(ma_liste_de_courses)
+  print(len(ma_liste_de_courses))
   ```
 
 + `liste.remove(element)` : Retire `element` de la liste. Attention, il ne retire que la première occurrence, si `element` apparait plusieurs fois, il faut l'enlever plusieurs fois.
@@ -139,140 +140,142 @@ Maintenant qu'on sait créer des listes, encore faut-il pouvoir les manipuler. V
 
 Voici quelques QCM pour voir si vous avez bien compris. N'hésitez pas à relire ce qui précède si vous avez un doute.
 
-###### QCM 1
-```python
-texte = "Un chasseur sachant chasser doit savoir chasser sans son chien."
-print(texte[5])
-```  
-?[Que va afficher ce programme ? ]
--[x] "a" 
--[ ] "s"
--[ ] "Un ch"
--[ ] "h"
+###### QCM 1  
+?[Que puis-je écrire si je veux rajouter le nombre 3 à une liste nommée L ? ]
+-[x] L.append(3) 
+-[ ] L + 3
+-[x] L + [3]
+-[ ] L.extend(3)
+-[x] L.extend([3])
+-[ ] L * 3
 
 ---
 
 ###### QCM 2
 ```python
-texte = "Un chasseur sachant chasser doit savoir chasser sans son chien."
-print(texte[:5])
+liste = [ 1, 3 ]
+print(liste * 2)
 ```  
 ?[Que va afficher ce programme ? ]
--[ ] "Un cha" 
--[ ] "Un chasseur sachant chasser doit"
--[x] "Un ch"
--[ ] "asseur sachant chasser doit savoir chasser sans son chien."
+-[ ] [ 2, 6 ]
+-[ ] [ 1, 3, 2 ]
+-[x] [ 1, 3, 1, 3 ]
+-[ ] [ 1, 1, 3, 3 ]
+-[ ] [ [1, 3], [1, 3] ]
 
 ---
 
 ###### QCM 3
-```python
-texte = "Un chasseur sachant chasser doit savoir chasser sans son chien."
-print(texte[5:10])
-```  
-?[Que va afficher ce programme ? ]
--[x] "asseu" 
--[ ] "hasseu"
--[ ] "asseur"
--[ ] "ar"
+?[Que faut-il écrire pour afficher tous les entiers de 4 à 100 dans l'ordre croissant ? ]
+-[x] print(list(range(4,101))) 
+-[ ] print(range(4,100))
+-[ ] print(list(range(4,100))
+-[ ] print([4,5,...,100])
 
 ---
 
 ###### QCM 4
 ```python
-texte = "Un chasseur sachant chasser doit savoir chasser sans son chien."
-print(texte[-2])
+liste = [ 1, 5, 4, 12, 7, 9 ,10 , 2]
+print(liste[4])
 ```  
 ?[Que va afficher ce programme ? ]
--[ ] "i" 
--[ ] "e"
--[x] "n"
--[ ] "."
-
+-[ ] 2 
+-[ ] 3
+-[x] 7
+-[ ] 12
 
 ---
 
 ###### QCM 5
 ```python
-texte = "Un chasseur sachant chasser doit savoir chasser sans son chien."
-print(texte[:2]+texte[6:8])
+liste = [ 1, 5, 4, 12, 7, 9 ,10 , 2]
+print(liste[3:5])
 ```  
 ?[Que va afficher ce programme ? ]
--[ ] "Un sse" 
--[ ] "Un ss"
--[ ] "Unsse"
--[x] "Unss"
-
+-[ ] [4, 12, 7]
+-[x] [12, 7]
+-[ ] [12, 7, 9]
+-[ ] [12, 9]
 
 ---
 
 ###### QCM 6
 ```python
-texte = "Un chasseur sachant chasser doit savoir chasser sans son chien."
+liste = [ 1, 5, 4, 12, 7, 9, 10, 2]
 print(...)
 ```  
-?[Que faut-il mettre à la place des ... pour afficher "sachant"? ]
--[ ] texte[12:18] 
--[ ] texte[11:18]
--[x] texte[12:19]
--[ ] texte[12]+texte[18]
+?[Que faut-il mettre à la place des ... pour afficher [7, 9, 10] ? ]
+-[x] liste[4:7]
+-[ ] liste[5:7]
+-[ ] liste[5:8]
+-[ ] liste[4:6]
 
 ---
 
 ###### QCM 7
 ```python
-texte = "Un chasseur sachant chasser doit savoir chasser sans son chien."
-print(...)
+liste = [ 1, 5, 4, 12, 7, 9, 10, 2]
+liste[5] = 6
+print(liste)
 ```  
-?[Que faut-il mettre à la place des ... pour afficher le nombre de "e" dans ce texte ? ]
--[x] texte.count("e")
--[ ] count("e")
--[ ] count(texte,"e")
--[ ] texte.count(e)
+?[Que va afficher ce programme ? ]
+-[ ] [ 1, 6, 4, 12, 7, 9, 10, 2]
+-[ ] [ 1, 5, 4, 12, 6, 9, 10, 2]
+-[x] [ 1, 5, 4, 12, 7, 6, 10, 2]
+-[ ] [ 1, 5, 4, 12, 7, 9, 5, 2]
 
 ---
 
 ###### QCM 8
 ```python
-texte = "Un chasseur sachant chasser doit savoir chasser sans son chien."
-print(texte.find("ch"))
+liste = [ 1, 5, 4, 12, 7, 9, 10, 2]
+liste.remove(5)
+print(liste)
 ```  
 ?[Que va afficher ce programme ? ]
--[x] 3
--[ ] 4
--[ ] 5
--[ ] 3, 13, 19, 39, 57
+-[x] [ 1, 4, 12, 7, 9 , 10, 2]
+-[ ] [ 1, 5, 4, 12, 7, 10, 2]
+-[ ] [ 1, 5, 4, 12, 9, 10, 2]
+-[ ] [ 1, 5, 4 ]
 
 ---
 
 ###### QCM 9
 ```python
-texte = "Un chasseur sachant chasser doit savoir chasser sans son chien."
-print(texte.replace("ss","ch"))
+liste = [ 1, 5, 4, 12, 7, 9, 10, 2]
+liste.sort()
+print(liste)
 ```  
 ?[Que va afficher ce programme ? ]
--[ ] "Un ssasseur sassant ssasser doit savoir ssasser sans son ssien."
--[ ] "Un chacheur sachant chacher doit savoir chacher sanchon chien."
--[ ] "Un chacheur chachant chacher doit chavoir chacher chanch chon chien."
--[x] "Un chacheur sachant chacher doit savoir chacher sans son chien."
+-[ ] [ 12, 10, 9, 7, 5, 4, 2, 1 ]
+-[ ] [ 1, 10, 12, 2, 4, 5, 7, 9]
+-[ ] [ 1, 5, 4, 12, 7, 9, 10, 2]
+-[x] [ 1, 2, 4, 5, 7, 9, 10, 12]
 
 ---
 
 ###### QCM 10
 ```python
-texte = "Un chasseur sachant chasser doit savoir chasser sans son chien."
-print("ch" in texte)
-print("chant" in texte)
-print("Un chien" in texte)
-print("r s" in texte)
-print("u" in texte)
+liste = [ 1, 1+1, "un", "2+3", 7,  23, "1", "vingt trois"]
+print(23 in liste)
+print(2 in liste)
+print(5 in liste)
+print("7" in liste)
+print("vingt" in liste)
+print("23" in liste)
+print("vingt trois" in liste)
+print([7, 23] in liste)
 ```  
 ?[Cochez les cases correspondant au numéro des lignes qui vont afficher True ]
 -[x] 2
 -[x] 3
 -[ ] 4
--[x] 5
+-[ ] 5
 -[ ] 6
+-[ ] 7
+-[x] 8
+-[ ] 9
 
 # Entrainement 
 
