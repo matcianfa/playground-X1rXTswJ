@@ -1,4 +1,4 @@
-<h1> <center>Compléments sur les listes</center></h1>
+<h1> <center>Cours sur les listes (Suite)</center></h1>
 
 # Liens entre listes et les parties précédentes du cours.
 
@@ -39,8 +39,8 @@
     
   - `separateur.join(liste)` : L'exact contraire de split(). Crée un texte à partir d'une liste de mots en intercalant entre chaque mot le separateur.
     ```python runnable
-    print("/".join( ["Janvier", "Février", "Mars", "Avril" ]))
-    print("<=>".join( [ "x² - 1 = 0", "x² = 1", "x = 1 ou x = -1"]))
+    print(" / ".join( ["Janvier", "Février", "Mars", "Avril" ]))
+    print(" <=> ".join( [ "x² - 1 = 0", "x² = 1", "x = 1 ou x = -1"]))
     print("".join([ "3", ".", "1", "4", "1", "5", "9" ]))
     ```
     On remarquera sur le dernier exemple qu'une chaine vide nous permet de coller tous les éléments de la liste.
@@ -110,138 +110,120 @@ Voici quelques QCM pour voir si vous avez bien compris. N'hésitez pas à relire
 
 ###### QCM 1
 ```python
-texte = "Un chasseur sachant chasser doit savoir chasser sans son chien."
-print(texte[5])
+liste = [ "T", "e", "x", "t", "e" ]
+for i, c in enumerate(liste):
+    print(i,c)
 ```  
-?[Que va afficher ce programme ? ]
--[x] "a" 
--[ ] "s"
--[ ] "Un ch"
--[ ] "h"
+?[Que va afficher ce programme (Les "/" représentent des retours à la ligne ? ]
+-[x] 0 T / 1 e / 2 x / 3 t / 4 e 
+-[ ] "Texte"
+-[ ] T / e / x / t / e
+-[ ] 1T / 2e / 3x / 4t/ 5e
 
 ---
 
 ###### QCM 2
 ```python
 texte = "Un chasseur sachant chasser doit savoir chasser sans son chien."
-print(texte[:5])
+print(texte.split())
 ```  
 ?[Que va afficher ce programme ? ]
--[ ] "Un cha" 
--[ ] "Un chasseur sachant chasser doit"
--[x] "Un ch"
--[ ] "asseur sachant chasser doit savoir chasser sans son chien."
+-[ ] [Un, chasseur, sachant, chasser, doit, savoir, chasser, sans, son, chien.]
+-[ ] "Unchasseursachantchasserdoitsavoirchassersanssonchien."
+-[x] ["Un", "chasseur", "sachant", "chasser", "doit", "savoir", "chasser", "sans", "son", "chien."]
+-[ ] "Un,chasseur,sachant,chasser,doit,savoir,chasser,sans,son,chien."
 
 ---
 
 ###### QCM 3
 ```python
 texte = "Un chasseur sachant chasser doit savoir chasser sans son chien."
-print(texte[5:10])
+print(texte.split("t"))
 ```  
 ?[Que va afficher ce programme ? ]
--[x] "asseu" 
--[ ] "hasseu"
--[ ] "asseur"
--[ ] "ar"
+-[x] ["Un chasseur sachan"," chasser doi", " savoir chasser sans son chien."]
+-[ ] "Un chasseur sachan, chasser doi, savoir chasser sans son chien."
+-[ ] ["Un chasseur sachant"," chasser doit", " savoir chasser sans son chien."]
+-[ ] ["Un", "chasseur", "sachant", "chasser", "doit", "savoir", "chasser", "sans", "son", "chien."]
 
 ---
 
 ###### QCM 4
 ```python
-texte = "Un chasseur sachant chasser doit savoir chasser sans son chien."
-print(texte[-2])
+liste = [ "06", "18", "54", "23", "34" ]
+print(".".join(liste))
 ```  
 ?[Que va afficher ce programme ? ]
--[ ] "i" 
--[ ] "e"
--[x] "n"
--[ ] "."
-
+-[ ] "06 18 54 23 34"
+-[ ] "0618542334"
+-[x] "06.18.54.23.34"
+-[ ] "06-18-54-23-34"
 
 ---
 
 ###### QCM 5
 ```python
-texte = "Un chasseur sachant chasser doit savoir chasser sans son chien."
-print(texte[:2]+texte[6:8])
+liste = [ "06", "18", "54", "23", "34" ]
+print("".join(liste))
 ```  
 ?[Que va afficher ce programme ? ]
--[ ] "Un sse" 
--[ ] "Un ss"
--[ ] "Unsse"
--[x] "Unss"
-
+-[ ] "06 18 54 23 34"
+-[x] "0618542334"
+-[ ] "06.18.54.23.34"
+-[ ] "06-18-54-23-34"
 
 ---
 
 ###### QCM 6
 ```python
-texte = "Un chasseur sachant chasser doit savoir chasser sans son chien."
-print(...)
+print([n**3 for n in range(5)])
 ```  
-?[Que faut-il mettre à la place des ... pour afficher "sachant"? ]
--[ ] texte[12:18] 
--[ ] texte[11:18]
--[x] texte[12:19]
--[ ] texte[12]+texte[18]
+?[Que va afficher ce programme ? ]
+-[ ] [0, 3, 6, 9, 12] 
+-[ ] [0, 1, 2 ,3, 4]
+-[x] [0, 1, 8, 27, 64]
+-[ ] [0, 1, 4, 9, 16]
 
 ---
 
 ###### QCM 7
 ```python
-texte = "Un chasseur sachant chasser doit savoir chasser sans son chien."
 print(...)
 ```  
-?[Que faut-il mettre à la place des ... pour afficher le nombre de "e" dans ce texte ? ]
--[x] texte.count("e")
--[ ] count("e")
--[ ] count(texte,"e")
--[ ] texte.count(e)
+?[Que faut-il mettre à la place des ... pour afficher la liste des carrés des entiers de 5 à 10 compris c'est à dire [25, 36, 49, 64, 81, 100] ? ]
+-[x] [n**2 for n in range(5,11)]
+-[ ] [n for n in range(5**2,10**2)]
+-[ ] [n**2 for n in range(5,10)]
+-[ ] list(range(5,11))**2
 
 ---
 
 ###### QCM 8
 ```python
-texte = "Un chasseur sachant chasser doit savoir chasser sans son chien."
-print(texte.find("ch"))
+liste=["maths", "info", "python", "exposants", "alpha", "fonctions", "parabole", "equilateral", "orthogonal", "cercles", "isocèle" ]
+print(...)
 ```  
-?[Que va afficher ce programme ? ]
--[x] 3
--[ ] 4
--[ ] 5
--[ ] 3, 13, 19, 39, 57
+?[Que faut-il mettre à la place des ... pour afficher la liste des mots de la liste donnée qui se terminent par un "s" ? ]
+-[ ] [ mot for mot in liste ]
+-[ ] [ mot for mot in liste if mot[4]=="s"]
+-[ ] [ mot for mot in liste if mot[0]=="s"]
+-[x] [ mot for mot in liste if mot[-1]=="s"]
+
 
 ---
 
 ###### QCM 9
 ```python
-texte = "Un chasseur sachant chasser doit savoir chasser sans son chien."
-print(texte.replace("ss","ch"))
+grille= [[1,2,3],[4,5,6],[7,8,9]]
+print(grille[2][1])
 ```  
 ?[Que va afficher ce programme ? ]
--[ ] "Un ssasseur sassant ssasser doit savoir ssasser sans son ssien."
--[ ] "Un chacheur sachant chacher doit savoir chacher sanchon chien."
--[ ] "Un chacheur chachant chacher doit chavoir chacher chanch chon chien."
--[x] "Un chacheur sachant chacher doit savoir chacher sans son chien."
-
----
-
-###### QCM 10
-```python
-texte = "Un chasseur sachant chasser doit savoir chasser sans son chien."
-print("ch" in texte)
-print("chant" in texte)
-print("Un chien" in texte)
-print("r s" in texte)
-print("u" in texte)
-```  
-?[Cochez les cases correspondant au numéro des lignes qui vont afficher True ]
--[x] 2
--[x] 3
 -[ ] 4
--[x] 5
+-[x] 8
+-[ ] 2
 -[ ] 6
+
+<!--
 
 # Entrainement 
 
@@ -272,3 +254,5 @@ Pour le texte donné dans la fenêtre ci-dessous, créer un programme qui affich
 Pour l'affichage, on utilisera `print` et les indices seront affichés en allant à la ligne à chaque fois.
 
 @[Exercice 3]({"stubs": ["Chaines_caracteres/chaine_exo_1.py"], "command": "python3 Chaines_caracteres/chaine_exo_1_Test.py"})
+
+-->
