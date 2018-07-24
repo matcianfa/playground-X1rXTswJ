@@ -1,4 +1,6 @@
 # Un vrai défi ce problème !
+# Temps d'execution de ce programme : 45 min environ
+# Si vous voyez comment l'améliorer, vous pouvez me contacter à l'adresse : matcianfapro@outlook.com
 '''
 Plusieurs remarques qu'on peut se faire en reflechissant au problème :
 - On peut enchainer les changements dans l'ordre que l'on veut.
@@ -18,8 +20,6 @@ Pour cela, on remarque qu'il suffit de compter les premières lignes et utiliser
 
 Le programme qui suit est très lent mais fonctionne. Il y a surement des moyens d'optimiser encore
 '''
-from time import time
-
 
 # Fonction qui donne le nombre cases à inverser en fonction de la taille n
 def nb_inversion(n):
