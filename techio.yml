@@ -110,6 +110,8 @@ plan:
   plan:
   - title: Introduction
     statement: Les_listes/Introduction.md
+  - title: Cours - Les listes
+    statement: Les_listes/Cours listes.md
   - title: Manipulations de base
     statement: Les_listes/Manipulations de base.md
   - title: Indices du plus petit élément dans une liste
