@@ -6,7 +6,7 @@ NxN disques sont placés sur un grille carrée. Chaque disque a une face blanche
 
 A chaque tour, on peut choisir un disque et tourner alors tous les disques de la même ligne et colonne : Il y a donc 2N-1 disques retournés. Le jeu fini quand tous les disques montrent la face blanche. Voici un exemple de jeu sur une grille 5x5.
 
-[Jeu](https://projecteuler.net/project/images/p331_crossflips3.gif)
+![Jeu](https://projecteuler.net/project/images/p331_crossflips3.gif)
 
 On peut prouver que 3 est le nombre minimum de tours pour finir le jeu.
 
