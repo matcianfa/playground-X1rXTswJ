@@ -16,7 +16,7 @@ On pose $`C_n`$ la configuration de la grille avec NxN disques suivante : Un dis
 
 On pose $`T_N)`$ le nombre minimal de tours pour finir le jeu qui commence à la configuration $`C_N`$ or 0 if configuration $`C_N`$ n'a pas de solution. On a $`T(5)=3`$. On peut montrer que T(10)=29 et T(1 000)=395253.
 
-Trouver $`\Sum\limits_{i=3}^{31}T(2^i-i)`$
+Trouver $`\sum\limits_{i=3}^{31}T(2^i-i)`$
 
 On affichera le résultat avec `print`.
 
