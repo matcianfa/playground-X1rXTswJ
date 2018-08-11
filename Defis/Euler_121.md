@@ -20,7 +20,7 @@ On affichera le résultat avec `print`.
 `Difficulté : Moyen (40%)`
 `Origine : Projet Euler n°122`
 
-LA méthode la plus naïve pour calculer $`n^{15}`$ requière 14 multiplications :
+La méthode la plus naïve pour calculer $`n^{15}`$ requière 14 multiplications :
 
 $`n\times n \times n\times ... \times n = n ^{15}`$.
 
@@ -48,5 +48,23 @@ Pour 1 ≤ k ≤ 200, Trouver la somme des m(k).
 On affichera le résultat avec `print`.
 
 @[Calculs de puissances efficaces]({"stubs": ["Defis/Euler_122.py"], "command": "python3 Defis/Euler_122_Test.py"})
+
+---
+
+# Reste de carré de nombres premiers
+`Difficulté : Moyen (30%)`
+`Origine : Projet Euler n°123`
+
+On pose $`p_n`$ le n-ième nombre premier et r le reste de la division euclidienne de $`(p_n-1)^n+(p_n+1)^n`$ par $`p_n^2`$.
+
+Par exemple, quand n = 3, $`p_3=5`$ et $`4^3+6^3 = 280 \equiv 5 [25]`$.
+
+La plus petite valeur de n pour laquelle le reste dépasse pour la première fois $`10^9`$ est 7037.
+
+Trouver la plus petit valeur de n pour laquelle le reste dépasse pour la première fois $`10^{10}`$.
+
+On affichera le résultat avec `print`.
+
+@[Reste de carré de nombres premiers]({"stubs": ["Defis/Euler_123.py"], "command": "python3 Defis/Euler_123_Test.py"})
 
 ---
