@@ -14,7 +14,7 @@ Le disque en bas à gauche de la grille a pour coordonnées (0,0), celui en bas 
 
 On pose $`C_n`$ la configuration de la grille avec NxN disques suivante : Un disque de coordonnées (x,y) vérifiant $`(N-1)^2\leq x^2 + y^2 \leq N^2`$ montre sa face noire. Sinon, il montre sa face blanche. $`C_5`$ est l'exemple ci-dessus.
 
-On pose $`T_N)`$ le nombre minimal de tours pour finir le jeu qui commence à la configuration $`C_N`$ or 0 if configuration $`C_N`$ n'a pas de solution. On a $`T(5)=3`$. On peut montrer que T(10)=29 et T(1 000)=395253.
+On pose $`T(N)`$ le nombre minimal de tours pour finir le jeu qui commence à la configuration $`C_N`$ ou 0 si la configuration $`C_N`$ n'a pas de solution. On a $`T(5)=3`$. On peut montrer que T(10)=29 et T(1 000)=395253.
 
 Trouver $`\sum\limits_{i=3}^{31}T(2^i-i)`$
 
