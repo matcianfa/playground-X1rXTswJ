@@ -79,8 +79,8 @@ Si on calcule rad(n) pour 1 ≤ n ≤ 10, et qu'on les ordonne selon rad(n) et s
 
 ###### Non trié :
 
-| n | rad(n) |
-| - | ------ |
+| n  | rad(n) |
+| -- | ------ |
 | 1 | 1 |
 | 2 | 2 |
 | 3 | 3 |
