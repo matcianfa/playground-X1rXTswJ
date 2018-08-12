@@ -68,3 +68,29 @@ On affichera le résultat avec `print`.
 @[Reste de carré de nombres premiers]({"stubs": ["Defis/Euler_123.py"], "command": "python3 Defis/Euler_123_Test.py"})
 
 ---
+
+# Radicaux ordonnés
+`Difficulté : Moyen (25%)`
+`Origine : Projet Euler n°124`
+
+Le radical de n, rad(n) est le produit des facteurs premiers distincts de n. Par exemple, $`504=2^3 \times 3^2 \times 7`$ donc $`rad(504)= 2\times 3 \times 7= 42`$.
+
+Si on calcule rad(n) pour 1 ≤ n ≤ 10, et qu'on les ordonne selon rad(n) et selon n si les radicaux sont égaux, on obtient :
+
+| Non triés | Triés |
+| --------- | ----- |
+| n | rad(n) | n | rad(n) |
+| - | ------ | - | ------ |
+| 1 | 1 | 1 | 1 |
+| 2 | 2 | 2 | 2 |
+| 3 | 3 | 4 | 2 |
+
+Si on pose E(k) le k-ième élément dans la colonne des n triés, on a par exemple E(4) = 8 et E(6) = 9.
+
+Si rad(n) est trié pour 1 ≤ n ≤ 100000, trouver E(10000).
+
+On affichera le résultat avec `print`.
+
+@[Radicaux ordonnés]({"stubs": ["Defis/Euler_124.py"], "command": "python3 Defis/Euler_124_Test.py"})
+
+---
