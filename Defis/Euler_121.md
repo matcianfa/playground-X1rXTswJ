@@ -78,6 +78,7 @@ Le radical de n, rad(n) est le produit des facteurs premiers distincts de n. Par
 Si on calcule rad(n) pour 1 ≤ n ≤ 10, et qu'on les ordonne selon rad(n) et selon n si les radicaux sont égaux, on obtient :
 
 ###### Non trié :
+
 | n | rad(n) |
 | - | ------ |
 | 1 | 1 |
@@ -92,6 +93,7 @@ Si on calcule rad(n) pour 1 ≤ n ≤ 10, et qu'on les ordonne selon rad(n) et s
 | 10 | 10 |
 
 ###### Trié :
+
 | n | rad(n) | rang k |
 | - | ------ | ------ |
 | 1 | 1 | 1 |
