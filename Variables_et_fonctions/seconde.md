@@ -1,4 +1,4 @@
-# Exercices de niveau seconde ou moins
+# Exercices de niveau Seconde ou moins
 
 Voici des exercices sur le chapitre Variables et fonctions mathématiques qui nécessitent un niveau de Seconde au maximum en mathématique.
 
@@ -71,3 +71,16 @@ Entre autre, on a les propriétés suivantes :
 @[Périmètre et aire d'un polygone régulier]({"stubs": ["Variables_et_fonctions/Perimetre_et_aire_polygone_regulier.py"], "command": "python3 Variables_et_fonctions/Perimetre_et_aire_polygone_regulier_Test.py"})
 
 ---
+
+# Bases armées
+`Difficulté : Facile à moyenne`  
+`Notion : Division euclidienne`  
+`Origine :` [`Hackerrank`](https://www.hackerrank.com/challenges/game-with-cells/problem)
+
+Luke est dans ses pensées pendant un cours de maths. Sur un papier quadrillé de ***n*** lignes et ***m*** colonnes, il imagine que chaque case est une base armée. Il veut envoyer des fournitures à ses bases à des points stratégiques, en marquant chaque point en rouge. Si une base contient au moins un colis de fourniture dedans ou sur un de ses bords, on qu'onsidère qu'il y a accès. Par exemple : 
+![Fournitures](https://s3.amazonaws.com/hr-challenge-images/0/1479944215-79f12638a7-example-army-game.png)
+
+Etant donnés ***n*** et ***m***, quel est le nombre minimum de colis que Luke doit envoyer pour fournir toutes ses bases ?
+
+@[Bases armées]({"stubs": ["Variables_et_fonctions/Bases_armees.py"], "command": "python3 Variables_et_fonctions/Bases_armees_Test.py"})
+
