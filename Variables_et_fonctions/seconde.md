@@ -18,8 +18,8 @@ Dans le pire des cas, combien doit-il prendre de chaussettes dans son tiroir pou
 
 # Symétrie centrale
 `Difficulté : Très facile`  
-`Notion : Symétrie centrale, Vecteurs`  
-`Origine : [Hackerrank](https://www.hackerrank.com/challenges/find-point/problem)`
+`Notions : Symétrie centrale, Vecteurs`  
+`Origine :` [`Hackerrank`](https://www.hackerrank.com/challenges/find-point/problem)
 
 A partir de deux points P et Q, on peut créer un troisième point R symétrique de P par rapport à Q comme sur la figure ci-dessous :
 ![figure symetrie](https://s3.amazonaws.com/hr-challenge-images/128/1476207535-debed1b871-find-point-1122.png)
