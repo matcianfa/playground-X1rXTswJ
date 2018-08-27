@@ -114,6 +114,8 @@ plan:
     statement: Les_listes/Complements listes.md
   - title: Manipulations de base
     statement: Les_listes/Manipulations de base.md
+  - title: Exercices de Seconde
+    statement: Les_listes/seconde.md
   - title: Indices du plus petit élément dans une liste
     statement: Les_listes/Plus petits elements.md
   - title: Retirer les doublons
