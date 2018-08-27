@@ -1,5 +1,7 @@
 # Exercices de niveau seconde ou moins
 
+Voici des exercices sur le chapitre Variables et fonctions mathématiques qui nécessitent un niveau de Seconde au maximum en mathématique.
+
 # Périmètre et aire d'un polygone régulier
 `Difficulté : Facile`
 
