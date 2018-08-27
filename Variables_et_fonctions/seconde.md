@@ -3,7 +3,7 @@
 Voici des exercices sur le chapitre Variables et fonctions mathématiques qui nécessitent un niveau de Seconde au maximum en mathématique.
 
 # Symétrie centrale
-`Difficulté : Très facile`
+`Difficulté : Très facile`  
 `Notion : Symétrie centrale, Vecteurs`
 
 A partir de deux points P et Q, on peut créer un troisième point R symétrique de P par rapport à Q comme sur la figure ci-dessous :
