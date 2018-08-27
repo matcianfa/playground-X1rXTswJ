@@ -4,7 +4,7 @@ Voici des exercices sur le chapitre Variables et fonctions mathématiques qui n�
 
 # Paires de chaussettes
 `Difficulté : Très Facile`  
-`Origine : [Hackerrank](https://www.hackerrank.com/challenges/maximum-draws/problem)`
+`Origine :` [`Hackerrank`](https://www.hackerrank.com/challenges/maximum-draws/problem)
 
 Baptiste cherche des chaussettes pour aller à une soirée. Son tiroir est plein de chaussettes, chaque paire est de couleur différente. Pour choisir une chaussette, il met sa main dans le tiroir et ne voit la couleur de la chaussette qu'une fois qu'il l'a sortie du tiroir.
 
