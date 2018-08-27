@@ -16,6 +16,8 @@ Dans le pire des cas, combien doit-il prendre de chaussettes dans son tiroir pou
 
 @[Chacun cherche ses chaussettes sèches]({"stubs": ["Variables_et_fonctions/Chaussettes.py"], "command": "python3 Variables_et_fonctions/Chaussettes_Test.py"})
 
+---
+
 # Symétrie centrale
 `Difficulté : Très facile`  
 `Notions : Symétrie centrale, Vecteurs`  
@@ -31,6 +33,21 @@ Le but de cet exercice est de créer un programme qui prend en entrée les coord
 > Sortie : Les coordonnées du symétrique R de P par rapport à Q. On affichera les résultats d'affilée, simplement séparés d'un espace. Pour cela, on utilisera simplement la syntaxe `print(x,y)`
 
 @[Symétrie centrale]({"stubs": ["Variables_et_fonctions/Symetrie_centrale.py"], "command": "python3 Variables_et_fonctions/Symetrie_centrale_Test.py"})
+
+---
+
+# Nombre de bises au nouvel an
+`Difficulté : Facile`
+
+Des amis passent le soir du reveillon du nouvel an ensemble. A minuit, chacun embrasse (en faisant deux bises) tous les autres invités.
+
+Combien y a-t-il eu de bises échangées pas les invités pour ce nouvel an ?
+
+> Entrée : Le nombre ***n*** d'invités.
+
+> Sortie : Le nombre de bises échangées pour ce nouvel an.
+
+@[Nombre de bises]({"stubs": ["Variables_et_fonctions/Bises.py"], "command": "python3 Variables_et_fonctions/Bises_Test.py"})
 
 ---
 
