@@ -15,7 +15,7 @@ input_output=[\
 
 
 #message d'aide si besoin
-help="N'oublie pas d'utiliser print(x,y) pour afficher le resultat. Attention à bien changer les angles en radians aussi."
+help="N'oublie pas d'utiliser print(x,y) pour afficher le resultat. "
 
 #Afficher la correction
 def afficher_correction():
