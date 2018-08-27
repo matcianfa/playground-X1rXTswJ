@@ -52,6 +52,10 @@ plan:
     statement: Les_boucles/presentation_for.md
   - title: Compléments sur les boucles
     statement: Les_boucles/Complements boucles.md
+  - title: Cours - Les boucles while
+    statement: Les_boucles/Cours boucles while.md
+  - title: Exercices de niveau Seconde ou moins
+    statement: Les_boucles/seconde.md
   - title: Factorielle d'un nombre
     statement: Les_boucles/factorielle.md
   - title: Calcul des termes d'une suite
@@ -66,8 +70,6 @@ plan:
     statement: Les_boucles/Sommes de dés.md
   - title: Nombres premiers
     statement: Les_boucles/Nombres premiers.md
-  - title: Cours - Les boucles while
-    statement: Les_boucles/Cours boucles while.md
   - title: Recherche de seuil
     statement: Les_boucles/Recherche de seuil.md
   - title: Escargot de Gardner
