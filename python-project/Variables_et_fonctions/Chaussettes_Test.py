@@ -10,12 +10,12 @@ input_output=[\
 (2,"2"),\
 (4,"3"),\
 (10,"6"),\
-(12345788*2,"123456789")\
+(123456788*2,"123456789")\
 ]
 
 
 #message d'aide si besoin
-help="N'oublie pas d'utiliser print(x,y) pour afficher le resultat. Attention à bien changer les angles en radians aussi."
+help="N'oublie pas d'utiliser print(x) pour afficher le resultat."
 
 #Afficher la correction
 def afficher_correction():
