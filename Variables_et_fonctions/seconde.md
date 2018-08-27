@@ -1,6 +1,6 @@
 # Exercices de niveau seconde ou moins
 
-## Périmètre et aire d'un polygone régulier
+# Périmètre et aire d'un polygone régulier
 `Difficulté : Facile`
 
 Le but de cet exercice est de créer un programme qui, pour un nombre ***n***, donne le périmètre et l'aire du polygone régulier convexe à ***n*** côtés inscrit dans un cercle de rayon 1.
