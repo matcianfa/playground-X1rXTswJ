@@ -2,9 +2,24 @@
 
 Voici des exercices sur le chapitre Variables et fonctions mathématiques qui nécessitent un niveau de Seconde au maximum en mathématique.
 
+# Paires de chaussettes
+`Difficulté : Très Facile`  
+`Origine : [Hackerrank](https://www.hackerrank.com/challenges/maximum-draws/problem)`
+
+Baptiste cherche des chaussettes pour aller à une soirée. Son tiroir est plein de chaussettes, chaque paire est de couleur différente. Pour choisir une chaussette, il met sa main dans le tiroir et ne voit la couleur de la chaussette qu'une fois qu'il l'a sortie du tiroir.
+
+Dans le pire des cas, combien doit-il prendre de chaussettes dans son tiroir pour être sûr d'avoir une paire de la même couleur ?
+
+> Entrée : Le nombre ***n*** de chaussettes dans le tiroir.
+
+> Sortir : Le nombre de chaussettes que Baptiste doit sortir dans le pire des cas du tiroir être sûr d'avoir une paire de la même couleur.
+
+@[Chacun cherche ses chaussettes sèches]({"stubs": ["Variables_et_fonctions/Chaussettes.py"], "command": "python3 Variables_et_fonctions/Chaussettes_Test.py"})
+
 # Symétrie centrale
 `Difficulté : Très facile`  
-`Notion : Symétrie centrale, Vecteurs`
+`Notion : Symétrie centrale, Vecteurs`  
+`Origine : [Hackerrank](https://www.hackerrank.com/challenges/find-point/problem)`
 
 A partir de deux points P et Q, on peut créer un troisième point R symétrique de P par rapport à Q comme sur la figure ci-dessous :
 ![figure symetrie](https://s3.amazonaws.com/hr-challenge-images/128/1476207535-debed1b871-find-point-1122.png)
