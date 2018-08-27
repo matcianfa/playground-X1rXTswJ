@@ -41,4 +41,4 @@ def afficher_correction(module):
             for ligne in lignes:
                 send_msg("Exemple(s) de correction", ligne)
     except:
-pass
+        pass
