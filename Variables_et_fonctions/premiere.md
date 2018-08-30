@@ -1,6 +1,6 @@
 # Exercices de niveau Première
 
-Voici des exercices sur les variables et les fonctions mathématiques qui nécessitent des notions du programme de première.
+Voici des exercices sur les variables et les fonctions mathématiques qui nécessitent des notions du programme de Première.
 
 # Calcul du discriminant
 `Difficulté : Très facile`  
@@ -27,6 +27,24 @@ Le but de cet exercice est de créer un programme qui calcul de produit scalaire
 >Sortie : Le produit scalaire $`\vec u_1 .\vec u_2 =x_1.x_2+y_1.y_2`$.
 
 @[Calcul du produit scalaire]({"stubs": ["Variables_et_fonctions/Calcul_du_produit_scalaire.py"], "command": "python3 Variables_et_fonctions/Calcul_du_produit_scalaire_Test.py"})
+
+---
+
+# Somme de termes d'une suite
+`Difficulté informatique : Très facile`  
+`Difficulté mathématique : Facile`  
+`Notion : Suites`  
+`Origine :` [`Hackerrank`](https://www.hackerrank.com/challenges/summing-the-n-series/problem)
+
+On pose $`T_n = n^2 - (n-1)^2`$ ainsi que $`S_n = T_1+ T_2 + T_3+... + T_n`$.
+
+Etant donné ***n***, afficher la valeur de $`S_n`$.
+
+> Entrée : La valeur de l'entier naturel non nul ***n***.
+
+> Sortie : La valeur de $`S_n`$.
+
+@[Somme de termes d'une suite]({"stubs": ["Variables_et_fonctions/Somme_telescopique.py"], "command": "python3 Variables_et_fonctions/Somme_telescopique_Test.py"})
 
 ---
 
