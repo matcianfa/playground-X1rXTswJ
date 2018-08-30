@@ -1,4 +1,4 @@
-# Exercices de niveau Seconde ou moins
+# Exercices de niveau Seconde
 
 Voici des exercices sur le chapitre Variables et fonctions mathématiques qui nécessitent un niveau de Seconde au maximum en mathématique.
 
