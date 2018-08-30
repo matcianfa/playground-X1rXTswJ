@@ -42,4 +42,23 @@ Entre autre, on a les propriétés suivantes :
 
 ---
 
+# Carreaux mouvants
+`Difficulté informatique : Facile`  
+`Difficulté mathématique : Moyenne`  
+`Notions : Vecteurs, vitesse`  
+`Origine :` [`Hackerrank`](https://www.hackerrank.com/challenges/sherlock-and-moving-tiles/problem)
+
+On considère deux carreaux carrés de côté L, initialement tous les deux placés de manière à avoir leur coin inférieur gauche sur l'origine du repère et leurs cotés parallèles aux axes.
+
+A t=0, les deux carreaux commencent à bouger sur la ligne y=x (pour x et y positifs) avec une vitesse $`V_1`$ et $`V_2`$.
+
+Pour une valeur q donnée, afficher la valeur du temps t pour lequel l'aire de l'intersection des deux carreaux est égale à q.
+![figure](https://s3.amazonaws.com/hr-challenge-images/5519/1422784979-db005a0a44-drawing-3.svg)
+
+> Entrée : Les valeurs de L, V1, V2 et q.
+
+> Sortie : La valeur de t cherchée.
+
+@[Carreaux mouvants]({"stubs": ["Variables_et_fonctions/Carreaux_mouvants.py"], "command": "python3 Variables_et_fonctions/Carreaux_mouvants_Test.py"})
+
 
