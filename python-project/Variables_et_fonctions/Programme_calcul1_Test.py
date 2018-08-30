@@ -7,7 +7,7 @@ from ma_bao import *
 tester("from Programme_calcul1 import mon_programme",globals())
 
 #liste des couples input/output
-input_output=[2,3,5,18,-5]
+input_output=[2,3,5,18,-3]
 
 def verif(n):
   reponses=[]
