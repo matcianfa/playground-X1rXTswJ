@@ -19,7 +19,8 @@ Dans le pire des cas, combien doit-il prendre de chaussettes dans son tiroir pou
 ---
 
 # Nombre de bises au nouvel an
-`Difficulté : Facile`
+`Difficulté informatique : Très facile`  
+`Difficulté mathématique : Facile`
 
 Des amis passent le soir du reveillon du nouvel an ensemble. A minuit, chacun embrasse (en faisant deux bises) tous les autres invités.
 
@@ -38,7 +39,8 @@ On pourra considérer le nombre de bises que doit faire chaque personne puis rem
 ---
 
 # Bases armées
-`Difficulté : Facile à moyenne`  
+`Difficulté informatique : Très facile`  
+`Difficulté mathématique : Moyenne`  
 `Notion : Division euclidienne`  
 `Origine :` [`Hackerrank`](https://www.hackerrank.com/challenges/game-with-cells/problem)
 
@@ -48,3 +50,34 @@ Luke est dans ses pensées pendant un cours de maths. Sur un papier quadrillé d
 Etant donnés ***n*** et ***m***, quel est le nombre minimum de colis que Luke doit envoyer pour fournir toutes ses bases ?
 
 @[Bases armées]({"stubs": ["Variables_et_fonctions/Bases_armees.py"], "command": "python3 Variables_et_fonctions/Bases_armees_Test.py"})
+
+---
+
+# Découpe de morceaux de papier
+`Difficulté informatique: Très facile`  
+`Difficulté mathématique : Moyenne`  
+`Origine : ` [`Hackerrank`](https://www.hackerrank.com/challenges/p1-paper-cutting/problem)
+
+Marie veut découper un morceau de papier de dimmension $`n\times m`$ en morceau de papier de dimension $`1\times 1`$ selon les règles suivantes :
+
++ Elle ne peut couper qu'un morceau de papier à la fois, c'est à dire qu'elle ne peut pas placer des papiers déjà découpés les uns sur les autres ou d'affilée. Elle ne peut pas non plus les plier avant de les découper.
+
++ Elle découpe en ligne droite horizonthalement ou bien verticalement uniquement.
+
+Voici un exemple montrant les trois seules découpes possibles dans ce cas :
+![Découpes](https://s3.amazonaws.com/hr-challenge-images/26273/1476740077-bd1ab26d74-example-cutting-squares.png)
+
+Etant donnés n et m, trouver et afficher (avec `print` le nombre minimum de découpe que Marie peut faire pour découper le papier en carré unité.
+
+> Entrée : Les dimmensions entières ***n*** et ***m*** du morceau de papier au départ.
+
+> Sortie : Le nombre minimum de découpe nécessaire pour n'obtenir plus que des petits carrés de dimensions $`1\times 1`$
+
+:::  Indication :
+On pourra remarquer que chaque coup de ciseau rajoute un au nombre de morceaux de papier qu'on a ...
+:::
+
+@[Découpe de morceaux de papier]({"stubs": ["Variables_et_fonctions/Decoupe_papier.py"], "command": "python3 Variables_et_fonctions/Decoupe_papier_Test.py"})
+
+---
+
