@@ -77,8 +77,8 @@ print(resultat)
 Cette fois ci, il n'affiche rien lorsqu'on n'execute que la commande `resultat=addition(2,3)` et quand on affiche la variable `resultat`, elle contient bien 5.  
 Il faut donc faire très attention à ce que l'on veut faire : retourner un résultat pour le réutiliser (dans ce cas on utilise `return`) ou bien juste afficher pour nous le résultat (dans ce cas on utilise `print`)
 
-+ Remarque très importante : `return` arrete la fonction !
-  Il est très important de savoir que quand on lance un return, la fonction s’arrête. Autrement dit il faut être sûr d'avoir fait tout ce que l'on souhaitait faire avec notre fonction avant de lancer return pour renvoyer le résultat. Cela peut être cependant très pratique par exemple dans une boucle for, dès qu'on a le résultat voulu, on le renvoie sans avoir besoin de finir la boucle. Par exemple, si je cherche à savoir s'il y a un 0 dans une liste de nombres, je pourrais utiliser cette fonction :
+### Remarque très importante : `return` arrete la fonction !  
+Il est très important de savoir que quand on lance un return, la fonction s’arrête. Autrement dit il faut être sûr d'avoir fait tout ce que l'on souhaitait faire avec notre fonction avant de lancer return pour renvoyer le résultat. Cela peut être cependant très pratique par exemple dans une boucle for, dès qu'on a le résultat voulu, on le renvoie sans avoir besoin de finir la boucle. Par exemple, si je cherche à savoir s'il y a un 0 dans une liste de nombres, je pourrais utiliser cette fonction :
   ```python
   def  chercher(liste):
       for nombre in liste:
@@ -290,3 +290,12 @@ print([7, 23] in liste)
 -[x] 8
 -[ ] 9
 
+# A vous !
+
+###### Exercice 1 : Calcul de la valeur d'une fonction
+
+Ecrire une fonction qu'on nommera `f` qui prend en entrée un nombre ***x*** et qui renvoie le résultat de ***3x²+4x-5***
+
+@[Calcul de l'inverse d'un nombre]({"stubs": ["Les_fonctions/Calcul_valeur.py"], "command": "python3 Les_fonctions/Calcul_valeur_Test.py"})
+
+---
