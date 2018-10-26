@@ -149,146 +149,39 @@ print(a)
 Cette fois ci le `print(a)` affichera 4 car le `a` modifié par la fonction est la variable globale.
 Les variables globales vous serviront donc à stocker les informations qui servent pour plusieurs fonctions par exemples alors que les locales servent pour les calculs intermédiaires qui peuvent être oubliés après.
 
-# QCM
+# Chercher l'erreur
 
-Voici quelques QCM pour voir si vous avez bien compris. N'hésitez pas à relire ce qui précède si vous avez un doute.
+Pour chacun des programmes de cette partie, il y a exactement une erreur qu'il faudra corriger pour qu'il fonctionne correctement.
 
-###### QCM 1  
-?[Que puis-je écrire si je veux rajouter le nombre 3 à une liste nommée L ? ]
--[x] L.append(3) 
--[ ] L + 3
--[x] L + [3]
--[ ] L.extend(3)
--[x] L.extend([3])
--[ ] L * 3
-
----
-
-###### QCM 2
-```python
-liste = [ 1, 3 ]
-print(liste * 2)
-```  
-?[Que va afficher ce programme ? ]
--[ ] [ 2, 6 ]
--[ ] [ 1, 3, 2 ]
--[x] [ 1, 3, 1, 3 ]
--[ ] [ 1, 1, 3, 3 ]
--[ ] [ [1, 3], [1, 3] ]
+###### Programme 1  : Calcul d'un carré
+```python runnable
+def carré(x):
+return(x**2)
+    
+print(carré(1.7))
+```
 
 ---
 
-###### QCM 3
-?[Que faut-il écrire pour afficher tous les entiers de 4 à 100 dans l'ordre croissant ? ]
--[x] print(list(range(4,101))) 
--[ ] print(range(4,100))
--[ ] print(list(range(4,100))
--[ ] print([4,5,...,100])
+###### Programme 2  : Calcul d'un quotient
+```python runnable
+def quotient(x,y)
+    return(x/y)
+    
+print(quotient(1.7,2.5))
+```
 
 ---
 
-###### QCM 4
-```python
-liste = [ 1, 5, 4, 12, 7, 9 ,10 , 2]
-print(liste[4])
-```  
-?[Que va afficher ce programme ? ]
--[ ] 2 
--[ ] 3
--[x] 7
--[ ] 12
+###### Programme 3  : Calcul d'un volume
+```python runnable
+def volume(l,L,h):
+    print(l*L*h)
+    
+print(volume(1.7,2.5,3.6))
+```
 
 ---
-
-###### QCM 5
-```python
-liste = [ 1, 5, 4, 12, 7, 9 ,10 , 2]
-print(liste[3:5])
-```  
-?[Que va afficher ce programme ? ]
--[ ] [4, 12, 7]
--[x] [12, 7]
--[ ] [12, 7, 9]
--[ ] [12, 9]
-
----
-
-###### QCM 6
-```python
-liste = [ 1, 5, 4, 12, 7, 9, 10, 2]
-print(...)
-```  
-?[Que faut-il mettre à la place des ... pour afficher [7, 9, 10] ? ]
--[x] liste[4:7]
--[ ] liste[5:7]
--[ ] liste[5:8]
--[ ] liste[4:6]
-
----
-
-###### QCM 7
-```python
-liste = [ 1, 5, 4, 12, 7, 9, 10, 2]
-liste[5] = 6
-print(liste)
-```  
-?[Que va afficher ce programme ? ]
--[ ] [ 1, 6, 4, 12, 7, 9, 10, 2]
--[ ] [ 1, 5, 4, 12, 6, 9, 10, 2]
--[x] [ 1, 5, 4, 12, 7, 6, 10, 2]
--[ ] [ 1, 5, 4, 12, 7, 9, 5, 2]
-
----
-
-###### QCM 8
-```python
-liste = [ 1, 5, 4, 12, 7, 9, 10, 2]
-liste.remove(5)
-print(liste)
-```  
-?[Que va afficher ce programme ? ]
--[x] [ 1, 4, 12, 7, 9 , 10, 2]
--[ ] [ 1, 5, 4, 12, 7, 10, 2]
--[ ] [ 1, 5, 4, 12, 9, 10, 2]
--[ ] [ 1, 5, 4 ]
-
----
-
-###### QCM 9
-```python
-liste = [ 1, 5, 4, 12, 7, 9, 10, 2]
-liste.sort()
-print(liste)
-```  
-?[Que va afficher ce programme ? ]
--[ ] [ 12, 10, 9, 7, 5, 4, 2, 1 ]
--[ ] [ 1, 10, 12, 2, 4, 5, 7, 9]
--[ ] [ 1, 5, 4, 12, 7, 9, 10, 2]
--[x] [ 1, 2, 4, 5, 7, 9, 10, 12]
-
----
-
-###### QCM 10
-```python
-liste = [ 1, 1+1, "un", "2+3", 7,  23, "1", "vingt trois"]
-print(23 in liste)
-print(2 in liste)
-print(5 in liste)
-print("7" in liste)
-print("vingt" in liste)
-print("23" in liste)
-print("vingt trois" in liste)
-print([7, 23] in liste)
-```  
-?[Cochez les cases correspondant au numéro des lignes qui vont afficher True ]
--[x] 2
--[x] 3
--[ ] 4
--[ ] 5
--[ ] 6
--[ ] 7
--[x] 8
--[ ] 9
 
 # A vous !
 
