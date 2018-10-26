@@ -51,12 +51,17 @@ Donnons des exemples :
       dire_chut()
       for i in range(2):
           addition(i,a)
+          
+  ma_fonction(4)
   ```
   
 # La commande `return`
 La commande `return` permet de renvoyer un résultat obtenu par la fonction pour pouvoir l'utiliser dans la suite du programme. Elle est fondamentalement différente de `print` qui ne fait que l'afficher à l'écran (et donc plus utilisable dans notre programme).              
 Reprenons notre fonction addition ci-dessus et essayons de la mettre dans une variable puis d'afficher cette variable.
 ```python runnable
+def addition(a,b):
+      print(a+b)
+      
 resultat=addition(2,3)
 print(resultat)
 ```
