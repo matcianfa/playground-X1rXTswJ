@@ -176,9 +176,9 @@ print(quotient(1.7,2.5))
 ###### Programme 3  : Calcul d'un volume
 ```python runnable
 def volume(l,L,h):
-    print(l*L*h)
+    return(l*L*h)
     
-print(volume(1.7,2.5,3.6))
+volume(1.7,2.5,3.6)
 ```
 
 ---
