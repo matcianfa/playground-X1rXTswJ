@@ -299,3 +299,11 @@ Ecrire une fonction qu'on nommera `f` qui prend en entrée un nombre ***x*** et 
 @[Calcul de l'inverse d'un nombre]({"stubs": ["Les_fonctions/Calcul_valeur.py"], "command": "python3 Les_fonctions/Calcul_valeur_Test.py"})
 
 ---
+
+###### Exercice 2 : Calcul du volume d'un cylindre
+
+Ecrire une fonction qu'on nommera `volume` qui prend en entrée deux nombres ***r*** et ***h*** (dans cet ordre) et qui renvoie le volume d'un cylindre donc la base est un cercle de rayon ***r*** et de hauteur ***h***.
+
+@[Calcul de l'inverse d'un nombre]({"stubs": ["Les_fonctions/Calcul_volume.py"], "command": "python3 Les_fonctions/Calcul_volume_Test.py"})
+
+---
