@@ -124,12 +124,12 @@ Après un `if`ou un `elif`, on a dit qu'il fallait mettre une condition. Une con
     `!=` : différent de.  
     `<` : strictement inférieur.  
     `<=` :inférieur ou égal.  
-    `\>` : strictement supérieur.  
-    `\>=` : supérieur ou égal.  
+    `>` : strictement supérieur.  
+    `>=` : supérieur ou égal.  
 
   Par exemple :  
     `1+1 == 2` est vrai.  
-    `2\*3 == 3` est faux.  
+    `2*3 == 3` est faux.  
     `2+3 != 4` est vrai.  
     `14 >= 15` est faux.  
 
