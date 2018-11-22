@@ -69,7 +69,7 @@ Voici un exemple montrant les trois seules découpes possibles dans ce cas :
 
 Etant donnés n et m, trouver et afficher (avec `print` le nombre minimum de découpe que Marie peut faire pour découper le papier en carré unité.
 
-> Entrée : Les dimmensions entières ***n*** et ***m*** du morceau de papier au départ.
+> Entrée : Les dimensions entières ***n*** et ***m*** du morceau de papier au départ.
 
 > Sortie : Le nombre minimum de découpe nécessaire pour n'obtenir plus que des petits carrés de dimensions $`1\times 1`$
 
