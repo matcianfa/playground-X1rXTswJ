@@ -7,7 +7,7 @@ tester("from Bonbons import mon_programme",globals())
 
 #liste des couples input/output
 input_output=[\
-((1,1),0.11),\
+((1,1),0.11000000000000001),\
 ((10,0),0.4),\
 ((0,10),0.7),\
 ((20,100),7.8)\
