@@ -41,3 +41,7 @@ Elle consiste à décomposer le nombre $`N`$ d'allumettes en somme de nombres de
 Compléter la valeur de $`N`$ ci dessous pour que s'affiche la décomposition de Zeckendorf de ce nombre.  
 
 @[Obtenir la décomposition de Zeckendorf]({"stubs": ["Autre/Zeckendorf0.py","Autre/Zeckendorf.py"], "command": "python3 Autre/Zeckendorf0.py"})
+
+## Prolongement possible
+
+Voici un lien vers un tour de magie utilisant la décomposition de Zeckendorf : [Tour de magie](http://jeux-et-mathematiques.davalan.org/jeux/cartes/add/index.html)
