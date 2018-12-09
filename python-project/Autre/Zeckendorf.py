@@ -21,4 +21,3 @@ def Zeckendorf(N):
     else :
         return Zeckendorf(N-fibonacci(indice))+" + "+str(fibonacci(indice))
         
-print(Zeckendorf(N)) 
