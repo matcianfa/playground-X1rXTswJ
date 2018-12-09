@@ -40,4 +40,4 @@ Elle consiste à décomposer le nombre $`N`$ d'allumettes en somme de nombres de
 
 Compléter la valeur de $`N`$ ci dessous pour que s'affiche la décomposition de Zeckendorf de ce nombre.  
 
-@[Obtenir la décomposition de Zeckendorf]({"stubs": ["Zeckendorf0.py","Zeckendorf.py"], "command": "python3 Zeckendorf0.py"})
+@[Obtenir la décomposition de Zeckendorf]({"stubs": ["Autre/Zeckendorf0.py","Autre/Zeckendorf.py"], "command": "python3 Autre/Zeckendorf0.py"})
