@@ -4,30 +4,6 @@ N =
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Ne pas supprimer ce qui suit
 import Zeckendorf
+print(Zeckendorf.Zeckendorf(N))
