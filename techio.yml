@@ -258,6 +258,10 @@ plan:
     statement: Optimisation/Volterra.md
   - title: Mémoïzation - Approximation de e
     statement: Optimisation/Approximation_de_e.md
+- title : Autre
+  plan:
+  - title: Jeu de nim - Fibonacci
+    statement: Autre/nim_fibonacci.md
 projects:
   python:
     buildCommand: pip3 install --ignore-installed matplotlib Pillow
