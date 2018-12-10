@@ -88,10 +88,15 @@ Parité  :  0 0 0
 
 En remarquant que si notre adversaire est dans une configuration paire, il ne peut pas gagner car cela signifie qu'il y a au moins deux tas contenant des allumettes. Donc la stratégie consiste à laisser toujours notre adversaire dans une configuration paire. 
 1. Si à notre tour, on est dans une configuration impaire, la propriété 2 nous assure qu'on peut mettre notre adversaire dans une configuration paire (comme expliqué ci-dessus) et la propriété 1 nous assure que notre adversaire nous mettra dans une configuration impaire. Donc de fil en aiguille, comme lui ne peut pas gagner (car il sera toujours dans une configuration paire), c'est forcément nous qui allons gagner.
-2. Si à notre tour, on est dans une configuration paire : Soit notre adversaire connait la stratégie et on est sur de perdre sinon, il suffit d'attendre qu'il fasse l'erreur de nous mettre dans une configuration impaire pour dérouler la stratégie du cas précédent.
+2. Si à notre tour, on est dans une configuration paire : Soit notre adversaire connait la stratégie et on est sûr de perdre sinon, il suffit d'attendre qu'il fasse l'erreur de nous mettre dans une configuration impaire pour dérouler la stratégie du cas précédent.
 
 ## Programme pour aider à mettre en place la stratégie gagnante
 
 Il suffit de rentrer sous forme de liste le nombre d'allumettes de chacun des tas pour obtenir les décompositions binaires, la parité ainsi que le nombre d'allumettes à retirer.
 
 @[Stratégie gagnante au jeu de nim]({"stubs": ["Autre/Nim0.py","Autre/Nim.py"], "command": "python3 Autre/Nim0.py"})
+
+## Prolongement possibles
+
+D'autres jeux peuvent se ramener au jeu de Nim que l'ont vient de voir. Par exemple :
+- [Sous forme de pions sur un damier](http://jeux-et-mathematiques.davalan.org/jeux/nim/northcott/index.html)
