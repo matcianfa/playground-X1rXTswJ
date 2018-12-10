@@ -1,3 +1,5 @@
+@[Obtenir la décomposition de Zeckendorf]({"stubs": ["Autre/Zeckendorf0.py","Autre/Zeckendorf.py"], "command": "python3 Autre/Zeckendorf0.py"})
+
 # Jeu de nim : Variante utilisant la suite de Fibonacci
 
 Cette page temporaire a pour but d'être utilisée pour le forum des mathématiques 2019 de Porto Vecchio. Elle est largement inspirée de [cette page](https://blogdemaths.wordpress.com/2012/06/03/devenez-le-maitre-dune-variante-du-jeu-de-nim/).
