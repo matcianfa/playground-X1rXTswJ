@@ -262,6 +262,8 @@ plan:
   plan:
   - title: Jeu de nim - Fibonacci
     statement: Autre/nim_fibonacci.md
+  - title: Jeu de nim - Marienbad
+    statement: Autre/nim_marienbad.md
 projects:
   python:
     buildCommand: pip3 install --ignore-installed matplotlib Pillow
