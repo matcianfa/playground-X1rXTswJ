@@ -1,5 +1,7 @@
 import sys
 
+
+
 def tester(txt,glb=globals()):
     '''
     Permet de tester si le module n'a pas d'erreur de syntaxe ou d'indentation pour pouvoir les rattraper.
@@ -31,6 +33,9 @@ def tester(txt,glb=globals()):
 
 #Afficher la correction
 def afficher_correction(module):
+    """
+    Affiche la correction si elle existe
+    """
     try:
         with open(module+"_Correction.py", "r") as correction :
             ligne="Voici un ou des exemples de corrections possibles"
@@ -40,5 +45,15 @@ def afficher_correction(module):
             lignes=correction.read().split("\n")
             for ligne in lignes:
                 send_msg("Exemple(s) de correction", ligne)
+    except:
+pass
+
+def cheat(module):
+    """
+    Permet d'afficher la correction avec le mot de passe
+    """
+    try:
+        if str(mdp)=="0112358":
+            afficher_correction(module)
     except:
         pass
