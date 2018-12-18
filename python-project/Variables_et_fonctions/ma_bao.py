@@ -63,7 +63,7 @@ def cheat(module,mdp):
     """
     Permet d'afficher la correction avec le mot de passe
     """
-    if str(mdp)=="0112358":
+    if str(mdp)=="112358":
         afficher_correction(module)
     
 
