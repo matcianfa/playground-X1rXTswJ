@@ -46,7 +46,7 @@ def afficher_correction(module):
             for ligne in lignes:
                 send_msg("Exemple(s) de correction", ligne)
     except:
-pass
+        pass
 
 def cheat(module):
     """
@@ -57,3 +57,6 @@ def cheat(module):
             afficher_correction(module)
     except:
         pass
+
+    
+    
