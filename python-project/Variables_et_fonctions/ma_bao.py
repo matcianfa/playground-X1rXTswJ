@@ -52,11 +52,10 @@ def cheat(module):
     """
     Permet d'afficher la correction avec le mot de passe
     """
-    try:
-        if str(mdp)=="0112358":
-            afficher_correction(module)
-    except:
-        pass
+    
+    if str(mdp)=="0112358":
+        afficher_correction(module)
+    
 
     
     
