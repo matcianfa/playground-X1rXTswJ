@@ -4,9 +4,9 @@ import sys
 import io
 from ma_bao import *
 tester("from Bases_armees import mon_programme",globals())
-try:
-    cheat(module,mdp)
-except: pass
+
+cheat(module,mdp)
+
 #liste des couples input/output
 input_output=[\
 ((1,1),1),\
