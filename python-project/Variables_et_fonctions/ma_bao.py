@@ -48,11 +48,10 @@ def afficher_correction(module):
     except:
         pass
 
-def cheat(module):
+def cheat(module,mdp):
     """
     Permet d'afficher la correction avec le mot de passe
     """
-    
     if str(mdp)=="0112358":
         afficher_correction(module)
     
