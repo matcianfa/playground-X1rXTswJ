@@ -1,6 +1,17 @@
 import sys
 
+def send_msg(channel, msg):
+    print("TECHIO> message --channel \"{}\" \"{}\"".format(channel, msg))
 
+
+def success():
+    send_msg("Tests validés","Bravo !")
+    afficher_correction()
+    print("TECHIO> success true")
+
+
+def fail():
+    print("TECHIO> success false")
 
 def tester(txt,glb=globals()):
     '''
