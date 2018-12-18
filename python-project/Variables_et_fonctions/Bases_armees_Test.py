@@ -3,7 +3,7 @@ module="Variables_et_fonctions/Bases_armees"
 import sys
 import io
 from ma_bao import *
-tester("from Bases_armees import mon_programme",globals())
+tester("from Bases_armees import *",globals())
 
 cheat(module,mdp)
 
