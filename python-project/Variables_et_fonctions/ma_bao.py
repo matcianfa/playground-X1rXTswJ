@@ -7,9 +7,9 @@ def send_msg(channel, msg):
     print("TECHIO> message --channel \"{}\" \"{}\"".format(channel, msg))
 
 
-def success():
+def success(module):
     send_msg("Tests validés","Bravo !")
-    afficher_correction()
+    afficher_correction(module)
     print("TECHIO> success true")
 
 
