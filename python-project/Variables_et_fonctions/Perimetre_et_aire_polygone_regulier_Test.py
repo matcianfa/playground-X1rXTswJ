@@ -1,13 +1,3 @@
-module="Variables_et_fonctions/Perimetre_et_aire_polygone_regulier"
-
-import sys
-import io
-from ma_bao import *
-tester("from Perimetre_et_aire_polygone_regulier import mon_programme",globals())
-
-#liste des couples input/output
-input_output=
-
 # A modifier si besoin
 nom_fonction="ma_fonction"
 
