@@ -1,3 +1,5 @@
+from math import *
+
 def ma_fonction(r,theta):
     x=r*cos(theta*pi/180)
     y=r*sin(theta*pi/180)
