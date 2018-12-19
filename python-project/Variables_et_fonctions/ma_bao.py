@@ -5,7 +5,8 @@ code="e44f8cf63970db5c2df0a18153bcdf49"
 
 def send_msg(channel, msg):
     print("TECHIO> message --channel \"{}\" \"{}\"".format(channel, msg))
-
+def a_virer():
+    print(__file__,type(__file__))
 
 def success(module):
     send_msg("Tests validés","Bravo !")
