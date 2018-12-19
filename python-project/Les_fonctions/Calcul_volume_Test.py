@@ -3,7 +3,6 @@ module="Les_conditions/Calcul_volume"
 
 import sys
 import io
-from math import pi
 from ma_bao import *
 tester("from Calcul_volume import volume ",globals())
 
@@ -49,7 +48,7 @@ def test():
     try:
       for inp in input_output:
         outp=f_sol(*inp)
-        count1=f(*inp)
+        count1=volume(*inp)
         assert str(count1) == str(outp), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(str(inp),str(count1),str(outp))
         send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}".format(str(inp),str(count1)))
       success()
