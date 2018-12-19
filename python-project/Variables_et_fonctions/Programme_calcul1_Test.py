@@ -4,7 +4,7 @@ from math import *
 import sys
 import io
 from ma_bao import *
-tester("from Programme_calcul1 import mon_programme",globals())
+tester("from Programme_calcul1 import ma_fonction",globals())
 
 #liste des couples input/output
 input_output=[2,3,5,18,-3]
@@ -73,7 +73,7 @@ def test():
       for n in input_output:
         sauvegarde_stdout=sys.stdout
         sys.stdout=io.StringIO()
-        mon_programme(n)
+        ma_fonction(n)
         corr=verif(n)
         rep = sys.stdout.getvalue().split("\n")
         sys.stdout=sauvegarde_stdout
