@@ -1,6 +1,6 @@
 # A modifier si besoin
-dossier="Variables_et_fonctions/"
-module="Bases_armees"
+#dossier="Variables_et_fonctions/"
+#module="Bases_armees"
 nom_fonction="ma_fonction"
 
 
@@ -15,18 +15,20 @@ help="N'oublie pas d'utiliser return pour afficher le resultat."
 import sys
 # Ma boite à outils
 from ma_bao import * 
+# Donne les noms du dossier et du module (automatiquement avec __file__
+chemin,module=donner_chemin_nom(__file__)
 # On teste s'il n'y a pas d'erreurs de synthaxe etc. et on les montre si besoin
 tester("from {} import *".format(module),globals()) 
 # On renomme ma fonction f
 f=eval(nom_fonction)
 # Si le mot de passe est bon on affiche la correction
 try :  
-    cheat(dossier+module,mdp) 
+    cheat(chemin+module,mdp) 
 except: pass
 # On récupère la fonction solution
 exec("from {}_Correction import {} as f_sol".format(module,nom_fonction))
 
-a_virer()
+
 
 def test():
     try:
@@ -35,7 +37,7 @@ def test():
             sol=f_sol(*valeur)
             assert str(rep) == str(sol), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(str(valeur),str(rep),str(sol))
             send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}".format(str(valeur),str(rep)))
-        success(dossier+module)
+        success(chemin+module)
     except AssertionError as e:
         fail()
         send_msg("Oops! ", e)
