@@ -1,2 +1,2 @@
-def mon_programme(x1,y1,x2,y2):
-  print(x1*x2+y1*y2)
+def ma_fonction(x1,y1,x2,y2):
+  return (x1*x2+y1*y2)
