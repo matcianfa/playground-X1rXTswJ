@@ -20,7 +20,7 @@ tester("from {} import *".format(module),globals())
 f=eval(nom_fonction)
 # Si le mot de passe est bon on affiche la correction
 try :  
-    cheat(module,mdp) 
+    cheat(dossier+module,mdp) 
 except: pass
 # On récupère la fonction solution
 exec("from {}_Correction import {} as f_sol".format(module,nom_fonction))
