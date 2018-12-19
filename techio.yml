@@ -140,7 +140,7 @@ plan:
   plan:
   - title: Introduction
     statement: Les_fonctions/Introduction.md
-  - title: Cours - Les fonctions
+  - title: Cours - Compléments sur les fonctions
     statement: Les_fonctions/Cours fonctions.md
   - title: Exercices de base
     statement: Les_fonctions/Exercices de base.md
