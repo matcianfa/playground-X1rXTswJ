@@ -7,11 +7,11 @@ from math import pi
 from ma_bao import *
 tester("from Calcul_volume import f ",globals())
 
-def f_sol(r,h):
-  return pi*h*r**2
+def f_sol(L,l,h):
+  return L*l*h
   
 #liste des couples input/output
-input_output=[(0,0),(1,1),(1,9),(9,1),(0.5,1.5)]
+input_output=[(0,0,0),(1,1,1),(1,9,5),(9,1,5),(0.5,1.5,2.5)]
 
 
 #message d'aide si besoin
