@@ -2,7 +2,7 @@
 dossier="Variables_et_fonctions/"
 module="Bases_armees"
 nom_fonction="ma_fonction"
-print(__file__)
+
 
 #liste des valeurs à tester
 # Attention de bien mettre dans un tuplet ou une liste les valeurs à tester même si la fonction n'a qu'un argument.
@@ -26,6 +26,7 @@ except: pass
 # On récupère la fonction solution
 exec("from {}_Correction import {} as f_sol".format(module,nom_fonction))
 
+a_virer()
 
 def test():
     try:
