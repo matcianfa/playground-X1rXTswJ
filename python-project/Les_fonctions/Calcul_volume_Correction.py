@@ -1,4 +1,2 @@
-from math import pi
-
-def f(r,h):
-  return pi*h*r**2
+def volume(longueur,largeur,hauteur):
+  return longueur*largeur*hauteur
