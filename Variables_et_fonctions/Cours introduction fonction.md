@@ -71,7 +71,7 @@ resultat=addition(2,3)
 print(resultat)
 ```
 Cette fois ci, il n'affiche rien lorsqu'on n'execute que la commande `resultat=addition(2,3)` et quand on affiche la variable `resultat`, elle contient bien 5.  
-Il faut donc faire très attention à ce que l'on veut faire : retourner un résultat pour le réutiliser (dans ce cas on utilise `return`) ou bien juste afficher pour nous le résultat (dans ce cas on utilise `print`)
+Il faut donc faire très attention à ce que l'on veut faire : retourner un résultat pour le réutiliser (dans ce cas on utilise `return`) ou bien juste afficher pour nous le résultat (dans ce cas on utilise `print`). Il va de soi que si au final, on veut afficher à l'écran le résultat donné par une fonction, il faudra utiliser `print` comme on a fait ci-dessus même si dans la fonction on utilise `return`.
 
 ### Remarque très importante : `return` arrete la fonction !  
 Il est très important de savoir que quand on lance un return, la fonction s’arrête. Autrement dit il faut être sûr d'avoir fait tout ce que l'on souhaitait faire avec notre fonction avant de lancer return pour renvoyer le résultat. Cela peut être cependant très pratique par exemple dans une boucle for, dès qu'on a le résultat voulu, on le renvoie sans avoir besoin de finir la boucle.  
