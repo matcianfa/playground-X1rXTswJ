@@ -1,8 +1,5 @@
 # A modifier si besoin
-#dossier="Variables_et_fonctions/"
-#module="Bases_armees"
 nom_fonction="ma_fonction"
-
 
 #liste des valeurs à tester
 # Attention de bien mettre dans un tuplet ou une liste les valeurs à tester même si la fonction n'a qu'un argument.
@@ -11,6 +8,7 @@ valeurs_a_tester=[(1,1),(1,6),(5,1),(5,6),(8,4),(13,25),(15,27)]
 #message d'aide si besoin
 help="N'oublie pas d'utiliser return pour afficher le resultat."
 
+#------------------------------------
 # Les imports
 import sys
 # Ma boite à outils
@@ -28,8 +26,7 @@ except: pass
 # On récupère la fonction solution
 exec("from {}_Correction import {} as f_sol".format(module,nom_fonction))
 
-
-
+#--------------------------------------
 def test():
     try:
         for valeur in valeurs_a_tester:
@@ -44,5 +41,5 @@ def test():
         if help:
             send_msg("Aide 💡", help)
 
-
+#--------------------------------------
 if __name__ == "__main__": test()
