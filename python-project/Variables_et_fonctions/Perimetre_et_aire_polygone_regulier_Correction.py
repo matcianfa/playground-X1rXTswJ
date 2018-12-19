@@ -1,3 +1,5 @@
+from math import *
+
 def ma_fonction(n):
     coté=2*sin(pi/n)
     périmètre= n*coté
