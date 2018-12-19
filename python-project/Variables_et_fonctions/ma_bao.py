@@ -1,19 +1,26 @@
 import sys
 from hashlib import md5
+import re
 
 code="e44f8cf63970db5c2df0a18153bcdf49"
 
+# Permet de récupérer le chemin d'accès et le nom du module. A utiliser avec __file__
+def donner_chemin_nom(file) :
+    m = re.search(r"(?P<dossier>\w+)/(?P<module>\w+)_Test.py", file)
+    if m is not None:
+        return m.group('dossier'),m.group('module')
+    
+# Fonction qui permet d'envoyer un message sur le channel    
 def send_msg(channel, msg):
     print("TECHIO> message --channel \"{}\" \"{}\"".format(channel, msg))
-def a_virer():
-    print(__file__,type(__file__))
-
+    
+# Ce qu'il faut faire si on a juste
 def success(module):
     send_msg("Tests validés","Bravo !")
     afficher_correction(module)
     print("TECHIO> success true")
 
-
+# Ce qu'il faut faire si on a faux
 def fail():
     print("TECHIO> success false")
 
@@ -65,7 +72,7 @@ def afficher_correction(module):
 
 def cheat(module,mdp):
     """
-    Permet d'afficher la correction avec le mot de passe
+    Permet d'afficher la correction si on a le bon mot de passe
     """
     if str(md5(str(mdp).encode('utf-8')).hexdigest())==code:
         afficher_correction(module)
