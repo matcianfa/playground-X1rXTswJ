@@ -95,3 +95,54 @@ Par exemple, si je souhaite créer une fonction qui, à un nombre $`x`$ renvoie 
   print(f(5))
   ```
         
+# Chercher l'erreur
+
+Pour chacun des programmes de cette partie, il y a exactement une erreur qu'il faudra corriger pour qu'il fonctionne correctement.
+
+###### Programme 1  : Calcul d'un carré
+```python runnable
+def carré(x):
+return(x**2)
+    
+print(carré(1.7))
+```
+
+---
+
+###### Programme 2  : Calcul d'un quotient
+```python runnable
+def quotient(x,y)
+    return(x/y)
+    
+print(quotient(1.7,2.5))
+```
+
+---
+
+###### Programme 3  : Calcul de l'aire d'un triangle
+```python runnable
+def volume(base,hauteur):
+    return(base*hauteur/2)
+    
+volume(1.7,2.5)
+```
+
+---
+
+# A vous !
+
+###### Exercice 1 : Calcul de la valeur d'une fonction
+
+Ecrire une fonction qu'on nommera `f` qui prend en entrée un nombre ***x*** et qui renvoie le résultat de ***3x²+4x-5***
+
+@[Calcul de l'inverse d'un nombre]({"stubs": ["Les_fonctions/Calcul_valeur.py"], "command": "python3 Les_fonctions/Calcul_valeur_Test.py"})
+
+---
+
+###### Exercice 2 : Calcul du volume d'un pavé
+
+Ecrire une fonction qu'on nommera `volume` qui prend en entrée deux nombres ***r*** et ***h*** (dans cet ordre) et qui renvoie le volume d'un cylindre donc la base est un cercle de rayon ***r*** et de hauteur ***h***.
+
+@[Calcul de l'inverse d'un nombre]({"stubs": ["Les_fonctions/Calcul_volume.py"], "command": "python3 Les_fonctions/Calcul_volume_Test.py"})
+
+---
