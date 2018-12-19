@@ -33,7 +33,7 @@ def test():
             sol=f_sol(*valeur)
             assert str(rep) == str(sol), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(str(valeur),str(rep),str(sol))
             send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}".format(str(valeur),str(rep)))
-        success()
+        success(dossier+module)
     except AssertionError as e:
         fail()
         send_msg("Oops! ", e)
