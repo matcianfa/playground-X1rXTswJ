@@ -76,7 +76,7 @@ Il faut donc faire très attention à ce que l'on veut faire : retourner un rés
 ### Remarque très importante : `return` arrete la fonction !  
 Il est très important de savoir que quand on lance un return, la fonction s’arrête. Autrement dit il faut être sûr d'avoir fait tout ce que l'on souhaitait faire avec notre fonction avant de lancer return pour renvoyer le résultat. Cela peut être cependant très pratique par exemple dans une boucle for, dès qu'on a le résultat voulu, on le renvoie sans avoir besoin de finir la boucle.  
 Par exemple, si je souhaite créer une fonction qui, à un nombre $`x`$ renvoie son double et son carré et qu'on écrit :
-  ```python
+  ```python runnable
   def  f(x):
       double = 2*x
       return double
@@ -86,7 +86,7 @@ Par exemple, si je souhaite créer une fonction qui, à un nombre $`x`$ renvoie 
   print(f(5))
   ```
   On voit que la fonction ne va afficher que le double de 5 et non son carré car la fonction s'arrête après avoir exécuté le premier `return`. Pour contourner ce problème, il faut renvoyer les deux variables ensemble en les séparant par une virgule par exemple comme ceci :
-  ```python
+  ```python runnable
   def  f(x):
       double = 2*x
       carré = x*x
@@ -141,7 +141,7 @@ Ecrire une fonction qu'on nommera `f` qui prend en entrée un nombre ***x*** et 
 
 ###### Exercice 2 : Calcul du volume d'un pavé
 
-Ecrire une fonction qu'on nommera `volume` qui prend en entrée deux nombres ***r*** et ***h*** (dans cet ordre) et qui renvoie le volume d'un cylindre donc la base est un cercle de rayon ***r*** et de hauteur ***h***.
+Ecrire une fonction qu'on nommera `volume` qui prend en entrée trois nombres ***longueur***, ***largeur*** et ***hauteur*** (dans cet ordre) et qui renvoie le volume d'un pavé droit dont les dimensions sont ces trois nombres.
 
 @[Calcul de l'inverse d'un nombre]({"stubs": ["Les_fonctions/Calcul_volume.py"], "command": "python3 Les_fonctions/Calcul_volume_Test.py"})
 
