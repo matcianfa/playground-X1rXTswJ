@@ -12,6 +12,8 @@ plan:
     statement: Variables_et_fonctions/Intro_variables.md
   - title: Cours - Variables et opérations
     statement: Variables_et_fonctions/Cours variables et operations.md
+  - title: Cours - Introduction aux fonctions
+    statement: Variables_et_fonctions/Cours introduction fonction.md
   - title: Cours - Module math
     statement: Variables_et_fonctions/Cours module math.md
   - title: Compléments sur les variables et opérations
@@ -266,7 +268,7 @@ plan:
     statement: Autre/nim_marienbad.md
 projects:
   python:
-    buildCommand: pip3 install --ignore-installed matplotlib Pillow
+    #buildCommand: pip3 install --ignore-installed matplotlib Pillow
     root: /python-project
     runner:
       name: python
