@@ -268,7 +268,7 @@ plan:
     statement: Autre/nim_marienbad.md
 projects:
   python:
-    #buildCommand: pip3 install --ignore-installed matplotlib Pillow
+    buildCommand: pip3 install --ignore-installed matplotlib Pillow
     root: /python-project
     runner:
       name: python
