@@ -1,73 +1,44 @@
-module="Variables_et_fonctions/Bases_armees"
+# A modifier si besoin
+dossier="Variables_et_fonctions/"
+module="Bases_armees"
+nom_fonction="ma_fonction"
 
-import sys
-import io
-from ma_bao import *
-tester("from Bases_armees import *",globals())
-try : 
-    cheat(module,mdp) 
-except: pass
-#liste des couples input/output
-input_output=[\
-((1,1),1),\
-((1,6),3),\
-((5,1),3),\
-((5,6),9),\
-((8,4),8),\
-((13,25),91),\
-((15,27),112)\
-]
-
+#liste des valeurs à tester
+# Attention de bien mettre dans un tuplet ou une liste les valeurs à tester même si la fonction n'a qu'un argument.
+valeurs_a_tester=[(1,1),(1,6),(5,1),(5,6),(8,4),(13,25),(15,27)]
 
 #message d'aide si besoin
-help="N'oublie pas d'utiliser print(x) pour afficher le resultat."
+help="N'oublie pas d'utiliser return pour afficher le resultat."
 
-#Afficher la correction
-def afficher_correction():
-    try:
-        with open(module+"_Correction.py", "r") as correction :
-            ligne="Voici un ou des exemples de corrections possibles"
-            send_msg("Exemple(s) de correction", ligne)
-            ligne="-------------------------------------------------"
-            send_msg("Exemple(s) de correction", ligne)
-            lignes=correction.read().split("\n")
-            for ligne in lignes:
-                send_msg("Exemple(s) de correction", ligne)
-    except:
-        pass
+# Les imports
+import sys
+# Ma boite à outils
+from ma_bao import * 
+# On teste s'il n'y a pas d'erreurs de synthaxe etc. et on les montre si besoin
+tester("from {} import *".format(module),globals()) 
+# On renomme ma fonction f
+f=eval(nom_fonction)
+# Si le mot de passe est bon on affiche la correction
+try :  
+    cheat(module,mdp) 
+except: pass
+# On récupère la fonction solution
+exec("from {}_Correction import {} as f_sol".format(module,nom_fonction))
 
-
-
-def send_msg(channel, msg):
-    print("TECHIO> message --channel \"{}\" \"{}\"".format(channel, msg))
-
-
-def success():
-    send_msg("Tests validés","Bravo !")
-    afficher_correction()
-    print("TECHIO> success true")
-
-
-def fail():
-    print("TECHIO> success false")
-    
 
 def test():
     try:
-      for inp,outp in input_output:
-        sauvegarde_stdout=sys.stdout
-        sys.stdout=io.StringIO()
-        mon_programme(*inp)
-        count1 = sys.stdout.getvalue()[:-1]
-        sys.stdout=sauvegarde_stdout
-        assert str(count1) == str(outp), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(str(inp),str(count1),str(outp))
-        send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}".format(str(inp),str(count1)))
-      success()
+        for valeur in valeurs_a_tester:
+            rep=f(*valeur)
+            sol=f_sol(*valeur)
+            assert str(rep) == str(sol), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(str(valeur),str(rep),str(sol))
+            send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}".format(str(valeur),str(rep)))
+        success()
     except AssertionError as e:
-      fail()
-      send_msg("Oops! ", e)
-      if help:
-        send_msg("Aide 💡", help)
+        fail()
+        send_msg("Oops! ", e)
+        if help:
+            send_msg("Aide 💡", help)
 
 
 if __name__ == "__main__": test()
