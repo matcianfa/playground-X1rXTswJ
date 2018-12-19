@@ -1,4 +1,7 @@
 import sys
+from hashlib import md5
+
+code="e44f8cf63970db5c2df0a18153bcdf49"
 
 def send_msg(channel, msg):
     print("TECHIO> message --channel \"{}\" \"{}\"".format(channel, msg))
@@ -63,7 +66,7 @@ def cheat(module,mdp):
     """
     Permet d'afficher la correction avec le mot de passe
     """
-    if str(mdp)=="112358":
+    if str(md5(str(mdp).encode('utf-8')).hexdigest())==code:
         afficher_correction(module)
     
 
