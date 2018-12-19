@@ -1,6 +1,10 @@
 from math import *
 
-def mon_programme(r,theta):
+def ma_fonction(r,theta):
     #Ne pas toucher ce qui précède
     #Les valeurs pour les variables en entrée seront automatiquement données
     #Ecrire ci-dessous en n'oubliant pas d'indenter
+
+    
+    
+    
