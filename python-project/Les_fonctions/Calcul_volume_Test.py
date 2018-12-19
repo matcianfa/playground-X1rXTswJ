@@ -5,7 +5,7 @@ import sys
 import io
 from math import pi
 from ma_bao import *
-tester("from Calcul_volume import f ",globals())
+tester("from Calcul_volume import volume ",globals())
 
 def f_sol(L,l,h):
   return L*l*h
