@@ -1,2 +1,2 @@
-def mon_programme(n,m):
-    print(n*m-1)
+def ma_fonction(n,m):
+    return (n*m-1)
