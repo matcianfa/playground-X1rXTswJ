@@ -1,13 +1,3 @@
-module="Variables_et_fonctions/Prise_en_main_Exo_1"
-
-import sys
-import io
-from ma_bao import *
-tester("from Prise_en_main_Exo_1 import mon_programme",globals())
-
-#liste des couples input/output
-input_output=
-
 # A modifier si besoin
 nom_fonction="ma_fonction"
 
