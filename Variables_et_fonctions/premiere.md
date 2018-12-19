@@ -106,4 +106,4 @@ Vous pouvez tester votre programme avec vos propres valeurs. Pour cela, il suffi
 
 Puis tout en bas de votre programme et sans indentation il suffit de taper `mon_programme(latitude_A, longitude_A,latitude_B,longitude_B)`en remplaçant latitude_A, longitude_A, latitude_B et longitude_B par vos valeurs.
 
----
+
