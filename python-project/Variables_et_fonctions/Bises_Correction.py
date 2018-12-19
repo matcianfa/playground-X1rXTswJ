@@ -1,2 +1,2 @@
-def mon_programme(n):
+def ma_fonction(n):
     print(n*(n-1))
