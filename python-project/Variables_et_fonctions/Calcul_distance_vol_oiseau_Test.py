@@ -12,6 +12,7 @@ help="N'oublie pas d'utiliser return pour renvoyer le resultat."
 # Les imports
 import sys
 # Ma boite à outils
+from math import *
 from ma_bao import * 
 # Donne les noms du dossier et du module (automatiquement avec __file__
 chemin,module=donner_chemin_nom(__file__)
