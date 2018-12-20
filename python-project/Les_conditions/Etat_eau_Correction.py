@@ -1,7 +1,7 @@
-def mon_programme(t):
+def ma_fonction(t):
     if t<0 : 
-        print('SOLIDE')
+        return 'SOLIDE'
     elif t>100 :
-        print('GAZEUX')
+        return 'GAZEUX'
     else :
-        print('LIQUIDE')
+        return 'LIQUIDE'
