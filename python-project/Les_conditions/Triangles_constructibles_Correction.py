@@ -1,7 +1,7 @@
-def mon_programme(a,b,c):
+def ma_fonction(a,b,c):
     if a+b>=c and a+c>=b and b+c>=a:
-        print('CONSTRUCTIBLE')
+        return 'CONSTRUCTIBLE'
     elif a+b==c or a+c==b or b+c==a:
-        print('PLAT')
+        return 'PLAT'
     else:
-        print('PAS CONSTRUCTIBLE')
+        return 'PAS CONSTRUCTIBLE'
