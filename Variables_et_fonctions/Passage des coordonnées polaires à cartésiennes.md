@@ -13,7 +13,7 @@ $`\left\{\begin{array}{l} x= r.cos (\theta) \\ y= r.sin (\theta)\end{array}\righ
 + Je rappelle que le cosinus et sinus en Python sont en radians. Pour les tests, les angles seront donnés en degrés ce qui signifie  qu'il faudra multiplier $`\theta`$ par $`\frac{\pi}{180}`$.
 
 + De plus, les résultats devront être arrondis à 3 chiffres après la virgule. Pour cela, on utilisera la fonction `round( nombre , nombre_de_chiffres_après_la_virgule)`.
-+ Enfin, les résultats ***x*** et ***y*** devront être affiché d'affilée, simplement séparés d'un espace. Pour cela, on utilisera simplement la syntaxe `print(x,y)`
++ Enfin, les résultats ***x*** et ***y*** devront être affiché sous forme de couple ***(x,y)***. Pour cela, on utilisera simplement la syntaxe `return (x,y)`
 
 >Entrée : Les valeurs de $`r`$ et $`\theta`$ (en degrés).
 
