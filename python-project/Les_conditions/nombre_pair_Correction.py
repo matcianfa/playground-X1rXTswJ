@@ -1,5 +1,5 @@
-def mon_programme(n):
+def ma_fonction(n):
     if n%2==0:
-        print('PAIR')
+        return 'PAIR'
     else:
-        print('IMPAIR')
+        return 'IMPAIR'
