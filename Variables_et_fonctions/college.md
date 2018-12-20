@@ -10,7 +10,7 @@ Créer un programme qui donne le prix total payé par Léa en fonction du nombre
 
 > Entrée : Le nombre ***a*** de fraises et ***b*** de réglisses achetés.
 
-> Sorties : le prix payé par Léa et affiché avec la fonction `print`.
+> Sorties : le prix payé par Léa.
 
 @[Ticket de caisse]({"stubs": ["Variables_et_fonctions/Bonbons.py"], "command": "python3 Variables_et_fonctions/Bonbons_Test.py"})
 
@@ -61,7 +61,7 @@ On pourra considérer le nombre de bises que doit faire chaque personne puis rem
 Luke est dans ses pensées pendant un cours de maths. Sur un papier quadrillé de ***n*** lignes et ***m*** colonnes, il imagine que chaque case est une base armée. Il veut envoyer des fournitures à ses bases à des points stratégiques, en marquant chaque point en rouge. Si une base contient au moins un colis de fourniture dedans ou sur un de ses bords, on qu'onsidère qu'il y a accès. Par exemple : 
 ![Fournitures](https://s3.amazonaws.com/hr-challenge-images/0/1479944215-79f12638a7-example-army-game.png)
 
-Etant donnés ***n*** et ***m***, quel est le nombre minimum de colis que Luke doit envoyer pour fournir toutes ses bases ?
+Etant donnés ***n*** et ***m***, érire une fonction qui renvoit le nombre minimum de colis que Luke doit envoyer pour fournir toutes ses bases.
 
 @[Bases armées]({"stubs": ["Variables_et_fonctions/Bases_armees.py"], "command": "python3 Variables_et_fonctions/Bases_armees_Test.py"})
 
@@ -81,7 +81,7 @@ Marie veut découper un morceau de papier de dimmension $`n\times m`$ en morceau
 Voici un exemple montrant les trois seules découpes possibles dans ce cas :
 ![Découpes](https://s3.amazonaws.com/hr-challenge-images/26273/1476740077-bd1ab26d74-example-cutting-squares.png)
 
-Etant donnés n et m, trouver et afficher (avec `print` le nombre minimum de découpe que Marie peut faire pour découper le papier en carré unité.
+Etant donnés n et m, trouver et renvoyer (avec `return`) le nombre minimum de découpe que Marie peut faire pour découper le papier en carré unité.
 
 > Entrée : Les dimensions entières ***n*** et ***m*** du morceau de papier au départ.
 
