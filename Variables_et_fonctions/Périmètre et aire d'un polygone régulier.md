@@ -8,7 +8,7 @@ Entre autre, on a les propriétés suivantes :
 2. l'aire est donnée par la formule : $`aire = \dfrac{périmètre \times \cos\left(\frac{\pi}{n}\right)}2`$
 
 + De plus, les résultats devront être arrondis à 2 chiffres après la virgule. Pour cela, on utilisera la fonction `round( nombre , nombre_de_chiffres_après_la_virgule)`.
-+ Enfin, les résultats ***x*** et ***y*** devront être affiché d'affilée, simplement séparés d'un espace. Pour cela, on utilisera simplement la syntaxe `print(x,y)`
++ Enfin, les résultats ***x*** et ***y*** devront être affiché sous forme de couple ***(x,y)***. Pour cela, on utilisera simplement la syntaxe `return (x,y)`
 
 > Entrée : Le nombre ***n*** de cotés du polygone.
 
