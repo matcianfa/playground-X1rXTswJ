@@ -1,8 +1,8 @@
-def mon_programme(x):
+def ma_fonction(x):
     p=x**2-x-6
     if p>0:
-        print('P(x) strictement positif')
+        return 'P(x) strictement positif'
     elif p<0:
-        print('P(x) strictement négatif')
+        return 'P(x) strictement négatif'
     else :
-        print('P(x) vaut 0')
+        return 'P(x) vaut 0'
