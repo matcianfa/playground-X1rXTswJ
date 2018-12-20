@@ -211,9 +211,7 @@ if ... :
 
 ###### Exercice 1 : Calcul de l'inverse d'un nombre
 
-Ecrire un programme qui prend en entrée un nombre ***x*** et qui renvoie "Impossible" si ***x*** est nul et le resultat de 1/***x*** sinon.
-
-Quand on demande d'afficher, c'est avec `print`.
+Ecrire une fonction qui prend en entrée un nombre ***x*** et qui renvoie "Impossible" si ***x*** est nul et le resultat de 1/***x*** sinon.
 
 @[Calcul de l'inverse d'un nombre]({"stubs": ["Les_conditions/Inverse.py"], "command": "python3 Les_conditions/Inverse_Test.py"})
 
