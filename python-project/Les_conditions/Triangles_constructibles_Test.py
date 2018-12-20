@@ -33,7 +33,7 @@ def test():
             rep=f(*valeur)
             sol=f_sol(*valeur)
             assert str(rep) == str(sol) or (str(rep)=="CONSTRUCTIBLE" and str(sol)=="PLAT"), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(",".join([str(val) for val in valeur]),str(rep),str(sol))
-            send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}".format(",".join([str(val) for val in valeur]),str(sol)))
+            send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}".format(",".join([str(val) for val in valeur]),str(rep)))
         success(chemin+module)
     except AssertionError as e:
         fail()
