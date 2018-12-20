@@ -1,5 +1,5 @@
-def mon_programme(x):
+def ma_fonction(x):
     if x == 0 : 
-        print('Impossible')
+        return 'Impossible'
     else :
-        print(1/x)
+        return 1/x
