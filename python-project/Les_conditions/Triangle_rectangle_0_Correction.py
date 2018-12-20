@@ -1,5 +1,5 @@
-def mon_programme(a,b,c):
+def ma_fonction(a,b,c):
     if a==90 or b==90 or c==90 :
-        print('RECTANGLE')
+        return 'RECTANGLE'
     else :
-        print('PAS RECTANGLE')
+        return 'PAS RECTANGLE'
