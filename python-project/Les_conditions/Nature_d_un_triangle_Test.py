@@ -32,7 +32,7 @@ def test():
         for valeur in valeurs_a_tester:
             rep=f(*valeur)
             sol=f_sol(*valeur)
-            assert str(rep) == str(sol), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(",".join([str(val) for val in valeur]),str(rep),str(sol))
+            assert str(rep) == str(sol) or (str(rep)=="ISOCELE" and str(rep)=="TRIANGLE D'OR"), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(",".join([str(val) for val in valeur]),str(rep),str(sol))
             send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}".format(",".join([str(val) for val in valeur]),str(rep)))
         success(chemin+module)
     except AssertionError as e:
