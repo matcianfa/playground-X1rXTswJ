@@ -1,4 +1,4 @@
-def mon_programme(n):
+def ma_fonction(n):
     print('0',end='')
     if n>0:
         print('.',end='')
