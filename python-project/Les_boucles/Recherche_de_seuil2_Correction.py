@@ -1,9 +1,9 @@
-def mon_programme(u_0,e):
-    if u_0>e: print(0)
-    elif u_0<=0 : print('IMPOSSIBLE')
+def ma_fonction(u0,e):
+    if u0>e: return 0
+    elif u0<=0 : return 'IMPOSSIBLE'
     else:
         n=0
-        while u_0<e:
+        while u0<e:
             n+=1
-            u_0*=2
-        print(n)
+            u0*=2
+        return n
