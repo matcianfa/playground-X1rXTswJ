@@ -4,7 +4,7 @@ module="Les_boucles/Champernowne"
 import sys
 import io
 from ma_bao import *
-tester("from Champernowne import mon_programme",globals())
+tester("from Champernowne import ma_fonction",globals())
 
 #liste des couples input/output
 input_output=[\
@@ -55,7 +55,7 @@ def test():
       for inp,outp in input_output:
         sauvegarde_stdout=sys.stdout
         sys.stdout=io.StringIO()
-        mon_programme(inp)
+        ma_fonction(inp)
         count1 = sys.stdout.getvalue()
         sys.stdout=sauvegarde_stdout
         assert str(count1) == str(outp), "En testant la valeur {} le résultat obtenu est {} au lieu de {}".format(str(inp),str(count1),str(outp))
