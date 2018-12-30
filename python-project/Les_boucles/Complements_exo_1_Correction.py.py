@@ -1,9 +1,9 @@
-def mon_programme(liste):
+def ma_fonction(liste):
     for n in liste :
         if n == 0 :
-            print("0 trouvé")
+            return "0 trouvé"
             break
     else:
-        print("0 non trouvé")
+        return "0 non trouvé"
         
         
