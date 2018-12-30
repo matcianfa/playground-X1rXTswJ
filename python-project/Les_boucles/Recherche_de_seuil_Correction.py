@@ -1,7 +1,7 @@
-def mon_programme(u_0,e):
-    u=u_0
+def ma_fonction(u0,e):
+    u=u0
     n=0
     while u>=e:
         n+=1
         u=0.5*u
-    print(n)
+    return n
