@@ -1,71 +1,45 @@
-#Ne pas oublier de changer le module à importer
-module="Les_boucles/Calcul_terme_suite2"
+# A modifier si besoin
+nom_fonction="ma_fonction"
 
-import sys
-import io
-from ma_bao import *
-tester("from Calcul_terme_suite2 import mon_programme",globals())
-
-#liste des couples input/output
-input_output=[\
-((1,0,2,10),2),\
-((2,0,1,10),1024),\
-((1,5,2,10),52),\
-((0,3,2,10),3),\
-((0,3,2,0),2),\
-((-2,-5,-4,10),-2391)\
-]
-
+#liste des valeurs à tester
+# Attention de bien mettre dans un tuplet ou une liste les valeurs à tester même si la fonction n'a qu'un argument.
+valeurs_a_tester=[(1,0,2,10),(2,0,1,10),(1,5,2,10),(0,3,2,10),(0,3,2,0),(-2,-5,-4,10)]
 
 #message d'aide si besoin
-help=""
+help="N'oublie pas d'utiliser return pour renvoyer le resultat."
 
-#Afficher la correction
-def afficher_correction():
-    try:
-        with open(module+"_Correction.py", "r") as correction :
-            ligne="Voici un ou des exemples de corrections possibles"
-            send_msg("Exemple(s) de correction", ligne)
-            ligne="-------------------------------------------------"
-            send_msg("Exemple(s) de correction", ligne)
-            lignes=correction.read().split("\n")
-            for ligne in lignes:
-                send_msg("Exemple(s) de correction", ligne)
-    except:
-        pass
+#------------------------------------
+# Les imports
+import sys
+# Ma boite à outils
+from ma_bao import * 
+# Donne les noms du dossier et du module (automatiquement avec __file__
+chemin,module=donner_chemin_nom(__file__)
+# On teste s'il n'y a pas d'erreurs de synthaxe etc. et on les montre si besoin
+tester("from {} import *".format(module),globals()) 
+# On renomme ma fonction f
+f=eval(nom_fonction)
+# Si le mot de passe est bon on affiche la correction
+try :  
+    cheat(chemin+module,mdp) 
+except: pass
+# On récupère la fonction solution
+exec("from {}_Correction import {} as f_sol".format(module,nom_fonction))
 
-
-
-def send_msg(channel, msg):
-    print("TECHIO> message --channel \"{}\" \"{}\"".format(channel, msg))
-
-
-def success():
-    send_msg("Tests validés","Bravo !")
-    afficher_correction()
-    print("TECHIO> success true")
-
-
-def fail():
-    print("TECHIO> success false")
-    
-
+#--------------------------------------
 def test():
     try:
-      for inp,outp in input_output:
-        sauvegarde_stdout=sys.stdout
-        sys.stdout=io.StringIO()
-        mon_programme(*inp)
-        count1 = sys.stdout.getvalue()[:-1]
-        sys.stdout=sauvegarde_stdout
-        assert str(count1) == str(outp), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(str(inp),str(count1),str(outp))
-        send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}".format(str(inp),str(count1)))
-      success()
+        for valeur in valeurs_a_tester:
+            rep=f(*valeur)
+            sol=f_sol(*valeur)
+            assert str(rep) == str(sol), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(",".join([str(val) for val in valeur]),str(rep),str(sol))
+            send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}".format(",".join([str(val) for val in valeur]),str(rep)))
+        success(chemin+module)
     except AssertionError as e:
-      fail()
-      send_msg("Oops! ", e)
-      if help:
-        send_msg("Aide 💡", help)
+        fail()
+        send_msg("Oops! ", e)
+        if help:
+            send_msg("Aide 💡", help)
 
-
+#--------------------------------------
 if __name__ == "__main__": test()
