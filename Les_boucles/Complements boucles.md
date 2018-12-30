@@ -130,13 +130,13 @@ print(compteur)
 
 ###### Exercice 1 : 
 
-Ecrire un programme qui prend en entrée une ***liste*** et affichera en sortie s'il contient 0 ou non. Pour cela, il affichera "0 trouvé" ou "0 non trouvé".
+Ecrire un programme qui prend en entrée une ***liste*** et renvoit en sortie s'il contient 0 ou non. Pour cela, il faut renvoyer les chaines de caractères "0 trouvé" ou "0 non trouvé".
 
 > Entrée : Une liste de nombres nommée ***liste***.
 
 > Sortie : "0 trouvé" ou "0 non trouvé" selon les cas.
 
-Quand on demande d'afficher, c'est avec `print`.
+Quand on demande de renvoyer, c'est avec la fonction `return`.
 
 @[Exercice 1]({"stubs": ["Les_boucles/Complements_exo_1.py"], "command": "python3 Les_boucles/Complements_exo_1_Test.py"})
 
