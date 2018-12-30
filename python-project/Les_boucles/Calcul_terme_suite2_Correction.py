@@ -1,5 +1,5 @@
-def mon_programme(a,b,u_0,n):
+def ma_fonction(a,b,u0,n):
     u=u_0
     for i in range(n) :
         u=a*u+b
-    print(u)
+    return u
