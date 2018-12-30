@@ -1,8 +1,8 @@
-def mon_programme(n):
+def ma_fonction(n):
     somme=0
     for d in range(1,n):
         if n%d==0: somme+=d
     if somme == n:
-        print('PARFAIT')
+        return 'PARFAIT'
     else:
-        print('PAS PARFAIT')
+        return 'PAS PARFAIT'
