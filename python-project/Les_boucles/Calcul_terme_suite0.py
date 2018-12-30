@@ -1,4 +1,4 @@
-def mon_programme(n):
+def ma_fonction(n):
   #Remplacez ci-dessous les @ par ce qu'il faut
   #Ne pas oublier d'indenter
   u = @
