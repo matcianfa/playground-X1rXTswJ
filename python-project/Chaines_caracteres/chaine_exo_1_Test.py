@@ -11,6 +11,10 @@ import chaine_exo_1
 count1 = sys.stdout.getvalue()[:-1].split("\n")
 sys.stdout=sauvegarde_stdout
 
+# Si le mot de passe est bon on affiche la correction
+try :  
+    cheat(module,mdp) 
+except: pass
 
 solution=[i for i,c in enumerate(chaine_exo_1.texte) if c=="e"]
 
