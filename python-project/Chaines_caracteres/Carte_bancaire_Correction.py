@@ -1,4 +1,4 @@
-def mon_programme(numero):
+def ma_fonction(numero):
     somme=0
     if len(numero)==16:
         for i in range(16):
@@ -10,8 +10,8 @@ def mon_programme(numero):
                 chiffre=int(numero[i])
             somme+=chiffre
         if somme%10==0:
-            print('VALIDE')
+            return 'VALIDE'
         else:
-            print('NON VALIDE')
+            return 'NON VALIDE'
     else:
-        print('NON VALIDE')
+        return 'NON VALIDE'
