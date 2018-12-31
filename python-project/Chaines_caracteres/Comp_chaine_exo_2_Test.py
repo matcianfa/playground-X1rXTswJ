@@ -20,6 +20,12 @@ for lettre in Comp_chaine_exo_2.texte :
     solution += nouvelle_lettre
     
 
+
+# Si le mot de passe est bon on affiche la correction
+try :  
+    cheat(module,mdp) 
+except: pass
+
 #message d'aide si besoin
 help=""
 
