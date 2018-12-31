@@ -14,6 +14,10 @@ solution=sum([chaine_exo_2.texte.lower().count(v) for v in "aeiouy"])
 
 #message d'aide si besoin
 help=""
+# Si le mot de passe est bon on affiche la correction
+try :  
+    cheat(module,mdp) 
+except: pass
 
 #Afficher la correction
 def afficher_correction():
