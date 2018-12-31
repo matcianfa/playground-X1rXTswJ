@@ -18,7 +18,7 @@ input_output=[\
 
 # Si le mot de passe est bon on affiche la correction
 try :  
-    cheat(chemin+module,mdp) 
+    cheat(module,mdp) 
 except: pass
 
 #message d'aide si besoin
