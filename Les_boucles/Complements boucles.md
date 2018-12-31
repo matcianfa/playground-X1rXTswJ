@@ -138,7 +138,7 @@ Ecrire un programme qui prend en entrée une ***liste*** et renvoit en sortie s'
 
 Quand on demande de renvoyer, c'est avec la fonction `return`.
 
-@[Exercice 1]({"stubs": ["Les_boucles/Complements_exo_1.py"], "command": "python3 Les_boucles/Complements_exo_1_Test.py"})
+@[Exercice 1]({"stubs": ["Les_boucles/Complements_exo_1.py"], "command":"python3 Les_boucles/Complements_exo_1_Test.py"})
 
 ---
 
