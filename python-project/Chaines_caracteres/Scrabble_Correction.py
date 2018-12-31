@@ -1,4 +1,4 @@
-def mon_programme(tirage):
+def ma_fonction(tirage):
     if len(tirage)==7:
         compteur_voyelles=0
         compteur_consonnes=0
@@ -8,8 +8,8 @@ def mon_programme(tirage):
             else :
                 compteur_consonnes+=1
         if compteur_voyelles>=2 and compteur_consonnes>=2:
-            print('VALIDE')
+            return 'VALIDE'
         else:
-            print('NON VALIDE')
+            return 'NON VALIDE'
     else:
-        print('NON VALIDE')
+        return 'NON VALIDE'
