@@ -4,10 +4,14 @@ module="Chaines_caracteres/Palindrome"
 import sys
 import io
 from ma_bao import *
-tester("from Palindrome import mon_programme",globals())
+tester("from Palindrome import ma_fonction",globals())
 
-
-
+# Si le mot de passe est bon on affiche la correction
+try :  
+    cheat(module,mdp) 
+except: pass
+# On récupère la fonction solution
+exec("from {}_Correction import {} as f_sol".format(module,nom_fonction))
 
 #liste des couples input/output
 input_output=[\
@@ -28,11 +32,6 @@ input_output2=[\
 ]
 
 
-#message d'aide si besoin
-#help="Attention aux majuscules, espaces, ponctuations et accents, ils ne doivent pas être pris en compte."
-
-
-
 def send_msg(channel, msg):
     print("TECHIO> message --channel \"{}\" \"{}\"".format(channel, msg))
 
@@ -50,19 +49,12 @@ def test():
     succes=False
     try:
       for inp,outp,h in input_output:
-        sauvegarde_stdout=sys.stdout
-        sys.stdout=io.StringIO()
-        mon_programme(inp)
-        count1 = sys.stdout.getvalue()[:-1]
-        sys.stdout=sauvegarde_stdout
+        count1 = ma_fonction(inp)
         assert str(count1) == str(outp), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(str(inp),str(count1),str(outp))
         send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}".format(str(inp),str(count1)))
       succes=True
       for inp,outp,h in input_output2:
-        sauvegarde_stdout=sys.stdout
-        sys.stdout=io.StringIO()
-        mon_programme(inp)
-        count1 = sys.stdout.getvalue()[:-1]
+        count1=ma_fonction(inp)
         sys.stdout=sauvegarde_stdout
         assert str(count1) == str(outp), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(str(inp),str(count1),str(outp))
         send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}".format(str(inp),str(count1)))
