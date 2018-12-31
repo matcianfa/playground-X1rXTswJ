@@ -3,8 +3,8 @@ nom_fonction="ma_fonction"
 
 #liste des valeurs à tester
 # Attention de bien mettre dans un tuplet ou une liste les valeurs à tester même si la fonction n'a qu'un argument.
-valeurs_a_tester=[[300014111**2],[300014111],[500014649],[500014647],[2]]
-#[999999999989]
+valeurs_a_tester=[[300014111**2],[300014111],[500014649],[500014647],[999999999989],[2]]
+
 #message d'aide si besoin
 help="N'oublie pas d'utiliser return pour renvoyer le resultat."
 
@@ -24,7 +24,15 @@ try :
     cheat(chemin+module,mdp) 
 except: pass
 # On récupère la fonction solution
-exec("from {}_Correction import {} as f_sol".format(module,nom_fonction))
+#exec("from {}_Correction import {} as f_sol".format(module,nom_fonction))
+#On triche pour gagner du temps
+def f_sol(n):
+    if n==300014111**2: return "PAS PREMIER"
+    if n==300014111: return "PREMIER"
+    if n==500014649: return "PREMIER"
+    if n==500014647:return "PAS PREMIER"
+    if n==999999999989: return "PREMIER"
+    else: return "PAS PREMIER"
 
 #--------------------------------------
 def test():
