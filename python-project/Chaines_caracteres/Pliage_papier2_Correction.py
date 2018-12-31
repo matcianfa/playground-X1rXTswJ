@@ -1,4 +1,4 @@
-def mon_programme(n):
+def ma_fonction(n):
     n-=1
     mot='G'
     while n>0:
@@ -10,4 +10,4 @@ def mon_programme(n):
                 mot_renversé='G'+mot_renversé
         mot=mot+'G'+mot_renversé
         n-=1
-    print(mot)
+    return mot
