@@ -1,3 +1,5 @@
+from math import *
+
 def ma_fonction(n):
     if n<2 or (n%2==0 and n!=2):
         return 'PAS PREMIER'
