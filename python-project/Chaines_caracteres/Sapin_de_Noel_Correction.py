@@ -1,6 +1,6 @@
-def mon_programme(n):
+def ma_fonction(n):
     if n==0:
-        print('.')
+        return '.'
     else:
         for k in range(n):
-            print('.'*(n-k-1)+'^'*(2*k+1)+'.'*(n-k-1))
+            return '.'*(n-k-1)+'^'*(2*k+1)+'.'*(n-k-1)
