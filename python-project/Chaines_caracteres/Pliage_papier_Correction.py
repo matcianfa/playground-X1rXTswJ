@@ -1,4 +1,4 @@
-def mon_programme(n):
+def ma_fonction(n):
     n=n-1
     mot='G'
     while n>0:
@@ -17,4 +17,4 @@ def mon_programme(n):
             mot=mot[2:]
         mot=nouveau_mot[:-1]
         n-=1
-    print(mot)
+    return mot
