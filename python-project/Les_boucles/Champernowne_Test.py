@@ -16,6 +16,10 @@ input_output=[\
 (0,0)\
 ]
 
+# Si le mot de passe est bon on affiche la correction
+try :  
+    cheat(chemin+module,mdp) 
+except: pass
 
 #message d'aide si besoin
 help="Attention si n est nul, le nombre de Champernowne vaut 0 aussi"
