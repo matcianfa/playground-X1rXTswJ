@@ -1,61 +1,45 @@
-#Ne pas oublier de changer le module à importer
-module="Chaines_caracteres/Codage_vigenere"
+# A modifier si besoin
+nom_fonction="ma_fonction"
 
-import sys
-import io
-from ma_bao import *
-tester("from Codage_vigenere import mon_programme",globals())
-
-
-
-
-#liste des couples input/output
-input_output=[\
-(("ABC","ABC"),"ACE"),\
-(("C","ABCDEF"),"CDEFGH"),\
-(("BCD","ZZZZZ"),"ABCAB"),\
-(("MATHS","PYTHON"),"BYMOGZ"),\
-(("SINUS","COSINUS"),"UWFCFMA"),\
-(("RACINE","CARREE"),"TATZRI"),\
-(("GPLUS","DIDEES"),"JXOYWY"),\
-]
-
+#liste des valeurs à tester
+# Attention de bien mettre dans un tuplet ou une liste les valeurs à tester même si la fonction n'a qu'un argument.
+valeurs_a_tester=[("ABC","ABC"),("C","ABCDEF"),("BCD","ZZZZZ"),("MATHS","PYTHON"),("SINUS","COSINUS"),("RACINE","CARREE"),("GPLUS","DIDEES")]
 
 #message d'aide si besoin
-help=""
+help="N'oublie pas d'utiliser return pour renvoyer le resultat."
 
+#------------------------------------
+# Les imports
+import sys
+# Ma boite à outils
+from ma_bao import * 
+# Donne les noms du dossier et du module (automatiquement avec __file__
+chemin,module=donner_chemin_nom(__file__)
+# On teste s'il n'y a pas d'erreurs de synthaxe etc. et on les montre si besoin
+tester("from {} import *".format(module),globals()) 
+# On renomme ma fonction f
+f=eval(nom_fonction)
+# Si le mot de passe est bon on affiche la correction
+try :  
+    cheat(chemin+module,mdp) 
+except: pass
+# On récupère la fonction solution
+exec("from {}_Correction import {} as f_sol".format(module,nom_fonction))
 
-
-def send_msg(channel, msg):
-    print("TECHIO> message --channel \"{}\" \"{}\"".format(channel, msg))
-
-
-def success():
-    send_msg("Tests validés","Bravo !")
-    afficher_correction(module)
-    print("TECHIO> success true")
-
-
-def fail():
-    print("TECHIO> success false")
-    
-
+#--------------------------------------
 def test():
     try:
-      for inp,outp in input_output:
-        sauvegarde_stdout=sys.stdout
-        sys.stdout=io.StringIO()
-        mon_programme(*inp)
-        count1 = sys.stdout.getvalue()[:-1]
-        sys.stdout=sauvegarde_stdout
-        assert str(count1) == str(outp), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(str(inp),str(count1),str(outp))
-        send_msg("Tests validés","En codant le mot {} avec le mot-clé {}, le résultat obtenu est bien {}".format(str(inp[1]),str(inp[0]),str(count1)))
-      success()
+        for valeur in valeurs_a_tester:
+            rep=f(*valeur)
+            sol=f_sol(*valeur)
+            assert str(rep) == str(sol), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(",".join([str(val) for val in valeur]),str(rep),str(sol))
+            send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}".format(",".join([str(val) for val in valeur]),str(rep)))
+        success(chemin+module)
     except AssertionError as e:
-      fail()
-      send_msg("Oops! ", e)
-      if help:
-        send_msg("Aide 💡", help)
+        fail()
+        send_msg("Oops! ", e)
+        if help:
+            send_msg("Aide 💡", help)
 
-
+#--------------------------------------
 if __name__ == "__main__": test()
