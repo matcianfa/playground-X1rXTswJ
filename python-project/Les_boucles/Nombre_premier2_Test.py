@@ -32,7 +32,8 @@ def f_sol(n):
     if n==500014649: return "PREMIER"
     if n==500014647:return "PAS PREMIER"
     if n==999999999989: return "PREMIER"
-    else: return "PAS PREMIER"
+    if n==2: return "PREMIER"
+    return "PAS PREMIER"
 
 #--------------------------------------
 def test():
