@@ -1,4 +1,28 @@
 import sys
+from hashlib import md5
+import re
+
+code="e44f8cf63970db5c2df0a18153bcdf49"
+
+# Permet de récupérer le chemin d'accès et le nom du module. A utiliser avec __file__
+def donner_chemin_nom(file) :
+    m = re.search(r"(?P<dossier>\w+/)(?P<module>\w+)_Test.py", file)
+    if m is not None:
+        return m.group('dossier'),m.group('module')
+    
+# Fonction qui permet d'envoyer un message sur le channel    
+def send_msg(channel, msg):
+    print("TECHIO> message --channel \"{}\" \"{}\"".format(channel, msg))
+    
+# Ce qu'il faut faire si on a juste
+def success(module):
+    send_msg("Tests validés","Bravo !")
+    afficher_correction(module)
+    print("TECHIO> success true")
+
+# Ce qu'il faut faire si on a faux
+def fail():
+    print("TECHIO> success false")
 
 def tester(txt,glb=globals()):
     '''
@@ -29,12 +53,11 @@ def tester(txt,glb=globals()):
         print("TECHIO> success false")
         sys.exit()
 
-        
-def send_msg(channel, msg):
-    print("TECHIO> message --channel \"{}\" \"{}\"".format(channel, msg))
-    
 #Afficher la correction
 def afficher_correction(module):
+    """
+    Affiche la correction si elle existe
+    """
     try:
         with open(module+"_Correction.py", "r") as correction :
             ligne="Voici un ou des exemples de corrections possibles"
@@ -47,3 +70,9 @@ def afficher_correction(module):
     except:
         pass
 
+def cheat(module,mdp):
+    """
+    Permet d'afficher la correction si on a le bon mot de passe
+    """
+    if str(md5(str(mdp).encode('utf-8')).hexdigest())==code:
+        afficher_correction(module)
