@@ -4,4 +4,4 @@ def ma_fonction(n):
   u = @
   for i in range(n):
     u = @
-  print( @ )
+  return @ 
