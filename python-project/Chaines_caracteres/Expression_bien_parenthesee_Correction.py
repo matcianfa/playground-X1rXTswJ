@@ -1,4 +1,4 @@
-def mon_programme(expression):
+def ma_fonction(expression):
     compteur_parenthèse=0
     for c in expression:
         if c=='(' :
@@ -8,6 +8,6 @@ def mon_programme(expression):
             if compteur_parenthèse<0:
                 break
     if compteur_parenthèse==0:
-        print('BIEN PARENTHESEE')
+        return 'BIEN PARENTHESEE'
     else:
-        print('MAL PARENTHESEE')
+        return 'MAL PARENTHESEE'
