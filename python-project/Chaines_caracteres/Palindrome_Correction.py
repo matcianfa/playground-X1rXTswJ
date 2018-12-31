@@ -1,4 +1,4 @@
-def mon_programme(phrase):
+def ma_fonction(phrase):
     dic={'a':['à','â','ä'],'e':['é','è','ë','ê'],'c':['ç'],'i':['ï','î'],'o':['ö','ô'],'u':['ù','û']}
     phrase= phrase.lower()
     endroit=""
@@ -13,6 +13,6 @@ def mon_programme(phrase):
             endroit=endroit+car
             envers=car+envers
     if envers==endroit:
-        print('PALINDROME')
+        return 'PALINDROME'
     else:
-        print('PAS PALINDROME')
+        return 'PAS PALINDROME'
