@@ -1,4 +1,4 @@
-def mon_programme(n,message):
+def ma_fonction(n,message):
     message_codé=''
     for lettre in message:
         if 65<=ord(lettre)<=90: #Si c'est une lettre, je la décale de n en utilisant l'astuce du reste de la division euclidienne
@@ -6,4 +6,4 @@ def mon_programme(n,message):
         else:
             message_codé+=lettre
 
-    print(message_codé)
+    return message_codé
