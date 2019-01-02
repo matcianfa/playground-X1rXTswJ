@@ -11,7 +11,7 @@ try :
     cheat(module,mdp) 
 except: pass
 # On récupère la fonction solution
-exec("from {}_Correction import {} as f_sol".format(module,nom_fonction))
+exec("from {}_Correction import {} as f_sol".format(module,"ma_fonction"))
 
 #liste des couples input/output
 input_output=[\
