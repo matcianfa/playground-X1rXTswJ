@@ -55,7 +55,6 @@ def test():
       succes=True
       for inp,outp,h in input_output2:
         count1=ma_fonction(inp)
-        sys.stdout=sauvegarde_stdout
         assert str(count1) == str(outp), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(str(inp),str(count1),str(outp))
         send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}".format(str(inp),str(count1)))
       send_msg("Tests validés","Ce dernier test était un palindrome de 1247 mots !")
