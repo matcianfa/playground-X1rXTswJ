@@ -5,7 +5,7 @@ nom_fonction="ma_fonction"
 
 #liste des valeurs à tester
 # Attention de bien mettre dans un tuplet ou une liste les valeurs à tester même si la fonction n'a qu'un argument.
-valeurs_a_tester=["(1+x)","(x+1)*(2-x)","(1+x)/4)*(2+(x+1)","(()()(","cos((1+x)/2)*(2+x)","(((()()())((())())())(()()))","x+1*x/5*cos x"]
+valeurs_a_tester=[["(1+x)"],["(x+1)*(2-x)"],["(1+x)/4)*(2+(x+1)"],["(()()("],["cos((1+x)/2)*(2+x)"],["(((()()())((())())())(()()))"],["x+1*x/5*cos x"]]
 
 #message d'aide si besoin
 help="N'oublie pas d'utiliser return pour renvoyer le resultat."
