@@ -1,6 +1,7 @@
 # A modifier si besoin
 nom_fonction="ma_fonction"
 
+
 #liste des valeurs à tester
 # Attention de bien mettre dans un tuplet ou une liste les valeurs à tester même si la fonction n'a qu'un argument.
 valeurs_a_tester=[(10,1),(10,2),(10,0),(10,3),(1,3),(10,-1),(10,-2)]
