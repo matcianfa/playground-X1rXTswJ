@@ -1,5 +1,5 @@
 #Ne pas oublier de changer le module à importer
-from Triangle_de_Sierpinski import mon_programme,dimension
+from Triangle_de_Sierpinski import ma_fonction,dimension
 import sys
 import io
 from PIL import Image, ImageDraw
