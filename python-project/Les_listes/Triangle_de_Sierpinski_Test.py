@@ -34,11 +34,7 @@ def fail():
 def test():
     try:
       for n in range(1,dimension+1):
-          sauvegarde_stdout=sys.stdout
-          sys.stdout=io.StringIO()
-          ma_fonction(n)
-          liste = [int(i) for i in sys.stdout.getvalue()[1:-2].split(",")]
-          sys.stdout=sauvegarde_stdout
+          liste = ma_fonction(n)
           for j,element in enumerate(liste):
             if element%2!=0: 
                 draw.point([j, n-1], (0,0,0))
