@@ -76,3 +76,5 @@ def cheat(module,mdp):
     """
     if str(md5(str(mdp).encode('utf-8')).hexdigest())==code:
         afficher_correction(module)
+        
+        
