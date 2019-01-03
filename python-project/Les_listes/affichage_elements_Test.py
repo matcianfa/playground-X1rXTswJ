@@ -1,5 +1,5 @@
 #Ne pas oublier de changer le module à importer
-from affichage_elements import mon_programme
+from affichage_elements import ma_fonction
 import sys
 import io
 
