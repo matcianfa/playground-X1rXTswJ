@@ -36,7 +36,7 @@ def test():
       for n in range(1,dimension+1):
           sauvegarde_stdout=sys.stdout
           sys.stdout=io.StringIO()
-          mon_programme(n)
+          ma_fonction(n)
           liste = [int(i) for i in sys.stdout.getvalue()[1:-2].split(",")]
           sys.stdout=sauvegarde_stdout
           for j,element in enumerate(liste):
