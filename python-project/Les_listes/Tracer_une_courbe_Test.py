@@ -63,7 +63,7 @@ def test():
           #Dessin de la courbe
           rep_l_x = list(np.linspace(a,b, n+1))
           rep_l_y=[f(x) for x in rep_l_x]
-          l_x,l_y=mon_programme(f,a,b,n)
+          l_x,l_y=ma_fonction(f,a,b,n)
           xmin,xmax=plt.xlim()
           plt.xlim(xmin-0.1*(xmax-xmin),xmax+0.1*(xmax-xmin))
           ymin,ymax=plt.ylim()
