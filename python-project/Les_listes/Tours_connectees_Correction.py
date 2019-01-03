@@ -1,6 +1,6 @@
-def mon_programme(n,liste):
+def ma_fonction(n,liste):
     prod=1
     for k in liste:
         prod*=k
-    print( prod)
+    return prod
      
