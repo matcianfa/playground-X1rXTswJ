@@ -6,7 +6,7 @@ import sys
 import io
 import numpy as np
 from math import *
-from Tracer_une_courbe import mon_programme
+from Tracer_une_courbe import ma_fonction
 
 input_output=[\
 ((lambda x:x**2,0,4,5),"x²"),\
@@ -20,6 +20,10 @@ input_output=[\
 ((lambda x:(cos(20*pi*x)),0,10,100),"cos(20*pi*x)"),\
 ((lambda x:(cos(20*pi*x)),0,10,1000),"cos(20*pi*x)"),\
 ]
+
+try :  
+    cheat("Les_listes/Tracer_une_courbe",mdp) 
+except: pass
 
 #message d'aide si besoin
 help="N'oublie pas d'utiliser return pour afficher le resultat"
