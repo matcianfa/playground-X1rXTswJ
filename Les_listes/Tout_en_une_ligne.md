@@ -1,7 +1,7 @@
 # Tout en une ligne !
 `Difficulté : Moyenne`
 
-Le but de cette fiche est de s'entrainer avec les créations de liste en compréhension. Voir le cours sur [Maths Sartene](https://sites.google.com/site/mathssartene/formation-python/les-listes) pour plus de précision sur cette façon de créer des listes.
+Le but de cette fiche est de s'entrainer avec les créations de liste en compréhension. Voir le cours sur les listes pour plus de précision sur cette façon de créer des listes.
 
 Tous les exercices qui suivent doivent se rédiger en une seule ligne à rajouter !
 
