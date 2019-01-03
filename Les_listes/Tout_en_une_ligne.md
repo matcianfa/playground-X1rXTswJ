@@ -5,9 +5,6 @@ Le but de cette fiche est de s'entrainer avec les créations de liste en compré
 
 Tous les exercices qui suivent doivent se rédiger en une seule ligne à rajouter !
 
-::: Aide
-Pour afficher la liste tout en la créant, on peut écrire directement `print([n for n in range(10,21)])` ce qui affichera la liste des nombres entre 10 et 20.
-:::
 
 ### Liste des différences des cubes des nombres et de leur carré
 
