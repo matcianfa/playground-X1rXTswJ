@@ -6,7 +6,7 @@ Le module matplotlib est un module très complet. Nous allons ici nous intéress
 
 ## Importer le(s) module(s)
 
-Comme tous les modules, il faut le charger et plus précisément c'est un sous-module qui va nous intéresser : pyplot. Pour cela, nous n'allons pas charger toutes les fonctions comme d'habitude mais l'importer sous un nom plus court à utiliser. On utilisera donc `import matplotlib.pyplot as plt`. Ce qui signifie que pour utiliser une fonction de ce module comme `show()` par exemple, on devra écrire `plt.show()` (puisqu'on a importer le module sous le nom plt).  
+Comme tous les modules, il faut le charger et plus précisément c'est un sous-module qui va nous intéresser : pyplot. Pour cela, nous n'allons pas charger toutes les fonctions comme d'habitude mais l'importer sous un nom plus court à utiliser. On utilisera donc `import matplotlib.pyplot as plt`. Ce qui signifie que pour utiliser une fonction de ce module comme `show()` par exemple, on devra écrire `plt.show()` (puisqu'on a importé le module sous le nom plt).  
 De plus, le module matplotlib est très lié à un autre module qui sert à faire du calcul numérique qui s'appelle numpy et qu'on import souvent sous le nom np. 
 
 Pour résumer, pour représenter graphiquement des fonctions ou autres, il faudra mettre en en-tête :
