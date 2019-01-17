@@ -44,6 +44,35 @@ Compléter la valeur de $`N`$ ci dessous pour que s'affiche la décomposition de
 
 @[Obtenir la décomposition de Zeckendorf]({"stubs": ["Autre/Zeckendorf0.py","Autre/Zeckendorf.py"], "command": "python3 Autre/Zeckendorf0.py"})
 
+### Script à copier coller pour pouvoir l'utiliser dans un autre interpreteur python
+```python
+# Script qui demande en boucle un nombre et affiche sa décomposition de Zeckendorf
+# Valider le mot vide arrete le script
+
+# La liste des 12 premiers nombres de fibonacci.
+fibonacci=[1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233]
+
+def Zeckendorf(N):
+    # On cherche l'indice du nombre de Fibonacci le plus grand qui soit inférieur à N
+    indice=0
+    while fibonacci[indice]<=N:
+        indice+=1
+    indice-=1
+    # Si N est un nombre de Fibonacci alors on l'affiche seul
+    if fibonacci[indice]==N :
+        return str(fibonacci[indice])
+    # Sinon on calcule la décomposition du reste qu'on rajoute au nombre trouvé
+    else :
+        return Zeckendorf(N-fibonacci[indice])+" + "+str(fibonacci[indice])
+
+reponse=" "
+while reponse :
+    reponse=input("Entrer un nombre : ")
+    if reponse.isdigit():
+        print(Zeckendorf(int(reponse)))
+
+```
+
 ## Prolongement possible
 
 Voici un lien vers un tour de magie utilisant la décomposition de Zeckendorf : [Tour de magie](http://jeux-et-mathematiques.davalan.org/jeux/cartes/add/index.html)
