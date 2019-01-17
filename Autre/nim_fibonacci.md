@@ -66,10 +66,12 @@ def Zeckendorf(N):
         return Zeckendorf(N-fibonacci[indice])+" + "+str(fibonacci[indice])
 
 reponse=" "
+texte=""
 while reponse :
-    reponse=input("Entrer un nombre : ")
+    reponse=input(texte+"\nEntrer un nouveau nombre : ")
     if reponse.isdigit():
-        print(Zeckendorf(int(reponse)))
+        texte=reponse+" = "+str(Zeckendorf(int(reponse)))
+        print(texte)
 
 ```
 
