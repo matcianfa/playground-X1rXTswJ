@@ -84,6 +84,9 @@ Comme pour le ressort, c'est une animation et pour la voir il faut copier-coller
 
 ## Etude du probleme des trois corps
 
-Voici un code pour regarder l'évolution d'un systeme composé de 3 corps. Comme précédemment, il faut copier coller le code dans un interpreteur pour voir l'animation.
+Voici un code pour regarder l'évolution d'un systeme composé de 3 corps. Comme précédemment, il faut copier coller le code dans un interpreteur pour voir l'animation. Il est beaucoup trop lent pour être lancer sur ce site.
 
 @[Etude de probleme des trois corps (Code à copier-coller)]({"stubs": ["Physique/trois_corps.py"], "command": "python3 Physique/trois_corps_Test.py"})
+
+---
+
