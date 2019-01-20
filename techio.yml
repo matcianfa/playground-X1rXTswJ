@@ -198,6 +198,8 @@ plan:
   plan:
   - title: Chronophotographie
     statement: Physique/Chronophotographie.md
+  - title: Résolution numérique d'équations differentielles
+    statement: Physique/Resolution equa diff.md
 - title: Défis
   plan:
   - title: Introduction
