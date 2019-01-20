@@ -156,8 +156,6 @@ plt.show()
 ```
 :::
 
----
-
 Voici le même code dans lequel on affiche en plus l'image utilisée dans matplotlib ainsi que la courbe polynomiale sur toute la longueur et largeur de l'image.
 
 ::: Dérouler pour voir le code
@@ -187,6 +185,8 @@ plt.plot(X,a*X**2+b*X+c)
 plt.show()
 ```
 :::
+
+---
 
 ### Afficher les vecteurs vitesses et accélérations
 
@@ -221,6 +221,8 @@ plt.show()
 Remarque : Même avec la meilleure volonté du monde, on obtient assez rarement des vecteurs accélérations parfaitement verticaux pour un mouvement de chute. Une partie de cette "erreur" est due à l'imprécision lorsqu'on clique. Un façon de minimiser cette imprécision est d'utiliser la loupe (fournie de base dans Windows) qui grossit la zone autour du pointeur de la souris augmentant largement la précision.
 
 On peut utiliser les observations qu'on obtient pour vérifier ou mettre en place la deuxième loi de Newton, pour mettre en évidence des forces de frottements...
+
+---
 
 ### Prolongements possibles
 
