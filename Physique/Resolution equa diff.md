@@ -69,3 +69,13 @@ Voici un code permettant d'observer l'évolution d'un ressort de manière animé
 Petit nuance par rapport aux cas précédents : Au lieu de résoudre l'équation différentielle du mouvement sur un intervalle de temps fixé une bonne fois pour toute et observer le résultat, ici, on résout une équation différentielle au fur et à mesure de l'animation sur un petit intervalle (noté dt) en prenant comme valeur initiale à chaque étape le résultat de l'étape précédente. Cela permet de ne pas fixer a priori la fin de l'animation même si on sait que plus le temps est grand plus les erreurs dans la résolution de l'équation différentielle deviennent grandes et donc ce qui s'affiche s'éloigne de la réalité.
 
 @[Etude d'un ressort (Code à copier-coller)]({"stubs": ["Physique/ressort.py"], "command": "python3 Physique/ressort_Test.py"})
+
+---
+
+## Etude d'un pendule
+
+Voici un code pour regarder l'évolution d'un pendule. Plus précisément, on regarde la différence entre la résolution de l'équation complète et l'équation simplifiée (où on suppose sin(theta)=theta).  
+
+Comme pour le ressort, c'est une animation et pour la voir il faut copier-coller le code dans un interpreteur (comme Edupython par exemple).
+
+@[Etude d'un pendule (Code à copier-coller)]({"stubs": ["Physique/pendule.py"], "command": "python3 Physique/pendule_Test.py"})
