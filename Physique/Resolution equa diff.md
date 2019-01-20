@@ -46,3 +46,16 @@ Remarque : Ici, pour résoudre, on décompose selon les axes x et y et on résou
 Etudions le mouvement d'un projectile en considérant d'un coté le mouvement sans frottement et de l'autre avec frottement pour pouvoir les comparer.
 
 @[Mouvement d'un projectile]({"stubs": ["Physique/projectile.py"], "command": "python3 Physique/projectile_Test.py"})
+
+Quelques explications :
+- La démarche est exactement la même que dans le cas d'une planète : on décompose selon les x et les y et on se ramène à résoudre une équation différentielle d'ordre 1 pour un vecteur de dimension 4.
+- Petite nuance purement esthétique : avant d'afficher le résultat, on ne garde que les valeurs qui donne une ordonnée positive car le projectile touche le sol sinon donc les valeurs negatives n'ont pas de sens.
+
+---
+
+## Etude d'un ressort
+
+Voici un code permettant d'observer l'évolution d'un ressort de manière animée avec matplotlib. Le problème est que sur ce site, il est impossible de voir des animations, il faudra donc le copier coller dans un interpreteur sur votre ordi (comme Edupython par exemple) pour voir le résultat.  
+Petit nuance par rapport aux cas précédents : Au lieu de résoudre l'équation différentielle du mouvement sur un intervalle de temps fixé une bonne fois pour toute et observer le résultat, ici, on résout une équation différentielle au fur et à mesure de l'animation sur un petit intervalle (noté dt) en prenant comme valeur initiale à chaque étape le résultat de l'étape précédente. Cela permet de ne pas fixer a priori la fin de l'animation même si on sait que plus le temps est grand plus les erreurs dans la résolution de l'équation différentielle deviennent grandes et donc ce qui s'affiche s'éloigne de la réalité.
+
+@[Etude d'un ressort]({"stubs": ["Physique/ressort.py"], "command": "python3 Physique/ressort_Test.py"})
