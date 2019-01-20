@@ -25,7 +25,7 @@ def fail():
 def test():
     try:
       fig=plt.figure()
-      import bac_a_sable
+      import projectile
       fig.savefig('output.png', dpi=fig.dpi)
       success()
     except AssertionError as e:
