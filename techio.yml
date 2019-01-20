@@ -197,7 +197,7 @@ plan:
 - title: Physique et programmation
   plan:
   - title: Chronophotographie
-  statement: Physique/Chronophotographie.md
+  - statement: Physique/Chronophotographie.md
 - title: Défis
   plan:
   - title: Introduction
