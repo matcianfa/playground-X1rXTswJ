@@ -31,4 +31,18 @@ On explicite ce qu'elle renvoit c'est à dire $`Y'`$ comme expliqué juste avant
 
 Une fois bien maitrisé l'ordre deux, la seule réelle restriction dans les applications est notre imagination. Voyons quelques exemples.
 
-## 
+## Mouvement d'une planète
+
+Voici par exemple le mouvement d'une planète autour d'un soleil si on ne considère que la force de gravitation provenant du soleil. On place l'origine du repère sur le soleil. Le programme qui suit n'a rien de réaliste dans le sens où toutes les constances valent 1 mais il suffit de l'adapter en fonction de ce que l'on veut étudier, le but ici étant de voir comment utiliser la fonction `odeint`
+
+@[Mouvement d'une planète]({"stubs": ["Physique/planete.py"], "command": "python3 Physique/planete_Test.py"})
+
+Remarque : Ici, pour résoudre, on décompose selon les axes x et y et on résout en réalité en même temps les équations en x et en y qu'on ramène à de l'ordre 1. On se ramène donc à une équation différentielle d'ordre 1 mais d'un vecteur de dimension 4.
+
+---
+
+## Etude du mouvement d'un projectile
+
+Etudions le mouvement d'un projectile en considérant d'un coté le mouvement sans frottement et de l'autre avec frottement pour pouvoir les comparer.
+
+@[Mouvement d'un projectile]({"stubs": ["Physique/projectile.py"], "command": "python3 Physique/projectile_Test.py"})
