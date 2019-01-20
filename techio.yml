@@ -194,6 +194,10 @@ plan:
     statement: Maths/Monte Carlo.md
   - title: La méthode d'Euler
     statement: Maths/Méthode Euler.md
+- title: Physique et programmation
+  plan:
+  - title: Chronophotographie
+  statement: Physique/Chronophotographie.md
 - title: Défis
   plan:
   - title: Introduction
