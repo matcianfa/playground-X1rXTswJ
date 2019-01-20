@@ -133,7 +133,7 @@ def image_to_coord(chemin_fichier=""):
 ### Afficher une trajectoire d'ajustement d'ordre 2 à partir de coordonnées de points
 
 L'intérêt d'utiliser un ajustement polynomial d'ordre 2 est de gommer un peu les erreurs de mesures en tout genre.
-Voici un exemple de code utilisant la fonction précédente. On n'oubliera pas donc de mettre le code de la fonction image_to_coord ci-dessus aussi.
+Voici un exemple de code utilisant la fonction précédente. On n'oubliera donc pas de mettre le code de la fonction image_to_coord ci-dessus aussi.
 
 ::: Dérouler pour voir le code
 ```python
@@ -187,3 +187,41 @@ plt.plot(X,a*X**2+b*X+c)
 plt.show()
 ```
 :::
+
+### Afficher les vecteurs vitesses et accélérations
+
+Une fois obtenues les coordonnées des points, on peut afficher les vecteurs vitesses et accélérations.  
+Pratiquement, on utilisera pour le vecteur vitesse $`\overrightarrow{v_i}`$ le calcul suivant : $`\overrightarrow{v_i}=\dfrac{\overrightarrow{OM_{i+1}}-\overrightarrow{OM_{i-1}}}{2\Delta t}`$ pour lisser un peu les erreurs d'approximations lorsqu'on clique pour selectionner la position. On fait de même pour les accélérations. C'est pour cela qu'il manquera les vecteurs en début et fin de mouvement.
+
+Ne pas oublier d'ajouter le code de la fonction image_to_coord qui se trouve en haut de cette page pour que le script qui suit fonctionne.
+
+::: Dérouler pour voir le code
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Dt est le temps entre 2 photos de la chronophotographie.
+# Cette valeur est donc à modifier en fonction de la photo.
+Dt=0.25
+
+# On récupère les coordonnées sur une chronophotographie :
+X,Y= image_to_coord()
+# On trace les points
+plt.plot(X,Y,"rx")
+# On trace les vecteurs vitesses moyennes entre le précédent et le suivant
+for i in range(1,len(X)-1):
+    plt.arrow(X[i],Y[i],(X[i+1]-X[i-1])/(2*Dt),(Y[i+1]-Y[i-1])/(2*Dt),width=1)
+# On peut même rajouter les accelerations
+for i in range(2,len(X)-2):
+    plt.arrow(X[i],Y[i],(X[i+2]-2*X[i]+X[i-2])/(4*Dt**2),(Y[i+2]-2*Y[i]+Y[i-2])/(4*Dt**2),width=1,color='b')
+plt.show()
+```
+:::
+
+Remarque : Même avec la meilleure volonté du monde, on obtient assez rarement des vecteurs accélérations parfaitement verticaux pour un mouvement de chute. Une partie de cette "erreur" est due à l'imprécision lorsqu'on clique. Un façon de minimiser cette imprécision est d'utiliser la loupe (fournie de base dans Windows) qui grossit la zone autour du pointeur de la souris augmentant largement la précision.
+
+On peut utiliser les observations qu'on obtient pour vérifier ou mettre en place la deuxième loi de Newton, pour mettre en évidence des forces de frottements...
+
+### Prolongements possibles
+
+Une fois qu'on a les coordonnées des points d'une chronophotographie, on peut en déduire des vitesses comme dans la partie précédente et calculer les différentes energies pour montrer la conservation de l'énergie mécanique (ou pas) par exemple.
