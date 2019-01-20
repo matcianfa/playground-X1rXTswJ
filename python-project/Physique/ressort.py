@@ -6,7 +6,7 @@ from scipy.integrate import odeint
 longueur_vide= 0.40
 k=20
 longueur_initiale=0.5
-duree=10 # durée de l'animation
+duree=20 # durée de l'animation
 
 fps=30 # 30 images par secondes en général
 dt=1/fps # ecart de temps entre chaque image
