@@ -1,3 +1,7 @@
+import matplotlib.pyplot as plt
+import numpy as np
+from scipy.integrate import odeint
+
 # On précise notre constante
 a=-0.1
 # On crée la liste des temps : 1000 points entre t=0 et t=50. 
