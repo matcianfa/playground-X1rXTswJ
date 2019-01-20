@@ -53,6 +53,16 @@ Quelques explications :
 
 ---
 
+## Etude du mouvement d'un projectile avec vent latéral
+
+Rajoutons au cas précédent un petit vent latéral et observons le résultat en 3D.  
+Pour pouvoir mieux observer le résultat, il vaut mieux copier-coller le code dans un interpreteur (comme Edupython par exemple).
+
+@[Mouvement d'un projectile avec vent latéral]({"stubs": ["Physique/projectile_vent.py"], "command": "python3 Physique/projectile_vent_Test.py"})
+
+
+---
+
 ## Etude d'un ressort
 
 Voici un code permettant d'observer l'évolution d'un ressort de manière animée avec matplotlib. Le problème est que sur ce site, il est impossible de voir des animations, il faudra donc le copier coller dans un interpreteur sur votre ordi (comme Edupython par exemple) pour voir le résultat.  
