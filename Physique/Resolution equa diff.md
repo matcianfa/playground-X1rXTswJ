@@ -1,6 +1,6 @@
 # Résolution numérique d'équations différentielles ordinaires
 
-Le but de cette page est présenter quelques applications possibles en cours de physique de la résolution numérique d'équations differentielles ordinaires en python. Pour cela, nous allons utiliser la fonction odeint du module scipy
+Le but de cette page est présenter quelques applications possibles en cours de physique de la résolution numérique d'équations differentielles ordinaires en python. Pour cela, nous allons utiliser la fonction `odeint` du module `scipy`.
 
 # Equations différentielles d'ordre 1 
 
@@ -58,4 +58,4 @@ Quelques explications :
 Voici un code permettant d'observer l'évolution d'un ressort de manière animée avec matplotlib. Le problème est que sur ce site, il est impossible de voir des animations, il faudra donc le copier coller dans un interpreteur sur votre ordi (comme Edupython par exemple) pour voir le résultat.  
 Petit nuance par rapport aux cas précédents : Au lieu de résoudre l'équation différentielle du mouvement sur un intervalle de temps fixé une bonne fois pour toute et observer le résultat, ici, on résout une équation différentielle au fur et à mesure de l'animation sur un petit intervalle (noté dt) en prenant comme valeur initiale à chaque étape le résultat de l'étape précédente. Cela permet de ne pas fixer a priori la fin de l'animation même si on sait que plus le temps est grand plus les erreurs dans la résolution de l'équation différentielle deviennent grandes et donc ce qui s'affiche s'éloigne de la réalité.
 
-@[Etude d'un ressort]({"stubs": ["Physique/ressort.py"], "command": "python3 Physique/ressort_Test.py"})
+@[Etude d'un ressort (Code à copier-coller)]({"stubs": ["Physique/ressort.py"], "command": "python3 Physique/ressort_Test.py"})
