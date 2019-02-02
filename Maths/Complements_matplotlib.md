@@ -16,6 +16,8 @@ On voit donc que c'est très facile de modifier rapidement une courbe mais forc�
 
 Voici un résumé des caractères les plus couramment utilisés.
 + Pour les couleurs  
+::: Cliquer pour voir la liste
+
 | Caractère | Couleur correspondante |
 |:---------:|:----------------------:|
 | 'b' | bleu |
@@ -26,6 +28,8 @@ Voici un résumé des caractères les plus couramment utilisés.
 | 'y' | jaune |
 | 'k' | noir |
 | 'w' | blanc |
+
+:::
 
 + Pour le style de point
 
