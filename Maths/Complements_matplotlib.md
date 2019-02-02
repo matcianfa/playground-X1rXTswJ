@@ -15,7 +15,8 @@ Par exemple si je veux tracer une courbe en rouge (caractère "r") avec de gros 
 On voit donc que c'est très facile de modifier rapidement une courbe mais forcément le choix des modifications est restreint. Si un paramètre n'est pas précisé alors c'est le choix par défaut qui est pris. On peut donc décider de ne configurer que le style de trait ( en n'écrivant que `plt.plot(X,Y,"--")` par exemple ) ou bien que la couleur... Un cas très utile est celui du choix du style de point uniquement car il permet de retirer les segments et donc n'afficher que les points. Ainsi `plt.plot(X,Y,"o")` n'affichera que les points et non la courbe.
 
 Voici un résumé des caractères les plus couramment utilisés.
-+ Pour les couleurs
++ Pour les couleurs  
+
 | Caractère | Couleur correspondante |
 |:---------:|:----------------------:|
 | 'b' | bleu |
@@ -26,6 +27,9 @@ Voici un résumé des caractères les plus couramment utilisés.
 | 'y' | jaune |
 | 'k' | noir |
 | 'w' | blanc |
+
++ Pour le style de point
+
 
 
 
