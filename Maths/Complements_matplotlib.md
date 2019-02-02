@@ -90,3 +90,40 @@ Un exemple de modification serait donc : `plt.plot(X,Y,"o",markersize=3)`
 Voici un exemple combinant toutes les modifications de propriétés précédentes :
 @[Modifications plus précises]({"stubs": ["Maths/cplt_plot2.py"], "command": "python3 Maths/cplt_plot2_Test.py"})
 
+## Paramétrisation des axes
+
+Nous allons à présent nous intéresser à la configuration des axes. Il y a énormément de modifications possibles et nous n'en présenteront qu'une infime partie. On pourra regarder [ici](http://www.python-simple.com/python-matplotlib/configuration-axes.php) par exemple pour en voir davantage.
+
+::: Voici quelques modifications possibles. 
+
++ `plt.axis` : Permet de paramétrer les propriétés globales des axes :
+  - `plt.axis("on")` : Affiche les axes.
+  - `plt.axis("off")` : N'affiche pas les axes.
+  - `plt.axis("equal")` : Affiche des axes ayant la même unité de longueur pour tous les axes.
+  - `plt.axis("auto")` : Choisit automatiquement les unités et l'amplitude des axes. C'est le choix par défaut.
+  
++ `plt.xlim` et `plt.ylim` : Permet de modifier l'intervalle sur lequel sera afficher l'axe concerné.  Par exemple pour afficher une courbe pour des x allant de -3 à 3 et des y allants de -1 à 4, on écrira :
+```
+plt.xlim(-3,3)
+plt.ylim(-1,4)
+```
+
++ `plt.xlabel` et `plt.ylabel` : Permet d'afficher un texte correspondant aux axes.  Par exemple `plt.xlabel("ABCD")` affichera ABCD sous l'axe des abscisses.
+
++ `plt.xticks`et `plt.yticks` : Permet de configurer les graduations. Si on donne simplement une liste de valeurs, il s'affichera une graduation à ces valeurs ainsi que la valeur correspondante. Par exemple :
+```
+plt.xticks([1,4,5])
+plt.yticks(np.linspace(-3,3,13))
+```
+affichera des graduations aux valeurs 1, 4 et 5 pour les x et 13 graduations equitablement espacées entre -3 et 3 sur l'axe des ordonnées (c'est l'intérêt d'utiliser `np.linspace`).  
+On peut aller un peu plus loin et préciser en plus ce que l'on veut inscire comme étiquette pour les graduations (on peut même mettre du Latex). Pour cela il suffit de donner comme second argument une liste de même longueur que la première indiquant le texte que l'on veut comme étiquette. Par exemple pour une graduation entre -Pi et Pi avec une belle écriture en Latex, on pourra écrire : `plt.xticks([-np.pi, -np.pi/2, 0, np.pi/2, np.pi], [r'$-\pi$', r'$-\pi/2$', r'$0$', r'$+\pi/2$', r'$+\pi$'])`
+
++ `plt.legend()` : Permet de rajouter la légende. Il faut bien sûr avoir mis des labels aux courbes avant. Il est possible de préciser où mettre la légende en rajoutant l'argument `loc=` suivit de la position verticale 'upper', 'lower' ou 'center' puis de la position horizontale 'left', 'right' ou 'center'. Ce qui donnerait par exemple pour une légende en bas à droite : `plt.legend(loc = "lower right")`.
+
++ `plt.grid()` : Permet d'afficher la grille correspondant aux graduations.
+
+
+
+
+
+:::
