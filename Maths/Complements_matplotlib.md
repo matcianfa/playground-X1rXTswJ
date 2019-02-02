@@ -16,7 +16,6 @@ On voit donc que c'est très facile de modifier rapidement une courbe mais forc�
 
 Voici un résumé des caractères les plus couramment utilisés.
 + Pour les couleurs  
-
 | Caractère | Couleur correspondante |
 |:---------:|:----------------------:|
 | 'b' | bleu |
