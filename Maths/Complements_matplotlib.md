@@ -122,8 +122,8 @@ On peut aller un peu plus loin et préciser en plus ce que l'on veut inscire com
 
 + `plt.grid()` : Permet d'afficher la grille correspondant aux graduations.
 
-
-
-
-
 :::
+
+@[Modifications des axes]({"stubs": ["Maths/cplt_plot3.py"], "command": "python3 Maths/cplt_plot3_Test.py"})
+
+## Annotations
