@@ -128,13 +128,16 @@ On peut aller un peu plus loin et préciser en plus ce que l'on veut inscire com
 Voici un exemple avec la majorité des modifications des axes présentées ci-dessus.
 @[Modifications des axes]({"stubs": ["Maths/cplt_plot3.py"], "command": "python3 Maths/cplt_plot3_Test.py"})
 
-## Annotations
+## Textes et annotations
 
-On peut annoter nos graphiques assez simplement en utilisant la fonction `plt.annotate`.  
-Pour cela, il faut préciser au minimum le texte suivit des coordonnées du point à annoter. Le texte s'affichera alors en commençant au point à annoter. Par exemple `plt.annotate("Annotation 1",xy=(1,2))` affichera 'Annotation 1' à partir du point de coordonnées (1,2).
+On peut rajouter du texte ou annoter nos graphiques assez simplement en utilisant la fonction `plt.text` ou `plt.annotate`.
 
-On peut préciser davantage de chose comme par exemple des positions du texte différentes de celle du point à annoter en rajoutant le paramètre `xytext=` suivi des coordonnées du texte.
++ `plt.text` : Il suffit de donner les coordonnées  suivies du texte à afficher. On peut rajouter ensuite les différents paramètres à modifier (comme la police, la taille, la rotation, la transparence...). Par exemple pour simplement afficher un texte aux coordonnées (1,2), on écrira `plt.text(1,2,"Du texte")`.
 
-On peut aller beaucoup plus loin en rajoutant une flèche à notre annotation pour indiquer le point annoté. Voici ci dessous un exemple dont on pourra s'inspirer, pour plus de précision, on pourra consulter la documentation matplotlib.
++ `plt.annotate` : Sert à annoter un point. Pour cela, il faut préciser au minimum le texte suivit des coordonnées du point à annoter. Le texte s'affichera alors en commençant au point à annoter. Par exemple `plt.annotate("Annotation 1",xy=(1,2))` affichera 'Annotation 1' à partir du point de coordonnées (1,2).  
+On peut préciser davantage de chose comme par exemple des positions du texte différentes de celle du point à annoter en rajoutant le paramètre `xytext=` suivi des coordonnées du texte.  
+On peut aller beaucoup plus loin en rajoutant une flèche à notre annotation pour indiquer le point annoté. 
+
+Voici ci dessous un exemple dont on pourra s'inspirer, pour plus de précision, on pourra consulter la documentation matplotlib.
 
 @[Annotations]({"stubs": ["Maths/cplt_plot4.py"], "command": "python3 Maths/cplt_plot4_Test.py"})
