@@ -200,6 +200,8 @@ plan:
   plan:
   - title: Introduction
     statement: Physique/intro.md
+  - title: Quelques programmes en physique-chimie
+    statement: Physique/programmes_en_vrac.md
   - title: Chronophotographie
     statement: Physique/Chronophotographie.md
   - title: Résolution numérique d'équations differentielles
