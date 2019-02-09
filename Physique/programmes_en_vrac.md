@@ -43,7 +43,7 @@ def coord_v(norme, angle):
 ::: Dérouler pour voir le code
 ```python
 # Convertir une quantite en mole
-def convertir_mole(NN):
+def convertir_mole(N):
     Na= 6.02214076*10**23
     return N/Na
 ```
