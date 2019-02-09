@@ -21,7 +21,7 @@ def pH():
 #Pour lancer :
 pH()
 ```
-:::  
+:::
 1. Fonction qui donne les composantes selon x et y d'un vecteur vitesse en fonction de sa norme et l'angle par rapport à l'horizontale  
 ::: Dérouler pour voir le code
 ```python
@@ -31,7 +31,7 @@ from math import *
 def coord_v(norme, angle):
     return norme*cos(radians(angle)),norme*sin(radians(angle))
 ```
-:::  
+:::
 1. Convertir une quantité en mole
 
 ::: Dérouler pour voir le code
