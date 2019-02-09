@@ -94,3 +94,30 @@ def trouver_temps_radioactivité(proportion,T,precision=0.01):
 ```
 :::
 
+---
+
+## Donner la configuration electonique d'un atome en fonction du nombre d'electrons
+
+::: Dérouler pour voir le code
+```python
+# Donner la configuration electonique d'un atome en fonction du nombre d'electrons
+def configuration_electronique(n):
+    reponse=""
+    ligne=0
+    colonne=0
+    couches="spdfg"
+    while n>0:
+        k=min(n, 4*colonne+2)
+        n-=k
+        reponse+=str(ligne+1)+couches[colonne]+str(k)+" "
+        if colonne==0 :
+            colonne,ligne=ligne+1,0
+            while colonne>ligne:
+                colonne-=1
+                ligne+=1
+        else :
+            colonne-=1
+            ligne+=1
+    return reponse[:-1]
+```
+:::
