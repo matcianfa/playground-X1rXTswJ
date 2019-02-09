@@ -10,7 +10,7 @@ Cette page et les suivantes ne sont pas des pages d'exercices mais plutôt quelq
 def pH(c):
     return -log10(c)
 ```
-:::  
+:::
 ::: Voici une version plus intéractive :
 ```python
 #Demande la concentration et affiche le ph
@@ -22,7 +22,7 @@ def pH():
 pH()
 ```
 :::  
-2. Fonction qui donne les composantes selon x et y d'un vecteur vitesse en fonction de sa norme et l'angle par rapport à l'horizontale  
+1. Fonction qui donne les composantes selon x et y d'un vecteur vitesse en fonction de sa norme et l'angle par rapport à l'horizontale  
 ::: Dérouler pour voir le code
 ```python
 from math import *
@@ -32,7 +32,7 @@ def coord_v(norme, angle):
     return norme*cos(radians(angle)),norme*sin(radians(angle))
 ```
 :::  
-3. Convertir une quantité en mole
+1. Convertir une quantité en mole
 
 ::: Dérouler pour voir le code
 ```python
