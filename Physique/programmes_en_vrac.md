@@ -4,29 +4,25 @@ Cette page et les suivantes ne sont pas des pages d'exercices mais plutôt quelq
 
 
 1. Fonction qui donne le ph  
+::: Une version fonctionnelle :
+```python
+#Donner le pH à  partir de la concentration c=[H30+]
+def pH(c):
+    return -log10(c)
+```
+:::  
+::: Voici une version plus intéractive :
+```python
+#Demande la concentration et affiche le ph
+def pH():
+    c=eval(input("Entrer la concentration : "))
+    print("Le PH est",-log10(c))
 
-    ::: Une version fonctionnelle :
-    ```python
-    #Donner le pH à  partir de la concentration c=[H30+]
-    def pH(c):
-        return -log10(c)
-    ```
-    :::
-
-    ::: Voici une version plus intéractive :
-    ```python
-    #Demande la concentration et affiche le ph
-    def pH():
-        c=eval(input("Entrer la concentration : "))
-        print("Le PH est",-log10(c))
-
-    #Pour lancer :
-    pH()
-    ```
-    :::
-
-### Fonction qui donne les composantes selon x et y d'un vecteur vitesse en fonction de sa norme et l'angle par rapport à l'horizontale
-
+#Pour lancer :
+pH()
+```
+:::  
+2. Fonction qui donne les composantes selon x et y d'un vecteur vitesse en fonction de sa norme et l'angle par rapport à l'horizontale  
 ::: Dérouler pour voir le code
 ```python
 from math import *
@@ -35,9 +31,8 @@ from math import *
 def coord_v(norme, angle):
     return norme*cos(radians(angle)),norme*sin(radians(angle))
 ```
-:::
-
-### Convertir une quantité en mole
+:::  
+3. Convertir une quantité en mole
 
 ::: Dérouler pour voir le code
 ```python
