@@ -198,6 +198,8 @@ plan:
     statement: Maths/Méthode Euler.md
 - title: Physique et programmation
   plan:
+  - title: Introduction
+    statement: Physique/intro.md
   - title: Chronophotographie
     statement: Physique/Chronophotographie.md
   - title: Résolution numérique d'équations differentielles
