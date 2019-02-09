@@ -22,7 +22,7 @@ def pH():
 pH()
 ```
 :::
-1. Fonction qui donne les composantes selon x et y d'un vecteur vitesse en fonction de sa norme et l'angle par rapport à l'horizontale  
+2. Fonction qui donne les composantes selon x et y d'un vecteur vitesse en fonction de sa norme et l'angle par rapport à l'horizontale  
 ::: Dérouler pour voir le code
 ```python
 from math import *
@@ -32,14 +32,27 @@ def coord_v(norme, angle):
     return norme*cos(radians(angle)),norme*sin(radians(angle))
 ```
 :::
-1. Convertir une quantité en mole
+3. Convertir une quantité en mole
 
 ::: Dérouler pour voir le code
 ```python
 # Convertir une quantite en mole
-def convertir_mole(n):
+def convertir_mole(NN):
     Na= 6.02214076*10**23
-    return n/Na
+    return N/Na
 ```
 :::
+
+4. Donner la composition finale d'une réaction
+
+On considère une réaction de la forme aX + bY -> cX' + dY'. Voici un programme qui prend en entrée les quatre coefficients a, b, c et d ainsi que les quantités initiales nx de X et ny de Y et renvoie les quantités de X, Y, X' et Y' en fin de réaction.
+
+::: Dérouler pour voir le code
+```python
+def compo_finale(a,b,c,d,nx,ny):
+    x=min(nx/a,ny/b)
+    return nx-a*x,ny-b*y,c*x,d*x
+```
+:::
+
 
