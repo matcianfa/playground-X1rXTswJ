@@ -18,7 +18,7 @@ Voici une version plus intéractive :
 #Demande la concentration et affiche le ph
 def pH():
     c=eval(input("Entrer la concentration : "))
-    print(-log10(c))
+    print("Le PH est",-log10(c))
 
 #Pour lancer :
 pH()
