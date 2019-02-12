@@ -17,3 +17,11 @@ Voici un exemple graphique de regression linéaire :
 
 @[Tracé de la droite de régression]({"stubs": ["Maths/Reg_lin.py"], "command": "python3 Maths/Reg_lin_Test.py"})
 
+
+# Régression d'ordre 2
+
+On peut utiliser des régressions d'ordre 2 lorsqu'on étudie le mouvement d'un objet par exemple. On récupère les coordonnées des points par chronophotographie par exemple ( on peut aller voir [cette partie](https://tech.io/playgrounds/17176/recueil-dexercices-pour-apprendre-python-au-lycee/chronophotographie) pour voir comment faire) puis on calcule la parabole de régression pour gommer un peu les imprécisions dues à la récupération des données.
+
+Voici un exemple :
+
+@[Tracé de la parabole de régression]({"stubs": ["Maths/Reg_pol.py"], "command": "python3 Maths/Reg_pol_Test.py"})
