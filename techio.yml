@@ -180,6 +180,8 @@ plan:
     statement: Maths/Cours module matplotlib.md
   - title: Compléments sur le module matplotlib
     statement: Maths/Complements_matplotlib.md
+  - title: Cours - Régressions linéaires et d'ordres supérieurs
+    statement: Maths/Regression.md
   - title: Suite de Syracuse
     statement: Maths/Syracuse.md
   - title: Données statistiques
