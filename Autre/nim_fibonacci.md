@@ -24,7 +24,7 @@ Voici des propriétés qui vont nous être utiles pour mettre en place notre str
    Tout entier naturel non nul peut s'écrire de manière unique comme la somme de nombres de Fibonacci non consécutifs.  
    On notera dans la suite $`N=F_{n_1}+...+F_{n_p}`$ la décomposition dans l'ordre croissant du théorème de Zeckendorf.
 3. Si $`N`$ n'est pas un nombre de Fibonacci (autrement dit, il y a au moins deux éléments dans la décomposition de Zeckendorf), alors $`N-F_{n_1}> 2F_{n_1}`$.
-4. Si il y a au moins 3 nombres de Fibonacci dans la décomposition de Zeckendorf, alors pour tout n compris entre 1 et  $2F_{n_1}`$`, $`N-F_{n_1}-n`$ n'est pas un nombre de Fibonacci.
+4. Si il y a au moins 3 nombres de Fibonacci dans la décomposition de Zeckendorf, alors pour tout n compris entre 1 et  $`2F_{n_1}`$, $`N-F_{n_1}-n`$ n'est pas un nombre de Fibonacci.
 5. S'il y a exactement deux nombres dans la décomposition de Fibonacci alors pour tout n compris entre 1 et $`2F_{n_1}`$, on a $`N-F_{n_1}-n`$ qui est soit un nombre qui n'est pas un nombre de Fibonacci, soit un nombre qui est inférieur à $`2n`$.
 
 ## Stratégie gagnante
