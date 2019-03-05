@@ -37,8 +37,8 @@ def test():
             rep=f(val)
             val=valeur.copy()
             sol=f_sol(val)
-            assert str(sorted(rep)) == str(sorted(sol)), "En testant les valeurs {} le résultat obtenu est {}".format(str([str(val) for val in valeur]),str(rep))
-            send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}".format(str([str(val) for val in valeur]),str(rep)))
+            assert str(sorted(rep)) == str(sorted(sol)), "En testant les valeurs {} le résultat obtenu est {}".format(str(valeur),str(rep))
+            send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}".format(str(valeur),str(rep)))
         success(chemin+module)
     except AssertionError as e:
         fail()
