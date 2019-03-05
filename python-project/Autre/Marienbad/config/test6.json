@@ -1,0 +1,9 @@
+{
+  "title": {
+    "2": "The original one",
+    "1": "Celui d'origine"
+  },
+  "testIn": "5\n11\n0 10\n1 9\n2 8\n3 7\n4 6",
+  "isTest": "false",
+  "isValidator": "true"
+}
