@@ -1,5 +1,5 @@
 # A modifier si besoin
-nom_fonction="ma_fonction"
+nom_fonction="u"
 
 #liste des valeurs à tester
 # Attention de bien mettre dans un tuplet ou une liste les valeurs à tester même si la fonction n'a qu'un argument.
