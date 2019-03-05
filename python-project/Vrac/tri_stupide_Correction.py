@@ -16,7 +16,7 @@ def mélanger(liste):
 
 
 
-def mon_programme(liste):
+def ma_fonction(liste):
     while not est_triée(liste):
         liste=mélanger(liste)
     return liste
