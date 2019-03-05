@@ -47,7 +47,7 @@ def test():
         assert rep==res , "Les coordonnées obtenues pour n={} sont {} au lieu de {}".format(str(n),str(res),str(rep))
         send_msg("Résultats validés", "Les coordonnées du dernier point pour n ={} sont bien {}".format(str(n),str(res)))
       fig=plt.figure()
-      mon_programme(n_dessin)
+      ma_fonction(n_dessin)
       plt.axis('equal')
       plt.axis('off')
       plt.plot(0,0,color="red",marker="x")
