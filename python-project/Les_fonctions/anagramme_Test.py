@@ -1,47 +1,45 @@
-#Ne pas oublier de changer le module à importer
-from anagramme import anagramme as f
-import sys
-import io
+# A modifier si besoin
+nom_fonction="anagramme"
 
-
-#liste des couples input/output
-input_output=[\
-("bac",['abc', 'acb', 'bac', 'bca', 'cab', 'cba']),\
-("maths",['ahmst', 'ahmts', 'ahsmt', 'ahstm', 'ahtms', 'ahtsm', 'amhst', 'amhts', 'amsht', 'amsth', 'amths', 'amtsh', 'ashmt', 'ashtm', 'asmht', 'asmth', 'asthm', 'astmh', 'athms', 'athsm', 'atmhs', 'atmsh', 'atshm', 'atsmh', 'hamst', 'hamts', 'hasmt', 'hastm', 'hatms', 'hatsm', 'hmast', 'hmats', 'hmsat', 'hmsta', 'hmtas', 'hmtsa', 'hsamt', 'hsatm', 'hsmat', 'hsmta', 'hstam', 'hstma', 'htams', 'htasm', 'htmas', 'htmsa', 'htsam', 'htsma', 'mahst', 'mahts', 'masht', 'masth', 'maths', 'matsh', 'mhast', 'mhats', 'mhsat', 'mhsta', 'mhtas', 'mhtsa', 'msaht', 'msath', 'mshat', 'mshta', 'mstah', 'mstha', 'mtahs', 'mtash', 'mthas', 'mthsa', 'mtsah', 'mtsha', 'sahmt', 'sahtm', 'samht', 'samth', 'sathm', 'satmh', 'shamt', 'shatm', 'shmat', 'shmta', 'shtam', 'shtma', 'smaht', 'smath', 'smhat', 'smhta', 'smtah', 'smtha', 'stahm', 'stamh', 'stham', 'sthma', 'stmah', 'stmha', 'tahms', 'tahsm', 'tamhs', 'tamsh', 'tashm', 'tasmh', 'thams', 'thasm', 'thmas', 'thmsa', 'thsam', 'thsma', 'tmahs', 'tmash', 'tmhas', 'tmhsa', 'tmsah', 'tmsha', 'tsahm', 'tsamh', 'tsham', 'tshma', 'tsmah', 'tsmha']),\
-("a",["a"])\
-]
-
-
+#liste des valeurs à tester
+# Attention de bien mettre dans un tuplet ou une liste les valeurs à tester même si la fonction n'a qu'un argument.
+valeurs_a_tester=[["ab"],["bac"],["maths"],["a"]]
 
 #message d'aide si besoin
-help="N'oublie pas d'utiliser return pour afficher le resultat"
+help="N'oublie pas d'utiliser return pour renvoyer le resultat."
 
+#------------------------------------
+# Les imports
+import sys
+# Ma boite à outils
+from ma_bao import * 
+# Donne les noms du dossier et du module (automatiquement avec __file__
+chemin,module=donner_chemin_nom(__file__)
+# On teste s'il n'y a pas d'erreurs de synthaxe etc. et on les montre si besoin
+tester("from {} import *".format(module),globals()) 
+# On renomme ma fonction f
+f=eval(nom_fonction)
+# Si le mot de passe est bon on affiche la correction
+try :  
+    cheat(chemin+module,mdp) 
+except: pass
+# On récupère la fonction solution
+exec("from {}_Correction import {} as f_sol".format(module,nom_fonction))
 
-
-def send_msg(channel, msg):
-    print("TECHIO> message --channel \"{}\" \"{}\"".format(channel, msg))
-
-
-def success():
-    send_msg("Tests validés","Bravo !")
-    print("TECHIO> success true")
-
-
-def fail():
-    print("TECHIO> success false")
-    
-
+#--------------------------------------
 def test():
     try:
-      for x,reponse in input_output:
-        assert sorted(f(x)) == sorted(reponse), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(str(x),str(f(x)),str(reponse))
-        send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}".format(str(x),str(f(x))))
-      success()
+        for valeur in valeurs_a_tester:
+            rep=f(*valeur)
+            sol=f_sol(*valeur)
+            assert str(rep) == str(sol), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(",".join([str(val) for val in valeur]),str(rep),str(sol))
+            send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}".format(",".join([str(val) for val in valeur]),str(rep)))
+        success(chemin+module)
     except AssertionError as e:
-      fail()
-      send_msg("Oops! ", e)
-      if help:
-        send_msg("Aide 💡", help)
+        fail()
+        send_msg("Oops! ", e)
+        if help:
+            send_msg("Aide 💡", help)
 
-
+#--------------------------------------
 if __name__ == "__main__": test()
