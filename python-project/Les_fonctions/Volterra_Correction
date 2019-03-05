@@ -1,0 +1,14 @@
+a=0.09
+b=0.00001
+c=0.25
+d=0.000005
+
+
+def v(n):
+    if n==0 : return 9000
+    else:
+        return v(n-1)*(1+d*u(n-1)-c)
+def u(n):
+    if n==0:return 53000
+    else:
+        return u(n-1)*(1+a-b*v(n-1))
