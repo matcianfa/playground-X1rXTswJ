@@ -1,49 +1,45 @@
-#Ne pas oublier de changer le module à importer
-from fonction_binom import binom as f
-import sys
-import io
+# A modifier si besoin
+nom_fonction="binom"
 
-
-#liste des couples input/output
-input_output=[\
-((4,2),6),\
-((10,0),1),\
-((3,3),1),\
-((8,4),70),\
-((2,4),0)\
-]
-
-
-
-#message d'aide si besoin
-help="N'oublie pas d'utiliser return pour afficher le resultat. Utilisez int() pour transformer les flottants en entiers."
-
-
-
-def send_msg(channel, msg):
-    print("TECHIO> message --channel \"{}\" \"{}\"".format(channel, msg))
-
-
-def success():
-    send_msg("Tests validés","Bravo !")
-    print("TECHIO> success true")
-
-
-def fail():
-    print("TECHIO> success false")
+#liste des valeurs à tester
+# Attention de bien mettre dans un tuplet ou une liste les valeurs à tester même si la fonction n'a qu'un argument.
+valeurs_a_tester=[(4,2),(10,0),(3,3),(8,4),(2,4)]
     
+#message d'aide si besoin
+help="N'oublie pas d'utiliser return pour renvoyer le resultat."
 
+#------------------------------------
+# Les imports
+import sys
+# Ma boite à outils
+from ma_bao import * 
+# Donne les noms du dossier et du module (automatiquement avec __file__
+chemin,module=donner_chemin_nom(__file__)
+# On teste s'il n'y a pas d'erreurs de synthaxe etc. et on les montre si besoin
+tester("from {} import *".format(module),globals()) 
+# On renomme ma fonction f
+f=eval(nom_fonction)
+# Si le mot de passe est bon on affiche la correction
+try :  
+    cheat(chemin+module,mdp) 
+except: pass
+# On récupère la fonction solution
+exec("from {}_Correction import {} as f_sol".format(module,nom_fonction))
+
+#--------------------------------------
 def test():
     try:
-      for x,reponse in input_output:
-        assert f(*x) == reponse, "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(str(x),str(f(*x)),str(reponse))
-        send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}".format(str(x),str(f(*x))))
-      success()
+        for valeur in valeurs_a_tester:
+            rep=f(*valeur)
+            sol=f_sol(*valeur)
+            assert str(rep) == str(sol), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(",".join([str(val) for val in valeur]),str(rep),str(sol))
+            send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}".format(",".join([str(val) for val in valeur]),str(rep)))
+        success(chemin+module)
     except AssertionError as e:
-      fail()
-      send_msg("Oops! ", e)
-      if help:
-        send_msg("Aide 💡", help)
+        fail()
+        send_msg("Oops! ", e)
+        if help:
+            send_msg("Aide 💡", help)
 
-
+#--------------------------------------
 if __name__ == "__main__": test()
