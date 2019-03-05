@@ -3,7 +3,7 @@ nom_fonction="ma_fonction"
 
 #liste des valeurs à tester
 # Attention de bien mettre dans un tuplet ou une liste les valeurs à tester même si la fonction n'a qu'un argument.
-valeurs_a_tester=[[[1,5,6]],[[1,5,1,5,6]],[[3,2,5,7,10,1]],[[8,7,6,5,4,3,2,1]],[[1]]]
+valeurs_a_tester=[[1,5,6],[1,5,1,5,6],[3,2,5,7,10,1],[8,7,6,5,4,3,2,1],[1]]
 
 #message d'aide si besoin
 help="N'oublie pas d'utiliser return pour renvoyer le resultat."
@@ -30,8 +30,10 @@ exec("from {}_Correction import {} as f_sol".format(module,nom_fonction))
 def test():
     try:
         for valeur in valeurs_a_tester:
-            rep=f(*valeur)
-            sol=f_sol(*valeur)
+            val=valeur.copy()
+            rep=f(val).copy()
+            val=valeur.copy()
+            sol=f_sol(val)
             assert str(rep) == str(sol), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(",".join([str(val) for val in valeur]),str(rep),str(sol))
             send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}".format(",".join([str(val) for val in valeur]),str(rep)))
         success(chemin+module)
