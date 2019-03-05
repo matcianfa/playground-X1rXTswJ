@@ -34,10 +34,10 @@ def test():
     try:
         for valeur in valeurs_a_tester:
             val=valeur.copy()
-            rep=f_sol(f(val)).copy()
+            rep=f(val)
             val=valeur.copy()
             sol=f_sol(val)
-            assert str(rep) == str(sol), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(",".join([str(val) for val in valeur]),str(rep),str(sol))
+            assert str(sorted(rep)) == str(sorted(sol)), "En testant les valeurs {} le résultat obtenu est {}".format(str([str(val) for val in valeur]),str(rep))
             send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}".format(str([str(val) for val in valeur]),str(rep)))
         success(chemin+module)
     except AssertionError as e:
