@@ -5,7 +5,7 @@ from random import randint
 
 
 
-def mon_programme(liste):
+def ma_fonction(liste):
     #Les valeurs pour les variables en entrée seront automatiquement données
     #Ecrire ci-dessous en n'oubliant pas d'indenter
     
