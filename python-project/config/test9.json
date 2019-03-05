@@ -1,9 +1,0 @@
-{
-  "title": {
-    "2": "Medium size",
-    "1": "Taille moyenne"
-  },
-  "testIn": "15\n15\n0 14\n2 10\n1 8\n6 10\n7 14\n0 12\n3 11\n12 14\n2 4\n0 14\n5 13\n1 13\n2 14\n1 11\n3 9",
-  "isTest": "true",
-  "isValidator": "false"
-}
