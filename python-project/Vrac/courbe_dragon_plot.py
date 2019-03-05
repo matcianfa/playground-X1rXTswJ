@@ -7,7 +7,7 @@ n_max=100000
 
 
 #Compléter la fonction ci-dessous pour qu'elle affiche la courbe du dragon
-def mon_programme(n):
+def ma_fonction(n):
     #Les valeurs pour les variables en entrée seront automatiquement données
     #Ecrire ci-dessous en n'oubliant pas d'indenter
 
