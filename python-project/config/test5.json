@@ -1,9 +1,0 @@
-{
-  "title": {
-    "2": "The original one",
-    "1": "Celui d'origine"
-  },
-  "testIn": "5\n11\n4 6\n3 7\n2 8\n1 9\n0 10\n",
-  "isTest": "true",
-  "isValidator": "false"
-}
