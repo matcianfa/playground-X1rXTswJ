@@ -1,0 +1,9 @@
+{
+  "title": {
+    "2": "Two rows",
+    "1": "2 lignes"
+  },
+  "testIn": "2\n6\n1 5\n0 5",
+  "isTest": "true",
+  "isValidator": "false"
+}
