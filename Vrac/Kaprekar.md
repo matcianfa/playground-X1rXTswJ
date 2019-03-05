@@ -13,7 +13,7 @@ Exemples :
 + 12 n'est pas un nombre de Kaprekar car 12²=144 et on ne peut pas couper ce nombre pour trouver 12 (1+44=45, 14+4=18).
 + 4 879 est un nombre de Kaprekar car 4879² = 23804641 et 238 + 04 641 = 4 879.
 
-Créer un programme qui affiche (avec `print`) si un nombre ***n*** est de Kaprekar ou pas.
+Créer un programme qui renvoit (avec `return`) si un nombre ***n*** est de Kaprekar ou pas.
 
 ::: Aide
 Il sera peut-être utile d'utiliser le `else` avec la boucle `for` qui permet d'executer des commandes seulement si la boucle `for` s'est terminée normalement (c'est à dire sans `break`)
@@ -57,6 +57,6 @@ Par exemple pour n=326, il faudra afficher [495] car c'est ce nombre qui apparai
 
 > Entrée : Un nombre ***n***.
 
-> Sortie : La liste des nombres qui sortiront en boucle quand on réitère l'algorithme de Kaprekar en partant de ***n*** affiché avec `print`.
+> Sortie : La liste des nombres qui sortiront en boucle quand on réitère l'algorithme de Kaprekar en partant de ***n*** renvoyé avec `return`.
 
 @[Algorithme de Kaprekar]({"stubs": ["Vrac/Algo_Kaprekar.py"], "command": "python3 Vrac/Algo_Kaprekar_Test.py"})
