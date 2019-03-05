@@ -75,4 +75,4 @@ def cheat(module,mdp):
     Permet d'afficher la correction si on a le bon mot de passe
     """
     if str(md5(str(mdp).encode('utf-8')).hexdigest())==code:
-afficher_correction(module)
+        afficher_correction(module)
