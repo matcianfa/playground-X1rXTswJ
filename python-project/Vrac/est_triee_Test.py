@@ -3,7 +3,7 @@ nom_fonction="est_triée"
 
 #liste des valeurs à tester
 # Attention de bien mettre dans un tuplet ou une liste les valeurs à tester même si la fonction n'a qu'un argument.
-valeurs_a_tester=[[1,2,3,4,5],[5,4,3,2,1],[1,1,2,3,3,4],[14,12,23,31,3,42],[1,1,1,2,1,3,4]]
+valeurs_a_tester=[[[1,2,3,4,5]],[[5,4,3,2,1]],[[1,1,2,3,3,4]],[[14,12,23,31,3,42]],[[1,1,1,2,1,3,4]]]
 
 #message d'aide si besoin
 help="N'oublie pas d'utiliser return pour renvoyer le resultat."
