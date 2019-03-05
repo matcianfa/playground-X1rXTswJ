@@ -280,8 +280,8 @@ plan:
     statement: Autre/nim_fibonacci.md
   - title: Jeu de nim - Marienbad
     statement: Autre/nim_marienbad.md
-  - title: Test
-    statement: Autre/test.md
+  #- title: Test
+  #  statement: Autre/test.md
 projects:
   python:
     buildCommand: pip3 install --ignore-installed matplotlib Pillow scipy
