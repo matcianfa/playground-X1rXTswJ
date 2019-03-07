@@ -38,13 +38,13 @@ Le nombre 1406357289 est un nombre 0 à 9 pandigital car il est composé des chi
 
 Si on $`d_n`$ le n-ième chiffre, on remarque que :
 
-$`d_2d_3d_4=406`$ est divisible par 2
-$`d_3d_4d_5=063`$ est divisible par 3
-$`d_4d_5d_6=635`$ est divisible par 5
-$`d_5d_6d_7=357`$ est divisible par 7
-$`d_6d_7d_8=572`$ est divisible par 11
-$`d_7d_8d_9=728`$ est divisible par 13
-$`d_8d_9d_{10}=289`$ est divisible par 17
+$`d_2d_3d_4=406`$ est divisible par 2  
+$`d_3d_4d_5=063`$ est divisible par 3  
+$`d_4d_5d_6=635`$ est divisible par 5  
+$`d_5d_6d_7=357`$ est divisible par 7  
+$`d_6d_7d_8=572`$ est divisible par 11  
+$`d_7d_8d_9=728`$ est divisible par 13  
+$`d_8d_9d_{10}=289`$ est divisible par 17  
     
 Trouver la somme de tous les nombres 0 à 9 pandigitals ayant cette propriété
 
