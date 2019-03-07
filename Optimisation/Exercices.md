@@ -52,13 +52,16 @@ Il ne faut pas se laisser impressioner par les titres en anglais, les énoncés 
 + [CG : Plight of the fellowship of the ring](https://www.codingame.com/training/medium/plight-of-the-fellowship-of-the-ring)
 + [CG : Locked in gear](https://www.codingame.com/training/medium/locked-in-gear)
 + [CG : Floodfill example](https://www.codingame.com/training/medium/flood-fill-example)
++ [CG Multi : Tron battle](https://www.codingame.com/multiplayer/bot-programming/tron-battle)
++ [CG Multi : Great escape](https://www.codingame.com/multiplayer/bot-programming/great-escape)
++ [CG Multi : Coders of the caribbean](https://www.codingame.com/multiplayer/bot-programming/coders-of-the-caribbean)
 
 # Parcours en profondeur
 
 + [CG : Vox codei 1](https://www.codingame.com/training/hard/vox-codei-episode-1) et [CG : Vox codei 2](https://www.codingame.com/training/expert/vox-codei-episode-2)
 + [CG : Bridge](https://www.codingame.com/training/hard/the-bridge-episode-2)
-+ [CG multi : Smash the code](https://www.codingame.com/multiplayer/bot-programming/smash-the-code)
-+ [CG multi : Hypersonic](https://www.codingame.com/multiplayer/bot-programming/hypersonic)
++ [CG Multi : Smash the code](https://www.codingame.com/multiplayer/bot-programming/smash-the-code)
++ [CG Multi : Hypersonic](https://www.codingame.com/multiplayer/bot-programming/hypersonic)
 
 # Backtracking
 
