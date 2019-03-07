@@ -1,6 +1,13 @@
 Voici une liste d'exercices trouvés sur d'autres sites en lien avec les notions vues dans ce chapitre.  
 Il ne faut pas se laisser impressioner par les titres en anglais, les énoncés sont parfois en français et si ce n'est pas le cas, c'est très compréhensible.
 
+# Algorithme glouton
+
++ [CG : Le cadeau](https://www.codingame.com/training/medium/the-gift)
++ [CG : Super computer](https://www.codingame.com/training/hard/super-computer)
++ [CG : add'em up](https://www.codingame.com/training/easy/addem-up)
++ [CG : Brick in the wall](https://www.codingame.com/training/easy/brick-in-the-wall)
+
 # Programmation dynamique / Mémoïsation
 
 ## Projet Euler :
