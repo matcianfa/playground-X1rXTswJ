@@ -32,6 +32,8 @@ Il ne faut pas se laisser impressioner par les titres en anglais, les énoncés 
 + [CG : Montagnes russes](https://www.codingame.com/training/hard/roller-coaster)
 + [CG : The balanced centrifuge problem](https://www.codingame.com/training/hard/the-balanced-centrifuge-problem)
 + [CG : Max rect](https://www.codingame.com/training/hard/max-rect)
++ [CG : Elevator](https://www.codingame.com/training/hard/elevator)
++ [CG : Resistance](https://www.codingame.com/training/expert/the-resistance)
 
 
 
@@ -40,7 +42,7 @@ Il ne faut pas se laisser impressioner par les titres en anglais, les énoncés 
 
 + [Projet Euler n°81, 82 et 83](https://tech.io/playgrounds/68914ce567e09c3c5ca52d985621633467171/recueil-dexercices-pour-apprendre-python-au-lycee/projet-euler-n81-a-85)
 + [Projet Euler n°107](https://tech.io/playgrounds/6188af6b7ef70dd2cd375923018d100667171/recueil-dexercices-pour-apprendre-python-au-lycee/projet-euler-n106-a-110)
-+ [CG : Skynet revolution I](https://www.codingame.com/training/medium/skynet-revolution-episode-1)
++ [CG : Skynet revolution I](https://www.codingame.com/training/medium/skynet-revolution-episode-1) et [CG : Skynet revolution 2](https://www.codingame.com/training/hard/skynet-revolution-episode-2)
 + [CG : Le labyrinthe](https://www.codingame.com/training/hard/the-labyrinth)
 + [CG : Don't panic 2](https://www.codingame.com/training/hard/don't-panic-episode-2)
 + [CG : Bender 2](https://www.codingame.com/training/hard/bender-episode-2)
@@ -65,5 +67,6 @@ Il ne faut pas se laisser impressioner par les titres en anglais, les énoncés 
 + [CG : The last crusade II](https://www.codingame.com/training/hard/the-last-crusade-episode-2) et [CG : The last crusade III](https://www.codingame.com/training/expert/the-last-crusade-episode-3)
 + [CG : The bridge](https://www.codingame.com/training/hard/the-bridge-episode-2)
 + [CG : Winamax sponsored contest](https://www.codingame.com/training/hard/winamax-sponsored-contest)
++ [CG : Eisntein's riddle solver](https://www.codingame.com/training/hard/einsteins-riddle-solver)
 + [CG : Neighbor sum grids](https://www.codingame.com/training/hard/neighbor-sum-grids)
 
