@@ -264,7 +264,7 @@ plan:
     statement: Defis/Euler_121.md
   - title: Projet Euler n°331 à 335
     statement: Defis/Euler_331.md
-- title: Optimisation
+- title: Approfondissements
   plan:
   - title: Introduction
     statement: Optimisation/Introduction.md
@@ -274,6 +274,8 @@ plan:
     statement: Optimisation/Volterra.md
   - title: Mémoïzation - Approximation de e
     statement: Optimisation/Approximation_de_e.md
+  - title: Exercices
+    statement: Optimisation/Exercices.md
 - title : Autre
   plan:
   - title: Jeu de nim - Fibonacci
