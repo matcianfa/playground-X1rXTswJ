@@ -13,11 +13,17 @@ Voici une liste d'exercices trouvés sur d'autres sites en lien avec les notions
 + [Projet Euler n°76, 77, 78](https://tech.io/playgrounds/68914ce567e09c3c5ca52d985621633467171/recueil-dexercices-pour-apprendre-python-au-lycee/projet-euler-n76-a-80)
 + [Projet Euler n°82](https://tech.io/playgrounds/68914ce567e09c3c5ca52d985621633467171/recueil-dexercices-pour-apprendre-python-au-lycee/projet-euler-n81-a-85)
 + [Projet Euler n°92](https://tech.io/playgrounds/68914ce567e09c3c5ca52d985621633467171/recueil-dexercices-pour-apprendre-python-au-lycee/projet-euler-n91-a-95)
++ [Projet Euler n°113, 114 et 115](https://tech.io/playgrounds/6188af6b7ef70dd2cd375923018d100667171/recueil-dexercices-pour-apprendre-python-au-lycee/projet-euler-n111-a-115)
++ [Projet Euler n° 116, 117 et 118](https://tech.io/playgrounds/6188af6b7ef70dd2cd375923018d100667171/recueil-dexercices-pour-apprendre-python-au-lycee/projet-euler-n116-a-120)
+
+
 
 
 # Recherche de chemin
 
 + [Projet Euler n°81, 82 et 83](https://tech.io/playgrounds/68914ce567e09c3c5ca52d985621633467171/recueil-dexercices-pour-apprendre-python-au-lycee/projet-euler-n81-a-85)
++ [Projet Euler n°107](https://tech.io/playgrounds/6188af6b7ef70dd2cd375923018d100667171/recueil-dexercices-pour-apprendre-python-au-lycee/projet-euler-n106-a-110)
+
 
 
 # Backtracking
