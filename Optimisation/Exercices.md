@@ -1,6 +1,10 @@
 Voici une liste d'exercices trouvés sur d'autres sites en lien avec les notions vues dans ce chapitre.  
 Il ne faut pas se laisser impressioner par les titres en anglais, les énoncés sont parfois en français et si ce n'est pas le cas, c'est très compréhensible.
 
+Quelques précisions : 
+- Pour les exercices du projet Euler, le lien renvoit vers les versions traduites de ce recueil mais sont tirés du site [Euler project](https://projecteuler.net/) sur lequel vous pouvez vous inscrire et valider votre progression ainsi que découvrir de nombreux autres exercices mélant mathématiques et programmation.
+- Pour les exercices précédés de CG, il s'agit d'un lien vers les puzzles du site [Codingame](https://www.codingame.com/) sur lequel il faut s'inscrire pour pouvoir accéder à l'énoncé et le résoudre. On peut les résoudre dans de nombreux langages différents, il ne faut donc pas oublier de séléctionner python 3 comme langage.
+
 # Algorithme glouton
 
 + [CG : Le cadeau](https://www.codingame.com/training/medium/the-gift)
@@ -59,6 +63,7 @@ Il ne faut pas se laisser impressioner par les titres en anglais, les énoncés 
 + [CG : Plight of the fellowship of the ring](https://www.codingame.com/training/medium/plight-of-the-fellowship-of-the-ring)
 + [CG : Locked in gear](https://www.codingame.com/training/medium/locked-in-gear)
 + [CG : Floodfill example](https://www.codingame.com/training/medium/flood-fill-example)
++ [CG : Le taquin](https://www.codingame.com/training/hard/11-puzzle)
 + [CG Multi : Tron battle](https://www.codingame.com/multiplayer/bot-programming/tron-battle)
 + [CG Multi : Great escape](https://www.codingame.com/multiplayer/bot-programming/great-escape)
 + [CG Multi : Coders of the caribbean](https://www.codingame.com/multiplayer/bot-programming/coders-of-the-caribbean)
