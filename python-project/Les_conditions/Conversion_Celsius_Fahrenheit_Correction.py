@@ -1,6 +1,6 @@
 from math import *
 
-def ma fonction(t,n):
+def ma_fonction(t,n):
     if n==0:
         return round(1.8*t+32,3)
     else:
