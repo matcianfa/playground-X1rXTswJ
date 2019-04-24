@@ -18,7 +18,7 @@ On affichera le résultat avec `print`.
 
 On peut démontrer que la racine carrée de deux peut être exprimée comme une fraction continue infinie : 
 
-$`sqrt{2}=1 + \dfrac{1}{2+\frac{1}{2+\frac{1}{2+\dots}}} = 1.414213...`$
+$`\sqrt{2}=1 + \dfrac{1}{2+\frac{1}{2+\frac{1}{2+\dots}}} = 1.414213...`$
 
 En calculant les quatre premières itérations, on obtient : 
 
