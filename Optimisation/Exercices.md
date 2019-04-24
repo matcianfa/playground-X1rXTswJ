@@ -32,12 +32,12 @@ Quelques précisions :
 
 ## CodinGame :
 
-+ [CG : Des nains sur des épaules de géants](https://www.codingame.com/training/medium/dwarfs-standing-on-the-shoulders-of-giants)
 + [CG : Nombre de chemins entre deux points](https://www.codingame.com/training/medium/number-of-paths-between-2-points)
 + [CG : Goro veut du chocolat !](https://www.codingame.com/training/medium/goro-want-chocolate)
 + [CG : Probleme d'optimisation des urinoirs](https://www.codingame.com/training/medium/the-optimal-urinal-problem)
 + [CG : 2 player game on a calculator](https://www.codingame.com/training/medium/2-player-game-on-a-calculator)
 + [CG : Le grand festival I](https://www.codingame.com/training/medium/the-grand-festival---i) et [CG : Le grand festival II](https://www.codingame.com/training/medium/the-grand-festival---ii)
++ [CG : Des nains sur des épaules de géants](https://www.codingame.com/training/medium/dwarfs-standing-on-the-shoulders-of-giants)
 + [CG : Surface](https://www.codingame.com/training/hard/surface)
 + [CG : Montagnes russes](https://www.codingame.com/training/hard/roller-coaster)
 + [CG : The balanced centrifuge problem](https://www.codingame.com/training/hard/the-balanced-centrifuge-problem)
