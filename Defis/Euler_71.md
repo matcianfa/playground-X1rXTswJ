@@ -62,7 +62,7 @@ On affichera le résultat avec `print`.
 `Difficulté : Moyen (15%)`
 `Origine : Projet Euler n°74`
 
-Le nombre 145 est bien connu pour avoir la propriété que la summ des factorielles de ses chiffres est égale à 145 :
+Le nombre 145 est bien connu pour avoir la propriété que la somme des factorielles de ses chiffres est égale à 145 :
 
 1! + 4! + 5! = 1 + 24 + 120 = 145
 
