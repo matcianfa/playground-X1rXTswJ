@@ -32,7 +32,6 @@ Quelques précisions :
 
 ## CodinGame :
 
-+ [CG : Teads](https://www.codingame.com/training/medium/teads-sponsored-contest)
 + [CG : Des nains sur des épaules de géants](https://www.codingame.com/training/medium/dwarfs-standing-on-the-shoulders-of-giants)
 + [CG : Nombre de chemins entre deux points](https://www.codingame.com/training/medium/number-of-paths-between-2-points)
 + [CG : Goro veut du chocolat !](https://www.codingame.com/training/medium/goro-want-chocolate)
@@ -58,6 +57,7 @@ Quelques précisions :
 + [CG : Don't panic 2](https://www.codingame.com/training/hard/don't-panic-episode-2)
 + [CG : Bender 2](https://www.codingame.com/training/hard/bender-episode-2)
 + [CG : Tan network](https://www.codingame.com/training/hard/tan-network)
++ [CG : Teads](https://www.codingame.com/training/medium/teads-sponsored-contest)
 + [CG : Paper labyrinth](https://www.codingame.com/training/medium/paper-labyrinth)
 + [CG : 2.5D maze](https://www.codingame.com/training/medium/2-5d-maze)
 + [CG : Plight of the fellowship of the ring](https://www.codingame.com/training/medium/plight-of-the-fellowship-of-the-ring)
