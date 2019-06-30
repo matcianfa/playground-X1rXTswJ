@@ -151,4 +151,10 @@ C'est assez impressionnant mais :
 
 ## Les sorties clavier et souris
 
-On a vu comment récupérer les données. Les élèves ont fait leur IA qui donne les instructions à suivre. Voyons maintenant comment executer ces instructions c'est à dire réellement jouer au jeu. Pour cela, nous allons utiliser le module 
+On a vu comment récupérer les données. Les élèves ont fait leur IA qui donne les instructions à suivre. Voyons maintenant comment executer ces instructions c'est à dire réellement jouer au jeu. Pour cela, nous allons utiliser le module pyautogui. Toujours pareil, pour l'installer, on execute `pip install pyautogui` et pour l'importer dans notre script `import pyautogui`.
+
+Je ne vais pas donner d'exemple mais renvoyer plutôt à la [documentation officielle](https://pyautogui.readthedocs.io/en/latest/introduction.html) qui est remarquablement claire. On pourra trouver plus particulièrement comment prendre le controle de la souris et du clavier avec python.
+
+## Exemples
+
+On pourra trouver quelques exemples de projets aboutis dans les pages suivantes.
