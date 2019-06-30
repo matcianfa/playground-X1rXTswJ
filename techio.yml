@@ -276,6 +276,10 @@ plan:
     statement: Optimisation/Approximation_de_e.md
   - title: Exercices
     statement: Optimisation/Exercices.md
+- title: Projets
+  plan:
+  - title: IA et jeux sur mobiles
+    statement: Projets/IA_de_jeux.md
 - title : Autre
   plan:
   - title: Jeu de nim - Fibonacci
