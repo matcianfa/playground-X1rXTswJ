@@ -106,7 +106,9 @@ Par exemple : le jeu de Go, puissance4, mastermind, 2048,
 
 ### Reconnaissance de caractères
 
-Cela consiste à reconnaitre les lettres présentes sur une image. Pour cela, on va utiliser le module tesseract. Il est un peu plus complexe à installer. En effet il faut d'abord installer Tesseract OCR que l'on peut trouver ici [Tesseract pour Windows](https://github.com/UB-Mannheim/tesseract/wiki). Ensuite il faut installer le module pytesseract en lançant dans la ligne de commande `pip install pytesseract`. On pourra trouver un tutoriel très bien fait [ici](http://info.blaisepascal.fr/tesseract).
+Cela consiste à reconnaitre les lettres présentes sur une image. Typiquement, cela peut servir pour des jeux du type Boggle, Scrabble, Sudoku, mots mélés...
+
+Pour cela, on va utiliser le module tesseract. Il est un peu plus complexe à installer. En effet il faut d'abord installer Tesseract OCR que l'on peut trouver ici [Tesseract pour Windows](https://github.com/UB-Mannheim/tesseract/wiki). Ensuite il faut installer le module pytesseract en lançant dans la ligne de commande `pip install pytesseract`. On pourra trouver un tutoriel très bien fait [ici](http://info.blaisepascal.fr/tesseract).
 
 ::: Exemple :
 ``` python
@@ -147,4 +149,6 @@ C'est assez impressionnant mais :
 - c'est relativement lent à executer. Donc quasiment inutilisable pour des jeux où les lettres bougent et changent en permanence et demande de la rapidité.
 - c'est une reconnaissance de caractère générique c'est à dire qu'il marche dans énormément de situations et reconnait les mots. Ce qui veut dire qu'il risque de se tromper si on demande une reconnaissance lettre à lettre. J'aurais tendance à dire que c'est un bon outil pour commencer mais si on veut optimiser pour un jeu précis, il va falloir améliorer cette partie là. Cela peut être un bon défi pour les bons groupes de s'attaquer à entrainer un réseau de neurones pour un jeu précis (quitte à prémacher le travail et juste les faire entrainer le réseau) qui reconnaisse les caractères ou bien le score.
 
+## Les sorties clavier et souris
 
+On a vu comment récupérer les données. Les élèves ont fait leur IA qui donne les instructions à suivre. Voyons maintenant comment executer ces instructions c'est à dire réellement jouer au jeu. Pour cela, nous allons utiliser le module 
