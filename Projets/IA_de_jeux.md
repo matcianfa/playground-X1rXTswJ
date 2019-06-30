@@ -51,6 +51,8 @@ J'ai mis quelques exemples de prétraitement de l'image avant son utilisation ca
 
 Nous aurons besoin faire des captures d'écran pour tous les jeux mais certains peuvent demander de se plonger beaucoup plus dans le module PIL ce qui peut faire un bon entrainement. Par exemple : Memory (où il faut retrouver les paires de cartes identiques) ou bien le jeu des 7 différences.
 
+Une dernière remarque très importante : fixer une bonne fois pour toute l'endroit où votre jeu sera affiché. le plus simple est de mettre en mode fenêtre agrandie ou bien dans un coin. En effet tout ce qui suit dépendra de la capture d'écran mais si à chaque fois qu'on relance le jeu, il faut redéfinir tous les paramètres car la fenêtre de jeu a changé de place (même un pixel de différence peut tout changer), ça devient vite pénible.
+
 ### Comment voir ce qu'on a capturé ?
 
 Petite sous partie pas indispensable mais utile tout de même car il est toujours important de vérifier qu'on envoit bien les bonnes données à notre IA avant de se lancer dedans.
@@ -64,6 +66,7 @@ Pour cela, on peut utiliser Open-CV. Pour l'installer, il faut taper dans la lig
 Exemple d'utilisation
 ``` python
 from PIL import  ImageGrab
+import numpy as np
 import cv2 # Module d'Open-CV
 
 while True:
@@ -83,6 +86,20 @@ while True:
             break
 ```
 
+Quelques remarques : Open-cv a besoin qu'on traduise les images en matrice numpy. De plus PIL semble travailler en couleur BGR alors que Open-cv en RGB d'où la commande de conversion entre les deux `cv2.cvtColor(capture, cv2.COLOR_BGR2RGB)`
+
+Normalement le programme précédent prend des captures d'écran toutes les 100ms de la zone, le transforme en nuance de gris et affiche le résultat dans une fenêtre. Si on fait bouger des choses, on peut constater que les modifications sont répércutées en direct. Pour sortir de la boucle infinie, il faut selectionner la fenetre d'open-cv et appuyer sur la touche 'q' du clavier.
+
+## Passer des données graphiques aux données exploitables
+
+Maintenant qu'on sait récupérer ce qu'il se passe à l'écran, il faut réussir à le traduire en données exploitables. 
+
+Tout va dépendre du type de jeu, voici quelques idées en vrac :
+- Pour memory, par exemple, on n'a rien besoin de faire puisqu'on va comparer des images.
+- Avec un peu de chance et d'astuce, on peut traduire les données juste en regardant les couleurs. Par exemple si chaque personnage ou chaque lettre à une couleur spécifique, pas besoin de faire un traitement d'image compliqué, on regarde juste la couleur des pixel pour savoir ce qu'il se passe et en déduire les données utiles. On peut combiner la couleur avec la postion. Par exemple, on peut deviner la valeur d'une carte juste en regardant à des positions stratégiques la couleur du pixel. donc en une vingtaine de pixel on a notre information. Bien sûr cela demande d'être très précis quand on prend la capture d'ecran mais fait gagner beaucoup de temps.  
+Par exemple : le jeu de Go, puissance4, mastermind, 2048, 
+- Pour les jeux de lettres ou de chiffres, il va falloir traduire notre image en lettres, mots ou nombres. Soit on peut utiliser une astuce de couleur, position ou autre (cela peut être le nombre de pixels noirs qui caractérise ce qui nous intéresse par exemple ), soit on n'a pas d'autre choix que de faire une reconnaissance graphique de caractère. J'en parle dans la sous-section suivante.
+- Certains jeux sont trop complexes pour être traduits simplement (jeux 3D par exemple) donc il vaut mieux rester raisonnable.
 
 
 
