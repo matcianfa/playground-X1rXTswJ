@@ -230,12 +230,6 @@ from Generer_automate import Noeud # La classe qui a permis de faire le dictionn
 # On charge le dictionnaire (sauvegardé sous forme d'automate (cf le fichier Generer_automate.py))
 # !!!! Un peu long à charger
 dico=pickle.load(open('automate', 'rb')) # dico avec tous les mots
-# On va découper la recherche en 2 : Les mots de plus de 8 lettres puis si il reste du temps, les mots entre 5 et 7 lettres
-#dico=pickle.load(open('automate_plus_de_8_lettres', 'rb'))  # dico avec tous les mots de plus de 5 lettres pour faire plus de points
-#dico2=pickle.load(open('automate_entre_5_et_7_lettres', 'rb'))
-#dico3=pickle.load(open('automate_moins_de_4_lettres', 'rb'))
-
-
 
 def cliquer(liste):
     """
