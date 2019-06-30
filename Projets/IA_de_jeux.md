@@ -31,7 +31,7 @@ L'idée est simple : On fait des captures d'écran. Pour cela, on peut utiliser 
 
 PIL est un bibliothèque classique, elle est souvent déjà installée. Si ce n'est pas le cas, il suffit de taper sur la ligne de commande `pip install PIL` (ou bien dans EDUpython d'aller dans le menu Outils> Outils> Installation d'un nouveau module)
 
-Exemple d'utilisation :
+::: Exemple d'utilisation :
 
 ``` python
 from PIL import  ImageGrab # Pour faire la capture d'ecran
@@ -46,6 +46,7 @@ image = image.point(lambda x: 0 if x < 140 else 255) # Noir et blanc
 # Sauvegarde de  l'image 
 image.save("capture.png")
 ```
+:::
 
 J'ai mis quelques exemples de prétraitement de l'image avant son utilisation car c'est souvent utile d'en faire pour éviter d'avoir trop de données à gérer. Il existe énormément de traitements de l'image possibles, il faut choisir les plus pertinents. On pourra se référer à la doc PIL.
 
@@ -63,7 +64,7 @@ Pour les jeux plus dynamiques, on va prendre énormément de captures et très s
 
 Pour cela, on peut utiliser Open-CV. Pour l'installer, il faut taper dans la ligne de commande `pip install opencv-python`. Il faut le module `numpy` pour utiliser Open-cv donc à installer (avant) si ce n'est déjà fait.
 
-Exemple d'utilisation
+::: Exemple d'utilisation
 ``` python
 from PIL import  ImageGrab
 import numpy as np
@@ -85,6 +86,7 @@ while True:
             cv2.destroyAllWindows()
             break
 ```
+:::
 
 Quelques remarques : Open-cv a besoin qu'on traduise les images en matrice numpy. De plus PIL semble travailler en couleur BGR alors que Open-cv en RGB d'où la commande de conversion entre les deux `cv2.cvtColor(capture, cv2.COLOR_BGR2RGB)`
 
@@ -100,7 +102,49 @@ Tout va dépendre du type de jeu, voici quelques idées en vrac :
 Par exemple : le jeu de Go, puissance4, mastermind, 2048, 
 - Pour les jeux de lettres ou de chiffres, il va falloir traduire notre image en lettres, mots ou nombres. Soit on peut utiliser une astuce de couleur, position ou autre (cela peut être le nombre de pixels noirs qui caractérise ce qui nous intéresse par exemple ), soit on n'a pas d'autre choix que de faire une reconnaissance graphique de caractère. J'en parle dans la sous-section suivante.
 - Certains jeux sont trop complexes pour être traduits simplement (jeux 3D par exemple) donc il vaut mieux rester raisonnable.
+- Des fois il est plus simple de rentrer à la main les données : Par exemple si le jeu consiste à donner le mot le plus long formé avec 7 lettres, on a aussi vite fait (avec de l'entrainement) de les retaper que de faire une reconnaissance de caractères.
+
+### Reconnaissance de caractères
+
+Cela consiste à reconnaitre les lettres présentes sur une image. Pour cela, on va utiliser le module tesseract. Il est un peu plus complexe à installer. En effet il faut d'abord installer Tesseract OCR que l'on peut trouver ici [Tesseract pour Windows](https://github.com/UB-Mannheim/tesseract/wiki). Ensuite il faut installer le module pytesseract en lançant dans la ligne de commande `pip install pytesseract`. On pourra trouver un tutoriel très bien fait [ici](http://info.blaisepascal.fr/tesseract).
+
+::: Exemple :
+``` python
+from PIL import  ImageGrab
+import numpy as np
+import cv2 # Module d'Open-CV
+import pytesseract
+# Préciser le chemin à  suivre pour le fichier tesseract.exe
+pytesseract.pytesseract.tesseract_cmd = 'c:\\Program Files\\Tesseract-OCR-2\\tesseract'
 
 
+while True:
+    # On capture la zone de l'écran entre le pixel de coordonnées (100,200) et (400,300)
+    image=ImageGrab.grab(bbox=(100,200,400,300))
+    #  Prétraitement de l'image
+    image = image.convert('L')    # convertit en echelle de gris
+
+    # On traduit notre image en format PIL en une matrice numpy pour pouvoir utiliser Open CV
+    capture =  np.array(image)
+    # On affiche le résultat.
+    cv2.imshow('window',cv2.cvtColor(capture, cv2.COLOR_BGR2RGB))
+    # On récupère le texte sur l'image
+    text = pytesseract.image_to_string(image)
+    print(text)
+    # On attend 1s avant de continuer pour voir si on appuye sur une touche. Si on appuye sur 'q', on arrete la boucle infinie
+    if cv2.waitKey(1000) & 0xFF == ord('q'):
+            cv2.destroyAllWindows()
+            break
+            
+```
+:::
+
+Si tout va bien, vous devriez voir apparaitre dans votre console tout le texte présent dans la fenêtre capturée.
+
+Très important : il faut préciser le chemin où vous avez installé Tesseract OCR (c'est la ligne qui suit `import pytesseract`) sinon il affiche qu'il n'a pas trouvé tesseract.
+
+C'est assez impressionnant mais :
+- c'est relativement lent à executer. Donc quasiment inutilisable pour des jeux où les lettres bougent et changent en permanence et demande de la rapidité.
+- c'est une reconnaissance de caractère générique c'est à dire qu'il marche dans énormément de situations et reconnait les mots. Ce qui veut dire qu'il risque de se tromper si on demande une reconnaissance lettre à lettre. J'aurais tendance à dire que c'est un bon outil pour commencer mais si on veut optimiser pour un jeu précis, il va falloir améliorer cette partie là. Cela peut être un bon défi pour les bons groupes de s'attaquer à entrainer un réseau de neurones pour un jeu précis (quitte à prémacher le travail et juste les faire entrainer le réseau) qui reconnaisse les caractères ou bien le score.
 
 
