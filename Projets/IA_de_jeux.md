@@ -1,4 +1,4 @@
-# Projet : IA de jeux
+# Projet : Intelligence Artificielle et jeux sur mobiles
 
 ## Présentation
 
