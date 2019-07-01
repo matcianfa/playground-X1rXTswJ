@@ -280,8 +280,10 @@ plan:
   plan:
   - title: IA et jeux sur mobiles
     statement: Projets/IA_de_jeux.md
-  - title: Exemple de Boggle
+  - title: Exemple avec le jeu Boggle
     statement: Projets/Boggle.md
+  - title: Exemple avec le jeu 2048
+    statement: Projets/2048.md
 - title : Autre
   plan:
   - title: Jeu de nim - Fibonacci
