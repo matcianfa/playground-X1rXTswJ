@@ -158,3 +158,33 @@ Je ne vais pas donner d'exemple mais renvoyer plutôt à la [documentation offic
 ## Exemples
 
 On pourra trouver quelques exemples de projets aboutis dans les pages suivantes.
+
+## Quelques idées 
+
+Voici quelques idées (en vrac) de projets d'IA de jeux qui doivent être réalisables avec les élèves. J'ai mis une * pour les projets qui me semblent plus difficiles à réaliser d'un point de vue IA efficace car il risque de falloir un peu de théorie.
+
+De manière général, la liste des jeux de l'app store et google play dans les rubriques casse tête, jeux de société, jeux de cartes, dés peuvent être une bonne source d'inspiration. D'un point de vu ludique, je pense que les jeux à plusieurs sont plus motivants à programmer pour les élèves que les jeux solos même si certains gardent un défi (obtenir le meilleur score ou temps).
+
+- Memory
+- 7 différences
+- Mots mélés
+- Sudoku
+- Labyrinthe
+- Mastermind
+- Motus
+- Puissance 4*
+- Jeu de dame, echec, go ******
+- Taquin* (version avec les chiffres ou plus dur (pour récupérer les données), version graphique)
+- Jeux de dés (Yam's, 421...)
+- Jeux de cartes* (Belote, poker, président, Uno, dame de pique,...)
+- Scrabble (juste donner la liste des meilleurs mots ou bien carrément jouer seul***)
+- Tetris
+- Flow free, knots puzzle (trouver comment relier des points sans se croiser)
+- Morpion (Tic tac toe en anglais) et Ultimate Tic tac toe*
+- Le démineur
+- Le pendu
+- Dominos, triominos
+- Drag n Merge
+
+
+
