@@ -284,6 +284,8 @@ plan:
     statement: Projets/Boggle.md
   - title: Exemple avec le jeu 2048
     statement: Projets/2048.md
+  - title: Exemple du Sudoku
+    statement: Projets/Sudoku.md
 - title : Autre
   plan:
   - title: Jeu de nim - Fibonacci
