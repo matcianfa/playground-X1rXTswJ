@@ -44,7 +44,7 @@ plan:
     statement: Maths/Complements_matplotlib.md
   - title: Cours - Régressions linéaires et d'ordres supérieurs
     statement: Maths/Regression.md
--title : Classe de Première
+- title : Classe de Première
   plan:
   - title: Introduction
     statement: Premiere/presentation.md
