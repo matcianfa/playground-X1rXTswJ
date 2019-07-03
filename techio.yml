@@ -6,10 +6,8 @@ plan:
     statement: markdowns/welcome.md
   - title: Bac à sable
     statement: markdowns/Bac a sable.md
-- title: Variables et fonctions mathématiques
+- title: Cours
   plan:
-  - title: Introduction
-    statement: Variables_et_fonctions/Intro_variables.md
   - title: Cours - Variables et opérations
     statement: Variables_et_fonctions/Cours variables et operations.md
   - title: Cours - Introduction aux fonctions
@@ -18,6 +16,44 @@ plan:
     statement: Variables_et_fonctions/Cours module math.md
   - title: Compléments sur les variables et opérations
     statement: Variables_et_fonctions/Complements.md
+  - title: Cours - Les conditions
+    statement: Les_conditions/Cours conditions.md
+  - title: Cours - Les boucles for
+    statement: Les_boucles/presentation_for.md
+  - title: Compléments sur les boucles
+    statement: Les_boucles/Complements boucles.md
+  - title: Cours - Les boucles while
+    statement: Les_boucles/Cours boucles while.md
+  - title: Cours - Les chaines de caractères
+    statement: Chaines_caracteres/Cours chaine de caracteres.md
+  - title: Compléments sur les chaines de caractères
+    statement: Chaines_caracteres/Complements chaines.md
+  - title: Cours - Les listes
+    statement: Les_listes/Cours listes.md
+  - title: Cours - Les listes (suite)
+    statement: Les_listes/Complements listes.md
+  - title: Manipulations de base
+    statement: Les_listes/Manipulations de base.md
+  - title: Cours - Compléments sur les fonctions
+    statement: Les_fonctions/Cours fonctions.md
+  - title: Cours - Le module random
+    statement: Maths/Cours module random.md
+  - title: Cours - Représentation graphique avec matplotlib
+    statement: Maths/Cours module matplotlib.md
+  - title: Compléments sur le module matplotlib
+    statement: Maths/Complements_matplotlib.md
+  - title: Cours - Régressions linéaires et d'ordres supérieurs
+    statement: Maths/Regression.md
+-title : Classe de Première
+  plan:
+  - title: Introduction
+    statement: Premiere/presentation.md
+  - title: Second degré
+    statement: Premiere/second_degre.md
+- title: Variables et fonctions mathématiques
+  plan:
+  - title: Introduction
+    statement: Variables_et_fonctions/Intro_variables.md
   - title: Exercices de niveau Collège au plus
     statement: Variables_et_fonctions/college.md
   - title: Exercices de niveau Seconde
@@ -28,8 +64,6 @@ plan:
   plan:
   - title: Introduction
     statement: Les_conditions/Intro_conditions.md
-  - title: Cours - Les conditions
-    statement: Les_conditions/Cours conditions.md
   - title: Signe des valeurs d'une fonction
     statement: Les_conditions/Signe des valeurs d'une fonction.md
   - title: Afficher si un nombre est pair
@@ -52,12 +86,6 @@ plan:
   plan:
   - title: Introduction
     statement: Les_boucles/Intro_boucles.md
-  - title: Cours - Les boucles for
-    statement: Les_boucles/presentation_for.md
-  - title: Compléments sur les boucles
-    statement: Les_boucles/Complements boucles.md
-  - title: Cours - Les boucles while
-    statement: Les_boucles/Cours boucles while.md
   - title: Exercices de niveau Seconde ou moins
     statement: Les_boucles/seconde.md
   - title: Factorielle d'un nombre
@@ -88,10 +116,6 @@ plan:
   plan:
   - title: Introduction
     statement: Chaines_caracteres/Introduction.md
-  - title: Cours - Les chaines de caractères
-    statement: Chaines_caracteres/Cours chaine de caracteres.md
-  - title: Compléments sur les chaines de caractères
-    statement: Chaines_caracteres/Complements chaines.md
   - title: Tirages au scrabble
     statement: Chaines_caracteres/Tirages au scrabble.md
   - title: Palindromes et anacycliques
@@ -112,12 +136,6 @@ plan:
   plan:
   - title: Introduction
     statement: Les_listes/Introduction.md
-  - title: Cours - Les listes
-    statement: Les_listes/Cours listes.md
-  - title: Cours - Les listes (suite)
-    statement: Les_listes/Complements listes.md
-  - title: Manipulations de base
-    statement: Les_listes/Manipulations de base.md
   - title: Exercices de Seconde
     statement: Les_listes/seconde.md
   - title: Indices du plus petit élément dans une liste
@@ -140,8 +158,7 @@ plan:
   plan:
   - title: Introduction
     statement: Les_fonctions/Introduction.md
-  - title: Cours - Compléments sur les fonctions
-    statement: Les_fonctions/Cours fonctions.md
+  
   - title: Exercices de base
     statement: Les_fonctions/Exercices de base.md
   - title: Factorielle
@@ -174,14 +191,6 @@ plan:
   plan:
   - title: Introduction
     statement: Maths/Introduction.md
-  - title: Cours - Le module random
-    statement: Maths/Cours module random.md
-  - title: Cours - Représentation graphique avec matplotlib
-    statement: Maths/Cours module matplotlib.md
-  - title: Compléments sur le module matplotlib
-    statement: Maths/Complements_matplotlib.md
-  - title: Cours - Régressions linéaires et d'ordres supérieurs
-    statement: Maths/Regression.md
   - title: Suite de Syracuse
     statement: Maths/Syracuse.md
   - title: Données statistiques
