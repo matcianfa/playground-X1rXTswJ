@@ -49,7 +49,9 @@ plan:
   - title: Introduction
     statement: Premiere/presentation.md
   - title: Second degré
-    statement: Premiere/second_degre.md
+    plan:
+    - title: Test
+      statement: Premiere/second_degre.md
 - title: Variables et fonctions mathématiques
   plan:
   - title: Introduction
