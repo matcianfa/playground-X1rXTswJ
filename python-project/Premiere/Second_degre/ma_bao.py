@@ -4,16 +4,16 @@ import re
 
 code="e44f8cf63970db5c2df0a18153bcdf49"
 
-# Permet de récupérer le chemin d'accès et le nom du module. A utiliser avec __file__
-def donner_chemin_nom(file) :
-    send_msg(test,file)
-    m = re.search(r"(?P<dossier>\w+/)(?P<module>\w+)_Test.py", file)
-    if m is not None:
-        return m.group('dossier'),m.group('module')
-    
 # Fonction qui permet d'envoyer un message sur le channel    
 def send_msg(channel, msg):
     print("TECHIO> message --channel \"{}\" \"{}\"".format(channel, msg))
+       
+# Permet de récupérer le chemin d'accès et le nom du module. A utiliser avec __file__
+def donner_chemin_nom(file) :
+    send_msg("test",file)
+    m = re.search(r"(?P<dossier>\w+/)(?P<module>\w+)_Test.py", file)
+    if m is not None:
+        return m.group('dossier'),m.group('module')
     
 # Ce qu'il faut faire si on a juste
 def success(module):
