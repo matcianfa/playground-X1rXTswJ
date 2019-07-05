@@ -10,8 +10,7 @@ def send_msg(channel, msg):
        
 # Permet de récupérer le chemin d'accès et le nom du module. A utiliser avec __file__
 def donner_chemin_nom(file) :
-    send_msg("test",file)
-    m = re.search(r"(?P<dossier>\w+/)(?P<module>\w+)_Test.py", file)
+    m = re.search(r"(?P<dossier>[\w/]+/)(?P<module>\w+)_Test.py", file)
     if m is not None:
         return m.group('dossier'),m.group('module')
     
