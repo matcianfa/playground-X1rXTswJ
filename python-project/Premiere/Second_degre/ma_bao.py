@@ -59,14 +59,14 @@ def afficher_correction(module):
     Affiche la correction si elle existe
     """
     #try:
-        with open(module+"_Correction.py", "r") as correction :
-            ligne="Voici un ou des exemples de corrections possibles"
+    with open(module+"_Correction.py", "r") as correction :
+        ligne="Voici un ou des exemples de corrections possibles"
+        send_msg("Exemple(s) de correction", ligne)
+        ligne="-------------------------------------------------"
+        send_msg("Exemple(s) de correction", ligne)
+        lignes=correction.read().split("\n")
+        for ligne in lignes:
             send_msg("Exemple(s) de correction", ligne)
-            ligne="-------------------------------------------------"
-            send_msg("Exemple(s) de correction", ligne)
-            lignes=correction.read().split("\n")
-            for ligne in lignes:
-                send_msg("Exemple(s) de correction", ligne)
     #except:
     #    pass
 
