@@ -26,5 +26,5 @@ Déterminer les valeurs de $`P_1(x)`$, $`P_2(x)`$ et vérifier que  $`P_3(x)=x^2
 5. Ecrire une fonction qui prend en entrée les valeurs de $`n`$ et $`a`$ et donne en sortie la liste des coefficients de $`P_n`$ en commençant par ceux de plus haut degré.  
 Par exemple si $`n=3`$ et $`a=3`$, alors $`P_n(x)=x^2+3x+9`$, la fonction devra donc renvoyer la liste `[1,3,9]`.
 
-@[Factorisation de $`x^n-a^n`$ par $`x-a`$]({"stubs": ["Premiere/Second_degre/facto_xn-an.py"], "command": "python3 Premiere/Second_degre/facto_xn-an_Test.py"})
+@[Factorisation de x^n-a^n par x-a]({"stubs": ["Premiere/Second_degre/facto_xn_an.py"], "command": "python3 Premiere/Second_degre/facto_xn_an_Test.py"})
 
