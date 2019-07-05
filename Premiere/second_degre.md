@@ -17,14 +17,12 @@ On renverra avec `return` "Pas de solution" s'il n'y en a pas, et dans le cas o�
 
 Le but de cet exercice est de montrer que $`x^n-a`$  peut s'ecrire $`(x-a)P_n(x)`$ où $`P_n(x) `$ est un polynôme en $`x`$ que l'on va déterminer. 
 
-On va d'abord s'intéresser au cas où $`a=1`$.
-1. Déterminer les valeurs de $`P_1(x)`$, $`P_2(x)`$ et vérifier que  $`P_3(x)=x^2+x+1`$.
+1. On va d'abord s'intéresser au cas où $`a=1`$.  
+Déterminer les valeurs de $`P_1(x)`$, $`P_2(x)`$ et vérifier que  $`P_3(x)=x^2+x+1`$.
 2. Déterminer la formule de $`P_n(x)`$ en fonction de $`x`$ et $`n`$.
-
-On s'intéresse à présent au cas où $`a`$ est un réel quelconque.
-3. Déterminer les valeurs de $`P_1(x)`$, $`P_2(x)`$ et vérifier que  $`P_3(x)=x^2+ax+a^2`$.
+3. On s'intéresse à présent au cas où $`a`$ est un réel quelconque.  
+Déterminer les valeurs de $`P_1(x)`$, $`P_2(x)`$ et vérifier que  $`P_3(x)=x^2+ax+a^2`$.
 4. Vérifier que pour $`n\geq 1`$, on a $`P_n(x)=x^{n-1}+ax^{n-2}+a^2x^{n-3}+...+a^{n-2}x+a^{n-1}`$.
-
 5. Ecrire une fonction qui prend en entrée les valeurs de $`n`$ et $`a`$ et donne en sortie la liste des coefficients de $`P_n`$ en commençant par ceux de plus haut degré.  
 Par exemple si $`n=3`$ et $`a=3`$, alors $`P_n(x)=x^2+3x+9`$, la fonction devra donc renvoyer la liste `[1,3,9]`.
 
