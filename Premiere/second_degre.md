@@ -1,5 +1,14 @@
 # Classe de Première - Second degré
 
+## Exercice n° : Déterminer deux nombres connaissant leur somme $`s`$ et leur produit $`p`$.
+`Programme officiel`  
+`Difficulté : Facile`
+
+Ecrire une fonction qui prend en entrée deux nombres $`s`$ et $`p`$ et qui renvoie en sortie les deux nombres (séparés par une virgule, le plus petit en premier) dont la somme vaut $`s`$ et leur produit $`p`$. On renverra "Pas de solution" dans le cas où c'est impossible et deux fois le même si c'est le cas.
+
+@[Déterminer deux nombres connaissant leur somme et leur produit]({"stubs": ["Premiere/Second_degre/s_et_p.py"], "command": "python3 Premiere/Second_degre/s_et_p_Test.py"})
+
+
 ## Exercice n° : Factorisation d'un polynôme du troisième degré admettant une racine connue.
 `Programme officiel`  
 `Difficulté : Difficile`
