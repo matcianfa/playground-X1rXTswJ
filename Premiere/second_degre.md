@@ -1,5 +1,45 @@
 # Classe de Première - Second degré
 
+
+## Exercice n° : Calcul du discriminant
+`Difficulté : Très facile`  
+
+Le but de cet exercice est de créer un programme qui donne le discriminant $`\Delta`$ d'un polynôme du second degré ***ax²+bx+c***.
+
+>Entrée : Les coefficients ***a***, ***b*** et ***c*** du polynôme du second degré
+
+>Sortie : Le discriminant $`\Delta`$
+
+@[Calcul du discriminant]({"stubs": ["Variables_et_fonctions/Calcul_du_discriminant.py"], "command": "python3 Variables_et_fonctions/Calcul_du_discriminant_Test.py"})
+
+---
+
+## Exercice n° : Nombre de racines d'un polynôme du second degré
+`Difficulté : Très Facile`
+
+Écrire un programme qui prend en entrée les coefficients ***a***, ***b*** et ***c*** d'un polynôme du second degré et donne en sortie le nombre de racines réelles du polynôme.
+
+> Entrée : les coefficients ***a***, ***b*** et ***c*** d'un polynôme du second degré.
+
+> Sortie : Le nombre de solutions réelles (juste le nombre, en chiffre).
+
+@[Nombre de racines]({"stubs": ["Les_conditions/Nb_racines_poly_second_degre.py"], "command": "python3 Les_conditions/Nb_racines_poly_second_degre_Test.py"})
+
+---
+
+## Exercice n° : Nombre de racines d'un polynôme du second degré
+`Difficulté : Très Facile`
+
+Écrire un programme qui prend en entrée les coefficients ***a***, ***b*** et ***c*** d'un polynôme du second degré et donne en sortie les racines réelles du polynôme.
+
+> Entrée : les coefficients ***a***, ***b*** et ***c*** d'un polynôme du second degré.
+
+> Sortie : Les solutions réelles : On renverra "Pas de solution", la solution ou les solutions (séparées par une virgule, la plus petite en premier) selon les cas.
+
+@[Nombre de racines]({"stubs": ["Premiere/Second_degre/Racines_poly_second_degre.py"], "command": "python3 Premiere/Second_degre/Racines_poly_second_degre_Test.py"})
+
+---
+
 ## Exercice n° : Déterminer deux nombres connaissant leur somme $`s`$ et leur produit $`p`$.
 `Programme officiel`  
 `Difficulté : Facile`
@@ -8,6 +48,7 @@ Ecrire une fonction qui prend en entrée deux nombres $`s`$ et $`p`$ et qui renv
 
 @[Déterminer deux nombres connaissant leur somme et leur produit]({"stubs": ["Premiere/Second_degre/s_et_p.py"], "command": "python3 Premiere/Second_degre/s_et_p_Test.py"})
 
+---
 
 ## Exercice n° : Factorisation d'un polynôme du troisième degré admettant une racine connue.
 `Programme officiel`  
@@ -19,6 +60,8 @@ On considère un polynôme du troisième degré $`P(x)=ax^3+bx^2+cx+d`$ dont on 
 On renverra avec `return` "Pas de solution" s'il n'y en a pas, et dans le cas où il y en a deux, on donnera le couple avec la plus petite en premier séparé d'une virgule.
 
 @[Factorisation d'un polynôme du troisième degré]({"stubs": ["Premiere/Second_degre/resoudre_troisieme_degre.py"], "command": "python3 Premiere/Second_degre/resoudre_troisieme_degre_Test.py"})
+
+---
 
 ## Exercice n° : Factorisation de $`x^n-1`$ par $`x-1`$, de $`x^n-a^n`$ par $`x-a`$.
 `Programme officiel`  
