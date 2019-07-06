@@ -27,7 +27,7 @@ Le but de cet exercice est de créer un programme qui donne le discriminant $`\D
 
 ---
 
-## Exercice n° : Nombre de racines d'un polynôme du second degré
+## Exercice n° : Racines d'un polynôme du second degré
 `Difficulté : Très Facile`
 
 Écrire un programme qui prend en entrée les coefficients ***a***, ***b*** et ***c*** d'un polynôme du second degré et donne en sortie les racines réelles du polynôme.
@@ -36,7 +36,32 @@ Le but de cet exercice est de créer un programme qui donne le discriminant $`\D
 
 > Sortie : Les solutions réelles : On renverra "Pas de solution", la solution ou les solutions (séparées par une virgule, la plus petite en premier) selon les cas.
 
+> Exemple : `ma_fonction(1,0,2)` doit renvoyer `"Pas de solution"` car $`x^2+2=0`$ n'a pas de solution.  
+`ma_fonction(1,0,-4)` doit renvoyer `(-2,2)` dans cet ordre car les solutions de $`x^2-4=0`$ sont -2 et 2.
+
 @[Nombre de racines]({"stubs": ["Premiere/Second_degre/Racines_poly_second_degre.py"], "command": "python3 Premiere/Second_degre/Racines_poly_second_degre_Test.py"})
+
+---
+
+## Exercice n° :Racines d'un polynôme du premier ou second degré
+`Difficulté : Facile`
+`Notion utilisée : Liste`
+
+Écrire un programme qui prend en entrée une ***liste*** de coefficients d'un polynôme $`P`$  et qui renvoie les solutions de l'éqution $`P(x)=0`$
+
+> Entrée : Une ***liste*** de coefficients d'un polynôme $`P`$ (le premier coefficient correspond au degré le plus haut et le dernier au coefficient constant c'est à dire $`P(0)`$).
+
+> Sortie : Les solutions réelles de $`P(x)=0`$ : On renverra "Pas de solution", la solution ou les solutions (séparées par une virgule, la plus petite en premier) selon les cas. On ne traitera QUE les cas où le degré est 1 ou 2. Pour des degrés autres que  1 ou 2, on renverra "Je ne sais pas faire"
+
+> Exemple : `ma_fonction([1,0,2])` doit renvoyer `"Pas de solution"` car $`x^2+2=0`$ n'a pas de solution.  
+`ma_fonction([1,0,-4])` doit renvoyer `(-2,2)` dans cet ordre car les solutions de $`x^2-4=0`$ sont -2 et 2.  
+`ma_fonction([2,1])` doit renvoyer `-0.5` car la solution de $`2x+1=0`$ est $`-\frac 1 2`$.  
+`ma_fonction([1,2,3,4])` doit renvoyer `"Je ne sais pas faire"` car le degré de $`P(x)=x^3+2x^2+3x+4`$ est 3.
+
+> Remarque : il n'y aura pas de pièges du style [0,2,1] qui n'est pas un polynôme de degré 2 mais 1. Cependant, pour les plus rapides, vous pouvez essayer de prévoir ce genre de pièges avec votre fonction.
+
+
+@[Nombre de racines]({"stubs": ["Premiere/Second_degre/Racines_poly_premier_et_second_degre.py"], "command": "python3 Premiere/Second_degre/Racines_poly_premier_et_second_degre_Test.py"})
 
 ---
 
