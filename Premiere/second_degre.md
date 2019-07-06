@@ -76,7 +76,7 @@ Ecrire une fonction qui prend en entrée deux nombres $`s`$ et $`p`$ et qui renv
 ---
 
 ## Exercice n° : Racines d'un polynôme bicarré.
-`Difficulté : Moyen`
+`Difficulté : Moyen`  
 `Notion probablement utile : Liste`
 
 Écrire un programme qui prend en entrée les coefficients ***a***, ***b*** et ***c*** du polynôme $`P(x)=ax^4 + bx^2 + c`$  et donne en sortie les racines réelles du polynôme.
