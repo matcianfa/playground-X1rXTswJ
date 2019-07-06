@@ -70,8 +70,8 @@ plan:
     statement: Les_conditions/Afficher si un nombre est pair.md
   - title: Numéros de sécurité sociale
     statement: Les_conditions/Numéro de sécurité sociale
-  - title: Nombre de racines d'un polynome du second degré
-    statement: Les_conditions/Nombre de racines d'un polynome du second degré.md
+  #- title: Nombre de racines d'un polynome du second degré
+  #  statement: Les_conditions/Nombre de racines d'un polynome du second degré.md
   - title: Conversion degré Celsius / degré Fahrenheit
     statement: Les_conditions/Conversion Celsius Fahrenheit.md
   - title: Dire si un triangle est rectangle
