@@ -34,16 +34,16 @@ Le but de cet exercice est de créer un programme qui donne le discriminant $`\D
 
 > Entrée : les coefficients ***a***, ***b*** et ***c*** d'un polynôme du second degré.
 
-> Sortie : Les solutions réelles : On renverra "Pas de solution", la solution ou les solutions (séparées par une virgule, la plus petite en premier) selon les cas.
+> Sortie : Les solutions réelles de $`ax^2 + bx + c = 0`$: On renverra "Pas de solution", la solution ou les solutions (séparées par une virgule, la plus petite en premier) selon les cas.
 
 > Exemple : `ma_fonction(1,0,2)` doit renvoyer `"Pas de solution"` car $`x^2+2=0`$ n'a pas de solution.  
 `ma_fonction(1,0,-4)` doit renvoyer `(-2,2)` dans cet ordre car les solutions de $`x^2-4=0`$ sont -2 et 2.
 
-@[Nombre de racines]({"stubs": ["Premiere/Second_degre/Racines_poly_second_degre.py"], "command": "python3 Premiere/Second_degre/Racines_poly_second_degre_Test.py"})
+@[Racines d'un polynôme du second degré]({"stubs": ["Premiere/Second_degre/Racines_poly_second_degre.py"], "command": "python3 Premiere/Second_degre/Racines_poly_second_degre_Test.py"})
 
 ---
 
-## Exercice n° :Racines d'un polynôme du premier ou second degré
+## Exercice n° : Racines d'un polynôme du premier ou second degré
 `Difficulté : Facile`
 `Notion utilisée : Liste`
 
@@ -61,7 +61,7 @@ Le but de cet exercice est de créer un programme qui donne le discriminant $`\D
 > Remarque : il n'y aura pas de pièges du style [0,2,1] qui n'est pas un polynôme de degré 2 mais 1. Cependant, pour les plus rapides, vous pouvez essayer de prévoir ce genre de pièges avec votre fonction.
 
 
-@[Nombre de racines]({"stubs": ["Premiere/Second_degre/Racines_poly_premier_et_second_degre.py"], "command": "python3 Premiere/Second_degre/Racines_poly_premier_et_second_degre_Test.py"})
+@[Racines d'un polynôme du premier ou second degré]({"stubs": ["Premiere/Second_degre/Racines_poly_premier_et_second_degre.py"], "command": "python3 Premiere/Second_degre/Racines_poly_premier_et_second_degre_Test.py"})
 
 ---
 
@@ -72,6 +72,24 @@ Le but de cet exercice est de créer un programme qui donne le discriminant $`\D
 Ecrire une fonction qui prend en entrée deux nombres $`s`$ et $`p`$ et qui renvoie en sortie les deux nombres (séparés par une virgule, le plus petit en premier) dont la somme vaut $`s`$ et leur produit $`p`$. On renverra "Pas de solution" dans le cas où c'est impossible et deux fois le même si c'est le cas.
 
 @[Déterminer deux nombres connaissant leur somme et leur produit]({"stubs": ["Premiere/Second_degre/s_et_p.py"], "command": "python3 Premiere/Second_degre/s_et_p_Test.py"})
+
+---
+
+## Exercice n° : Racines d'un polynôme bicarré.
+`Difficulté : Moyen`
+`Notion probablement utile : Liste`
+
+Écrire un programme qui prend en entrée les coefficients ***a***, ***b*** et ***c*** du polynôme $`P(x)=ax^4 + bx^2 + c`$  et donne en sortie les racines réelles du polynôme.
+
+> Entrée : les coefficients ***a***, ***b*** et ***c*** de $`P`$.
+
+> Sortie : Les solutions réelles de $`ax^4 + bx^2 + c = 0`$ : On renverra "Pas de solution", la solution ou les solutions (dans une liste, rangée dans l'ordre croissant, sans doublon) selon les cas.
+
+> Exemple : `ma_fonction(1,0,2)` doit renvoyer `"Pas de solution"` car $`x^4+2=0`$ n'a pas de solution.  
+`ma_fonction(1,0,-1)` doit renvoyer `(-1,1)` dans cet ordre car les solutions de $`x^4-1=0`$ sont -1 et 1.  
+`ma_fonction(1,-5,4)` doit renvoyer `(-2,-1,1,2)` dans cet ordre car les solutions de $`x^4 - 5x^2+4 =0`$ sont -2, -1,1 et 2 (car on peut remarquer que $`x^4 - 5x^2+4 = (x^2-4)(x^2-1)`$.
+
+@[Racines d'un polynôme bicarré]({"stubs": ["Premiere/Second_degre/Racines_poly_bicarré.py"], "command": "python3 Premiere/Second_degre/Racines_poly_bicarré_Test.py"})
 
 ---
 
