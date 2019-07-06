@@ -2,19 +2,6 @@
 
 Voici des exercices sur les variables et les fonctions mathématiques qui nécessitent des notions du programme de Première.
 
-# Calcul du discriminant
-`Difficulté : Très facile`  
-`Notion : Discriminant d'un polynôme du second degré`
-
-Le but de cet exercice est de créer un programme qui donne le discriminant $`\Delta`$ d'un polynôme du second degré ***ax²+bx+c***.
-
->Entrée : Les coefficients ***a***, ***b*** et ***c*** du polynôme du second degré
-
->Sortie : Le discriminant $`\Delta=b^2-4ac`$
-
-@[Calcul du discriminant]({"stubs": ["Variables_et_fonctions/Calcul_du_discriminant.py"], "command": "python3 Variables_et_fonctions/Calcul_du_discriminant_Test.py"})
-
----
 
 # Calcul du produit scalaire
 `Difficulté : Très facile`  
