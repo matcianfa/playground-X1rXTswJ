@@ -43,6 +43,20 @@ Le but de cet exercice est de créer un programme qui donne le discriminant $`\D
 
 ---
 
+## Exercice n° : Forme canonique
+`Difficulté : Très Facile`
+
+Écrire un programme qui prend en entrée les coefficients ***a***, ***b*** et ***c*** d'un polynôme du second degré $`P`$  et donne en sortie $`\alpha`$ et $`beta`$ de la forme canonique $`P(x)=a(x-\alpha)^2+\beta`$ .
+
+> Entrée : les coefficients ***a***, ***b*** et ***c*** d'un polynôme du second degré.
+
+> Sortie : Les valeurs de $`\alpha`$ et $`beta`$ séparés par une virgule.
+
+
+@[Forme canonique]({"stubs": ["Premiere/Second_degre/Forme_canonique.py"], "command": "python3 Premiere/Second_degre/Forme_canonique_Test.py"})
+
+---
+
 ## Exercice n° : Racines d'un polynôme du premier ou second degré
 `Difficulté : Facile`
 `Notion utilisée : Liste`
