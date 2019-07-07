@@ -102,6 +102,38 @@ Ecrire une fonction qui prend en entrée un nombre $`n`$ de bactérie et donne e
 @[Recherche de seuil]({"stubs": ["Premiere/Second_degre/Seuil.py"], "command": "python3 Premiere/Second_degre/Seuil_Test.py"})
 
 ---
+
+## Exercice n° : Compréhension d'algorithme
+`Difficulté : Facile` 
+
+On considère l'algorithme suivant :
+```
+a ← 1
+b ← 2
+Tant que b-a > 0.01 
+    x ← (a+b)/2
+    si x²-x-1 < 0
+        a ← x
+    sinon
+        b ← x
+afficher x
+```
+
+1. Quel est le rôle de cet algorithme ?
+2. Ecrire dans la fenêtre ci-dessous la traduction de cet algorithme en python. ( Il n'y a pas d'auto correction)  
+Quelle valeur de x obtient-on ?
+3. Déterminer la valeur exacte de x.
+
+```python runnable
+# Ecrire ci dessous la traduction de l'algorithme précédent
+
+
+
+
+```
+
+---
+
 ## Exercice n° : Factorisation d'un polynôme du troisième degré admettant une racine connue.
 `Programme officiel`  
 `Difficulté : Difficile`
