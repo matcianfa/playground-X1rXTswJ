@@ -1,7 +1,7 @@
 # Classe de Première - Second degré
 
 
-## Exercice n° : Calcul du discriminant
+## Exercice n°1 : Calcul du discriminant
 `Difficulté : Très facile`  
 
 Le but de cet exercice est de créer un programme qui donne le discriminant $`\Delta`$ d'un polynôme du second degré ***ax²+bx+c***.
@@ -14,7 +14,7 @@ Le but de cet exercice est de créer un programme qui donne le discriminant $`\D
 
 ---
 
-## Exercice n° : Nombre de racines d'un polynôme du second degré
+## Exercice n°2 : Nombre de racines d'un polynôme du second degré
 `Difficulté : Très Facile`
 
 Écrire un programme qui prend en entrée les coefficients ***a***, ***b*** et ***c*** d'un polynôme du second degré et donne en sortie le nombre de racines réelles du polynôme.
@@ -27,7 +27,7 @@ Le but de cet exercice est de créer un programme qui donne le discriminant $`\D
 
 ---
 
-## Exercice n° : Racines d'un polynôme du second degré
+## Exercice n°3 : Racines d'un polynôme du second degré
 `Difficulté : Très Facile`
 
 Écrire un programme qui prend en entrée les coefficients ***a***, ***b*** et ***c*** d'un polynôme du second degré et donne en sortie les racines réelles du polynôme.
@@ -36,14 +36,14 @@ Le but de cet exercice est de créer un programme qui donne le discriminant $`\D
 
 > Sortie : Les solutions réelles de $`ax^2 + bx + c = 0`$: On renverra "Pas de solution", la solution ou les solutions (séparées par une virgule, la plus petite en premier) selon les cas.
 
-> Exemple : `ma_fonction(1,0,2)` doit renvoyer `"Pas de solution"` car $`x^2+2=0`$ n'a pas de solution.  
+> Exemples : `ma_fonction(1,0,2)` doit renvoyer `"Pas de solution"` car $`x^2+2=0`$ n'a pas de solution.  
 `ma_fonction(1,0,-4)` doit renvoyer `(-2,2)` dans cet ordre car les solutions de $`x^2-4=0`$ sont -2 et 2.
 
 @[Racines d'un polynôme du second degré]({"stubs": ["Premiere/Second_degre/Racines_poly_second_degre.py"], "command": "python3 Premiere/Second_degre/Racines_poly_second_degre_Test.py"})
 
 ---
 
-## Exercice n° : Forme canonique
+## Exercice n°4 : Forme canonique
 `Difficulté : Très Facile`
 
 Écrire un programme qui prend en entrée les coefficients ***a***, ***b*** et ***c*** d'un polynôme du second degré $`P`$  et donne en sortie $`\alpha`$ et $`beta`$ de la forme canonique $`P(x)=a(x-\alpha)^2+\beta`$ .
@@ -57,7 +57,7 @@ Le but de cet exercice est de créer un programme qui donne le discriminant $`\D
 
 ---
 
-## Exercice n° : Maximum ou minimum
+## Exercice n°5 : Maximum ou minimum
 `Difficulté : Très Facile`
 
 Écrire un programme qui prend en entrée les coefficients ***a***, ***b*** et ***c*** d'un polynôme du second degré $`P`$  et donne en sortie la phrase "Le polynôme possède un ... qui vaut ..." où les premiers petits points sont à remplacer par "maximum" ou "minimum" et les seconds par la valeur de ce maximum.
@@ -77,7 +77,7 @@ On pourra utiliser la fonction `format` pour facilement insérer des valeur de v
 
 ---
 
-## Exercice n° : Racines d'un polynôme du premier ou second degré
+## Exercice n°6 : Racines d'un polynôme du premier ou second degré
 `Difficulté : Facile`
 `Notion utilisée : Liste`
 
@@ -87,7 +87,7 @@ On pourra utiliser la fonction `format` pour facilement insérer des valeur de v
 
 > Sortie : Les solutions réelles de $`P(x)=0`$ : On renverra "Pas de solution", la solution ou les solutions (séparées par une virgule, la plus petite en premier) selon les cas. On ne traitera QUE les cas où le degré est 1 ou 2. Pour des degrés autres que  1 ou 2, on renverra "Je ne sais pas faire"
 
-> Exemple : `ma_fonction([1,0,2])` doit renvoyer `"Pas de solution"` car $`x^2+2=0`$ n'a pas de solution.  
+> Exemples : `ma_fonction([1,0,2])` doit renvoyer `"Pas de solution"` car $`x^2+2=0`$ n'a pas de solution.  
 `ma_fonction([1,0,-4])` doit renvoyer `(-2,2)` dans cet ordre car les solutions de $`x^2-4=0`$ sont -2 et 2.  
 `ma_fonction([2,1])` doit renvoyer `-0.5` car la solution de $`2x+1=0`$ est $`-\frac 1 2`$.  
 `ma_fonction([1,2,3,4])` doit renvoyer `"Je ne sais pas faire"` car le degré de $`P(x)=x^3+2x^2+3x+4`$ est 3.
@@ -99,7 +99,7 @@ On pourra utiliser la fonction `format` pour facilement insérer des valeur de v
 
 ---
 
-## Exercice n° : Déterminer deux nombres connaissant leur somme $`s`$ et leur produit $`p`$.
+## Exercice n°7 : Déterminer deux nombres connaissant leur somme $`s`$ et leur produit $`p`$.
 `Programme officiel`  
 `Difficulté : Facile`
 
@@ -109,7 +109,7 @@ Ecrire une fonction qui prend en entrée deux nombres $`s`$ et $`p`$ et qui renv
 
 ---
 
-## Exercice n° : Racines d'un polynôme bicarré.
+## Exercice n°8 : Racines d'un polynôme bicarré.
 `Difficulté : Moyen`  
 `Notion probablement utile : Liste`
 
@@ -119,7 +119,7 @@ Ecrire une fonction qui prend en entrée deux nombres $`s`$ et $`p`$ et qui renv
 
 > Sortie : Les solutions réelles de $`ax^4 + bx^2 + c = 0`$ : On renverra "Pas de solution", la solution ou les solutions (dans une liste, rangée dans l'ordre croissant, sans doublon) selon les cas.
 
-> Exemple : `ma_fonction(1,0,2)` doit renvoyer `"Pas de solution"` car $`x^4+2=0`$ n'a pas de solution.  
+> Exemples : `ma_fonction(1,0,2)` doit renvoyer `"Pas de solution"` car $`x^4+2=0`$ n'a pas de solution.  
 `ma_fonction(1,0,-1)` doit renvoyer `(-1,1)` dans cet ordre car les solutions de $`x^4-1=0`$ sont -1 et 1.  
 `ma_fonction(1,-5,4)` doit renvoyer `(-2,-1,1,2)` dans cet ordre car les solutions de $`x^4 - 5x^2+4 =0`$ sont -2, -1,1 et 2 (car on peut remarquer que $`x^4 - 5x^2+4 = (x^2-4)(x^2-1)`$.
 
@@ -127,7 +127,7 @@ Ecrire une fonction qui prend en entrée deux nombres $`s`$ et $`p`$ et qui renv
 
 ---
 
-## Exercice n° : Recherche de seuil
+## Exercice n°9 : Recherche de seuil
 `Difficulté : Facile`  
 
 On étudie l'évolution d'une certaine bactérie. Son nombre évolue selon la fonction $`f(t)=3t^2+69t+150`$ où $`t`$ représente le temps en heure.  
@@ -137,7 +137,7 @@ Ecrire une fonction qui prend en entrée un nombre $`n`$ de bactérie et donne e
 
 ---
 
-## Exercice n° : Compréhension d'algorithme
+## Exercice n°10 : Compréhension d'algorithme
 `Difficulté : Facile` 
 
 On considère l'algorithme suivant :
@@ -168,7 +168,7 @@ Quelle valeur de x obtient-on ?
 
 ---
 
-## Exercice n° : Factorisation d'un polynôme du troisième degré admettant une racine connue.
+## Exercice n°11 : Factorisation d'un polynôme du troisième degré admettant une racine connue.
 `Programme officiel`  
 `Difficulté : Difficile`
 
@@ -181,7 +181,7 @@ On renverra avec `return` "Pas de solution" s'il n'y en a pas, et dans le cas o�
 
 ---
 
-## Exercice n° : Factorisation de $`x^n-1`$ par $`x-1`$, de $`x^n-a^n`$ par $`x-a`$.
+## Exercice n°12 : Factorisation de $`x^n-1`$ par $`x-1`$, de $`x^n-a^n`$ par $`x-a`$.
 `Programme officiel`  
 `Difficulté : Moyenne`
 
