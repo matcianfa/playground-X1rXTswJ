@@ -93,6 +93,15 @@ Ecrire une fonction qui prend en entrée deux nombres $`s`$ et $`p`$ et qui renv
 
 ---
 
+## Exercice n° : Recherche de seuil
+`Difficulté : Facile`  
+
+On étudie l'évolution d'une certaine bactérie. Son nombre évolue selon la fonction $`f(t)=3t^2+69t+150`$ où $`t`$ représente le temps en heure.  
+Ecrire une fonction qui prend en entrée un nombre $`n`$ de bactérie et donne en sortie l'heure à partir de laquelle le nombre  de bactérie dépasse $`n`$. On affichera "Impossible" lorsque ce nombre ne sera jamais atteint après le moment initial (t=0).
+
+@[Recherche de seuil]({"stubs": ["Premiere/Second_degre/Seuil.py"], "command": "python3 Premiere/Second_degre/Seuil_Test.py"})
+
+---
 ## Exercice n° : Factorisation d'un polynôme du troisième degré admettant une racine connue.
 `Programme officiel`  
 `Difficulté : Difficile`
