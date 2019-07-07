@@ -50,10 +50,30 @@ Le but de cet exercice est de créer un programme qui donne le discriminant $`\D
 
 > Entrée : les coefficients ***a***, ***b*** et ***c*** d'un polynôme du second degré.
 
-> Sortie : Les valeurs de $`\alpha`$ et $`beta`$ séparés par une virgule.
+> Sortie : Les valeurs de $`\alpha`$ et $`\beta`$ séparés par une virgule.
 
 
 @[Forme canonique]({"stubs": ["Premiere/Second_degre/Forme_canonique.py"], "command": "python3 Premiere/Second_degre/Forme_canonique_Test.py"})
+
+---
+
+## Exercice n° : Maximum ou minimum
+`Difficulté : Très Facile`
+
+Écrire un programme qui prend en entrée les coefficients ***a***, ***b*** et ***c*** d'un polynôme du second degré $`P`$  et donne en sortie la phrase "Le polynôme possède un ... qui vaut ..." où les premiers petits points sont à remplacer par "maximum" ou "minimum" et les seconds par la valeur de ce maximum.
+
+> Entrée : les coefficients ***a***, ***b*** et ***c*** d'un polynôme du second degré.
+
+> Sortie : La phrase correcte.
+
+> Exemples : Si le polynôme est $`P(x) = x^2 + 3`$, la phrase attendue est "Le polynôme possède un minimum qui vaut 3".
+Si le polynôme est $`P(x)= -x^2 +2x+1`$, la phrase attendue est "Le polynôme possède un maximum qui vaut 2".
+
+> Indication : Attention de bien respecter parfaitement ce  qui est écrit entre guillemet "" (y compris les accents).  
+On pourra utiliser la fonction `format` pour facilement insérer des valeur de variables dans une chaine de caractères.
+
+
+@[Maximum et minimum]({"stubs": ["Premiere/Second_degre/max_et_min.py"], "command": "python3 Premiere/Second_degre/max_et_min_Test.py"})
 
 ---
 
