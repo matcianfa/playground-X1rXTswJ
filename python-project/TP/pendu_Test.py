@@ -8,7 +8,7 @@ with open("TP/dictionnaire7-10.txt",mode="r", encoding = "ISO-8859-1") as dic:
     
 nb_erreurs_max=7 # Maximum d'erreur possible avant d'etre pendu
 mot_choisi= random.choice(dico) # On choisit un mot au hasard dans notre dictionnaire
-mot_partiel="_"*len(mot_complet) # On crée notre mot caché en remplaçant toutes les lettres par des _
+mot_partiel="_"*len(mot_choisi) # On crée notre mot caché en remplaçant toutes les lettres par des _
 
 
 if __name__ == "__main__": 
