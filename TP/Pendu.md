@@ -29,7 +29,10 @@ Passons maintenant aux choses sérieuses : le jeu !
 
 Copier-coller les deux fonctions précédentes dans la fenêtre ci-dessous et lancer pour tester le jeu.
 
-Remarque : Vous pouvez voir dans le second onglet le code qui se lance pour le jeu.
+Remarques : 
+- Vous pouvez voir dans le second onglet le code qui se lance pour le jeu.
+- Pour mieux voir, vous pouvez agrandir la fenetre du terminal dans le coin en bas à droite
+- Pour des raisons techniques dues au fonctionnement du site, il faut jouer rapidement sinon le script s'arrête.
 
 @[Le jeu du pendu]({"stubs": ["TP/pendu.py","TP/pendu_Test.py"], "command": "python3 TP/pendu_Test.py", "terminal": true})
 `
