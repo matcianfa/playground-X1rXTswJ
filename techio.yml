@@ -52,7 +52,7 @@ plan:
     statement: Premiere/second_degre.md
 - title: Travaux Pratiques
   plan:
-  -title: Jeu du pendu
+  - title: Jeu du pendu
     statement: TP/Pendu.md
 - title: Variables et fonctions mathématiques
   plan:
