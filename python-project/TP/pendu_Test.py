@@ -12,7 +12,7 @@ mot_choisi= random.choice(dico) # On choisit un mot au hasard dans notre diction
 mot_partiel="_"*len(mot_choisi) # On crée notre mot caché en remplaçant toutes les lettres par des _
 
 #--------------------- Les graphiques (3D bien sûr)
-graphiques=["  --------------\n    |        \n    |        \n    |       \n    |       \n    |      \n    |        \n    |        \n    |       \n   /|\     \n  / | \ \n /  |  \ ","  --------------\n    |        |\n    |        |\n    |       \n    |       \n    |      \n    |        \n    |        \n    |       \n   /|\     \n  / | \ \n /  |  \ ","  --------------\n    |        |\n    |        |\n    |       / \ \n    |       \_/\n    |      \n    |        \n    |        \n    |       \n   /|\     \n  / | \ \n /  |  \ ","  --------------\n    |        |\n    |        |\n    |       / \ \n    |       \_/\n    |        |\n    |        |\n    |        |\n    |       \n   /|\    \n  / | \ \n /  |  \ ","  --------------\n    |        |\n    |        |\n    |       / \ \n    |       \_/\n    |      __|\n    |        |\n    |        |\n    |       \n   /|\     \n  / | \ \n /  |  \ ","  ------\--------\n    |        |\n    |        |\n    |       / \ \n    |       \_/\n    |      __|__\n    |        |\n    |        |\n    |       \n   /|\     \n  / | \ \n /  |  \ ","  --------------\n    |        |\n    |        |\n    |       / \ \n    |       \_/\n    |      __|__\n    |        |\n    |        |\n    |       / \n   /|\     /   \n  / | \ \n /  |  \ ","  --------------\n    |        |\n    |        |\n    |       / \ \n    |       \o/\n    |      __|__\n    |        |\n    |        |\n    |       / \ \n   /|\     /   \ \n  / | \ \n /  |  \ "]
+graphiques=["  --------------\n    |        \n    |        \n    |       \n    |       \n    |      \n    |        \n    |        \n    |       \n   /|\     \n  / | \ \n /  |  \ ","  --------------\n    |        |\n    |        |\n    |       \n    |       \n    |      \n    |        \n    |        \n    |       \n   /|\     \n  / | \ \n /  |  \ ","  --------------\n    |        |\n    |        |\n    |       / \ \n    |       \_/\n    |      \n    |        \n    |        \n    |       \n   /|\     \n  / | \ \n /  |  \ ","  --------------\n    |        |\n    |        |\n    |       / \ \n    |       \_/\n    |        |\n    |        |\n    |        |\n    |       \n   /|\    \n  / | \ \n /  |  \ ","  --------------\n    |        |\n    |        |\n    |       / \ \n    |       \_/\n    |      __|\n    |        |\n    |        |\n    |       \n   /|\     \n  / | \ \n /  |  \ ","  ---------------\n    |        |\n    |        |\n    |       / \ \n    |       \_/\n    |      __|__\n    |        |\n    |        |\n    |       \n   /|\     \n  / | \ \n /  |  \ ","  --------------\n    |        |\n    |        |\n    |       / \ \n    |       \_/\n    |      __|__\n    |        |\n    |        |\n    |       / \n   /|\     /   \n  / | \ \n /  |  \ ","  --------------\n    |        |\n    |        |\n    |       / \ \n    |       \o/\n    |      __|__\n    |        |\n    |        |\n    |       / \ \n   /|\     /   \ \n  / | \ \n /  |  \ "]
 
 
 
@@ -36,7 +36,7 @@ if __name__ == "__main__":
         else :
             nb_erreurs+=1
             print(lettre,"n'est pas dans le mot")
-            print("Vous avez faire {} erreurs sur {}".format(nb_erreurs,nb_erreurs_max))
+            print("Vous avez fait {} erreurs sur {}".format(nb_erreurs,nb_erreurs_max))
         print(graphiques[nb_erreurs])
 
     if "_" in mot_partiel :
