@@ -1,6 +1,6 @@
 from pendu import * # On  importe les fonctions créées
 import random # Pour choisir aléatoirement
-from ma_bao import * # Simplement pour les fonctions fail() et success() qui modifie la couleur de la barre à le fin
+
 
 # --------------------- Constantes
 #On charge le dictionnaire ne contenant que les mots entre 7 et 10 lettres
@@ -42,7 +42,5 @@ if __name__ == "__main__":
     if "_" in mot_partiel :
         print("Perdu!")
         print("Le mot était ", mot_choisi)
-        print("TECHIO> success false") # Fonction interne à ce site : pour afficher la barre en rouge
     else :
         print("Bravo !")
-        print("TECHIO> success true") # Fonction interne à ce site : pour afficher la barre en vert
