@@ -3,7 +3,7 @@ import random # Pour choisir aléatoirement
 
 # --------------------- Constantes
 #On charge le dictionnaire ne contenant que les mots entre 7 et 10 lettres
-with open("dictionnaire7-10.txt",mode="r") as dic:
+with open("TP/dictionnaire7-10.txt",mode="r") as dic:
     dico=[mot.rstrip('\n') for mot in dic]
     
 nb_erreurs_max=7 # Maximum d'erreur possible avant d'etre pendu
