@@ -1,5 +1,5 @@
 def espacer(mot):
-    reponse = ""
+    reponse = ''
     for lettre in mot:
-        reponse+=lettre+" "
+        reponse+=lettre+' '
     return reponse[:-1] # Ne pas oublier de retirer le dernier espace
