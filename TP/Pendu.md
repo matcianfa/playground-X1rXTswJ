@@ -29,5 +29,7 @@ Passons maintenant aux choses sérieuses : le jeu !
 
 Copier-coller les deux fonctions précédentes dans la fenêtre ci-dessous et lancer pour tester le jeu.
 
-@[Le jeu du pendu]({"stubs": ["TP/pendu.py"], "command": "python3 TP/pendu_Test.py", "terminal": true})
+Remarque : Vous pouvez voir dans le second onglet le code qui se lance pour le jeu.
+
+@[Le jeu du pendu]({"stubs": ["TP/pendu.py","TP/pendu_Test.py"], "command": "python3 TP/pendu_Test.py", "terminal": true})
 `
