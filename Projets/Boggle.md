@@ -7,7 +7,7 @@ Voici un exemple complet utilisant les modules présentés dans le projet IA et 
 Le jeu consiste en une grille 4x4 de lettres. Le but est de former le plus de mots possibles  en parcourant la grille de proche en proche en se déplaçant dans les 8 directions possibles. On peut trouver ce jeu sur mobile ou facebook sous plusieurs formes (Boggle entre amis, Word Blitz).
 
 Voici un lien vers une vidéo montrant l'algorithme en action : [Vidéo](https://youtu.be/QmHLsj6jn7s)  
-On pourra remarquer que la reconnaissance des 16 caractères prend dans les 15 secondes ce qui est relativement lent et il arrive souvent qu'elle inverse les P et les D ou les I et les l. Donc il y a des améliorations à faire de ce coté là.
+On pourra remarquer que la reconnaissance des 16 caractères prend dans les 15 secondes ce qui est relativement lent et il arrive souvent qu'elle inverse les P et les D ou les I et les L(minuscule) . Donc il y a des améliorations à faire de ce coté là.
 
 On pourra trouver les fichiers directement ici : [GitHub](https://github.com/matcianfa/archives/tree/master/Word%20Blitz)
 
