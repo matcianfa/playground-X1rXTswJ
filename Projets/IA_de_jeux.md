@@ -172,6 +172,7 @@ De manière général, la liste des jeux de l'app store et google play dans les 
 - Labyrinthe
 - Mastermind
 - Motus
+- Les chiffres et les lettres
 - Puissance 4*
 - Jeu de dame, echec, go ******
 - Taquin* (version avec les chiffres ou plus dur (pour récupérer les données), version graphique)
