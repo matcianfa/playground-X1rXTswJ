@@ -43,4 +43,4 @@ if __name__ == "__main__":
         print("Perdu!")
         print("Le mot était ", mot_choisi)
     else :
-        print("Bravo !")
+        print("Bravo ! C'était bien ", mot_choisi)
