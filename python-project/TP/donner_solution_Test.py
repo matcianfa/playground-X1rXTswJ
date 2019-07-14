@@ -9,7 +9,7 @@ with open("TP/dictionnaire7-10.txt",mode="r") as dic:
 
 #liste des valeurs à tester
 # Attention de bien mettre dans un tuplet ou une liste les valeurs à tester même si la fonction n'a qu'un argument.
-valeurs_a_tester=[["A Z R T Y U P Q S D".split(),"_______",dico],[["U","A","I","X","Z","C","Y","V","K"],"_AI___",dico],["L A Z E R T Y U I O P Q S".split(),"LAITUES",dico],["A Z E R T Y".split(),"AAA____",dico]]
+valeurs_a_tester=[["A Z R T Y U P Q S D".split(),"_______",dico],[["U","A","I","X","Z","C","Y","V","K"],"_AI____",dico],["L A Z E R T Y U I O P Q S".split(),"LAITUES",dico],["A Z E R T Y".split(),"AAA____",dico]]
 
 def verif(mot2,lettres,mot_partiel,dictionnaire):
     """
