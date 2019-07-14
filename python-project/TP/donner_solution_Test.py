@@ -40,7 +40,7 @@ def test():
     try:
         for valeur in valeurs_a_tester:
             rep=f(*valeur)
-            assert verif(rep,*valeur), "En testant les valeurs {} le mot proposé est {} mais ce n'est pas bon".format(",".join([str(val) for val in valeur[:2]),str(rep))
+            assert verif(rep,*valeur), "En testant les valeurs {} le mot proposé est {} mais ce n'est pas bon".format(",".join([str(val) for val in valeur[:2]]),str(rep))
             send_msg("Tests validés","En testant les valeurs {} le mot proposé est {}".format(",".join([str(val) for val in valeur[:2]]),str(rep)))
         success(chemin+module)
     except AssertionError as e:
