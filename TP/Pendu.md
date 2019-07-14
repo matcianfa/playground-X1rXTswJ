@@ -4,7 +4,7 @@
 
 Le but de ce TP est de créer des fonctions auxiliaires pour pouvoir créer, au final, un jeu du pendu.
 
-Une remarque qui pourra peut-être être utile lors des tests : le dictionnaire utilisé est celui des mots courants entre 7 et 11 lettres. Voici le [lien](https://github.com/matcianfa/playground-X1rXTswJ/blob/master/python-project/TP/dictionnaire7-10.txt)
+Une remarque qui pourra peut-être être utile lors des tests : le dictionnaire utilisé est celui des mots courants entre 7 et 10 lettres. Voici le [lien](https://github.com/matcianfa/playground-X1rXTswJ/blob/master/python-project/TP/dictionnaire7-10.txt)
 
 ## Fonction d'espacement
 
