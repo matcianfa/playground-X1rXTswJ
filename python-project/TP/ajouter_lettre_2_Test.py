@@ -48,7 +48,7 @@ from ma_bao import *
 chemin,module=donner_chemin_nom(__file__)
 # On teste s'il n'y a pas d'erreurs de synthaxe etc. et on les montre si besoin
 tester("from {} import *".format(module),globals()) 
-from donner_solution import donner_solution as f
+from ajouter_lettre_2 import ajouter_lettre as f
 
 #--------------------------------------
 def test():
