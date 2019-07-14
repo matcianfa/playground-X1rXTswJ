@@ -12,13 +12,22 @@ with open("TP/dictionnaire7-10.txt",mode="r") as dic:
 valeurs_a_tester=[["A Z R T Y U P Q S D".split(),"_______",dico],[["U","A","I","X","Z","C","Y","V","K"],"_AI___",dico],["L A Z E R T Y U I O P Q S".split(),"LAITUES",dico],["A Z E R T Y".split(),"AAA____",dico]]
 
 def verif(mot,lettres,mot_partiel,dictionnaire):
-  """
-  Vérifie si le mot proposé vérifie les critères
-  """
-  if mot not in dictionnaire or len(mot)!= len(mot_partiel): return False
-  for i in range(len(mot)):
-      if (mot_partiel[i]=="_" and (mot[i] in lettres or mot[i] in mot_partiel)) or ( mot_partiel[i]!="_" and mot_partiel[i]!=mot[i] ): : return False
-  return True
+    """
+    Vérifie si le mot proposé vérifie les critères
+    """
+    reponses=[]
+    longueur = len(mot_partiel)
+    for mot in dictionnaire :
+        if len(mot)!= longueur : continue
+        for i in range(longueur):
+            if (mot_partiel[i]=="_" and (mot[i] in lettres or mot[i] in mot_partiel)) or ( mot_partiel[i]!="_" and mot_partiel[i]!=mot[i] ):
+                break
+        else :
+            reponses.append(mot)
+    if reponses:
+        if mot in reponses : return True
+        else : return False
+    else : return True
 
 
 #message d'aide si besoin
