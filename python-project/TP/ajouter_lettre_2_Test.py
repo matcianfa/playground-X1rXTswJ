@@ -16,12 +16,12 @@ def verif(mot2,lettre,lettres,mot_partiel,dictionnaire):
     Vérifie si le mot proposé vérifie les critères
     """
     reponses=[]
-    lettre_proposees=lettres+[lettre]
+    lettres_proposees=lettres+[lettre]
     # On vérifie qu'on a bien rajouté la bonne lettre
     longueur = len(mot_partiel)
     if len(mot2)!=longueur : return False
     for i in range(longueur):
-        if (mot_partiel[i]=="_" and mot2[i] not in "_"+lettre ) or (mot_partiel!="_" and mot_partiel!=mot2[i]):
+        if (mot_partiel[i]=="_" and mot2[i] not in "_"+lettre ) or (mot_partiel[i]!="_" and mot_partiel[i]!=mot2[i]):
             return False
     # On vérifie qu'il existe bien des mots dans le dictionnaire qu'on puisse ecrire
     for mot in dictionnaire :
@@ -33,9 +33,9 @@ def verif(mot2,lettre,lettres,mot_partiel,dictionnaire):
             reponses.append(mot)
     if reponses:
         return True
-    else : return False
-
-
+    else :
+        return False
+    
 #message d'aide si besoin
 help="N'oublie pas d'utiliser return pour renvoyer le resultat."
 
