@@ -60,6 +60,8 @@ On renverra le mot vide "" s'il n'y a pas de réponses possibles.
 
 @[Donner un mot]({"stubs": ["TP/donner_solution.py"], "command": "python3 TP/donner_solution_Test.py"})
 
+---
+
 ## Ajouter une lettre
 
 Passons maintenant au coeur du problème : Que faire quand une lettre est proposée par le joueur ? Il ne suffit clairement pas de dire qu'il a faux car s'il propose toutes les voyelles, il faudra bien en placer quelques unes. A vous de trouver une bonne stratégie pour pouvoir trouver les meilleures positions pour faire durer le plus longtemps possible le jeu.
@@ -69,3 +71,13 @@ Vous devez donc créer une nouvelle fonction `ajouter_lettre(lettre,lettres_prop
 > Remarque : On teste juste que le mot proposé par la fonction vérifie les regles du jeu, pas si la stratégie est bonne ou pas.
 
 @[Ajouter une lettre]({"stubs": ["TP/ajouter_lettre_2.py"], "command": "python3 TP/ajouter_lettre_2_Test.py"})
+
+---
+
+## Le jeu (version avec triche)
+
+On peut à présent passer au jeu : Copier coller les deux fonctions précédentes pour tester votre jeu.
+
+
+
+
