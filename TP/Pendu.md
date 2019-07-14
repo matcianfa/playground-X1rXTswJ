@@ -78,6 +78,7 @@ Vous devez donc créer une nouvelle fonction `ajouter_lettre(lettre,lettres_prop
 
 On peut à présent passer au jeu : Copier coller les deux fonctions précédentes pour tester votre jeu.
 
+@[Le jeu du pendu]({"stubs": ["TP/pendu_triche.py","TP/pendu_triche_Test.py"], "command": "python3 TP/pendu_triche_Test.py", "terminal": true})
 
 
 
