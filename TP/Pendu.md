@@ -35,4 +35,26 @@ Remarques :
 - Pour des raisons techniques dues au fonctionnement du site, il faut jouer rapidement sinon le script s'arrête.
 
 @[Le jeu du pendu]({"stubs": ["TP/pendu.py","TP/pendu_Test.py"], "command": "python3 TP/pendu_Test.py", "terminal": true})
-`
+
+# Le pendu (version avec triche)
+`Difficulté : Difficile à très difficile`  
+`Prérequis : Les listes`
+
+
+Qui n'a pas déjà pensé à changer de mot au fur et à mesure que la personne propose des lettres ? C'est ce que nous allons programmer maintenant. 
+
+Cette partie est beaucoup plus difficile que la précédente et plusieurs réponses plus ou moins efficaces peuvent être trouvées. En effet, selon la stratégie choisie, la personne qui jouera peut peut-être trouver une stratégie pour gagner quand même. Il peut donc être intéressant de former deux groupes et chaque groupe devra à la fois créer une façon de faire perdre le joueur en choisissant bien les mots au fur et à mesure et aussi trouver une stratégie pour gagner quand il joue au jeu créé par l'autre groupe. Une sorte de duel de pendus pour savoir qui triche le mieux.
+
+## Donner un mot
+
+Commençons par la fin : Supposons que la personne ait perdu, il faut lui donner un mot possible qu'elle aurait dû trouvé en tenant compte des lettres qu'elle a proposé.
+
+Créer une fonction `donner_solution(lettres,mot_partiel,dictionnaire)` qui prend en entrée la liste des `lettres` proposées pendant le jeu, le `mot_partiel` qui correspond à l'état final du jeu (par exemple " _ A I _ _ _ " (sans les espaces)) ainsi que le `dictionnaire` des mots possibles sous forme de liste de mots. En sortie, la fonction doit renvoyer un (et un seul) mot du `dictionnaire` écrit en remplaçant les tirets bas _ qui sont dans `mot_partiel` par des lettres non encore utilisées (c'est à dire qui ne sont pas dans `lettres`).  
+On renverra le mot vide "" s'il n'y a pas de réponses possibles.
+
+> Exemple : Si `lettres=["U","A","I","X","Z","C","Y","V","K"]`, `mot_partiel="_AI___"` et le dictionnaire serait la liste des mots français. Alors on pourrait renvoyer "MAISON" ou "FAITES" mais pas "LAITUE" (car "U" a été proposé) ni "FAISAN" (car le "A" a été proposé et n'apparaissait qu'une fois en seconde position dans `mot_partiel`) ni "FAITS" (car il n'y a pas le bon nombre de lettres)
+
+@[Donner un mot]({"stubs": ["TP/donner_solution.py"], "command": "python3 TP/donner_solution_Test.py"})
+
+## 
+Pour cela vous devez créer une nouvelle fonction `ajouter_lettre(lettre,mot_partiel,dictionnaire)` qui prend en entrée la `lettre` choisie par le joueur, le `mot_partiel` qui correspond à l'état du jeu actuellement (par exemple " _ A _ S _ _ ")
