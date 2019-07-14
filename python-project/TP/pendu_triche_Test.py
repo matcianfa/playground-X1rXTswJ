@@ -15,7 +15,14 @@ lettres_proposees=[]
 #--------------------- Les graphiques (3D bien sûr)
 graphiques=["  --------------\n    |        \n    |        \n    |       \n    |       \n    |      \n    |        \n    |        \n    |       \n   /|\     \n  / | \ \n /  |  \ ","  --------------\n    |        |\n    |        |\n    |       \n    |       \n    |      \n    |        \n    |        \n    |       \n   /|\     \n  / | \ \n /  |  \ ","  --------------\n    |        |\n    |        |\n    |       / \ \n    |       \_/\n    |      \n    |        \n    |        \n    |       \n   /|\     \n  / | \ \n /  |  \ ","  --------------\n    |        |\n    |        |\n    |       / \ \n    |       \_/\n    |        |\n    |        |\n    |        |\n    |       \n   /|\    \n  / | \ \n /  |  \ ","  --------------\n    |        |\n    |        |\n    |       / \ \n    |       \_/\n    |      __|\n    |        |\n    |        |\n    |       \n   /|\     \n  / | \ \n /  |  \ ","  ---------------\n    |        |\n    |        |\n    |       / \ \n    |       \_/\n    |      __|__\n    |        |\n    |        |\n    |       \n   /|\     \n  / | \ \n /  |  \ ","  --------------\n    |        |\n    |        |\n    |       / \ \n    |       \_/\n    |      __|__\n    |        |\n    |        |\n    |       / \n   /|\     /   \n  / | \ \n /  |  \ ","  --------------\n    |        |\n    |        |\n    |       / \ \n    |       \o/\n    |      __|__\n    |        |\n    |        |\n    |       / \ \n   /|\     /   \ \n  / | \ \n /  |  \ "]
 
+#--------------------- fonctions auxiliaires
+def espacer(mot):
+    reponse = ""
+    for lettre in mot:
+        reponse+=lettre+" "
+    return reponse[:-1]
 
+#--------------------- main()
 
 if __name__ == "__main__": 
     nb_erreurs = 0 # Pour compter le nombre d'erreur
