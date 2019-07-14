@@ -4,6 +4,8 @@
 
 Le but de ce TP est de créer des fonctions auxiliaires pour pouvoir créer, au final, un jeu du pendu.
 
+Une remarque qui pourra peut-être être utile lors des tests : le dictionnaire utilisé est celui des mots courants entre 7 et 11 lettres. Voici le [lien](https://github.com/matcianfa/playground-X1rXTswJ/blob/master/python-project/TP/dictionnaire7-10.txt)
+
 ## Fonction d'espacement
 
 Tout d'abord, nous aurons besoin d'afficher correctement nos mots et pour cela, nous allons devoir espacer chaque lettre.
@@ -54,7 +56,16 @@ On renverra le mot vide "" s'il n'y a pas de réponses possibles.
 
 > Exemple : Si `lettres=["U","A","I","X","Z","C","Y","V","K"]`, `mot_partiel="_AI___"` et le dictionnaire serait la liste des mots français. Alors on pourrait renvoyer "MAISON" ou "FAITES" mais pas "LAITUE" (car "U" a été proposé) ni "FAISAN" (car le "A" a été proposé et n'apparaissait qu'une fois en seconde position dans `mot_partiel`) ni "FAITS" (car il n'y a pas le bon nombre de lettres)
 
+> Remarque : On teste juste que le mot proposé par la fonction vérifie les regles du jeu, pas si la stratégie est bonne ou pas.
+
 @[Donner un mot]({"stubs": ["TP/donner_solution.py"], "command": "python3 TP/donner_solution_Test.py"})
 
-## 
-Pour cela vous devez créer une nouvelle fonction `ajouter_lettre(lettre,mot_partiel,dictionnaire)` qui prend en entrée la `lettre` choisie par le joueur, le `mot_partiel` qui correspond à l'état du jeu actuellement (par exemple " _ A _ S _ _ ")
+## Ajouter une lettre
+
+Passons maintenant au coeur du problème : Que faire quand une lettre est proposée par le joueur ? Il ne suffit clairement pas de dire qu'il a faux car s'il propose toutes les voyelles, il faudra bien en placer quelques unes. A vous de trouver une bonne stratégie pour pouvoir trouver les meilleures positions pour faire durer le plus longtemps possible le jeu.
+
+Vous devez donc créer une nouvelle fonction `ajouter_lettre(lettre,lettres_proposees,mot_partiel,dictionnaire)` qui prend en entrée la nouvelle `lettre` que propose le joueur, la liste des `lettres_proposees` déjà utilisées pendant le jeu, le `mot_partiel` qui correspond à l'état final du jeu (par exemple " _ A I _ _ _ " (sans les espaces)) ainsi que le `dictionnaire` des mots possibles sous forme de liste de mots. En sortie on attend le nouveau `mot_partiel` à afficher.
+
+> Remarque : On teste juste que le mot proposé par la fonction vérifie les regles du jeu, pas si la stratégie est bonne ou pas.
+
+@[Ajouter une lettre]({"stubs": ["TP/ajouter_lettre_2.py"], "command": "python3 TP/ajouter_lettre_2_Test.py"})
