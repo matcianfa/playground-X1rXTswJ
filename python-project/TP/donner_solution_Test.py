@@ -17,7 +17,7 @@ def verif(mot,lettres,mot_partiel,dictionnaire):
   """
   if mot not in dictionnaire or len(mot)!= len(mot_partiel): return False
   for i in range(len(mot)):
-      if mot_partiel[i]=="_" and (mot[i] in lettres or mot[i] in mot_partiel) : return False
+      if (mot_partiel[i]=="_" and (mot[i] in lettres or mot[i] in mot_partiel)) or mot_partiel[i]!=mot[i] : return False
   return True
 
 
