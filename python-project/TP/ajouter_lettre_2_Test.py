@@ -57,9 +57,9 @@ def test():
             rep=f(*valeur)
             assert verif(rep,*valeur), "En testant les valeurs {} le mot proposé est {} mais ce n'est pas bon".format(",".join([str(val) for val in valeur[:2]]),str(rep))
             send_msg("Tests validés","En testant les valeurs {} le mot proposé est {}".format(",".join([str(val) for val in valeur[:2]]),str(rep)))
-        success(chemin+module)
+        print("TECHIO> success true")
     except AssertionError as e:
-        fail()
+        print("TECHIO> success false")
         send_msg("Oops! ", e)
         if help:
             send_msg("Aide 💡", help)
