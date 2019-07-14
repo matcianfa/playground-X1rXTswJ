@@ -1,4 +1,4 @@
-from pendu import * # On  importe les fonctions créées
+from pendu_triche import * # On  importe les fonctions créées
 import random # Pour choisir aléatoirement
 
 
@@ -37,7 +37,7 @@ if __name__ == "__main__":
             continue
         
         # On propose le nouveau mot_partiel
-        mot_partiel_2= ajouter_lettre(lettre,lettres_proposees,mot_partiel,dico)
+        mot_partiel2= ajouter_lettre(lettre,lettres_proposees,mot_partiel,dico)
         
         # Si ce n'est pas le même :
         if mot_partiel!=mot_partiel2:
@@ -54,6 +54,6 @@ if __name__ == "__main__":
 
     if "_" in mot_partiel :
         print("Perdu!")
-        print("Le mot était ", donner_mot(lettres_proposees,mot_partiel,dico))
+        print("Le mot était ", donner_solution(lettres_proposees,mot_partiel,dico))
     else :
         print("Bravo ! C'était bien ", mot_partiel)
