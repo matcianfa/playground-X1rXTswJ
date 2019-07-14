@@ -9,7 +9,7 @@ with open("TP/dictionnaire7-10.txt",mode="r") as dic:
     
 nb_erreurs_max=7 # Maximum d'erreur possible avant d'etre pendu
 longueur=random.randint(7,10) # longueur du mot
-mot_partiel="_"*len(longueur) # On crée notre mot caché en remplaçant toutes les lettres par des _
+mot_partiel="_"*longueur # On crée notre mot caché en remplaçant toutes les lettres par des _
 lettres_proposees=[]
 
 #--------------------- Les graphiques (3D bien sûr)
