@@ -1,7 +1,8 @@
 # Classe de Première - Suites numériques
 
 ## Exercice n° : Calcul des termes d'une suite définie par $`u_n=f(n)`$
-`Difficulté : Très facile`
+`Difficulté : Très facile`  
+`Programme officiel`
 
 On considère la suite $`(u_n)`$ définie pour tout entier naturel $`n`$ par $`u_n=\dfrac{3n-9}{2n+1}`$.
 
@@ -16,7 +17,8 @@ Créer une fonction qui prend en entrée un entier naturel $`n`$ et renvoie en s
 ---
 
 ## Exercice n° : Calcul des termes d'une suite définie par récurrence I
-`Difficulté : Facile`
+`Difficulté : Facile`  
+`Programme officiel`
 
 Pour calculer à l'aide d'un programme les termes d'une suite définie par récurrence, l'idée est tout simplement de calculer au fur et à mesure les valeurs de la suite en les sauvegardant dans une seule variable ***u*** qui commence à $`u_0`$.
 
@@ -31,7 +33,8 @@ Dans la fenêtre ci-dessous, on a déjà commencé à écrire un programme pour 
 ---
 
 ## Exercice n° : Calcul des termes d'une suite définie par récurrence II
-`Difficulté : Facile`
+`Difficulté : Facile`  
+`Programme officiel`
 
 Dans cet exercice, on considère une suite u définie par $`u_{n+1}=3-4u_n`$ et de premier terme $`u_0`$.
 Le but de cet exercice est de créer un programme qui prend en entrée les valeurs de ***n*** et $`u_0`$ et affiche la valeur de $`u_n`$.
@@ -45,7 +48,8 @@ Le but de cet exercice est de créer un programme qui prend en entrée les valeu
 ---
 
 ## Exercice n° : Calcul des termes d'une suite définie par récurrence III
-`Difficulté : Facile`
+`Difficulté : Facile`  
+`Programme officiel`
 
 Dans cet exercice, on considère une suite u définie par $`u_{n+1}=u_n+n+1`$ et de premier terme $`u_0`$.
 Le but de cet exercice est de créer un programme qui prend en entrée les valeurs de ***n*** et $`u_0`$ et affiche la valeur de $`u_n`$.
@@ -59,7 +63,8 @@ Le but de cet exercice est de créer un programme qui prend en entrée les valeu
 ---
 
 ## Exercice n° : Calcul des termes d'une suite définie par récurrence IV
-`Difficulté : Facile`
+`Difficulté : Facile`  
+`Programme officiel`
 
 Le but de cet exercice est de calculer les termes de la suite définie par $`u_{n+1}=a.u_n+b`$ et de premier terme $`u_0`$.
 
@@ -73,7 +78,8 @@ Le but de cet exercice est de calculer les termes de la suite définie par $`u_{
 
 ## Exercice n° : Calcul des termes d'une suite définie par récurrence V
 `Difficulté : Facile`  
-`Notion utilisée : Les listes`
+`Notion utilisée : Les listes`  
+`Programme officiel`
 
 Le but de cet exercice est de calculer tous les termes de la suite définie par $`u_{n+1}=u_n^2-5`$ et de premier terme $`u_0=0`$ jusqu'à un certain rang.
 
@@ -86,7 +92,8 @@ Le but de cet exercice est de calculer tous les termes de la suite définie par 
 ---
 
 ## Exercice n° : Calcul de sommes I
-`Difficulté : Facile`
+`Difficulté : Facile`  
+`Programme officiel`
 
 Pour un $`N`$ donné, on souhaite calculer la somme des termes $`u_0+u_{1}+\dots+u_{N-1}+u_N`$ de la suite $`(u_n)`$ définie par $`u_0 = 2`$ et $`u_{n+1}=2u_n-1`$. Pour cela, compléter et traduire en python l'algorithme suivant :
 
@@ -105,7 +112,8 @@ ma_fonction(N) :
 ---
 
 ## Exercice n° : Calcul de sommes II
-`Difficulté : Facile`
+`Difficulté : Facile`  
+`Programme officiel`
 
 Le but de cet exercice est de faire une fonction qui calcule la valeur de la somme $`1^p+2^p+3^p+\dots+n^p`$ pour des valeurs de ***n*** et ***p*** données.
 
@@ -123,6 +131,7 @@ Pour calculer une somme, il suffit de créer une variable S qui commence à 0 pu
 
 ## Exercice n° : Calcul de la somme des termes d'une suite arihmétique
 `Difficulté : Facile`  
+`Programme officiel`  
 
 Le but de cet exercice est de faire une fonction qui calcule la valeur de la somme $`u_i+u_{i+1}+\dots+u_{j-1}+u_j`$ pour des valeurs entières de ***i*** et ***j*** données dans le cas où $`(u_n)`$ est une suite arithmétique de premier terme $`u_0`$ et de raison $`r`$.
 
@@ -137,6 +146,7 @@ Le but de cet exercice est de faire une fonction qui calcule la valeur de la som
 
 ## Exercice n° : Calcul de la somme des termes d'une suite géométrique
 `Difficulté : Facile`  
+`Programme officiel`  
 
 Le but de cet exercice est de faire une fonction qui calcule la valeur de la somme $`u_i+u_{i+1}+\dots+u_{j-1}+u_j`$ pour des valeurs entières de ***i*** et ***j*** données dans le cas où $`(u_n)`$ est une suite géométrique de premier terme $`u_0`$ et de raison $`q`$.
 
@@ -150,7 +160,8 @@ Le but de cet exercice est de faire une fonction qui calcule la valeur de la som
 ---
 
 ## Exercice n° : Recherche de seuil I
-`Difficulté : Facile`
+`Difficulté : Facile`  
+`Programme officiel`
 
 On considère la suite définie par $`u_{n+1}=0.5.u_n`$ et de premier terme $`u_0`$. Plus la valeur de ***n*** augmente, plus les valeurs de $`u_n`$ se rapprochent de 0.
 
@@ -171,7 +182,8 @@ On pourra regarder le cour sur le boucles `while`
 ---
 
 ## Exercice n° : Recherche de seuil II
-`Difficulté : Facile`
+`Difficulté : Facile`  
+`Programme officiel`
 
 On considère désormais la suite définie par $`u_{n+1}=2.u_n`$ et de premier terme $`u_0`$.
 Cette suite augmente indéfiniment lorsque ***n*** augmente.
@@ -188,6 +200,7 @@ Ecrire un programme qui donnera la plus petite valeur de ***n*** telle que $`u_n
 ---
 
 ## Exercice n° : Recherche de seuil III (Escargot de Gardner)
+`Difficulté : Facile`
 
 Nous allons nous intéresser à la progression de l'escargot  de Gardner. Je vous renvoie vers cette vidéo pour une présentation : [Youtube](https://www.youtube.com/watch?v=L1vDkUziBpw).
 
@@ -204,3 +217,45 @@ On se demande naturellement au bout de combien de temps ce pourcentage de progre
 @[Escargot de Gardner]({"stubs": ["Les_boucles/Gardner.py"], "command": "python3 Les_boucles/Gardner_Test.py"})
 
 ---
+
+## Exercice n° : Factorielle
+`Difficulté : Facile`  
+`Programme officiel`
+
+En mathématiques, il est fréquent que l'on ait besoin de calculer $`1\times2\times3\times4\times\dots\times n`$. On note le résultat ***n!*** et on le nomme factorielle de n.
+
+Ainsi, on a 
++ $`3!=1\times2\times3= 6`$, 
++ $`4!=24`$, 
++ $`5!=120`$, 
++ $`1!=1`$. 
++ Par convention, $`0!=1`$.
+
+Le but de cet exercice est tout simplement d'afficher la factorielle du nombre ***n*** donné en entrée.
+
+> Entrée : Un entier naturel ***n*** .
+
+> Sortie : Afficher ***n!*** .
+
+@[Factorielle]({"stubs": ["Les_boucles/Factorielle.py"], "command": "python3 Les_boucles/Factorielle_Test.py"})
+
+ ---
+ 
+ ## Afficher les termes d'une suite
+ `Difficulté : moyenne`
+ `Prérequis : Listes et matplotlib`
+ 
+ Compléter le script suivant pour qu'il affiche les 10 premiers termes de la suite $`(u_n)`$ définie par $`u_0=10`$ et $`u_{n+1}=\dfrac 1 2 u_n + 2`$. 
+ 
+Pour cela, on utilisera la fonction `plt.scatter(X,Y)` où X représente la liste des abscisses des points que l'on souhaite tracer et Y la liste des ordonnées. On pourra voir le [cours](https://tech.io/playgrounds/17176/recueil-dexercices-pour-apprendre-python-au-lycee/cours---representation-graphique-avec-matplotlib) sur le module matplotlib pour plus d'information.
+
+@[Tracé des termes d'une suite]({"stubs": ["Premiere/Suites/Trace_suite.py"], "command": "python3 Premiere/Suites/Trace_suite_Test.py"})
+ 
+ ---
+
+## Compléments :
+
+Pour ne pas surcharger cette page, voici quelques approfondissements possibles disponibles sur d'autres pages :
+- [La suite de Syracuse](https://tech.io/playgrounds/17176/recueil-dexercices-pour-apprendre-python-au-lycee/suite-de-syracuse)
+- [Systèmes proies-prédateurs (Volterra)](https://tech.io/playgrounds/17176/recueil-dexercices-pour-apprendre-python-au-lycee/systeme-proie-predateur)
+
