@@ -50,7 +50,7 @@ plan:
     statement: Premiere/presentation.md
   - title: Second degré
     statement: Premiere/second_degre.md
-  - title: Second degré
+  - title: Suites numériques
     statement: Premiere/suites_numeriques.md
 - title: Travaux Pratiques
   plan:
