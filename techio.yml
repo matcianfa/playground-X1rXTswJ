@@ -50,6 +50,8 @@ plan:
     statement: Premiere/presentation.md
   - title: Second degré
     statement: Premiere/second_degre.md
+  - title: Second degré
+    statement: Premiere/suites_numeriques.md
 - title: Travaux Pratiques
   plan:
   - title: Jeu du pendu
