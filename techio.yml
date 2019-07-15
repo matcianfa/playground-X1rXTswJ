@@ -98,8 +98,8 @@ plan:
     statement: Les_boucles/factorielle.md
   #- title: Calcul des termes d'une suite
   #  statement: Les_boucles/Calcul des termes d'une suite.md
-  - title: Calcul de sommes
-    statement: Les_boucles/Calcul de sommes.md
+  #- title: Calcul de sommes
+  #  statement: Les_boucles/Calcul de sommes.md
   - title: Constante de Champernowne
     statement: Les_boucles/Constante de Champernowne.md
   - title: Nombres parfaits
@@ -108,10 +108,10 @@ plan:
     statement: Les_boucles/Sommes de dés.md
   - title: Nombres premiers
     statement: Les_boucles/Nombres premiers.md
-  - title: Recherche de seuil
-    statement: Les_boucles/Recherche de seuil.md
-  - title: Escargot de Gardner
-    statement: Les_boucles/Escargot de Gardner.md
+  #- title: Recherche de seuil
+  #  statement: Les_boucles/Recherche de seuil.md
+  #- title: Escargot de Gardner
+  #  statement: Les_boucles/Escargot de Gardner.md
   - title: Décomposition d'entier en impair et puissance de 2
     statement: Les_boucles/Décomposition d'entier en impair et puissance de 2.md
   - title: Triplets pythagoriciens
