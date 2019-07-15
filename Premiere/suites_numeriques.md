@@ -100,7 +100,7 @@ ma_fonction(N) :
     Renvoyer  ...
 ```
 
-@[Calcul de sommes]({"stubs": ["Les_boucles/Calcul_de_sommes1.py"], "command": "python3 Les_boucles/Calcul_de_sommes1_Test.py"})
+@[Calcul de sommes]({"stubs": ["Premiere/Suites/Calcul_de_sommes1.py"], "command": "python3 Premiere/Suites/Calcul_de_sommes1_Test.py"})
 
 ---
 
@@ -161,6 +161,10 @@ Le but de cet exercice est de faire un programme qui permet de déterminer pour 
 > Entrée : Un réel positif $`u_0`$ et un réel strictement positif ***e***
 
 > Sortie : Le plus petit entier tel que $`u_n<e`$
+
+::: Indications
+On pourra regarder le cour sur le boucles `while`
+:::
 
 @[Recherche de seuil 1]({"stubs": ["Les_boucles/Recherche_de_seuil.py"], "command": "python3 Les_boucles/Recherche_de_seuil_Test.py"})
 
