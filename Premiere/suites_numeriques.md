@@ -102,6 +102,21 @@ Pour calculer une somme, il suffit de créer une variable S qui commence à 0 pu
 
 ---
 
+## Exercice n° : Calcul de la somme des termes d'une suite géométrique
+`Difficulté : Facile`  
+
+Le but de cet exercice est de faire une fonction qui calcule la valeur de la somme $`u_i+u_{i+1}+\dots+u_{j-1}+u_j`$ pour des valeurs entières de ***i*** et ***j*** données dans le cas où $`(u_n)`$ est une suite arithmétique de premier terme $`u_0`$ et de raison $`r`$.
+
+> Entrée : Les valeurs de $`u_0`$ et $`r`$ suivis des deux entiers naturels ***i*** et ***j*** avec ***p***<***q***.
+
+> Sortie : La valeur de la somme $`u_i+u_{i+1}+\dots+u_{j-1}+u_j`$ où $`(u_n)`$ est une suite arithmétique.
+
+
+@[Calcul de la somme des termes d'une suite arithmétique]({"stubs": ["Premiere/Suites/Calcul_somme_arithmetique.py"], "command": "python3 Premiere/Suites/Calcul_somme_arithmetique_Test.py"})
+
+---
+
+
 ## Exercice n° : Recherche de seuil I
 `Difficulté : Facile`
 
