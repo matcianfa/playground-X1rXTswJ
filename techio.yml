@@ -96,8 +96,8 @@ plan:
     statement: Les_boucles/seconde.md
   - title: Factorielle d'un nombre
     statement: Les_boucles/factorielle.md
-  - title: Calcul des termes d'une suite
-    statement: Les_boucles/Calcul des termes d'une suite.md
+  #- title: Calcul des termes d'une suite
+  #  statement: Les_boucles/Calcul des termes d'une suite.md
   - title: Calcul de sommes
     statement: Les_boucles/Calcul de sommes.md
   - title: Constante de Champernowne
