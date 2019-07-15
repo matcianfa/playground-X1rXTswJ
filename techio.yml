@@ -94,8 +94,8 @@ plan:
     statement: Les_boucles/Intro_boucles.md
   - title: Exercices de niveau Seconde ou moins
     statement: Les_boucles/seconde.md
-  - title: Factorielle d'un nombre
-    statement: Les_boucles/factorielle.md
+  #- title: Factorielle d'un nombre
+  #  statement: Les_boucles/factorielle.md
   #- title: Calcul des termes d'une suite
   #  statement: Les_boucles/Calcul des termes d'une suite.md
   #- title: Calcul de sommes
