@@ -85,7 +85,26 @@ Le but de cet exercice est de calculer tous les termes de la suite définie par 
 
 ---
 
-## Exercice n° : Calcul de sommes
+## Exercice n° : Calcul de sommes I
+`Difficulté : Facile`
+
+Pour un $`N`$ donné, on souhaite calculer la somme des termes $`u_0+u_{1}+\dots+u_{N-1}+u_N`$ de la suite $`(u_n)`$ définie par $`u_0 = 2`$ et $`u_{n+1}=2u_n-1`$. Pour cela, compléter et traduire en python l'algorithme suivant :
+
+```
+ma_fonction(N) :
+    u ← ...
+    S ← u
+    Pour i allant de 1 à ...
+        u ← ...
+        S ← ...
+    Renvoyer  ...
+```
+
+@[Calcul de sommes]({"stubs": ["Les_boucles/Calcul_de_sommes1.py"], "command": "python3 Les_boucles/Calcul_de_sommes1_Test.py"})
+
+---
+
+## Exercice n° : Calcul de sommes II
 `Difficulté : Facile`
 
 Le but de cet exercice est de faire une fonction qui calcule la valeur de la somme $`1^p+2^p+3^p+\dots+n^p`$ pour des valeurs de ***n*** et ***p*** données.
