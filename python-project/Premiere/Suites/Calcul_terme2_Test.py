@@ -3,7 +3,7 @@ nom_fonction="ma_fonction"
 
 #liste des valeurs à tester
 # Attention de bien mettre dans un tuplet ou une liste les valeurs à tester même si la fonction n'a qu'un argument.
-valeurs_a_tester=[[0],[1],[2],[10],[100],[1000]]
+valeurs_a_tester=[[0],[1],[2],[10],[100]]
 
 
 #message d'aide si besoin
