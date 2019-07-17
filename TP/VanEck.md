@@ -29,7 +29,7 @@ Essayez de calculer seul les termes $`V_6`$ jusqu'à $`V_{10}`$ puis vérifiez a
 ---
 
 ## Calcul des termes de la suite (version naive)
-`Difficulté : Moyenne`
+`Difficulté : Moyenne`  
 `Prérequis : Les listes`
 
 En utilisant la définition précédente, créer une fonction `VanEck(n)` qui donne la liste des valeurs de la suite de Van Eck $`(V_n)`$ de $`V_0`$ jusqu'à $`V_n`$.
@@ -40,3 +40,30 @@ En utilisant la définition précédente, créer une fonction `VanEck(n)` qui do
 
 ---
 
+## Calcul des termes de la suite (version optimisée)
+`Difficulté : Difficile`  
+`Prérequis : Les listes`
+
+La façon dont on calcule les termes de la suite en utilisant simplement la définition prend beaucoup de temps dès qu'on augmente un peu la valeur de n (plusieurs minutes pour seulement n=100000). Nous allons voir comment optimiser beaucoup nos calculs.
+
+Pour cela nous allons utiliser deux listes : une première dans laquelle on va mettre nos termes au fur et à mesure (comme pour la version précédente) et une autre dans laquelle, à chaque nouvelle valeur de $`V_n`$ qu'on calcule, on va mettre l'indice correspondant. Ainsi il suffira de lire dans cette liste la dernière fois qu'on a croisé une valeur au lieu de chercher à chaque fois dans la liste des termes où était cette dernière valeur.
+
+> Exemple : Supposons qu'on veuille calculer pour n=5.  
+On commence par créer nos deux listes : 
+- la liste des termes initialisée avec 0 : `liste_termes=[0]`
+- la liste des indices qu'on crée déjà en entier (comme on calcule pour n=5, on va créer une liste de longueur 6). Pour l'initialiser, il faut mettre une valeur qu'on n'utilisera pas (par exemple -1 ou None) pour signifier qu'on n'a pas encore trouver cette valeur. Ainsi, au début on a donc une variable `liste_indices = [-1,-1,-1,-1,-1,-1]` (qu'on peut créer facilement en faisant `[-1]*6`). Pour bien préciser les choses : si on a `liste_indices[3]=5`, cela signifie que la dernière fois qu'on a obtenu un 3 comme valeur de notre suite, c'est lorsque l'indice était 5.  
+Voyons maintenant comment doit fonctionner notre algorithme pour calculer les 6 premiers termes :
++ A l'étape 0 : On regarde le dernier terme de notre `liste_termes` : C'est 0. On regarde dans notre `liste_indices` la dernière fois qu'on a croisé 0 : on trouve -1 ce qui signifie jamais. Dans ce cas, d'après la façon dont on doit créer la suite, la valeur suivante de la suite $`(V_n)`$ est $`V_1=0`$. On rajoute donc 0 à notre `liste_termes` et comme du coup la dernière fois qu'on a croisé 0 est à l'indice 0 (on ne considère pas encore le nouveau 0 qu'on a rajouté) on le note dans notre `liste_indices`. 
+Donc à cette étape on a `liste_termes = [0,0]` et `liste_indices=[0,-1,-1,-1,-1,-1]`.
++ A l'étape 1 : On recommence : la dernier terme est 0. Dans `liste_indices`, la dernière fois qu'on a croisé 0 est en 0. Comme on est à l'étape 1 (on considère $`V_1`$) la distance entre les deux est 1 - 0 = 1. Donc la valeur suivante de la suite est $`V_2=1`$ qu'on ajoute à `liste_termes`. On met à jour le fait que le dernier 0 croisé est à l'indice 1 ce qui donne comme état des variables : `liste_termes = [0,0,1]` et `liste_indices=[1,-1,-1,-1,-1,-1]`.  
+Remarque importante : On ne met pas encore le fait qu'on a obtenu un 1 à l'indice 2 dans la `liste_indices` car cette liste nous permet de garder en mémoire ce qui se passe avant d'avoir obtenu ce 1.
++ A l'étape 2 : On rerecommence : le dernier terme est 1. On a jamais croisé de 1 donc on met un 0...  
+On obtient comme variables à la fin de cette étape : `liste_termes = [0,0,1,0]` et `liste_indices=[1,2,-1,-1,-1,-1]`.  
++ On a ensuite : `liste_termes = [0,0,1,0,2]` et `liste_indices=[3,2,-1,-1,-1,-1]`.  
++ Et enfin : `liste_termes = [0,0,1,0,2,0]` et `liste_indices=[3,2,4,-1,-1,-1]`.  
+
+Vérifiez bien que vous avec compris le raisonnement avant de vous lancer dans l'algorithme.
+
+A présent, créez votre nouvelle fonction `VanEck(n)` en utilisant l'algorithme qui vient d'être décrit.
+
+@[Calcul des termes de la suite de Van Eck]({"stubs": ["TP/VanEck2.py"], "command": "python3 TP/VanEck2_Test.py"})
