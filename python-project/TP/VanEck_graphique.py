@@ -17,5 +17,5 @@ X = ...
 Y = ...
 
 # A modifier si besoin :
-plt.plot(X,Y)
+plt.plot(X,Y,".",markersize=2)
 plt.show()
