@@ -45,10 +45,10 @@ plan:
   - title: Cours - Régressions linéaires et d'ordres supérieurs
     statement: Maths/Regression.md
 #- title: Classe de Seconde
-- title: Travaux Pratiques de Seconde
-  plan:
-  - title: Jeu du pendu
-    statement: TP/Pendu.md
+#- title: Travaux Pratiques de Seconde
+#  plan:
+#  - title: Jeu du pendu
+#    statement: TP/Pendu.md
 - title: Classe de Première
   plan:
   - title: Introduction
