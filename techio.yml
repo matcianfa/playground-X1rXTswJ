@@ -171,11 +171,10 @@ plan:
   plan:
   - title: Introduction
     statement: Les_fonctions/Introduction.md
-  
   - title: Exercices de base
     statement: Les_fonctions/Exercices de base.md
-  #- title: Factorielle
-  #  statement: Les_fonctions/factorielle.md
+  - title: Factorielle
+    statement: Les_fonctions/factorielle.md
   - title: Suites recurrentes
     statement: Les_fonctions/Suites_recurrentes.md
   - title: Palindromes
@@ -204,7 +203,6 @@ plan:
   plan:
   - title: Introduction
     statement: Maths/Introduction.md
-  
   - title: Données statistiques
     statement: Maths/Statistiques.md
   - title: L'algorithme d'Euclide
