@@ -321,4 +321,3 @@ projects:
     runner:
       name: python
       version: '3'
-  buildCommand: export PYTHONPATH=$PYTHONPATH:/project/target
