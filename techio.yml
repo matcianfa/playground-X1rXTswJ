@@ -316,7 +316,7 @@ plan:
 projects:
   python:
     #buildCommand: pip3 install --ignore-installed matplotlib Pillow scipy
-    buildCommand: echo 'export PYTHONPATH=$PYTHONPATH:/project/target' >> ~/.bashrc
+    buildCommand: echo 'export PYTHONPATH=$PYTHONPATH:/project/target' >> /root/.bashrc
     root: /python-project
     runner:
       name: python
