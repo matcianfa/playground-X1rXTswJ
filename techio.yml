@@ -315,8 +315,8 @@ plan:
   #  statement: Autre/test.md
 projects:
   python:
-    #buildCommand: pip3 install --ignore-installed matplotlib Pillow scipy
-    buildCommand: export PYTHONPATH=$PYTHONPATH:/project/target
+    buildCommand: pip3 install --ignore-installed matplotlib Pillow scipy
+    #buildCommand: export PYTHONPATH=$PYTHONPATH:/project/target
     root: /python-project
     runner:
       name: python
