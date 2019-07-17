@@ -68,6 +68,8 @@ A présent, créez votre nouvelle fonction `VanEck(n)` en utilisant l'algorithme
 
 @[Calcul des termes de la suite de Van Eck]({"stubs": ["TP/VanEck2.py"], "command": "python3 TP/VanEck2_Test.py"})
 
+---
+
 ## Affichage graphique des termes de la suite
 
 Compléter le script ci-dessous pour qu'il affiche les termes de la suite. On utilise la fonction `plt.plot(X,Y)`, où X est la liste des abscisses des points que l'on souhaite tracer et Y la liste des ordonnées. On pourra se repporter à la partie du cours sur matplotlib.
@@ -76,3 +78,9 @@ Vous pouvez ensuite modifier comme vous le souhaiter ce script pour essayer de t
 
 
 @[affichage des termes de la suite de Van Eck]({"stubs": ["TP/VanEck_graphique.py"], "command": "python3 TP/VanEck_graphique_Test.py"})
+
+---
+
+## Pour aller plus loin 
+
+Une des conjectures consiste à considérer le suite $`u_n`$ des maximums entre 0 et n des valeurs de $`\dfrac{V_k}{k}`$. La conjecture affirme que $`u_n`$ aurait pour limite 1. Vous pouvez essayer de tester cette conjecture à l'aide d'un programme...
