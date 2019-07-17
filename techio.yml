@@ -44,7 +44,7 @@ plan:
     statement: Maths/Complements_matplotlib.md
   - title: Cours - Régressions linéaires et d'ordres supérieurs
     statement: Maths/Regression.md
-- title: Classe de Seconde
+#- title: Classe de Seconde
 - title: Travaux Pratiques de Seconde
   plan:
   - title: Jeu du pendu
@@ -61,6 +61,8 @@ plan:
   plan:
   - title: Suite de Syracuse
     statement: Maths/Syracuse.md
+  - title: Suite de Van Eck
+    statement: TP/VanEck.md
 - title: Variables et fonctions mathématiques
   plan:
   - title: Introduction
