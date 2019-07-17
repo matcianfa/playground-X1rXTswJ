@@ -44,6 +44,11 @@ plan:
     statement: Maths/Complements_matplotlib.md
   - title: Cours - Régressions linéaires et d'ordres supérieurs
     statement: Maths/Regression.md
+- title: Classe de Seconde
+- title: Travaux Pratiques de Seconde
+  plan:
+  - title: Jeu du pendu
+    statement: TP/Pendu.md
 - title: Classe de Première
   plan:
   - title: Introduction
@@ -52,10 +57,10 @@ plan:
     statement: Premiere/second_degre.md
   - title: Suites numériques
     statement: Premiere/suites_numeriques.md
-- title: Travaux Pratiques
+- title: Travaux Pratiques de Première
   plan:
-  - title: Jeu du pendu
-    statement: TP/Pendu.md
+  - title: Suite de Syracuse
+    statement: Maths/Syracuse.md
 - title: Variables et fonctions mathématiques
   plan:
   - title: Introduction
@@ -167,8 +172,8 @@ plan:
   
   - title: Exercices de base
     statement: Les_fonctions/Exercices de base.md
-  - title: Factorielle
-    statement: Les_fonctions/factorielle.md
+  #- title: Factorielle
+  #  statement: Les_fonctions/factorielle.md
   - title: Suites recurrentes
     statement: Les_fonctions/Suites_recurrentes.md
   - title: Palindromes
@@ -197,8 +202,7 @@ plan:
   plan:
   - title: Introduction
     statement: Maths/Introduction.md
-  - title: Suite de Syracuse
-    statement: Maths/Syracuse.md
+  
   - title: Données statistiques
     statement: Maths/Statistiques.md
   - title: L'algorithme d'Euclide
