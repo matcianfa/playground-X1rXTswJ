@@ -1,6 +1,6 @@
 # Classe de Première - Suites numériques
 
-## Exercice n° : Calcul des termes d'une suite définie par $`u_n=f(n)`$
+## Exercice n° 1 : Calcul des termes d'une suite définie par $`u_n=f(n)`$
 `Difficulté : Très facile`  
 `Programme officiel`
 
@@ -16,7 +16,7 @@ Créer une fonction qui prend en entrée un entier naturel $`n`$ et renvoie en s
 
 ---
 
-## Exercice n° : Calcul des termes d'une suite définie par récurrence I
+## Exercice n° 2 : Calcul des termes d'une suite définie par récurrence I
 `Difficulté : Facile`  
 `Programme officiel`
 
@@ -32,7 +32,7 @@ Dans la fenêtre ci-dessous, on a déjà commencé à écrire un programme pour 
 
 ---
 
-## Exercice n° : Calcul des termes d'une suite définie par récurrence II
+## Exercice n° 3 : Calcul des termes d'une suite définie par récurrence II
 `Difficulté : Facile`  
 `Programme officiel`
 
@@ -47,7 +47,7 @@ Le but de cet exercice est de créer un programme qui prend en entrée les valeu
 
 ---
 
-## Exercice n° : Calcul des termes d'une suite définie par récurrence III
+## Exercice n° 4 : Calcul des termes d'une suite définie par récurrence III
 `Difficulté : Facile`  
 `Programme officiel`
 
@@ -62,7 +62,7 @@ Le but de cet exercice est de créer un programme qui prend en entrée les valeu
 
 ---
 
-## Exercice n° : Calcul des termes d'une suite définie par récurrence IV
+## Exercice n° 5 : Calcul des termes d'une suite définie par récurrence IV
 `Difficulté : Facile`  
 `Programme officiel`
 
@@ -76,7 +76,7 @@ Le but de cet exercice est de calculer les termes de la suite définie par $`u_{
 
 ---
 
-## Exercice n° : Calcul des termes d'une suite définie par récurrence V
+## Exercice n° 6 : Calcul des termes d'une suite définie par récurrence V
 `Difficulté : Facile`  
 `Notion utilisée : Les listes`  
 `Programme officiel`
@@ -91,7 +91,7 @@ Le but de cet exercice est de calculer tous les termes de la suite définie par 
 
 ---
 
-## Exercice n° : Calcul de sommes I
+## Exercice n° 7 : Calcul de sommes I
 `Difficulté : Facile`  
 `Programme officiel`
 
@@ -111,7 +111,7 @@ ma_fonction(N) :
 
 ---
 
-## Exercice n° : Calcul de sommes II
+## Exercice n° 8 : Calcul de sommes II
 `Difficulté : Facile`  
 `Programme officiel`
 
@@ -129,7 +129,7 @@ Pour calculer une somme, il suffit de créer une variable S qui commence à 0 pu
 
 ---
 
-## Exercice n° : Calcul de la somme des termes d'une suite arihmétique
+## Exercice n° 9 : Calcul de la somme des termes d'une suite arihmétique
 `Difficulté : Facile`  
 `Programme officiel`  
 
@@ -144,7 +144,7 @@ Le but de cet exercice est de faire une fonction qui calcule la valeur de la som
 
 ---
 
-## Exercice n° : Calcul de la somme des termes d'une suite géométrique
+## Exercice n° 10 : Calcul de la somme des termes d'une suite géométrique
 `Difficulté : Facile`  
 `Programme officiel`  
 
@@ -159,7 +159,7 @@ Le but de cet exercice est de faire une fonction qui calcule la valeur de la som
 
 ---
 
-## Exercice n° : Recherche de seuil I
+## Exercice n° 11 : Recherche de seuil I
 `Difficulté : Facile`  
 `Programme officiel`
 
@@ -181,7 +181,7 @@ On pourra regarder le cour sur le boucles `while`
 
 ---
 
-## Exercice n° : Recherche de seuil II
+## Exercice n° 12 : Recherche de seuil II
 `Difficulté : Facile`  
 `Programme officiel`
 
@@ -199,7 +199,7 @@ Ecrire un programme qui donnera la plus petite valeur de ***n*** telle que $`u_n
 
 ---
 
-## Exercice n° : Recherche de seuil III (Escargot de Gardner)
+## Exercice n° 13 : Recherche de seuil III (Escargot de Gardner)
 `Difficulté : Facile`
 
 Nous allons nous intéresser à la progression de l'escargot  de Gardner. Je vous renvoie vers cette vidéo pour une présentation : [Youtube](https://www.youtube.com/watch?v=L1vDkUziBpw).
@@ -218,7 +218,7 @@ On se demande naturellement au bout de combien de temps ce pourcentage de progre
 
 ---
 
-## Exercice n° : Factorielle
+## Exercice n° 14 : Factorielle
 `Difficulté : Facile`  
 `Programme officiel`
 
@@ -241,7 +241,7 @@ Le but de cet exercice est tout simplement d'afficher la factorielle du nombre *
 
  ---
  
- ## Afficher les termes d'une suite
+ ## Exercice n° 15 : Afficher les termes d'une suite
  `Difficulté : moyenne`
  `Prérequis : Listes et matplotlib`
  
@@ -257,5 +257,6 @@ Pour cela, on utilisera la fonction `plt.scatter(X,Y)` où X représente la list
 
 Pour ne pas surcharger cette page, voici quelques approfondissements possibles disponibles sur d'autres pages :
 - [La suite de Syracuse](https://tech.io/playgrounds/17176/recueil-dexercices-pour-apprendre-python-au-lycee/suite-de-syracuse)
+- [La suite de Van Eck](https://tech.io/playgrounds/17176/recueil-dexercices-pour-apprendre-python-au-lycee/suite-de-van-eck)
 - [Systèmes proies-prédateurs (Volterra)](https://tech.io/playgrounds/17176/recueil-dexercices-pour-apprendre-python-au-lycee/systeme-proie-predateur)
 
