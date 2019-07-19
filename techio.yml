@@ -45,10 +45,12 @@ plan:
   - title: Cours - Régressions linéaires et d'ordres supérieurs
     statement: Maths/Regression.md
 #- title: Classe de Seconde
-#- title: Travaux Pratiques de Seconde
-#  plan:
-#  - title: Jeu du pendu
-#    statement: TP/Pendu.md
+- title: Travaux Pratiques de Seconde
+  plan:
+  - title: Introduction
+    statement: TP/intro.md
+  - title: Jeu du pendu
+    statement: TP/Pendu.md
 - title: Classe de Première
   plan:
   - title: Introduction
@@ -59,6 +61,8 @@ plan:
     statement: Premiere/suites_numeriques.md
 - title: Travaux Pratiques de Première
   plan:
+  - title: Introduction
+    statement: TP/intro.md
   - title: Suite de Syracuse
     statement: Maths/Syracuse.md
   - title: Suite de Van Eck
