@@ -4,5 +4,5 @@ def ma_fonction(f,a):
     while h > 0 :
         coeff = (f(a+h)-f(a))/h
         liste.append(coeff)
-        h -= 0.001
+        h -= 0.01
     return liste
