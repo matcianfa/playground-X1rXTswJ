@@ -1,5 +1,14 @@
 # Première : Dérivation et applications
 
+## Exercice n° : Taux d'accroissement
+`Difficulté : Facile`  
+
+Ecrire une fonction qui prend en entrée une fonction $`f`$ et des réels $`a`$ et $`h`$ et donne en sortie le taux de variation (ou d'accroissement) de la fonction $`f`$ entre le point d'abscisse $`a+h`$ et $`a`$.
+
+@[Taux d'accroissement]({"stubs": ["Premiere/Derivation/taux_accroissement.py"], "command": "python3 Premiere/Derivation/taux_accroissement_Test.py"})
+
+---
+
 ## Exercice n° : Ecrire la liste des coefficients directeurs des sécantes pour un pas donné
 `Difficulté : Moyenne`  
 `Prérequis : Les listes`  
