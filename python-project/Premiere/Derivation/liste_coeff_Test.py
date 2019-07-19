@@ -34,7 +34,7 @@ def test():
     try:
         for valeur in valeurs_a_tester:
             a,b = valeur
-            a = lambda x : eval(a)
+            a = eval("lambda x : "+ a)
             rep=f(a,b)
             sol=f_sol(a,b)
             assert str(rep) == str(sol), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(",".join([str(val) for val in valeur]),str(rep),str(sol))
