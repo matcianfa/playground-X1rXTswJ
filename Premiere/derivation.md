@@ -7,7 +7,7 @@
 
 On considère $`\mathcal{C}`$ la courbe représentative d'une fonction $`f`$ dans un repère, $`A`$ un point d'abscisse $`a`$ de $`\mathcal{C}`$ et $`B`$ celui d'abscisse $`a+h`$. 
 
-<img src="https://static1.assistancescolaire.com/1/images/1_me206i01z.jpg" style="width: 50px;" />
+<img src="https://static1.assistancescolaire.com/1/images/1_me206i01z.jpg" width:"50%" />
 
 Compléter la fonction ci-dessous pour qu'elle permette de calculer la liste des coefficients directeurs des sécantes (ou cordes) (AB) pour h variant de 1 à 0 avec un pas de 0,01. 
 
