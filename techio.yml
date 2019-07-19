@@ -69,6 +69,10 @@ plan:
     statement: Maths/Syracuse.md
   - title: Suite de Van Eck
     statement: TP/VanEck.md
+  - title: La recherche par dichotomie
+    statement: Maths/Dichotomie.md
+  - title: La méthode d'Euler
+    statement: Maths/Méthode Euler.md
 - title: Variables et fonctions mathématiques
   plan:
   - title: Introduction
@@ -213,16 +217,14 @@ plan:
     statement: Maths/Statistiques.md
   - title: L'algorithme d'Euclide
     statement: Maths/Euclide.md
-  - title: La recherche par dichotomie
-    statement: Maths/Dichotomie.md
+  
   - title: La méthode des rectangles
     statement: Maths/methode_rectangles.md
   - title: La méthode des trapèzes
     statement: Maths/Methode_trapèzes.md
   - title: La méthode de Monte Carlo
     statement: Maths/Monte Carlo.md
-  - title: La méthode d'Euler
-    statement: Maths/Méthode Euler.md
+  
 - title: Physique et programmation
   plan:
   - title: Introduction
