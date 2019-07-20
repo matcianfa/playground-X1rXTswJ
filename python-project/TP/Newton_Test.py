@@ -3,7 +3,7 @@ nom_fonction="Newton"
 
 #liste des valeurs à tester
 # Attention de bien mettre dans un tuplet ou une liste les valeurs à tester même si la fonction n'a qu'un argument.
-valeurs_a_tester=[["x**2-2",1,10],["x**3-3",2,5],["1/x-3",2,15],["x**0.5-3",1,10],["3*x+2",4,6]]
+valeurs_a_tester=[["x**2-2",1,10],["x**3-3",2,5],["x**3-2*x-5",3,15],["x**0.5-3",1,10],["3*x+2",4,6]]
 
 
 #message d'aide si besoin
