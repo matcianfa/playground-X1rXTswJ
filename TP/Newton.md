@@ -19,11 +19,10 @@ Créer une fonction `deriver(f,a,h)` qui donne le nombre dérivé de f en a en u
 ## La méthode de Newton
 
 Passons à présent aux choses sérieuses : On cherche à trouver une approximation d'une solution de l'équation $`f(x)=0`$ pour une fonction $`f`$ donnée. L'idée est, comme sur la figure ci-dessous, de :
+![Méthode de Newton](https://upload.wikimedia.org/wikipedia/commons/e/e0/NewtonIteration_Ani.gif)
 - prendre un point d'abscisse $`x_0`$ (pas trop loin de là où on imagine que la solution se trouve), 
 - tracer la tangente à la courbe représentative de $`f`$ et regarder pour quelle valeur $`x_1`$ la tangente coupe l'axe des abscisses
 - On considère alors le point de la courbe représentative de $`f`$ ayant pour abscisse cette valeur trouvée $`x_1`$ dans l'étape précédente et on recommence...
-
-![Méthode de Newton](https://upload.wikimedia.org/wikipedia/commons/e/e0/NewtonIteration_Ani.gif)
 
 > Question mathématique : Prouver que la méthode revient à considérer la suite des abscisses $`(x_n)`$ définie par la relation de récurrence $`x_{n+1}=x_n-\dfrac{f(x_k)}{f'(x_k}`$.
 
