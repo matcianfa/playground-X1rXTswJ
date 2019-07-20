@@ -4,7 +4,7 @@
 
 Le but de cette page est de présenter la méthode de Newton pour rechercher les solutions d'une équation de la forme $`f(x)=0`$. Cette méthode ne fonctionne pas toujours parfaitement (selon la situation qu'on pourrait souvent contourner mais nous n'en parlerons pas ici) mais quand elle fonctionne, elle donne rapidement la solution. Pour donner un ordre d'idée grossier, une recherche par dichotomie (qui est déjà efficace) divise l'erreur par 2 alors que dans les cas favorables, la méthode de Newton va quasiment doubler le nombre de décimales justes. Autrement dit, il faut beaucoup moins de calcul pour obtenir le résultat ce qui est indispensable en programmation.
 
-## Calcul du nombre dérivé (version améliorer)
+## Calcul du nombre dérivé (version améliorée)
 
 Pour utiliser la méthode de Newton, nous aurons besoin d'avoir le nombre dérivé d'une fonction. Une première façon de faire est d'utiliser une conséquence de la définition du nombre dérivé : $`f'(a)\approx \dfrac{f(a+h)-f(a)}{h}`$. 
 
