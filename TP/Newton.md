@@ -29,7 +29,19 @@ Passons à présent aux choses sérieuses : On cherche à trouver une approximat
 Créer une fonction `Newton(f,x0,n)` qui calcule la valeur de $`x_n`$ definie juste avant en prenant comme valeur initiale x0.
 Pour cela vous devrez faire un copier coller de votre fonction `deriver` précédente. On fixera la valeur de `h` pour le calcul du nombre dérivé à 0.000001.
 
+> Remarque : Les tests sont faits avec n=5 seulement. On pourra remarquer la précision de l'approximation obtenue en calculant seulement $`x_5`$. C'est cette rapidité de convergence qui fait la force de cette méthode.
+
 @[Méthode de Newton]({"stubs": ["TP/Newton.py"], "command": "python3 TP/Newton_Test.py"})
 
 ---
 
+## Pour aller plus loin
+
+Créer ci-dessous un script qui permet d'afficher graphiquement la fonction ainsi que les 5 tangentes successives de la méthode de Newton.
+
+Pour cela, on utilisera le module [matplotlib](https://tech.io/playgrounds/17176/recueil-dexercices-pour-apprendre-python-au-lycee/cours---representation-graphique-avec-matplotlib) et les fonctions précédentes (en les modifiant si besoin)
+
+> Remarques : La fonction f et la valeur de départ sont données pour l'exemple mais vous pouvez les modifier pour observer d'autres cas.  
+Cette fenêtre n'a pas d'auto correction, le résultat étant visuel, vous devriez voir si cela fonctionne ou pas.
+
+@[Méthode de Newton - Graphique]({"stubs": ["TP/Newton_graphique.py"], "command": "python3 TP/Newton_graphique_Test.py"})
