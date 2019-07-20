@@ -256,6 +256,7 @@ Pour cela, on utilisera la fonction `plt.scatter(X,Y)` où X représente la list
 ## Compléments :
 
 Pour ne pas surcharger cette page, voici quelques approfondissements possibles disponibles sur d'autres pages :
+- [Programmer des suites de manière récursive](https://tech.io/playgrounds/17176/recueil-dexercices-pour-apprendre-python-au-lycee/suites-recurrentes)
 - [La suite de Syracuse](https://tech.io/playgrounds/17176/recueil-dexercices-pour-apprendre-python-au-lycee/suite-de-syracuse)
 - [La suite de Van Eck](https://tech.io/playgrounds/17176/recueil-dexercices-pour-apprendre-python-au-lycee/suite-de-van-eck)
 - [Systèmes proies-prédateurs (Volterra)](https://tech.io/playgrounds/17176/recueil-dexercices-pour-apprendre-python-au-lycee/systeme-proie-predateur)
