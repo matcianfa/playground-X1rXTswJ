@@ -23,7 +23,7 @@ Passons à présent aux choses sérieuses : On cherche à trouver une approximat
 - tracer la tangente à la courbe représentative de $`f`$ et regarder pour quelle valeur $`x_1`$ la tangente coupe l'axe des abscisses
 - On considère alors le point de la courbe représentative de $`f`$ ayant pour abscisse cette valeur trouvée $`x_1`$ dans l'étape précédente et on recommence...
 
-![Méthode de Newton](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/NewtonIteration_Ani.gif/300px-NewtonIteration_Ani.gif)
+![Méthode de Newton](https://commons.wikimedia.org/wiki/File:NewtonIteration_Ani.gif#/media/Fichier:NewtonIteration_Ani.gif)
 
 > Question mathématique : Prouver que la méthode revient à considérer la suite des abscisses $`(x_n)`$ définie par la relation de récurrence $`x_{n+1}=x_n-\dfrac{f(x_k)}{f'(x_k}`$.
 
