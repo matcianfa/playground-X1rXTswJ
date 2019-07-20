@@ -36,6 +36,7 @@ Pour cela vous devrez faire un copier coller de votre fonction `deriver` précé
 ---
 
 ## Pour aller plus loin
+`Difficulté : Difficile`
 
 Créer ci-dessous un script qui permet d'afficher graphiquement la fonction ainsi que les 5 tangentes successives de la méthode de Newton.
 
