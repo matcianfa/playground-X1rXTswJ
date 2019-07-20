@@ -1,4 +1,4 @@
-# Première : Dérivation et applications
+# Première : Analyse : Dérivation, études de fonctions, exponentielle et fonctions trigonométriques
 
 ## Exercice n° : Taux d'accroissement
 `Difficulté : Facile`  
