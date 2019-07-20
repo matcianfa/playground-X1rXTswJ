@@ -24,12 +24,12 @@ Passons à présent aux choses sérieuses : On cherche à trouver une approximat
 - tracer la tangente à la courbe représentative de $`f`$ et regarder pour quelle valeur $`x_1`$ la tangente coupe l'axe des abscisses
 - On considère alors le point de la courbe représentative de $`f`$ ayant pour abscisse cette valeur trouvée $`x_1`$ dans l'étape précédente et on recommence...
 
-> Question mathématique : Prouver que la méthode revient à considérer la suite des abscisses $`(x_n)`$ définie par la relation de récurrence $`x_{n+1}=x_n-\dfrac{f(x_k)}{f'(x_k}`$.
+> Question mathématique : Prouver que la méthode revient à considérer la suite des abscisses $`(x_n)`$ définie par la relation de récurrence $`x_{n+1}=x_n-\dfrac{f(x_k)}{f'(x_k)}`$.
 
 Créer une fonction `Newton(f,x0,n)` qui calcule la valeur de $`x_n`$ definie juste avant en prenant comme valeur initiale x0.
 Pour cela vous devrez faire un copier coller de votre fonction `deriver` précédente. On fixera la valeur de `h` pour le calcul du nombre dérivé à 0.000001.
 
-@[Méthode de Newton({"stubs": ["TP/Newton.py"], "command": "python3 TP/Newton_Test.py"})
+@[Méthode de Newton]({"stubs": ["TP/Newton.py"], "command": "python3 TP/Newton_Test.py"})
 
 ---
 
