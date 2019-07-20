@@ -73,6 +73,8 @@ plan:
     statement: Maths/Dichotomie.md
   - title: La méthode d'Euler
     statement: Maths/Méthode Euler.md
+  - title: La méthode de Newton
+    statement: TP/Newton.md
 - title: Variables et fonctions mathématiques
   plan:
   - title: Introduction
