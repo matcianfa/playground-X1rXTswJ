@@ -37,8 +37,9 @@ def test():
             a=eval("lambda x: "+a)
             rep=f(a,b,c)
             sol=f_sol(a,b,c)
+            val_exacte=f_sol(a,b,100)
             assert str(rep) == str(sol), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(",".join([str(val) for val in valeur]),str(rep),str(sol))
-            send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}".format(",".join([str(val) for val in valeur]),str(rep)))
+            send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}. La valeur exacte de la solution est {}".format(",".join([str(val) for val in valeur]),str(rep),str(val_exacte)))
         success(chemin+module)
     except AssertionError as e:
         fail()
