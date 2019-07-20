@@ -22,3 +22,13 @@ Pour tracer la courbe, on utilisera la fonction `plt.plot(liste_x, liste_y)` qui
 En rouge est tracé la courbe exacte de la fonction exponentielle.
 
 @[Tracé de l'exponentielle par la méthode d'Euler]({"stubs": ["Maths/Euler_plot.py"], "command": "python3 Maths/Euler_plot_Test.py"})
+
+# Approximation du nombre e
+
+La méthode d'Euler nous permet d'obtenir les valeurs de la fonction exponentielle de proche en proche. On va l'utiliser ici pour obtenir plus particulièrement la valeur de $`e = exp(1)`$. Pour cela, nous allons reprendre les formules obtenues dans l'étape 5 :  $`x_n=n.pas`$ et $`y_n=(pas+1)^n`$.
+
+Si on veut que $`y_n`$ nous donne la valeur approximative de $`e`$, il faut que $`x_n=n.pas`$ soit égal à 1. Autrement dit $`pas= \dfrac 1 n`$ ce qui donne en remplaçant $`y_n = \left( 1+\dfrac1 n\right)^n`$.
+
+En utilisant cette formule, créer une fonction qui prend en entrée $`n`$ et donne en sortie une approximation de $`e`$.
+
+@[Approximation de e]({"stubs": ["Maths/approx_e.py"], "command": "python3 Maths/approx_e_Test.py"})
