@@ -7,3 +7,5 @@ def f(x) :
     
 # La valeur initiale
 x0 = 3
+
+# Ecrire ci dessous votre script pour qu'il affiche la fonction et les premières tangentes de la méthode de Newton
