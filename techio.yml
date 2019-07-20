@@ -65,6 +65,8 @@ plan:
   plan:
   - title: Introduction
     statement: TP/intro.md
+  - title: Suites recurrentes
+    statement: Les_fonctions/Suites_recurrentes.md
   - title: Suite de Syracuse
     statement: Maths/Syracuse.md
   - title: Suite de Van Eck
@@ -187,8 +189,6 @@ plan:
     statement: Les_fonctions/Exercices de base.md
   - title: Factorielle
     statement: Les_fonctions/factorielle.md
-  - title: Suites recurrentes
-    statement: Les_fonctions/Suites_recurrentes.md
   - title: Palindromes
     statement: Les_fonctions/palindromes.md
   - title: Anagrammes
