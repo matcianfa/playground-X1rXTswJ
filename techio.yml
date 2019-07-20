@@ -59,7 +59,7 @@ plan:
     statement: Premiere/second_degre.md
   - title: Suites numériques
     statement: Premiere/suites_numeriques.md
-  - title: Dérivation et étude de fonctions
+  - title: Analyse
     statement: Premiere/derivation.md
 - title: Travaux Pratiques de Première
   plan:
