@@ -13,7 +13,7 @@ help="N'oublie pas d'utiliser return pour renvoyer le resultat."
 # Les imports
 import sys
 # On rajoute le chemin de ma_bao.py dans le sys.path
-#sys.path.append("/project/target")
+sys.path.append("/project/target")
 # Ma boite à outils
 from ma_bao import * 
 # Donne les noms du dossier et du module (automatiquement avec __file__
