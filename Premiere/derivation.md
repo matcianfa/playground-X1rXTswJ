@@ -24,8 +24,18 @@ Compléter la fonction ci-dessous pour qu'elle permette de calculer la liste des
 
 ---
 
+## Exercice n° : Donner la mesure principale d'un angle 
+
+Créer une fonction qui prend en entrée un angle en radian et donne en sortie la mesure principale ( dans $`]-\pi; \pi]`$) de cet angle.
+
+@[la liste des coefficients directeurs des sécantes pour un pas donné]({"stubs": ["Premiere/Derivation/mesure_principale.py"], "command": "python3 Premiere/Derivation/mesure_principale_Test.py"})
+
+---
+
 # Pour aller plus loin 
 
 Voici quelques approfondissements possibles :
 - [Recherche de solutions par dichotomie](https://tech.io/playgrounds/17176/recueil-dexercices-pour-apprendre-python-au-lycee/la-recherche-par-dichotomie)
 - [La méthode d'Euler](https://tech.io/playgrounds/17176/recueil-dexercices-pour-apprendre-python-au-lycee/la-methode-deuler)
+- [La méthode de Newton](https://tech.io/playgrounds/17176/recueil-dexercices-pour-apprendre-python-au-lycee/la-methode-de-newton)
+- [La méthode d'Archimède](https://tech.io/playgrounds/17176/recueil-dexercices-pour-apprendre-python-au-lycee/methode-darchimede)
