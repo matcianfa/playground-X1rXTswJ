@@ -21,7 +21,7 @@ A vous maintenant de compléter ce code pour voir comment utiliser ces attributs
 
 On peut peut-être commencer à voir l'utilité de `self` dans la classe. Cela permet de donner un nom à l'élément de la classe à qui on applique la fonction.
 
-@[Définition d'une classe]({"stubs":["Cours/Classe.py"], "command": "python3 Cours/Classe_Test.py", "layout": "aside"})
+@[Définition d'une classe]({"stubs":["Cours/Classe_Test.py"], "command": "python3 Cours/Classe_Test.py", "layout": "aside"})
 
 ## Affichage d'une classe
 
