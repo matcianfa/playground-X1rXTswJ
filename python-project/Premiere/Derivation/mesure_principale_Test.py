@@ -5,7 +5,7 @@ from math import pi
 
 #liste des valeurs à tester
 # Attention de bien mettre dans un tuplet ou une liste les valeurs à tester même si la fonction n'a qu'un argument.
-valeurs_a_tester=[[pi/2],[3*pi/2],[25*pi/4],[-17*pi/3],[2*pi],[5*pi],[275*pi/6]
+valeurs_a_tester=[[pi/2],[3*pi/2],[25*pi/4],[-17*pi/3],[2*pi],[5*pi],[275*pi/6],[-pi]]
 
 
 #message d'aide si besoin
