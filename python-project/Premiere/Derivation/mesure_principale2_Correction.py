@@ -6,4 +6,4 @@ def ma_fonction(angle):
         angle -= 2
     while angle <= -1:
         angle += 2
-    return str(angle)+"p
+    return str(angle)+'pi'
