@@ -12,4 +12,4 @@ Ensuite, chose indispensable à faire, il faut définir ce que doit faire python
 
 Dans notre cas, on veut définir 
 
-@[Définition d'une classe]({"stubs":["Cours/Classe.py"], "layout": "aside"})
+@[Définition d'une classe]({"stubs":["Cours/Classe.py"], "command": "python3 Cours/Classe_Test.py", "layout": "aside"})
