@@ -45,10 +45,22 @@ Remarque : Pas besoin de mettre des tirets _ au nom car c'est une fonction qu'on
 
 ::: Aide
 Dans le cas où cela n'est pas encore tout à fait claire :  
-Il suffit de renvoyer `Fraction(self.num/gcd(self.num,self.den) , self.den/gcd(self.num,self.den))`.  
+Il suffit de renvoyer `Fraction(self.num//gcd(self.num,self.den) , self.den//gcd(self.num,self.den))`.  
 Formule qu'on peut bien sûr améliorer en ne calculant qu'une fois le PGCD...
 :::
+
+Remarque supplémentaire : En simplifiant, on peut se retrouver avec des fractions de la forme 4/1. Il serait plus naturel de n'afficher que 4. Modifiez donc, en plus, la fonction `__str__` pour qu'elle affiche seulement le numérateur lorsque le dénominateur est 1.
 
 Testez votre code en appuyant sur Run ci-dessous.
 
 @[ ]({"stubs":["Cours/Classe.py"], "command": "python3 Cours/reduire_Test.py", "layout": "aside"})
+
+## Retour sur le constructeur __init__
+
+Revenons un peu sur la façon de construire un élément de notre classe. Au début on a simplement créé une fonction `__init__` qui permet, lorsqu'on écrit `Fraction(2,3)` de créer un élément ayant 2 attributs : un qui s'appelle `num` et qui ici vaut 2 et une qui s'appelle `den` et qui prend la valeur 3. Mais notre fonction `__init__` peut être beaucoup plus complexe et créer des attributs après de longues lignes de code.
+
+Pour expérimenter cela, on va s'intéresser au signe de notre fraction. On sait que $`-\dfrac 23 = \dfrac{-2}3 = \dfrac{2}{-3}`$. Donc pour simplifier les choses et éviter de voir s'afficher des fractions sous la forme "2 / -3" ou "-2 / -3", on va systématiquement mettre le signe - (s'il y est encore après simplification) au numérateur et cela dès la création de la Fraction c'est à dire dans la fonction `__init__`.
+
+De plus, il est impossible de créer une fraction ayant un 0 comme dénominateur donc si c'est le cas, on va lever une exception. Pour cela il suffit d'écrire `raise ZeroDivisionError` pour que s'affiche un beau message rouge lorsqu'on met 0 en dénominateur.
+
+@[ ]({"stubs":["Cours/Classe.py"], "command": "python3 Cours/signes_Test.py", "layout": "aside"})
