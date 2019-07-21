@@ -50,6 +50,23 @@ Créer une fonction qui prend en entrée un angle et donne en sortie la mesure p
 
 @[Mesure principale d'un angle]({"stubs": ["Premiere/Derivation/mesure_principale2.py"], "command": "python3 Premiere/Derivation/mesure_principale2_Test.py"})
 
+---
+
+## Exercice n° : Donner la mesure principale d'un angle (version améliorée II)
+`Difficulté : Difficile`
+
+Reprenons la version précédente et tentons de l'améliorer encore un peu. On obtient dans la version précédente des résultats sous la forme "0.3333333333333333pi" mais on aimerait bien avoir plutôt "(1/3)pi". C'est ce que nous allons essayer de faire.
+
+Pour cela, nous allons utiliser le module `fractions` et plus précisément la fonction `Fraction` de ce module qui va permettre de traduire un nombre décimal en fraction. Malheureusement si on tape directement `str(Fraction(0.333333333333))` on n'obtient pas "1/3". Pour cela il faudra taper `str(Fraction(0.333333333333).limit_denominator())`.
+
+En utilisant `str(Fraction(nombre).limit_denominator())` du module `fractions`, créer une fonction qui donne la mesure principale d'un angle sous la forme "(fraction)pi".
+
+> Exemple :  Si l'angle donné en entrée est $`\dfrac{7\pi}2`$ (c'est à dire 10.995574287564276) alors en sorti, il devra afficher "(-1/2)pi"
+
+@[Mesure principale d'un angle]({"stubs": ["Premiere/Derivation/mesure_principale3.py"], "command": "python3 Premiere/Derivation/mesure_principale3_Test.py"})
+
+---
+
 # Pour aller plus loin 
 
 Voici quelques approfondissements possibles :
