@@ -78,7 +78,7 @@ plan:
   - title: La méthode de Newton
     statement: TP/Newton.md
   - title: Méthode d'Archimède
-    statement: approx_pi.md
+    statement: TP/approx_pi.md
 - title: Variables et fonctions mathématiques
   plan:
   - title: Introduction
