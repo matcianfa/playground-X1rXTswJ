@@ -17,7 +17,7 @@ def test():
             Fraction(1,0)
             assert false, "Pas d'erreur lorsqu'on divise par 0 !"
         except ZeroDivisionError :
-            send_msg("Tests validés","En testant les valeurs 'Fraction(1,0)', l'erreur ZeroDivisionError est bien levée)
+            send_msg("Tests validés","En testant les valeurs 'Fraction(1,0)', l'erreur ZeroDivisionError est bien levée")
         print("TECHIO> success true")
     except AssertionError as e:
         print("TECHIO> success false")
