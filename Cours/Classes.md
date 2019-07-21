@@ -21,7 +21,7 @@ A vous maintenant de compléter ce code pour voir comment utiliser ces attributs
 
 On peut peut-être commencer à voir l'utilité de `self` dans la classe. Cela permet de donner un nom à l'élément de la classe à qui on applique la fonction.
 
-@[Définition d'une classe]({"stubs":["Cours/Classe.py"], "command": ["python3 Cours/Classe.py" "python3 Cours/Classe_Test.py"], "layout": "aside"})
+@[Définition d'une classe]({"stubs":["Cours/Classe.py"], "command": "python3 Cours/Classe.py && python3 Cours/Classe_Test.py"], "layout": "aside"})
 
 ## Affichage d'une classe
 
@@ -33,4 +33,4 @@ Créer en dessous de la fonction `__init__` une fonction `__str__(self)` qui ren
 
 Appuyer sur Run ci-dessous pour tester votre code.
 
-@[Définition d'une classe 2]({"stubs":["Cours/Classe.py"], "command": ["python3 Cours/Classe.py" "python3 Cours/affichage_Test.py"], "layout": "aside"})
+@[Définition d'une classe 2]({"stubs":["Cours/Classe.py"], "command": "python3 Cours/Classe.py && python3 Cours/affichage_Test.py", "layout": "aside"})
