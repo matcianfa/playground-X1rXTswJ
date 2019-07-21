@@ -1,5 +1,5 @@
 # Approximation de $`\pi`$ par des polygones réguliers
-`Difficulté : Moyenne`
+`Difficulté : Moyenne`  
 `Prérequis : Suites, Trigonométrie (pour les justifications)`
 
 Le but de cette page est de présentée la méthode d'Archimède pour approximer la valeur de $`\pi`$ en utilisant des polygones réguliers inscrits dans le cercle.  
