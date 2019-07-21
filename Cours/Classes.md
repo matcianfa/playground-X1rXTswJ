@@ -27,10 +27,28 @@ On peut peut-être commencer à voir l'utilité de `self` dans la classe. Cela p
 
 Essayez d'afficher la variable `frac` en tapant `print(frac)` et en appuyant sur Run ci-dessus. On s'attendrait à voir s'afficher quelque chose comme (3,4) ou 3 4 ou 3/4 mais au lieu de ça, on a quelque chose comme `<Classe.Fraction object at 0x7f03401f2e50>`. Ce que renvoie Python est en fait assez naturel : une classe peut être très complexe et comment choisir quelle information renvoyer ? Python fait le choix de base de dire où se trouve l'objet de la classe. Si on veut qu'il affiche autre chose, il suffit de lui expliquer.
 
-Pour cela il faut remplacer la fonction `__str__` pour qu'elle renvoie ce que l'on veut. Il semble assez naturel d'afficher une fraction sous la forme "numerateur / denominateur" (avec un espace entre pour mieux voir).
+Pour cela il faut remplacer la fonction `__str__` pour qu'elle renvoie ce que l'on veut. Il semble assez naturel d'afficher une fraction sous la forme "numerateur / denominateur" (avec un espace entre pour mieux voir). Attention au nom de la fonction : il faut 2 tirets _ avant et après. C'est la norme pour les fonctions de base d'une classe (qui existent déjà et que nous remplaçons pour qu'elle fasse ce que l'on souhaite).
 
 Créer en dessous de la fonction `__init__` une fonction `__str__(self)` qui renvoie le texte sous la forme "numerateur / denominateur" (avec un espace entre pour mieux voir). Pour récupérer le numérateur et dénominateur de `self`, il suffira de taper `self.num` et `self.den`.
 
 Appuyer sur Run ci-dessous pour tester votre code.
 
-@[Définition d'une classe 2]({"stubs":["Cours/Classe.py"], "command": "python3 Cours/affichage_Test.py", "layout": "aside"})
+@[ ]({"stubs":["Cours/Classe.py"], "command": "python3 Cours/affichage_Test.py", "layout": "aside"})
+
+## Création d'une fonction de classe
+
+Maintenant que nos fractions s'affichent correctement et avant de s'attaquer aux opérations entre fractions, il va falloir s'intéresser à comment les réduire. Pour cela, on sait que pour réduire une fraction, il suffit de diviser le numérateur et le dénominateur par le pgcd des deux. Pour obtenir le pgcd, on utilisera la fonction `gcd` du module `math` qu'on pourra importer au tout début du script en écrivant `from math import gcd`.
+
+Créez maintenant une fonction `reduire(self)` qui renvoie tout simplement la fraction réduite de notre fraction.
+
+Remarque : Pas besoin de mettre des tirets _ au nom car c'est une fonction qu'on crée nous et ne remplace aucune fonction déjà existante de base pour une classe. Par contre le self est indispensable quand on définit la fonction mais pour l'appeller, il suffira d'écrire  `frac.réduire()` pour l'appliquer à une Fraction `frac`.
+
+::: Aide
+Dans le cas où cela n'est pas encore tout à fait claire :  
+Il suffit de renvoyer `Fraction(self.num/gcd(self.num,self.den) , self.den/gcd(self.num,self.den))`.  
+Formule qu'on peut bien sûr améliorer en ne calculant qu'une fois le PGCD...
+:::
+
+Testez votre code en appuyant sur Run ci-dessous.
+
+@[ ]({"stubs":["Cours/Classe.py"], "command": "python3 Cours/reduire_Test.py", "layout": "aside"})
