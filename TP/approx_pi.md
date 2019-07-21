@@ -37,6 +37,9 @@ Ainsi, si on part d'un carré, on va construire une suite de polygones ayant 4 c
 
 Créer une fonction qui prend en entrée n et donne en sortie une approximation de $`\pi`$ en utilisant $`c_n`$ pour calculer le demi-périmètre.
 
+> Remarques : Faire bien attention aux différents pièges : La suite commence par $`c_2=\sqrt{2}`$ et le nombre de côtés est $`2^n`$.  
+
+
 @[Première méthode]({"stubs": ["TP/approx_pi_2.py"], "command": "python3 TP/approx_pi_2_Test.py"})
 
 ---
