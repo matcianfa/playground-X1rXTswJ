@@ -55,7 +55,7 @@ Testez votre code en appuyant sur Run ci-dessous.
 
 @[ ]({"stubs":["Cours/Classe.py"], "command": "python3 Cours/reduire_Test.py", "layout": "aside"})
 
-## Retour sur le constructeur __init__
+## Retour sur le constructeur `__init__`
 
 Revenons un peu sur la façon de construire un élément de notre classe. Au début on a simplement créé une fonction `__init__` qui permet, lorsqu'on écrit `Fraction(2,3)` de créer un élément ayant 2 attributs : un qui s'appelle `num` et qui ici vaut 2 et une qui s'appelle `den` et qui prend la valeur 3. Mais notre fonction `__init__` peut être beaucoup plus complexe et créer des attributs après de longues lignes de code.
 
