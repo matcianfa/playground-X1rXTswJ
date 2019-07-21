@@ -1,3 +1,5 @@
+from math import pi
+
 def ma_fonction(angle):
     # Ne pas toucher ce qui précède
     # Les valeurs pour les variables en entrée seront automatiquement données
