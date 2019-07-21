@@ -16,12 +16,12 @@ Dans le cas de nos fractions, on veut définir une classe `Fraction`. Une fracti
 
 A vous maintenant de compléter ce code pour voir comment utiliser ces attributs :
 
-- Commencons par créer notre première fraction ($`dfrac 3 4`$ par exemple) et appellons la `frac`. Pour cela il suffit de taper `frac = Fraction(3,4)` (sans indentation, cela ne fait pas partie de notre classe).
+- Commencons par créer notre première fraction ($`\dfrac 3 4`$ par exemple) et appellons la `frac`. Pour cela il suffit de taper `frac = Fraction(3,4)` (sans indentation, cela ne fait pas partie de notre classe).
 - Et maintenant, affichons son dénominateur : Pour cela, rien de plus simple, il suffit d'écrire `print(frac.den)`. Appuyez sur Run ci-dessous pour lancer le script. Il devrait s'afficher en dessous 4.
 
 On peut peut-être commencer à voir l'utilité de `self` dans la classe. Cela permet de donner un nom à l'élément de la classe à qui on applique la fonction.
 
-@[Définition d'une classe]({"stubs":["Cours/Classe_Test.py"], "command": "python3 Cours/Classe_Test.py", "layout": "aside"})
+@[Définition d'une classe]({"stubs":["Cours/Classe.py"], "command": "python3 Cours/Classe.py;python3 Cours/Classe_Test.py", "layout": "aside"})
 
 ## Affichage d'une classe
 
@@ -33,4 +33,4 @@ Créer en dessous de la fonction `__init__` une fonction `__str__(self)` qui ren
 
 Appuyer sur Run ci-dessous pour tester votre code.
 
-@[Définition d'une classe 2]({"stubs":["Cours/Classe.py"], "command": "python3 Cours/affichage_Test.py", "layout": "aside"})
+@[Définition d'une classe 2]({"stubs":["Cours/Classe.py"], "command": "python3 Cours/Classe.py;python3 Cours/affichage_Test.py", "layout": "aside"})
