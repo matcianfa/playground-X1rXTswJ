@@ -317,7 +317,7 @@ plan:
     statement: Projets/2048.md
   - title: Exemple du Sudoku
     statement: Projets/Sudoku.md
-- title : Autre
+- title : Forum des Mathématiques
   plan:
   - title: Jeu de nim - Fibonacci
     statement: Autre/nim_fibonacci.md
