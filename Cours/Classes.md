@@ -117,3 +117,23 @@ def __add__(self,fraction2):
 Créez de même les fonctions `__sub__(self,fraction2)`, `__mul__(self,fraction2)` et `__truediv__(self,fraction2)` qui correpondent respectivement à la soustraction, la multiplication et la division.
 
 @[ ]({"stubs":["Cours/Classe.py"], "command": "python3 Cours/operations_Test.py", "layout": "aside"})
+
+## Conclusion
+
+On va s'arrêter là pour notre exemple. La suite logique pour compléter notre classe serait par exemple de redéfinir la fonction `__hash__` pour qu'on puisse mettre nos Fractions dans une ensemble ou un dictionnaire ou encore `__getstate__` et `__setstate__` si on veut enregistrer proprement nos Fractions dans un fichier. Mais comme on s'éloigne du coté mathématique et des programmes, je vous invite à chercher sur internet pour approfondir de ce côté là.
+
+On pourrait aussi reprendre un peu ce qu'on a fait pour qu'on puisse traduire n'importe quel decimal ou flottant en fraction (Par exemple si on tape `Fraction(0.5)` cela se traduit automatiquement en `Fraction(1,2)`). Je vous laisse le plaisir d'améliorer tout ça.
+
+Vous pouvez trouver l'intégralité du code de notre class Fraction [ici](https://github.com/matcianfa/playground-X1rXTswJ/blob/master/python-project/Cours/Classe_Correction.py)
+
+Voici quelques idées de classes "mathématiques" que vous pouvez vous amuser à (re)créer :
+- Les Vecteurs/ Points d'un plan ou de l'espace (avec pleins de fonctions de transformations comme les rotations, symetries...)
+- Les Complexes
+- Les Quaternions
+- Les Entiers modulo n
+- Les Matrices
+- Les Fonctions ( avec en plus des fonctions qui donne la fonction dérivée par exemple...)
+- ...
+
+
+
