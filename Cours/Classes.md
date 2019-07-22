@@ -4,7 +4,7 @@ Le but de cette page est de présenter un peu le fonctionnement des classes en p
 
 Bien sûr, il existe déjà un module fractions en python très bien fait. Nous allons ici reconstruire petit à petit un équivalent.
 
-Une remarque pratique : Si vous appuyez sur une des barres Run, des tests sur votre code vont être faits en fonction de la partie où vous êtes. Seule la première barre Run est libre donc si vous voulez tester des choses librement, c'est la première qu'il vaut mieux utiliser.
+Une remarque pratique : Si vous appuyez sur une des barres Run, des tests sur votre code vont être faits en fonction de la partie où vous êtes. Seule la première barre Run est libre donc si vous voulez tester des choses librement, c'est la première qu'il vaut mieux utiliser. De plus, n'hésitez pas à agrandir la fenetre (en haut à droite de l'éditeur) pour mieux voir.
 
 ## Définition d'une classe
 
@@ -100,3 +100,14 @@ Rappel : Si $`bd>0`$ , on a $`\dfrac ab <\dfrac cd `$ si et seulement si $`ad<bc
 Appuyer sur Run ci-dessous pour tester votre code.
 
 @[ ]({"stubs":["Cours/Classe.py"], "command": "python3 Cours/inegalite_Test.py", "layout": "aside"})
+
+## Les opérations
+
+Attaquons nous maintenant à ce qui a traumatisé des générations d'élèves : l'addition de fractions !
+
+On voudrait que lorsqu'on tape "Fraction(1,3)+Fraction(1,3)" on obtienne Fraction(2,3). Pour cela, rien de plus simple, il suffit de modifier la fonction `__add__(self,fraction2)`. 
+
+Je rappelle la formule : $`\dfrac ab + \dfrac cd = \dfrac{ad+bc}{bd}`$. Tant qu'à faire, on peut afficher le résultat sous forme réduite. Cela donnerait pour l'addition :
+```python
+
+```
