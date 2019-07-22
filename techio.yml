@@ -88,9 +88,7 @@ plan:
   - title: Exercices de niveau Collège au plus
     statement: Variables_et_fonctions/college.md
   - title: Exercices de niveau Seconde
-    statement: Variables_et_fonctions/seconde.md
-  - title: Exercices de niveau Première
-    statement: Variables_et_fonctions/premiere.md  
+    statement: Variables_et_fonctions/seconde.md 
 - title: Les conditions if... else...
   plan:
   - title: Introduction
