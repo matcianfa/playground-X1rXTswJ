@@ -81,8 +81,22 @@ Pour cela, il suffit de modifier la fonction `__eq__(self,fraction2)` comme on a
 
 Créez une fonction `__eq__(self,fraction2)` qui permette de dire quand les Fractions `self` et `fraction2` sont égales (au sens des fractions c'est à dire que 1/2 = 2/4 = 3/6...).
 
-Rappel : $`\dfrac ab =dfrac cd `$ si et seulement si $`ad=bc`$.
+Rappel : $`\dfrac ab =\dfrac cd `$ si et seulement si $`ad=bc`$.
 
 Appuyer sur Run ci-dessous pour tester votre code.
 
 @[ ]({"stubs":["Cours/Classe.py"], "command": "python3 Cours/egalite_Test.py", "layout": "aside"})
+
+## Inégalités
+
+Tant qu'on y est, expliquons ce que doit comprendre Python lorsqu'on écrit `Fraction(1,3)<Fraction(1,2)`.
+
+Pour l'inégalité strict < il suffit de modifier la fonction `__lt__(self,fraction2)` (`lt`pour lower than). En général il suffit d'expliquer une inégalité pour que python comprenne quoi faire lorsqu'il croise >,<= et >= mais on pourrait définir des fonctions pour chaque cas.
+
+Créez la fonction `__lt__(self,fraction2)` qui renvoie True si la Fraction `self` est strictement inférieure à `fraction2` et False sinon.
+
+Rappel : Si $`bd>0`$ , on a $`\dfrac ab <\dfrac cd `$ si et seulement si $`ad<bc`$.
+
+Appuyer sur Run ci-dessous pour tester votre code.
+
+@[ ]({"stubs":["Cours/Classe.py"], "command": "python3 Cours/inegalite_Test.py", "layout": "aside"})
