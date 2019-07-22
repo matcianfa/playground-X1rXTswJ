@@ -108,6 +108,12 @@ Attaquons nous maintenant à ce qui a traumatisé des générations d'élèves :
 On voudrait que lorsqu'on tape "Fraction(1,3)+Fraction(1,3)" on obtienne Fraction(2,3). Pour cela, rien de plus simple, il suffit de modifier la fonction `__add__(self,fraction2)`. 
 
 Je rappelle la formule : $`\dfrac ab + \dfrac cd = \dfrac{ad+bc}{bd}`$. Tant qu'à faire, on peut afficher le résultat sous forme réduite. Cela donnerait pour l'addition :
-```python
 
+```python
+def __add__(self,fraction2):
+    return Fraction(self.num * fraction2.den + self.den * fraction2.num, self.den * fraction2.den).reduire()
 ```
+
+Créez de même les fonctions `__sub__(self,fraction2)`, `__mul__(self,fraction2)` et `__truediv__(self,fraction2)` qui correpondent respectivement à la soustraction, la multiplication et la division.
+
+@[ ]({"stubs":["Cours/Classe.py"], "command": "python3 Cours/operations_Test.py", "layout": "aside"})
