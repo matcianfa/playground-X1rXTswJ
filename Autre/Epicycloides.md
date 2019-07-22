@@ -1,4 +1,4 @@
-# Epicycloides et trasnformée de Fourier
+# Epicycloides et transformée de Fourier
 
 Voici de quoi travailler pour le groupe qui présentera l'atelier au Forum des mathématiques à Porto Vecchio.
 
