@@ -91,9 +91,9 @@ Appuyer sur Run ci-dessous pour tester votre code.
 
 Tant qu'on y est, expliquons ce que doit comprendre Python lorsqu'on écrit `Fraction(1,3)<Fraction(1,2)`.
 
-Pour l'inégalité strict < il suffit de modifier la fonction `__lt__(self,fraction2)` (`lt`pour lower than). En général il suffit d'expliquer une inégalité pour que python comprenne quoi faire lorsqu'il croise >,<= et >= mais on pourrait définir des fonctions pour chaque cas.
+Pour l'inégalité strict < il suffit de modifier la fonction `__lt__(self,fraction2)` (`lt`pour lower than). Pour l'inégalité large <=, il faut modifier la fonction `__le__(self,fraction2)`. Pas besoin de redéfinir (mais on pourrait) les fonctions pour > et >= car elles sont automatiquement déduites des deux précédentes tout comme != se déduite de ==.
 
-Créez la fonction `__lt__(self,fraction2)` qui renvoie True si la Fraction `self` est strictement inférieure à `fraction2` et False sinon.
+Créez la fonction `__lt__(self,fraction2)` (resp. `__le__(self,fraction2)`) qui renvoie True si la Fraction `self` est strictement inférieure (resp. inférieure ou égale)  à `fraction2` et False sinon.
 
 Rappel : Si $`bd>0`$ , on a $`\dfrac ab <\dfrac cd `$ si et seulement si $`ad<bc`$.
 
