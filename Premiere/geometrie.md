@@ -31,7 +31,14 @@ Le but de cet exercice est de créer un programme qui calcul de produit scalaire
 
 Créer un programme qui prend en entrée les coordonnées ***x*** et ***y*** d'un vecteur et renvoie en sortie la norme de ce vecteur.
 
-@[Calcul du produit scalaire]({"stubs": ["Premiere/Geometrie/Calcul_norme.py"], "command": "python3 Premiere/Geometrie/Calcul_norme_Test.py"})
+@[Calcul de la norme d'un vecteur]({"stubs": ["Premiere/Geometrie/Calcul_norme.py"], "command": "python3 Premiere/Geometrie/Calcul_norme_Test.py"})
 
 ---
+
+## Exercice n° : Donner un angle dans un triangle
+`Difficulté : Moyenne`
+
+On considère un triangle ABC. Compléter le programme suivant qui prend en entrée les trois longueurs ***BC***, ***AC*** et ***AB*** pour qu'il donne la valeur de l'angle $`\widehat{BAC}`$ en radian.
+
+@[Determiner un angle]({"stubs": ["Premiere/Geometrie/Calcul_angle.py"], "command": "python3 Premiere/Geometrie/Calcul_angle_Test.py"})
 
