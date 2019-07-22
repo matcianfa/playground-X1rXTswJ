@@ -325,6 +325,8 @@ plan:
     statement: Autre/nim_marienbad.md
   - title: Epicycloides et Transformée de Fourier
     statement: Autre/Epicycloides.md
+  - title: Jeu de Light Out
+    statement: Autre/Lightout.md
   #- title: Test
   #  statement: Autre/test.md
 projects:
