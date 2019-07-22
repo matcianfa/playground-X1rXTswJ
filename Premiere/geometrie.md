@@ -42,3 +42,11 @@ On considère un triangle ABC. Compléter le programme suivant qui prend en entr
 
 @[Determiner un angle]({"stubs": ["Premiere/Geometrie/Calcul_angle.py"], "command": "python3 Premiere/Geometrie/Calcul_angle_Test.py"})
 
+---
+
+## Exercice n° : Equation de droite
+`Difficulté : Facile`
+
+Compléter le programme suivant qui prend en entrée les coordonnées de deux points $`A(x_A,y_A)`$ et $`B(x_B,y_B)`$ et renvoie en sortie l'équation cartésienne de la droite $`(AB)`$.
+
+@[Equation de droite]({"stubs": ["Premiere/Geometrie/Equation_droite.py"], "command": "python3 Premiere/Geometrie/Equation_droite_Test.py"})
