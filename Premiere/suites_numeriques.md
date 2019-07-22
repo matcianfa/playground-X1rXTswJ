@@ -159,7 +159,23 @@ Le but de cet exercice est de faire une fonction qui calcule la valeur de la som
 
 ---
 
-## Exercice n° 11 : Recherche de seuil I
+## Exercice n°11 Somme de termes d'une suite 
+`Difficulté  : Facile` 
+`Origine :` [`Hackerrank`](https://www.hackerrank.com/challenges/summing-the-n-series/problem)
+
+On pose $`T_n = n^2 - (n-1)^2`$ ainsi que $`S_n = T_1+ T_2 + T_3+... + T_n`$.
+
+Etant donné ***n***, afficher la valeur de $`S_n`$.
+
+> Entrée : La valeur de l'entier naturel non nul ***n***.
+
+> Sortie : La valeur de $`S_n`$.
+
+@[Somme de termes d'une suite]({"stubs": ["Variables_et_fonctions/Somme_telescopique.py"], "command": "python3 Variables_et_fonctions/Somme_telescopique_Test.py"})
+
+---
+
+## Exercice n° 12 : Recherche de seuil I
 `Difficulté : Facile`  
 `Programme officiel`
 
@@ -181,7 +197,7 @@ On pourra regarder le cour sur le boucles `while`
 
 ---
 
-## Exercice n° 12 : Recherche de seuil II
+## Exercice n° 13 : Recherche de seuil II
 `Difficulté : Facile`  
 `Programme officiel`
 
@@ -199,7 +215,7 @@ Ecrire un programme qui donnera la plus petite valeur de ***n*** telle que $`u_n
 
 ---
 
-## Exercice n° 13 : Recherche de seuil III (Escargot de Gardner)
+## Exercice n° 14 : Recherche de seuil III (Escargot de Gardner)
 `Difficulté : Facile`
 
 Nous allons nous intéresser à la progression de l'escargot  de Gardner. Je vous renvoie vers cette vidéo pour une présentation : [Youtube](https://www.youtube.com/watch?v=L1vDkUziBpw).
@@ -218,7 +234,7 @@ On se demande naturellement au bout de combien de temps ce pourcentage de progre
 
 ---
 
-## Exercice n° 14 : Factorielle
+## Exercice n° 15 : Factorielle
 `Difficulté : Facile`  
 `Programme officiel`
 
@@ -241,7 +257,7 @@ Le but de cet exercice est tout simplement d'afficher la factorielle du nombre *
 
  ---
  
- ## Exercice n° 15 : Afficher les termes d'une suite
+ ## Exercice n° 16 : Afficher les termes d'une suite
  `Difficulté : moyenne`
  `Prérequis : Listes et matplotlib`
  
