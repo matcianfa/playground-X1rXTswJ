@@ -63,6 +63,10 @@ plan:
     statement: Premiere/suites_numeriques.md
   - title: Analyse
     statement: Premiere/derivation.md
+  - title: Géométrie
+    statement: Premiere/geometrie.md
+  - title: Probabilité
+    statement: Premiere/probabilite.md
 - title: Travaux Pratiques de Première
   plan:
   - title: Introduction
