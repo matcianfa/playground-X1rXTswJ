@@ -323,6 +323,8 @@ plan:
     statement: Autre/nim_fibonacci.md
   - title: Jeu de nim - Marienbad
     statement: Autre/nim_marienbad.md
+  - title: Epicycloides et Transformée de Fourier
+    statement: Autre/Epicycloides.md
   #- title: Test
   #  statement: Autre/test.md
 projects:
