@@ -37,7 +37,8 @@ Appuyer sur Run ci-dessous pour tester votre code.
 
 ## Création d'une fonction de classe
 
-Maintenant que nos fractions s'affichent correctement et avant de s'attaquer aux opérations entre fractions, il va falloir s'intéresser à comment les réduire. Pour cela, on sait que pour réduire une fraction, il suffit de diviser le numérateur et le dénominateur par le pgcd des deux. Pour obtenir le pgcd, on utilisera la fonction `gcd` du module `math` qu'on pourra importer au tout début du script en écrivant `from math import gcd`.
+Maintenant que nos fractions s'affichent correctement et avant de s'attaquer aux opérations entre fractions, il va falloir s'intéresser à comment les réduire. Pour cela, on sait que pour réduire une fraction, il suffit de diviser le numérateur et le dénominateur par le pgcd des deux. Pour obtenir le pgcd, on utilisera la fonction `gcd` du module `math` qu'on pourra importer au tout début du script en écrivant `from math import gcd`.  
+(Petite remarque : pour utiliser `math.gcd`, il faut être en python 3.5 minimum. Ce qui veux dire que si vous voulez utiliser votre classe Fraction avec EduPython, il faut créer votre propre fonction `gcd`, avant votre class)
 
 Créez maintenant une fonction `reduire(self)` qui renvoie tout simplement la fraction réduite de notre fraction.
 
@@ -64,3 +65,24 @@ Pour expérimenter cela, on va s'intéresser au signe de notre fraction. On sait
 De plus, il est impossible de créer une fraction ayant un 0 comme dénominateur donc si c'est le cas, on va lever une exception. Pour cela il suffit d'écrire `raise ZeroDivisionError` pour que s'affiche un beau message rouge lorsqu'on met 0 en dénominateur.
 
 @[ ]({"stubs":["Cours/Classe.py"], "command": "python3 Cours/signes_Test.py", "layout": "aside"})
+
+
+## Egalités
+
+Maintenant que nous avons nos fractions bien définie, on va s'intéresser aux cas d'égalité. En effet, si on teste le script suivant :
+```python
+a = Fraction(1,2)
+b = Fraction(1,2)
+print(a==b)
+```
+On a la fraction $`\dfrac 1 2`$ dans la variables `a` et `b` donc on s'attendrait à voir s'afficher `True` mais malheureusement, il apparait `False`. C'est tout à fait logique : pour nous les fractions sont les mêmes mais pour python ce sont deux objets différents (imaginez qu'au lieu de faire une classe Fraction, on ait fait une classe Voiture. Si on crée 2 voitures (même identiques) ce ne sont pas a priori les mêmes. Il faut donc expliquer ce que python doit comprendre par deux Fractions égales.
+
+Pour cela, il suffit de modifier la fonction `__eq__(self,fraction2)` comme on a fait pour `__init__` et `__str__`.
+
+Créez une fonction `__eq__(self,fraction2)` qui permette de dire quand les Fractions `self` et `fraction2` sont égales (au sens des fractions c'est à dire que 1/2 = 2/4 = 3/6...).
+
+Rappel : $`\dfrac ab =dfrac cd `$ si et seulement si $`ad=bc`$.
+
+Appuyer sur Run ci-dessous pour tester votre code.
+
+@[ ]({"stubs":["Cours/Classe.py"], "command": "python3 Cours/egalite_Test.py", "layout": "aside"})
