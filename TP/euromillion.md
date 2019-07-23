@@ -16,4 +16,14 @@ Compléter la fonction `tirages()` ci-contre pour qu'elle renvoie un tirage de l
 
 @[ ]({"stubs":["TP/Euromillion.py"], "command": "python3 TP/tirages_Test.py", "layout": "aside"})
 
+---
 
+## Compter le nombre de bons numéros
+
+A présent intéressons nous aux nombres de bons numéros et étoiles qu'on a obtenu après un tirage.
+
+Créer une fonction `resultat(mes_numeros,mes_etoiles,tirage,etoiles)` qui prend en entrée la liste de mes 5 numéros, la liste de mes 2 numéros étoile, la liste des 5 numéros du tirage et la liste des 2 numéros étoiles tirés et donne en sortie le nombre de bons numéros obtenus suivi (séparé par une virgule) du nombre de bonnes étoiles obtenues.
+
+> Exemple : `resultat([1,2,3,4,5],[6,7],[2,4,6,8,10],[7,11])` doit renvoyer `2,1` car il y a deux bons numéros (le 2 et le 4) et une bonne étoile (le 7).
+
+@[ ]({"stubs":["TP/Euromillion.py"], "command": "python3 TP/resultat_Test.py", "layout": "aside"})
