@@ -56,3 +56,28 @@ def donner_gain(n,e) :
 @[ ]({"stubs":["TP/Euromillion.py"], "command": "python3 TP/gain_Test.py", "layout": "aside"})
 
 ---
+
+## Les simulations
+
+Il est temps de passer aux simulations. 
+
+Voici la fonction pour simuler des tirages à partir des fonctions précédentes. Quelques explications :
+On fait `nb_simulations` simulations. A chaque fois, on regarde le gain relatif (on soustrait le prix du ticket) qu'on a fait et on l'ajoute à `total_gains` pour savoir combien on a gagné en tout.  
+Au passage, on affiche lorsque le gain est remarquable ( plus grand que 100 euros) pour voir que ce n'est pas très fréquent.
+
+```
+def simulation() :
+    total_gains = 0
+    for i in range(nb_simulations):
+        tirage,etoiles = tirages()
+        n, e = resultat(mes_numeros,mes_etoiles,tirage,etoiles)
+        gain = donner_gain(n,e) - prix_ticket
+        if gain > 100 :
+            print("Au tirage n° {}, j'ai gagné {} euros".format(i,gain))
+        total_gains += gain
+    print("Au final, j'ai gagné {} en {} tirages ce qui fait une moyenne de {} par tirage".format(total_gains,nb_simulations,total_gains/nb_simulations))
+```
+    
+Copier coller le code ci-dessous à la suite de vos fonctions puis appuyer sur Run ci-dessous pour voir le résultat. Vous pouvez modifier la liste ***mes_numeros*** et ***mes_etoiles*** ainsi que le nombre de simulations.
+
+@[ ]({"stubs":["TP/Euromillion.py"], "command": "python3 TP/simulations_Test.py", "layout": "aside"})
