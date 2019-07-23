@@ -14,6 +14,6 @@ Pour cela, l'idée est simple : On s'intéresse d'abord aux 5 premiers numéros,
 
 Compléter la fonction `tirages()` ci-contre pour qu'elle renvoie un tirage de l'Euromillion puis appuyer sur Run ci-dessous pour voir si elle fonctionne correctement.
 
-
+@[ ]({"stubs":["TP/Euromillion.py"], "command": "python3 TP/tirages_Test.py", "layout": "aside"})
 
 
