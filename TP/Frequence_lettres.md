@@ -12,3 +12,15 @@ Remarque : Pour ne pas avoir à se soucier des majuscules ou minuscules, on a ut
 
 @[Nombre d'occurrences d'une lettre dans un texte]({"stubs": ["TP/occurrence.py"], "command": "python3 TP/occurrence_Test.py"})
 
+---
+
+## Liste des fréquences d'apparitions
+
+Créer un fonction `frequences(texte)` qui prend en entrée un texte et renvoie la liste des fréquences de chaque lettre dans l'ordre alphabétique. Le texte ne contiendra aucun accent.
+
+> Exemple : `frequences('abcb')` va renvoyer `[0.25, 0.5, 0.25, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]`
+
+Bien sûr, on pourra copier-coller la fonction précédente pour l'utiliser.
+
+@[Liste des fréquences d'apparitions]({"stubs": ["TP/frequences.py"], "command": "python3 TP/frequences_Test.py"})
+
