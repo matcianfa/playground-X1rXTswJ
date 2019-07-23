@@ -26,4 +26,33 @@ Créer une fonction `resultat(mes_numeros,mes_etoiles,tirage,etoiles)` qui prend
 
 > Exemple : `resultat([1,2,3,4,5],[6,7],[2,4,6,8,10],[7,11])` doit renvoyer `2,1` car il y a deux bons numéros (le 2 et le 4) et une bonne étoile (le 7).
 
+Tester votre fonction en appuyant sur Run ci-dessous
+
 @[ ]({"stubs":["TP/Euromillion.py"], "command": "python3 TP/resultat_Test.py", "layout": "aside"})
+
+---
+
+# Donner le gain
+
+Maintenant qu'on sait obtenir le nombre de bons numéros et de bonnes étoiles qu'on a, il faut déterminer le gain. Pour cela, voici le tableau des gains de l'Euromillion (On prendra 15 million pour le gain maximum) :
+![Grille des gains](Gains-Euromillions-grille.jpg)
+
+Voici le début de la fonction `donner_gain(n,e)` qui prend en entrée le nombre ***n*** de bons numéros et ***e*** de bonnes étoiles.
+
+Copier-oller le début du code ci-dessous dans la fenêtre ci-contre puis le compléter pour que tous les gains soient pris en compte. Ne pas oublier de renvoyer 0 s'il n'y a pas de gains.
+
+``` python
+def donner_gain(n,e) :
+    if n == 5 :
+        if e == 2 : return 15000000
+        elif e == 1 : return 310751
+        else : return 51792
+    elif n == 4 :
+        if e == 2 : return 4143
+        ...
+        
+```
+
+@[ ]({"stubs":["TP/Euromillion.py"], "command": "python3 TP/gain_Test.py", "layout": "aside"})
+
+---
