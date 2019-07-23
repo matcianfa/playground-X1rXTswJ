@@ -1,6 +1,6 @@
 def compter(lettre,texte):
     compteur = 0
-    for L in texte :
+    for L in texte.lower() :
         if ... :
             compteur = ...
     return ...
