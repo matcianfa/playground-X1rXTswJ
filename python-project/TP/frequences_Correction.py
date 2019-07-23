@@ -5,7 +5,7 @@ def compter(lettre,texte):
             compteur +=1
     return compteur
 
-def frequence(texte):
+def frequences(texte):
     N = len(texte)
     alphabet="abcdefghijklmnopqrstuvwxyz"
     resultat = []
