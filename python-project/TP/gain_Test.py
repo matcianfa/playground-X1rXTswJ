@@ -5,7 +5,7 @@ nom_fonction="resultat"
 # Attention de bien mettre dans un tuplet ou une liste les valeurs à tester même si la fonction n'a qu'un argument.
 valeurs_a_tester=[[5,2],[5,1],[5,0],[4,2],[4,1],[4,0],[3,2],[3,1],[3,0],[2,2],[2,1],[2,0],[1,2],[1,1],[1,0],[0,2],[0,0]]
 
-f_sol(n,e):
+def f_sol(n,e):
     if n == 5 :
         if e == 2 : return 15000000
         elif e == 1 : return 310751
