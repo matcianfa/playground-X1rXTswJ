@@ -3,7 +3,7 @@ nom_fonction="resultat"
 
 #liste des valeurs à tester
 # Attention de bien mettre dans un tuplet ou une liste les valeurs à tester même si la fonction n'a qu'un argument.
-valeurs_a_tester=[[[1,2,3,4,5],[6,7],[2,4,6,8,10],[7,11],[2,1]],[[1,2,3,4,5],[6,7],[5,4,3,2,1],[7,6],[5,2]],[[1,2,3,4,5],[6,7],[9,7,6,8,10],[1,11],[0,0]]]
+valeurs_a_tester=[[[[1,2,3,4,5],[6,7],[2,4,6,8,10],[7,11]],[2,1]],[[[1,2,3,4,5],[6,7],[5,4,3,2,1],[7,6]],[5,2]],[[[1,2,3,4,5],[6,7],[9,7,6,8,10],[1,11]],[0,0]]]
 
 #message d'aide si besoin
 help=""
