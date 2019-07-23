@@ -89,6 +89,8 @@ plan:
     statement: TP/Frequence_lettres.md
   - title: La méthode de Monte Carlo
     statement: Maths/Monte Carlo.md
+  - title: Simulation de l'Euromillion
+    statement: TP/euromillion.md
 - title: Variables et fonctions mathématiques
   plan:
   - title: Introduction
