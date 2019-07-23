@@ -81,3 +81,11 @@ def simulation() :
 Copier coller le code ci-dessous à la suite de vos fonctions puis appuyer sur Run ci-dessous pour voir le résultat. Vous pouvez modifier la liste ***mes_numeros*** et ***mes_etoiles*** ainsi que le nombre de simulations.
 
 @[ ]({"stubs":["TP/Euromillion.py"], "command": "python3 TP/simulations_Test.py", "layout": "aside"})
+
+---
+
+## Prolongement possible
+
+Vous pouvez créer un programme qui cherche au bout de combien d'essais on gagne enfin le jackpot. Pour cela, il faudra utiliser un éditeur externe (Edupython par exemple) car c'est trop long pour ce site mais vous pouvez copier coller les fonctions que vous avez déjà faites.
+
+Et pour que ça soit plus pertinent, il faudrait savoir en moyenne tous les combiens d'essais on gagne le jackpot. Prévoir une petite nuit de calculs...
