@@ -32,7 +32,7 @@ Tester votre fonction en appuyant sur Run ci-dessous
 
 ---
 
-# Donner le gain
+## Donner le gain
 
 Maintenant qu'on sait obtenir le nombre de bons numéros et de bonnes étoiles qu'on a, il faut déterminer le gain. Pour cela, voici le tableau des gains de l'Euromillion (On prendra 15 million pour le gain maximum) :
 ![Grille des gains](Gains-Euromillions-grille.jpg)
