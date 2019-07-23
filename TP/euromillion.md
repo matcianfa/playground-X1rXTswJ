@@ -2,7 +2,7 @@
 
 Le but de cette page est de simuler nos potentiels gains à l'Euromillion après un certain nombre de tirages. Je rappelle que la loi interdit les jeux d'argent aux moins de 18 ans et peuvent qu'ils peuvent causer des addictions etc. mais normalement, après avoir fini les simulations sur cette page, cela devrait vous convaincre qu'il ne vaut mieux pas jouer.
 
-Commençons par rappeler les règles : On choisit 5 numéros entre 1 et 50 (compris) ainsi que 2 étoiles (deux nombres entre 1 et 11 compris). Un tirage est effectué, en fonction du nombre de bons numéros et étoiles, on gagne une certaine somme. Le prix d'un ticket est de 2,50 euros.
+Commençons par rappeler les règles : On choisit 5 numéros entre 1 et 50 (compris) ainsi que 2 étoiles (deux nombres entre 1 et 11 compris). Un tirage est effectué et en fonction du nombre de bons numéros et étoiles, on gagne une certaine somme. Le prix d'un ticket est de 2,50 euros.
 
 Nous allons créer au fur et à mesure les fonctions necessaires à nos simulations.
 
