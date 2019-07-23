@@ -1,4 +1,5 @@
 from Euromillion import *
+import sys
 # On rajoute le chemin de ma_bao.py dans le sys.path
 sys.path.append("/project/target")
 # Ma boite à outils
