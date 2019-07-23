@@ -35,7 +35,7 @@ def test():
         for i in range(100000):
             tirage,etoile=f()
             assert est_correct(tirage,etoile), "La fonction a renvoyé {},{} ce qui n'est pas correct".format(tirage,etoile)
-        send_msg("Tests validés", "Sur 100 000 tirages, tous ont été conformes aux règles"
+        send_msg("Tests validés", "Sur 100 000 tirages, tous ont été conformes aux règles")
         print("TECHIO> success true")
     except AssertionError as e:
         print("TECHIO> success false")
