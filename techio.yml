@@ -85,6 +85,10 @@ plan:
     statement: TP/Newton.md
   - title: Méthode d'Archimède
     statement: TP/approx_pi.md
+  - title: Fréquences d'apparitions de lettres
+    statement: TP/Frequence_lettres.md
+  - title: La méthode de Monte Carlo
+    statement: Maths/Monte Carlo.md
 - title: Variables et fonctions mathématiques
   plan:
   - title: Introduction
@@ -225,13 +229,11 @@ plan:
     statement: Maths/Statistiques.md
   - title: L'algorithme d'Euclide
     statement: Maths/Euclide.md
-  
   - title: La méthode des rectangles
     statement: Maths/methode_rectangles.md
   - title: La méthode des trapèzes
     statement: Maths/Methode_trapèzes.md
-  - title: La méthode de Monte Carlo
-    statement: Maths/Monte Carlo.md
+  
   
 - title: Physique et programmation
   plan:
