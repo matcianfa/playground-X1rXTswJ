@@ -30,6 +30,6 @@ Bien sûr, on pourra copier-coller la fonction précédente pour l'utiliser.
 
 Copier-coller vos fonctions précédentes pour voir apparaitre le diagramme en bâtons des frequences d'apparition des lettres.
 
-On remarquera de quelle façon on a mis les lettres en abscisses : On a mis comme X le nombres de 0 à 25 puis on a remplacé les étiquettes par les lettres en modifiant le paramètre `tick_label`.
+On remarquera de quelle façon on a mis les lettres en abscisses : On a donné comme X les nombres de 0 à 25 puis on a remplacé les étiquettes par les lettres en modifiant le paramètre `tick_label`.
 
 @[Diagramme des fréquences d'apparitions]({"stubs": ["TP/frequences_graphique.py"], "command": "python3 TP/frequences_graphique_Test.py"})
