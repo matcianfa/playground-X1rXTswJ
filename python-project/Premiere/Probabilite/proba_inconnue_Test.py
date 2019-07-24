@@ -32,7 +32,7 @@ def test():
     try:
 
         rep=f()
-        assert all([r==s for r,s in zip(rep,sol)]), "Le résultat obtenu est {} mais ce n'est pas assez précis.".format(str(rep))
+        assert all([abs(r-s)<0.01 for r,s in zip(rep,sol)]), "Le résultat obtenu est {} mais ce n'est pas assez précis.".format(str(rep))
         send_msg("Tests validés","Le résultat obtenu est bien {}".format(str(rep)))
         success(chemin+module)
     except AssertionError as e:
