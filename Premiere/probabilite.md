@@ -9,7 +9,7 @@ On va simuler le lancer d'un verre en plastique . Ce verre peut se retrouver dan
 
 Pour simuler le lancer du verre, il faut utiliser la fonction $`lancer()`$ qui renverra le résultat du lancer sous la forme 1, 2 ou 3.
 
-Créer une fonction qui renvoie la liste des approximations (à 0.001 près) des probabilités de chaque position dans l'ordre.
+Créer une fonction qui renvoie la liste des approximations (à 0.01 près) des probabilités de chaque position dans l'ordre.
 
 @[Recherche d'une probabilité inconnue]({"stubs": ["Premiere/Probabilite/proba_inconnue.py"], "command": "python3 Premiere/Probabilite/proba_inconnue_Test.py"})
 
