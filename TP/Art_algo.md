@@ -17,4 +17,6 @@ La fonction `u(n)` devra renvoyer directement la valeur de $`u_n`$ mais les fonc
 
 Admirons maintenant notre oeuvre : Compléter le script suivant pour qu'il affiche les lignes reliant les points de coordonnées $`(x_n,y_n)`$. 
 
+On pourra s'amuser à modifier le nombre 0.15 qui apparait dans la fonction `u(n)` (en 0.25 par exemple) pour voir differentes figures se dessiner.
+
 @[Représentation]({"stubs": ["TP/art_algo_graphique.py"], "command": "python3 TP/art_algo_graphique_Test.py"})
