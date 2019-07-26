@@ -9,4 +9,12 @@ $`\left\lbrace\begin{array}{l} u_0=x_0=y_0=0 \\ u_n = (n+0.15)*\sqrt{n} \\ x_{n+
 
 La fonction `u(n)` devra renvoyer directement la valeur de $`u_n`$ mais les fonctions `x(n)` et `y(n)` devront renvoyer la ***liste*** des valeurs des suites $`(x_n)`$ et $`(y_n)`$ de 0 jusqu'à n.
 
-@[Suites]({"stubs": ["TP/art_algo.py"], "command": "python3 TP/art_algo_Test.py"})
+@[Définition des suites]({"stubs": ["TP/art_algo.py"], "command": "python3 TP/art_algo_Test.py"})
+
+---
+
+## Représentation
+
+Admirons maintenant notre oeuvre : Compléter le script suivant pour qu'il affiche les lignes reliant les points de coordonnées $`(x_n,y_n)`$. 
+
+@[Représentation]({"stubs": ["TP/art_algo_graphique.py"], "command": "python3 TP/art_algo_graphique_Test.py"})
