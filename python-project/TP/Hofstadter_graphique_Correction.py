@@ -14,8 +14,8 @@ def Q(n):
     return liste[1:]
 
 # Compléter la valeur de Y pour n'afficher que les termes de la suite de N-nb_termes+1 à N
-X = list(range(50))
-Y = Q(n)[-50:]
+X = list(range(nb_termes))
+Y = Q(n)[-nb_termes:]
 
 plt.plot(X,Y,"-",linewidth=1)
 plt.show()
