@@ -1,3 +1,5 @@
+from math import *
+
 def u(n):
     # Ecrire ci-dessous en n'oubliant pas d'indenter et d'utiliser return pour renvoyer un résultat
     
