@@ -33,3 +33,9 @@ Copier-coller vos fonctions précédentes pour voir apparaitre le diagramme en b
 On remarquera de quelle façon on a mis les lettres en abscisses : On a donné comme X les nombres de 0 à 25 puis on a remplacé les étiquettes par les lettres en modifiant le paramètre `tick_label`.
 
 @[Diagramme des fréquences d'apparitions]({"stubs": ["TP/frequences_graphique.py"], "command": "python3 TP/frequences_graphique_Test.py"})
+
+---
+
+## Prolongement possible :
+
+Déterminer les fréquences d'apparitions des chiffres dans un nombre (Par exemple les premières millions de décimales de $`\pi`$ ou de $`e`$). Pour cela, il faudra tout d'abord faire des recherches sur des façons efficaces de calculer ces nombres puis sur comment travailler avec un grand nombre de décimales en python. Rien de bien difficile.
