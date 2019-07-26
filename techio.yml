@@ -79,6 +79,8 @@ plan:
     statement: TP/VanEck.md
   - title: Suite de Hofstadter
     statement: TP/Hofstadter.md
+  - title: Art algorithmique
+    statement: TP/Art_algo.md
   - title: La recherche par dichotomie
     statement: Maths/Dichotomie.md
   - title: La méthode d'Euler
