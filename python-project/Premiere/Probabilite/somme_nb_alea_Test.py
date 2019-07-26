@@ -23,8 +23,7 @@ f=eval(nom_fonction)
 try :  
     cheat(chemin+module,mdp) 
 except: pass
-# On récupère la fonction solution
-exec("from {}_Correction import {} as f_sol".format(module,nom_fonction))
+on))
 
 #--------------------------------------
 def test():
