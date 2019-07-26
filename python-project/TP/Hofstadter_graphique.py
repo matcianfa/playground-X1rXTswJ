@@ -12,7 +12,7 @@ nb_termes = 50
 
 
 # Compléter la valeur de Y pour n'afficher que les termes de la suite de N-nb_termes+1 à N
-X = list(range(50))
+X = list(range(nb_termes))
 Y = ...
 
 plt.plot(X,Y,"-",linewidth=1)
