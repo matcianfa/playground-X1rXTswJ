@@ -77,6 +77,8 @@ plan:
     statement: Maths/Syracuse.md
   - title: Suite de Van Eck
     statement: TP/VanEck.md
+  - title: Suite de Hofstadter
+    statement: TP/Hofstadter.md
   - title: La recherche par dichotomie
     statement: Maths/Dichotomie.md
   - title: La méthode d'Euler
