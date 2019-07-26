@@ -23,7 +23,7 @@ f=eval(nom_fonction)
 try :  
     cheat(chemin+module,mdp) 
 except: pass
-on))
+
 
 #--------------------------------------
 def test():
