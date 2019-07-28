@@ -36,26 +36,10 @@ except: pass
 # On récupère la fonction solution
 exec("from {}_Correction import {} as f_sol".format(module,nom_fonction))
 
+from Mandelbrot_creer_image import *
+
 #--------------------------------------
-BORNE = 1000
-MAX_ITER = 200
-WIDTH,HEIGHT = 900,600
-X_MIN,Y_MIN,X_MAX = -2,-2,4 # Valeurs min et max pour les parties reelles et imaginaires
-Y_MAX=Y_MIN+HEIGHT*(X_MAX-X_MIN)/WIDTH #Pour avoir un repère normé
 
-
-def creer_image(max_iter=MAX_ITER):
-    im = Image.new('HSV', (WIDTH, HEIGHT), (255, 255, 255))
-    draw = ImageDraw.Draw(im)
-    X = np.linspace(X_MIN, X_MAX, WIDTH)
-    Y = np.linspace(Y_MIN, Y_MAX, HEIGHT)
-    for x in range(WIDTH):
-        for y in range(HEIGHT):
-            n=Mandelbrot(complex(X[x],Y[y]))
-            draw.point((x, y), (n%255, 255, 255 if n < max_iter else 0))
-    im.convert('RGB').save('output.png', 'PNG')
-    
-    
 def test():
     try:
         for valeur in valeurs_a_tester:
