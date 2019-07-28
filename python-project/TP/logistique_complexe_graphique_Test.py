@@ -49,6 +49,8 @@ def test():
             dessiner(mu,n)
             plt.legend(loc = "lower right",handles=[r],labels=["mu={}".format(mu)],framealpha=0.5)
         plt.show()
+        fig.savefig('output.png', dpi=fig.dpi)
+        print("TECHIO> open -s /project/target/ index_grossissant.html")
         success(chemin+module)
     except AssertionError as e:
         fail()
@@ -56,8 +58,6 @@ def test():
         if help:
             send_msg("Aide 💡", help)
 
-fig.savefig('output.png', dpi=fig.dpi)
-print("TECHIO> open -s /project/target/ index_grossissant.html")
 
 #--------------------------------------
 if __name__ == "__main__": test()
