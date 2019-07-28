@@ -6,7 +6,6 @@ def u(mu,u0,n):
     u = u0
     for _ in range(n):
         u=mu*u*(1-u)
-        #u = mu*u*(1-u)
         liste.append(u)
     return liste
     
