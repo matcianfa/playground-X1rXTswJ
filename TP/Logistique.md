@@ -54,7 +54,7 @@ Remarques : On peut observer que pour les deux premiers graphiques, la suite con
 ## Sensibilité aux conditions initiales
 `Difficulté : Moyenne`
 
-Maintenant, nous allons nous intéresser au caractère chaotique de cette suite. On a pu voir grâce aux représentations précédentes que la suite devient de moins en moins stable au fur et à mesure que $`mu`$ augmente. Pour de faibles valeurs, elle converge vers une limite, puis lorsque $`\mu`$ augmente entre 3 et 3,5, elle commence à osciller entre plusieurs points pour finalement se répartir sur tout un intervalle lorsque $`mu`$ devient trop grand. Ce n'est pourtant pas en ce sens que l'on emploie le terme chaotique pour cette suite.
+Maintenant, nous allons nous intéresser au caractère chaotique de cette suite. On a pu voir grâce aux représentations précédentes que la suite devient de moins en moins stable au fur et à mesure que $`mu`$ augmente. Pour de faibles valeurs, elle converge vers une limite, puis lorsque $`\mu`$ augmente entre 3 et 3,5, elle commence à osciller entre plusieurs points pour finalement se répartir sur tout un intervalle lorsque $`mu`$ devient trop grand. Ce n'est pourtant pas en ce sens que l'on emploie le terme chaotique pour cette suite (même si cela y contribue).
 
 En effet, un suite est dite chaotique lorsqu'elle est sensible aux conditions initiales. Concrètement, cela signifie que si on part de deux conditions initiale très proches $`u_0`$ et $`u_0+\epsilon`$, on ne sera pas forcément proche (voir même très éloignées) pour des valeurs suivantes de $`(u_n)`$.
 
@@ -80,6 +80,18 @@ Pour encore mieux voir le phénomène, vous pouvez modifier encore votre fonctio
 
 ## Diagramme de bifurcation
 `Difficulté : Difficile`
+
+On a vu sur les représentations précédentes que plus $`mu`$ augmente, plus les valeurs que prend la suite s'étalent sur l'intervalle [0;1] : Pour $`mu=1,6`$ ou $`mu=2.8`$, elle converge, pour $`mu=3.2`$ elle oscille autour de deux valeurs, pour $`mu=3.5`$ elle oscille autour de 4 valeurs et pour $`mu=4`$, elle semble osciller entre toutes les valeurs.
+
+Pour avoir une idée de l'évolution lorsque $`mu`$ augmente, on pourrait tracer toutes les représentations graphiques et en faire un film mais plus simplement, on va tracer ce qu'on appelle le diagramme de bifurcation selon le protocole suivant :
+
+En abscisse, on fait varier $`mu`$ entre 2 et 4 avec un pas de 0.001, et pour chaque $`\mu`$, on affiche les 100 termes $`u_201, u_202,..., u_300`$ arrondis à 0.001 près. 
+
+Pour $`\mu`$ entre 2 et 3.56, on obtient le début de diagramme suivant : ![bifurcation](bifurcation.png)
+
+Compléter le programme suivant pour qu'il affiche le diagramme de bifurcation entre 2 et 4.
+
+@[Sensibilité aux conditions initiales]({"stubs": ["TP/bifurcation.py"], "command": "python3 TP/bifurcation_Test.py"})
 
 ---
 
