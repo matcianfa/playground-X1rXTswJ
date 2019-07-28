@@ -5,7 +5,13 @@ from Mandelbrot import Mandelbrot
 # --------- Les constantes, modifiables
 WIDTH,HEIGHT = 900,600
 X_MIN,Y_MIN,X_MAX = -2,-2,4 # Valeurs min et max pour les parties reelles et imaginaires
+# Autres valeurs intéressantes :
+#X_MIN,Y_MIN,X_MAX = 3,-0.35,4 # Zoom sur la point à droite
+#X_MIN,Y_MIN,X_MAX = 2.80,-0.35,3.20
+#X_MIN,Y_MIN,X_MAX = 3.82,-0.015,3.86 # Zoom sur le petit point noir tout à droite
+
 Y_MAX=Y_MIN+HEIGHT*(X_MAX-X_MIN)/WIDTH #Pour avoir un repère normé
+
 
 # La fonction pour créer l'image de la courbe de Mandelbrot
 def creer_image():
@@ -15,7 +21,7 @@ def creer_image():
     
     # Créer autant de X et Y que de pixels dans l'image
     X = np.linspace(X_MIN, X_MAX, WIDTH)
-    Y = np.linspace(Y_MIN, Y_MAX, HEIGHT)
+    Y = np.linspace(Y_MAX, Y_MIN, HEIGHT)
     for x in range(WIDTH):
         for y in range(HEIGHT):
             n = Mandelbrot(complex(X[x],Y[y]))
