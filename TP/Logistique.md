@@ -65,11 +65,16 @@ La différence n'est pas flagrante...
 
 Pour notre suite :  Pour $`\mu=4`$
 Si je commence avec $`u_0=0.9`$ alors $`u_{50}=0.5600367632223772`$.  
-Si je commence avec $`u_0=0.89999999999`$ alors $`u_{50}=0.2903856953167539`$. 
+Si je commence avec $`u_0=0.89999999999`$ alors $`u_{50}=0.2903856953167539`$.  
 On est parti de nombres extrêmement proches et pourtant les résultats sont très éloignés. C'est pour cela qu'on dit que cette suite est chaotique.  
 Cela pose un problème concret pour le calcul : Si vous faites ces calculs avec votre calculatrice, vous ne trouverez pas les mêmes résultats. En effet, la calculatrice n'ayant pas les mêmes chiffres significatifs que python, vous aurez des résultats fondamentalement différents.
 
+Modifier votre fonction `dessiner(mu,u0,n)`précédente (la seconde si possible mais ça peut être la première si vous n'avez pas réussi à écrire la seconde) pour qu'elle affiche la suite commençant par $`u_0`$ et d'une autre couleur la suite commençant par $`u_0 + 10^{-13}`$.
 
+Remarque : Pour l'affichage, on a pris différentes valeurs de $`\mu`$ pour voir s'accentuer au fur et à mesure de son augmentation le côté chaotique de la suite. En effet, pour de petites valeurs, on ne distingue pas les deux suites alors que lorsque $`\mu`$ se rapproche de 4, on les distingue bien.  
+Pour encore mieux voir le phénomène, vous pouvez modifier encore votre fonction pour n'afficher que les 30 dernieres valeurs de la suite pour bien voir que l'évolution est très différentes.
+
+@[Sensibilité aux conditions initiales]({"stubs": ["TP/logistique_graphique3.py"], "command": "python3 TP/logistique_graphique3_Test.py"})
 
 ---
 
