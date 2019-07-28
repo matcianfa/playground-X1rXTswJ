@@ -45,7 +45,11 @@ Comme on peut le voir sur les graphiques précédents et comme dans le cas de la
 
 On va maintenant s'intéresser aux suites qui s'éloignent vers l'infini. Pour pouvoir déterminer si une suite tend vers l'infini ou pas, on va calculer ses termes jusqu'à $`u_{200}`$ et on va estimer que si la distance à l'origine d'un des termes dépasse 1000, alors la suite tend vers l'infini.
 
-Créer une fonction `Mandelbrot(mu)` qui renvoie le rang du premier terme de la suite dont la distance à l'origine est supérieure à 1000. Si quand on a calculé $`u_{200}`$, la distance à l'origine n'a jamais dépassé 1000 alors on renvoie 200.
+Créer une fonction `Mandelbrot(mu)` qui renvoie le rang du premier terme de la suite dont la distance à l'origine est supérieure à 1000. Si quand on a calculé $`u_{200}`$, la distance à l'origine n'a jamais dépassé 1000 alors on renvoie 200. 
 
+> Indication : Il vaut mieux s'inspirer de la fonction `u(mu,n)` pour créer la fonction `Mandelbrot(mu)` que chercher à l'utiliser (pour éviter trop de calculs inutiles car il va falloir calculer vite pour afficher l'image prévue)
 
+> Remarque : Si tous les tests sont validés, vous verrez apparaitre l'ensemble de Mandelbrot où on a simplement pour chaque point (qui représente $`\mu`$) associé une couleur au nombre renvoyé par la fonction `Mandelbrot(mu)`. En noir ce sont les points tels que la suite ne semble pas s'eloigner à l'infini. C'est un exemple de courbe dite fractale car elle est formée de partie qui sont une réplique exacte du tout (Comme la vache qui rit qui a une boucle d'oreille dans laquelle on revoit la vache qui rit qui a une boucle d'oreille ...).
+
+@[Ensemble de Mandelbrot]({"stubs": ["TP/mandelbrot.py"], "command": "python3 TP/mandelbrot_Test.py"})
 
