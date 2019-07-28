@@ -1,5 +1,6 @@
 from PIL import Image, ImageDraw  # Module de gestion des images
 import numpy as np
+from Mandelbrot import Mandelbrot
 
 # --------- Les constantes, modifiables
 WIDTH,HEIGHT = 900,600
