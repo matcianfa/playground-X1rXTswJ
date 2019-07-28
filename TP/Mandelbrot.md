@@ -25,7 +25,7 @@ Autre fonction qui va nous servir : pour obtenir la distance entre notre point e
 ## La suite logistique version complexe
 `Difficulté : Moyenne`
 
-Comme pour la suite logistique, nous allons nous intéressé à la suite $`u_{n+1} = \mu * u_n * (1-u_n)`$ et $`u_0=0.5`$ mais cette fois-ci, au lieu de se restreindre au cas où $`\mu\in [2;4]`$, nous allons prendre pour $`\mu`$ des valeurs complexes.
+Comme pour la suite logistique, nous allons nous intéressé à la suite $`u_{n+1} = \mu u_n(1-u_n)`$ et $`u_0=0.5`$ mais cette fois-ci, au lieu de se restreindre au cas où $`\mu\in [2;4]`$, nous allons prendre pour $`\mu`$ des valeurs complexes.
 
 Nous allons observer graphiquement l'évolution de cette suite en fonction de $`\mu`$.
 
@@ -38,6 +38,14 @@ Dans un deuxième temps, compléter la fonction `dessiner(mu,n)` qui place les p
 @[Visualisation de la suite]({"stubs": ["TP/logistique_complexe_graphique.py"], "command": "python3 TP/logistique_complexe_graphique_Test.py"})
 
 ---
+
+## Ensemble de Mandelbrot
+
+Comme on peut le voir sur les graphiques précédents et comme dans le cas de la suite logistique classique, selon la valeur de $`\mu`$, la suite va converger ou osciller ou bien s'éloigner vers l'infini (comme on commence à le voir sur le quatrième graphique).
+
+On va maintenant s'intéresser aux suites qui s'éloignent vers l'infini. Pour pouvoir déterminer si une suite tend vers l'infini ou pas, on va calculer ses termes jusqu'à $`u_{200}`$ et on va estimer que si la distance à l'origine d'un des termes dépasse 1000, alors la suite tend vers l'infini.
+
+Créer une fonction `Mandelbrot(mu)` qui renvoie le rang du premier terme de la suite dont la distance à l'origine est supérieure à 1000. Si quand on a calculé $`u_{200}`$, la distance à l'origine n'a jamais dépassé 1000 alors on renvoie 200.
 
 
 
