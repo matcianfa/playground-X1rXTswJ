@@ -30,13 +30,3 @@ def dessiner(mu,u0,n):
     plt.axis("equal")
     plt.show()
     
-    
- 
-for i in range(1,5):
-    plt.subplot(3,2,i)
-    dessiner(mus[i-1],0.9,30)
-    plt.legend(loc = "lower right",handles=[r],labels=["mu={}".format(mus[i-1])],framealpha=0.5)
-plt.subplot(3,1,3)
-dessiner(4,0.9,200)
-plt.legend(loc = "lower right",handles=[r],labels=["mu=4"],framealpha=0.5)
-plt.show()
