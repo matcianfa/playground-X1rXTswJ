@@ -51,5 +51,5 @@ Créer une fonction `Mandelbrot(mu)` qui renvoie le rang du premier terme de la 
 
 > Remarque : Si tous les tests sont validés, vous verrez apparaitre l'ensemble de Mandelbrot où on a simplement pour chaque point (qui représente $`\mu`$) associé une couleur au nombre renvoyé par la fonction `Mandelbrot(mu)`. En noir ce sont les points tels que la suite ne semble pas s'eloigner à l'infini. C'est un exemple de courbe dite fractale car elle est formée de partie qui sont une réplique exacte du tout (Comme la vache qui rit qui a une boucle d'oreille dans laquelle on revoit la vache qui rit qui a une boucle d'oreille ...).
 
-@[Ensemble de Mandelbrot]({"stubs": ["TP/mandelbrot.py"], "command": "python3 TP/mandelbrot_Test.py"})
+@[Ensemble de Mandelbrot]({"stubs": ["TP/Mandelbrot.py"], "command": "python3 TP/Mandelbrot_Test.py"})
 
