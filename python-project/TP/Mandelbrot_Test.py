@@ -51,7 +51,7 @@ def creer_image(max_iter=MAX_ITER):
     Y = np.linspace(Y_MIN, Y_MAX, HEIGHT)
     for x in range(WIDTH):
         for y in range(HEIGHT):
-            n=mandelbrot(complex(X[x],Y[y]))
+            n=Mandelbrot(complex(X[x],Y[y]))
             draw.point((x, y), (n%255, 255, 255 if n < max_iter else 0))
     im.convert('RGB').save('output.png', 'PNG')
     
