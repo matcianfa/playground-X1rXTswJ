@@ -83,6 +83,8 @@ plan:
     statement: TP/Art_algo.md
   - title: Suite logistique et Chaos
     statement: TP/Logistique.md
+  - title: Ensembles de Mandelbrot et Julia
+    statement: TP/Mandelbrot.md
   - title: La recherche par dichotomie
     statement: Maths/Dichotomie.md
   - title: La méthode d'Euler
