@@ -48,6 +48,22 @@ Commençons par les fonctions les plus utiles :
   ```
   On remarquera bien que contrairement à d'habitude, on ne met par le résultat de `shuffle` dans une variable car il agit directement sur la liste qu'on lui donne en entrée.
   
++ `choices(liste, k=nombre)` et `sample(liste, k=nombre)` : Ce sont deux fonctions qui permettent de simuler un tirage de `nombre` éléments dans une liste (Attention de bien mettre `k =` avant) mais la première est un tirage avec répétition (on remet l'objet tiré avant de retirer) alors que la seconde est sans répétition (comme si on tirer `nombre` éléments en même temps).  
+  On peut rajouter des poids avec la fonction `choices(liste, weights = liste_poids, k= nombre)`.  
+  Exemple :  
+  ```python runnable
+  from random import *
+  
+  lettres = ["a" , "b", "c", "d", "e"]
+  résultat = choices(liste, weights=[3,1,2,1,5], k=30)
+  print(résultat)
+  
+  résultat2 = sample(liste, weights=[3,1,2,1,5], k=3)
+  print(résultat2)
+  ```  
+  Le premier résultat est un choix de 30 éléments parmi les `lettres` avec répétition et les poids qui font comme s'il y avait 3 'a', 1 'b', 2 'c', 1 'd' et 5 'e'.  
+  Pour le second, on tire simplement 3 lettres parmi les 5 sans répétitions possibles. Forcément, il faudra que `k` soit inférieure à la longueur de la liste.
+  
 
 # QCM
 
