@@ -36,7 +36,7 @@ except: pass
 # On récupère la fonction solution
 exec("from {}_Correction import {} as f_sol".format(module,nom_fonction))
 
-from Mandelbrot_creer_image import *
+from Julia_creer_image import *
 
 #--------------------------------------
 
