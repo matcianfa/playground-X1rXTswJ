@@ -55,3 +55,24 @@ Pour les curieux, vous pouvez voir le code pour afficher l'image (et pourquoi pa
 @[Ensemble de Mandelbrot]({"stubs": ["TP/Mandelbrot.py","TP/Mandelbrot_creer_image.py"], "command": "python3 TP/Mandelbrot_Test.py"})
 
 ---
+
+## Ensembles de Julia
+
+Les ensembles de Julia sont aussi formés à partir de la suite logistique $`u_{n+1} = \mu u_n(1-u_n)`$ mais cette fois ci on fixe la valeur de $`\mu`$ et on s'intéresse aux valeurs (complexes) de $`u_0`$ qui donnent une suite qui s'éloigne vers l'infini. Il y a donc une infinité d'ensembles de Julia (puisque chaque valeur de $`\mu`$ va en donner un différent). Comme pour l'ensemble de Mandelbrot, pour pouvoir déterminer si une suite tend vers l'infini ou pas, on va calculer ses termes jusqu'à $`u_{200}`$ et on va estimer que si la distance à l'origine d'un des termes dépasse 1000, alors la suite tend vers l'infini.
+
+Créer une fonction $`Julia(mu,u0)`$ (en modifiant simplement la fonction `Mandelbrot(mu)` précédente) qui renvoie le rang du premier terme de la suite dont la distance à l'origine est supérieure à 1000. Si quand on a calculé $`u_{200}`$, la distance à l'origine n'a jamais dépassé 1000 alors on renvoie 200. 
+
+> Remarques : Comme dans le cas de l'ensemble de Mandelbrot, les ensembles de Julia sont souvent des fractales.  
+Voici quelques valeurs intéressantes de $`\mu`$ que vous pouvez tester :  
+```
+MU = complex(-1,0.05)
+# Autres valeurs de MU interessantes :
+MU = complex(-0.7925,0.67)
+MU = complex(-0.8,-0.613)
+MU = complex(-0.92,-0.48)
+MU = complex(0.456,-0.902)
+```  
+Pour les curieux, vous pouvez voir le code pour afficher l'image (et pourquoi pas la modifier pour zoomer par exemple) dans l'onglet au dessus du code.
+
+@[Ensemble de Mandelbrot]({"stubs": ["TP/Julia.py","TP/Julia_creer_image.py"], "command": "python3 TP/Julia_Test.py"})
+
