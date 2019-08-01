@@ -16,5 +16,5 @@ def creer_image(mu=MU):
     for x in range(WIDTH):
         for y in range(HEIGHT):
             n=Julia(mu,complex(X[x],Y[y]))
-            draw.point((x, y), (n%255, 255, 255 if n < MAX_ITER else 0))
+            draw.point((x, y), (n%255, 255, 255 if n < 200 else 0))
     im.convert('RGB').save('output.png', 'PNG')
