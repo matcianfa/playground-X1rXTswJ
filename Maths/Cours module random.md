@@ -55,10 +55,10 @@ Commençons par les fonctions les plus utiles :
   from random import *
   
   lettres = ["a" , "b", "c", "d", "e"]
-  résultat = choices(liste, weights=[3,1,2,1,5], k=30)
+  résultat = choices(lettres, weights=[3,1,2,1,5], k=30)
   print(résultat)
   
-  résultat2 = sample(liste, weights=[3,1,2,1,5], k=3)
+  résultat2 = sample(lettres, weights=[3,1,2,1,5], k=3)
   print(résultat2)
   ```  
   Le premier résultat est un choix de 30 éléments parmi les `lettres` avec répétition et les poids qui font comme s'il y avait 3 'a', 1 'b', 2 'c', 1 'd' et 5 'e'.  
