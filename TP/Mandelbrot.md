@@ -74,5 +74,5 @@ MU = complex(0.456,-0.902)
 ```  
 Pour les curieux, vous pouvez voir le code pour afficher l'image (et pourquoi pas la modifier pour zoomer par exemple) dans l'onglet au dessus du code.
 
-@[Ensemble de Mandelbrot]({"stubs": ["TP/Julia.py","TP/Julia_creer_image.py"], "command": "python3 TP/Julia_Test.py"})
+@[Ensemble de Julia]({"stubs": ["TP/Julia.py","TP/Julia_creer_image.py"], "command": "python3 TP/Julia_Test.py"})
 
