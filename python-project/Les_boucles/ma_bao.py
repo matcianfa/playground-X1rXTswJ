@@ -4,15 +4,15 @@ import re
 
 code="e44f8cf63970db5c2df0a18153bcdf49"
 
-# Permet de récupérer le chemin d'accès et le nom du module. A utiliser avec __file__
-def donner_chemin_nom(file) :
-    m = re.search(r"(?P<dossier>\w+/)(?P<module>\w+)_Test.py", file)
-    if m is not None:
-        return m.group('dossier'),m.group('module')
-    
 # Fonction qui permet d'envoyer un message sur le channel    
 def send_msg(channel, msg):
     print("TECHIO> message --channel \"{}\" \"{}\"".format(channel, msg))
+       
+# Permet de récupérer le chemin d'accès et le nom du module. A utiliser avec __file__
+def donner_chemin_nom(file) :
+    m = re.search(r"(?P<dossier>[\w/]+/)(?P<module>\w+)_Test.py", file)
+    if m is not None:
+        return m.group('dossier'),m.group('module')
     
 # Ce qu'il faut faire si on a juste
 def success(module):
@@ -58,17 +58,17 @@ def afficher_correction(module):
     """
     Affiche la correction si elle existe
     """
-    try:
-        with open(module+"_Correction.py", "r") as correction :
-            ligne="Voici un ou des exemples de corrections possibles"
+    #try:
+    with open(module+"_Correction.py", "r") as correction :
+        ligne="Voici un ou des exemples de corrections possibles"
+        send_msg("Exemple(s) de correction", ligne)
+        ligne="-------------------------------------------------"
+        send_msg("Exemple(s) de correction", ligne)
+        lignes=correction.read().split("\n")
+        for ligne in lignes:
             send_msg("Exemple(s) de correction", ligne)
-            ligne="-------------------------------------------------"
-            send_msg("Exemple(s) de correction", ligne)
-            lignes=correction.read().split("\n")
-            for ligne in lignes:
-                send_msg("Exemple(s) de correction", ligne)
-    except:
-        pass
+    #except:
+    #    pass
 
 def cheat(module,mdp):
     """
@@ -76,3 +76,4 @@ def cheat(module,mdp):
     """
     if str(md5(str(mdp).encode('utf-8')).hexdigest())==code:
         afficher_correction(module)
+    
