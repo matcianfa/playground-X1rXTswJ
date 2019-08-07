@@ -30,7 +30,7 @@ exec("from {}_Correction import {} as f_sol".format(module,nom_fonction))
 
 #--------------------------------------
 def test():
-    try:
+    #try:
         for valeur in valeurs_a_tester:
             print("Je teste")
             rep=f(*valeur)
@@ -38,12 +38,11 @@ def test():
             assert str(rep) == str(sol), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(",".join([str(val) for val in valeur]),str(rep),str(sol))
             send_msg("Tests validés","En testant les valeurs {} le résultat obtenu est bien {}".format(",".join([str(val) for val in valeur]),str(rep)))
         success(chemin+module)
-    except AssertionError as e:
+    #except AssertionError as e:
         fail()
         send_msg("Oops! ", e)
         if help:
             send_msg("Aide 💡", help)
-    except StandardError as e:
-        send_msg("Oops! ", e)
+    
 #--------------------------------------
 if __name__ == "__main__": test()
