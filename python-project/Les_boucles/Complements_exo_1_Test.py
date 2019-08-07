@@ -1,6 +1,8 @@
 # A modifier si besoin
 nom_fonction="ma_fonction"
 
+print("Ca se lance")
+
 #liste des valeurs à tester
 # Attention de bien mettre dans un tuplet ou une liste les valeurs à tester même si la fonction n'a qu'un argument.
 valeurs_a_tester=[[[1,2,3,0,1,2,0,5]],[[1,2,3,4]],[list(range(-2,10**10))]]
@@ -30,6 +32,7 @@ exec("from {}_Correction import {} as f_sol".format(module,nom_fonction))
 def test():
     try:
         for valeur in valeurs_a_tester:
+            print("Je teste")
             rep=f(*valeur)
             sol=f_sol(*valeur)
             assert str(rep) == str(sol), "En testant les valeurs {} le résultat obtenu est {} au lieu de {}".format(",".join([str(val) for val in valeur]),str(rep),str(sol))
