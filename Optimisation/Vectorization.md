@@ -25,7 +25,7 @@ from random import random
 #---------------------   Les constantes 
 
 X_MIN,Y_MIN,X_MAX,Y_MAX = -2,-1,1,1 # Valeurs min et max pour les parties reelles et imaginaires
-MAX_ITER = 400 # Le nombre d'itérations maximum avant de considérer que la suite ne diverge pas vers l'infini
+MAX_ITER = 500 # Le nombre d'itérations maximum avant de considérer que la suite ne diverge pas vers l'infini
 NB_POINTS = 1000000 # Nombres de points aléatoires choisis pour la méthode de Monte Carlo
 
 #---------------------   Les fonctions
@@ -75,7 +75,7 @@ from random import random
 #---------------------   Les constantes 
 
 X_MIN,Y_MIN,X_MAX,Y_MAX = -2,-1,1,1 # Valeurs min et max pour les parties reelles et imaginaires
-MAX_ITER = 400 # Le nombre d'itérations maximum avant de considérer que la suite ne diverge pas vers l'infini
+MAX_ITER = 500 # Le nombre d'itérations maximum avant de considérer que la suite ne diverge pas vers l'infini
 NB_POINTS = 1000000 # Nombres de points aléatoires choisis pour la méthode de Monte Carlo
 
 #---------------------   Les fonctions
