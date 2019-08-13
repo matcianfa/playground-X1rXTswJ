@@ -321,6 +321,8 @@ plan:
     statement: Optimisation/Volterra.md
   - title: Mémoïzation - Approximation de e
     statement: Optimisation/Approximation_de_e.md
+  - title: Vectorisation - Aire de l'ensemble de Mandelbrot
+    statement: Optimisation/Vectorization.md
   - title: Exercices
     statement: Optimisation/Exercices.md
 - title: Projets
