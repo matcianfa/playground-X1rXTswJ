@@ -81,6 +81,26 @@ Toute la fonction est donc repensée pour faire tous les calculs d'un coup sur l
 
 ---
 
+## Interlude : Utilisation de numba
+
+Attention, ce qui suit va ressembler à un tour de magie :  
+- Prenez le premier code (celui qui met presque 30 sec)
+- Rajoutez `from numba import jit`
+- Rajoutez `@jit` sur la ligne précédent les fonctions `mandelbrot` et `monte_carlo`
+- Admirez : vous obtenez le même résultat en moins de 2 sec...
+
+En voici la preuve :
+
+::: Dérouler pour voir les modifications
+@[Utilisation de Numba]({"stubs": ["Optimisation/mandelbrot_numba.py"], "command": "python3 Optimisation/mandelbrot_numba.py"})
+:::
+
+Si j'ai bien compris, Numba traduit plus ou moins le langage python pour directement traduire notre programme en code machine. Ce qui le rend, dans notre cas, aussi rapide que des langages comme le C. Malheureusement la magie n'opère pas toujours car certaines fonctions sont propres au langage python (les listes en compréhension par exemple) mais en tout cas cela marche très bien avec les fonctions de bases et numpy pour peu que cela soit fait proprement. 
+
+## Vectorisation en utilisant numpy et numba
+
+
+
 
 ## brouillon
 ## Première amélioration
