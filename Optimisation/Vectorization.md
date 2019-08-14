@@ -127,4 +127,7 @@ Si on modifie le programme précédent pour y ajouter ces deux remarques, on obt
 
 ## Conclusion
 
-Vous pouvez modifier les valeurs de `MAX_ITER` et `NB_POINTS` pour affiner la précision. La valeur de l'aire de l'ensemble de Mandelbrot donnée sur Wikipédia est de 1,50659177 ± 0,00000008.
+Vous pouvez modifier les valeurs de `MAX_ITER` et `NB_POINTS` pour affiner la précision prendre de trop grandes valeurs (le temps de calcul maximal permis sur ce site est 30 sec). Par exempe `MAX_ITER = 10 000` et `NB_POINTS = 20 000 000`. On n'est finalement pas si loin de la valeur de l'aire de l'ensemble de Mandelbrot donnée sur Wikipédia est de 1,50659177 ± 0,00000008.
+
+Pour aller plus loin en précision, il faudrait non seulement donner des valeurs plus grandes à `MAX_ITER` et `NB_POINTS` mais aussi prendre en compte davantage de chiffres après la virgule pour éviter les erreurs d'arrondi. On peut trouver sur la page anglaise de [wikipédia](https://en.wikipedia.org/wiki/Mandelbrot_set#Optimizations) d'autres optimisations possibles (comme l'utilisation d'outils de la théorie des pertubations).
+
