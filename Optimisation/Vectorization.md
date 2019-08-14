@@ -64,6 +64,25 @@ if __name__ == "__main__" :
 
 ---
 
+## Utilisation de Numpy pour vectoriser
+
+L'idée de la vectorisation est de remplacer une (ou plusieurs) boucle par des calculs sur un tableau/ vecteur numpy. Par exemple ici, au lieu de choisir une par une les valeurs aleatoires de `c`, on va créer directement un tableau contenant tous les `c` choisis aléatoirement et faire les calculs directement en utilisant le tableau. C'est a priori plus compliqué et demande plus de ressources mais les boucles en python sont tellement lentes que faire ainsi permet de gagner en vitesse. Voici le programme :
+
+::: Dérouler pour voir les modifications
+@[Utilisation de Numpy]({"stubs": ["Optimisation/mandelbrot_numpy.py"], "command": "python3 Optimisation/mandelbrot_numpy.py"})
+:::
+
+Donnons quelques explications :
+
+- Pour la fonction `mandelbrot(c)`, elle va agir directement sur un vecteur contenant tous les `c` choisis aléatoirement. Ainsi, au lieu de renvoyer juste 0 ou 1 selon que le `c` est dans l'ensemble ou pas, la fonction va renvoyer un vecteur de 0 ou de 1 correspondant à la même chose mais pour tous les `c` d'un coup.  
+Toute la fonction est donc repensée pour faire tous les calculs d'un coup sur le vecteur et en utilisant les propriétés des tableaux numpy (par exemple les opérations comme `z*z` sont faites coordonnées par coordonnées tout comme `np.abs(z)` applique `abs` à chaque coordonnée).
+
+- Pour la fonction `monte_carlo()`, on ne fait plus une boucle pour créer à chaque fois un `c` mais on crée un vecteur de tous les `c` qu'on va considérer.
+
+---
+
+
+## brouillon
 ## Première amélioration
 
 Avant de passer à la vectorization, commençons par optimiser un peu notre code. On peut remarquer que ce qui coûte cher en temps, ce sont les points qui sont dans l'ensemble car il faut calculer `MAX_ITER` termes de la suite pour constater qu'elle ne diverge pas. Or, si on observe l'ensemble de Mandelbrot, on constate qu'un grosse partie de sa surface provient d'une cardioide et du cercle situé à sa gauche. L'idée est donc de vérifier d'abord si $`c`$ appartient à cette cardioide ou ce cercle avant de calculer les termes de la suite. On pourra trouver les équations de ces ensembles [ici](https://fr.wikipedia.org/wiki/Ensemble_de_Mandelbrot#Cardio%C3%AFde_/_bourgeon_principal). On obtiendrait le programme suivant :
@@ -115,14 +134,6 @@ if __name__ == "__main__" :
     print("Le temps de calcul est de {} s".format(time()-t0))
 ```
 :::
-
-## Utilisation de Numpy pour vectoriser
-
-@[Utilisation de Numpy]({"stubs": ["Optimisation/mandelbrot_numpy.py"], "command": "python3 Optimisation/mandelbrot_numpy.py"})
-
-
-## brouillon
-
  Nous pouvons faire plusieurs remarques :
 
 - La première est classique lorsqu'on veut optimiser des calculs : Eviter les calculs inutiles.  On ne s'en rend pas vraiment compte en regardant le programme précédent mais on choisit 1 million de points au hasard et pour chacun, il faut calculer dans le pire des cas 400 termes de la suite. Cela fait beaucoup de calculs mais en plus, certains sont faits plusieurs fois. En effet, lorqu'on calcule $`z^2`$ on calcule en réalité $`x^2 - y^2`$ et $`2xy`$ (si on note $`z=x+yi`$). De plus on vérifie à chaque fois si $`abs(z)\geq 2`$ or ce calcul est très gourmand car il faut calculer $`\sqrt{x^2+y^2}`$. Il est donc plus sage de vérifier simplement que $`x^2+y^2\geq 4`$ et on voit ainsi qu'on a intérêt à ne pas passer par les complexes mais plutôt faire soi-même les calculs des parties réelles et imaginaires.  
