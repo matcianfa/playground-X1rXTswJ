@@ -116,6 +116,9 @@ if __name__ == "__main__" :
 ```
 :::
 
+## Utilisation de Numpy pour vectoriser
+
+@[Utilisation de Numpy]({"stubs": ["Optimisation/mandelbrot_numpy.py.py"], "command": "python3 Optimisation/mandelbrot_numpy.py.py"})
 
 
 ## brouillon
