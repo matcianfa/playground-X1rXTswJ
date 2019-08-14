@@ -97,6 +97,8 @@ En voici la preuve :
 
 Si j'ai bien compris, Numba traduit plus ou moins le langage python pour directement traduire notre programme en code machine. Ce qui le rend, dans notre cas, aussi rapide que des langages comme le C. Malheureusement la magie n'opère pas toujours car certaines fonctions sont propres au langage python (les listes en compréhension par exemple) mais en tout cas cela marche très bien avec les fonctions de bases et numpy pour peu que cela soit fait proprement. 
 
+---
+
 ## Vectorisation en utilisant numpy et numba
 
 On peut encore gagner un peu en vitesse en combinant l'utilisation des tableaux numpy et numba. Pour cela il va falloir vectoriser notre fonction `mandelbrot` pour qu'elle s'applique à chaque élément d'un tableau numpy directement. De plus, cela nous permet de préciser les types des entrées et des sorties ce qui permet d'économiser encore du temps. Voici à quoi cela peut ressembler : 
@@ -104,6 +106,8 @@ On peut encore gagner un peu en vitesse en combinant l'utilisation des tableaux 
 ::: Dérouler pour voir les modifications
 @[Utilisation de Numpy et Numba]({"stubs": ["Optimisation/mandelbrot_numpy_numba.py"], "command": "python3 Optimisation/mandelbrot_numpy_numba.py"})
 :::
+
+---
 
 ## Peaufinage
 
@@ -118,6 +122,8 @@ Si on modifie le programme précédent pour y ajouter ces deux remarques, on obt
 ::: Dérouler pour voir les modifications
 @[Peaufinage]({"stubs": ["Optimisation/mandelbrot_peaufinage.py"], "command": "python3 Optimisation/mandelbrot_peaufinage.py"})
 :::
+
+---
 
 ## Conclusion
 
