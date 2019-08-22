@@ -1,5 +1,5 @@
 #Ne pas oublier de changer le module à importer
-from Prise_en_main_Exo_1 import mon_programme
+from Prise_en_main_Exo_1 import mon_fonction
 import sys
 import io
 
