@@ -73,8 +73,8 @@ while k < 6 :
 ?[Que va afficher ce programme (les `/` remplacent ici un retour à la ligne)? ]
 -[ ] 0 / 2 / 4 
 -[ ] 0 / 1 / 2 / 3 / 4 / 5 
--[ ] 0 / 2 / 4 / 6
--[x] 2 / 4  
+-[x] 2 / 4 / 6
+-[ ] 2 / 4  
 
 ---
 
