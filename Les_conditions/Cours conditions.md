@@ -230,8 +230,6 @@ On prendra comme conditions les suivantes :
 
 > Sortie : L'état de l'eau à cette température parmi les trois possibilités : "SOLIDE", "LIQUIDE" ou "GAZEUX".
 
-Quand on demande d'afficher, c'est avec `print`.
-
 @[Afficher le plus grand des deux]({"stubs": ["Les_conditions/Etat_eau.py"], "command": "python3 Les_conditions/Etat_eau_Test.py"})
 
 ---
