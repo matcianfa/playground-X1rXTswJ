@@ -121,10 +121,10 @@ print(quotient(1.7,2.5))
 
 ###### Programme 3  : Calcul de l'aire d'un triangle
 ```python runnable
-def volume(base,hauteur):
+def aire(base,hauteur):
     return base*hauteur/2 
     
-volume(1.7,2.5)
+aire(1.7,2.5)
 ```
 
 ---
