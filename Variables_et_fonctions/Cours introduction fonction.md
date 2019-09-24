@@ -102,7 +102,7 @@ Pour chacun des programmes de cette partie, il y a exactement une erreur qu'il f
 ###### Programme 1  : Calcul d'un carré
 ```python runnable
 def carré(x):
-return(x**2)
+return x**2 
     
 print(carré(1.7))
 ```
@@ -112,7 +112,7 @@ print(carré(1.7))
 ###### Programme 2  : Calcul d'un quotient
 ```python runnable
 def quotient(x,y)
-    return(x/y)
+    return x/y 
     
 print(quotient(1.7,2.5))
 ```
@@ -122,7 +122,7 @@ print(quotient(1.7,2.5))
 ###### Programme 3  : Calcul de l'aire d'un triangle
 ```python runnable
 def volume(base,hauteur):
-    return(base*hauteur/2)
+    return base*hauteur/2 
     
 volume(1.7,2.5)
 ```
@@ -135,7 +135,7 @@ volume(1.7,2.5)
 
 Ecrire une fonction qu'on nommera `f` qui prend en entrée un nombre ***x*** et qui renvoie le résultat de ***3x²+4x-5***
 
-@[Calcul de l'inverse d'un nombre]({"stubs": ["Les_fonctions/Calcul_valeur.py"], "command": "python3 Les_fonctions/Calcul_valeur_Test.py"})
+@[Calcul de la valeur d'une fonction]({"stubs": ["Les_fonctions/Calcul_valeur.py"], "command": "python3 Les_fonctions/Calcul_valeur_Test.py"})
 
 ---
 
@@ -143,6 +143,6 @@ Ecrire une fonction qu'on nommera `f` qui prend en entrée un nombre ***x*** et 
 
 Ecrire une fonction qu'on nommera `volume` qui prend en entrée trois nombres ***longueur***, ***largeur*** et ***hauteur*** (dans cet ordre) et qui renvoie le volume d'un pavé droit dont les dimensions sont ces trois nombres.
 
-@[Calcul de l'inverse d'un nombre]({"stubs": ["Les_fonctions/Calcul_volume.py"], "command": "python3 Les_fonctions/Calcul_volume_Test.py"})
+@[Calcul du volume d'un pavé]({"stubs": ["Les_fonctions/Calcul_volume.py"], "command": "python3 Les_fonctions/Calcul_volume_Test.py"})
 
 ---
