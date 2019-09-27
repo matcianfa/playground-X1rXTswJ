@@ -56,7 +56,7 @@ Une dernière remarque très importante : fixer une bonne fois pour toute l'endr
 
 ### Comment voir ce qu'on a capturé ?
 
-Petite sous partie pas indispensable mais utile tout de même car il est toujours important de vérifier qu'on envoit bien les bonnes données à notre IA avant de se lancer dedans.
+Petite sous partie pas indispensable mais utile tout de même car il est toujours important de vérifier qu'on envoie bien les bonnes données à notre IA avant de se lancer dedans.
 
 Pour les jeux relativement statiques comme par exemple les 7 différences, un sudoku, un labyrinthe, ou même le memory... , on prend seulement une image au début ou peut-être quelques autres ensuite mais le nombre est faible. Dans ce cas, le plus simple est d'enregistrer les images (comme dans l'exemple précédent) et visualiser à la main (en les ouvrant) que l'image est bien celle qu'on veut (après traitement).
 
