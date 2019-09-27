@@ -29,7 +29,7 @@ L'avantage des jeux mobiles ou facebook c'est qu'ils sont en général assez sim
 
 L'idée est simple : On fait des captures d'écran. Pour cela, on peut utiliser  ImageGrab de la bibliothèque PIL.
 
-PIL est un bibliothèque classique, elle est souvent déjà installée. Si ce n'est pas le cas, il suffit de taper sur la ligne de commande `pip install PIL` (ou bien dans EDUpython d'aller dans le menu Outils> Outils> Installation d'un nouveau module)
+PIL est une bibliothèque classique, elle est souvent déjà installée. Si ce n'est pas le cas, il suffit de taper sur la ligne de commande `pip install PIL` (ou bien dans EDUpython d'aller dans le menu Outils> Outils> Installation d'un nouveau module)
 
 ::: Exemple d'utilisation :
 
