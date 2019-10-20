@@ -50,6 +50,8 @@ plan:
   plan:
   - title: Introduction
     statement: Seconde/presentation.md
+  - title: Début d'année
+    statement: Seconde/Troisieme.md
 - title: Travaux Pratiques de Seconde
   plan:
   - title: Introduction
