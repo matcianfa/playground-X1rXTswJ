@@ -52,6 +52,8 @@ def tester(txt,glb=globals()):
         print("En général, c'est soit une erreur de frappe soit que vous n'avez pas créé votre variable ou fonction avant de l'utiliser.",file=sys.stderr)
         print("TECHIO> success false")
         sys.exit()
+    except Exception as e:
+        exec(txt,glb)
 
 #Afficher la correction
 def afficher_correction(module):
