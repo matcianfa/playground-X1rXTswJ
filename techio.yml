@@ -46,7 +46,10 @@ plan:
     statement: Maths/Regression.md
   - title: Cours - Les classes en Python
     statement: Cours/Classes.md
-#- title: Classe de Seconde
+- title: Classe de Seconde
+  plan:
+  - title: Introduction
+    statement: Seconde/presentation.md
 - title: Travaux Pratiques de Seconde
   plan:
   - title: Introduction
