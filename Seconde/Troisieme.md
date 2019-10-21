@@ -17,6 +17,19 @@ Créer un programme qui donne le prix total payé par Léa en fonction du nombre
 
 ---
 
+## Exercice n° : Fréquence cardiaque maximale
+`Difficulté : Très facile`
+
+La fréquence cardiaque maximale (FCM) est le rythme que le cœur humain d'une personne donnée atteint lors des plus fortes sollicitations. On pourra trouver de plus amples informations [ici](https://fr.wikipedia.org/wiki/Fr%C3%A9quence_cardiaque_maximale) .
+
+On peut y lire que la formule qui semble la plus proche de la réalité est donnée par $`FCM = 191,5-0,007*age^2`$.
+
+Créer un programme qui prend en entrée l'age et renvoie la valeur de la FCM.
+
+@[FCM]({"stubs": ["Seconde/Debut/fcm.py"], "command": "python3 Seconde/Debut/fcm_Test.py"})
+
+---
+
 # Exercice n° : Périmètre et aire d'un polygone régulier
 `Difficulté : Facile`
 
