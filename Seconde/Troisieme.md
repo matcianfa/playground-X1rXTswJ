@@ -194,3 +194,164 @@ Ce code affichera "ISOCELE" pour un triangle equilatéral car la condition isoc�
 
 ---
 
+## Exercice n° : Constante de Champernowne
+`Difficulté : Moyen`  
+`Notion utilisée :  Condition, boucle`
+
+On appelle constante de Champernowne le nombre 0.123456789101112131415161718192021... c'est à dire le nombre où on écrit tous les nombres à la suite les uns des autres. 
+
+Écrire un programme qui prend ***n*** en entrée et affiche la constante de Champernowne jusqu'au nombre ***n*** inclus.
+
+Par exemple si ***n***=3, il faut afficher 0.123.
+
+:::Aide
+On pourra utiliser l'astuce suivante : si on écrit `print("texte", end="")`, le programme n'ira pas à la ligne à chaque nouvel affichage et on pourra ainsi afficher tous les nombres d'affilée.
+:::
+
+> Entrée : Un entier ***n***
+
+> Sortie : la constante de Champernowne jusqu'au rang ***n***.
+
+@[Constante de Champernowne]({"stubs": ["Les_boucles/Champernowne.py"], "command": "python3 Les_boucles/Champernowne_Test.py"})
+
+---
+
+## Exercice n° : Nombres parfaits
+`Difficulté : Moyen`  
+`Notion utilisée :  Condition, boucle`
+
+Un nombre est dit parfait si il est égal à la somme de ses diviseurs stricts (c'est à dire des diviseurs strictement plus petit que lui même).
+
+Par exemple : 
+- Les diviseurs de 6 sont 1, 2, 3 et 6. La somme de ses diviseurs stricts est donc 1+2+3=6. Le nombre 6 est donc un nombre parfait.
+- Les diviseurs de 8 sont 1, 2, 4, 8. La somme de ses diviseurs stricts est donc 1+2+4=7. Le nombre 8 n'est donc pas parfait.
+
+Écrire un programme qui affiche si le nombre est parfait ou pas. 
+
+::: Aide 
+On utilisera le fait que d est un diviseur de n si et seulement si n%d==0.
+:::
+
+> Entrée : un nombre entier ***n***.
+
+> Sortie : "PARFAIT" si le nombre est parfait ou "PAS PARFAIT" sinon.
+
+@[Nombre Parfait ?]({"stubs": ["Les_boucles/Nombres_parfaits.py"], "command": "python3 Les_boucles/Nombres_parfaits_Test.py"})
+
+---
+
+## Exercice n° : Sommes de deux dés
+`Difficulté : Facile`  
+`Notion utilisée :  Condition, boucle`
+On s’intéresse au lancer de deux dés et plus précisément à la somme des résultats des deux dés. 
+
+Écrire un programme qui, pour un ***k*** donné, affiche le nombre de façons d'obtenir ***k*** en faisant la somme des résultats des deux dés. Par exemple si ***k***=5, il y a 4 façons d'obtenir 5 : 1+4, 2+3, 3+2, 4+1.
+
+> Entrée : Un entier ***k***.
+
+> Sortie : Le nombre de façons d'obtenir ***k*** en ajoutant les résultats du lancer de deux dés.
+
+@[Sommes de deux dés]({"stubs": ["Les_boucles/Somme_deux_dés.py"], "command": "python3 Les_boucles/Somme_deux_dés_Test.py"})
+
+---
+
+## Exercice n° : Sommes de trois dés
+`Difficulté : Facile`  
+`Notion utilisée :  Condition, boucle`
+
+On s’intéresse à présent au lancer de trois dés et plus précisément à la somme des résultats de ces trois dés. 
+
+Écrire un programme qui, pour un ***k*** donné, affiche le nombre de façons d'obtenir ***k*** en faisant la somme des résultats des trois dés. Par exemple si ***k***=4, il y a 3 façons d'obtenir 4 : 1+1+2, 1+2+1, 2+1+1
+
+> Entrée : Un entier ***k***.
+
+> Sortie : Le nombre de façons d'obtenir ***k*** en ajoutant les résultats du lancer de trois dés.
+
+@[Sommes de trois dés]({"stubs": ["Les_boucles/Somme_trois_dés.py"], "command": "python3 Les_boucles/Somme_trois_dés_Test.py"})
+
+---
+
+## Exercice n° : Vérifier si un nombre est premier I
+`Difficulté : Moyenne`  
+`Notion utilisée : Condition, boucle`
+
+Je rappelle qu'un nombre premier est un nombre qui a exactement 2 diviseurs qui sont 1 et lui même. Ainsi 2, 3 ,5 ,7, 11 sont des nombres premiers mais 4, 6, 9 n'en sont pas.
+
+Le but de cet exercice est de créer un algorithme qui nous dit si un nombre est premier ou pas.
+
+Etant donnée la définition, pour savoir si un nombre ***n*** est premier ou pas, on va tout simplement tester s'il est divisible par un des nombres compris entre 2 et ***n-1***. Dès qu'on trouve un diviseur, on affiche "PAS PREMIER" sinon on affiche "PREMIER".
+
+::: Aide
++ Je rappelle que pour savoir si un nombre ***d*** divise ***n***, il suffit de regarder si ***n%d==0***
++ Dès qu'on a trouvé un diviseur, on peut s'arrêter. On pourra utiliser break si on utilise un boucle `for`
++ N'oubliez pas que `return` arrête l'execution de la fonction.
+:::
+
+> Entrée : Un nombre ***n***
+
+> Sortie : "PREMIER" ou "PAS PREMIER"
+
+@[Nombre premier ?]({"stubs": ["Les_boucles/Nombre_premier1.py"], "command": "python3 Les_boucles/Nombre_premier1_Test.py"})
+
+---
+
+## Exercice n° : Vérifier si un nombre est premier II
+`Difficulté : Moyenne`  
+`Notion utilisée : Condition, boucle`
+
+La version précédente a quelques défauts facilement améliorables. 
+
+Le premier est que le programme vérifie si le nombre est divisible par tous les nombres pairs or s'il n'est pas divisible par 2, ça ne sert à rien de vérifier pour les autres.
+
+De plus, si ***n***=117 par exemple, c'est évident qu'il ne peut pas être divisible par 116, ni même 115 ou 114... car ces nombres sont trop grands. Par un petit raisonnement, on peut montrer qu'il ne sert à rien de chercher des diviseurs plus grands que $`\sqrt n`$
+
+Recopiez votre programme précédent ci-dessous et améliorez le en vous aidant des deux remarques précédentes.
+Avant de le modifier, lancer Run pour voir qu'il est trop lent pour passer les tests.
+
+:::Aide
++ Traitez le cas de 2 à part puis utilisez la possibilité de `range` d'aller de 2 en 2.
++ Python calcule très mal les racines carrées surtout pour les grands nombres donc dans la pratique, pour éviter les erreurs d'arrondi, il vaut mieux tester jusqu'à $`\sqrt(n) +1`$.
+:::
+
+> Entrée : Un nombre ***n***
+
+> Sortie : "PREMIER" ou "PAS PREMIER"
+
+@[Nombre premier ?]({"stubs": ["Les_boucles/Nombre_premier2.py"], "command": "python3 Les_boucles/Nombre_premier2_Test.py"})
+
+---
+
+## Exercice n° : Décomposition des entiers sous la forme $`impair.2^k`$
+`Difficulté : Moyenne`  
+`Notion utilisée : Boucle`
+
+Tout nombre entier ***n*** peut s'écrire $`n=m . 2^k`$ où ***m*** est un nombre impair. Pour ce faire, il suffit de diviser ***n*** par 2 autant que possible. Le résultat final est alors ***m*** et le nombre de fois où on a divisé par 2 nous donne ***k****. 
+
+Créer un programme qui donne la valeur de ***m*** et ***k*** pour un nombre entier ***n*** donné.
+
+> Entrée : Un entier ***n***.
+
+> Sortie : Les valeurs de ***m*** et ***k*** séparés par un espace.
+
+@[Décomposition d'un nombre]({"stubs": ["Les_boucles/Décomposition_d_un_nombre.py"], "command": "python3 Les_boucles/Décomposition_d_un_nombre_Test.py"})
+
+---
+
+## Exercice n° : Triplets pythagoriciens
+`Difficulté : Moyenne`  
+`Notion utilisée : Condition, boucle`
+
+On appelle un triplet pythagoricien trois nombres entiers ***a***, ***b*** et ***c*** vérifiant l'égalité de Pythagore : $`a^2+b^2=c^2`$.
+
+Écrire un programme qui prend en entrée le nombre ***c*** et qui donne le nombre de couples (***a***,***b***) vérifiant l'égalité de Pythagore.
+
+Par exemple, si ***c=1***, il y a deux couples qui conviennent : (1,0) et (0,1).
+
+> Entrée : Un entier ***c***.
+
+> Sortie: Le nombre de couples d'entiers (***a***,***b***) vérifiant l'égalité de Pythagore $`a^2+b^2=c^2`$.
+
+@[Triplets pythagoriciens]({"stubs": ["Les_boucles/triplets_pythagoriciens.py"], "command": "python3 Les_boucles/triplets_pythagoriciens_Test.py"})
+
+---
+
