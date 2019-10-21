@@ -52,10 +52,14 @@ plan:
     statement: Seconde/presentation.md
   - title: Début d'année
     statement: Seconde/Troisieme.md
+  - title: Les fonctions
+    statement: Seconde/Fonction.md
 - title: Travaux Pratiques de Seconde
   plan:
   - title: Introduction
     statement: TP/intro.md
+  - title: Mini défis
+    statement: TP/Mini_defis.md
   - title: Jeu du pendu
     statement: TP/Pendu.md
 - title: Classe de Première
@@ -112,28 +116,28 @@ plan:
     statement: Variables_et_fonctions/college.md
   - title: Exercices de niveau Seconde
     statement: Variables_et_fonctions/seconde.md 
-- title: Les conditions if... else...
-  plan:
-  - title: Introduction
-    statement: Les_conditions/Intro_conditions.md
+#- title: Les conditions if... else...
+#  plan:
+  #- title: Introduction
+  #  statement: Les_conditions/Intro_conditions.md
   #- title: Signe des valeurs d'une fonction
   #  statement: Les_conditions/Signe des valeurs d'une fonction.md
   #- title: Afficher si un nombre est pair
   #  statement: Les_conditions/Afficher si un nombre est pair.md
-  - title: Numéros de sécurité sociale
-    statement: Les_conditions/Numéro de sécurité sociale
+  #- title: Numéros de sécurité sociale
+  #  statement: Les_conditions/Numéro de sécurité sociale
   #- title: Nombre de racines d'un polynome du second degré
   #  statement: Les_conditions/Nombre de racines d'un polynome du second degré.md
-  - title: Conversion degré Celsius / degré Fahrenheit
-    statement: Les_conditions/Conversion Celsius Fahrenheit.md
-  - title: Dire si un triangle est rectangle
-    statement: Les_conditions/Dire si un triangle est rectangle.md
-  - title: Triangles constructibles
-    statement: Les_conditions/Triangles constructibles.md
-  - title: Donner la nature d'un triangle
-    statement: Les_conditions/Donner la nature d'un triangle.md
-  - title: Passage des coordonnées cartesiennes à polaire
-    statement: Les_conditions/Passage des coordonnées cartesiennes à polaire.md
+  #- title: Conversion degré Celsius / degré Fahrenheit
+  #  statement: Les_conditions/Conversion Celsius Fahrenheit.md
+  #- title: Dire si un triangle est rectangle
+  #  statement: Les_conditions/Dire si un triangle est rectangle.md
+  #- title: Triangles constructibles
+  #  statement: Les_conditions/Triangles constructibles.md
+  #- title: Donner la nature d'un triangle
+  #  statement: Les_conditions/Donner la nature d'un triangle.md
+  #- title: Passage des coordonnées cartesiennes à polaire
+  #  statement: Les_conditions/Passage des coordonnées cartesiennes à polaire.md
 - title: Les boucles
   plan:
   - title: Introduction
@@ -354,7 +358,7 @@ plan:
   #  statement: Autre/test.md
 projects:
   python:
-    buildCommand: pip install numpy matplotlib Pillow scipy numba
+    buildCommand: pip3 install numpy matplotlib Pillow numba scipy
     #buildCommand: echo 'export PYTHONPATH=/project/target/modules' >> /root/.profile; echo 'export PYTHONPATH=$PYTHONPATH:/project/target/modules' >> /root/.bashrc;. ~/.bashrc
     #buildCommand: cp -r /project/target/modules/* /usr/local/lib/python3.7/site-packages #Pour copier directement les modules au lieu de les importer mais problemes de versions...
     root: /python-project
