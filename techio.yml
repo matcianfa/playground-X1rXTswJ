@@ -108,14 +108,14 @@ plan:
     statement: Maths/Monte Carlo.md
   - title: Simulation de l'Euromillion
     statement: TP/euromillion.md
-- title: Variables et fonctions mathématiques
-  plan:
-  - title: Introduction
-    statement: Variables_et_fonctions/Intro_variables.md
-  - title: Exercices de niveau Collège au plus
-    statement: Variables_et_fonctions/college.md
-  - title: Exercices de niveau Seconde
-    statement: Variables_et_fonctions/seconde.md 
+#- title: Variables et fonctions mathématiques
+#  plan:
+#  - title: Introduction
+#   statement: Variables_et_fonctions/Intro_variables.md
+#  - title: Exercices de niveau Collège au plus
+#    statement: Variables_et_fonctions/college.md
+#  - title: Exercices de niveau Seconde
+#    statement: Variables_et_fonctions/seconde.md 
 #- title: Les conditions if... else...
 #  plan:
   #- title: Introduction
@@ -358,7 +358,7 @@ plan:
   #  statement: Autre/test.md
 projects:
   python:
-    buildCommand: pip3 install numpy matplotlib Pillow numba scipy
+    buildCommand: pip3 install numpy matplotlib Pillow numba #scipy
     #buildCommand: echo 'export PYTHONPATH=/project/target/modules' >> /root/.profile; echo 'export PYTHONPATH=$PYTHONPATH:/project/target/modules' >> /root/.bashrc;. ~/.bashrc
     #buildCommand: cp -r /project/target/modules/* /usr/local/lib/python3.7/site-packages #Pour copier directement les modules au lieu de les importer mais problemes de versions...
     root: /python-project
