@@ -2,20 +2,6 @@
 
 Voici des exercices sur le chapitre Variables et fonctions mathématiques qui peuvent se résoudre avec des connaissances de collège au plus.
 
-# Prix total
-`Difficulté : Très facile`
-
-Léa va régulièrement acheter toujours les mêmes bonbons : des fraises à 0.04 euros l'unité et des réglisses à 0.07 euros l'unité.  
-Créer un programme qui donne le prix total payé par Léa en fonction du nombre ***a*** de fraises et ***b*** de réglisses achetés.
-
-> Entrée : Le nombre ***a*** de fraises et ***b*** de réglisses achetés.
-
-> Sorties : le prix payé par Léa.
-
-@[Ticket de caisse]({"stubs": ["Variables_et_fonctions/Bonbons.py"], "command": "python3 Variables_et_fonctions/Bonbons_Test.py"})
-
----
-
 # Paires de chaussettes
 `Difficulté : Très Facile`  
 `Origine :` [`Hackerrank`](https://www.hackerrank.com/challenges/maximum-draws/problem)
