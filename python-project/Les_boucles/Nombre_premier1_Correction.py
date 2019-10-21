@@ -5,6 +5,4 @@ def ma_fonction(n):
         for d in range(2,n):
             if n%d==0:
                 return 'PAS PREMIER'
-                break
-        else:
-            return 'PREMIER'
+        return 'PREMIER'
