@@ -3,7 +3,7 @@
 Cette page est un peu particulière, elle regroupe des exercices demandant une programmation en python utilisant des notions de seconde en python mais un niveau troisième maximum en mathématique. 
 
 
-## Exercice n° : Prix total
+## Exercice n° 1: Prix total
 `Difficulté : Très facile`
 
 Léa va régulièrement acheter toujours les mêmes bonbons : des fraises à 0.04 euros l'unité et des réglisses à 0.07 euros l'unité.  
@@ -17,7 +17,7 @@ Créer un programme qui donne le prix total payé par Léa en fonction du nombre
 
 ---
 
-## Exercice n° : Fréquence cardiaque maximale
+## Exercice n° 2: Fréquence cardiaque maximale
 `Difficulté : Très facile`
 
 La fréquence cardiaque maximale (FCM) est le rythme que le cœur humain d'une personne donnée atteint lors des plus fortes sollicitations. On pourra trouver de plus amples informations [ici](https://fr.wikipedia.org/wiki/Fr%C3%A9quence_cardiaque_maximale) .
@@ -30,7 +30,7 @@ Créer un programme qui prend en entrée l'age et renvoie la valeur de la FCM.
 
 ---
 
-# Exercice n° : Périmètre et aire d'un polygone régulier
+# Exercice n° 3: Périmètre et aire d'un polygone régulier
 `Difficulté : Facile`
 
 Le but de cet exercice est de créer un programme qui, pour un nombre ***n***, donne le périmètre et l'aire du polygone régulier convexe à ***n*** côtés inscrit dans un cercle de rayon 1.
@@ -51,7 +51,7 @@ Entre autre, on a les propriétés suivantes :
 
 ---
 
-## Exercice n° : Coefficient directeur d'une droite (AB)
+## Exercice n° 4: Coefficient directeur d'une droite (AB)
 `Difficulté : Très facile`  
 
 Créer une fonction qui prend en entrée les valeurs xA, yA, xB et yB et renvoie en sortie le coefficient directeur de la droite (AB) avec A et B de coordonnées respectives (xA,yA) et (xB,yB).
@@ -64,7 +64,7 @@ Créer une fonction qui prend en entrée les valeurs xA, yA, xB et yB et renvoie
 
 ---
 
-## Exercice n° : Afficher si un nombre est pair
+## Exercice n° 5: Afficher si un nombre est pair
 `Difficulté : Très facile`  
 `Notion utilisée : Condition`
 
@@ -82,7 +82,7 @@ Pour vérifier si un entier ***n*** est divisible par un entier ***k***, il suff
 
 ---
 
-## Exercice n° : Radars routiers
+## Exercice n° 6: Radars routiers
 `Difficulté : Très facile`  
 `Notion utilisée : Condition`
 
@@ -99,7 +99,7 @@ Créer un programme qui prend en entrée la vitesse mesurée `v` et renvoie la v
 
 ---
 
-## Exercice n° : Numéro de sécurité sociale
+## Exercice n° 7: Numéro de sécurité sociale
 `Difficulté : Facile`  
 `Notion utilisée : Condition`
 
@@ -128,7 +128,7 @@ Le but est de créer un programme qui prend en entrée le ***numéro*** de sécu
 
 ---
 
-## Exercice n° : Conversion degré Celsius <-> degré Fahrenheit
+## Exercice n° 8: Conversion degré Celsius <-> degré Fahrenheit
 `Difficulté : Facile`
 `Notion utilisée : Condition`
 
@@ -146,7 +146,7 @@ Pour les formules, on regardera [Wikipédia](https://fr.wikipedia.org/wiki/Degr%
 
 ---
 
-## Exercice n° : Dire si un triangle est rectangle I
+## Exercice n° 9: Dire si un triangle est rectangle I
 `Difficulté : Très facile`  
 `Notion utilisée :  Condition`
 
@@ -160,7 +160,7 @@ Faire un programme qui affiche si un triangle dont on donne les angles est recta
 
 ---
 
-## Exercice n° : Dire si un triangle est rectangle II
+## Exercice n° 10: Dire si un triangle est rectangle II
 `Difficulté : Très facile`  
 `Notion utilisée :  Condition`
 
@@ -174,7 +174,7 @@ Faire un programme qui affiche si un triangle dont on donne les longueurs est re
 
 ---
 
-## Exercice n° : Triangles constructibles
+## Exercice n° 11: Triangles constructibles
 `Difficulté : Facile à moyen`  
 `Notion utilisée :  Condition`
 
@@ -194,7 +194,7 @@ Le but de cet exercice est de créer un programme qui nous dit si le triangle es
 
 ---
 
-## Donner la nature d'un triangle
+## Exercice n°12 : Donner la nature d'un triangle
 `Difficulté : Difficile`  
 `Notion utilisée :  Condition`
 
@@ -224,7 +224,7 @@ Ce code affichera "ISOCELE" pour un triangle equilatéral car la condition isoc�
 
 ---
 
-## Exercice n° : Constante de Champernowne
+## Exercice n°13 : Constante de Champernowne
 `Difficulté : Moyen`  
 `Notions utilisées :  Condition, boucle`
 
@@ -246,7 +246,7 @@ On pourra utiliser l'astuce suivante : si on écrit `print("texte", end="")`, le
 
 ---
 
-## Exercice n° : Nombres parfaits
+## Exercice n°14 : Nombres parfaits
 `Difficulté : Moyen`  
 `Notions utilisées :  Condition, boucle`
 
@@ -270,7 +270,7 @@ On utilisera le fait que d est un diviseur de n si et seulement si n%d==0.
 
 ---
 
-## Exercice n° : Sommes de deux dés
+## Exercice n°15 : Sommes de deux dés
 `Difficulté : Facile`  
 `Notions utilisées :  Condition, boucle`
 On s’intéresse au lancer de deux dés et plus précisément à la somme des résultats des deux dés. 
@@ -285,7 +285,7 @@ On s’intéresse au lancer de deux dés et plus précisément à la somme des r
 
 ---
 
-## Exercice n° : Sommes de trois dés
+## Exercice n°16 : Sommes de trois dés
 `Difficulté : Facile`  
 `Notions utilisées :  Condition, boucle`
 
@@ -301,7 +301,7 @@ On s’intéresse à présent au lancer de trois dés et plus précisément à l
 
 ---
 
-## Exercice n° : Vérifier si un nombre est premier I
+## Exercice n°17 : Vérifier si un nombre est premier I
 `Difficulté : Moyenne`  
 `Notions utilisées : Condition, boucle`
 
@@ -325,7 +325,7 @@ Etant donnée la définition, pour savoir si un nombre ***n*** est premier ou pa
 
 ---
 
-## Exercice n° : Vérifier si un nombre est premier II
+## Exercice n°18 : Vérifier si un nombre est premier II
 `Difficulté : Moyenne`  
 `Notions utilisées : Condition, boucle`
 
@@ -351,7 +351,7 @@ Avant de le modifier, lancer Run pour voir qu'il est trop lent pour passer les t
 
 ---
 
-## Exercice n° : Décomposition des entiers sous la forme $`impair.2^k`$
+## Exercice n°19 : Décomposition des entiers sous la forme $`impair.2^k`$
 `Difficulté : Moyenne`  
 `Notion utilisée : Boucle`
 
@@ -367,7 +367,7 @@ Créer un programme qui donne la valeur de ***m*** et ***k*** pour un nombre ent
 
 ---
 
-## Exercice n° : Triplets pythagoriciens
+## Exercice n°20 : Triplets pythagoriciens
 `Difficulté : Moyenne`  
 `Notions utilisées : Condition, boucle`
 
