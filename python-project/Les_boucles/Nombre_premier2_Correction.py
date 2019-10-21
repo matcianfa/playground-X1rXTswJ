@@ -7,6 +7,5 @@ def ma_fonction(n):
         for d in range(3,int(sqrt(n))+1,2):
             if n%d==0:
                 return 'PAS PREMIER'
-                break
-        else:
-            return 'PREMIER'
+        return 'PREMIER'
+    
