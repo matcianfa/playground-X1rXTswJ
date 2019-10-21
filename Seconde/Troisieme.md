@@ -69,6 +69,23 @@ Pour vérifier si un entier ***n*** est divisible par un entier ***k***, il suff
 
 ---
 
+## Exercice n° : Radars routiers
+`Difficulté : Très facile`  
+`Notion utilisée : Condition`
+
+Les radars routiers permettent de mesurer la vitesse d'un véhicule et le verbaliser s'il dépasse la limite autorisée. On pourra trouver [ici](https://fr.wikipedia.org/wiki/Radar_Doppler) leur fonctionnement. Comme pour toute mesure, il y a un des incertitudes. C'est pour cela que la loi prévoit que pour toute mesure faite par un radar fixe, on doit retirer 5km/h à la vitesse mesurée si elle est inférieure à 100 km/h et 5% si elle est supérieure à 100 km/h. Le résultat est la vitesse retenue pour le véhicule pour savoir si elle dépasse la limitation de vitesse.  
+Ainsi, pour une vitesse mesurée de 60 km/h, on retiendra comme vitesse 55 km/h et pour une vitesse mesurée de 110 km/h, on retiendra une vitesse de 104,5 km/h.
+
+Créer un programme qui prend en entrée la vitesse mesurée `v` et renvoie la vitesse retenue pour la verbalisation.
+
+> Entrée : La vitesse ***v***
+
+> Sortie : La vitesse retenue après retrait de la marge d'erreur prévue par la loi.
+
+@[Radars routiers]({"stubs": ["Seconde/Debut/radars.py"], "command": "python3 Seconde/Debut/radars_Test.py"})
+
+---
+
 ## Exercice n° : Numéro de sécurité sociale
 `Difficulté : Facile`  
 `Notion utilisée : Condition`
@@ -196,7 +213,7 @@ Ce code affichera "ISOCELE" pour un triangle equilatéral car la condition isoc�
 
 ## Exercice n° : Constante de Champernowne
 `Difficulté : Moyen`  
-`Notion utilisée :  Condition, boucle`
+`Notions utilisées :  Condition, boucle`
 
 On appelle constante de Champernowne le nombre 0.123456789101112131415161718192021... c'est à dire le nombre où on écrit tous les nombres à la suite les uns des autres. 
 
@@ -218,7 +235,7 @@ On pourra utiliser l'astuce suivante : si on écrit `print("texte", end="")`, le
 
 ## Exercice n° : Nombres parfaits
 `Difficulté : Moyen`  
-`Notion utilisée :  Condition, boucle`
+`Notions utilisées :  Condition, boucle`
 
 Un nombre est dit parfait si il est égal à la somme de ses diviseurs stricts (c'est à dire des diviseurs strictement plus petit que lui même).
 
@@ -242,7 +259,7 @@ On utilisera le fait que d est un diviseur de n si et seulement si n%d==0.
 
 ## Exercice n° : Sommes de deux dés
 `Difficulté : Facile`  
-`Notion utilisée :  Condition, boucle`
+`Notions utilisées :  Condition, boucle`
 On s’intéresse au lancer de deux dés et plus précisément à la somme des résultats des deux dés. 
 
 Écrire un programme qui, pour un ***k*** donné, affiche le nombre de façons d'obtenir ***k*** en faisant la somme des résultats des deux dés. Par exemple si ***k***=5, il y a 4 façons d'obtenir 5 : 1+4, 2+3, 3+2, 4+1.
@@ -257,7 +274,7 @@ On s’intéresse au lancer de deux dés et plus précisément à la somme des r
 
 ## Exercice n° : Sommes de trois dés
 `Difficulté : Facile`  
-`Notion utilisée :  Condition, boucle`
+`Notions utilisées :  Condition, boucle`
 
 On s’intéresse à présent au lancer de trois dés et plus précisément à la somme des résultats de ces trois dés. 
 
@@ -273,7 +290,7 @@ On s’intéresse à présent au lancer de trois dés et plus précisément à l
 
 ## Exercice n° : Vérifier si un nombre est premier I
 `Difficulté : Moyenne`  
-`Notion utilisée : Condition, boucle`
+`Notions utilisées : Condition, boucle`
 
 Je rappelle qu'un nombre premier est un nombre qui a exactement 2 diviseurs qui sont 1 et lui même. Ainsi 2, 3 ,5 ,7, 11 sont des nombres premiers mais 4, 6, 9 n'en sont pas.
 
@@ -297,7 +314,7 @@ Etant donnée la définition, pour savoir si un nombre ***n*** est premier ou pa
 
 ## Exercice n° : Vérifier si un nombre est premier II
 `Difficulté : Moyenne`  
-`Notion utilisée : Condition, boucle`
+`Notions utilisées : Condition, boucle`
 
 La version précédente a quelques défauts facilement améliorables. 
 
@@ -339,7 +356,7 @@ Créer un programme qui donne la valeur de ***m*** et ***k*** pour un nombre ent
 
 ## Exercice n° : Triplets pythagoriciens
 `Difficulté : Moyenne`  
-`Notion utilisée : Condition, boucle`
+`Notions utilisées : Condition, boucle`
 
 On appelle un triplet pythagoricien trois nombres entiers ***a***, ***b*** et ***c*** vérifiant l'égalité de Pythagore : $`a^2+b^2=c^2`$.
 
