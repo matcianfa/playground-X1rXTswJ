@@ -358,7 +358,7 @@ plan:
   #  statement: Autre/test.md
 projects:
   python:
-    buildCommand: pip3 install numpy;pip3 install matplotlib Pillow numba #scipy
+    buildCommand: pip3 install numpy;pip3 install matplotlib Pillow llvmlite numba #scipy
     #buildCommand: echo 'export PYTHONPATH=/project/target/modules' >> /root/.profile; echo 'export PYTHONPATH=$PYTHONPATH:/project/target/modules' >> /root/.bashrc;. ~/.bashrc
     #buildCommand: cp -r /project/target/modules/* /usr/local/lib/python3.7/site-packages #Pour copier directement les modules au lieu de les importer mais problemes de versions...
     root: /python-project
