@@ -116,10 +116,10 @@ plan:
   plan:
   - title: Introduction
     statement: Les_conditions/Intro_conditions.md
-  - title: Signe des valeurs d'une fonction
-    statement: Les_conditions/Signe des valeurs d'une fonction.md
-  - title: Afficher si un nombre est pair
-    statement: Les_conditions/Afficher si un nombre est pair.md
+  #- title: Signe des valeurs d'une fonction
+  #  statement: Les_conditions/Signe des valeurs d'une fonction.md
+  #- title: Afficher si un nombre est pair
+  #  statement: Les_conditions/Afficher si un nombre est pair.md
   - title: Numéros de sécurité sociale
     statement: Les_conditions/Numéro de sécurité sociale
   #- title: Nombre de racines d'un polynome du second degré
@@ -354,7 +354,7 @@ plan:
   #  statement: Autre/test.md
 projects:
   python:
-    buildCommand: pip3 install numpy matplotlib Pillow scipy numba
+    buildCommand: pip install numpy matplotlib Pillow scipy numba
     #buildCommand: echo 'export PYTHONPATH=/project/target/modules' >> /root/.profile; echo 'export PYTHONPATH=$PYTHONPATH:/project/target/modules' >> /root/.bashrc;. ~/.bashrc
     #buildCommand: cp -r /project/target/modules/* /usr/local/lib/python3.7/site-packages #Pour copier directement les modules au lieu de les importer mais problemes de versions...
     root: /python-project
