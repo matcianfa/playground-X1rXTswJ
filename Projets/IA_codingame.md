@@ -25,7 +25,7 @@ Il est important de fixer des objectifs (quitte à les faire évoluer si les él
 ## Les spécificités de Codingame
 
 Une des particularités de tous les puzzles présents sur Codingame est le fait que les données d'entrée sont obtenues via la fonction `input`. Prenons comme exemple le premier puzzle qu'on résout sur Codingame et qui s'appelle Onboarding.
-Voici l'énoncé : ![Enoncé]("Onboarding enonce.png")
+Voici l'énoncé : ![Enoncé]("Onboarding_enonce.png")
 
 
 
