@@ -278,7 +278,7 @@ plan:
   plan:
   - title: Combats d'IA
     statement: Projets/IA_codingame.md
-  - title: Exemple : Code à la mode
+  - title: Exemple avec Code à la mode
     statement: Projets/Code_a_la_mode.md
   - title: IA et jeux sur mobiles
     statement: Projets/IA_de_jeux.md
