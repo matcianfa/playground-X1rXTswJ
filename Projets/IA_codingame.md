@@ -22,3 +22,6 @@ Une fois le jeu choisi :
 
 Il est important de fixer des objectifs (quitte à les faire évoluer si les élèves le souhaitent) car une fois atteint, on peut considérer le projet terminé sinon on peut vite s'enliser dans des idées d'IA qui ne peuvent pas aboutir. Et le seul moyen de réellement progresser dans le classement est de sortir de l'artillerie lourde d'un point de vue théorique que les élèves ne pourront pas forcément assimiler.
 
+## Les spécificités de Codingame
+
+gestion inputs, messages d'erreur 
