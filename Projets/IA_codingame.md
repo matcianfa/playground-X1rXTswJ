@@ -24,11 +24,21 @@ Il est important de fixer des objectifs (quitte à les faire évoluer si les él
 
 ## Les spécificités de Codingame
 
-Une des particularités de tous les puzzles présents sur Codingame est le fait que les données d'entrée sont obtenues via la fonction `input`. Prenons comme exemple le premier puzzle qu'on résout sur Codingame et qui s'appelle Onboarding.
-Voici l'énoncé : ![Enoncé](Onboarding_enonce.png)
+Une des particularités de tous les puzzles présents sur Codingame est le fait que les données d'entrée sont obtenues via la fonction `input()`. Prenons comme exemple le premier puzzle qu'on résout sur Codingame et qui s'appelle Onboarding. Voici une capture d'écran : 
 
+![Enoncé](Onboarding.png)
 
+Sur la gauche se trouve l'énoncé où figure en particulier les entrées (celles qu'on récupère avec la fonction `input()`) et les sorties que l'on doit renvoyer avec `print`.
+Sur la droite se trouve en haut la zone où on tape notre code et en dessous les boutons pour lancer des tests sur notre code. Quand celui ci semble fonctionner sur tous les tests, on le soumet pour avoir notre score.
 
+On peut voir sur cet exemple comment fonctionne la récupération des entrées : L'énoncé nous annonce qu'à chaque tour de jeu, nous sont donnés 4 variables : enemy_1, dist_1, enemy_2 et dist_2. Pour les récupérer et pouvoir les utiliser, chaque appel de `input()` nous donnera la variable suivante. Autrement dit le premier appel nous donne la première etc.
 
+Une remarque importante : Le résultat d'`input()` est toujours une chaine de caractères. Pour la traduire en nombre (comme pour dist_1 et dist_2) on lui applique `int` (qui traduit en entier) ou `float` (si on veut un flottant).  
+Quelques fois la donnée en entrée représente une ligne d'un tableau sous la forme "1 2 3" par exemple. Pour la transformer en une liste ["1", "2", "3"], il suffit d'utiliser `input().split()`.
 
-gestion inputs, messages d'erreur 
+Autre remarque importante : Pour débugguer, on a besoin d'afficher certaines variables. Si on le fait avec `print` directement cela va interférer avec ce qui est attendu par le programme comme réponse. Pour contourner cela, on va afficher ce que l'on souhaite mais sur le canal des erreurs. Pour cela, il faut modifier un peu notre fonction `print` sous la forme : `print("Debug messages...", file=sys.stderr)` (C'est ce qui est rappelé systématiquement en commentaire dans le code de base de chaque puzzle comme on peut le voir sur la capture d'écran précédente).  
+Ainsi si je veux afficher à chaque tour de jeu le nom et la distance du premier ennemi, j'écrirais `print(enemy_1,dist_1,file = sys.stderr)` ce qui aura pour effet de les afficher en rouge dans la console.
+
+## Un peu d'aide 
+
+Ce n'est pas toujours facile de se lancer dans un combat d'IA la première fois car il y a beaucoup plus d'entrées que dans les puzzles d'entrainement et cela demande du recul pour savoir comment bien les gérer. C'est pour cela que vous pourrez trouver des kits de démarrage pour certains combats d'IA dans les pages qui suivent. Le but étant de mettre à disposition une gestion des entrées plus lisible grace à des fonctions ou des classes plus parlantes. Pour les combats d'IA les plus récents, des kits de démarrage sont accessibles via la page de présentation.
