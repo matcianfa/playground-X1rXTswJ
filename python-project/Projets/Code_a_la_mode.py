@@ -3,7 +3,7 @@ import sys
 import math
 
 
-# ------------- Les fonctions ucases
+# ------------- Les fonctions utiles
 def log(*x):
     """
     Permet d'afficher des données ucases comme un message d'erreur (et donc qui ne sera pas considéré comme une réponse)
