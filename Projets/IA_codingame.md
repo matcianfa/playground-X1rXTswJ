@@ -1,4 +1,4 @@
-# Projet : Combat d'intelligence artificielles sur Codingame
+# Projet : Combat d'intelligences artificielles sur Codingame
 
 L'idée de ce projet est de proposer aux élèves de créer des intelligences artificielles pour jouer à un jeu contre d'autres intelligences artificielles. Pour cela on peut utiliser le site [codingame](https://www.codingame.com/multiplayer/bot-programming) qui propose une section de combat de bots extrêmement bien faite et qui, en plus, est en français.
 
