@@ -266,7 +266,7 @@ print("ch" in texte)
 print("chant" in texte)
 print("Un chien" in texte)
 print("r s" in texte)
-print("u" in texte)
+print("un" in texte)
 ```  
 ?[Cochez les cases correspondant au numéro des lignes qui vont afficher True ]
 -[x] 2
