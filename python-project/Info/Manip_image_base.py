@@ -2,7 +2,7 @@ from PIL import Image, ImageDraw
 import numpy as np
 
 # On charge l'image et on la transforme en tableau contenant les couleurs
-image_entrée = Image.open("C:\\Users\\MC\\Downloads\\Lenna.png")
+image_entrée = Image.open("Lenna.png")
 image = np.asarray(image_entrée)
 
 # On crée notre image de sortie (ici on fait juste une copie de l'image originale)
