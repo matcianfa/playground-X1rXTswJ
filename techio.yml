@@ -108,6 +108,10 @@ plan:
     statement: Maths/Monte Carlo.md
   - title: Simulation de l'Euromillion
     statement: TP/euromillion.md
+- title: Moins de maths, plus d'info
+  plan:
+  - title: Manipulations d'images
+    statement: Info/manipulations_images.md
 - title: Chaines de caractères
   plan:
   - title: Introduction
