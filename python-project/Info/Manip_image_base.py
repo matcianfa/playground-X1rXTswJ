@@ -10,5 +10,5 @@ image_sortie =Image.fromarray(image)
 
 # On sauvegarde les images pour pouvoir les afficher
 Image.fromarray(image).save("image_entrée.png")
-image_sortie.save("image_modifiée.png")
+image_sortie.save("image_sortie.png")
 
