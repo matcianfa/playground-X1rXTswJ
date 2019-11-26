@@ -8,4 +8,4 @@ Remarque : De base, on charge la photo [Lenna](https://en.wikipedia.org/wiki/Len
 
 Juste quelques mots sur ce qui apparait de base dans les scripts qui vont suivre :
 
-@[Le script de base]({"stubs": ["Info/Manip_image_base.py"], "command": 'python3 Info/Manip_image_base.py && echo "TECHIO> open -s /project/target/ Info/index.html"''})
+@[Le script de base]({"stubs": ["Info/Manip_image_base.py"], "command": "sh -c 'python3 Info/Manip_image_base.py && echo "TECHIO> open -s /project/target/ Info/index.html"'"})
