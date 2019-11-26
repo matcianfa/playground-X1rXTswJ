@@ -5,7 +5,7 @@ import numpy as np
 image_entrée = Image.open("Info/Lenna.png")
 image = np.asarray(image_entrée)
 
-# On crée notre image de sortie (ici on fait juste une copie de l'image originale)
+# On crée notre image de sortie sous forme de tableau numpy
 image_sortie = ...
 
 # On sauvegarde les images pour pouvoir les afficher
