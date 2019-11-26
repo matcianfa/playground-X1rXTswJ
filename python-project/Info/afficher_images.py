@@ -1,1 +1,1 @@
-print("TECHIO> open -s /project/target/Info index.html")
+print("TECHIO> open -s /project/target index_2.html")
