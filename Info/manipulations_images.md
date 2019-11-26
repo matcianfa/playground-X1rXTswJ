@@ -21,14 +21,37 @@ La partie centrale où est défini `image_sortie` sera à modifier en fonction d
 
 Enfin la partie finale du script sauvegarde les images pour pouvoir les afficher.
 
+Si vous appuyez sur Run, vous verrez s'afficher à gauche l'image initiale et à droite l'image modifiée.
+
 ## Couper ou rogner une image
 
 Commençons par la transformation la plus facile : récupérer une partie d'une image.
 
 Pour cela il suffit de ne prendre qu'une partie de notre tableau de données. C'est très facile avec un tableau numpy : `image[2:6,3:9]` permet de récupérer la zone entre la ligne 2 et 5 et la colonne 3 et 8 (car comme d'habitude en python on ne prend pas la dernière valeur).
 
-Si on souhaite récupérer le regard de Lenna, on peut récupérer la zone entre les lignes 240 et 290 et les colonnes 240 et 360.
+Si on souhaite récupérer le regard de Lenna, on peut récupérer la zone entre les lignes 240 et 290 et les colonnes 240 et 360.  
+Remarque pratique : Pour avoir les coordonnées d'une zone, il suffit d'ouvrir l'image avec paint par exemple et ballader la souris sur l'image. Les coordonnées s'affichent en bas.
 
 Remplacer les ... par ce qu'il faut pour récupérer en sortie le regard de Lenna.
 
 @[Le script de base]({"stubs": ["Info/Manip_image_rogner.py"], "command": "sh -c 'python3 Info/Manip_image_rogner.py  && python3 Info/afficher_images.py'"})
+
+## Retourner
+
+## Inverser les couleurs 
+
+## Mettre en nuance de gris
+
+## Remplacer une couleur par une autre
+
+## Remplacer un fond vert par une image
+
+## Redimensionner
+
+## Faire tourner
+
+## Modifier la luminosité
+
+## Contraste
+
+## Filtres...
