@@ -23,6 +23,14 @@ Enfin la partie finale du script sauvegarde les images pour pouvoir les afficher
 
 Si vous appuyez sur Run, vous verrez s'afficher à gauche l'image initiale et à droite l'image modifiée.
 
+### L'image sous forme de tableau de valeur
+
+Pour bien comprendre sous quelle forme est l'image, voici un exemple simple d'une image de dimension 2 lignes et 3 colonnes qu'on transforme en tableau numpy dont on affiche le contenu (avec print).
+
+@[Affichage du tableau numpy]({"stubs": ["Info/Manip_image_tab_np.py"], "command": "sh -c 'python3 Info/Manip_image_tab_np.py  && python3 Info/afficher_image_gros.py'"})
+
+On peut ainsi voir que chaque pixel du tableau est représenté par un triplet de trois nombres correspondant à la couleur du pixel en RVB.
+
 ## Couper ou rogner une image
 
 Commençons par la transformation la plus facile : récupérer une partie d'une image.
@@ -34,7 +42,7 @@ Remarque pratique : Pour avoir les coordonnées d'une zone, il suffit d'ouvrir l
 
 Remplacer les ... par ce qu'il faut pour récupérer en sortie le regard de Lenna.
 
-@[Le script de base]({"stubs": ["Info/Manip_image_rogner.py"], "command": "sh -c 'python3 Info/Manip_image_rogner.py  && python3 Info/afficher_images.py'"})
+@[Rogner une image]({"stubs": ["Info/Manip_image_rogner.py"], "command": "sh -c 'python3 Info/Manip_image_rogner.py  && python3 Info/afficher_images.py'"})
 
 ## Retourner
 
