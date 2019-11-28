@@ -60,7 +60,7 @@ Pour inverser les couleurs, il suffit de remplacer chaque couleur de valeur `v` 
 
 Compléter le script suivant pour qu'il inverse les couleurs de toute l'image.
 
-@[Retourner une image]({"stubs": ["Info/Manip_inversion_couleurs.py"], "command": "sh -c 'python3 Info/Manip_inversion_couleurs.py  && python3 Info/afficher_images.py'"})
+@[Retourner une image]({"stubs": ["Info/Manip_image_inversion_couleurs.py"], "command": "sh -c 'python3 Info/Manip_image_inversion_couleurs.py  && python3 Info/afficher_images.py'"})
 
 ## Ne garder qu'une couleur
 
