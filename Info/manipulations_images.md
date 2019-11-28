@@ -48,13 +48,19 @@ Remplacer les ... par ce qu'il faut pour récupérer en sortie le regard de Lenn
 
 ## Retourner
 
-Pour retourner une image (par exemple inverser gauche-droite), il suffit simplement que sur chaque ligne, on mette le pixel situé à la colonne `col` de l'image originale à la place `nb_colonnes-1-col` de l'image de sortie.
+Pour retourner une image (par exemple inverser gauche-droite), il suffit simplement que sur chaque ligne, on mette dans le pixel situé à la colonne `col` la valeur du pixel de la colonne `nb_colonnes-1-col` de l'image originale.
 
 Compléter le script suivant pour qu'il inverse l'image horizontalement puis essayer de le modifier pour faire une inversion verticale :
 
 @[Retourner une image]({"stubs": ["Info/Manip_image_retourner.py"], "command": "sh -c 'python3 Info/Manip_image_retourner.py  && python3 Info/afficher_images.py'"})
 
 ## Inverser les couleurs 
+
+Pour inverser les couleurs, il suffit de remplacer chaque couleur de valeur `v` par la valeur `255 - v`.
+
+Compléter le script suivant pour qu'il inverse les couleurs de toute l'image.
+
+@[Retourner une image]({"stubs": ["Info/Manip_inverser_couleurs.py"], "command": "sh -c 'python3 Info/Manip_inverser_couleurs.py  && python3 Info/afficher_images.py'"})
 
 ## Ne garder qu'une couleur
 
