@@ -17,6 +17,8 @@ On importe aussi numpy qui permet de travailler assez facilement avec des tablea
 
 Ensuite, On ouvre notre image puis on la traduit en tableau numpy. Du coup, chaque pixel est représenté dans le tableau par un triplet (r,v,b) où r, v et b sont des nombres entre 0 et 255 représentant la "proportion" de rouge, vert et bleu respectivement dans la couleur de ce pixel. Attention : les pixels sont reprérés dans le tableau par la ligne et la colonne (comme dans une matrice). Autrement dit, pour récupérer le pixel tout en bas à gauche, on utilisera `image[511,0]` (car l'image est de dimension 512 par 512). Ce n'est donc pas la notation standard en coordonnées mais plutôt celle des matrices.
 
+On récupère ensuite les dimensions de l'image. `nb_lignes` représente le nombre de lignes de notre tableau et `nb_colonnes` le nombre de colonnes.
+
 La partie centrale où est défini `image_sortie` sera à modifier en fonction des manipulations.
 
 Enfin la partie finale du script sauvegarde les images pour pouvoir les afficher.
@@ -25,7 +27,7 @@ Si vous appuyez sur Run, vous verrez s'afficher à gauche l'image initiale et à
 
 ### L'image sous forme de tableau de valeurs
 
-Pour bien comprendre sous quelle forme est l'image, voici un exemple simple d'une image de dimension 2 lignes et 3 colonnes qu'on transforme en tableau numpy dont on affiche le contenu (avec print). Voici l'image de cet exemple grossie pour pouvoir voir les 6 pixels : [Exemple]!(exemple_gros.png)
+Pour bien comprendre sous quelle forme est l'image, voici un exemple simple d'une image de dimension 2 lignes et 3 colonnes qu'on transforme en tableau numpy dont on affiche le contenu (avec print). Voici l'image de cet exemple grossie pour pouvoir voir les 6 pixels : ![Exemple](exemple_gros.png)
 
 @[Affichage du tableau numpy]({"stubs": ["Info/Manip_image_tab_np.py"], "command": "python3 Info/Manip_image_tab_np.py  "})
 
@@ -45,6 +47,12 @@ Remplacer les ... par ce qu'il faut pour récupérer en sortie le regard de Lenn
 @[Rogner une image]({"stubs": ["Info/Manip_image_rogner.py"], "command": "sh -c 'python3 Info/Manip_image_rogner.py  && python3 Info/afficher_images.py'"})
 
 ## Retourner
+
+Pour retourner une image (par exemple inverser gauche-droite), il suffit simplement que sur chaque ligne, on mette le pixel situé à la colonne `col` de l'image originale à la place `nb_colonnes-1-col` de l'image de sortie.
+
+Compléter le script suivant pour qu'il inverse l'image horizontalement puis essayer de le modifier pour faire une inversion verticale :
+
+@[Retourner une image]({"stubs": ["Info/Manip_image_retourner.py"], "command": "sh -c 'python3 Info/Manip_image_retourner.py  && python3 Info/afficher_images.py'"})
 
 ## Inverser les couleurs 
 
