@@ -60,9 +60,22 @@ Pour inverser les couleurs, il suffit de remplacer chaque couleur de valeur `v` 
 
 Compléter le script suivant pour qu'il inverse les couleurs de toute l'image.
 
-@[Retourner une image]({"stubs": ["Info/Manip_image_inversion_couleurs.py"], "command": "sh -c 'python3 Info/Manip_image_inversion_couleurs.py  && python3 Info/afficher_images.py'"})
+::: Astuce numpy
+Avec les tableaux numpy, on peut appliquer très simplement une opération simple à tout un tableau d'un coup. Par exemple, pour ajouter 3 à toutes les valeurs d'un tableau nommé `t`, il suffit d'écrire `t+3`. Le résultat est alors un tableau identique à `t` mais avec toutes les valeurs augmentées de 3.  
+On peut ainsi, en une seule ligne, faire l'inversion des couleurs sans avoir à faire de boucles.
+:::
+
+@[Inverser les couleurs d'une image]({"stubs": ["Info/Manip_image_inversion_couleurs.py"], "command": "sh -c 'python3 Info/Manip_image_inversion_couleurs.py  && python3 Info/afficher_images.py'"})
 
 ## Ne garder qu'une couleur
+
+A partir d'une image, on peut en créer 3 différentes dans laquelle on ne garde que la composante rouge, verte ou bleue de chaque pixel. L'image originale étant alors la superposition des trois.
+
+Pour cela, il suffit simplement de garder la valeur de la couleur souhaitée et remplacer les autres par 0.
+
+Modifier le scipt suivant pour qu'il n'affiche que la composante rouge de la photo.
+
+@[Ne garder qu'une couleur d'une image]({"stubs": ["Info/Manip_image_mono_couleur.py"], "command": "sh -c 'python3 Info/Manip_image_mono_couleur.py  && python3 Info/afficher_images.py'"})
 
 ## Mettre en nuance de gris
 
