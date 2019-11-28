@@ -15,7 +15,7 @@ Juste quelques mots sur ce qui apparait de base dans les scripts qui vont suivre
 Tout d'abord, on importe le module PIL qui permet la manipulation d'image (ici elle nous servira principalement pour ouvrir et sauvegarder une image, étant donné que l'on va plutôt manipuler à la main nos données).
 On importe aussi numpy qui permet de travailler assez facilement avec des tableaux de données (entre autre).
 
-Ensuite, On ouvre notre image puis on la traduit en tableau numpy. Du coup, chaque pixel est représenté dans le tableau par un triplet (r,v,b) où r, v et b sont des nombres entre 0 et 255 représentant la "proportion" de rouge, vert et bleu respectivement dans la couleur de ce pixel. Attention : les pixels sont reprérés dans le tableau par la ligne et la colonne (comme dans une matrice). Autrement dit, pour récupérer le pixel tout en bas à gauche, on utilisera `image[511,0]` (car l'image est de dimension 512 par 512). Ce n'est donc pas la notation standard en coordonnées.
+Ensuite, On ouvre notre image puis on la traduit en tableau numpy. Du coup, chaque pixel est représenté dans le tableau par un triplet (r,v,b) où r, v et b sont des nombres entre 0 et 255 représentant la "proportion" de rouge, vert et bleu respectivement dans la couleur de ce pixel. Attention : les pixels sont reprérés dans le tableau par la ligne et la colonne (comme dans une matrice). Autrement dit, pour récupérer le pixel tout en bas à gauche, on utilisera `image[511,0]` (car l'image est de dimension 512 par 512). Ce n'est donc pas la notation standard en coordonnées mais plutôt celle des matrices.
 
 La partie centrale où est défini `image_sortie` sera à modifier en fonction des manipulations.
 
@@ -23,11 +23,11 @@ Enfin la partie finale du script sauvegarde les images pour pouvoir les afficher
 
 Si vous appuyez sur Run, vous verrez s'afficher à gauche l'image initiale et à droite l'image modifiée.
 
-### L'image sous forme de tableau de valeur
+### L'image sous forme de tableau de valeurs
 
-Pour bien comprendre sous quelle forme est l'image, voici un exemple simple d'une image de dimension 2 lignes et 3 colonnes qu'on transforme en tableau numpy dont on affiche le contenu (avec print).
+Pour bien comprendre sous quelle forme est l'image, voici un exemple simple d'une image de dimension 2 lignes et 3 colonnes qu'on transforme en tableau numpy dont on affiche le contenu (avec print). Voici l'image de cet exemple grossie pour pouvoir voir les 6 pixels : [Exemple]!(exemple_gros.png)
 
-@[Affichage du tableau numpy]({"stubs": ["Info/Manip_image_tab_np.py"], "command": "sh -c 'python3 Info/Manip_image_tab_np.py  && python3 Info/afficher_image_gros.py'"})
+@[Affichage du tableau numpy]({"stubs": ["Info/Manip_image_tab_np.py"], "command": "python3 Info/Manip_image_tab_np.py  "})
 
 On peut ainsi voir que chaque pixel du tableau est représenté par un triplet de trois nombres correspondant à la couleur du pixel en RVB.
 
@@ -48,11 +48,15 @@ Remplacer les ... par ce qu'il faut pour récupérer en sortie le regard de Lenn
 
 ## Inverser les couleurs 
 
+## Ne garder qu'une couleur
+
 ## Mettre en nuance de gris
 
 ## Remplacer une couleur par une autre
 
 ## Remplacer un fond vert par une image
+
+## Fondu de deux images
 
 ## Redimensionner
 
@@ -61,5 +65,7 @@ Remplacer les ... par ce qu'il faut pour récupérer en sortie le regard de Lenn
 ## Modifier la luminosité
 
 ## Contraste
+
+## jeu des erreurs
 
 ## Filtres...
