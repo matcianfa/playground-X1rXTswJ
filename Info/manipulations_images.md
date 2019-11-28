@@ -94,7 +94,7 @@ Modifier le script suivant pour qu'il affiche l'image en nuances de gris. Il fau
 
 Pour augmenter la luminosité d'une image, il suffit d'ajouter (ou soustraire) à toutes les valeurs un même nombre sans dépasser la valeur maximale qui est de 255 si on ajoute (ou minimale qui est 0 si on soustrait).
 
-Modifier le script suivant pour augmenter la luminosité de 80.
+Modifier le script suivant pour augmenter la luminosité de 80. On pourra soit faire avec une condition, soit utiliser la fonction `min`.
 
 ::: Astuce numpy
 On peut, ici aussi, écrire en une ligne la modification en utilise la fonction `np.where(condition,valeur_si_vraie,valeur_si_fausse)` où la condition écrite sur un tableau `t` de valeurs s'applique sur chaque valeur directement.  
