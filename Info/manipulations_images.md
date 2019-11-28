@@ -23,7 +23,7 @@ La partie centrale où est défini `image_sortie` sera à modifier en fonction d
 
 Enfin la partie finale du script sauvegarde les images pour pouvoir les afficher.
 
-Si vous appuyez sur Run, vous verrez s'afficher à gauche l'image initiale et à droite l'image modifiée.
+Si vous appuyez sur Run, vous verrez s'afficher à gauche l'image initiale et à droite l'image modifiée. ** Ne pas hésiter à relancer une deuxième fois s'il affiche un message d'erreur anormal**
 
 ### L'image sous forme de tableau de valeurs
 
@@ -73,11 +73,22 @@ A partir d'une image, on peut en créer 3 différentes dans laquelle on ne garde
 
 Pour cela, il suffit simplement de garder la valeur de la couleur souhaitée et remplacer les autres par 0.
 
-Modifier le scipt suivant pour qu'il n'affiche que la composante rouge de la photo.
+Modifier le script suivant pour qu'il n'affiche que la composante rouge de la photo.
+
+::: Astuce numpy
+Ici aussi, on peut, en une ligne, ne garder qu'une des trois composantes en utilisant la multiplication par (1,0,0) pour le rouge par exemple.  
+Un petit détail technique : il faut forcer un peu le typage pour que le résultat puisse être retraduit en image. Pour cela, on peut, par exemple multiplier notre image par `np.array((1,0,0),dtype = np.uint8)` au lieu de (1,0,0) directement.
+:::
 
 @[Ne garder qu'une couleur d'une image]({"stubs": ["Info/Manip_image_mono_couleur.py"], "command": "sh -c 'python3 Info/Manip_image_mono_couleur.py  && python3 Info/afficher_images.py'"})
 
 ## Mettre en nuance de gris
+
+On peut trouver sur [Wikipédia](https://fr.wikipedia.org/wiki/Niveau_de_gris) la formule suivante pour mettre une photo en nuance de gris : Pour chaque pixel, on remplace la couleur `(r,g,b)` par la couleur `(luminance,luminance,luminance)` où `luminance = 0.2126 * r + 0.7152 * b + 0.0722 * b`. 
+
+Modifier le script suivant pour qu'il affiche l'image en nuances de gris. Il faudra peut-être rajouter un peu plus que simplement là où il y a les ...
+
+@[Ne garder qu'une couleur d'une image]({"stubs": ["Info/Manip_image_nuances_gris.py"], "command": "sh -c 'python3 Info/Manip_image_nuances_gris.py && python3 Info/afficher_images.py'"})
 
 ## Remplacer une couleur par une autre
 
