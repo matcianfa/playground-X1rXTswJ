@@ -6,7 +6,7 @@ image_entrée = Image.open("Info/Lenna.png")
 image = np.asarray(image_entrée)
 nb_lignes,nb_colonnes,_ = image.shape
 
-# On crée notre image de sortie sous forme de tableau numpy (ici on fait juste une copie de l'image originale)
+# Partie à compléter
 image_sortie = np.copy(image)
 for ligne in range(nb_lignes):
     for col in range(nb_colonnes):
