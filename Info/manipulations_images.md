@@ -88,7 +88,20 @@ On peut trouver sur [Wikipédia](https://fr.wikipedia.org/wiki/Niveau_de_gris) l
 
 Modifier le script suivant pour qu'il affiche l'image en nuances de gris. Il faudra peut-être rajouter un peu plus que simplement là où il y a les ...
 
-@[Ne garder qu'une couleur d'une image]({"stubs": ["Info/Manip_image_nuances_gris.py"], "command": "sh -c 'python3 Info/Manip_image_nuances_gris.py && python3 Info/afficher_images.py'"})
+@[Transformer en nuances de gris]({"stubs": ["Info/Manip_image_nuances_gris.py"], "command": "sh -c 'python3 Info/Manip_image_nuances_gris.py && python3 Info/afficher_images.py'"})
+
+## Modifier la luminosité
+
+Pour augmenter la luminosité d'une image, il suffit d'ajouter (ou soustraire) à toutes les valeurs un même nombre sans dépasser la valeur maximale qui est de 255 si on ajoute (ou minimale qui est 0 si on soustrait).
+
+Modifier le script suivant pour augmenter la luminosité de 80.
+
+::: Astuce numpy
+On peut, ici aussi, écrire en une ligne la modification en utilise la fonction `np.where(condition,valeur_si_vraie,valeur_si_fausse)` où la condition écrite sur un tableau `t` de valeurs s'applique sur chaque valeur directement.  
+Par exemple, `np.where(t<30,0,t-30)` permet de créer un tableau dans lequel toutes les valeurs de `t` inféreure strictement à 30 sont remplacée par 0 et celles au dessus de 30, on soustrait 30. Cela permettrait de réduire la luminosité de 30 si on l'applique à une image.
+:::
+
+@[Modifier la luminosité]({"stubs": ["Info/Manip_image_luminosite.py"], "command": "sh -c 'python3 Info/Manip_image_luminosite.py && python3 Info/afficher_images.py'"})
 
 ## Remplacer une couleur par une autre
 
@@ -100,7 +113,6 @@ Modifier le script suivant pour qu'il affiche l'image en nuances de gris. Il fau
 
 ## Faire tourner
 
-## Modifier la luminosité
 
 ## Contraste
 
