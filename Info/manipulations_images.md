@@ -128,7 +128,19 @@ Modifier le scipt suivant pour modifier le bleu en rouge.
 
 @[Remplacer une couleur par une autre]({"stubs": ["Info/Manip_image_remplacer_couleur.py"], "command": "sh -c 'python3 Info/Manip_image_remplacer_couleur.py && python3 Info/afficher_images.py'"})
 
+On peut constater que tout le bleu n'est pas modifié. En effet, même si la majorité du bleu est le même, il y a toujours des nuances dans une image. C'est encore plus vrai si l'image est une photo. Donc si on veut modifier tout le bleu qui se ressemble, il va falloir prendre un peu autour des valeurs `(37,112,195)` du bleu qu'on souhaite modifier. En pratique, si on fixe un écart de 10 par rapport à notre couleur de départ et si on note (r,v,b) la couleur du pixel qu'on regarde, on va vérifier si |r-37|<10 et |v-112|<10 et |b-195|<10. Si c'est le cas, on modifie la couleur en rouge.
+
+Modifier le script précédent pour que tout le bleu soit modifié en rouge.
+
 ## Fondu de deux images
+
+On peut, à partir de deux images, créer un mélange des deux. Pour cela, on commence par choisir dans quelle proportion on veut les mélanger (par exemple 60% de la première et donc 40% de la seconde). Ensuite, il suffit de prendre, pour chaque couleur de chaque pixel, 60% de la valeur de la première image et 40% de la valeur de la seconde image.
+
+Ainsi, si par exemple le premier pixel de la première image est de couleur (10,20,30) et le premier pixel de la seconde image est de couleur (100,100,100) alors l'image mélangée sera de couleur `(0.6*10 + 0.4*100, 0.6*20 + 0.4*100, 0.6 * 30 + 0.4*100)` c'est à dire `(46, 52, 58)`.
+
+Modifier le script suivant pour qu'il mélange `image` et `image2` avec une proportion de 60% de la première et 40% de la seconde.
+
+@[Fondu de deux images]({"stubs": ["Info/Manip_image_fondu.py"], "command": "sh -c 'python3 Info/Manip_image_fondu.py && python3 Info/afficher_images.py'"})
 
 ## Redimensionner
 
