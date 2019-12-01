@@ -2,8 +2,9 @@ from PIL import Image, ImageDraw
 import numpy as np
 
 # On charge l'image et on la transforme en tableau contenant les couleurs
-image_entrée = Image.open("Info/Lenna.png")
+image_entrée = Image.open("Info/fond_vert.png")
 image = np.asarray(image_entrée)
+nb_lignes,nb_colonnes,_ = image.shape
 
 # Partie à compléter
 image_sortie = np.copy(image)
