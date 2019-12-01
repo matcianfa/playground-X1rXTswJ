@@ -103,9 +103,15 @@ Par exemple, `np.where(t<30,0,t-30)` permet de créer un tableau dans lequel tou
 
 @[Modifier la luminosité]({"stubs": ["Info/Manip_image_luminosite.py"], "command": "sh -c 'python3 Info/Manip_image_luminosite.py && python3 Info/afficher_images.py'"})
 
-## Remplacer une couleur par une autre
-
 ## Remplacer un fond vert par une image
+
+Intéressons nous maintenant à une tranformation devenue classique : remplacer un fond vert par ce que l'on veut. Nous allons prendre une photo avec fond vert (ici un pouce bleu) et nous allons remplacer le vert par l'image de Lenna que nous utilisons depuis le début. Voici l'image choisie (en version 512x512) : ![Fond vert](fond_vert.jpg)
+
+Modifier le script suivant pour que chaque pixel de l'image `image_fond_vert` de couleur verte ( (0,255,0) en RVB) soit remplacer par le pixel correspondant de l'image `image_lenna`.
+
+@[Remplacer un fond vert]({"stubs": ["Info/Manip_image_fond_vert.py"], "command": "sh -c 'python3 Info/Manip_image_fond_vert.py && cp image_sortie.png output.png && python3 Info/afficher_image_solo.py'"})
+
+## Remplacer une couleur par une autre
 
 ## Fondu de deux images
 
