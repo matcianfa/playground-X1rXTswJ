@@ -109,6 +109,11 @@ Intéressons nous maintenant à une tranformation devenue classique : remplacer 
 
 Modifier le script suivant pour que chaque pixel de l'image `image_fond_vert` de couleur verte ( (0,255,0) en RVB) soit remplacer par le pixel correspondant de l'image `image_lenna`. Il faudra peut-être modifier un peu plus que simplement les ...
 
+Petite difficulté en plus : Pour vérifier que la couleur est verte, vous ne pouvez pas utiliser directement `image_fond_vert[ligne,col] == (0,255,0)` car l'égalité de deux vecteurs numpy `[a,b,c]` et `[d,e,f]` renvoie en fait le vecteur `[a==d, b==e, c==f]`. Plusieurs façons de contourner ce problème : 
++ Ou bien on transforme `image_fond_vert[ligne,col]` en liste ( en lui appliquant `list()`)
++ Ou bien on vérifie à la main l'égalité coordonnée par coordonnée ( `image_fond_vert[ligne,col,0]==0 and ...`).
++ Ou bien on applique la fonction `all()` à notre résultat sous la forme par exemple : `(image_fond_vert[ligne,col] == (0,255,0)).all()`. Cette fonction renvoie `true` si le vecteur n'est composé que de `true`.
+
 ::: Astuce numpy
 Comme précédemment, on pourrait utiliser `np.where`
 :::
