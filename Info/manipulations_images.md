@@ -122,6 +122,12 @@ Comme précédemment, on pourrait utiliser `np.where`
 
 ## Remplacer une couleur par une autre
 
+Reprenons notre pouce bleu et essayons de le changer en rouge. Si on capture la couleur bleue centrale avec paint, on obtient `(37,112,195)` en RVB. 
+
+Modifier le scipt suivant pour modifier le bleu en rouge.
+
+@[Remplacer une couleur par une autre]({"stubs": ["Info/Manip_image_remplacer_couleur.py"], "command": "sh -c 'python3 Info/Manip_image_remplacer_couleur.py && python3 Info/afficher_images.py'"})
+
 ## Fondu de deux images
 
 ## Redimensionner
