@@ -26,11 +26,13 @@ Modifier le script suivant pour qu'il affiche une image en sortie de dimension 3
 
 @[Redimensionner une image]({"stubs": ["Info/Manip_image_redimensionner.py"], "command": "sh -c 'python3 Info/Manip_image_redimensionner.py && python3 Info/afficher_images.py'"})
 
-## Contraste
+## Modifier le contraste
 
-Pour chaque pixel de couleur (r,v,b), on peut définir son intensité par la moyenne des valeurs des 3 couleurs c'est à dire `i=(r+v+b)/3`. On a ainsi, si on parcourt tous les pixels de l'image, une intensité minimale `i_min` et une maximale `i_max`. L'idée, pour augmenter le contraste, est redimensionner la plage des intensités entre 0 et 255 de manière linéaire. Autrement dit, on veut que le pixel d'intensité `i_min` devienne d'intensité 0 et celui d'intensité `i_max` devienne d'intensité 255 et entre les deux, on modifie les valeurs de manière linéaire. Pour cela, un pixel d'intensité `i` à l'origine sera modifié en un pixel d'intensité `255 * (i-i_min)/((i_max-i_min)*i)` en multipliant chaque couleur par cette valeur.
+Pour chaque pixel de couleur (r,v,b), on peut définir son intensité par la moyenne des valeurs des 3 couleurs c'est à dire `i=(r+v+b)/3`. On a ainsi, si on parcourt tous les pixels de l'image, une intensité minimale `i_min` et une maximale `i_max`. L'idée, pour augmenter le contraste, est redimensionner la plage des intensités entre 0 et 255 de manière linéaire. Autrement dit, on veut que le pixel d'intensité `i_min` devienne d'intensité 0 et celui d'intensité `i_max` devienne d'intensité 255 et entre les deux, on modifie les valeurs de manière linéaire. Pour cela, un pixel d'intensité `i` à l'origine sera modifié en un pixel d'intensité normalisée  `i_n = 255 * (i-i_min)/((i_max-i_min)*i)` en multipliant chaque couleur par cette valeur. On fera bien attention à ce que le résultat soit un entier inférieur à 255.
 
-Compléter le script suivant pour qu'il amplifie le contraste selon la méthode présentée ci dessus
+Compléter le script suivant pour qu'il amplifie le contraste selon la méthode présentée ci dessus.
+
+@[Modifier le contraste]({"stubs": ["Info/Manip_image_contraste.py"], "command": "sh -c 'python3 Info/Manip_image_contraste.py && python3 Info/afficher_images.py'"})
 
 ## jeu des erreurs
 
