@@ -10,8 +10,8 @@ Modifier le script suivant pour qu'il mélange `image` et `image2` avec une prop
 
 ::: Astuce numpy
 Ici c'est presque trop facile puisque multiplier un tableau numpy par un nombre multiplie chacun de ses termes. 
-Seul détail technique, il faut penser à transformer le résultat final en tableau à valeur entière inférieure à 255 (en appliquant `np.asarray(..., dtype=np.uint8)` au résultat)
-::: 
+Seul détail technique, il faut penser à transformer le résultat final en tableau à valeur entière inférieure à 255 (en appliquant `np.asarray(..., dtype=np.uint8)` au résultat).
+:::
 
 @[Fondu de deux images]({"stubs": ["Info/Manip_image_fondu.py"], "command": "sh -c 'python3 Info/Manip_image_fondu.py && python3 Info/afficher_images.py'"})
 
