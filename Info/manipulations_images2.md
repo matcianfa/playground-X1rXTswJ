@@ -34,6 +34,5 @@ Compléter le script suivant pour qu'il amplifie le contraste selon la méthode 
 
 @[Modifier le contraste]({"stubs": ["Info/Manip_image_contraste.py"], "command": "sh -c 'python3 Info/Manip_image_contraste.py && python3 Info/afficher_images.py'"})
 
-## jeu des erreurs
 
 ## Filtres...
