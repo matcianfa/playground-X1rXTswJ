@@ -149,6 +149,15 @@ Seul détail technique, il faut penser à transformer le résultat final en tabl
 
 ## Redimensionner
 
+Supposons que nous voulions redimensionner notre image qui est de dimension *a0* lignes et *b0* colonnes en une nouvelle dimension *a1* lignes et *b1* colonnes. On peut noter alors les ratios des transformations selon les lignes et les colonnes : `ratio_lignes = a0/a1` et `ratio_colonnes = b0/b1`.  
+Pour remplir notre nouvelle image, il suffit alors de remplir le pixel situé à la ligne *ligne* et la colonne *col* avec les couleurs du pixel de l'image de départ situé à la ligne `int(ligne*ratio_lignes)` et la colonne `int(col*ratio_colonnes)`.
+
+Remarque : Si on fait ainsi, lors d'un agrandissement, plusieurs pixels de l'image de départ seront recopiés donnant une impréssion de gros pixels. Il existe beaucoup de façon d'empecher ce phénomène en lissant les couleurs par différentes méthodes mais nous ne nous y intéresserons pas ici.
+
+Modifier le script suivant pour qu'il affiche une image en sortie de dimension 300 lignes et 300 colonnes. 
+
+@[Redimensionner une image]({"stubs": ["Info/Manip_image_redimensionner.py"], "command": "sh -c 'python3 Info/Manip_image_redimensionner.py && python3 Info/afficher_images.py'"})
+
 ## Faire tourner
 
 
