@@ -103,14 +103,14 @@ Remarque : L'utilisation de numpy oblige ici à modifier les typages pour que le
 
 Grâce au filtre précédent, on a pu mettre en valeur les contours. Il existe des filtres encore plus efficaces pour détecter les contours. Nous allons donner l'exemple du filtre de Sobel. On applique en réalité 2 filtres qui sont : 
 ```math
-noyau_v = 
+noyau\_v = 
 \begin{bmatrix}
 -1 & 0 & 1 \\
 -2 & 0 & 2 \\
 -1 & 0 & 1
 \end{bmatrix}
 \ et \ 
-noyau_h =
+noyau\_h =
 \begin{bmatrix}
 -1 & -2 & -1 \\
 0 & 0 & 0 \\
@@ -119,7 +119,7 @@ noyau_h =
 ```
 Le premier détecte les contours "verticaux" et le second les "horizontaux". Pour le voir, vous pouvez mettre un puis l'autre comme noyau dans l'exemple précédent pour voir les contours mis en valeur.
 
-L'idée est donc de faire les mêmes calculs que dans le cas d'un seul filtre. On obtient donc ici deux résultats `somme\_v` et `somme\_h`. Pour combiner ces deux résultats en un seul, on fait ici une moyenne quadratique $`\sqrt{somme_v^2+somme_h^2}`$ (car cela correspond en réalité à la norme d'un vecteur).
+L'idée est donc de faire les mêmes calculs que dans le cas d'un seul filtre. On obtient donc ici deux résultats `somme_v` et `somme_h`. Pour combiner ces deux résultats en un seul, on fait ici une moyenne quadratique $`\sqrt{somme_v^2+somme_h^2}`$ (car cela correspond en réalité à la norme d'un vecteur).
 
 @[Detection des contours d'une image]({"stubs": ["Info/Manip_image_Sobel.py"], "command": "sh -c 'python3 Info/Manip_image_Sobel.py && python3 Info/afficher_images.py'"})
 
