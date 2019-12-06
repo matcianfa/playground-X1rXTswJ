@@ -53,12 +53,29 @@ Pour les puristes : Dans la suite, les pixels de bord sont simplement recopiés 
 
 ### Premier exemple : Lisser une image
 
-Pour lisser une image, il suffit de prendre comme noyau 1/9 partout pour que le calcul corresponde, pour chaque pixel, à faire la moyenne des 9 valeurs autour autrement dit $`\frac{1}{9}\begin{bmatrix}
+Pour lisser une image, il suffit de prendre comme noyau 1/9 partout pour que le calcul corresponde, pour chaque pixel, à faire la moyenne des 9 valeurs autour autrement dit :
+```math
+noyau = \frac{1}{9}
+\begin{bmatrix}
 1 & 1 & 1 \\
 1 & 1 & 1 \\
 1 & 1 & 1
-\end{bmatrix}`$
+\end{bmatrix}
+```
 
 On obtient le résultat suivant :
 
 @[Lisser une image]({"stubs": ["Info/Manip_image_lisser.py"], "command": "sh -c 'python3 Info/Manip_image_lisser.py && python3 Info/afficher_images.py'"})
+
+Il y a d'autres façons de lisser une image. On peut par exemple prendre un filtre gaussien qui prend un peu plus en compte le pixel central et un peu moins ceux qui l'entourent.
+
+Modifier l'exemple précédent pour utiliser le filtre gaussien : 
+```math
+noyau = \frac{1}{16}
+\begin{bmatrix}
+1 & 2 & 1 \\
+2 & 4 & 2 \\
+1 & 2 & 1
+\end{bmatrix}
+```
+
