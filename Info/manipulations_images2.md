@@ -35,4 +35,30 @@ Compléter le script suivant pour qu'il amplifie le contraste selon la méthode 
 @[Modifier le contraste]({"stubs": ["Info/Manip_image_contraste.py"], "command": "sh -c 'python3 Info/Manip_image_contraste.py && python3 Info/afficher_images.py'"})
 
 
-## Filtres...
+## Filtres
+
+Les filtres sont des modifications un peu plus complexes de notre image que celle que nous avons vues. Ils demandent un traitement mathématique un peu plus conséquent mais qui est au final toujours le même. Ils vont nous permettre entre autre de flouter, réhausser les contours, ou détecter les contours. Comme cette partie est un peu plus complexe mais intéressante, j'ai préféré donner déjà des scripts qui fonctionnent pour ensuite les modifier légèrement si besoin.
+
+### Présentation théorique
+
+Pour modifier notre image, nous allons faire ce qu'on appelle une convolution de notre image par un noyau de dimension 3x3. Voici un résumé en image de la méthode : ![Convolution](conv2.png)  
+Le tableau de nombres sur la gauche représente notre image. Le tableau central (contenant des -1, 0 et 1) est notre noyau, fixé en fonction du filtre que l'on souhaite appliquer. Pour obtenir la valeur d'un pixel de notre image transformée, on "applique" notre noyau à la zone (en vert sur l'image) autour du pixel choisi de notre image d'origine. Pour l'appliquer, on multiplie simplement terme à terme puis on fait la somme. L'image est surement plus parlante que mes explications.  
+On applique ainsi notre filtre sur chaque pixel pour lequel c'est possible (on voit bien qu'au bord il y a un problème).
+
+Par exemple : Le calcul qui donne -5 comme premier pixel de l'image modifiée sur la figure ci-dessus est : (-1)x2 + 0x1 + 1x0 + (-1)x9 + 0x5 + 1x4 + (-1)x2 + 0x3 + 1x4 = -5
+
+D'un point de vue formel, si notre `noyau` est sous la forme d'une matrice 3x3, on aura pour le pixel dont on connait la ligne `ligne` et la colonne `col` : `noyau[0,0]*image[ligne-1,col-1] + noyau[0,1]*image[ligne-1,col] + noyau[0,2]*image[ligne-1,col+1] + noyau[1,0]*image[ligne,col-1]+...+noyau[2,2]*image[ligne+1,col+1]`. On peut, bien sûr, écrire directement à la main ce calcul ou bien, comme ce sera fait dans les exemples, faire deux boucles de longueur 3 pour calculer cette somme.
+
+Pour les puristes : Dans la suite, les pixels de bord sont simplement recopiés pour garder une image de même dimension.
+
+### Premier exemple : Lisser une image
+
+Pour lisser une image, il suffit de prendre comme noyau 1/9 partout pour que le calcul corresponde, pour chaque pixel, à faire la moyenne des 9 valeurs autour autrement dit $`\frac{1}{9}\begin{bmatrix}
+1 & 1 & 1 \\
+1 & 1 & 1 \\
+1 & 1 & 1
+\end{bmatrix}`$
+
+On obtient le résultat suivant :
+
+@[Lisser une image]({"stubs": ["Info/Manip_image_lisser.py"], "command": "sh -c 'python3 Info/Manip_image_lisser.py && python3 Info/afficher_images.py'"})
