@@ -79,3 +79,48 @@ noyau = \frac{1}{16}
 \end{bmatrix}
 ```
 
+### Deuxième exemple : Réhausser les contours
+
+Un contour est un endroit de l'image où les pixels changent totalement de couleurs. Pour amplifier les contours, on peut donc utiliser un filtre de la forme :
+```math
+noyau =
+\begin{bmatrix}
+0 & -0.5 & 0 \\
+-0.5 & 3 & -0.5 \\
+0 & -0.5 & 0
+\end{bmatrix}
+```
+
+@[Réhausser les contours d'une image]({"stubs": ["Info/Manip_image_rehausser_contours.py"], "command": "sh -c 'python3 Info/Manip_image_rehausser_contours.py && python3 Info/afficher_images.py'"})
+
+Modifier le 3 en 2 dans le noyau précédent (ce qui fait une somme nulle des coefficients du noyau) pour voir apparaitre les contours.
+
+En plus de transformer le 3 en 2, inverser les couleurs de l'image pour voir apparaitre seulement les contours. Cela donne une impression de dessin au crayon.
+
+Remarque : L'utilisation de numpy oblige ici à modifier les typages pour que les calculs soient justes.
+
+### Détection des contours
+
+Grâce au filtre précédent, on a pu mettre en valeur les contours. Il existe des filtres encore plus efficaces pour détecter les contours. Nous allons donner l'exemple du filtre de Sobel. On applique en réalité 2 filtres qui sont : 
+```math
+noyau_v = 
+\begin{bmatrix}
+-1 & 0 & 1 \\
+-2 & 0 & 2 \\
+-1 & 0 & 1
+\end{bmatrix}
+\ et \ 
+noyau_h =
+\begin{bmatrix}
+-1 & -2 & -1 \\
+0 & 0 & 0 \\
+1 & 2 & 1
+\end{bmatrix}
+```
+Le premier détecte les contours "verticaux" et le second les "horizontaux". Pour le voir, vous pouvez mettre un puis l'autre comme noyau dans l'exemple précédent pour voir les contours mis en valeur.
+
+L'idée est donc de faire les mêmes calculs que dans le cas d'un seul filtre. On obtient donc ici deux résultats `somme_v` et `somme_h`. Pour combiner ces deux résultats en un seul, on fait ici une moyenne quadratique $`sqrt{somme_v^2+somme_h^2}`$ (car cela correspond en réalité à la norme d'un vecteur).
+
+@[Detection des contours d'une image]({"stubs": ["Info/Manip_image_Sobel.py"], "command": "sh -c 'python3 Info/Manip_image_Sobel.py && python3 Info/afficher_images.py'"})
+
+La détection des contours rend beaucoup mieux si on modifie avant notre image en niveau de gris et au final on inverse les couleurs. Modifier le script précédent pour le faire. Voici le résultat : ![Contours Lenna](lenna_Sobel.png)
