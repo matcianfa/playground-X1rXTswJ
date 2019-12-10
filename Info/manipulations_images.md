@@ -84,7 +84,7 @@ Un petit détail technique : il faut forcer un peu le typage pour que le résult
 
 ## Mettre en nuance de gris
 
-On peut trouver sur [Wikipédia](https://fr.wikipedia.org/wiki/Niveau_de_gris) la formule suivante pour mettre une photo en nuance de gris : Pour chaque pixel, on remplace la couleur `(r,g,b)` par la couleur `(luminance,luminance,luminance)` où `luminance = 0.2126 * r + 0.7152 * b + 0.0722 * b`. 
+On peut trouver sur [Wikipédia](https://fr.wikipedia.org/wiki/Niveau_de_gris) la formule suivante pour mettre une photo en nuance de gris : Pour chaque pixel, on remplace la couleur `(r,g,b)` par la couleur `(luminance,luminance,luminance)` où `luminance = 0.2126 * r + 0.7152 * v + 0.0722 * b`. 
 
 Modifier le script suivant pour qu'il affiche l'image en nuances de gris. Il faudra peut-être rajouter un peu plus que simplement là où il y a les ...
 
