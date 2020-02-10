@@ -40,7 +40,7 @@ Créer une fonction qui prend en entrée n et donne en sortie une approximation 
 > Remarques : Faire bien attention aux différents pièges : La suite commence par $`c_2=\sqrt{2}`$ et le nombre de côtés est $`2^n`$.  
 
 
-@[Première méthode]({"stubs": ["TP/approx_pi_2.py"], "command": "python3 TP/approx_pi_2_Test.py"})
+@[Méthode d'Archimède]({"stubs": ["TP/approx_pi_2.py"], "command": "python3 TP/approx_pi_2_Test.py"})
 
 ---
 
