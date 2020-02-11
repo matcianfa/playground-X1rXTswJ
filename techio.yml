@@ -114,6 +114,8 @@ plan:
     statement: Info/manipulations_images.md
   - title: Manipulations d'images II
     statement: Info/manipulations_images2.md
+  - title: Exercices d'entrainement sur d'autres sites
+    statement: Info/entrainement_codingame.md
 - title: Chaines de caractères
   plan:
   - title: Introduction
@@ -278,7 +280,7 @@ plan:
     statement: Optimisation/Approximation_de_e.md
   - title: Vectorisation - Aire de l'ensemble de Mandelbrot
     statement: Optimisation/Vectorization.md
-  - title: Exercices
+  - title: Exercices d'approfondissement sur d'autres sites
     statement: Optimisation/Exercices.md
 - title: Projets
   plan:
