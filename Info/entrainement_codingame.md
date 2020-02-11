@@ -30,9 +30,9 @@ Les exercices sont légèrement regroupés par difficulté (même cela est très
 - [Monday tuesday happy days](https://www.codingame.com/training/easy/monday-tuesday-happy-days)
 - [Bank robbers](https://www.codingame.com/training/easy/bank-robbers)
 - [Network cabling](https://www.codingame.com/training/medium/network-cabling) (Aide : utiliser lles propriétés de la médiane)
-- * [Ghost legs](https://www.codingame.com/training/easy/ghost-legs) 
+- [Ghost legs](https://www.codingame.com/training/easy/ghost-legs) * 
 - [There is no spoon I](https://www.codingame.com/training/medium/there-is-no-spoon-episode-1)
 - [Shadows of the night](https://www.codingame.com/training/medium/shadows-of-the-knight-episode-1) (Recherche dichotomique)
 - [Don't panic I](https://www.codingame.com/training/medium/don't-panic-episode-1)
-- * [Winamax Battle](https://www.codingame.com/training/medium/winamax-battle)
-- * [The last crusade I](https://www.codingame.com/training/medium/the-last-crusade-episode-1)
+- [Winamax Battle](https://www.codingame.com/training/medium/winamax-battle) * 
+- [The last crusade I](https://www.codingame.com/training/medium/the-last-crusade-episode-1) *
