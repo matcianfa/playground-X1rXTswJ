@@ -2,7 +2,7 @@ Voici une liste d'exercices trouvés sur d'autres sites en lien avec les notions
 Il ne faut pas se laisser impressioner par les titres en anglais, les énoncés sont parfois en français et si ce n'est pas le cas, c'est très compréhensible.
 
 Quelques précisions : 
-- Pour les exercices du projet Euler, le lien renvoit vers les versions traduites de ce recueil mais sont tirés du site [Euler project](https://projecteuler.net/) sur lequel vous pouvez vous inscrire et valider votre progression ainsi que découvrir de nombreux autres exercices mélant mathématiques et programmation.
+- Pour les exercices du projet Euler, le lien renvoie vers les versions traduites de ce recueil mais sont tirés du site [Euler project](https://projecteuler.net/) sur lequel vous pouvez vous inscrire et valider votre progression ainsi que découvrir de nombreux autres exercices mélant mathématiques et programmation.
 - Pour les exercices précédés de CG, il s'agit d'un lien vers les puzzles du site [Codingame](https://www.codingame.com/) sur lequel il faut s'inscrire pour pouvoir accéder à l'énoncé et le résoudre. On peut les résoudre dans de nombreux langages différents, il ne faut donc pas oublier de séléctionner python 3 comme langage.
 
 # Algorithme glouton
