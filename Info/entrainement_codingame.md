@@ -38,9 +38,12 @@ Les exercices sont légèrement regroupés par difficulté (même cela est très
 - [There is no spoon I](https://www.codingame.com/training/medium/there-is-no-spoon-episode-1)
 - [Shadows of the night](https://www.codingame.com/training/medium/shadows-of-the-knight-episode-1) (Recherche dichotomique)
 - [Don't panic I](https://www.codingame.com/training/medium/don't-panic-episode-1)
+- [Le cadeau](https://www.codingame.com/training/medium/the-gift)
+- [Vitesse sur la route](https://www.codingame.com/training/medium/aneo) 
 - [Gravité](https://www.codingame.com/training/medium/gravity) * (Tableaux)
 - [Addition de tas de sables](https://www.codingame.com/training/medium/sandpile-addition) * (Tableaux)
 - [Jeu de la vie](https://www.codingame.com/training/medium/game-of-life) * (Tableaux)
+- [Divine!](https://www.codingame.com/training/medium/divine!) * (Tableaux)
 - [Somme de diviseurs](https://www.codingame.com/training/medium/sum-of-divisors) *
 - [Winamax Battle](https://www.codingame.com/training/medium/winamax-battle) * 
 - [The last crusade I](https://www.codingame.com/training/medium/the-last-crusade-episode-1) *
@@ -50,8 +53,12 @@ Les exercices sont légèrement regroupés par difficulté (même cela est très
 - [Chateaux de cartes](https://www.codingame.com/training/medium/cards-castle) *
 - [Simple fraction to mixed number](https://www.codingame.com/training/medium/simple-fraction-to-mixed-number) *
 - [Alignement de textes](https://www.codingame.com/training/medium/text-alignment) * (Chaines de caractères)
+- [Porcupine fever](https://www.codingame.com/training/medium/porcupine-fever) *
+- [Bingo](https://www.codingame.com/training/medium/bingo) *
 - [Pliages de papier](https://www.codingame.com/training/medium/folding-paper) **
 - [Ils sont fous ces romains](https://www.codingame.com/training/medium/these-romans-are-crazy!) ** (Chaines de caractères)
+- [Dice probability calculator](https://www.codingame.com/training/medium/dice-probability-calculator) **
+- [Compétition de Go](https://www.codingame.com/training/medium/go-competition) ** (Tableaux)
 
 
 ## Liste d'exercices sur Codingame faisables avec le niveau Lycée de la spécialité NSI.
@@ -60,4 +67,12 @@ Les exercices sont légèrement regroupés par difficulté (même cela est très
 - [Scrabble](https://www.codingame.com/training/medium/scrabble) (dictionnaires)
 - [Des nains sur des épaules de géants](https://www.codingame.com/training/medium/dwarfs-standing-on-the-shoulders-of-giants) (graphes)
 - [Nombre de lettres dans un nombre binaire](https://www.codingame.com/training/medium/number-of-letters-in-a-number---binary) (représentation binaire)
+- [Le probleme des urinoirs](https://www.codingame.com/training/medium/the-optimal-urinal-problem) (Récursivité, (mémoïsation?))
+- [Goro veut du chocolat !](https://www.codingame.com/training/medium/goro-want-chocolate) (Récursivité, (mémoïsation?))
+- [Le grand festival I](https://www.codingame.com/training/medium/the-grand-festival---i) (Récusivité, mémoïsation)
+- [Le grand festival II](https://www.codingame.com/training/medium/the-grand-festival---ii) (Récursivité, mémoïsation)
+- [Nombre de chemins entre deux points](https://www.codingame.com/training/medium/number-of-paths-between-2-points) (Récursivité, mémoïsation)
+- [Skynet Revolution](https://www.codingame.com/training/medium/skynet-revolution-episode-1) (graphes)
+- [Engrenages](https://www.codingame.com/training/medium/locked-in-gear) (graphes)
+- [Find the winning strategy](https://www.codingame.com/training/medium/find-the-winning-strategy) *
 
