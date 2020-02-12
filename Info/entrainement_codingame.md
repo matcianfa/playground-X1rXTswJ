@@ -8,7 +8,7 @@ Les * signalent une difficulté un peu plus élevée. Entre parenthèse, je pré
 
 Les exercices sont légèrement regroupés par difficulté (même cela est très subjectif) mais ne suivent pas forcément une  progression pédagogiquement conseillée. Libre à chacun de picorer dedans. Dernière précision : la plupart des puzzles sont en anglais mais ce n'est pas réellement génant avec un peu d'effort et d'habitude.
 
-## Liste d'exercices sur Codingame faisables avec le niveau Lycée de la spécialité mathématiques.
+## Liste d'exercices sur Codingame faisables avec le niveau Lycée de la spécialité mathématiques
 
 - [La descente](https://www.codingame.com/training/easy/the-descent)
 - [Power of Thor](https://www.codingame.com/training/easy/power-of-thor-episode-1)
@@ -22,17 +22,42 @@ Les exercices sont légèrement regroupés par difficulté (même cela est très
 - [Nature d'un quadrilatère](https://www.codingame.com/training/easy/nature-of-quadrilaterals)
 - [Rectangle partition](https://www.codingame.com/training/easy/rectangle-partition)
 - [Lumen](https://www.codingame.com/training/easy/lumen)
+- [Rubik](https://www.codingame.com/training/medium/rubik%C2%AE)
 - [Pertes en bourse](https://www.codingame.com/training/medium/stock-exchange-losses)
 - [Add'em up](https://www.codingame.com/training/easy/addem-up)
 - [Trésors de pirates](https://www.codingame.com/training/easy/pirates-treasure)
 - [May the triforce be with you](https://www.codingame.com/training/easy/may-the-triforce-be-with-you)
+- [Suite de Conway](https://www.codingame.com/training/medium/conway-sequence)
 - [Expressions parenthésées](https://www.codingame.com/training/easy/brackets-extreme-edition) (Chaines de caractères)
+- [Le plus rapide](https://www.codingame.com/training/medium/the-fastest) (Chaines de caractères)
 - [Monday tuesday happy days](https://www.codingame.com/training/easy/monday-tuesday-happy-days)
 - [Bank robbers](https://www.codingame.com/training/easy/bank-robbers)
 - [Network cabling](https://www.codingame.com/training/medium/network-cabling) (Aide : utiliser lles propriétés de la médiane)
+- [Nombre d'échanges minimum](https://www.codingame.com/training/medium/minimal-number-of-swaps)
 - [Ghost legs](https://www.codingame.com/training/easy/ghost-legs) * 
 - [There is no spoon I](https://www.codingame.com/training/medium/there-is-no-spoon-episode-1)
 - [Shadows of the night](https://www.codingame.com/training/medium/shadows-of-the-knight-episode-1) (Recherche dichotomique)
 - [Don't panic I](https://www.codingame.com/training/medium/don't-panic-episode-1)
+- [Gravité](https://www.codingame.com/training/medium/gravity) * (Tableaux)
+- [Addition de tas de sables](https://www.codingame.com/training/medium/sandpile-addition) * (Tableaux)
+- [Jeu de la vie](https://www.codingame.com/training/medium/game-of-life) * (Tableaux)
+- [Somme de diviseurs](https://www.codingame.com/training/medium/sum-of-divisors) *
 - [Winamax Battle](https://www.codingame.com/training/medium/winamax-battle) * 
 - [The last crusade I](https://www.codingame.com/training/medium/the-last-crusade-episode-1) *
+- [Calculs Maya](https://www.codingame.com/training/medium/mayan-calculation) * (chaines de caractères)
+- [Bender I](https://www.codingame.com/training/medium/bender-episode-1) *
+- [Pierres magiques](https://www.codingame.com/training/medium/magic-stones) *
+- [Chateaux de cartes](https://www.codingame.com/training/medium/cards-castle) *
+- [Simple fraction to mixed number](https://www.codingame.com/training/medium/simple-fraction-to-mixed-number) *
+- [Alignement de textes](https://www.codingame.com/training/medium/text-alignment) * (Chaines de caractères)
+- [Pliages de papier](https://www.codingame.com/training/medium/folding-paper) **
+- [Ils sont fous ces romains](https://www.codingame.com/training/medium/these-romans-are-crazy!) ** (Chaines de caractères)
+
+
+## Liste d'exercices sur Codingame faisables avec le niveau Lycée de la spécialité NSI.
+
+- [Numeros de téléphone](https://www.codingame.com/training/medium/telephone-numbers) (graphes)
+- [Scrabble](https://www.codingame.com/training/medium/scrabble) (dictionnaires)
+- [Des nains sur des épaules de géants](https://www.codingame.com/training/medium/dwarfs-standing-on-the-shoulders-of-giants) (graphes)
+- [Nombre de lettres dans un nombre binaire](https://www.codingame.com/training/medium/number-of-letters-in-a-number---binary) (représentation binaire)
+
