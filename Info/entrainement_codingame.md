@@ -28,6 +28,7 @@ Les exercices sont légèrement regroupés par difficulté (même cela est très
 - [Pertes en bourse](https://www.codingame.com/training/medium/stock-exchange-losses)
 - [Add'em up](https://www.codingame.com/training/easy/addem-up)
 - [Trésors de pirates](https://www.codingame.com/training/easy/pirates-treasure)
+- [Happy numbers](https://www.codingame.com/training/easy/happy-numbers)
 - [May the triforce be with you](https://www.codingame.com/training/easy/may-the-triforce-be-with-you)
 - [Suite de Conway](https://www.codingame.com/training/medium/conway-sequence)
 - [Expressions parenthésées](https://www.codingame.com/training/easy/brackets-extreme-edition) (Chaines de caractères)
