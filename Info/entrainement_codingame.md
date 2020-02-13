@@ -19,6 +19,8 @@ Les exercices sont légèrement regroupés par difficulté (même cela est très
 - [Chevaux de course](https://www.codingame.com/training/easy/horse-racing-duals)
 - [Défibrillateurs](https://www.codingame.com/training/easy/defibrillators)
 - [Brick in the wall](https://www.codingame.com/training/easy/brick-in-the-wall)
+- [The river I](https://www.codingame.com/training/easy/the-river-i-)
+- [The river II](https://www.codingame.com/training/easy/the-river-ii-)
 - [Nature d'un quadrilatère](https://www.codingame.com/training/easy/nature-of-quadrilaterals)
 - [Rectangle partition](https://www.codingame.com/training/easy/rectangle-partition)
 - [Lumen](https://www.codingame.com/training/easy/lumen)
