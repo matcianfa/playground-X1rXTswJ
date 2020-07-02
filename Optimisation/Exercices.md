@@ -57,6 +57,7 @@ Quelques précisions :
 + [CG : Don't panic 2](https://www.codingame.com/training/hard/don't-panic-episode-2)
 + [CG : Bender 2](https://www.codingame.com/training/hard/bender-episode-2)
 + [CG : Tan network](https://www.codingame.com/training/hard/tan-network)
++ [CG : The lost child.Episode-1](https://www.codingame.com/training/easy/the-lost-child-episode-1)
 + [CG : Teads](https://www.codingame.com/training/medium/teads-sponsored-contest)
 + [CG : Paper labyrinth](https://www.codingame.com/training/medium/paper-labyrinth)
 + [CG : 2.5D maze](https://www.codingame.com/training/medium/2-5d-maze)
@@ -67,6 +68,8 @@ Quelques précisions :
 + [CG Multi : Tron battle](https://www.codingame.com/multiplayer/bot-programming/tron-battle)
 + [CG Multi : Great escape](https://www.codingame.com/multiplayer/bot-programming/great-escape)
 + [CG Multi : Coders of the caribbean](https://www.codingame.com/multiplayer/bot-programming/coders-of-the-caribbean)
++ [CG Multi : Platinum Rift - Episode 2](https://www.codingame.com/multiplayer/bot-programming/platinum-rift-episode-2)
++ [CG Multi : Pacman](https://www.codingame.com/multiplayer/bot-programming/spring-challenge-2020)
 
 # Parcours en profondeur
 
