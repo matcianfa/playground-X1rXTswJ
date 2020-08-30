@@ -6,7 +6,7 @@ Le but de cette liste est de pouvoir s'entrainer à maitriser les notions au pro
 
 Les * signalent une difficulté un peu plus élevée. Entre parenthèse, je précise la notion principale lorsque cela me semble pertinent (comme par exemple lorsqu'un puzzle travaille sur les chaines de caractères (code ASCII par exemple) car ce n'est pas forcément la notion principale que l'on souhaite travailler en spé maths).
 
-Les exercices sont légèrement regroupés par difficulté (même cela est très subjectif) mais ne suivent pas forcément une  progression pédagogiquement conseillée. Libre à chacun de picorer dedans. Dernière précision : la plupart des puzzles sont en anglais mais ce n'est pas réellement génant avec un peu d'effort et d'habitude.
+Les exercices sont légèrement regroupés par difficulté (même si cela est très subjectif) mais ne suivent pas forcément une  progression pédagogiquement conseillée. Libre à chacun de picorer dedans. Dernière précision : la plupart des puzzles sont en anglais mais ce n'est pas réellement génant avec un peu d'effort et d'habitude.
 
 ## Liste d'exercices sur Codingame faisables avec le niveau Lycée de la spécialité mathématiques
 
