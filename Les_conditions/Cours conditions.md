@@ -213,6 +213,8 @@ if ... :
 
 Ecrire une fonction qui prend en entrée un nombre ***x*** et qui renvoie "Impossible" si ***x*** est nul et le resultat de 1/***x*** sinon.
 
+On utilisera la fonction `return` pour renvoyer les résultats.
+
 @[Calcul de l'inverse d'un nombre]({"stubs": ["Les_conditions/Inverse.py"], "command": "python3 Les_conditions/Inverse_Test.py"})
 
 ---
@@ -228,7 +230,7 @@ On prendra comme conditions les suivantes :
 
 > Entrée : Une température ***t***.
 
-> Sortie : L'état de l'eau à cette température parmi les trois possibilités : "SOLIDE", "LIQUIDE" ou "GAZEUX".
+> Sortie : L'état de l'eau à cette température parmi les trois possibilités : "SOLIDE", "LIQUIDE" ou "GAZEUX". On utilisera la fonction `return` pour renvoyer les résultats.
 
 @[Afficher le plus grand des deux]({"stubs": ["Les_conditions/Etat_eau.py"], "command": "python3 Les_conditions/Etat_eau_Test.py"})
 
