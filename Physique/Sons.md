@@ -20,9 +20,13 @@ Par exemple, si on veut jouer un son pur comme un LA de diapason (qui a une freq
 
 Quelques remarques : 
 - Si on veut voir un peu mieux la fonction il faut réduire la durée à par exemple 0.01 car en 1 sec, elle oscille 440 fois donc naturellement sur le graphique, on ne voit pas les oscillations.
-- S'il n'y a pas de modification à l'execution alors que vous avez modifié le code, n'hésitez pas à remodifier et relancer en appuyant sur RUN.
+- S'il n'y a pas de modification à l'execution alors que vous avez modifié le code, n'hésitez pas à remodifier et relancer en appuyant sur RUN voir même à rafraichir l'écran.
 - On peut s'amuser à modifier la fréquence du son en modifiant le 440 Hz. Attention à ne pas confondre les fréquences : La fréquence d'echantillonage nous donne une information sur le nombre de données utilisées pour créer le son (plus il y a de données, plus notre son est précis). La fréquence de la note elle par contre est simplement physique, c'est la fréquence de vibration pour obtenir cette note (avec une corde par exemple).
 
 On peut facilement créer d'autres sons. Modifiez la fonction dans le cadre précédent avec une des possibilités suivantes :
 - La somme de 3 notes pures harmoniques de fréquences 220 Hz, 440 Hz et 880 Hz qui correspondent à 3 LA différents avec la fonction `cos(2*pi*220*x)+cos(2*pi*440*x)+cos(2*pi*880*x)`
-- La somme de 3 notes formant un accord de fréquences 275 Hz, 330 Hz et 440 Hz qui correspondent à un LA majeur (Do#, Mi et La) avec la fonction `cos(2*pi*275*x)+cos(2*pi*33*x)+cos(2*pi*440*x)`
+- La somme de 3 notes formant un accord de fréquences 275 Hz, 330 Hz et 440 Hz qui correspondent à un LA majeur (Do#, Mi et La) avec la fonction `cos(2*pi*275*x)+cos(2*pi*330*x)+cos(2*pi*440*x)`
+
+On peut constater qu'on est loin du son harmonieux d'un instrument. Ce qui est interessant ici c'est de voir les courbes : On ajoute 3 courbes parfaitement sinusoidales et on se retrouve avec des courbes périodiques mais dont les variations sont moins "régulières".
+
+Dans la prochaine partie, page suivante, nous allons nous intéresser au moyen de récupérer les harmoniques (c'est à dire les fréquences principales) d'un son grâce à la transformée de Fourier discrète.
