@@ -1,3 +1,5 @@
+import numpy as np
+
 # Calcul des coefficients de Fourier
 
 def coeff_Fourier(s):
