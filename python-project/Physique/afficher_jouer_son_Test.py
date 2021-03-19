@@ -33,7 +33,7 @@ def test():
     try:
       fig=plt.figure()
       exec("import {}".format(module)) 
-      fig.savefig('output.png', dpi=fig.dpi)
+      fig.savefig('Physique/output.png', dpi=fig.dpi)
       success()
     except AssertionError as e:
       fail()
