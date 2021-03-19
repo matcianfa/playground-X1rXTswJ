@@ -21,7 +21,7 @@ def send_msg(channel, msg):
 
 
 def success():
-    #print("TECHIO> open -s /project/target/Physique afficher_jouer_son.html")
+    print("TECHIO> open -s /project/target/Physique Fourier.html")
     print("TECHIO> success true")
 
 
