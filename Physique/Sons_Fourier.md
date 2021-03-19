@@ -40,4 +40,17 @@ Utilisons maintenant la formule d'inversion pour se convaincre qu'elle marche bi
 - Je vous laisse le plaisir de prouver que le dernier calcul donne -1...
 :::
 
+Quelques précisions encore : En utilisant les formules de trigonométrie classiques, on peut trouver un $`\varphi_k`$ tel que les termes des sommes peuvent s'écrire :  
+```math
+a_k cos\left(\dfrac{2\pi kn}{N}\right) + b_k sin\left(\dfrac{2\pi kn}{N} = \sqrt{a_k^2 + b_k^2} cos\left(\dfrac{2\pi kn}{N} + \varphi_k\right)
+```
+
 ## La pratique 
+On peut se demander quel est l'intérêt de faire tous ces calculs avec les données de notre son si au final on retrouve les mêmes qu'au départ. Nous allons voir que c'est pourtant extrêment astucieux. En effet, une fois nos $`d_n`$ écrits sous la forme de somme de cosinus, on peut alors les interpreter comme la somme de signaux fondamentaux (des sons "purs", sinusoidaux). Or notre oreille n'entend (en prenant large mais on pourrait réduire) que les fréquences ente 20hz et 20 000 Hz. Donc tous les termes qui correspondent à des fréquences en dehors de cette plage peuvent être éliminés de notre son.  
+De plus, tous les coefficients $`a_k`$ ou $`b_k`$ trop petits peuvent être éliminé aussi puisqu'ils n'interviennent que peu dans le son donc nous ne verrons pas la différence en écoutant.  
+Cette simple réecriture de nos données en somme de Fourier nous permet donc naturellement d'éliminer un grand nombre de données et ainsi réduire la place nécessaire pour stocker notre son. Bien sûr les compressions comme le MP3 sont un peu plus optimales encore que cette méthode mais elles en sont grandement inspirées.
+
+### Le codage 
+
+
+
