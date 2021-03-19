@@ -1,4 +1,4 @@
-# Utilisation de la transformée de Fourier discrète réelle pour récupérer les harmoniques d'un son.
+# Utilisation de la transformée de Fourier discrète réelle pour récupérer les harmoniques d'un son
 
 Le but de cette page est de voir un peu ce qui se cache derrière des compressions de sons qu'on retrouve dans des formats de sons comme le MP3 par exemple. Elle est déstinée à des lycéens et/ou curieux donc nous présenterons seulement ce qu'est la transformée de Fourier discrète réelle et comment l'implémenter à la main en python pour la voir fonctionner. 
 
@@ -52,5 +52,6 @@ Cette simple réecriture de nos données en somme de Fourier nous permet donc na
 
 ### Le codage 
 
-@[Trasformée de Fourier]({"stubs": ["Physique/Fourier.py","Physique/fonctions_Fourier.py"], "command": "python3 Physique/Fourier_Test.py"})
+
+@[Transformée de Fourier]({"stubs": ["Physique/Fourier.py","Physique/fonctions_Fourier.py"], "command": "python3 Physique/Fourier_Test.py"})
 
