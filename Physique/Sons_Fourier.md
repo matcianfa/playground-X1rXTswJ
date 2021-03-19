@@ -24,10 +24,14 @@ Si je considère le "son" dont les données sont $`[1,2,-1]`$. On a alors avec l
 Calculons les coefficients :
 - $`a_0 = d_0*cos\left(\dfrac{2\pi*0*0}{3}\right) + d_1*cos\left(\dfrac{2\pi*0*1}{3}\right) + d_2*cos\left(\dfrac{2\pi*0*2}{3}\right)`$  
   $`a_0 = 1*1+2*1+(-1)*1 = 2`$
-- $`a_1 = d_0*cos\left(\dfrac{2\pi*1*0}{3}\right) + d_1*cos\left(\dfrac{2\pi*1*1}{3}\right) + d_2*cos\left(\dfrac{2\pi*1*2}{3}\right) = 1*1+2*\left(-\dfrac{1}{2}\right)+(-1)*\left(-\dfrac{1}{2}\right) = \dfrac{1}{2}`$
-- $`a_2 = d_0*cos\left(\dfrac{2\pi*2*0}{3}\right) + d_1*cos\left(\dfrac{2\pi*2*1}{3}\right) + d_2*cos\left(\dfrac{2\pi*2*2}{3}\right) = 1*1+2*\left(-\dfrac{1}{2}\right)+(-1)*\left(-\dfrac{1}{2}\right) = \dfrac{1}{2}`$
+- $`a_1 = d_0*cos\left(\dfrac{2\pi*1*0}{3}\right) + d_1*cos\left(\dfrac{2\pi*1*1}{3}\right) + d_2*cos\left(\dfrac{2\pi*1*2}{3}\right)`$  
+  $`a_1 = 1*1+2*\left(-\dfrac{1}{2}\right)+(-1)*\left(-\dfrac{1}{2}\right) = \dfrac{1}{2}`$
+- $`a_2 = d_0*cos\left(\dfrac{2\pi*2*0}{3}\right) + d_1*cos\left(\dfrac{2\pi*2*1}{3}\right) + d_2*cos\left(\dfrac{2\pi*2*2}{3}\right)`$  
+  $`a_2 = 1*1+2*\left(-\dfrac{1}{2}\right)+(-1)*\left(-\dfrac{1}{2}\right) = \dfrac{1}{2}`$
 Pour les coefficients $`b_k`$ les calculs sont très similaires et on obtient $`b_0 = 0`$, $`b_1 = \dfrac{3\sqrt{3}}{2}`$ et $`b_2 = \dfrac{3\sqrt{3}}{2}`$.
 
 Utilisons maintenant la formule d'inversion pour se convaincre qu'elle marche bien :
-- $`\dfrac 1 3 \left(a_0*cos\left(\dfrac{2\pi*0*0}{3}\right) + b_0*sin\left(\dfrac{2\pi*0*0}{3}\right) + a_1*cos\left(\dfrac{2\pi*1*0}{3}\right) + b_1*sin\left(\dfrac{2\pi*1*0}{3}\right) + a_2*cos\left(\dfrac{2\pi*2*0}{3}\right)+ b_2*sin\left(\dfrac{2\pi*2*0}{3}\right)= 1*1+2*1+(-1)*1 = 2`$
+- $`\dfrac 1 3 \left(a_0*cos\left(\dfrac{2\pi*0*0}{3}\right) + b_0*sin\left(\dfrac{2\pi*0*0}{3}\right) + a_1*cos\left(\dfrac{2\pi*1*0}{3}\right) +`$  
+  $`\qquad\qquad b_1*sin\left(\dfrac{2\pi*1*0}{3}\right) + a_2*cos\left(\dfrac{2\pi*2*0}{3}\right)+ b_2*sin\left(\dfrac{2\pi*2*0}{3}\right)\right)`$  
+  $`= 1*1+2*1+(-1)*1 = 2`$
 :::
