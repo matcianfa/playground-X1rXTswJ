@@ -1,15 +1,13 @@
-#Ne pas oublier de changer le module à importer
+#message d'aide si besoin
+help=""
+
+# Les imports
 import matplotlib
 matplotlib.use('agg')
 import sys
 import io
 import matplotlib.pyplot as plt
 import numpy as np
-#message d'aide si besoin
-help=""
-
-# Les imports
-import sys
 # On rajoute le chemin de ma_bao.py dans le sys.path
 sys.path.append("/project/target")
 # Ma boite à outils
