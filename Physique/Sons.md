@@ -14,13 +14,15 @@ Un son c'est donc une liste de données qui correspondent à la "valeur" du son 
 ## Créer son propre son
 
 Pour créer un son c'est extrêmement simple : Si la frequence est de 44100 Hz, il suffit de créer une liste de valeur correspondant à ce qui sera joué toutes les 1/44100 secondes.  
-Par exemple, si on veut jouer un son pur comme un LA de diapason (qui a une frequence de 440 Hz), il suffit de créer une liste de points correspondant à une fonction cosinus qui a une fréquence de 440 Hz (ce qui correspond à la fonction $`cos(2\pi*440x)`$). Voici le résultats ci-dessous.
+Par exemple, si on veut jouer un son pur comme un LA de diapason (qui a une frequence de 440 Hz), il suffit de créer une liste de points correspondant à une fonction cosinus qui a une fréquence de 440 Hz (ce qui correspond à la fonction $`f(x)=cos(2\pi*440x)`$). Voici le résultats ci-dessous.
 
 @[Créer un son]({"stubs": ["Physique/creer_un_son.py","Physique/fonction_afficher_jouer_son.py"], "command": "python3 Physique/creer_un_son_Test.py"})
 
 Quelques remarques : 
 - Si on veut voir un peu mieux la fonction il faut réduire la durée à par exemple 0.01 car en 1 sec, elle oscille 440 fois donc naturellement sur le graphique, on ne voit pas les oscillations.
-- S'il n'y a pas de modification à l'execution alors que vous avez modifié le code, n'hésitez pas à relancer en appuyant sur RUN
+- S'il n'y a pas de modification à l'execution alors que vous avez modifié le code, n'hésitez pas à remodifier et relancer en appuyant sur RUN.
 - On peut s'amuser à modifier la fréquence du son en modifiant le 440 Hz. Attention à ne pas confondre les fréquences : La fréquence d'echantillonage nous donne une information sur le nombre de données utilisées pour créer le son (plus il y a de données, plus notre son est précis). La fréquence de la note elle par contre est simplement physique, c'est la fréquence de vibration pour obtenir cette note (avec une corde par exemple).
 
-On peut facilement créer d'autres sons plus interessants. 
+On peut facilement créer d'autres sons. Modifiez la fonction dans le cadre précédent avec une des possibilités suivantes :
+- La somme de 3 notes pures harmoniques de fréquences 220 Hz, 440 Hz et 880 Hz qui correspondent à 3 LA différents avec la fonction `cos(2*pi*220*x)+cos(2*pi*440*x)+cos(2*pi*880*x)`
+- La somme de 3 notes formant un accord de fréquences 275 Hz, 330 Hz et 440 Hz qui correspondent à un LA majeur (Do#, Mi et La) avec la fonction `cos(2*pi*275*x)+cos(2*pi*33*x)+cos(2*pi*440*x)`
