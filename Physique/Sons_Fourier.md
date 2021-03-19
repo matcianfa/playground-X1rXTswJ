@@ -6,11 +6,11 @@ Le but de cette page est de voir un peu ce qui se cache derrière des compressio
 
 Nous avons vu, page précèdente, qu'un son wave est simplement une suite de données joué à une certaine fréquence. Notons $`N`$ la taille de ces données et $`d_n`$ la donnée d'indice $`n`$. A partir de cette suite de données, on peut en créer 2 qu'on appelle coefficients de Fourier réels  dont les formules sont :
 ``` math
-a_k =\sum_{n=0}^{N-1} d_n cos\left(\dfrac{2\pi kn}{N}\right)
+a_k =\displaystyle \sum_{n=0}^{N-1} d_n cos\left(\dfrac{2\pi kn}{N}\right)
 ```
 et 
 ```math
-b_k =\sum_{n=0}^{N-1} d_n sin\left(\dfrac{2\pi kn}{N}\right)
+b_k =\displaystyle \sum_{n=0}^{N-1} d_n sin\left(\dfrac{2\pi kn}{N}\right)
 ```
 
 On a alors le miracle suivant : à partir de ces deux suites, on peut retrouver celle de départ par la formule :
@@ -18,3 +18,10 @@ On a alors le miracle suivant : à partir de ces deux suites, on peut retrouver 
 ```math
 d_n = \dfrac 1 N \sum_{k=0}^{N-1} a_k cos\left(\dfrac{2\pi kn}{N}\right) + b_k sin\left(\dfrac{2\pi kn}{N}\right)
 ```
+
+:::Exemple à la main
+Si je considère le "son" dont les données sont $`[1,2,-1]`$. On a alors avec les notations $`d_0=1`$, $`d_1=2`$ et $`d_2=-1`$.  
+Calculons les coefficients :
+- $`a_0 = d_0*cos\left(\dfrac{2\pi*0*0}{3}\right) + d_1*cos\left(\dfrac{2\pi*0*1}{3}\right) + d_2*cos\left(\dfrac{2\pi*0*2}{3}\right) = 1*1+2*1+(-1)*1 = 2`$
+- $`a_1 = d_0*cos(2\pi*1*0) + d_1*cos(2\pi*1*1) + d_2*cos(2\pi*1*2) = 1*1+2*1+(-1)*1 = 2`$
+:::
