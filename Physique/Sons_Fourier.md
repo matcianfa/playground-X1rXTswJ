@@ -42,7 +42,7 @@ Utilisons maintenant la formule d'inversion pour se convaincre qu'elle marche bi
 
 Quelques précisions encore : En utilisant les formules de trigonométrie classiques, on peut trouver un $`\varphi_k`$ tel que les termes des sommes peuvent s'écrire :  
 ```math
-a_k cos\left(\dfrac{2\pi kn}{N}\right) + b_k sin\left(\dfrac{2\pi kn}{N} = \sqrt{a_k^2 + b_k^2} cos\left(\dfrac{2\pi kn}{N} + \varphi_k\right)
+a_k cos\left(\dfrac{2\pi kn}{N}\right) + b_k sin\left(\dfrac{2\pi kn}{N}\right) = \sqrt{a_k^2 + b_k^2} cos\left(\dfrac{2\pi kn}{N} + \varphi_k\right)
 ```
 
 ## La pratique 
@@ -52,5 +52,5 @@ Cette simple réecriture de nos données en somme de Fourier nous permet donc na
 
 ### Le codage 
 
-
+@[Trasformée de Fourier]({"stubs": ["Physique/Fourier.py","Physique/fonctions_Fourier.py"], "command": "python3 Physique/Fourier_Test.py"})
 
