@@ -4,6 +4,7 @@ import numpy as np
 
 def afficher_jouer_son(son,frequence,fichier = "Physique/son.wav"):
   # On l'affiche
+  son = np.asarray(son)
   taille = son.shape[0]
   temps = np.arange(0,taille)/frequence
   plt.plot(temps,son)
