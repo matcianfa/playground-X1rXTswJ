@@ -8,4 +8,4 @@ Nous allons commencer par observer un son (ici ce sera un LA joué au piano) enr
 Remarque : Pour des raisons pratiques, l'affichage et le fait de jouer le son sont gérés par une fonction `afficher_jouer_son` car sur ce site l'accès à l'affichage et aux haut parleurs demande quelques pirouettes. Cela serait beaucoup plus simple à faire en direct sur son propre ordinateur. Pour les curieux vous pouvez voir les détails de la fonction en changeant d'onglet.
 @[Ouvrir un son]({"stubs": ["Physique/afficher_jouer_son.py","Physique/fonction_afficher_jouer_son.py"], "command": "python3 Physique/afficher_jouer_son_Test.py"})
 
-On peut observer sur le graphique 2 courbes de couleurs différentes car c'est un son stéréo.
+On peut observer sur le graphique 2 courbes de couleurs différentes car c'est un son stéréo. Cela se retrouve dans la taille des données : c'est un tableau de dimension 67936 x 2.
