@@ -15,5 +15,5 @@ def ma_fonction(x) :
 données_son = [ma_fonction(k/frequence_echantillon) for k in range(int(duree*frequence_echantillon))]
 
 # J'affiche mon son et je le joue en même temps
-afficher_jouer_son(données_son,frequence_echantillon)
+afficher_jouer_son(données_son,frequence_echantillon,taille_affichage = 400)
 
