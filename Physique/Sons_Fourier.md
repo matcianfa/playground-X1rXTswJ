@@ -31,7 +31,7 @@ Calculons les coefficients :
 Pour les coefficients $`b_k`$ les calculs sont très similaires et on obtient $`b_0 = 0`$, $`b_1 = \dfrac{3\sqrt{3}}{2}`$ et $`b_2 = \dfrac{3\sqrt{3}}{2}`$.
 
 Utilisons maintenant la formule d'inversion pour se convaincre qu'elle marche bien :
-- $`\dfrac 1 3 \left(a_0*cos\left(\dfrac{2\pi*0*0}{3}\right) + b_0*sin\left(\dfrac{2\pi*0*0}{3}\right) + a_1*cos\left(\dfrac{2\pi*1*0}{3}\right) +`$  
-  $`\qquad\qquad b_1*sin\left(\dfrac{2\pi*1*0}{3}\right) + a_2*cos\left(\dfrac{2\pi*2*0}{3}\right)+ b_2*sin\left(\dfrac{2\pi*2*0}{3}\right)\right)`$  
+- $`\dfrac 1 3 \left(a_0*cos\left(\dfrac{2\pi*0*0}{3}\right) + b_0*sin\left(\dfrac{2\pi*0*0}{3}\right) + a_1*cos\left(\dfrac{2\pi*1*0}{3}\right) +\right.`$  
+  $`\qquad\qquad \left.b_1*sin\left(\dfrac{2\pi*1*0}{3}\right) + a_2*cos\left(\dfrac{2\pi*2*0}{3}\right)+ b_2*sin\left(\dfrac{2\pi*2*0}{3}\right)\right)`$  
   $`= 1*1+2*1+(-1)*1 = 2`$
 :::
