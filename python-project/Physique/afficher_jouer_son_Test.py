@@ -8,6 +8,12 @@ import numpy as np
 #message d'aide si besoin
 help=""
 
+# Les imports
+import sys
+# On rajoute le chemin de ma_bao.py dans le sys.path
+sys.path.append("/project/target")
+# Ma boite à outils
+from ma_bao import * 
 # Donne les noms du dossier et du module (automatiquement avec __file__
 chemin,module=donner_chemin_nom(__file__)
 
