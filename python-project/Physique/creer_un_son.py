@@ -6,9 +6,10 @@ frequence_echantillon = 44100 # Hz
 duree = 2 # secondes
 
 # ------- Fonction correspondant au son
+frequence_note = 440
 
 def ma_fonction(x) :
-    return cos(2*pi*440*x)
+    return cos(2*pi*frequence_note*x)
 
 # ------- création des données du son
 données_son = [ma_fonction(k/frequence_echantillon) for k in range(int(duree*frequence_echantillon))]
