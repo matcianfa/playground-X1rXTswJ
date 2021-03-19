@@ -1,7 +1,6 @@
 import numpy as np
 from matplotlib import pyplot as plt
 import soundfile as sf
-from fonction_afficher_jouer_son import afficher_jouer_son # Fonction perso pour afficher et jouer le son sur ce site
 from fonctions_Fourier import * # Les fonctions qui permettent de calculer les coefficients de Fourier etc. (voir onglet)
 
 # Je charge mon fichier ce qui me donne des données (sous forme de vecteur numpy ) et la fréquence d'enregistrement
