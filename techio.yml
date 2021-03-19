@@ -213,7 +213,7 @@ plan:
   - title: Résolution numérique d'équations differentielles
     statement: Physique/Resolution equa diff.md
   - title: Le son
-    statement: Physique/sons.md
+    statement: Physique/Sons.md
 - title: Défis
   plan:
   - title: Introduction
