@@ -33,5 +33,11 @@ Pour les coefficients $`b_k`$ les calculs sont très similaires et on obtient $`
 Utilisons maintenant la formule d'inversion pour se convaincre qu'elle marche bien :
 - $`\dfrac 1 3 \left(a_0*cos\left(\dfrac{2\pi*0*0}{3}\right) + b_0*sin\left(\dfrac{2\pi*0*0}{3}\right) + a_1*cos\left(\dfrac{2\pi*1*0}{3}\right) +\right.`$  
   $`\qquad\qquad \left.b_1*sin\left(\dfrac{2\pi*1*0}{3}\right) + a_2*cos\left(\dfrac{2\pi*2*0}{3}\right)+ b_2*sin\left(\dfrac{2\pi*2*0}{3}\right)\right)`$  
-  $`= 1*1+2*1+(-1)*1 = 2`$
+  $`= \dfrac 1 3\left(2*1 + 0*0 + \dfrac 1 2 * 1 + \dfrac{3\sqrt 3}2 * 0 + \dfrac 1 2 * 1 + \dfrac{3\sqrt 3}2 * 0 \right)= 1 = d_0`$
+- $`\dfrac 1 3 \left(a_0*cos\left(\dfrac{2\pi*0*1}{3}\right) + b_0*sin\left(\dfrac{2\pi*0*1}{3}\right) + a_1*cos\left(\dfrac{2\pi*1*1}{3}\right) +\right.`$  
+  $`\qquad\qquad \left.b_1*sin\left(\dfrac{2\pi*1*1}{3}\right) + a_2*cos\left(\dfrac{2\pi*2*1}{3}\right)+ b_2*sin\left(\dfrac{2\pi*2*1}{3}\right)\right)`$  
+  $`= \dfrac 1 3\left(2*1 + 0*0 + \dfrac 1 2 * \left(-\dfrac 1 2\right) + \dfrac{3\sqrt 3}2 * \dfrac{\sqrt 3}2 + \dfrac 1 2 * \left(-\dfrac 1 2\right) + \dfrac{3\sqrt 3}2 * \left(-\dfrac{\sqrt 3}2\right \right)= 2 = d_1`$
+- Je vous laisse le plaisir de prouver que le dernier calcul donne -1...
 :::
+
+## La pratique 
