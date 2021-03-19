@@ -214,6 +214,8 @@ plan:
     statement: Physique/Resolution equa diff.md
   - title: Le son
     statement: Physique/Sons.md
+  - title: Transformée de Fourier
+    statement: Physique/Sons_Fourier.md
 - title: Défis
   plan:
   - title: Introduction
