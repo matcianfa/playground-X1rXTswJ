@@ -212,6 +212,8 @@ plan:
     statement: Physique/Chronophotographie.md
   - title: Résolution numérique d'équations differentielles
     statement: Physique/Resolution equa diff.md
+  - title: Le son
+    statement: Physique/sons.md
 - title: Défis
   plan:
   - title: Introduction
