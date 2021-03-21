@@ -65,3 +65,12 @@ Enfin on écoute le résultat après tant d'efforts. Il n'est pas si différent 
 @[Transformée de Fourier]({"stubs": ["Physique/Fourier.py","Physique/fonctions_Fourier.py"], "command": "python3 Physique/Fourier_Test.py"})
 
 Tout ce qui précède est très perfectible. Le but était ici de montrer les idées qui sont derrière beaucoup de type de compression de données (sons, images...). Si on veut le faire plus efficacement, il vaut mieux utiliser des fonctions déjà existantes comme celles se trouvant dans le module `numpy.fft` qui vont beaucoup beaucoup beaucoup plus vite que les fonctions naives présentées ici. Mais ce n'est qu'en codant à la main les techniques qu'on les comprend vraiment. N'hésitez pas à adapter les codes précédents pour pouvoir les utiliser sur votre ordinateur où vous pourrez laisser calculer davantage et sur des sons plus longs. 
+
+## Quelques précisions sur les fréquences harmoniques
+
+Le fait qu'un son représenté par des valeurs discrètes soit la somme de sons "purs" n'est pas réellement une évidence à partir des formules ci-dessus. En effet, dans ces formules on a $`d_n =  \displaystyle \dfrac 1 N \sum_{k=0}^{N-1} \sqrt{a_k^2 + b_k^2} cos\left(\dfrac{2\pi kn}{N} + \varphi_k\right)`$. Or les frequences qui interviennent dépendent de $`n`$.  
+Pour mieux comprendre ce qui se passe, il faut revenir à l'origine : Un son peut être vu comme une fonction $`f(t)`$ du temps. Pour pouvoir faire un traitement informatique de ce son on est obligé de prélever des données à une frequence $`frequence_{echantillon}`$. On a ainsi nos données $`d_n`$. On traite ces données comme on a vu précédemment pour obtenir la décomposition $`d_n =  \displaystyle \dfrac 1 N \sum_{k=0}^{N-1} \sqrt{a_k^2 + b_k^2} cos\left(\dfrac{2\pi kn}{N} + \varphi_k\right)`$. Maintenant il faut revenir à la fonction d'origine $`f`$ représentant notre son en fonction du temps. Pour cela, le moyen le plus naturel en utilisant la formule précédente est de poser :
+```math
+\tilde f(t) = \dfrac 1 N \sum_{k=0}^{N-1} \sqrt{a_k^2 + b_k^2} cos\left(\dfrac{2\pi k\dfrac t {frequence_{echantillon}}}{N} + \varphi_k\right)
+```
+
