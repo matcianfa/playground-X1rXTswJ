@@ -310,6 +310,10 @@ plan:
     statement: Autre/Epicycloides.md
   - title: Jeu de Light Out
     statement: Autre/Lightout.md
+- title : Autre
+  plan:
+  - title: Liens vers des Google Colab
+    statement: Autre/liens_vers_GC.md
   #- title: Test
   #  statement: Autre/test.md
 projects:
