@@ -5,7 +5,7 @@ Le but de cette page est de regrouper des liens vers les googles colab/ notebook
 ## Grand Oral
 
 + [Voir le spectre d'un son](https://colab.research.google.com/drive/19DFDSNplzzxe_JMXKIYrk_eVm00JbHUc?usp=sharing)
-+ [Transformée de Fourier et electrocardiogrammes](https://drive.google.com/file/d/1485TdOIMVr9CJ6u9ehqerCOL88Spo_1A/view?usp=sharing)
++ [Transformée de Fourier et electrocardiogrammes](https://colab.research.google.com/drive/1485TdOIMVr9CJ6u9ehqerCOL88Spo_1A)
 
 
 ## Labo Cors'IA
@@ -14,4 +14,4 @@ Le but de cette page est de regrouper des liens vers les googles colab/ notebook
 
 ## Autre
 
-+ [Etude d'un mouvement Brownien](https://drive.google.com/file/d/1tN80R2MJcjiXJGOqPqHlhBJw3_Vz3KoG/view?usp=sharing)
++ [Etude d'un mouvement Brownien](https://colab.research.google.com/drive/1tN80R2MJcjiXJGOqPqHlhBJw3_Vz3KoG)
