@@ -46,6 +46,8 @@ plan:
     statement: Maths/Regression.md
   - title: Cours - Les classes en Python
     statement: Cours/Classes.md
+  - title: Exercices sur Codingame
+    statement: Autre/liste_exo_CG.md
 - title: Classe de Seconde
   plan:
   - title: Introduction
