@@ -29,13 +29,13 @@ La notion de difficulté étant très subjective, cela ne coute rien d'aller voi
 
 | Lien vers la contribution Codingame  | Conditions | Boucles for | Boucles while | Chaines de caractères | Listes | Dictionnaires | Autre |
 | ------------------------------------ |:----------:|:-----------:|:-------------:|:----------------:|:------:|:-------------:|:-----:|
-| Mom's code | 1 | 0 | 0 | 0 | 0 | 0 |  |
-| Binary clock | 1 | 0 | 0 | 0 | 0 | 0 |  |
-| Fibonacci 2 | 1 | 0 | 0 | 0 | 0 | 0 | ad |
-| Sadaharu Oh | 1 | 0 | 0 | 0 | 0 | 0 | test |
-| Addition or multiplication ? | 1 | 1 | 0 | 0 | 0 | 0 |  |
-| Code Breaker | 2 | 1 | 0 | 0 | 0 | 0 | test |
-| Round and round we go | 0 | 1 | 1 | 0 | 0 | 0 |  |
-| Bounds | 1 | 1 | 1 | 0 | 0 | 0 |  |
-| It's a starry night... | 1 | 1 | 0 | 2 | 0 | 0 |  |
-| Alphabet on n | 1 | 2 | 0 | 0 | 1 | 0 |  |
+| [Mom's code](https://www.codingame.com/contribute/view/61476788fb352742390768e46a182b5debc2) | 1 | 0 | 0 | 0 | 0 | 0 |  |
+| [Binary clock](https://www.codingame.com/contribute/view/6125e9f3b6ec07861ea09f10e1c21a743e55) | 1 | 0 | 0 | 0 | 0 | 0 |  |
+| [Fibonacci 2](https://www.codingame.com/contribute/view/5979b23b616dc66bfe2f18170a1a8e1ef61b) | 1 | 0 | 0 | 0 | 0 | 0 | ad |
+| [Sadaharu Oh](https://www.codingame.com/contribute/view/6142a5b054196988af3c99a0da8649e02403) | 1 | 0 | 0 | 0 | 0 | 0 | test |
+| [Addition or multiplication ?](https://www.codingame.com/contribute/view/5494c6ef26a7551dedc87889f23adfe71ab8) | 1 | 1 | 0 | 0 | 0 | 0 |  |
+| [Code Breaker](https://www.codingame.com/contribute/view/615955355e81da150427fbc22030665ef811) | 2 | 1 | 0 | 0 | 0 | 0 | test |
+| [Round and round we go](https://www.codingame.com/contribute/view/6151acc821fa188e8e71f5f14489e33ca142) | 0 | 1 | 1 | 0 | 0 | 0 |  |
+| [Bounds](https://www.codingame.com/contribute/view/6069e1a41b39aa5205e99d1fa87ce0dbfcee) | 1 | 1 | 1 | 0 | 0 | 0 |  |
+| [It's a starry night...](https://www.codingame.com/contribute/view/5984cf98ff9bc833f50bd37d11b149e25a07) | 1 | 1 | 0 | 2 | 0 | 0 |  |
+| [Alphabet on n](https://www.codingame.com/contribute/view/5445dc149385d891c1be37a1146fbb911740) | 1 | 2 | 0 | 0 | 1 | 0 |  |
