@@ -6,6 +6,7 @@ Le but de cette page est de regrouper des liens vers les googles colab/ notebook
 
 + [Voir le spectre d'un son](https://colab.research.google.com/drive/19DFDSNplzzxe_JMXKIYrk_eVm00JbHUc?usp=sharing)
 + [Transformée de Fourier et electrocardiogrammes](https://colab.research.google.com/drive/1485TdOIMVr9CJ6u9ehqerCOL88Spo_1A)
++ [Attaque des anniversaires](https://colab.research.google.com/drive/1Og08Pa9pFB0exblKUzDsOQxTV7_w2oX2?usp=sharing)
 
 
 ## Labo Cors'IA
