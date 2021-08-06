@@ -1,5 +1,5 @@
 """
-Euler 136 et 137
+Euler 136
 Extremement long mais ca marche...
 On ecrit x,y,z sous la forme d+r,d,d-r. On obtient que n est forcément de la forme d(4r-d).
 Donc il suffit de chercher les nombres n tels que l'ensemble des diviseurs tels que n//d est divisible par 4 (pour pouvoir trouver r)
