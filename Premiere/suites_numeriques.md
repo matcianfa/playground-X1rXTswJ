@@ -190,7 +190,7 @@ Le but de cet exercice est de faire un programme qui permet de déterminer pour 
 > Sortie : Le plus petit entier tel que $`u_n<e`$
 
 ::: Indications
-On pourra regarder le cour sur le boucles `while`
+On pourra regarder le cours sur le boucles `while`
 :::
 
 @[Recherche de seuil 1]({"stubs": ["Les_boucles/Recherche_de_seuil.py"], "command": "python3 Les_boucles/Recherche_de_seuil_Test.py"})
@@ -205,11 +205,18 @@ On considère désormais la suite définie par $`u_{n+1}=2.u_n`$ et de premier t
 Cette suite augmente indéfiniment lorsque ***n*** augmente.
 
 On se demande à partir de quel rang cette suite pourra dépasser une valeur ***e*** donnée en entrée.
-Ecrire un programme qui donnera la plus petite valeur de ***n*** telle que $`u_n>e`$.
+Ecrire un programme qui donnera la plus petite valeur de ***n*** telle que $`u_n\geq e`$.
 
 > Entrée : Deux réels $`u_0`$ et ***e***.
 
 > Sortie : Le plus petit entier ***n*** tel que $`u_n>e`$. S'il n'en existe pas, afficher "IMPOSSIBLE".
+
+::: Indications
+Il faut considérer 3 cas : 
+- Si $`u_0>e`$ car la réponse est ...
+- Si $`u_0\leq 0`$ car la réponse est ...
+- Le reste des cas où il faut calculer la réponse.
+:::
 
 @[Recherche de seuil 1]({"stubs": ["Les_boucles/Recherche_de_seuil2.py"], "command": "python3 Les_boucles/Recherche_de_seuil2_Test.py"})
 
