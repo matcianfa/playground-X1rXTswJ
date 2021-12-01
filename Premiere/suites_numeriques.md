@@ -209,7 +209,7 @@ Ecrire un programme qui donnera la plus petite valeur de ***n*** telle que $`u_n
 
 > Entrée : Deux réels $`u_0`$ et ***e***.
 
-> Sortie : Le plus petit entier ***n*** tel que $`u_n>e`$. S'il n'en existe pas, afficher "IMPOSSIBLE".
+> Sortie : Le plus petit entier ***n*** tel que $`u_n\geq e`$. S'il n'en existe pas, afficher "IMPOSSIBLE".
 
 ::: Indications
 Il faut considérer 3 cas : 
