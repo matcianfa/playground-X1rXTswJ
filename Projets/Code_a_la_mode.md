@@ -4,7 +4,8 @@ Remarque pratique : N'hésitez pas à mettre en mode plein ecran (bouton au dess
 
 [Voici le lien pour accéder directement au jeu.](https://www.codingame.com/multiplayer/bot-programming/code-a-la-mode)
 
-Vous pourrez trouver une introduction générale sur les combats d'IA sur le site Codingame sur une des pages précédentes.
+Vous pourrez trouver une introduction générale en vidéo sur les combats d'IA sur le site Codingame ainsi qu'une présentation de ce kit de démarrage en [cliquant sur ce lien](https://youtube.com/playlist?list=PLSvpVr2aLOBc9AJ1P-Oy98bT1ay-ENUet). 
+
 
 ## Présentation
 
