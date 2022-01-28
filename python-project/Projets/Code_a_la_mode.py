@@ -2,7 +2,7 @@
 import sys
 
 
-# ------------- Les fonctions auxiliaires
+# ------------- Fonction auxiliaire
 def log(*x):
     """
     Permet d'afficher des données utiles comme un message d'erreur (et donc qui ne sera pas considéré comme une réponse)
@@ -95,12 +95,12 @@ def donner_case_par_coord(x, y):
             return i
 
 
-def utiliser(case):
-    print("USE", cases_x[case], cases_y[case])
+def utiliser(numero_case):
+    print("USE", cases_x[numero_case], cases_y[numero_case])
 
 
-def aller(case):
-    print("MOVE", cases_x[case], cases_y[case])
+def aller(numero_case):
+    print("MOVE", cases_x[numero_case], cases_y[numero_case])
 
 
 def attendre():
@@ -153,8 +153,8 @@ while True:
         table_x, table_y, objet = input().split()
         table_x = int(table_x)
         table_y = int(table_y)
-        case = donner_case_par_coord(table_x, table_y)
-        cases_objet[case] = objet
+        numero_case = donner_case_par_coord(table_x, table_y)
+        cases_objet[numero_case] = objet
 
     # --- Contenu du four ( Utile à partir de la ligue Bois 1)
     contenu_four, minuteur_four = input().split()
