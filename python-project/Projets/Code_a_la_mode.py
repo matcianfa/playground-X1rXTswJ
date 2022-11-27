@@ -106,8 +106,20 @@ def aller(numero_case):
 def attendre():
     print("WAIT")
 
+def deposer():
+    """
+    Fonction qui cherche la table vide la plus proche de nous et y dépose l'objet en main
+    """
+    distance_minimale = 100
+    i_minimal = -1
+    for i in range(NB_CASES):
+        distance = max(abs(cases_x[i]-joueur_x),abs(cases_y[i]-joueur_y))
+        if distance < distance_minimale and  cases_nom[i] == TABLE_VIDE and cases_objet[i] == VIDE:
+            distance_minimale = distance
+            i_minimal = i
+    utiliser(i_minimal)
 
-
+    
 # ------------- Le jeu
 
 # ------ Récupération des données d'entrée communes pour toute la partie
