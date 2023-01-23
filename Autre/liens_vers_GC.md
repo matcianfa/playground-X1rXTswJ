@@ -16,3 +16,4 @@ Le but de cette page est de regrouper des liens vers les googles colab/ notebook
 ## Autre
 
 + [Etude d'un mouvement Brownien](https://colab.research.google.com/drive/1tN80R2MJcjiXJGOqPqHlhBJw3_Vz3KoG)
++ [Générer des sudoku](https://colab.research.google.com/drive/1E-fuCydQBLS34MEneOE-QGC_yv4_9iv2?usp=sharing)
