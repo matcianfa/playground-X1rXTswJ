@@ -2,7 +2,7 @@
 import sys
 
 
-# ------------- Fonction auxiliaire
+# ------------- Fonctions auxiliaires
 def log(*x):
     """
     Permet d'afficher des données utiles comme un message d'erreur (et donc qui ne sera pas considéré comme une réponse)
@@ -11,7 +11,7 @@ def log(*x):
     print(*x, file=sys.stderr)
 
 
-# ------------- Les constantes variables
+# ------------- Constantes et variables
 
 # --- Cases particulières
 CORBEILLE_MYRTILLES = "B"
