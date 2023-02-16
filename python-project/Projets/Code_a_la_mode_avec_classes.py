@@ -72,6 +72,7 @@ class Jeu:
         self.partenaire = Joueur()
         self.cases = []
         self.commandes = [] # La liste des 3 commandes en cours
+        self.recompenses = []
 
     def reinitialiser(self) :
         """
@@ -175,7 +176,7 @@ while True:
         table_y = int(table_y)
         jeu.donner_case_par_coord(table_x, table_y).objet = objet
 
-    # Contenu du four ( Utile à partir de la ligue 1)
+    # Contenu du four ( Utile à partir de la ligue Bois 1)
     contenu_four, minuteur_four = input().split()
     minuteur_four = int(minuteur_four)
 
@@ -183,8 +184,10 @@ while True:
     nb_clients = int(input())  # Le nombre de clients qui attendent leur commande
     for i in range(nb_clients):
         commande_client, recompense_client = input().split()
+        commande_client = commande_client.split('-')
         recompense_client = int(recompense_client)
         jeu.commandes.append(commande_client)
+        jeu.recompenses.append(recompense_client) 
 
     # Logique du jeu : C'est ici qu'il faut compléter le code pour gérer le cuisinier
     # Exemple : pour récupérer l'assiette et la glace :
