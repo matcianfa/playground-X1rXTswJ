@@ -50,4 +50,4 @@ C'est ici qu'on peut apprécier l'utilisation de noms parlant pour les constante
 Bon jeu !
 
 
-@[Inutile d'appuyer sur Run]({"stubs":["Projets/Code_a_la_mode.py"], "command": "python3 Projets/Code_a_la_mode_Test.py", "layout": "aside"})
+@[Inutile d'appuyer sur Run]({"stubs":["Projets/Code_a_la_mode.py","Projets/Code_a_la_mode_avec_classes.py"], "command": "python3 Projets/Code_a_la_mode_Test.py", "layout": "aside"})
