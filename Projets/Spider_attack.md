@@ -31,3 +31,31 @@ Ensuite vient la création de ce que l'on va appeler un Agent qui sera le terme 
 
 Nous avons essayé ici de réduire au minimum la programmation orientée objet sans pour autant l'éviter car elle rend ici le code beaucoup plus simple d'utilisation. En effet un agent (donc un heros ou une araignée) a plusieurs caractéristiques qui sont détaillées dans la présentation du jeu (à traduction près) : 'id', 'type', 'x', 'y', 'duree_bouclier', 'sous_controle', 'vie', 'vx', 'vy', 'proche_base', 'menace_pour'.  
 Pour récupérer les données d'un agent nommé `a`, il suffira d'écrire `a.x` pour connaitre son abscisse par exemple ou `a.vie` pour connaitre sa vie ou encore `a.menace_pour` pour savoir quelle base est menacée par cet agent.
+
+### La récupération des entrées
+
+C'est le but de ce kit de démarrage : déjà gérer la récupération des informations car ce n'est pas très intuitif quand on débute sur Codingame. Il faut juste comprendre que cette partie là du code sert à récupérer l'état du jeu au fur et à mesure qu'il évolue : On récupère l'état du jeu, on joue en fonction ce qui change l'état du jeu etc.  
+Il vaut mieux éviter de toucher cette partie du code, du moins au début.
+
+### La logique du jeu 
+
+C'est là qu'il va falloir intervenir. Pour chaque héros, il va falloir renvoyer (avec la fonction `print`) une action.  
+Le code de base proposé dans ce kit est le suivant : S'il y a des monstres en vue, on sélectionne le premier de la liste ( qui n'est pas forcément ni le plus proche, ni le plus loin ni toujours le même d'un tour sur l'autre) et on se dirige vers lui. S'il n'y a pas de monstre, on attend. A vous de trouver de meilleurs stratégies pour essayer de battre les différents Boss et vous classer au mieux.
+
+## Les différents éléments utilisables 
+
+Voici les principales variables de ce kit contenant les informations du jeu dont vous pouvez avoir besoin :
+
+- `ma_base_x`, `ma_base_y` : Contient les coordonnées de notre base
+- `ma_vie`, `mon_mana`,`vie_adv`, `mana_adv` : Contient la vie et le mana des deux joueurs
+- `monstres` : Contient la liste des Agents de type monstre.
+- `mes_heros` : Contient la liste de mes héros.
+- `adv_heros` : Contient la liste des héros de l'adversaire.
+
+Pour rappel, ces trois dernières listes contiennent des Agents. Pour récupérer une donnée particulière d'un agent, par exemple la vie, on utilisera la notation `agent.vie` comme présentée plus haut.  
+Par exemple si on veut voir s'afficher (avec la fonction log) l'ID de mes héros suivie de ses coordonnées je pourrais écrire :
+```python
+for heros in mes_heros:
+    log(heros.id, heros.x, heros.y)
+```
+On verrait alors s'afficher dans la partie "Sortie d'erreur" en rouge trois lignes de la forme "0 1414 849" par exemple.
