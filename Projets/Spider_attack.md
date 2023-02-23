@@ -67,4 +67,6 @@ On verrait alors s'afficher dans la partie "Sortie d'erreur" en rouge trois lign
 Ca serait dommage de ne pas profiter de ces informations.
 - Essayez de comprendre la structure du code proposé en kit et de la respecter pour que votre code reste lisible et compréhensible sur le long terme. Par exemple, il vaut mieux prendre le temps d'écrire des fonctions à part plutôt que d'écrire directement tout dans la logique du jeu. Une idée aussi bonne soit-elle sera surement remplacée un peu plus tard par une autre et donc si votre code est trop brouillon, il deviendra vite inutilisable. Par exemple une fonction `attaquer` pour décrire une stratégie d'attaque. Et si on change plus tard de stratégie, on aura juste à créer une autre fonction `attaquer2` nous laissant la possibilité de revenir très facilement retester la première stratégie ou de mélanger les deux...
 
-Amusez vous bien
+Amusez vous bien !
+
+@[Inutile d'appuyer sur Run]({"stubs":["Projets/Spider_attack.py"], "command": "python3 Projets/Code_a_la_mode_Test.py", "layout": "aside"})
