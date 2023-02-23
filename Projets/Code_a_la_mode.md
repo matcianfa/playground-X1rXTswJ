@@ -10,7 +10,7 @@ Vous pourrez trouver une introduction générale en vidéo sur les combats d'IA 
 ## Présentation
 
 Ce combat d'IA est très intéressant dans le cadre d'un projet avec les élèves car il demande assez peu de connaissances théoriques pour y participer pleinement. Le plus difficile est la bonne gestion des entrées pour les rendre utilisables facilement. Le coeur de l'IA est un enchainement de conditions qui peuvent être facilement gérés par les élèves.  
-Un objectif raisonnable peut être de viser un bon classement dans la ligue Bronze voire, pour les meilleurs, passer en ligue Argent.
+Un objectif raisonnable peut être de viser un bon classement dans la ligue Bronze voire, pour les meilleurs, passer en ligue Or.
 
 Jusqu'à la ligue Bronze, il suffira de s'adapter aux différents ajouts qui apparaitront à chaque changement de ligue. Donc le but pour arriver à la ligue Bronze est simplement de faire un code propre pour répondre aux attentes. Pour progresser ensuite, il faudra chercher à optimiser un peu plus.
 
