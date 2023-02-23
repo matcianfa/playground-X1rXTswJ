@@ -52,8 +52,8 @@ Voici les principales variables de ce kit contenant les informations du jeu dont
 - `mes_heros` : Contient la liste de mes héros.
 - `adv_heros` : Contient la liste des héros de l'adversaire.
 
-Pour rappel, ces trois dernières listes contiennent des Agents. Pour récupérer une donnée particulière d'un agent, par exemple la vie, on utilisera la notation `agent.vie` comme présentée plus haut.  
-Par exemple si on veut voir s'afficher (avec la fonction log) l'ID de mes héros suivie de ses coordonnées je pourrais écrire :
+Pour rappel, ces trois dernières listes contiennent des Agents. Pour récupérer une donnée particulière d'un agent, par exemple pour la vie, on utilisera la notation `agent.vie` comme présentée plus haut.  
+Par exemple si on veut voir s'afficher (avec la fonction log) l'ID de mes héros suivie de ses coordonnées on pourrait écrire :
 ```python
 for heros in mes_heros:
     log(heros.id, heros.x, heros.y)
