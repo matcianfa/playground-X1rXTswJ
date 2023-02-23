@@ -59,3 +59,12 @@ for heros in mes_heros:
     log(heros.id, heros.x, heros.y)
 ```
 On verrait alors s'afficher dans la partie "Sortie d'erreur" en rouge trois lignes de la forme "0 1414 849" par exemple.
+
+## Quelques conseils
+
+- Commencez par des stratégies simple au  début. Le but est d'arriver en Bronze avec le moins d'efforts possibles car des règles vont se rajouter jusque là donc inutile de créer un code parfait qu'il faudra de toute façon changer.
+- Il y a deux informations complémentaires qui sont données pour les araignées qui ne font pas réellement partie du jeu mais sont là pour vous aider : `proche_base` qui vaut 1 si l'araignée est proche d'une base et va donc l'attaquer et 0 sinon et `menace_pour` qui indiquera 1 si cette araignée menace votre base, 2 si c'est celle de l'adversaire et 0 si l'araignée va juste traverser l'écran sans menacer personne directement.  
+Ca serait dommage de ne pas profiter de ces informations.
+- Essayez de comprendre la structure du code proposé en kit et de la respecter pour que votre code reste lisible et compréhensible sur le long terme. Par exemple, il vaut mieux prendre le temps d'écrire des fonctions à part plutôt que d'écrire directement tout dans la logique du jeu. Une idée aussi bonne soit-elle sera surement remplacée un peu plus tard par une autre et donc si votre code est trop brouillon, il deviendra vite inutilisable. Par exemple une fonction `attaquer` pour décrire une stratégie d'attaque. Et si on change plus tard de stratégie, on aura juste à créer une autre fonction `attaquer2` nous laissant la possibilité de revenir très facilement retester la première stratégie ou de mélanger les deux...
+
+Amusez vous bien
