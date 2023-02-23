@@ -22,7 +22,7 @@ Donnons quelques explications sur le code.
 
 ### La fonction auxiliaire
 
-La fonction `log` ne sert à rien pour le jeu mais c'est de loin la plus utile de toute car elle permet de chercher ses erreurs. En effet, elle permet d'afficher des variables comme un message d'erreur (donc en rouge) sans que cela soit pris comme une réponse et sans arrêter le jeu (comme si on affichait un commentaire).
+La fonction `log` ne sert à rien pour le jeu mais c'est de loin la plus utile de toutes car elle permet de chercher ses erreurs. En effet, elle permet d'afficher des variables comme un message d'erreur (donc en rouge) sans que cela soit pris comme une réponse et sans arrêter le jeu (comme si on affichait un commentaire).
 
 ### Les constantes et variables
 
