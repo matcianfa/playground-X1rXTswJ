@@ -58,27 +58,23 @@ On gère ensuite nos cas selon l'endroit où on est :
 
 Voici les principales variables de ce kit contenant les informations du jeu dont vous pouvez avoir besoin :
 
-- `ma_base_x`, `ma_base_y` : Contient les coordonnées de notre base
-- `ma_vie`, `mon_mana`,`vie_adv`, `mana_adv` : Contient la vie et le mana des deux joueurs
-- `monstres` : Contient la liste des Agents de type monstre.
-- `mes_heros` : Contient la liste de mes héros.
-- `adv_heros` : Contient la liste des héros de l'adversaire.
+- `liste_projets` : Contient la liste des projets qui permettront de gagner des points bonus dans les ligues suivantes (donc pas utile au début)
+- `mon_robot` et `son_robot` : Contiennent les informations suivantes pour chaque joueur : 'position','temps_arrivee','score','molecules','expertise' que l'on peut récupérer en écrivant par exemple `mon_robot.score` si l'on souhaite récupérer la valeur de notre score ou `mon_robot.molecules` si l'on souhaite avoir la liste du nombre de molécules de chaque sorte que l'on possède.
+- `mes_fichiers`, `ses_fichiers`,`fichiers_stockés` : L'ensemble des fichiers est réparti dans ces listes.
 
-Pour rappel, ces trois dernières listes contiennent des Agents. Pour récupérer une donnée particulière d'un agent, par exemple pour la vie, on utilisera la notation `agent.vie` comme présentée plus haut.  
-Par exemple si on veut voir s'afficher (avec la fonction log) l'ID de mes héros suivie de ses coordonnées on pourrait écrire :
+Pour rappel, ces trois dernières listes contiennent des objets de type Fichier. Pour récupérer une donnée particulière d'un Fichier, par exemple pour la vie, on utilisera la notation `fichier.vie` comme présentée plus haut.  
+Par exemple si on veut voir s'afficher (avec la fonction log) l'ID de mes fichier suivie de son coût pour chaque molecule et de la vie qu'il va rapporter on pourrait écrire :
 ```python
-for heros in mes_heros:
-    log(heros.id, heros.x, heros.y)
+for fichier in mes_fichiers:
+    log(fichier.id, fichier.couts, fichier.vie)
 ```
-On verrait alors s'afficher dans la partie "Sortie d'erreur" en rouge trois lignes de la forme "0 1414 849" par exemple.
+On verrait alors s'afficher dans la partie "Sortie d'erreur" en rouge trois lignes de la forme "0 [1,2,0,0,1] 10" par exemple.
 
 ## Quelques conseils
 
 - Commencez par des stratégies simple au  début. Le but est d'arriver en Bronze avec le moins d'efforts possibles car des règles vont se rajouter jusque là donc inutile de créer un code parfait qu'il faudra de toute façon changer.
-- Il y a deux informations complémentaires qui sont données pour les araignées qui ne font pas réellement partie du jeu mais sont là pour vous aider : `proche_base` qui vaut 1 si l'araignée est proche d'une base et va donc l'attaquer et 0 sinon et `menace_pour` qui indiquera 1 si cette araignée menace votre base, 2 si c'est celle de l'adversaire et 0 si l'araignée va juste traverser l'écran sans menacer personne directement.  
-Ca serait dommage de ne pas profiter de ces informations.
-- Essayez de comprendre la structure du code proposé en kit et de la respecter pour que votre code reste lisible et compréhensible sur le long terme. Par exemple, il vaut mieux prendre le temps d'écrire des fonctions à part plutôt que d'écrire directement tout dans la logique du jeu. Une idée aussi bonne soit-elle sera surement remplacée un peu plus tard par une autre et donc si votre code est trop brouillon, il deviendra vite inutilisable. Par exemple une fonction `attaquer` pour décrire une stratégie d'attaque. Et si on change plus tard de stratégie, on aura juste à créer une autre fonction `attaquer2` nous laissant la possibilité de revenir très facilement retester la première stratégie ou de mélanger les deux...
+- Essayez de comprendre la structure du code proposé en kit et de la respecter pour que votre code reste lisible et compréhensible sur le long terme. Par exemple, il vaut mieux prendre le temps d'écrire des fonctions à part plutôt que d'écrire directement tout dans la logique du jeu. Une idée aussi bonne soit-elle sera surement remplacée un peu plus tard par une autre et donc si votre code est trop brouillon, il deviendra vite inutilisable. Par exemple une fonction `choix_molecule` car comme le nombre de molécule est très limité, selon la stratégie choisie, ce choix va changer. On pourra ainsi facilement tester différentes stratégie en créant différentes fonctions en changeant au minimum notre code dans la partie logique du jeu tout en gardant un code lisible.
 
 Amusez vous bien !
 
-@[Inutile d'appuyer sur Run]({"stubs":["Projets/Spider_attack.py"], "command": "python3 Projets/Code_a_la_mode_Test.py", "layout": "aside"})
+@[Inutile d'appuyer sur Run]({"stubs":["Projets/Code4life.py"], "command": "python3 Projets/Code_a_la_mode_Test.py", "layout": "aside"})
