@@ -296,6 +296,8 @@ plan:
     statement: Projets/Code_a_la_mode.md
   - title: Exemple avec Spider attack
     statement: Projets/Spider_attack.md
+  - title: Exemple avec Code4life
+    statement: Projets/Code4life.md
   - title: IA et jeux sur mobiles
     statement: Projets/IA_de_jeux.md
   - title: Exemple avec le jeu Boggle
