@@ -10,7 +10,39 @@ def log(*x):
     """
     print(*x, file=sys.stderr, flush = True)
 
+def attendre():
+    print("WAIT")
 
+def aller_a(x,y):
+    """
+    Pour donner l'instruction de se déplacer vers le point de coordonnées (x,y)
+    """
+    print(f"MOVE {x} {y}")
+
+def aller_vers_cible(cible):
+    """
+    Pour donner l'instruction de se déplacer vers l'Agent cible (qui peut être un monstre ou un héros)
+    """
+    print(f"MOVE {cible.x} {cible.y}")
+
+def lancer_bouclier(cible):
+    """
+    Pour donner l'instruction de lancer le sort SHIELD sur l'Agent cible (qui doit être un monstre ou un héros)
+    """
+    print(f"SPELL SHIELD {cible.id}")
+
+def lancer_vent(direction_x,direction_y):
+    """
+    Pour donner l'instruction de lancer le sort WIND dans la direction du point de coordonnées (x,y)
+    """
+    print(f"SPELL WIND {direction_x} {direction_y}")
+
+def lancer_controle(cible,x,y):
+    """
+    Pour donner l'instruction de lancer le sort CONTROL sur l'Agent cible et lui indiquer de se diriger vers le point de coordonnées (x,y)
+    """
+    print(f"SPELL CONTROL {cible.id} {x} {y}")
+    
 # ----------- Constantes et variables
 
 TYPE_MONSTRE = 0
