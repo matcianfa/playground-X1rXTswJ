@@ -11,6 +11,9 @@ def log(*x):
     print(*x, file=sys.stderr, flush = True)
 
 def attendre():
+    """
+    Pour donner l'instruction d'attendre
+    """
     print("WAIT")
 
 def aller_a(x,y):
