@@ -107,7 +107,10 @@ while True:
         
         
         if cible:
-            print(f'MOVE {cible.x} {cible.y}')
+            aller_vers_cible(cible)
         else:
-            print('WAIT')
+            attendre()
+            
+  
+
             
