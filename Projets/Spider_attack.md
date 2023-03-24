@@ -23,12 +23,12 @@ La fonction log ne sert à rien pour le jeu mais c'est de loin la plus utile de 
 
 Ensuite vous pouvez trouver une série de fonctions qui vont permettre de gérer plus simplement les instructions renvoyées à chaque tour. 
 Voici une présentation rapide de ces fonctions (les 3 dernières ne seront pas utiles au début):
-- attendre(): Pour donner l'instruction d'attendre
-- aller_a(x,y): Pour donner l'instruction de se déplacer vers le point de coordonnées (x,y)
-- aller_vers_cible(cible): Pour donner l'instruction de se déplacer vers l'Agent cible (qui peut être un monstre ou un héros)
-- lancer_bouclier(cible): Pour donner l'instruction de lancer le sort SHIELD sur l'Agent cible (qui doit être un monstre ou un héros)
-- lancer_vent(direction_x,direction_y): Pour donner l'instruction de lancer le sort WIND dans la direction du point de coordonnées (x,y)
-- lancer_controle(cible,x,y): Pour donner l'instruction de lancer le sort CONTROL sur l'Agent cible et lui indiquer de se diriger vers le point de coordonnées (x,y)
+- `attendre()` : Pour donner l'instruction d'attendre
+- `aller_a(x,y)` : Pour donner l'instruction de se déplacer vers le point de coordonnées (x,y)
+- `aller_vers_cible(cible)` : Pour donner l'instruction de se déplacer vers l'Agent cible (qui peut être un monstre ou un héros)
+- `lancer_bouclier(cible)` : Pour donner l'instruction de lancer le sort SHIELD sur l'Agent cible (qui doit être un monstre ou un héros)
+- `lancer_vent(direction_x,direction_y)` : Pour donner l'instruction de lancer le sort WIND dans la direction du point de coordonnées (x,y)
+- `lancer_controle(cible,x,y)` : Pour donner l'instruction de lancer le sort CONTROL sur l'Agent cible et lui indiquer de se diriger vers le point de coordonnées (x,y)
 
 Si vous avez besoin de créer des fonctions, je vous conseille de les rajouter dans cette partie du code car on se perd très vite dans un code mais structuré.
 
