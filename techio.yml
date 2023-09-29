@@ -298,6 +298,8 @@ plan:
     statement: Projets/Spider_attack.md
   - title: Exemple avec Code4life
     statement: Projets/Code4life.md
+  - title: Exemple avec Crystal Rush
+    statement: Projets/Crystal_rush.md
   - title: IA et jeux sur mobiles
     statement: Projets/IA_de_jeux.md
   - title: Exemple avec le jeu Boggle
