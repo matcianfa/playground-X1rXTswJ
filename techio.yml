@@ -326,7 +326,7 @@ plan:
   #  statement: Autre/test.md
 projects:
   python:
-    buildCommand: pip install --upgrade pip; pip install numpy matplotlib Pillow; pip install scipy numba soundfile sounddevice; apt-get -y update ; apt-get -y install libsndfile1-dev libportaudio2 libasound-dev
+    buildCommand: pip install --upgrade pip; pip install numpy matplotlib Pillow; pip install scipy numba soundfile sounddevice;# apt-get -y update ; apt-get -y install libsndfile1-dev libportaudio2 libasound-dev
     #buildCommand : 
     #buildCommand: echo 'export PYTHONPATH=/project/target/modules' >> /root/.profile; echo 'export PYTHONPATH=$PYTHONPATH:/project/target/modules' >> /root/.bashrc;. ~/.bashrc
     #buildCommand: cp -r /project/target/modules/* /usr/local/lib/python3.7/site-packages #Pour copier directement les modules au lieu de les importer mais problemes de versions...
