@@ -22,7 +22,6 @@ LARGEUR, HAUTEUR = [int(i) for i in input().split()]
 
 # -------------- Variables utilisées
 
-grille_cristaux = None      # Grille contenant la quantité de cristaux par case
 cristaux = None             # Liste contenant les cristaux visibles
 mes_robots = None           # Liste contenant mes robots
 ses_robots = None           # Liste contenant les robots de l'adversaire
@@ -52,7 +51,6 @@ def prendre_piege() : print("REQUEST TRAP")
 # -------------- Boucle du jeu
 while True:
     # ---------- Initialisation
-    grille_cristaux = []
     cristaux = []
     mes_robots = []
     ses_robots = []
@@ -63,16 +61,13 @@ while True:
     # ---------- Récupération des données
     mon_score, son_score = [int(i) for i in input().split()]
 
-    # --- Grille_cristaux
+    # --- Mise à jour des données des cristaux
     for ligne in range(HAUTEUR):
         inputs = input().split()
-        ligne_cristaux = []
         for colonne in range(LARGEUR):
             quantite_cristal = inputs[2*colonne]
             trou = int(inputs[2*colonne+1]) # Non géré par ce kit de démarrage
-            ligne_cristaux.append(quantite_cristal)
             cristaux.append(Cristal(colonne,ligne,quantite_cristal))
-        grille_cristaux.append(ligne_cristaux)
 
 
     nombre_objets, radar_cooldown, trap_cooldown = [int(i) for i in input().split()]
