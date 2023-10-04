@@ -1,5 +1,4 @@
 import sys
-import math
 from collections import namedtuple
 from random import randint
 
@@ -93,3 +92,4 @@ while True:
             y = randint(0,HAUTEUR-1)
 
             creuser(x,y)
+
