@@ -3,9 +3,6 @@
 import math
 from time import time
 from numba import njit
-import numpy as np
-
-limite_methode = 11714782
 
 @njit("int64(int32)")
 def resoudre_euler_816(N):
